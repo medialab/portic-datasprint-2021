@@ -16,3 +16,4 @@ echo "fetching latest navigo pointcalls schema"
 curl -o data/portic_pointcalls_descriptions.json "http://data.portic.fr/api/fieldnames/?API=pointcalls"
 echo "fetching latest navigo flows schema"
 curl -o data/portic_flows_descriptions.json "http://data.portic.fr/api/fieldnames/?API=travels"
+python prepare_data.py

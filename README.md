@@ -4,7 +4,7 @@ Nothing to see here (yet).
 
 # Installation
 
-Prerquisite : install [git](https://git-scm.com/) and [node](https://nodejs.org/en/).
+Prerquisite : install [git](https://git-scm.com/) and python.
 
 Then in your terminal run :
 

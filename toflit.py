@@ -1,4 +1,5 @@
 from base import Client
+import csv
 
 class Toflit(Client): 
     """
@@ -15,13 +16,13 @@ class Toflit(Client):
         else :
             return None
     
-    def get_directions(self, params=None):
+    def get_customs_regions(self, params=None):
         """
-        Synopsis : récupère les directions de la base
+        Synopsis : récupère les "customs regions" (bureaux de ferme) de la base
         ---
         Paramètres : aucun
         """
-        response = self.api('/directions', params=params)
+        response = self.api('/regions', params=params)
         return self._format_response(response)
     
     def get_sources_types(self, params=None):
@@ -77,6 +78,8 @@ class Toflit(Client):
         return response
 
     # but à terme : avoir 1 seule fonction (nécessite de gérer correctement l’argument query par défaut)
+    # @todo simplifier l'API de cette fonction si on se rend compte que l'utiliser est utile
+    # @todo remove if not useful
     def get_classification_search(self, classification, params=None, query={"limit":"5000"}): 
         """
         Synopsis : récupère le détail des groupements associés à une classification en particulier.
@@ -144,6 +147,7 @@ class Toflit(Client):
         response = self.api('/viz/line/', method='post', params=None, data=params)
         return self._format_response(response)
     
+    # @todo remove if not useful
     def get_flows_per_year(self, type, params=None):
         """
         Synopsis : récupère les flux par année par direction ou par type de source
@@ -188,7 +192,71 @@ class Toflit(Client):
         response = self.api('/viz/terms/' + classification, method='post', params=None, data=params)
         return self._format_response(response)
     
+    """
+Brainstorming contenu des params :
+- filtrage sur les colonnes : string si valeur unique, list de strings si plusieurs valeurs
+- propriété "columns" avec nom des colonnes à intégrer
+
+- "start_year": "1750"
+- "end_year": "1755"
+
+- "nest_data": True ou False
+    """
     def get_flows(self, params=None):
+
+        # préparation des params
+
+        # mettre de côté l'éventuel liste des colonnes
+        # filter_params = [ for ]
+        results = []
+
+
+        if params is not None:
+
+            # test de la validité des paramètres
+
+            # si on a start_year et pas end_year ou le contraire -> renvoyer une erreur
+            if 'start_year' in params and 'end_year' not in params:
+                print("You must put an end year") 
+                raise
+            elif 'end_year' in params and 'start_year' not in params:
+                print("You must put a start year") 
+                raise
+
+            # si on start_year ou end_year et par ailleurs year -> year l'emporte
+            if ('start_year' in params or 'end_year' in params) and 'year' in params:
+                del params['start_year']
+                del params['end_year']
+
+        #lecture du csv avec tous les flows toflit => DictReader
+        with open('data/toflit18_all_flows.csv', newline='') as csv_reader_file:
+            reader = csv.DictReader(csv_reader_file, quotechar='"')
+
+            for row in reader:
+                if params is not None:
+                    year = row['year'].split(".")[0]
+                    #si  on a bien un strart_year et un end_year
+                    if 'start_year' in params and 'end_year' in params:
+                        #s'il existe : je convertis en int mes params start / end_year et je vais regarder si ma date est bien dans le bon span => si non je break (passage ligne suivante)
+                        if int(year) < int(params['start_year']) or int(year) < int(params['end_year']):
+                            continue
+
+                    #pour chaque filtre (sauf break) : 
+                    # for key,value in [couple for couple in params.items() if couple[0] != 'start_year' and couple[0] != 'end_year' and couple[0] != 'columns']: # year, 1789
+
+                        #else: # autre type de filtre
+                            #if filtre = string unique, on en fait une liste (caster)
+                            #if row[key] != string1 | string2 | string3 (avec string1/2/3 dans la liste de filtrage) => on passe à la ligne d'après (arrète de passer dans les filtres : break)
+                
+                # si l'item n'a pas été défiltré, on le formatte avant de l'ajouter au résultat
+                # on ne garde que les colonnes qui nous intéressent dans le résultat
+                # (todo) modifier les données si nest_data est true
+                results.append(row)    
+        
+    
+        return results
+    
+    def get_flows_by_api(self, params=None):
         """
         Synopsis : récupère les flux au niveau de granularité maximal en fonction d'une série de paramètres
         ---
@@ -211,8 +279,8 @@ class Toflit(Client):
         #initialisations
         results = []
         current_params = params.copy()
-        current_index = params['skip']
-        limit = params['limit']
+        current_index = params['skip'] if 'skip' in params else 0
+        limit = params['limit'] if 'limit' in params else 10000
         error = None
         length = 1 # longueur d'une tanche (initialisé à 1 pour 1er passage dans while)
 

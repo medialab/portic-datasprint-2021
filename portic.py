@@ -102,7 +102,8 @@ Paramètres de requête spécifiques :
         response = self.api('/details/departures', params=params)
         return response
     
-    def get_departures_aggregated(self, params=None):
+ 
+#    def get_departures_aggregated(self, params=None):
         """
 Synopsis:
 Retourne une agrégation des *voyages* au départ des points situés dans le voisinage (voir paramètre radius) du point requêté.
@@ -122,10 +123,10 @@ Paramètres de requête spécifiques :
 * lat: float | # latitude du centre de la zone à requêter
 * radius: *100* | int # rayon en kilomètres
         """
-        response = self.api('/agg/departures', params=params)
-        return response
+#        response = self.api('/agg/departures', params=params)
+#        return response
     
-    def get_destinations_details(self, params=None):
+#    def get_destinations_details(self, params=None):
         """
 Synopsis:
 Retourne le détail des *voyages* à l'arrivée des points situés dans le voisinage (voir paramètre radius) du point requêté.
@@ -145,8 +146,8 @@ Paramètres de requête spécifiques :
 * lat: float | # latitude du centre de la zone à requêter
 * radius: *100* | int # rayon en kilomètres
         """
-        response = self.api('/details/destinations', params=params)
-        return response
+#        response = self.api('/details/destinations', params=params)
+#        return response
     
     def get_destinations_aggregated(self, params=None):
         """

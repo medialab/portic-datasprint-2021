@@ -9,8 +9,7 @@ Prerequisites : install [git](https://git-scm.com/) and python, then possibly se
 Then in your terminal run :
 
 ```
-git clone https://github.com/medialab/portic-datasprint-2021
+git clone git@github.com:medialab/portic-datasprint-2021.git
 cd portic-datasprint-2021
-chmod +x install.sh
 ./install.sh
 ```

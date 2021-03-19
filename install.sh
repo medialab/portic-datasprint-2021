@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "creating data folder"
 mkdir data
 echo "fetching latest toflit18 data"

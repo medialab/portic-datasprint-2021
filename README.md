@@ -4,7 +4,7 @@ Nothing to see here (yet).
 
 # Installation
 
-Prerquisite : install [git](https://git-scm.com/) and python.
+Prerequisites : install [git](https://git-scm.com/) and python, then possibly set your virtual environment.
 
 Then in your terminal run :
 

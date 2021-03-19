@@ -202,124 +202,78 @@ Brainstorming contenu des params :
 
 - "nest_data": True ou False
     """
-    def get_flows(self, params=None):
+    def get_flows(self, start_year=None, end_year=None, year=None, columns=None,
+                  **kwargs):
 
         # préparation des params
 
         # mettre de côté l'éventuel liste des colonnes
-        # filter_params = [ for ]
         results = []
 
+        # test de la validité des paramètres
 
-        if params is not None:
+        # si on a start_year et pas end_year ou le contraire -> renvoyer une erreur
+        if start_year is not None and end_year is None:
+            raise TypeError("You must put an end year")
+        elif end_year is not None and start_year is None:
+            raise TypeError("You must put a start year")
 
-            # test de la validité des paramètres
-
-            # si on a start_year et pas end_year ou le contraire -> renvoyer une erreur
-            if 'start_year' in params and 'end_year' not in params:
-                print("You must put an end year") 
-                raise
-            elif 'end_year' in params and 'start_year' not in params:
-                print("You must put a start year") 
-                raise
-
-            # si on start_year ou end_year et par ailleurs year -> year l'emporte
-            if ('start_year' in params or 'end_year' in params) and 'year' in params:
-                del params['start_year']
-                del params['end_year']
+        # si on start_year ou end_year et par ailleurs year -> year l'emporte
+        if (start_year is not None or end_year is not None) and year is not None:
+            start_year = None
+            end_year = None
 
         #lecture du csv avec tous les flows toflit => DictReader
         with open('data/toflit18_all_flows.csv', newline='') as csv_reader_file:
             reader = csv.DictReader(csv_reader_file, quotechar='"')
 
-            j=0
-            k=0
-            r = 0
-
             for row in reader:
 
                 row = dict(row)
 
-                if r == 1:
-                    print('which row ? :', row['line_number'], ' / ', n)
+                year = row['year'].split(".")[0]
+                #si  on a bien un start_year et un end_year
+                if start_year is not None and end_year is not None:
+                    #s'il existe : je convertis en int mes params start / end_year et je vais regarder si ma date est bien dans le bon span => si non je break (passage ligne suivante)
+                    if int(year) < int(start_year) or int(year) > int(end_year):
+                        j+=1
+                        continue
 
-                r = 0
-                
-                if params is not None:
-                    year = row['year'].split(".")[0]
-                    #si  on a bien un start_year et un end_year
-                    if 'start_year' in params and 'end_year' in params:
-                        #s'il existe : je convertis en int mes params start / end_year et je vais regarder si ma date est bien dans le bon span => si non je break (passage ligne suivante)
-                        if int(year) < int(params['start_year']) or int(year) > int(params['end_year']):
-                            j+=1
-                            continue
+                #pour chaque filtre (sauf filtre timespan et filtrage des colomnes) :
+                is_valid = True
+                for key,filter_value in kwargs.items(): 
+                    
+                    row_value = row[key]
 
-                    #pour chaque filtre (sauf filtre timespan et filtrage des colomnes) :
-                    for key,value in [couple for couple in params.items() if couple[0] != 'start_year' and couple[0] != 'end_year' and couple[0] != 'columns']: # year, 1789
-                        
-                        # print(key, ' : ', value)
+                    # si la valeur est une liste : on caste en string ses membres
+                    if isinstance(filter_value, list):
+                        filter_value = [str(val) for val in filter_value]
+                    # sinon c'est un tableau à une valeur qu'on caste en string
+                    else:
+                        filter_value = [str(filter_value)]
+                    # à partir de là, filter_value est une liste de strings
 
-                        #if filtre = string unique, on en fait une liste (caster)
-                        if type(value) == str:
-                            value = [value]
-                            # print(value)
-
-                        # message avertissement si le param n'a pas le bon format
-                        elif type(value) != list:
-                            print("each param must be a string or a list, error with ", key, ":", value)
-                        
-                        #si la ligne à un attribut qui fait  partie des valeurs acceptées par le filtre => on examine les autres filtres 
-                        if str(row[key]) == value[0]:
-                            continue
-                        # sinon => on passe à la ligne d'après (on arrète de passer dans la boucle des filtres avec break)
-                        else:
-                            k+=1
-                            # print('key breaking :', key)
-                            # print(row[key], " : ", value)
-                            r = 1
-                            n = row['line_number']
-                            break
-                        """ça passe quand même par tous les filtres à l'heure actuelle, alors qu'avec break pour moi ça devrait arréter le for"""
-
-                    # print("I should add something to the result")
-                    # si l'item n'a pas été défiltré, on le formatte avant de l'ajouter au résultat ... => ça veut dire tout convertir en string ? ne prendre que l'année dans year s'il y a un mois aussi ?
+                    #si la ligne a un attribut qui fait partie des valeurs acceptées par le filtre => on examine les autres filtres 
+                    if row_value not in filter_value:
+                        is_valid = False
+                        break
+  
+                # si l'item n'a pas été défiltré, on le formatte avant de l'ajouter au résultat
+                if is_valid is True:
                     row_formated = {}
 
                     # on ne garde que les colonnes qui nous intéressent dans le résultat 
-                    """il doit y avoir plu optimisé"""
-                    if 'columns' in params:
+                    if columns is not None :
                         for column, value in row.items():
-                            if column in params['columns']:
-                                # print('formatage : je prends')
+                            if column in columns:
                                 row_formated[column] = value
+                    else:
+                        row_formated = row
+
+                    results.append(row_formated) 
                         
-                        results.append(row_formated) 
-                        
-            
-        # (todo) modifier les données si nest_data est true
-        print("nb of lines continued (not in timespan):", j)
-        print("nb of lines breaked :", k)
         return results
 
-        """ TESTS CASTING
-        value = '1789'
-
-        print("list('1789') : ", list(value))
-        print("['1789'] : ", [value])
-        print("int('1789') : ", int(value))
-        print("list(1789) : ", list(int(value)))
-        print("[1789] : ", [int(value)])
-
-
-        filters = ['1789', '1790', '1792']
-        filters2 = ['1789']
-        filter = 1789
-
-        print(str(filter) in filters)
-        print(str(filter) in filters2)
-        print(filter in filters)
-        print(filter in filters2)
-        ciaoooo"""
     
     def get_flows_by_api(self, params=None):
         """

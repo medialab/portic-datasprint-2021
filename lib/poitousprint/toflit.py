@@ -65,7 +65,7 @@ class Toflit(Client):
         response = self._format_response(response)
         return response
 
-    def get_classification_sliced_search(self, classification, params=None):
+    def get_classification_sliced_search(self, classification=, params=None):
         """
         Synopsis : récupère le détail des groupements associés à une classification en particulier, se limite à une tranche de résultat
         Paramètre classification : le nom de la classification préfixé par son type (ex. "product_simplification", ou "partner_source")
@@ -80,7 +80,7 @@ class Toflit(Client):
     # but à terme : avoir 1 seule fonction (nécessite de gérer correctement l’argument query par défaut)
     # @todo simplifier l'API de cette fonction si on se rend compte que l'utiliser est utile
     # @todo remove if not useful
-    def get_classification_search(self, classification, params=None, query={"limit":"5000"}): 
+    def get_classification_search(self, classification='product_revolutionempire', limit=5000, offset=0, **kwargs): 
         """
         Synopsis : récupère le détail des groupements associés à une classification en particulier.
         Paramètre classification : le nom de la classification préfixé par son type (ex. "product_simplification", ou "partner_source")
@@ -91,16 +91,16 @@ class Toflit(Client):
 
         #initialisations
         results = []
-        current_query = query.copy()
-        current_index = query.get('offset', 0) # on donne valeur par défaut
+        current_query = {} # query.copy()
+        current_index = offset
         current_query['offset']=current_index
-        limit = query['limit']
+        # limit = query['limit']
         error = None
-        length = 1 # longueur d'une tanche (initialisé à 1 pour 1er passage dans while)
+        length = 1 # longueur d'une tranche (initialisé à 1 pour 1er passage dans while)
 
         # tant que j'ai des réponses (ou pas d'erreurs) je récupère des résultats par tranches
         while length: 
-            response = self.api('/classification/' + classification + '/search/', query=current_query) 
+            response = self.api('/classification/' + classification + '/search/', query=kwargs) 
             temp_results = self._format_response(response)
             length = len(temp_results)
             # print("length of current result :", length)
@@ -111,7 +111,7 @@ class Toflit(Client):
         return results 
     
     
-    def get_locations(self, classification, params=None):
+    def get_locations(self, classification='partner_orthographic', **kwargs):
         """
         Synopsis : récupère le réseau des lieux (directions et partenaires) et le montant de leurs échanges
         ---
@@ -125,10 +125,10 @@ class Toflit(Client):
         * product : <Array<object>> # liste des produits à filtrer
         * productClassification : <string> # Classification de produit à utiliser pour le filtre
         """
-        response = self.api('/viz/network/' + classification, method='post', params=None, data=params)
+        response = self.api('/viz/network/' + classification, method='post', data=kwargs)
         return self._format_response(response)
     
-    def get_time_series(self, params=None):
+    def get_time_series(self, **kwargs):
         """
         Synopsis : récupère des séries temporelles à propos des flux de marchandises
         ---
@@ -144,11 +144,11 @@ class Toflit(Client):
         * product : <Array<object>> # liste des produits à filtrer
         * productClassification : <string> # Classification de produit à utiliser pour le filtre
         """
-        response = self.api('/viz/line/', method='post', params=None, data=params)
+        response = self.api('/viz/line/', method='post', data=kwargs)
         return self._format_response(response)
     
     # @todo remove if not useful
-    def get_flows_per_year(self, type, params=None):
+    def get_flows_per_year(self, type, **kwargs):
         """
         Synopsis : récupère les flux par année par direction ou par type de source
         ---
@@ -166,10 +166,10 @@ class Toflit(Client):
         * product : <Array<object>> # liste des produits à filtrer
         * productClassification : <string> # Classification de produit à utiliser pour le filtre
         """
-        response = self.api('/viz/flows_per_year/' + type, method='post', params=None, data=params)
+        response = self.api('/viz/flows_per_year/' + type, method='post', data=kwargs)
         return self._format_response(response)
     
-    def get_product_terms(self, classification, params=None):
+    def get_product_terms(self, classification="product_revolutionempire", **kwargs):
         """
         Synopsis : récupère des séries temporelles à propos des flux de marchandises
         ---
@@ -189,7 +189,7 @@ class Toflit(Client):
         * product : <Array<object>> # liste des produits à filtrer
         * productClassification : <string> # Classification de produit à utiliser pour le filtre
         """
-        response = self.api('/viz/terms/' + classification, method='post', params=None, data=params)
+        response = self.api('/viz/terms/' + classification, method='post', data=kwargs)
         return self._format_response(response)
     
     """
@@ -202,7 +202,7 @@ Brainstorming contenu des params :
 
 - "nest_data": True ou False
     """
-    def get_flows(self, start_year=None, end_year=None, year=None, columns=None,
+    def get_flows(self, start_year=None, end_year=None, year=None, params=None,
                   **kwargs):
 
         # préparation des params
@@ -263,9 +263,9 @@ Brainstorming contenu des params :
                     row_formated = {}
 
                     # on ne garde que les colonnes qui nous intéressent dans le résultat 
-                    if columns is not None :
+                    if params is not None :
                         for column, value in row.items():
-                            if column in columns:
+                            if column in params:
                                 row_formated[column] = value
                     else:
                         row_formated = row

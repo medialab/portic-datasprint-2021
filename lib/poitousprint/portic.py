@@ -18,7 +18,7 @@ Sommaire des méthodes exposées :
     """
     BASE_URL = 'http://data.portic.fr/api'
     
-    def get_fieldnames(self, params=None):
+    def get_fieldnames(self, **kwargs):
         """
 Synopsis:
 Récupère les noms des variables des données.
@@ -36,10 +36,11 @@ Paramètres de requête spécifiques :
 
 * API = pointcalls | travels | any # réduire à une API particulière
         """
-        response = self.api('/fieldnames', params=params)
+        response = self.api('/fieldnames', params=kwargs)
         return response
     
-    def get_pointcalls(self, params=None):
+
+  def get_pointcalls(self, **kwargs):
         """
 Synopsis:
 Retourne les données d'observation à chaque escale des navires.
@@ -57,10 +58,28 @@ Paramètres de requête spécifiques :
 
 * API = pointcalls | travels | any # réduire à une API particulière
         """
-        response = self.api('/pointcalls', params=params)
+
+        # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
+        API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped']
+        consumable_params = {}
+        filter_params = {}
+
+        for key, value in kwargs.items():
+                if key in API_PARAMS:
+                        consumable_params[key] = value
+                else:
+                        filter_params[key] =  value
+        response = self.api('/pointcalls', params=consumable_params)
+
+        # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
+        # https://python.doctor/page-comprehension-list-listes-python-cours-debutants
+        for key, value in filter_params.items():
+            # response = list(filter(lambda item : item[key] is value, response))
+            response = [item for item in response if item[key] == value]
         return response
     
-    def get_travels(self, params=None):
+    
+   def get_travels(self, **kwargs):
         """
 Synopsis:
 Récupère les données de trajectoires calculées.
@@ -76,10 +95,29 @@ Paramètres de requête généraux (la valeur entre *étoiles* est la valeur par
 
 Paramètres de requête spécifiques : /
         """
-        response = self.api('/travels', params=params)
+        # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
+        API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped']
+        consumable_params = {}
+        filter_params = {}
+
+        for key, value in kwargs.items():
+                if key in API_PARAMS:
+                        consumable_params[key] = value
+                else:
+                        filter_params[key] =  value
+
+        response = self.api('/travels', params=consumable_params)
+
+         # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
+        # https://python.doctor/page-comprehension-list-listes-python-cours-debutants
+        for key, value in filter_params.items():
+            # response = list(filter(lambda item : item[key] is value, response))
+            response = [item for item in response if item[key] == value]
+        
         return response
+
     
-    def get_departures_details(self, params=None):
+    def get_departures_details(self, **kwargs):
         """
 Synopsis:
 Retourne le détail des *voyages* au départ des points situés dans le voisinage (voir paramètre radius) du point requêté.
@@ -99,7 +137,7 @@ Paramètres de requête spécifiques :
 * lat: float | # latitude du centre de la zone à requêter
 * radius: *100* | int # rayon en kilomètres
         """
-        response = self.api('/details/departures', params=params)
+        response = self.api('/details/departures', params=kwargs)
         return response
     
  
@@ -149,7 +187,7 @@ Paramètres de requête spécifiques :
 #        response = self.api('/details/destinations', params=params)
 #        return response
     
-    def get_destinations_aggregated(self, params=None):
+    def get_destinations_aggregated(self, **kwargs):
         """
 Synopsis:
 Retourne une agrégation des *voyages* à l'arrivée des points situés dans le voisinage (voir paramètre radius) du point requêté.
@@ -169,10 +207,10 @@ Paramètres de requête spécifiques :
 * lat: float | # latitude du centre de la zone à requêter
 * radius: *100* | int # rayon en kilomètres
         """
-        response = self.api('/agg/destinations', params=params)
+        response = self.api('/agg/destinations', params=kwargs)
         return response
     
-    def get_flows(self, params=None):
+    def get_flows(self, **kwargs):
         """
 Synopsis:
 Retourne une liste de flux, c'est-à-dire de voyages liés à des ports spécifiques, soit en y entrant (direction "in"), soit en en sortant (direction "out"), soit en ayant navigué autour (direction "in-out")
@@ -190,10 +228,28 @@ Paramètres de requête spécifiques :
 
 * ports: [int] (UHGS_id) # liste des ids de ports à filtrer (séparés par des virgules)
         """
-        response = self.api('/flows', params=params)
-        return response
+        # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
+        API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped']
+        consumable_params = {}
+        filter_params = {}
+
+        for key, value in kwargs.items():
+                if key in API_PARAMS:
+                        consumable_params[key] = value
+                else:
+                        filter_params[key] =  value
+
+        response = self.api('/flows', params=consumable_params)
+
+         # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
+        # https://python.doctor/page-comprehension-list-listes-python-cours-debutants
+        for key, value in filter_params.items():
+            # response = list(filter(lambda item : item[key] is value, response))
+            response = [item for item in response if item[key] == value]
         
-    def get_ports(self, params=None):
+        return response
+
+    def get_ports(self, **kwargs):
         """
 Synopsis:
 Retourne une liste de *ports_points* au format JSON
@@ -211,5 +267,5 @@ Paramètres de requête spécifiques :
 
 * srid: [int] # Identifiant de référence spatiale unique associé à un système de coordonnées, une tolérance et une résolution spécifiques.
         """
-        response = self.api('/ports', params=params)
+        response = self.api('/ports', params=kwargs)
         return response

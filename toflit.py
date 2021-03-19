@@ -232,29 +232,94 @@ Brainstorming contenu des params :
         with open('data/toflit18_all_flows.csv', newline='') as csv_reader_file:
             reader = csv.DictReader(csv_reader_file, quotechar='"')
 
+            j=0
+            k=0
+            r = 0
+
             for row in reader:
+
+                row = dict(row)
+
+                if r == 1:
+                    print('which row ? :', row['line_number'], ' / ', n)
+
+                r = 0
+                
                 if params is not None:
                     year = row['year'].split(".")[0]
-                    #si  on a bien un strart_year et un end_year
+                    #si  on a bien un start_year et un end_year
                     if 'start_year' in params and 'end_year' in params:
                         #s'il existe : je convertis en int mes params start / end_year et je vais regarder si ma date est bien dans le bon span => si non je break (passage ligne suivante)
-                        if int(year) < int(params['start_year']) or int(year) < int(params['end_year']):
+                        if int(year) < int(params['start_year']) or int(year) > int(params['end_year']):
+                            j+=1
                             continue
 
-                    #pour chaque filtre (sauf break) : 
-                    # for key,value in [couple for couple in params.items() if couple[0] != 'start_year' and couple[0] != 'end_year' and couple[0] != 'columns']: # year, 1789
+                    #pour chaque filtre (sauf filtre timespan et filtrage des colomnes) :
+                    for key,value in [couple for couple in params.items() if couple[0] != 'start_year' and couple[0] != 'end_year' and couple[0] != 'columns']: # year, 1789
+                        
+                        # print(key, ' : ', value)
 
-                        #else: # autre type de filtre
-                            #if filtre = string unique, on en fait une liste (caster)
-                            #if row[key] != string1 | string2 | string3 (avec string1/2/3 dans la liste de filtrage) => on passe à la ligne d'après (arrète de passer dans les filtres : break)
-                
-                # si l'item n'a pas été défiltré, on le formatte avant de l'ajouter au résultat
-                # on ne garde que les colonnes qui nous intéressent dans le résultat
-                # (todo) modifier les données si nest_data est true
-                results.append(row)    
-        
-    
+                        #if filtre = string unique, on en fait une liste (caster)
+                        if type(value) == str:
+                            value = [value]
+                            # print(value)
+
+                        # message avertissement si le param n'a pas le bon format
+                        elif type(value) != list:
+                            print("each param must be a string or a list, error with ", key, ":", value)
+                        
+                        #si la ligne à un attribut qui fait  partie des valeurs acceptées par le filtre => on examine les autres filtres 
+                        if str(row[key]) == value[0]:
+                            continue
+                        # sinon => on passe à la ligne d'après (on arrète de passer dans la boucle des filtres avec break)
+                        else:
+                            k+=1
+                            # print('key breaking :', key)
+                            # print(row[key], " : ", value)
+                            r = 1
+                            n = row['line_number']
+                            break
+                        """ça passe quand même par tous les filtres à l'heure actuelle, alors qu'avec break pour moi ça devrait arréter le for"""
+
+                    # print("I should add something to the result")
+                    # si l'item n'a pas été défiltré, on le formatte avant de l'ajouter au résultat ... => ça veut dire tout convertir en string ? ne prendre que l'année dans year s'il y a un mois aussi ?
+                    row_formated = {}
+
+                    # on ne garde que les colonnes qui nous intéressent dans le résultat 
+                    """il doit y avoir plu optimisé"""
+                    if 'columns' in params:
+                        for column, value in row.items():
+                            if column in params['columns']:
+                                # print('formatage : je prends')
+                                row_formated[column] = value
+                        
+                        results.append(row_formated) 
+                        
+            
+        # (todo) modifier les données si nest_data est true
+        print("nb of lines continued (not in timespan):", j)
+        print("nb of lines breaked :", k)
         return results
+
+        """ TESTS CASTING
+        value = '1789'
+
+        print("list('1789') : ", list(value))
+        print("['1789'] : ", [value])
+        print("int('1789') : ", int(value))
+        print("list(1789) : ", list(int(value)))
+        print("[1789] : ", [int(value)])
+
+
+        filters = ['1789', '1790', '1792']
+        filters2 = ['1789']
+        filter = 1789
+
+        print(str(filter) in filters)
+        print(str(filter) in filters2)
+        print(filter in filters)
+        print(filter in filters2)
+        ciaoooo"""
     
     def get_flows_by_api(self, params=None):
         """

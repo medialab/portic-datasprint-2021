@@ -1,0 +1,6 @@
+vega
+pandas
+ipyleaflet
+ipysigma
+networkx
+keplergl

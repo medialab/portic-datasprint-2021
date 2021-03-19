@@ -1,4 +1,4 @@
-from base import Client
+from poitousprint.base import Client
 import csv
 
 class Toflit(Client): 

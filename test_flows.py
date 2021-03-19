@@ -1,8 +1,8 @@
-from client import Api
+from poitousprint import Toflit
 
-client = Api()
+toflit_client = Toflit()
 
-results = client.toflit.get_flows({
+results = toflit_client.get_flows({
   "start_year": "1789",
   "end_year": "1798", 
   "product_orthographic":"vin",

@@ -224,7 +224,7 @@ Brainstorming contenu des params :
           end_year = None
 
       #lecture du csv avec tous les flows toflit => DictReader
-      with open('data/toflit18_all_flows.csv', newline='') as csv_reader_file:
+      with open('../data/toflit18_all_flows.csv', newline='') as csv_reader_file:
           reader = csv.DictReader(csv_reader_file, quotechar='"')
 
           for row in reader:

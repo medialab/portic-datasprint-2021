@@ -1,6 +1,9 @@
 from poitousprint.base import Client
 import csv
+import pkgutil
+import io
 
+all_flows = pkgutil.get_data(__name__, "../../data/toflit18_all_flows.csv")
 class Toflit(Client): 
   """
   Utilitaire permettant de requêter les données Toflit
@@ -19,6 +22,7 @@ class Toflit(Client):
   
   def get_flows(self, start_year=None, end_year=None, year=None, params=None,
                 **kwargs):
+
     """
     Synopsis : récupère les flux toflit18
     ---
@@ -44,50 +48,50 @@ class Toflit(Client):
         end_year = None
 
     # lecture du csv avec tous les flows toflit => DictReader
-    with open('../data/toflit18_all_flows.csv', newline='') as csv_reader_file:
-        reader = csv.DictReader(csv_reader_file, quotechar='"')
+    # with open('../data/toflit18_all_flows.csv', newline='') as csv_reader_file:
+    # reader = csv.DictReader(csv_reader_file, quotechar='"')
+    reader = csv.DictReader(all_flows.decode('utf-8').splitlines(), delimiter=',')
+    for row in reader:
+        row = dict(row)
+        year = row['year'].split(".")[0]
+        #si  on a bien un start_year et un end_year
+        if start_year is not None and end_year is not None:
+          # s'il existe : je convertis en int mes params start / end_year et je vais regarder si ma date est bien dans le bon span => si non je break (passage ligne suivante)
+          if int(year) < int(start_year) or int(year) > int(end_year):
+              j+=1
+              continue
 
-        for row in reader:
-            row = dict(row)
-            year = row['year'].split(".")[0]
-            #si  on a bien un start_year et un end_year
-            if start_year is not None and end_year is not None:
-              # s'il existe : je convertis en int mes params start / end_year et je vais regarder si ma date est bien dans le bon span => si non je break (passage ligne suivante)
-              if int(year) < int(start_year) or int(year) > int(end_year):
-                  j+=1
-                  continue
+        # pour chaque filtre (sauf filtre timespan et filtrage des colomnes) :
+        is_valid = True
+        for key,filter_value in kwargs.items(): 
+          row_value = row[key]
 
-            # pour chaque filtre (sauf filtre timespan et filtrage des colomnes) :
-            is_valid = True
-            for key,filter_value in kwargs.items(): 
-              row_value = row[key]
+          # si la valeur est une liste : on caste en string ses membres
+          if isinstance(filter_value, list):
+            filter_value = [str(val) for val in filter_value]
+          # sinon c'est un tableau à une valeur qu'on caste en string
+          else:
+            filter_value = [str(filter_value)]
+          # à partir de là, filter_value est une liste de strings
 
-              # si la valeur est une liste : on caste en string ses membres
-              if isinstance(filter_value, list):
-                filter_value = [str(val) for val in filter_value]
-              # sinon c'est un tableau à une valeur qu'on caste en string
-              else:
-                filter_value = [str(filter_value)]
-              # à partir de là, filter_value est une liste de strings
+          # si la ligne a un attribut qui fait partie des valeurs acceptées par le filtre => on examine les autres filtres 
+          if row_value not in filter_value:
+            is_valid = False
+            break
 
-              # si la ligne a un attribut qui fait partie des valeurs acceptées par le filtre => on examine les autres filtres 
-              if row_value not in filter_value:
-                is_valid = False
-                break
+        # si l'item n'a pas été défiltré, on le formatte avant de l'ajouter au résultat
+        if is_valid is True:
+          row_formated = {}
 
-            # si l'item n'a pas été défiltré, on le formatte avant de l'ajouter au résultat
-            if is_valid is True:
-              row_formated = {}
+          # on ne garde que les colonnes qui nous intéressent dans le résultat 
+          if params is not None :
+            for column, value in row.items():
+              if column in params:
+                row_formated[column] = value
+          else:
+            row_formated = row
 
-              # on ne garde que les colonnes qui nous intéressent dans le résultat 
-              if params is not None :
-                for column, value in row.items():
-                  if column in params:
-                    row_formated[column] = value
-              else:
-                row_formated = row
-
-              results.append(row_formated)        
+          results.append(row_formated)        
     return results
   
   def get_customs_regions(self, params=None):

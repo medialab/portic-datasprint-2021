@@ -17,7 +17,18 @@ echo "fetching latest navigo pointcalls schema"
 curl -o data/portic_pointcalls_descriptions.json "http://data.portic.fr/api/fieldnames/?API=pointcalls"
 echo "fetching latest navigo flows schema"
 curl -o data/portic_flows_descriptions.json "http://data.portic.fr/api/fieldnames/?API=travels"
+echo "installing python dependencies"
 pip install -U pip
 pip install -e lib
 pip install -r requirements.txt
+echo "preparing derivated datasets"
 python prepare_data.py
+echo "ensuring notebook config is ok"
+pip install --upgrade notebook  # need jupyter_client >= 4.2 for sys-prefix below
+jupyter nbextension install --sys-prefix --py vega  # not needed in notebook >= 5.3
+jupyter nbextension enable --py --sys-prefix ipyleaflet  # can be skipped for notebook 5.3 and above
+jupyter nbextension enable --py --sys-prefix ipysigma
+
+jupyter nbextension install --py --sys-prefix keplergl # can be skipped for notebook 5.3 and above
+jupyter nbextension enable --py --sys-prefix keplergl # can be skipped for notebook 5.3 and above
+echo "all done ! good datasprinting ;)"

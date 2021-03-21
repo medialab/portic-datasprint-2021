@@ -63,7 +63,7 @@ class Toflit(Client):
 
         # pour chaque filtre (sauf filtre timespan et filtrage des colomnes) :
         is_valid = True
-        for key,filter_value in kwargs.items(): 
+        for key,filter_value in [param for param in kwargs.items() if param[0] not in ['params']]: 
           row_value = row[key]
 
           # si la valeur est une liste : on caste en string ses membres

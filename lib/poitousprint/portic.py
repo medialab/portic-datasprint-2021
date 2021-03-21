@@ -46,6 +46,9 @@ class Portic(Client):
     Synopsis:
     Retourne les données d'observation à chaque escale des navires.
     ---
+    Paramètres de filtrage :
+    * voir $.get_fieldnames(API="pointcalls") pour voir toutes les valeurs filtrables : vous pouvez donner une chaîne unique ou une liste de chaîne pour filtrer plusieurs valeurs possibles
+
     Paramètres de requête généraux (la valeur entre *étoiles* est la valeur par défaut si le paramètre de requête n'est pas défini):
 
     * params : *all* | liste de noms longs des attributs (e.g. 'params=id,departure,destination')
@@ -54,7 +57,7 @@ class Portic(Client):
     * shortenfields : true | *false*
     # permet de récupérer les données concernant l'arrivée d'un voyage en plus des données du départ (données par défaut).
     * both_to : true | *false*
-    * date : YYYY | *1787* # pour filtrer les données sur une année donnée. L'année de la date d'arrivée ou de la date de départ doit commencer par ces 4 digits : 1787 ou  1789 par exemple. Exemple : http://data.portic.fr/api/pointcalls/?format=json&date=1789
+    * year : YYYY | *1787* # pour filtrer les données sur une année donnée. L'année de la date d'arrivée ou de la date de départ doit commencer par ces 4 digits : 1787 ou  1789 par exemple. Exemple : http://data.portic.fr/api/pointcalls/?format=json&date=1789
     * zipped : true | *false*
 
     Paramètres de requête spécifiques :
@@ -64,7 +67,7 @@ class Portic(Client):
     """
     # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
     API_PARAMS = ['params', 'format',
-    'shortenfields', 'both_to', 'date', 'zipped']
+    'shortenfields', 'both_to', 'year', 'zipped']
     consumable_params = {}
     filter_params = {}
 
@@ -73,7 +76,35 @@ class Portic(Client):
         consumable_params[key] = value
       else:
         filter_params[key] = value
-    response = self.api('/pointcalls', params=consumable_params)
+    
+    # test de la validité des paramètres
+    # si on a start_year et pas end_year ou le contraire -> renvoyer une erreur
+    if 'start_year' not in filter_params and 'end_year' in filter_params:
+        raise TypeError("You must put an end year")
+    elif 'end_year' not in filter_params and 'start_year' in filter_params:
+        raise TypeError("You must put a start year")
+
+    # si on start_year ou end_year et par ailleurs year -> year l'emporte
+    if ('start_year' in filter_params or 'end_year' in filter_params) and 'year' in consumable_params:
+        del filter_params['start_year']
+        del filter_params['end_year']
+    
+    # harmonisation de l'API avec toflit18 -> on prend year en input mais on donne "date" à l'api
+    if 'year' in consumable_params:
+      consumable_params['date'] = consumable_params['year']
+      del consumable_params['year']
+
+    response = []
+    # traitement des années multiples : on itère dans toutes les années entre la start_year et la end_year
+    if 'start_year' in filter_params and 'end_year' in filter_params:
+      for year in [y + filter_params['start_year'] for y in range(int(filter_params['end_year'] - int(filter_params['start_year'])))]:
+        that_year = self.api('/pointcalls', params={**consumable_params, "date": year})
+        response = response + that_year
+      del filter_params['start_year']
+      del filter_params['end_year']
+    # traitement d'une seule année
+    else :
+      response = self.api('/pointcalls', params=consumable_params)
 
     # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
     results = []
@@ -105,13 +136,17 @@ class Portic(Client):
     Synopsis:
     Retourne une liste de flux, c'est-à-dire de voyages liés à des ports spécifiques, soit en y entrant (direction "in"), soit en en sortant (direction "out"), soit en ayant navigué autour (direction "in-out")
     ---
+
+    Paramètres de filtrage :
+    * voir $.get_fieldnames(API="travels") pour voir toutes les valeurs filtrables : vous pouvez donner une chaîne unique ou une liste de chaîne pour filtrer plusieurs valeurs possibles
+
     Paramètres de requête généraux (la valeur entre *étoiles* est la valeur par défaut si le paramètre de requête n'est pas défini):
 
     * params : *all* | liste de noms longs des attributs (e.g. 'params=id,departure,destination')
     * format : *json* | csv # format de la réponse
     * shortenfields : true | *false* # permet de raccourcir les noms des attributs et donc d'alléger la taille du JSON téléchargé.
     * both_to : true | *false* # permet de récupérer les données concernant l'arrivée d'un voyage en plus des données du départ (données par défaut). 
-    * date : YYYY | *1787* # pour filtrer les données sur une année donnée. L'année de la date d'arrivée ou de la date de départ doit commencer par ces 4 digits : 1787 ou  1789 par exemple. Exemple : http://data.portic.fr/api/pointcalls/?format=json&date=1789
+    * year : YYYY | *1787* # pour filtrer les données sur une année donnée. L'année de la date d'arrivée ou de la date de départ doit commencer par ces 4 digits : 1787 ou  1789 par exemple. Exemple : http://data.portic.fr/api/pointcalls/?format=json&date=1789
     * zipped : true | *false*
 
     Paramètres de requête spécifiques :
@@ -119,17 +154,46 @@ class Portic(Client):
     * ports: [int] (UHGS_id) # liste des ids de ports à filtrer (séparés par des virgules)
     """
     # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
-    API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped']
+    API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'year', 'zipped']
+    
     consumable_params = {}
     filter_params = {}
 
     for key, value in kwargs.items():
-            if key in API_PARAMS:
-                    consumable_params[key] = value
-            else:
-                    filter_params[key] =  value
+      if key in API_PARAMS:
+        consumable_params[key] = value
+      else:
+        filter_params[key] = value
+    
+    # test de la validité des paramètres
+    # si on a start_year et pas end_year ou le contraire -> renvoyer une erreur
+    if 'start_year' not in filter_params and 'end_year' in filter_params:
+        raise TypeError("You must put an end year")
+    elif 'end_year' not in filter_params and 'start_year' in filter_params:
+        raise TypeError("You must put a start year")
 
-    response = self.api('/flows', params=consumable_params)
+    # si on start_year ou end_year et par ailleurs year -> year l'emporte
+    if ('start_year' in filter_params or 'end_year' in filter_params) and 'year' in consumable_params:
+        del filter_params['start_year']
+        del filter_params['end_year']
+    
+    # harmonisation de l'API avec toflit18 -> on prend year en input mais on donne "date" à l'api
+    if 'year' in consumable_params:
+      consumable_params['date'] = consumable_params['year']
+      del consumable_params['year']
+
+    response = []
+    # traitement des années multiples : on itère dans toutes les années entre la start_year et la end_year
+    if 'start_year' in filter_params and 'end_year' in filter_params:
+      for year in [y + filter_params['start_year'] for y in range(int(filter_params['end_year'] - int(filter_params['start_year'])))]:
+        that_year = self.api('/flows', params={**consumable_params, "date": year})
+        response = response + that_year
+      del filter_params['start_year']
+      del filter_params['end_year']
+    # traitement d'une seule année
+    else :
+      response = self.api('/flows', params=consumable_params)
+
     # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
     results = []
     for item in response:
@@ -173,17 +237,46 @@ class Portic(Client):
     Paramètres de requête spécifiques : /
     """
     # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
-    API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'date', 'zipped']
+    API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'year', 'zipped']
+    
     consumable_params = {}
     filter_params = {}
 
     for key, value in kwargs.items():
       if key in API_PARAMS:
-              consumable_params[key] = value
+        consumable_params[key] = value
       else:
-              filter_params[key] =  value
+        filter_params[key] = value
+    
+    # test de la validité des paramètres
+    # si on a start_year et pas end_year ou le contraire -> renvoyer une erreur
+    if 'start_year' not in filter_params and 'end_year' in filter_params:
+        raise TypeError("You must put an end year")
+    elif 'end_year' not in filter_params and 'start_year' in filter_params:
+        raise TypeError("You must put a start year")
 
-    response = self.api('/travels', params=consumable_params)
+    # si on start_year ou end_year et par ailleurs year -> year l'emporte
+    if ('start_year' in filter_params or 'end_year' in filter_params) and 'year' in consumable_params:
+        del filter_params['start_year']
+        del filter_params['end_year']
+    
+    # harmonisation de l'API avec toflit18 -> on prend year en input mais on donne "date" à l'api
+    if 'year' in consumable_params:
+      consumable_params['date'] = consumable_params['year']
+      del consumable_params['year']
+
+    response = []
+    # traitement des années multiples : on itère dans toutes les années entre la start_year et la end_year
+    if 'start_year' in filter_params and 'end_year' in filter_params:
+      for year in [y + filter_params['start_year'] for y in range(int(filter_params['end_year'] - int(filter_params['start_year'])))]:
+        that_year = self.api('/travels', params={**consumable_params, "date": year})
+        response = response + that_year
+      del filter_params['start_year']
+      del filter_params['end_year']
+    # traitement d'une seule année
+    else :
+      response = self.api('/travels', params=consumable_params)
+
     # on filtre si nécessaire les résultats en fonction des paramètres résiduels qui n'ont pas pu être "consommés" par l'API
     results = []
     for item in response:

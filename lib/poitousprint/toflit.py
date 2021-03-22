@@ -94,63 +94,63 @@ class Toflit(Client):
           results.append(row_formated)        
     return results
   
-  def get_customs_regions(self, params=None):
+  def get_customs_regions(self, **kwargs):
     """
     Synopsis : récupère la liste des "customs regions" (bureaux de ferme) de la base
     ---
     Paramètres : aucun
     """
-    response = self.api('/regions', params=params)
+    response = self.api('/regions', params=kwargs)
     return self._format_response(response)
   
-  def get_sources_types(self, params=None):
+  def get_sources_types(self, **kwargs):
     """
     Synopsis : récupère les types de sources disponibles
     ---
     Paramètres : aucun
     """
-    response = self.api('/source_types', params=params)
+    response = self.api('/source_types', params=kwargs)
     return self._format_response(response)
   
-  def get_product_classifications(self, params=None):
+  def get_product_classifications(self, **kwargs):
     """
     Synopsis : récupère les classifications de produits
     ---
     Paramètres : aucun
     """
-    response = self.api('/classification', params=params)
+    response = self.api('/classification', params=kwargs)
     response = self._format_response(response)
     return response['product']
 
-  def get_partner_classifications(self, params=None):
+  def get_partner_classifications(self, **kwargs):
     """
     Synopsis : récupère les classifications de partenaires
     ---
     Paramètres : aucun
     """
-    response = self.api('/classification', params=params)
+    response = self.api('/classification', params=kwargs)
     response = self._format_response(response)
     return response['partner']
   
-  def get_classification_groups(self, classification, params=None):
+  def get_classification_groups(self, classification="product_simplification", **kwargs):
     """
     Synopsis : récupère l'ensemble des catégories associées à une classification en particulier (sans le détail des valeurs)
     Paramètre classification : le nom de la classification préfixé par son type (ex. "product_simplification", ou "partner_source")
     ---
     Paramètres : aucun ?
     """
-    response = self.api('/classification/' + classification + '/groups/', params=params)
+    response = self.api('/classification/' + classification + '/groups/', params=kwargs)
     response = self._format_response(response)
     return response
 
-  def get_classification_sliced_search(self, classification="product", params=None):
+  def get_classification_sliced_search(self, classification="product", **kwargs):
     """
     Synopsis : récupère le détail des groupements associés à une classification en particulier, se limite à une tranche de résultat
     Paramètre classification : le nom de la classification préfixé par son type (ex. "product_simplification", ou "partner_source")
     ---
     Paramètres : aucun ?
     """
-    response = self.api('/classification/' + classification + '/search/', params=params)
+    response = self.api('/classification/' + classification + '/search/', params=kwargs)
     response = self._format_response(response)
     print ("Nombre de classifications trouvées dans cette tranche : ", len(response))
     return response

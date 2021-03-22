@@ -180,7 +180,7 @@ def nest_portic_pointcall(pointcall):
       'shiparea',
       'pointcall_status'
     ],
-    "pointcall_action": [
+    "pointcall_characteristics": [
       "pointcall_action",
       "pointcall_uncertainity",
       "data_block_leader_marker",

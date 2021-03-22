@@ -38,11 +38,13 @@ Cette bibliothèque propose une abstraction pour manipuler les données. Elle a 
 Les données de base sont disponibles à :
 
 * pour toflit18 : sur le répertoire [`medialab/toflit18_data/base courante.zip`](https://github.com/medialab/toflit18_data/blob/master/base/bdd%20courante.csv.zip) et via le [datascape](http://toflit18.medialab.sciences-po.fr/#/home)
-* pour PORTIC : à `[data.portic.fr/api](http://data.portic.fr/api/]`(http://data.portic.fr/api/) (documentation originale [ici](https://gitlab.huma-num.fr/portic/porticapi))
+* pour PORTIC : à [data.portic.fr/api](http://data.portic.fr/api/](http://data.portic.fr/api/) (documentation originale [ici](https://gitlab.huma-num.fr/portic/porticapi))
 
 ## Importer la bibliothèque
 
-La bibliothèque est constituée de deux clients (un pour chaque base) et d'une série de fonctions utilitaires :
+La bibliothèque est installée localement par le script `install.sh` (ou via `pip install -e lib`) puis est accessible sous le nom de `poitousprint`.
+
+Elle est constituée de deux clients (un pour chaque base) et d'une série de fonctions utilitaires :
 
 ```python
 from poitousprint import Portic, Toflit, nest_toflit18_flow, nest_portic_pointcall, build_cooccurence_graph

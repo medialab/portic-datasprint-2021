@@ -44,7 +44,7 @@ Les données de base sont disponibles à :
 
 La bibliothèque est installée localement par le script `install.sh` (ou via `pip install -e lib`) puis est accessible sous le nom de `poitousprint`.
 
-Elle est constituée de deux clients (un pour chaque base) et d'une série de fonctions utilitaires dédiées à la simplification des données, aux croisements ou à la préparation de visualisations et analyses :
+Elle est constituée de deux clients web (un pour chaque base) et d'une série de fonctions utilitaires dédiées à la simplification des données, aux croisements ou à la préparation de visualisations et analyses :
 
 ```python
 from poitousprint import Portic, Toflit, nest_toflit18_flow, nest_portic_pointcall, build_cooccurence_graph
@@ -54,7 +54,7 @@ from poitousprint import Portic, Toflit, nest_toflit18_flow, nest_portic_pointca
 
 ### `portic.get_pointcalls`
 
-TODO ...
+@todo trouver un mode de présentation unifié (paramètres, réponse, un exemple ?)
 
 ## Client TOFLIT
 

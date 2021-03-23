@@ -383,7 +383,6 @@ def get_online_csv(url):
   """
   results = []
   with requests.Session() as s:
-      # télécharger le csv depuis toflit18_data
       download = s.get(url)
       decoded_content = download.content.decode('utf-8')
       reader = csv.DictReader(decoded_content.splitlines(), delimiter=',')
@@ -391,24 +390,26 @@ def get_online_csv(url):
         results.append(row)
   return results
 
-def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_classification="product_orthographic"):
-  """
-  Cette fonction prend en entrée une liste de pointcalls et un nom de classification en sortie
-  Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "commodity_purposes"
-  qui ont les propriétés existantes de PORTIC pour commodity_purpose[2,3,4] + une propriété "commodity_as_toflit qui donne la valeur correspondante dans toflit18.
-  """
+
+def build_toflit18_classif_multimap(classification="product_simplification"):
+  classification_type = classification.split('_')[0]
   # construire le chemin vers la classification visée à partir de source
-  current_classification_id = 'product_source'
+  current_classification_id = classification_type + '_source'
   # récupérer l'arborescence des classifications TOFLIT18
-  current_classification = toflit_client.get_product_classifications()
+  current_classification = None
+  if classification_type == 'product':
+    current_classification = toflit_client.get_product_classifications()
+  else:
+    current_classification = toflit_client.get_partner_classifications()
+
   # construire le chemin à parcourir dans les classifications depuis source vers la classification cible
   classification_path = []
-  while current_classification_id != product_classification:
+  while current_classification_id != classification:
     children = current_classification['children']
     if len(children) == 1:
       current_classification = children[0]
     for child in children:
-      if child['id'] == product_classification:
+      if child['id'] == classification:
         current_classification = child
         break
     current_classification_id = current_classification['id']
@@ -416,6 +417,40 @@ def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_clas
   # créer un dict dont chaque clé sera une des classifications à parcourir,
   # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant
   classif_multi_dict = {}
+  prev_classif = classification_type + '_source'
+  for classif in classification_path:
+    classif_multi_dict[classif] = {}
+    # on créée un dict alternatif avec les valeurs en lowercase pour parer à d'éventuels problèmes liés à la casse
+    classif_multi_dict[classif + '_lower'] = {}
+    # récupérer le csv à jour de la classification sur le repo toflit18_data
+    toflit18_csv_url = 'https://raw.githubusercontent.com/medialab/toflit18_data/master/base/classification_' + classif + '.csv'
+    # télécharger le csv depuis toflit18_data
+    classif_data = get_online_csv(toflit18_csv_url)
+    prev_key = prev_classif.split(classification_type + '_')[1]
+    current_key = classif.split(classification_type + '_')[1]
+    for row in classif_data:
+      # nom de la classification "parent" : e.g. "orthographic"
+      parent_value = row[prev_key]
+      # nom de la classification "enfant" : e.g. "simplification"
+      child_value = row[current_key]
+      classif_multi_dict[classif][parent_value] = child_value
+      # gérer les problèmes de casse en stockant dans le dict alternatif la valeur originale et la valeur en lower
+      classif_multi_dict[classif + '_lower'][parent_value.lower()] = {
+        "original": child_value,
+        "lower" : child_value.lower()
+      }
+    prev_classif = classif
+  return (classification_path, classif_multi_dict)
+
+def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_classification="product_simplification"):
+  """
+  Cette fonction prend en entrée une liste de pointcalls et un nom de classification
+  Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "commodity_purposes"
+  qui ont les propriétés existantes de PORTIC pour commodity_purpose[2,3,4] + une propriété "commodity_as_toflit qui donne la valeur correspondante dans toflit18.
+  """
+  # créer un dict dont chaque clé sera une des classifications à parcourir,
+  # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant
+  classification_path, classif_multi_dict = build_toflit18_classif_multimap(product_classification)
   prev_classif = 'product_source'
   for classif in classification_path:
     classif_multi_dict[classif] = {}
@@ -490,6 +525,128 @@ def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_clas
         purposes.append(purpose)
     # on ajoute au pointcall une nouvelle propriété "commodity_purposes" (noter le S à la fin ;))
     pointcall["commodity_purposes"] = purposes
+    return pointcall
+  # on transforme tous les pointcalls donnés en argument
+  return [enrich_pointcall(pointcall) for pointcall in pointcalls]
+
+def get_pointcalls_port_as_toflit_partner(pointcalls, partner_classification="partner_simplification"):
+  """
+  Cette fonction prend en entrée une liste de pointcalls et un nom de classification de partenaire
+  Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "pointcall_as_toflit_partner"
+  """
+  # créer un dict dont chaque clé sera une des classifications à parcourir,
+  # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant
+  classification_path, classif_multi_dict = build_toflit18_classif_multimap(partner_classification)
+  prev_classif = 'partner_source'
+  for classif in classification_path:
+    classif_multi_dict[classif] = {}
+    # on créée un dict alternatif avec les valeurs en lowercase pour parer à d'éventuels problèmes liés à la casse
+    classif_multi_dict[classif + '_lower'] = {}
+    # récupérer le csv à jour de la classification sur le repo toflit18_data
+    toflit18_csv_url = 'https://raw.githubusercontent.com/medialab/toflit18_data/master/base/classification_' + classif + '.csv'
+    # télécharger le csv depuis toflit18_data
+    classif_data = get_online_csv(toflit18_csv_url)
+    prev_key = prev_classif.split('partner_')[1]
+    current_key = classif.split('partner_')[1]
+    for row in classif_data:
+      # nom de la classification "parent" : e.g. "orthographic"
+      parent_value = row[prev_key]
+      # nom de la classification "enfant" : e.g. "simplification"
+      child_value = row[current_key]
+      classif_multi_dict[classif][parent_value] = child_value
+      # gérer les problèmes de casse en stockant dans le dict alternatif la valeur originale et la valeur en lower
+      classif_multi_dict[classif + '_lower'][parent_value.lower()] = {
+        "original": child_value,
+        "lower" : child_value.lower()
+      }
+    prev_classif = classif
+
+  # créer une fonction de mapping qui transforme les pointcalls en leur ajoutant une propriété "partner_as_toflit"
+  def enrich_pointcall(pointcall):
+    pointcall['pointcall_as_toflit_partner'] = None
+    partner = pointcall['partner_balance_1789']
+    if partner is None:
+      partner = pointcall['partner_balance_supp_1789']
+    if partner is not None:
+      # la valeur partner correspond au niveau "source" des classifications TOFLIT18
+      translated_name = None
+      if partner is not None:
+        # on stocke dans une valeur courante la traduction TOFLIT18 (qui va par exemple correspondre successivement à source -> orthographic -> simplification)
+        translated_name = partner
+        # parcourir les classifs pour trouver la bonne valeur
+        for classif in classification_path:
+          # si la valeur est dans le dict de la classif toflit18 courante on le traduit
+          if translated_name is not None and translated_name in classif_multi_dict[classif]:
+            translated_name = classif_multi_dict[classif][translated_name]
+          # si la valeur matche en lowercase on la traduit aussi
+          elif translated_name is not None and translated_name.lower() in classif_multi_dict[classif + '_lower']:
+            translated_name = classif_multi_dict[classif + '_lower'][translated_name.lower()]["original"]
+          # si pas de valeur trouvée => alignement impossible, besoin de màj côté toflit18 pour intégrer cette forme
+          else:
+            translated_name = None
+      if translated_name is not None:
+        pointcall['pointcall_as_toflit_partner'] = translated_name
+    return pointcall
+  # on transforme tous les pointcalls donnés en argument
+  return [enrich_pointcall(pointcall) for pointcall in pointcalls]
+
+def get_pointcalls_homeport_as_toflit_partner(pointcalls, partner_classification="partner_simplification"):
+  """
+  Cette fonction prend en entrée une liste de pointcalls et un nom de classification de partenaire
+  Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "pointcall_as_toflit_partner"
+  """
+  # créer un dict dont chaque clé sera une des classifications à parcourir,
+  # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant
+  classification_path, classif_multi_dict = build_toflit18_classif_multimap(partner_classification)
+  prev_classif = 'partner_source'
+  for classif in classification_path:
+    classif_multi_dict[classif] = {}
+    # on créée un dict alternatif avec les valeurs en lowercase pour parer à d'éventuels problèmes liés à la casse
+    classif_multi_dict[classif + '_lower'] = {}
+    # récupérer le csv à jour de la classification sur le repo toflit18_data
+    toflit18_csv_url = 'https://raw.githubusercontent.com/medialab/toflit18_data/master/base/classification_' + classif + '.csv'
+    # télécharger le csv depuis toflit18_data
+    classif_data = get_online_csv(toflit18_csv_url)
+    prev_key = prev_classif.split('partner_')[1]
+    current_key = classif.split('partner_')[1]
+    for row in classif_data:
+      # nom de la classification "parent" : e.g. "orthographic"
+      parent_value = row[prev_key]
+      # nom de la classification "enfant" : e.g. "simplification"
+      child_value = row[current_key]
+      classif_multi_dict[classif][parent_value] = child_value
+      # gérer les problèmes de casse en stockant dans le dict alternatif la valeur originale et la valeur en lower
+      classif_multi_dict[classif + '_lower'][parent_value.lower()] = {
+        "original": child_value,
+        "lower" : child_value.lower()
+      }
+    prev_classif = classif
+
+  # créer une fonction de mapping qui transforme les pointcalls en leur ajoutant une propriété "partner_as_toflit"
+  def enrich_pointcall(pointcall):
+    pointcall['homeport_as_toflit_partner'] = None
+    partner = pointcall['homeport_partner_balance_1789']
+    if partner is None:
+      partner = pointcall['homeport_partner_balance_supp_1789']
+    if partner is not None:
+      # la valeur partner correspond au niveau "source" des classifications TOFLIT18
+      translated_name = None
+      if partner is not None:
+        # on stocke dans une valeur courante la traduction TOFLIT18 (qui va par exemple correspondre successivement à source -> orthographic -> simplification)
+        translated_name = partner
+        # parcourir les classifs pour trouver la bonne valeur
+        for classif in classification_path:
+          # si la valeur est dans le dict de la classif toflit18 courante on le traduit
+          if translated_name is not None and translated_name in classif_multi_dict[classif]:
+            translated_name = classif_multi_dict[classif][translated_name]
+          # si la valeur matche en lowercase on la traduit aussi
+          elif translated_name is not None and translated_name.lower() in classif_multi_dict[classif + '_lower']:
+            translated_name = classif_multi_dict[classif + '_lower'][translated_name.lower()]["original"]
+          # si pas de valeur trouvée => alignement impossible, besoin de màj côté toflit18 pour intégrer cette forme
+          else:
+            translated_name = None
+      if translated_name is not None:
+        pointcall['homeport_as_toflit_partner'] = translated_name
     return pointcall
   # on transforme tous les pointcalls donnés en argument
   return [enrich_pointcall(pointcall) for pointcall in pointcalls]

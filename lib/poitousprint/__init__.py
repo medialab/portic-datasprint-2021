@@ -1,3 +1,3 @@
 from poitousprint.toflit import Toflit
 from poitousprint.portic import Portic
-from poitousprint.utils import nest_toflit18_flow, nest_portic_pointcall,build_cooccurence_graph, get_pointcalls_commodity_purposes_as_toflit_product,get_online_csv
+from poitousprint.utils import nest_toflit18_flow, nest_portic_pointcall,build_cooccurence_graph, get_pointcalls_commodity_purposes_as_toflit_product,get_online_csv, get_pointcalls_port_as_toflit_partner, get_pointcalls_homeport_as_toflit_partner

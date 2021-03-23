@@ -1,14 +1,10 @@
 
 import networkx as nx
+import requests
+import csv
+from poitousprint import Toflit
 
-def print_classification(input, classification, displace):
-    if 'name' in classification:
-        input += displace + '- ' + classification['name'] + '(' + classification['slug'] + ')' + '\n'
-    else:
-        print('oups', classification)
-    if 'children' in classification:
-        input += ''.join(map(lambda c : print_classification('', c, displace + '  '), classification['children']))
-    return input;
+toflit_client = Toflit()
 
 def nest_toflit18_flow(flow):
   model = {
@@ -379,3 +375,111 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
     Graph.add_edges_from(edges)
 
     return Graph
+
+
+def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_classification="product_orthographic"):
+  """
+  Cette fonction prend en entrée une liste de pointcalls et un nom de classification en sortie
+  Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "commodity_purposes"
+  qui ont les propriétés existantes de PORTIC pour commodity_purpose[2,3,4] + une propriété "commodity_as_toflit qui donne la valeur correspondante dans toflit18.
+  """
+  # construire le chemin vers la classification visée à partir de source
+  current_classification_id = 'product_source'
+  # récupérer l'arborescence des classifications TOFLIT18
+  current_classification = toflit_client.get_product_classifications()
+  # construire le chemin à parcourir dans les classifications depuis source vers la classification cible
+  classification_path = []
+  while current_classification_id != product_classification:
+    children = current_classification['children']
+    if len(children) == 1:
+      current_classification = children[0]
+    for child in children:
+      if child['id'] == product_classification:
+        current_classification = child
+        break
+    current_classification_id = current_classification['id']
+    classification_path.append(current_classification_id)
+  # créer un dict dont chaque clé sera une des classifications à parcourir,
+  # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant
+  classif_multi_dict = {}
+  prev_classif = 'product_source'
+  for classif in classification_path:
+    classif_multi_dict[classif] = {}
+    # on créée un dict alternatif avec les valeurs en lowercase pour parer à d'éventuels problèmes liés à la casse
+    classif_multi_dict[classif + '_lower'] = {}
+    # récupérer le csv à jour de la classification sur le repo toflit18_data
+    toflit18_csv_url = 'https://raw.githubusercontent.com/medialab/toflit18_data/master/base/classification_' + classif + '.csv'
+
+    with requests.Session() as s:
+      # télécharger le csv depuis toflit18_data
+      download = s.get(toflit18_csv_url)
+      decoded_content = download.content.decode('utf-8')
+      reader = csv.DictReader(decoded_content.splitlines(), delimiter=',')
+      prev_key = prev_classif.split('product_')[1]
+      current_key = classif.split('product_')[1]
+      for row in reader:
+        # nom de la classification "parent" : e.g. "orthographic"
+        parent_value = row[prev_key]
+        # nom de la classification "enfant" : e.g. "simplification"
+        child_value = row[current_key]
+        classif_multi_dict[classif][parent_value] = child_value
+        # gérer les problèmes de casse en stockant dans le dict alternatif la valeur originale et la valeur en lower
+        classif_multi_dict[classif + '_lower'][parent_value.lower()] = {
+          "original": child_value,
+          "lower" : child_value.lower()
+        }
+    prev_classif = classif
+
+  # créer une fonction de mapping qui transforme les pointcalls en leur ajoutant une propriété "commodity_purposes"
+  def enrich_pointcall(pointcall):
+    # cette liste contiendra tous les commodity_purpose[2,3,4] transformés et enrichis avec leur forme toflit18
+    # dans la classification visée
+    purposes = []
+    # on itère dans commodity_purpose['2,3,4]
+    suffixes = ['', '2', '3', '4']
+    for suffix in suffixes:
+      # on génère les propriétés PORTIC correspondant à chaque suffixe pour décrire les commodity_purposes multiples
+      commodity_purpose = 'commodity_purpose' + suffix
+      commodity_standardized = 'commodity_standardized' + suffix
+      commodity_standardized_fr = 'commodity_standardized' + suffix + '_fr'
+      commodity_permanent_coding = 'commodity_permanent_coding' + suffix
+      commodity_id = 'commodity_id' + suffix
+      quantity = 'quantity' + suffix
+      quantity_u = 'quantity_u' + suffix
+      # la valeur PORTIC commodity_purpose correspond au niveau "source" des classifications TOFLIT18
+      source_name = pointcall[commodity_purpose]
+      translated_name = None
+      if source_name is not None:
+        # on stocke dans une valeur courante la traduction TOFLIT18 (qui va par exemple correspondre successivement à source -> orthographic -> simplification)
+        translated_name = source_name
+        # parcourir les classifs pour trouver la bonne valeur
+        for classif in classification_path:
+          # si la valeur est dans le dict de la classif toflit18 courante on le traduit
+          if translated_name is not None and translated_name in classif_multi_dict[classif]:
+            translated_name = classif_multi_dict[classif][translated_name]
+          # si la valeur matche en lowercase on la traduit aussi
+          elif translated_name is not None and translated_name.lower() in classif_multi_dict[classif + '_lower']:
+            translated_name = classif_multi_dict[classif + '_lower'][translated_name.lower()]["original"]
+          # si pas de valeur trouvée => alignement impossible, besoin de màj côté toflit18 pour intégrer cette forme
+          else:
+            translated_name = None
+      # formalisation d'un dict avec les infos portic+toflit18
+      if commodity_purpose in pointcall and pointcall[commodity_purpose] is not None:
+        purpose = {
+          # cette valeur est celle qui permet l'alignement
+          "commodity_as_toflit": translated_name,
+          # les valeurs suivantes sont les valeurs originales du pointcall
+          "commodity_purpose": pointcall[commodity_purpose] if commodity_purpose in pointcall else None,
+          "commodity_standardized": pointcall[commodity_standardized] if commodity_standardized in pointcall else None,
+          "commodity_standardized_fr": pointcall[commodity_standardized_fr] if commodity_standardized_fr in pointcall else None,
+          "commodity_permanent_coding": pointcall[commodity_permanent_coding] if commodity_permanent_coding in pointcall else None,
+          "commodity_id": pointcall[commodity_id] if commodity_id in pointcall else None,
+          "quantity": pointcall[quantity] if quantity in pointcall else None,
+          "quantity_u": pointcall[quantity_u] if quantity_u in pointcall else None
+        }
+        purposes.append(purpose)
+    # on ajoute au pointcall une nouvelle propriété "commodity_purposes" (noter le S à la fin ;))
+    pointcall["commodity_purposes"] = purposes
+    return pointcall
+  # on transforme tous les pointcalls donnés en argument
+  return [enrich_pointcall(pointcall) for pointcall in pointcalls]

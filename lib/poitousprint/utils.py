@@ -7,6 +7,10 @@ from poitousprint import Toflit
 toflit_client = Toflit()
 
 def nest_toflit18_flow(flow):
+  """
+  Cette information organise un flux toflit18 tel que reçu depuis les données en csv
+  sous la forme d'un ensemble d'un ensemble de clés thématiques qui contiennent chacun les propriétés correspondantes.
+  """
   model = {
     "flow": [
       "year",
@@ -121,6 +125,10 @@ def nest_toflit18_flow(flow):
 
 
 def nest_portic_pointcall(pointcall):
+  """
+  Cette information organise un pointcall portic tel que reçu depuis les données en csv
+  sous la forme d'un ensemble d'un ensemble de clés thématiques qui contiennent chacun les propriétés correspondantes.
+  """
   model = {
     "source": [
       "source_doc_id",
@@ -296,6 +304,10 @@ def nest_portic_pointcall(pointcall):
 
 
 def build_cooccurence_graph(data, key_1, key_2, **kwargs):
+    """
+    Cette fonction prend un ensemble de dict et deux noms de clés.
+    Elle renvoie un graphe networkx de coocurrence entre les dicts
+    """
     # créer un graphe
     Graph = nx.Graph()
 
@@ -593,7 +605,7 @@ def get_pointcalls_port_as_toflit_partner(pointcalls, partner_classification="pa
 def get_pointcalls_homeport_as_toflit_partner(pointcalls, partner_classification="partner_simplification"):
   """
   Cette fonction prend en entrée une liste de pointcalls et un nom de classification de partenaire
-  Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "pointcall_as_toflit_partner"
+  Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "homeport_as_toflit_partner"
   """
   # créer un dict dont chaque clé sera une des classifications à parcourir,
   # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant

@@ -376,6 +376,20 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
 
     return Graph
 
+def get_online_csv(url):
+  """
+  Cette fonction permet de récupérer le contenu d'un csv en ligne.
+  Pour les google spreadsheets: fichier > publier sur le web > format csv > copier le lien
+  """
+  results = []
+  with requests.Session() as s:
+      # télécharger le csv depuis toflit18_data
+      download = s.get(url)
+      decoded_content = download.content.decode('utf-8')
+      reader = csv.DictReader(decoded_content.splitlines(), delimiter=',')
+      for row in reader:
+        results.append(row)
+  return results
 
 def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_classification="product_orthographic"):
   """
@@ -409,25 +423,21 @@ def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_clas
     classif_multi_dict[classif + '_lower'] = {}
     # récupérer le csv à jour de la classification sur le repo toflit18_data
     toflit18_csv_url = 'https://raw.githubusercontent.com/medialab/toflit18_data/master/base/classification_' + classif + '.csv'
-
-    with requests.Session() as s:
-      # télécharger le csv depuis toflit18_data
-      download = s.get(toflit18_csv_url)
-      decoded_content = download.content.decode('utf-8')
-      reader = csv.DictReader(decoded_content.splitlines(), delimiter=',')
-      prev_key = prev_classif.split('product_')[1]
-      current_key = classif.split('product_')[1]
-      for row in reader:
-        # nom de la classification "parent" : e.g. "orthographic"
-        parent_value = row[prev_key]
-        # nom de la classification "enfant" : e.g. "simplification"
-        child_value = row[current_key]
-        classif_multi_dict[classif][parent_value] = child_value
-        # gérer les problèmes de casse en stockant dans le dict alternatif la valeur originale et la valeur en lower
-        classif_multi_dict[classif + '_lower'][parent_value.lower()] = {
-          "original": child_value,
-          "lower" : child_value.lower()
-        }
+    # télécharger le csv depuis toflit18_data
+    classif_data = get_online_csv(toflit18_csv_url)
+    prev_key = prev_classif.split('product_')[1]
+    current_key = classif.split('product_')[1]
+    for row in classif_data:
+      # nom de la classification "parent" : e.g. "orthographic"
+      parent_value = row[prev_key]
+      # nom de la classification "enfant" : e.g. "simplification"
+      child_value = row[current_key]
+      classif_multi_dict[classif][parent_value] = child_value
+      # gérer les problèmes de casse en stockant dans le dict alternatif la valeur originale et la valeur en lower
+      classif_multi_dict[classif + '_lower'][parent_value.lower()] = {
+        "original": child_value,
+        "lower" : child_value.lower()
+      }
     prev_classif = classif
 
   # créer une fonction de mapping qui transforme les pointcalls en leur ajoutant une propriété "commodity_purposes"

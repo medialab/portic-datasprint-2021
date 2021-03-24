@@ -22,6 +22,9 @@ class Toflit(Client):
   
   def get_flows(self, start_year=None, end_year=None, year=None, params=None,
                 **kwargs):
+    # en l'état, year ne fonctionne pas, 
+    # solution 1 : à mettre dans les kwargs (sinon ne passe pas la boucle des filtres) => dans ce cas là modifier code de "year " l'emporte sur timespan si ces 2 filtres sont présents
+    # solution 2 : coder compoortement comme pour end_year et start_year => je la mets en place pour l'instant car je ne sais pas faire avec la solution 1 qui me semble pourtant préférable
 
     """
     Synopsis : récupère les flux toflit18
@@ -53,13 +56,17 @@ class Toflit(Client):
     reader = csv.DictReader(all_flows.decode('utf-8').splitlines(), delimiter=',')
     for row in reader:
         row = dict(row)
-        year = row['year'].split(".")[0]
+        year_row = row['year'].split(".")[0]
         #si  on a bien un start_year et un end_year
         if start_year is not None and end_year is not None:
           # s'il existe : je convertis en int mes params start / end_year et je vais regarder si ma date est bien dans le bon span => si non je break (passage ligne suivante)
-          if int(year) < int(start_year) or int(year) > int(end_year):
-              j+=1
+          if int(year_row) < int(start_year) or int(year_row) > int(end_year):
               continue
+
+        if year is not None:
+          # s'il existe : je convertis en int mon param year et je vais regarder si ma date correspond bien au year demandé => si non je break (passage ligne suivante) 
+          if int(year_row) != int(year):
+            continue
 
         # pour chaque filtre (sauf filtre timespan et filtrage des colomnes) :
         is_valid = True

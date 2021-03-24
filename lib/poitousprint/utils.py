@@ -9,7 +9,7 @@ toflit_client = Toflit()
 def nest_toflit18_flow(flow):
   """
   Cette information organise un flux toflit18 tel que reçu depuis les données en csv
-  sous la forme d'un ensemble d'un ensemble de clés thématiques qui contiennent chacun les propriétés correspondantes.
+  sous la forme d'un ensemble de clés thématiques qui contiennent chacun les propriétés correspondantes.
   """
   model = {
     "flow": [
@@ -127,7 +127,7 @@ def nest_toflit18_flow(flow):
 def nest_portic_pointcall(pointcall):
   """
   Cette information organise un pointcall portic tel que reçu depuis les données en csv
-  sous la forme d'un ensemble d'un ensemble de clés thématiques qui contiennent chacun les propriétés correspondantes.
+  sous la forme d'un ensemble de clés thématiques qui contiennent chacun les propriétés correspondantes.
   """
   model = {
     "source": [

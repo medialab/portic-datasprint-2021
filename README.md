@@ -43,6 +43,7 @@ Les données de base sont disponibles à :
 ## Importer la bibliothèque
 
 La bibliothèque est installée localement par le script `install.sh` (ou via `pip install -e lib`) puis est accessible sous le nom de `poitousprint`.
+Ne pas oublier de la réinstaller après un git pull si besoin.
 
 Elle est constituée de deux clients web (un pour chaque base) et d'une série de fonctions utilitaires dédiées à la simplification des données, aux croisements ou à la préparation de visualisations et analyses :
 

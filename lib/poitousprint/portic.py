@@ -11,8 +11,6 @@ class Portic(Client):
   * get_pointcalls
   * get_travels
   * get_departures_details
-  * get_departures_aggregated
-  * get_destinations_details
   * get_destinations_aggregated
   * get_flows
   * get_ports

@@ -32,7 +32,7 @@ Si les données de base venaient à être mises à jour en cours de datasprint, 
 - `lib` -> la bibliothèque créée spécifiquement pour le datasprint. Elle pourra éventuellement être améliorée pendant le datasprint
 
 # Documentation de la bibliothèque
-Notebook de doc avec des exemples : 
+Notebook de doc avec des exemples : https://github.com/medialab/portic-datasprint-2021/blob/main/documentation_lib.ipynb
 
 Cette bibliothèque propose une abstraction permettant de manipuler les données avec une API unifiée, ainsi qu'une série d'utilitaires. Elle a vocation à être potentiellement enrichie pendant le datasprint.
 

@@ -303,6 +303,17 @@ def nest_portic_pointcall(pointcall):
 
 
 
+def map_value(value, domain_min, domain_max, range_min, range_max):
+    left_span = domain_max - domain_min
+    right_span = range_max - range_min
+
+    # Convert the left range into a 0-1 range (float)
+    scaled = float(value - domain_min) / float(left_span)
+
+    # Convert the 0-1 range into a value in the right range.
+    return range_min + (scaled * right_span)
+    
+
 def build_cooccurence_graph(data, key_1, key_2, **kwargs):
     """
     Cette fonction prend un ensemble de dict et deux noms de clés.
@@ -387,6 +398,7 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
     Graph.add_edges_from(edges)
 
     return Graph
+  
 
 def get_online_csv(url):
   """

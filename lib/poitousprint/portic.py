@@ -152,7 +152,7 @@ class Portic(Client):
     * ports: [int] (UHGS_id) # liste des ids de ports à filtrer (séparés par des virgules)
     """
     # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
-    API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'year', 'zipped']
+    API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'year', 'zipped', 'ports']
     
     consumable_params = {}
     filter_params = {}

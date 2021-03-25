@@ -254,28 +254,6 @@ class Toflit(Client):
     response = self.api('/viz/flows_per_year/' + type, method='post', data=kwargs)
     return self._format_response(response)
 
-  def get_product_terms(self, classification="product_revolutionempire", **kwargs):
-    """
-    Synopsis : récupère des séries temporelles à propos des flux de marchandises
-    ---
-    Paramètre classification : l'id de la classification de produit à utiliser
-    ---
-    Paramètres :
-    * direction : <string> "$all$" | [nom de direction] # nom de la direction à filtrer
-    * sourceType : <string> # id du type de source à utiliser
-    * color: <string> # pas pertinent / relatif à la visualisation
-    * dateMax : <int>
-    * dateMin : <int>
-    * childClassification : <string> # le nom de la classification de produit à récupérer
-    * child : <Array<object>> # les produits à filtrer (e.g. {name: 'Alsace', id: 'Alsace~partner_orthographic'})
-    * partnerClassification : <string> # le nom de la classification de partenaire à récupérer
-    * partner : <Array<object>> # les partenaires commerciaux à prendre en compte (e.g. {"id": "Raw_materials,_inedible,_except_fuels~product_sitc_EN", "name": "Raw materials, inedible, except fuels", "value": "Raw_materials,_inedible,_except_fuels~product_sitc_EN"})
-    * kind : *total* | import | export # quels flux utiliser
-    * product : <Array<object>> # liste des produits à filtrer
-    * productClassification : <string> # Classification de produit à utiliser pour le filtre
-    """
-    response = self.api('/viz/terms/' + classification, method='post', data=kwargs)
-    return self._format_response(response)
 
   
   def get_flows_by_api(self, params=None):
@@ -322,3 +300,29 @@ class Toflit(Client):
     # print ("Nombre de flows trouvés : ", len(results))
     return results 
   
+
+  """
+    def get_product_terms(self, classification="product_revolutionempire", **kwargs):
+    
+    Synopsis : récupère des séries temporelles à propos des flux de marchandises
+    ---
+    Paramètre classification : l'id de la classification de produit à utiliser
+    ---
+    Paramètres :
+    * direction : <string> "$all$" | [nom de direction] # nom de la direction à filtrer
+    * sourceType : <string> # id du type de source à utiliser
+    * color: <string> # pas pertinent / relatif à la visualisation
+    * dateMax : <int>
+    * dateMin : <int>
+    * childClassification : <string> # le nom de la classification de produit à récupérer
+    * child : <Array<object>> # les produits à filtrer (e.g. {name: 'Alsace', id: 'Alsace~partner_orthographic'})
+    * partnerClassification : <string> # le nom de la classification de partenaire à récupérer
+    * partner : <Array<object>> # les partenaires commerciaux à prendre en compte (e.g. {"id": "Raw_materials,_inedible,_except_fuels~product_sitc_EN", "name": "Raw materials, inedible, except fuels", "value": "Raw_materials,_inedible,_except_fuels~product_sitc_EN"})
+    * kind : *total* | import | export # quels flux utiliser
+    * product : <Array<object>> # liste des produits à filtrer
+    * productClassification : <string> # Classification de produit à utiliser pour le filtre
+    
+    response = self.api('/viz/terms/' + classification, method='post', data=kwargs)
+    if reponse is None:
+      return self._format_response(response)['data']
+  """

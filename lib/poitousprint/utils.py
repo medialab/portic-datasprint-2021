@@ -322,8 +322,8 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
         "node_max_size": 10
     }
     params = {
-        *default_params,
-        *kwargs
+        **default_params,
+        **kwargs
     }
     
     # remplir les dicts

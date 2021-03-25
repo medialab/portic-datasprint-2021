@@ -52,13 +52,4 @@ Elle est constituée de deux clients web (un pour chaque base) et d'une série d
 from poitousprint import Portic, Toflit, nest_toflit18_flow, nest_portic_pointcall, build_cooccurence_graph
 ```
 
-## Client PORTIC
-
-### `portic.get_pointcalls`
-
-@todo trouver un mode de présentation unifié (paramètres, réponse, un exemple ?)
-
-## Client TOFLIT
-
-## Utilitaires
-
+Voir [la doc en ligne](https://medialab.github.io/portic-datasprint-2021/).

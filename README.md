@@ -31,27 +31,29 @@ Si les données de base venaient à être mises à jour en cours de datasprint, 
 - `examples` -> exemples de mobilisation de la bibliothèque seule et avec différentes technologies associées à des notebooks jupyter
 - `lib` -> la bibliothèque créée spécifiquement pour le datasprint. Elle pourra éventuellement être améliorée pendant le datasprint
 
-# Documentation de la bibliothèque
-Voir :
-[doc en ligne](https://medialab.github.io/portic-datasprint-2021/).
-[doc en jupyter notebook](https://github.com/medialab/portic-datasprint-2021/blob/main/documentation_lib.ipynb)
+# Bibliothèque python pour le datasprint
+
+Nous avons préparé une bibliothèque python censée faciliter la récupération et la manipulation des données des bases.
 
 Cette bibliothèque propose une abstraction permettant de manipuler les données avec une API unifiée, ainsi qu'une série d'utilitaires. Elle a vocation à être potentiellement enrichie pendant le datasprint.
+
+
+## Installer la bibliothèque
+
+La bibliothèque est installée localement par le script `install.sh` (ou via `pip install -e lib`) puis est accessible sous le nom de `poitousprint`.
+Ne pas oublier de la réinstaller après un git pull si besoin.
+
+
+## Utiliser la bibliothèque
+
+Voir :
+
+- [la doc en ligne en ligne](https://medialab.github.io/portic-datasprint-2021/).
+- [la doc en jupyter notebook exécutable](https://github.com/medialab/portic-datasprint-2021/blob/main/documentation_lib.ipynb)
+
 
 Les données de base sont disponibles à :
 
 * pour toflit18 : sur le répertoire [`medialab/toflit18_data/base courante.zip`](https://github.com/medialab/toflit18_data/blob/master/base/bdd%20courante.csv.zip) et via le [datascape](http://toflit18.medialab.sciences-po.fr/#/home)
 * pour PORTIC : à [http://data.portic.fr/api/](http://data.portic.fr/api/) (documentation originale [ici](https://gitlab.huma-num.fr/portic/porticapi))
-
-## Importer la bibliothèque
-
-La bibliothèque est installée localement par le script `install.sh` (ou via `pip install -e lib`) puis est accessible sous le nom de `poitousprint`.
-Ne pas oublier de la réinstaller après un git pull si besoin.
-
-Elle est constituée de deux clients web (un pour chaque base) et d'une série de fonctions utilitaires dédiées à la simplification des données, aux croisements ou à la préparation de visualisations et analyses :
-
-```python
-from poitousprint import Portic, Toflit, nest_toflit18_flow, nest_portic_pointcall, build_cooccurence_graph
-```
-
 

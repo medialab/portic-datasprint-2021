@@ -32,7 +32,9 @@ Si les données de base venaient à être mises à jour en cours de datasprint, 
 - `lib` -> la bibliothèque créée spécifiquement pour le datasprint. Elle pourra éventuellement être améliorée pendant le datasprint
 
 # Documentation de la bibliothèque
-Notebook de doc avec des exemples : https://github.com/medialab/portic-datasprint-2021/blob/main/documentation_lib.ipynb
+Voir :
+[doc en ligne](https://medialab.github.io/portic-datasprint-2021/).
+[doc en jupyter notebook](https://github.com/medialab/portic-datasprint-2021/blob/main/documentation_lib.ipynb)
 
 Cette bibliothèque propose une abstraction permettant de manipuler les données avec une API unifiée, ainsi qu'une série d'utilitaires. Elle a vocation à être potentiellement enrichie pendant le datasprint.
 
@@ -52,4 +54,4 @@ Elle est constituée de deux clients web (un pour chaque base) et d'une série d
 from poitousprint import Portic, Toflit, nest_toflit18_flow, nest_portic_pointcall, build_cooccurence_graph
 ```
 
-Voir [la doc en ligne](https://medialab.github.io/portic-datasprint-2021/).
+

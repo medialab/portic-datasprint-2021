@@ -14257,42 +14257,41 @@ a.anchor-link {
 <p>Sommaire des fonctions proposées :</p>
 <h4 id="Fonctions-principales-(r&#233;sultats-directement-utilisables-pour-l'&#233;tude)-:">Fonctions principales (r&#233;sultats directement utilisables pour l'&#233;tude) :<a class="anchor-link" href="#Fonctions-principales-(r&#233;sultats-directement-utilisables-pour-l'&#233;tude)-:">&#182;</a></h4><p>Portic:</p>
 <ul>
-<li><a href="#portic_client.get_pointcalls(kwargs">get_pointcalls</a>) : récupération de pointcalls (filtres disponibles : année, port d'enregistrement, entrée ou sortie dans le port, type de navire, activité déclarée (pêche, transport de marchandises ...), ...)</li>
+<li><a href="#portic_client.get_pointcalls(year=1787,-kwargs\">get_pointcalls</a>) : récupération de pointcalls (filtres disponibles : année, port d'enregistrement, entrée ou sortie dans le port, type de navire, activité déclarée (pêche, transport de marchandises ...), ...)</li>
 </ul>
 <p>Toflit :</p>
 <ul>
-<li><a href="#toflit_client.get_flows(start_year,-end_year,-year,-params, kwargs">get_flows</a>) : récupération de flows (1 flow = import / export d'une marchandise ; infos disponibles : import ou export, produit commercé, partenaire commercial, bureau des Fermes ou a été enregistré le flux ...)</li>
+<li><a href="#toflit_client.get_flows(start_year=None,-end_year=None,-year=None,-params=None,-kwargs\">get_flows</a>) : récupération de flows (1 flow = import / export d'une marchandise ; infos disponibles : import ou export, produit commercé, partenaire commercial, bureau des Fermes ou a été enregistré le flux ...)</li>
 </ul>
 <h4 id="Fonctions-secondaires-(r&#233;sultats-qui-vont-plut&#244;t-aider-&#224;-param&#233;trer-les-fonctions-principales,-nourrir-des-fonctions-de-visualisation,-...)">Fonctions secondaires (r&#233;sultats qui vont plut&#244;t aider &#224; param&#233;trer les fonctions principales, nourrir des fonctions de visualisation, ...)<a class="anchor-link" href="#Fonctions-secondaires-(r&#233;sultats-qui-vont-plut&#244;t-aider-&#224;-param&#233;trer-les-fonctions-principales,-nourrir-des-fonctions-de-visualisation,-...)">&#182;</a></h4><p>Utils :</p>
 <ul>
-<li><a href="#nest_toflit18_flow(flow">nest_toflit18_flow</a>) : organise un flux toflit18 en un ensemble de clés thématiques</li>
-<li><a href="#nest_portic_pointcall(pointcall">nest_portic_pointcall</a>) : organise un pointcall portic en un ensemble de clés thématiques</li>
-<li><a href="#build_cooccurence_graph(data,-key_1,-key_2,-**kwargs">build_cooccurence_graph</a>) : renvoie un graphe networkx de coocurrence entre des dicts (besoin de fournir 2 clés)</li>
-<li><a href="#get_online_csv(url">get_online_csv</a>) : récupère le contenu d'un csv en ligne (style google spreadsheet)</li>
-<li><a href="#get_pointcalls_commodity_purposes_as_toflit_product(pointcalls,-product_classification">get_pointcalls_commodity_purposes_as_toflit_product</a>) : correspondance de produits Portic / Toflit sur des pointcalls données en argument </li>
-<li><a href="#get_pointcalls_port_as_toflit_partner(pointcalls,-partner_classification">get_pointcalls_port_as_toflit_partner</a>)  : correspondance de ports d'enregistrement des congés Portic / partenaires Toflit sur des pointcalls données en argument </li>
-<li><a href="#get_pointcalls_homeport_as_toflit_partner(pointcalls,-partner_classification">get_pointcalls_homeport_as_toflit_partner</a>) : correspondance de ports d'appartenance des navires Portic / partenaires Toflit sur des pointcalls données en argument </li>
+<li><a href="#nest_toflit18_flow(flow\">nest_toflit18_flow</a>) : organise un flux toflit18 en un ensemble de clés thématiques</li>
+<li><a href="#nest_portic_pointcall(pointcall\">nest_portic_pointcall</a>) : organise un pointcall portic en un ensemble de clés thématiques</li>
+<li><a href="#build_cooccurence_graph(data,-key_1,-key_2,-**kwargs\">build_cooccurence_graph</a>) : renvoie un graphe networkx de coocurrence entre des dicts (besoin de fournir 2 clés)</li>
+<li><a href="#get_online_csv(url\">get_online_csv</a>) : récupère le contenu d'un csv en ligne (style google spreadsheet)</li>
+<li><a href="#get_pointcalls_commodity_purposes_as_toflit_product(pointcalls,-product_classification=&quot;product_simplification&quot;\">get_pointcalls_commodity_purposes_as_toflit_product</a>) : correspondance de produits Portic / Toflit sur des pointcalls données en argument </li>
+<li><a href="#get_pointcalls_port_as_toflit_partner(pointcalls,-product_classification=&quot;partner_simplification&quot;\">get_pointcalls_port_as_toflit_partner</a>)  : correspondance de ports d'enregistrement des congés Portic / partenaires Toflit sur des pointcalls données en argument </li>
+<li><a href="#get_pointcalls_homeport_as_toflit_partner(pointcalls,-product_classification=&quot;partner_simplification&quot;\">get_pointcalls_homeport_as_toflit_partner</a>) : correspondance de ports d'appartenance des navires Portic / partenaires Toflit sur des pointcalls données en argument </li>
 </ul>
 <p>Portic:</p>
 <ul>
-<li><a href="#portic_client.get_flows(params">get_flows</a>) : récupération de flux (1 flux portic = 1 trajet intermédiaire (escale), souvent décrit par plusieurs pointcalls)</li>
-<li><a href="#portic_client.get_travels(params">get_travels</a>) : récupération de travels (1 travel = ensemble de flux/escales qui s'enchainent ; infos disponibles : point de départ, d'arrivée, distance parcourue, infos sur le navire ...)</li>
-<li><a href="#portic_client.get_fieldnames(">get_fieldnames</a>) : récupère les noms des variables des données et leur description</li>
-<li><a href="#portic_client.get_departures_details(params">get_departures_details</a>) : récupère tous les ports aux alentours d'un point géographique donné</li>
-<li><a href="#portic_client.get_destinations_aggregated(params">get_destinations_aggregated</a>) : retourne une aggrégation des amirautés de départ de voyages qui arrivent dans des points situés dans le voisinage (voir paramètre radius) du point requêté.</li>
-<li><a href="#portic_client.get_ports(params">get_ports</a>) : description de ports et de leur localisation géographique</li>
+<li><a href="#portic_client.get_flows(kwargs\">get_flows</a>) : récupération de flux (1 flux portic = 1 trajet intermédiaire (escale), souvent décrit par plusieurs pointcalls)</li>
+<li><a href="#portic_client.get_travels(kwargs\">get_travels</a>) : récupération de travels (1 travel = ensemble de flux/escales qui s'enchainent ; infos disponibles : point de départ, d'arrivée, distance parcourue, infos sur le navire ...)</li>
+<li><a href="#portic_client.get_fieldnames(\">get_fieldnames</a>) : récupère les noms des variables des données et leur description</li>
+<li><a href="#portic_client.get_departures_details(lon=None,-lat=None,-radius=None,-kwargs\">get_departures_details</a>) : récupère tous les ports aux alentours d'un point géographique donné</li>
+<li><a href="#portic_client.get_destinations_aggregated(lon=None,-lat=None,-radius=None,-kwargs\">get_destinations_aggregated</a>) : retourne une aggrégation des amirautés de départ de voyages qui arrivent dans des points situés dans le voisinage (voir paramètre radius) du point requêté.</li>
+<li><a href="#portic_client.get_ports(srid=None\">get_ports</a>) : description de ports et de leur localisation géographique</li>
 </ul>
 <p>Toflit :</p>
 <ul>
-<li><a href="#toflit_client.get_flows_per_year(type,-params">get_flows_per_year</a>) : récupère les flux par année par direction ou par type de source</li>
-<li><a href="#toflit_client.get_locations(classification,-params">get_locations</a>) : récupère le réseau des lieux (directions et partenaires) et le montant de leurs échanges </li>
-<li><a href="#toflit_client.get_time_series(params">get_time_series</a>) : récupère des séries temporelles à propos des flux de marchandises</li>
-<li><a href="#toflit_client.get_customs_regions(">get_customs_regions</a>) : récupère toutes les direction des Fermes de la base Toflit18</li>
-<li><a href="#toflit_client.get_product_classifications(classification">get_product_classifications</a>) : récupère des informations sur une classification de produit toflit (et optionellement sur ses classifications filles)</li>
-<li><a href="#toflit_client.get_partner_classifications(">get_partner_classifications</a>) : récupère des informations sur une classification de partenaires toflit (et optionellement sur ses classifications filles)</li>
-<li><a href="#toflit_client.get_classification_groups(classification">get_classification_groups</a>) : récupère l'ensemble des catégories associées à une certaine classification (donnée en paramètre)</li>
-<li><a href="#toflit_client.get_product_terms(classification,-params">get_product_terms</a>) : récupère des produits et un nombre de flows associés ???</li>
-<li><a href="#toflit_client.get_sources_types(">get_sources_types</a>) : récupère les types de sources disponibles</li>
+<li><a href="#toflit_client.get_flows_per_year(type,-kwargs\">get_flows_per_year</a>) : récupère les flux par année par direction ou par type de source</li>
+<li><a href="#toflit_client.get_locations(classification=&#39;partner_orthographic&#39;,-kwargs\">get_locations</a>) : récupère le réseau des lieux (directions et partenaires) et le montant de leurs échanges </li>
+<li><a href="#toflit_client.get_time_series(kwargs\">get_time_series</a>) : récupère des séries temporelles à propos des flux de marchandises</li>
+<li><a href="#toflit_client.get_customs_regions(\">get_customs_regions</a>) : récupère toutes les direction des Fermes de la base Toflit18</li>
+<li><a href="#toflit_client.get_product_classifications(\">get_product_classifications</a>) : récupère des informations sur une classification de produit toflit (et optionellement sur ses classifications filles)</li>
+<li><a href="#toflit_client.get_partner_classifications(\">get_partner_classifications</a>) : récupère des informations sur une classification de partenaires toflit (et optionellement sur ses classifications filles)</li>
+<li><a href="#toflit_client.get_classification_groups(classification=&quot;product_simplification&quot;,-kwargs\">get_classification_groups</a>) : récupère l'ensemble des catégories associées à une certaine classification (donnée en paramètre)</li>
+<li><a href="#toflit_client.get_sources_types(\">get_sources_types</a>) : récupère les types de sources disponibles</li>
 </ul>
 <h3 id="Principe-g&#233;n&#233;raux-d'utilisation-du-client">Principe g&#233;n&#233;raux d'utilisation du client<a class="anchor-link" href="#Principe-g&#233;n&#233;raux-d'utilisation-du-client">&#182;</a></h3><p>Les fonctions Portic et Toflit sont appelées respectivement depuis portic_client et toflit_client.
 Les fonctions utils sont appelables directement.</p>
@@ -22067,9 +22066,9 @@ Elle renvoie un graphe networkx de coocurrence entre les dicts.</p>
 
 
 
-<div id="7109e236-ff1e-4777-8b7f-1780381d2023" class="jupyter-widgets jp-OutputArea-output ">
+<div id="e0226f05-740a-403c-b488-998047005706" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('7109e236-ff1e-4777-8b7f-1780381d2023');
+var element = document.getElementById('e0226f05-740a-403c-b488-998047005706');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "791c415e2caa40b89a70e3485d15a8f8", "version_major": 2, "version_minor": 0}
@@ -22500,10 +22499,10 @@ Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propri�
 Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propriété "pointcall_as_toflit_partner".</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">poitousprint</span> <span class="kn">import</span> <span class="n">Portic</span>
@@ -22521,6 +22520,185 @@ Elle renvoie en sortie la liste des dict de pointcalls enrichis avec une propri�
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[{&#39;pkid&#39;: 88712,
+  &#39;record_id&#39;: &#39;00345003&#39;,
+  &#39;pointcall&#39;: None,
+  &#39;pointcall_uhgs_id&#39;: &#39;H4444444&#39;,
+  &#39;toponyme_fr&#39;: &#39;pas identifié&#39;,
+  &#39;toponyme_en&#39;: &#39;To be identified&#39;,
+  &#39;latitude&#39;: None,
+  &#39;longitude&#39;: None,
+  &#39;pointcall_admiralty&#39;: None,
+  &#39;pointcall_province&#39;: None,
+  &#39;pointcall_states&#39;: None,
+  &#39;pointcall_substates&#39;: None,
+  &#39;pointcall_states_en&#39;: None,
+  &#39;pointcall_substates_en&#39;: None,
+  &#39;state_1789_fr&#39;: None,
+  &#39;state_1789_en&#39;: None,
+  &#39;substate_1789_fr&#39;: None,
+  &#39;substate_1789_en&#39;: None,
+  &#39;source_1787_available&#39;: False,
+  &#39;source_1789_available&#39;: False,
+  &#39;pointcall_status&#39;: None,
+  &#39;shiparea&#39;: None,
+  &#39;pointcall_point&#39;: None,
+  &#39;ferme_direction&#39;: None,
+  &#39;ferme_bureau&#39;: None,
+  &#39;ferme_bureau_uncertainty&#39;: None,
+  &#39;partner_balance_1789&#39;: None,
+  &#39;partner_balance_supp_1789&#39;: None,
+  &#39;partner_balance_1789_uncertainty&#39;: None,
+  &#39;partner_balance_supp_1789_uncertainty&#39;: None,
+  &#39;pointcall_out_date&#39;: None,
+  &#39;pointcall_action&#39;: &#39;In&#39;,
+  &#39;outdate_fixed&#39;: None,
+  &#39;pointcall_in_date&#39;: &#39;1789&gt;03&gt;20&#39;,
+  &#39;indate_fixed&#39;: None,
+  &#39;net_route_marker&#39;: None,
+  &#39;pointcall_function&#39;: &#39;T&#39;,
+  &#39;navigo_status&#39;: &#39;FC-RF&#39;,
+  &#39;ship_name&#39;: &#39;Grand Duc&#39;,
+  &#39;ship_id&#39;: None,
+  &#39;tonnage&#39;: &#39;250&#39;,
+  &#39;tonnage_unit&#39;: &#39;tx&#39;,
+  &#39;flag&#39;: &#39;British&#39;,
+  &#39;class&#39;: None,
+  &#39;ship_flag_id&#39;: &#39;A0395415&#39;,
+  &#39;in_crew&#39;: None,
+  &#39;homeport&#39;: &#39;Londres&#39;,
+  &#39;homeport_uhgs_id&#39;: &#39;A0381691&#39;,
+  &#39;homeport_toponyme_fr&#39;: &#39;Londres&#39;,
+  &#39;homeport_toponyme_en&#39;: &#39;London&#39;,
+  &#39;homeport_latitude&#39;: &#39;51.516667&#39;,
+  &#39;homeport_longitude&#39;: &#39;-0.1&#39;,
+  &#39;homeport_admiralty&#39;: None,
+  &#39;homeport_province&#39;: None,
+  &#39;homeport_states&#39;: &#39;[{&#34;1749-1815&#34; : &#34;Grande-Bretagne&#34;}]&#39;,
+  &#39;homeport_substates&#39;: &#39;[{&#34;1749-1815&#34; : &#34;Angleterre&#34;}]&#39;,
+  &#39;homeport_states_en&#39;: &#39;[{&#34;1749-1815&#34; : &#34;Great Britain&#34;}]&#39;,
+  &#39;homeport_substates_en&#39;: &#39;[{&#34;1749-1815&#34; : &#34;England&#34;}]&#39;,
+  &#39;homeport_state_1789_fr&#39;: &#39;Grande-Bretagne&#39;,
+  &#39;homeport_state_1789_en&#39;: &#39;Great Britain&#39;,
+  &#39;homeport_substate_1789_fr&#39;: &#39;Angleterre&#39;,
+  &#39;homeport_substate_1789_en&#39;: &#39;England&#39;,
+  &#39;homeport_source_1787_available&#39;: False,
+  &#39;homeport_source_1789_available&#39;: False,
+  &#39;homeport_status&#39;: None,
+  &#39;homeport_shiparea&#39;: &#39;NOR-THAM&#39;,
+  &#39;homeport_point&#39;: &#39;SRID=3857;POINT(-11131.9490793267 6713200.05942485)&#39;,
+  &#39;homeport_ferme_direction&#39;: None,
+  &#39;homeport_ferme_bureau&#39;: None,
+  &#39;homeport_ferme_bureau_uncertainty&#39;: None,
+  &#39;homeport_partner_balance_1789&#39;: &#39;Angleterre&#39;,
+  &#39;homeport_partner_balance_supp_1789&#39;: &#39;Etranger&#39;,
+  &#39;homeport_partner_balance_1789_uncertainty&#39;: 0.0,
+  &#39;homeport_partner_balance_supp_1789_uncertainty&#39;: 0.0,
+  &#39;source_doc_id&#39;: &#39;00335102&#39;,
+  &#39;source_text&#39;: &#39;ANF, G5-76/4119&#39;,
+  &#39;source_suite&#39;: &#39;G5&#39;,
+  &#39;source_component&#39;: &#39;ANF, G5-76&#39;,
+  &#39;source_number&#39;: 4119.0,
+  &#39;source_other&#39;: None,
+  &#39;source_main_port_uhgs_id&#39;: &#39;A0204180&#39;,
+  &#39;source_main_port_toponyme&#39;: &#39;Dunkerque&#39;,
+  &#39;source_subset&#39;: None,
+  &#39;captain_id&#39;: None,
+  &#39;captain_name&#39;: &#39;Pollock, J.&#39;,
+  &#39;birthplace&#39;: None,
+  &#39;status&#39;: None,
+  &#39;citizenship&#39;: None,
+  &#39;commodity_purpose&#39;: None,
+  &#39;commodity_id&#39;: None,
+  &#39;quantity&#39;: None,
+  &#39;quantity_u&#39;: None,
+  &#39;commodity_standardized&#39;: None,
+  &#39;commodity_standardized_fr&#39;: None,
+  &#39;commodity_permanent_coding&#39;: None,
+  &#39;all_cargos&#39;: None,
+  &#39;tax_concept&#39;: &#39;Droit de congé étranger de long cours&#39;,
+  &#39;payment_date&#39;: None,
+  &#39;q01&#39;: &#39;9.0&#39;,
+  &#39;q01_u&#39;: &#39;l.t.&#39;,
+  &#39;q02&#39;: &#39;7.0&#39;,
+  &#39;q02_u&#39;: None,
+  &#39;q03&#39;: &#39;6.0&#39;,
+  &#39;q03_u&#39;: None,
+  &#39;all_taxes&#39;: [{&#39;q01&#39;: &#39;9.0&#39;,
+    &#39;q02&#39;: &#39;7.0&#39;,
+    &#39;q03&#39;: &#39;6.0&#39;,
+    &#39;q01_u&#39;: &#39;l.t.&#39;,
+    &#39;q02_u&#39;: None,
+    &#39;q03_u&#39;: None,
+    &#39;tax_concept&#39;: &#39;Droit de congé étranger de long cours&#39;,
+    &#39;payment_date&#39;: None,
+    &#39;link_to_pointcall&#39;: &#39;00335102&#39;}],
+  &#39;ship_uncertainity&#39;: -4,
+  &#39;tonnage_uncertainity&#39;: 0,
+  &#39;flag_uncertainity&#39;: -2,
+  &#39;homeport_uncertainity&#39;: 0,
+  &#39;pointcall_uncertainity&#39;: -4,
+  &#39;captain_uncertainity&#39;: 0,
+  &#39;cargo_uncertainity&#39;: 0,
+  &#39;taxe_uncertainity&#39;: 0,
+  &#39;pointcall_in_date2&#39;: &#39;1789=03=20&#39;,
+  &#39;pointcall_out_date2&#39;: None,
+  &#39;date_fixed&#39;: None,
+  &#39;pointcall_rankfull&#39;: 9497,
+  &#39;ship_flag_standardized_fr&#39;: &#39;britannique&#39;,
+  &#39;ship_flag_standardized_en&#39;: &#39;British&#39;,
+  &#39;tonnage_class&#39;: &#39;[201-500]&#39;,
+  &#39;commodity_purpose2&#39;: None,
+  &#39;commodity_id2&#39;: None,
+  &#39;quantity2&#39;: None,
+  &#39;quantity_u2&#39;: None,
+  &#39;commodity_standardized2&#39;: None,
+  &#39;commodity_standardized2_fr&#39;: None,
+  &#39;commodity_permanent_coding2&#39;: None,
+  &#39;commodity_purpose3&#39;: None,
+  &#39;commodity_id3&#39;: None,
+  &#39;quantity3&#39;: None,
+  &#39;quantity_u3&#39;: None,
+  &#39;commodity_standardized3&#39;: None,
+  &#39;commodity_standardized3_fr&#39;: None,
+  &#39;commodity_permanent_coding3&#39;: None,
+  &#39;commodity_purpose4&#39;: None,
+  &#39;commodity_id4&#39;: None,
+  &#39;quantity4&#39;: None,
+  &#39;quantity_u4&#39;: None,
+  &#39;commodity_standardized4&#39;: None,
+  &#39;commodity_standardized4_fr&#39;: None,
+  &#39;commodity_permanent_coding4&#39;: None,
+  &#39;data_block_leader_marker&#39;: &#39;T&#39;,
+  &#39;pointcall_outdate_uncertainity&#39;: -1,
+  &#39;shipclass_uncertainity&#39;: -4,
+  &#39;birthplace_uhgs_id_uncertainity&#39;: -4,
+  &#39;birthplace_uncertainity&#39;: -4,
+  &#39;citizenship_uncertainity&#39;: -4,
+  &#39;birthplace_uhgs_id&#39;: None,
+  &#39;pointcall_as_toflit_partner&#39;: None}]</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>

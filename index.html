@@ -14243,19 +14243,18 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Doc-de-la-biblioth&#232;que-python-construite-pour-aider-&#224;-l'exploration-lors-du-datasprint-PORTIC-2021">Doc de la biblioth&#232;que python construite pour aider &#224; l'exploration lors du datasprint PORTIC 2021<a class="anchor-link" href="#Doc-de-la-biblioth&#232;que-python-construite-pour-aider-&#224;-l'exploration-lors-du-datasprint-PORTIC-2021">&#182;</a></h1><p>Objectif de cette lib :</p>
-<ul>
+<h1 id="Doc-de-la-biblioth&#232;que-python-construite-pour-aider-&#224;-l'exploration-lors-du-datasprint-PORTIC-2021">Doc de la biblioth&#232;que python construite pour aider &#224; l'exploration lors du datasprint PORTIC 2021<a class="anchor-link" href="#Doc-de-la-biblioth&#232;que-python-construite-pour-aider-&#224;-l'exploration-lors-du-datasprint-PORTIC-2021">&#182;</a></h1><h2 id="Objectif-de-la-biblioth&#232;que">Objectif de la biblioth&#232;que<a class="anchor-link" href="#Objectif-de-la-biblioth&#232;que">&#182;</a></h2><ul>
 <li>proposer deux clients pour récupérer les données PORTIC et de TOFLIT18, faciles à manipuler et avec une API la plus unifiée possible</li>
 <li>fournir des utils qui offrent des formatages des données adaptés (récupération de tableaux, construction de réseaux), et qui facilitent le croisement des données PORTIC / TOFLIT18</li>
 </ul>
-<p>Concernant les clients web pour l'accès aux données, vous pourrez également accéder par vos propres moyens à partir des sources existantes :</p>
+<h2 id="Information-sur-les-donn&#233;es">Information sur les donn&#233;es<a class="anchor-link" href="#Information-sur-les-donn&#233;es">&#182;</a></h2><p>Concernant les clients web pour l'accès aux données, vous pourrez également accéder par vos propres moyens à partir des sources existantes :</p>
 <ul>
 <li>Voir la doc de l'API PORTIC : <a href="https://gitlab.huma-num.fr/portic/porticapi/-/tree/master/porticapi">https://gitlab.huma-num.fr/portic/porticapi/-/tree/master/porticapi</a>]</li>
 <li>Voir le répertoire des données toflit18 au format csv : <a href="https://github.com/medialab/toflit18_data">https://github.com/medialab/toflit18_data</a>)</li>
 <li>Voir le code de l'API toflit18 : <a href="https://github.com/medialab/toflit18">https://github.com/medialab/toflit18</a>)</li>
 </ul>
-<p>Sommaire des fonctions proposées :</p>
-<h4 id="Fonctions-principales-(r&#233;sultats-directement-utilisables-pour-l'&#233;tude)-:">Fonctions principales (r&#233;sultats directement utilisables pour l'&#233;tude) :<a class="anchor-link" href="#Fonctions-principales-(r&#233;sultats-directement-utilisables-pour-l'&#233;tude)-:">&#182;</a></h4><p>Portic:</p>
+<h2 id="Installer-la-biblioth&#232;que">Installer la biblioth&#232;que<a class="anchor-link" href="#Installer-la-biblioth&#232;que">&#182;</a></h2><p>La bibliothèque est installée localement par le script <code>install.sh</code>, mais vous pouvez également l'installer depuis une copie du répertoire github via <code>pip install -e lib)</code>. Ne pas oublier de la réinstaller après un git pull dans le cas où elle aurait changé.</p>
+<h2 id="Sommaire-des-fonctions-propos&#233;es">Sommaire des fonctions propos&#233;es<a class="anchor-link" href="#Sommaire-des-fonctions-propos&#233;es">&#182;</a></h2><h4 id="Fonctions-principales-(donnent-acc&#232;s-aux-donn&#233;es-de-base-directement-utilisables-pour-l'&#233;tude)-:">Fonctions principales (donnent acc&#232;s aux donn&#233;es de base directement utilisables pour l'&#233;tude) :<a class="anchor-link" href="#Fonctions-principales-(donnent-acc&#232;s-aux-donn&#233;es-de-base-directement-utilisables-pour-l'&#233;tude)-:">&#182;</a></h4><p>Portic:</p>
 <ul>
 <li><a href="#portic_client.get_pointcalls(year=1787,-kwargs\">get_pointcalls</a>) : récupération de pointcalls (filtres disponibles : année, port d'enregistrement, entrée ou sortie dans le port, type de navire, activité déclarée (pêche, transport de marchandises ...), ...)</li>
 </ul>
@@ -14263,7 +14262,7 @@ a.anchor-link {
 <ul>
 <li><a href="#toflit_client.get_flows(start_year=None,-end_year=None,-year=None,-params=None,-kwargs\">get_flows</a>) : récupération de flows (1 flow = import / export d'une marchandise ; infos disponibles : import ou export, produit commercé, partenaire commercial, bureau des Fermes ou a été enregistré le flux ...)</li>
 </ul>
-<h4 id="Fonctions-secondaires-(r&#233;sultats-qui-vont-plut&#244;t-aider-&#224;-param&#233;trer-les-fonctions-principales,-nourrir-des-fonctions-de-visualisation,-...)">Fonctions secondaires (r&#233;sultats qui vont plut&#244;t aider &#224; param&#233;trer les fonctions principales, nourrir des fonctions de visualisation, ...)<a class="anchor-link" href="#Fonctions-secondaires-(r&#233;sultats-qui-vont-plut&#244;t-aider-&#224;-param&#233;trer-les-fonctions-principales,-nourrir-des-fonctions-de-visualisation,-...)">&#182;</a></h4><p>Utils :</p>
+<h4 id="Fonctions-secondaires-(plut&#244;t-pour-aider-&#224;-param&#233;trer-les-fonctions-principales,-nourrir-des-fonctions-de-visualisation,-...)">Fonctions secondaires (plut&#244;t pour aider &#224; param&#233;trer les fonctions principales, nourrir des fonctions de visualisation, ...)<a class="anchor-link" href="#Fonctions-secondaires-(plut&#244;t-pour-aider-&#224;-param&#233;trer-les-fonctions-principales,-nourrir-des-fonctions-de-visualisation,-...)">&#182;</a></h4><p>Utils :</p>
 <ul>
 <li><a href="#nest_toflit18_flow(flow\">nest_toflit18_flow</a>) : organise un flux toflit18 en un ensemble de clés thématiques</li>
 <li><a href="#nest_portic_pointcall(pointcall\">nest_portic_pointcall</a>) : organise un pointcall portic en un ensemble de clés thématiques</li>
@@ -22066,9 +22065,9 @@ Elle renvoie un graphe networkx de coocurrence entre les dicts.</p>
 
 
 
-<div id="e0226f05-740a-403c-b488-998047005706" class="jupyter-widgets jp-OutputArea-output ">
+<div id="1c126189-4c08-40b4-bc3f-998109fb073c" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('e0226f05-740a-403c-b488-998047005706');
+var element = document.getElementById('1c126189-4c08-40b4-bc3f-998109fb073c');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "791c415e2caa40b89a70e3485d15a8f8", "version_major": 2, "version_minor": 0}

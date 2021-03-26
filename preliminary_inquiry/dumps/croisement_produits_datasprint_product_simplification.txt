@@ -1,0 +1,505 @@
+ensemble 1 - produits qu'on retrouve à la fois dans Toflit18 et Portic (55):
+chanvre
+avoine
+merrains
+pierres
+charbon de terre
+bois
+fer
+café avarié
+bois pour brûler
+futailles vides
+vinaigre
+étoupes
+grains méteil
+grains divers
+bordage
+brai
+noix
+beurre
+fer vieux
+vaches
+goudron
+café
+résines
+grains froment
+graine de lin
+fagots
+marchandises
+fromage
+mobilier
+morue verte
+grains orge
+cuivre
+farine
+bois pour construction
+futailles
+charbon de bois
+bière
+faïence
+sel
+lin
+eau-de-vie
+biscuit
+sardines salées
+chaux
+plâtre
+verges à moulins
+lard salé
+suif
+fèves
+coton
+oignons
+laine
+sardines
+vin
+savon
+
+
+
+ensemble 2 - produits qu'on retrouve exclusivement dans Toflit18 (349):
+chanvre en rames
+mouchoirs des Indes
+planches de cuivre
+peaux de martre
+toile à carreaux et de lin
+anisette
+limes
+mélasse rhum sirop taffia
+fèves blanches
+platille
+planches de bois
+prunes
+cuirs de bœuf tannés
+peaux apprêtées de cheval
+ouvrages de bois
+peaux de mouton
+marchandises à l'estimation
+huile de noix
+papier
+toile écrue
+matériaux de bois
+toile de coton et de fil
+eau de fleurs d'oranger
+toile de basin
+merrains pour tonnellerie
+merrains de chêne
+poudre à tirer
+marbre
+fruits verts
+fruits secs
+linge vieux
+harengs blancs
+ciseaux
+drogues pour peintures et teinture
+toile blanche
+bordage de chêne
+liège en planches
+indigo
+drap
+chandelle de suif
+indienne
+drap calimouk
+moutons
+hardes pour nègre
+vin blanc
+limeneas
+poix blanche
+cacao
+peaux de veau en poil
+fil de lin
+cuirs secs en poil
+cuirs de bœuf verts
+bois pour construction de sapin
+plomb
+toile de chanvre à carreaux
+toile sanas lustrée
+sabots et selles de bois
+perches de bois
+mouchoirs romals
+quincaillerie de fer
+bois de menuiserie
+piment
+fer en plaques
+drogues composées
+étoffe de fil et de soie
+dents d'éléphant
+bajutapau
+vin divers
+alun
+toile de lin
+cuirs en poil de vache
+peaux de castor
+ouvrages de coutellerie argenterie
+pipes à fumer de terre cuite
+pois verts
+câble
+chocolat
+confitures
+grains millet
+cuirs de bœuf
+gaze de soie
+terraille
+poutres de sapin
+toile d'emballage
+bonneterie de coton
+légumes
+cuirs tannés de vache
+ancres de fer
+fusils
+drap petit
+châtaignes sèche
+linon
+maquereaux
+éponges
+drap d'Elbeuf
+eau de Hongrie
+fruits confits en vinaigre
+céruse
+brai gras
+bois de Campêche
+mouchoirs de coton
+lingerie
+plaques de cheminées en fer
+grains riz
+étoffe de soie dorure d'argent et d'or
+chevaux
+ruban de fil
+fil de fer
+gomme arabique
+épicerie
+peaux de chevreuil
+canevettes
+pierres à bâtir
+sabres
+étoffe de coton
+grains comestibles
+guinée
+ferraille
+instruments de musique
+indienne de coton
+vin de Champagne
+peaux de mouton tannées
+couvertures de laine
+barres de fer
+outils de pêche
+toile de lin rousse
+ouvrages de corail
+neganepeau
+coutellerie
+casimir de laine
+peaux tannées de veau
+étoffe de soie
+vin de Constance
+toile de fil
+colle de poisson
+toile coutil
+liège
+verroterie en rassades
+sucre terré
+toile de lin blanche
+salsepareille
+pistolets
+foin
+sirop fin
+plomb en saumon
+mercerie
+cassonade
+mine de plomb
+sucre brut
+vin de liqueurs
+huile d'olive
+verrerie en bouteilles
+flanelle de laine
+couperose verte
+colle forte
+sucre têtes
+toile de chanvre rousse
+ouvrages d'osier
+bois pour brûler et fagots
+baleine coupée
+flanelle fil et laine
+baleine
+barres d'anspect en bois
+rogues
+moulins à café
+plomb en grenaille
+toile socreton bleue
+sucre raffiné
+farine de froment
+toile socreton
+planches de sapin
+couperose
+vin ordinaire
+feuillards de bois
+vin de Bordeaux
+inde plate
+haricots
+pommes de terre
+toile cotonnade
+huile de baleine
+quinquina
+objets de peu de valeur
+manne
+bonnets de laine
+huile de poisson
+soufre
+bœuf
+drogues diverses médicinales
+bas de soie
+ouvrages de jonc
+liège en bouchons
+bois et écorces de chêne et de frêne
+lattes de bois
+toile guingans
+eau-de-vie simple
+cercles de bois
+cauris
+médicaments
+colle
+toile pour voile
+toile kircochaye
+vin d'Espagne
+suif fondu
+ouvrages de coutellerie
+perches de sapin
+farine gruau
+chanvre en masses
+thé
+ouvrages de marbre
+clous
+toile de coton
+cuivre brut
+poisson salé
+brai et goudron
+bois d'acajou
+graine de jardin
+ouvrages de grès
+ouvrages de plomb
+ouvrages de fer
+grains seigle
+armes blanches
+étain en saumon
+sardines apprêtées
+biscuit de mer
+bois jaune
+cordage
+huile de lin
+futailles petites
+bordage de sapin
+bois osier
+vin de Malaga
+drogues pour peintures
+bois de chêne
+jus de réglisse
+bœuf salé
+toile coupis
+étoffe au quart de soie
+enclumes
+étoffe fleuret
+café de Bourbon
+siamoise de coton et de fil
+papier peint
+tartre
+mousseline
+toile tapsel
+toile salemporis bleue
+fer noir
+ouvrages d'orfèvrerie
+broderie
+étoffe de laine
+saumon salé
+bonneterie de fil
+stockfisch salé
+bois de Caliatour
+chapeaux
+chapeaux de feutre
+cornalines
+poil de laine
+toile chasselas
+tôle de fer
+vin étranger
+lin peigné
+agrès
+cuirs tannés
+veaux
+bois de sapin
+soliveaux de bois
+étoffe de fil et de laine
+mouchoirs de soie
+dégras d'huile
+bois de Brésil
+cheveux
+drap commun
+peaux apprêtées de veau
+étain
+eau-de-vie double
+mouchoirs de coton et de fil
+feuillards de fer
+morceaux de sapin
+meules
+papier blanc
+amandes
+cuivre à lessive
+peaux d'ours
+merrains de sapin
+amidon
+ouvrages de cuivre
+fer-blanc
+toile de chanvre pour voile
+pierres à faux
+hardes vieilles
+bâtiments naufragés
+mouchoirs imprimés
+bonneterie de laine
+poudre
+librairie
+sirop de mélasse
+volailles
+voitures
+babassis
+quincaillerie de cuivre
+mâts
+brai gras et sec
+rocou
+huile de graine
+mouchoirs de coton et soie
+poterie de terre cuite
+bayette
+corail
+toile de basin coton et fil
+porcs
+café de Moka
+cire blanche
+planches de pin
+acier
+cannelle
+mitrailles de cuivre
+Nankin
+clous de fer
+pipes à fumer
+mercerie commune
+bonneterie de soie
+liqueurs
+ouvrages de terre cuite
+toile photas
+lin préparé
+sable
+quincaillerie
+vin rouge
+toile de chanvre
+velours de coton
+jambon
+drap de Silésie
+séné
+peaux de daim
+toile custas
+brai sec
+orange fraîche
+toile des Indes
+graisse
+azur
+parfumerie
+pelleterie commune
+fil de coton
+bois de Pernambouc
+manches de bois de gaffes
+toile à carreaux
+Marly
+suif en rames
+
+
+
+ensemble 3 - produits qu'on retrouve exclusivement dans Portic (92):
+pièces de bois
+planches
+bûches
+cercles
+à l'aventure
+restant de beurre
+vesces
+grains blé
+vide
+poterie
+passagers
+poudre de guerre
+copeaux
+fourrages
+restant de chaux
+bouteilles vides
+divers
+pêche au poisson frais
+briques
+huîtres
+baillarge
+peaux de bœuf
+vinaterie
+sucre
+pois
+terre
+pêche (sortie)
+bois de navire
+poisson
+outils de pêche à la morue
+poudre à canons
+terre de broue
+marchandises de foire
+hardes
+cendre
+tuiles
+blé
+lentilles
+lest en fer
+cerises
+grains de lin
+morue
+soudes
+grains
+pêche à la morue
+canons
+fûts
+sardines pressées de Bretagne
+pacotille
+ails
+fruits
+meules pour moulins
+moules
+marchandises de Marseille
+moutarde
+feuillards
+restant de futailles
+grains baillarge
+salaisons
+à vide
+tourbe
+cendre de lessive
+marchandises provenant d'un naufrage
+pommes
+marchandises permises
+cordage vieux
+faire la pêche au poisson frais
+minot
+pierres de taille
+fumier
+carreaux
+None
+échalote
+huile
+lest
+pêche aux moules et au poisson frais
+verres cassés
+???
+son
+marchandises des Îles
+fourrages en fagots
+restant de marchandises
+pêche aux moules
+poisson sec
+mogette
+bois de charpente
+charbon
+bouteilles
+morue sèche
+ardoises
+vin pour lest
+marchandises pour la traite

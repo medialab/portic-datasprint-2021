@@ -1,0 +1,128 @@
+ensemble 1 - produits qu'on retrouve à la fois dans Toflit18 et Portic (46):
+Fruits secs et noix
+Graines diverses et mélangées
+Fromage
+Brai, goudron et résines
+Bière, cidre et vinaigre
+Matières premières diverses
+Légumes
+Cordage et filets
+Sel
+Beurre
+Ouvrages de bois, liège et jonc
+Savon
+Ouvrages divers et mélangés
+Ouvrages métalliques
+Fer
+Lin
+Blé et autres grains comestibles
+Graines grasses
+Bâtiments de mer et apparaux
+Chairs et œufs
+Farine, gruau, biscuits et pâtes
+Habits et lingerie
+Divers incertains
+Chanvre
+Porcelaine, poterie, faïence et ouvrages de terre
+Graisses diverses
+Verrerie
+Eaux-de-vie et liqueurs
+Divers mélangés
+Animaux
+Sucre
+Café
+Produits inconnus
+Vins divers
+Fruits frais
+Bois divers hors combustible
+Cuirs, peaux et pelleterie
+Huiles diverses
+Meubles, glaces et miroirs
+Combustibles dont charbons et bois
+Subsistances diverses et mélangées
+Coton non transformé
+Laines non transformées diverses
+Armes, munitions, poudre et pierres à fusil
+Pêche et fruits de mer
+Cuivre
+
+
+
+ensemble 2 - produits qu'on retrouve exclusivement dans Toflit18 (68):
+Bonneterie de soie
+Librairie
+Vin de liqueurs
+Chevaux et bêtes de somme
+Quinquina
+Cornes, corail, écailles, ivoire et nacre
+Marbre brut et ouvré
+Mousseline, basin et nankin
+Cannelle
+Matières brutes et transformées pour teinture
+Alun
+Poivre et piment
+Poils et crin
+Bonneterie hors soie
+Manne et médicaments
+Huile de poisson
+Salpêtre et soufre
+Séné
+Fils divers
+Quincaillerie
+Plomb
+Vins de Bordeaux
+Salsepareille
+Toiles diverses
+Bouchons principalement en liège
+Bijouterie et pierres fines
+Riz
+Étoffes de soie
+Fleurs artificielles et ouvrages de mode
+Parfumerie et toilette
+Fer-blanc
+Papier
+Étoffes de laine
+Huile d'olive à manger
+Rubanerie et passementerie diverse
+Bougies, chandelles et flambeaux
+Acier
+Faucilles, faux et limes
+Métaux divers et mélangés
+Cordonnerie et sellerie
+Réglisse
+Châles et mouchoirs hors soie
+Cacao et chocolat
+Gommes diverses
+Drogues diverses
+Indigo
+Textiles manufacturés divers et mélangés
+Toiles de chanvre et de lin
+Thé
+Soieries diverses
+Étoffes diverses
+Alquifoux, mine de plomb et graphite
+Rocou
+Drogues médicinales diverses
+Étain
+Denrées coloniales et épiceries diverses
+Céruse et blanc de plomb
+Toiles de coton
+Argenterie et orfèvrerie
+Colles diverses
+Chapeaux hors paille et écorce
+Objets d'art et d'histoire naturelle
+Mercerie
+Azur et cobalt
+Graines de jardin
+Sirop et mélasse
+Châles et mouchoirs de soie
+Cire
+
+
+
+ensemble 3 - produits qu'on retrouve exclusivement dans Portic (5):
+Êtres humains
+Sortie pour pêche
+None
+Cendres diverses
+Alcalis

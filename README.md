@@ -5,7 +5,7 @@ Ce répertoire contient à la fois un ensemble de ressources et les productions 
 
 # Installation
 
-Prérequis : installer [git](https://git-scm.com/), python et pip, puis éventuellement créez votre environnement virtuel.
+Prérequis : installer [git](https://git-scm.com/), [python](https://www.python.org/downloads/) et [pip](https://pypi.org/project/pip/), puis éventuellement créez votre environnement virtuel.
 
 Puis dans votre terminal, lancer les commandes suivantes :
 
@@ -14,7 +14,6 @@ git clone git@github.com:medialab/portic-datasprint-2021.git
 cd portic-datasprint-2021
 ./install.sh
 ```
-
 # Mise à jour des données
 
 Si les données de base venaient à être mises à jour en cours de datasprint, une commande permet de les mettre à jour sur votre copie locale du répertoire (dans le dossier `data`) :
@@ -40,15 +39,14 @@ Cette bibliothèque propose une abstraction permettant de manipuler les données
 
 ## Installer la bibliothèque
 
-La bibliothèque est installée localement par le script `install.sh` (ou via `pip install -e lib`) puis est accessible sous le nom de `poitousprint`.
+La bibliothèque python est installée localement par le script `install.sh` (ou via `pip install -e lib`) puis est accessible sous le nom de `poitousprint`.
 Ne pas oublier de la réinstaller après un git pull si besoin.
-
 
 ## Utiliser la bibliothèque
 
 Voir :
 
-- [la doc en ligne en ligne](https://medialab.github.io/portic-datasprint-2021/).
+- [la doc en ligne](https://medialab.github.io/portic-datasprint-2021/).
 - [la doc en jupyter notebook exécutable](https://github.com/medialab/portic-datasprint-2021/blob/main/documentation_lib.ipynb)
 
 

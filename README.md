@@ -55,3 +55,15 @@ Les données de base sont disponibles à :
 * pour toflit18 : sur le répertoire [`medialab/toflit18_data/base courante.zip`](https://github.com/medialab/toflit18_data/blob/master/base/bdd%20courante.csv.zip) et via le [datascape](http://toflit18.medialab.sciences-po.fr/#/home)
 * pour PORTIC : à [http://data.portic.fr/api/](http://data.portic.fr/api/) (documentation originale [ici](https://gitlab.huma-num.fr/portic/porticapi))
 
+## Utilitaire de transformation de notebooks en fichiers HTML
+
+Le répertoire contient également un utilitaire permettant de transformer tous les notebooks d'un dossier donné en fichier HTML.
+
+```bash
+python cipynb.py [nom du dossier] -to html
+```
+
+Ces derniers sont ensuite accessibles en ligne à `https://medialab.github.io/portic-datasprint-2021/[chemin relatif vers le fichier]`
+
+Exemple : [`https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/1-analyse-navigo.html`](`https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/1-analyse-navigo.html`)
+

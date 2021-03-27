@@ -286,7 +286,6 @@ def nest_portic_pointcall(pointcall):
     commodity_id = 'commodity_id' + suffix
     quantity = 'quantity' + suffix
     quantity_u = 'quantity_u' + suffix
-    print('test', commodity_purpose, 'val:', pointcall[commodity_purpose])
     if commodity_purpose in pointcall and pointcall[commodity_purpose] is not None:
       purpose = {
         "commodity_purpose": pointcall[commodity_purpose] if commodity_purpose in pointcall else None,

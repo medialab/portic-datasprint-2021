@@ -1,24 +1,24 @@
 port_Navigo,ferme_bureau_Toflit
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Esnandes,La Rochelle
-Le Plomb, pas de bureau
-Le Plomb, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Le Plomb,pas de bureau rattaché
+Le Plomb,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 La Tremblade,Marennes
@@ -26,7 +26,7 @@ La Tremblade,Marennes
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 Marennes,Marennes
@@ -40,7 +40,7 @@ Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -49,13 +49,13 @@ Charente,Charente
 Charente,Charente
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Coureaux [de Ré], pas de bureau
+Coureaux [de Ré],pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 Charente,Charente
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
@@ -101,8 +101,8 @@ Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 Charente,Charente
 Charente,Charente
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 Ribérou [Saujon],Marennes
@@ -1358,7 +1358,7 @@ La Flotte en Ré,Saint-Martin île de Ré
 Marennes,Marennes
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 Marennes,Marennes
@@ -1622,18 +1622,18 @@ La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Brouage, pas de bureau
+Brouage,pas de bureau rattaché
 Marennes,Marennes
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 Charente,Charente
 Charente,Charente
 La Flotte en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Charente,Charente
 Aligre de Marans,Alligre
@@ -1648,23 +1648,23 @@ La Perrotine,Marennes
 Soubise,Marennes
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Marennes,Marennes
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Marennes,Marennes
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Aligre de Marans,Alligre
 Marennes,Marennes
 Marennes,Marennes
@@ -1726,8 +1726,8 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Flotte en Ré,Saint-Martin île de Ré
 Charente,Charente
 Charente,Charente
@@ -1764,12 +1764,12 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Chaput, pas de bureau
-Chaput, pas de bureau
-Brouage, pas de bureau
-Brouage, pas de bureau
-Brouage, pas de bureau
-Brouage, pas de bureau
+Chaput,pas de bureau rattaché
+Chaput,pas de bureau rattaché
+Brouage,pas de bureau rattaché
+Brouage,pas de bureau rattaché
+Brouage,pas de bureau rattaché
+Brouage,pas de bureau rattaché
 Ars en Ré,Saint-Martin île de Ré
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -1779,20 +1779,20 @@ Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Marennes,Marennes
 Rochefort,Rochefort
-Chaillevette, pas de bureau
+Chaillevette,pas de bureau rattaché
 Rochefort,Rochefort
 Marennes,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Marennes,Marennes
@@ -1801,7 +1801,7 @@ Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 La Rochelle,La Rochelle
@@ -1816,33 +1816,33 @@ Charente,Charente
 Charente,Charente
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Charente,Charente
-Brouage, pas de bureau
-Brouage, pas de bureau
+Brouage,pas de bureau rattaché
+Brouage,pas de bureau rattaché
 Charente,Charente
-Anveaux, pas de bureau
-Anveaux, pas de bureau
+Anveaux,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
-Saintes, pas de bureau
+Saintes,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -1873,7 +1873,7 @@ La Rochelle,La Rochelle
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -1883,17 +1883,17 @@ Rochefort,Rochefort
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 La Perrotine,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Charente,Charente
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -1911,7 +1911,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Avallon, pas de bureau
+Avallon,pas de bureau rattaché
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 La Rochelle,La Rochelle
@@ -1929,16 +1929,16 @@ La Flotte en Ré,Saint-Martin île de Ré
 Ribérou [Saujon],Marennes
 Marennes,Marennes
 La Tremblade,Marennes
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Tremblade,Marennes
 Marennes,Marennes
 Marennes,Marennes
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Marennes,Marennes
@@ -1949,12 +1949,12 @@ Ars en Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 Marennes,Marennes
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Marennes,Marennes
@@ -1982,13 +1982,13 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Ars en Ré,Saint-Martin île de Ré
 Charente,Charente
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -2060,7 +2060,7 @@ Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Anveaux, pas de bureau
+Anveaux,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -2086,8 +2086,8 @@ Marennes,Marennes
 La Rochelle,La Rochelle
 Marennes,Marennes
 Aligre de Marans,Alligre
-Oléron, pas de bureau
-Seudre, pas de bureau
+Oléron,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 La Perrotine,Marennes
 Aligre de Marans,Alligre
 Soubise,Marennes
@@ -2099,8 +2099,8 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Brouage, pas de bureau
-Oléron, pas de bureau
+Brouage,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -2108,21 +2108,21 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Fouras, pas de bureau
+Fouras,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
@@ -2131,60 +2131,60 @@ Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 Charente,Charente
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Marennes,Marennes
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Esnandes,La Rochelle
 Esnandes,La Rochelle
 Esnandes,La Rochelle
 Esnandes,La Rochelle
-Le Plomb, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Le Plomb,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Tremblade,Marennes
 La Tremblade,Marennes
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
@@ -2196,16 +2196,16 @@ Charente,Charente
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Taillebourg, pas de bureau
-Oléron, pas de bureau
+Taillebourg,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -2235,8 +2235,8 @@ Rochefort,Rochefort
 Saint Denis [d' Oléron],Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-dans le Pertuis, pas de bureau
-Oléron, pas de bureau
+dans le Pertuis,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Ars en Ré,Saint-Martin île de Ré
 Marennes,Marennes
@@ -3555,8 +3555,8 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Charente,Charente
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
@@ -3574,20 +3574,20 @@ La Tremblade,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Marennes,Marennes
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 Ribérou [Saujon],Marennes
 Soubise,Marennes
 La Rochelle,La Rochelle
 Charente,Charente
-Oléron, pas de bureau
-Oléron, pas de bureau
-Chaput, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Chaput,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 Marennes,Marennes
 La Rochelle,La Rochelle
@@ -3601,7 +3601,7 @@ Aligre de Marans,Alligre
 Royan,Marennes
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Marennes,Marennes
 Marennes,Marennes
@@ -3660,8 +3660,8 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Perrotine,Marennes
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Flotte en Ré,Saint-Martin île de Ré
 Charente,Charente
 Charente,Charente
@@ -3716,19 +3716,19 @@ La Perrotine,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 La Rochelle,La Rochelle
@@ -3759,8 +3759,8 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
-Dercie, pas de bureau
-Oléron, pas de bureau
+Dercie,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
@@ -3769,17 +3769,17 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Chaput, pas de bureau
+Chaput,pas de bureau rattaché
 Aligre de Marans,Alligre
 La Flotte en Ré,Saint-Martin île de Ré
-Loix, pas de bureau
+Loix,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Coureaux [de Ré], pas de bureau
+Coureaux [de Ré],pas de bureau rattaché
 Rochefort,Rochefort
-dans le Pertuis, pas de bureau
+dans le Pertuis,pas de bureau rattaché
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
@@ -3802,26 +3802,26 @@ La Rochelle,La Rochelle
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Tremblade,Marennes
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -3841,7 +3841,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Soubise,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -3849,34 +3849,34 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Ars en Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
 La Tremblade,Marennes
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Perrotine,Marennes
 Charente,Charente
 La Rochelle,La Rochelle
 La Perrotine,Marennes
-Ile de Ré, pas de bureau
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -3897,14 +3897,14 @@ Charente,Charente
 La Rochelle,La Rochelle
 Ribérou [Saujon],Marennes
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -4011,7 +4011,7 @@ La Rochelle,La Rochelle
 Marennes,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 Soubise,Marennes
 La Rochelle,La Rochelle
@@ -4024,12 +4024,12 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
@@ -4044,78 +4044,78 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Anveaux, pas de bureau
-Anveaux, pas de bureau
-Anveaux, pas de bureau
+Anveaux,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
-Dercie, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Dercie,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 La Perrotine,Marennes
 Ribérou [Saujon],Marennes
 Ribérou [Saujon],Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Esnandes,La Rochelle
 Esnandes,La Rochelle
 Esnandes,La Rochelle
 Esnandes,La Rochelle
-Le Plomb, pas de bureau
-Le Plomb, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Chaput, pas de bureau
+Le Plomb,pas de bureau rattaché
+Le Plomb,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Chaput,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Saint Denis [d' Oléron],Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
@@ -4132,16 +4132,16 @@ Charente,Charente
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
-Chaput, pas de bureau
-Taillebourg, pas de bureau
-Oléron, pas de bureau
+Chaput,pas de bureau rattaché
+Taillebourg,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Charente,Charente
-Seudre, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Seudre,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -4151,7 +4151,7 @@ Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
@@ -4174,18 +4174,18 @@ Ribérou [Saujon],Marennes
 Saint Denis [d' Oléron],Marennes
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Aligre de Marans,Alligre
 Charente,Charente
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 Marennes,Marennes
 Charente,Charente
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Aligre de Marans,Alligre
 Marennes,Marennes
 Ars en Ré,Saint-Martin île de Ré
@@ -4197,7 +4197,7 @@ Marennes,Marennes
 Saint Martin de Ré,Saint-Martin île de Ré
 Marennes,Marennes
 Charente,Charente
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -5519,8 +5519,8 @@ Charente,Charente
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
 Charente,Charente
@@ -5531,7 +5531,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Soubise,Marennes
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -5542,31 +5542,31 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-dans le Pertuis, pas de bureau
+dans le Pertuis,pas de bureau rattaché
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Flotte en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 Soubise,Marennes
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Esnandes,La Rochelle
 Marennes,Marennes
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
 Marennes,Marennes
 Marennes,Marennes
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Perrotine,Marennes
 Marennes,Marennes
 Marennes,Marennes
@@ -5625,10 +5625,10 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
@@ -5668,36 +5668,36 @@ Marennes,Marennes
 Aligre de Marans,Alligre
 Rochefort,Rochefort
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Chaput, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Chaput,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 La Perrotine,Marennes
 Charente,Charente
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Charente,Charente
 Rochefort,Rochefort
 Charente,Charente
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Perrotine,Marennes
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -5724,24 +5724,24 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Marennes,Marennes
-Seudre, pas de bureau
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
+Seudre,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Perrotine,Marennes
-Dercie, pas de bureau
+Dercie,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-dans le Pertuis, pas de bureau
+dans le Pertuis,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 La Rochelle,La Rochelle
@@ -5750,8 +5750,8 @@ Charente,Charente
 La Perrotine,Marennes
 Ars en Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
-Loix, pas de bureau
-Loix, pas de bureau
+Loix,pas de bureau rattaché
+Loix,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -5759,33 +5759,33 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Esnandes,La Rochelle
 Esnandes,La Rochelle
 Ars en Ré,Saint-Martin île de Ré
 Ars en Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 Ars en Ré,Saint-Martin île de Ré
-Saint André de Cuzac, pas de bureau
+Saint André de Cuzac,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
 Marennes,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Chaput, pas de bureau
-Oléron, pas de bureau
+Chaput,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -5804,18 +5804,18 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Saintes, pas de bureau
+Saintes,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Chaput, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Chaput,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
@@ -5837,13 +5837,13 @@ Marennes,Marennes
 Marennes,Marennes
 Ars en Ré,Saint-Martin île de Ré
 Ars en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Marennes,Marennes
@@ -5854,7 +5854,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
@@ -5872,11 +5872,11 @@ Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 Ars en Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -5889,7 +5889,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Marennes,Marennes
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 Charente,Charente
@@ -5897,7 +5897,7 @@ Charente,Charente
 Ribérou [Saujon],Marennes
 Soubise,Marennes
 Rochefort,Rochefort
-Loix, pas de bureau
+Loix,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -5970,8 +5970,8 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Rochefort,Rochefort
@@ -5981,7 +5981,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -5989,11 +5989,11 @@ Rochefort,Rochefort
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
@@ -6004,11 +6004,11 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Chaillevette, pas de bureau
-Anveaux, pas de bureau
-Anveaux, pas de bureau
+Chaillevette,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 Aligre de Marans,Alligre
@@ -6019,7 +6019,7 @@ Marennes,Marennes
 Aligre de Marans,Alligre
 Rochefort,Rochefort
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Charente,Charente
@@ -6031,7 +6031,7 @@ Rochefort,Rochefort
 Marennes,Marennes
 Charente,Charente
 La Perrotine,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -6039,7 +6039,7 @@ La Flotte en Ré,Saint-Martin île de Ré
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Bourcefranc, pas de bureau
+Bourcefranc,pas de bureau rattaché
 Aligre de Marans,Alligre
 Charente,Charente
 Aligre de Marans,Alligre
@@ -6048,11 +6048,11 @@ Ars en Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 Marennes,Marennes
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 La Perrotine,Marennes
@@ -6068,50 +6068,50 @@ Le Chateau [d' Oléron],Marennes
 Le Chateau [d' Oléron],Marennes
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
-dans le Pertuis, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+dans le Pertuis,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Perrotine,Marennes
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Esnandes,La Rochelle
 Esnandes,La Rochelle
 Esnandes,La Rochelle
-Le Plomb, pas de bureau
-Saint André de Cuzac, pas de bureau
-Le Plomb, pas de bureau
+Le Plomb,pas de bureau rattaché
+Saint André de Cuzac,pas de bureau rattaché
+Le Plomb,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-La Rochelle,La Rochelle
-La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+La Rochelle,La Rochelle
+La Rochelle,La Rochelle
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
 La Tremblade,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Perrotine,Marennes
 Aligre de Marans,Alligre
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -6120,12 +6120,12 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Le Plomb, pas de bureau
+Le Plomb,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 Charente,Charente
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -6137,19 +6137,19 @@ Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 Charente,Charente
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Marennes,Marennes
-Saintes, pas de bureau
-Loix, pas de bureau
+Saintes,pas de bureau rattaché
+Loix,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -6202,10 +6202,10 @@ Le Chateau [d' Oléron],Marennes
 Charente,Charente
 La Rochelle,La Rochelle
 Ars en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Saintes, pas de bureau
+Saintes,pas de bureau rattaché
 Aligre de Marans,Alligre
 Charente,Charente
 La Rochelle,La Rochelle
@@ -6216,20 +6216,20 @@ Aligre de Marans,Alligre
 Marennes,Marennes
 Rochefort,Rochefort
 Charente,Charente
-Le Plomb, pas de bureau
+Le Plomb,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
-Chaput, pas de bureau
+Chaput,pas de bureau rattaché
 Charente,Charente
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
-Brouage, pas de bureau
+Brouage,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 Charente,Charente
@@ -6358,29 +6358,29 @@ La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
 Marennes,Marennes
-Seudre, pas de bureau
-Seudre, pas de bureau
-Seudre, pas de bureau
-Brouage, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Brouage,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Marennes,Marennes
-Seudre, pas de bureau
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Aligre de Marans,Alligre
-Seudre, pas de bureau
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Charente,Charente
 Marennes,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 La Rochelle,La Rochelle
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Marennes,Marennes
 Rochefort,Rochefort
 Marennes,Marennes
@@ -6390,16 +6390,16 @@ Saint Martin de Ré,Saint-Martin île de Ré
 Marennes,Marennes
 Marennes,Marennes
 Charente,Charente
-Seudre, pas de bureau
-Seudre, pas de bureau
-Ile de Ré, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
-Brouage, pas de bureau
+Brouage,pas de bureau rattaché
 Rochefort,Rochefort
 Aligre de Marans,Alligre
 Marennes,Marennes
@@ -6407,27 +6407,27 @@ Marennes,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Marennes,Marennes
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Marennes,Marennes
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Ars en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Marennes,Marennes
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
 Rochefort,Rochefort
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Royan,Marennes
 La Rochelle,La Rochelle
@@ -6438,7 +6438,7 @@ La Rochelle,La Rochelle
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -6457,33 +6457,33 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
-Seudre, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
-Seudre, pas de bureau
-Brouage, pas de bureau
+Seudre,pas de bureau rattaché
+Brouage,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 Marennes,Marennes
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Ribérou [Saujon],Marennes
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Esnandes,La Rochelle
 Esnandes,La Rochelle
-Ile de Ré, pas de bureau
-Fouras, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Fouras,pas de bureau rattaché
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 La Rochelle,La Rochelle
@@ -6492,15 +6492,15 @@ La Tremblade,Marennes
 Marennes,Marennes
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Oléron, pas de bureau
-dans le Pertuis, pas de bureau
+Oléron,pas de bureau rattaché
+dans le Pertuis,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
@@ -6598,48 +6598,48 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Marennes,Marennes
 La Perrotine,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Charente,Charente
 Charente,Charente
 Soubise,Marennes
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Anveaux, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Seudre, pas de bureau
-Seudre, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Soubise,Marennes
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -6648,155 +6648,155 @@ Saint Martin de Ré,Saint-Martin île de Ré
 Royan,Marennes
 Rochefort,Rochefort
 Rochefort,Rochefort
-Saintes, pas de bureau
+Saintes,pas de bureau rattaché
 Royan,Marennes
 Rochefort,Rochefort
 Rochefort,Rochefort
-Brouage, pas de bureau
-Ile de Ré, pas de bureau
+Brouage,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Seudre, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Rochefort,Rochefort
-Rochefort,Rochefort
-Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Bourcefranc, pas de bureau
-Rochefort,Rochefort
-Bourcefranc, pas de bureau
-Rochefort,Rochefort
-Oléron, pas de bureau
-Rochefort,Rochefort
-Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Seudre,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Rochefort,Rochefort
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Bourcefranc,pas de bureau rattaché
+Rochefort,Rochefort
+Bourcefranc,pas de bureau rattaché
+Rochefort,Rochefort
+Oléron,pas de bureau rattaché
+Rochefort,Rochefort
+Rochefort,Rochefort
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Rochefort,Rochefort
+Rochefort,Rochefort
+Rochefort,Rochefort
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
 Ribérou [Saujon],Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Anveaux, pas de bureau
+Anveaux,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Ribérou [Saujon],Marennes
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Royan,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Royan,Marennes
-Royan,Marennes
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Royan,Marennes
 Royan,Marennes
-Ile de Ré, pas de bureau
 Royan,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Royan,Marennes
+Ile de Ré,pas de bureau rattaché
+Royan,Marennes
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -6808,12 +6808,12 @@ Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Denis [d' Oléron],Marennes
-Dercie, pas de bureau
+Dercie,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -6826,22 +6826,22 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Dercie, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Dercie,pas de bureau rattaché
 La Tremblade,Marennes
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Seudre, pas de bureau
-Seudre, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Aligre de Marans,Alligre
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -6853,125 +6853,125 @@ Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
-Dercie, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Dercie,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Seudre, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Soubise,Marennes
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Royan,Marennes
 Royan,Marennes
 Royan,Marennes
-Seudre, pas de bureau
-Seudre, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 Royan,Marennes
-Seudre, pas de bureau
-Saintes, pas de bureau
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
+Saintes,pas de bureau rattaché
+Seudre,pas de bureau rattaché
 La Flotte en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Couarde île de Ré, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Couarde île de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Couarde île de Ré, pas de bureau
-Couarde île de Ré, pas de bureau
+Couarde île de Ré,pas de bureau rattaché
+Couarde île de Ré,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
-Rivedoux, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile d' Aix, pas de bureau
-Oléron, pas de bureau
+Rivedoux,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile d' Aix,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 Rochefort,Rochefort
-Oléron, pas de bureau
-Brouage, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Seudre, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Brouage,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 Rochefort,Rochefort
-Brouage, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Brouage,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 La Perrotine,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
@@ -7003,13 +7003,13 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Flotte en Ré,Saint-Martin île de Ré
 Charente,Charente
 Charente,Charente
@@ -7047,13 +7047,13 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Marennes,Marennes
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
@@ -7063,10 +7063,10 @@ Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Marennes,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 Marennes,Marennes
@@ -7074,18 +7074,18 @@ Charente,Charente
 Charente,Charente
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
 Marennes,Marennes
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
@@ -7099,8 +7099,8 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 La Tremblade,Marennes
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
@@ -7118,7 +7118,7 @@ Charente,Charente
 La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -7128,7 +7128,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Charente,Charente
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -7139,23 +7139,23 @@ Esnandes,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
-Oléron, pas de bureau
-Loix, pas de bureau
+Oléron,pas de bureau rattaché
+Loix,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 Charente,Charente
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Esnandes,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Esnandes,La Rochelle
 Esnandes,La Rochelle
 Esnandes,La Rochelle
@@ -7179,23 +7179,23 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Ribérou [Saujon],Marennes
 Charente,Charente
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -7207,21 +7207,21 @@ La Rochelle,La Rochelle
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Charente,Charente
 La Rochelle,La Rochelle
 Charente,Charente
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Charente,Charente
 Rochefort,Rochefort
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -7232,29 +7232,29 @@ Marennes,Marennes
 Charente,Charente
 Saint Denis [d' Oléron],Marennes
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Soubise,Marennes
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
 La Tremblade,Marennes
 Marennes,Marennes
-Saint Savinien, pas de bureau
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
@@ -7262,7 +7262,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
@@ -7279,11 +7279,11 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 Aligre de Marans,Alligre
@@ -7291,7 +7291,7 @@ Marennes,Marennes
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -7337,8 +7337,8 @@ Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
-dans le Pertuis, pas de bureau
-dans le Pertuis, pas de bureau
+dans le Pertuis,pas de bureau rattaché
+dans le Pertuis,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
 Aligre de Marans,Alligre
@@ -7347,12 +7347,12 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Taillebourg, pas de bureau
+Taillebourg,pas de bureau rattaché
 Soubise,Marennes
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Ribérou [Saujon],Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Marennes,Marennes
@@ -7364,54 +7364,54 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Anveaux, pas de bureau
+Anveaux,pas de bureau rattaché
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 Rochefort,Rochefort
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Marennes,Marennes
-Ile de Ré, pas de bureau
-Chaput, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
-Seudre, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Chaput,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Seudre,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 La Tremblade,Marennes
 La Tremblade,Marennes
 La Tremblade,Marennes
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Marennes,Marennes
 Saint Martin de Ré,Saint-Martin île de Ré
-Dercie, pas de bureau
+Dercie,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Charente,Charente
-Chaput, pas de bureau
-Brouage, pas de bureau
-Brouage, pas de bureau
+Chaput,pas de bureau rattaché
+Brouage,pas de bureau rattaché
+Brouage,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Charente,Charente
@@ -7424,7 +7424,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
@@ -7433,31 +7433,31 @@ Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Le Plomb, pas de bureau
-Oléron, pas de bureau
+Le Plomb,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Rochefort,Rochefort
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 Charente,Charente
 Charente,Charente
 Aligre de Marans,Alligre
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -7465,17 +7465,17 @@ Marennes,Marennes
 Charente,Charente
 La Rochelle,La Rochelle
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Charente,Charente
 La Rochelle,La Rochelle
 Ribérou [Saujon],Marennes
-Anveaux, pas de bureau
+Anveaux,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 La Rochelle,La Rochelle
@@ -8785,7 +8785,7 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Marennes,Marennes
 Rochefort,Rochefort
 La Rochelle,La Rochelle
@@ -8811,10 +8811,10 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Charente,Charente
-Martrou, pas de bureau
-Oléron, pas de bureau
+Martrou,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Royan,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 Marennes,Marennes
@@ -8822,14 +8822,14 @@ La Rochelle,La Rochelle
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Mornac, pas de bureau
+Mornac,pas de bureau rattaché
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 Ribérou [Saujon],Marennes
 Ribérou [Saujon],Marennes
-Ile de Ré, pas de bureau
-Oléron, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 Marennes,Marennes
@@ -8848,9 +8848,9 @@ Marennes,Marennes
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Tremblade,Marennes
-Le Plomb, pas de bureau
+Le Plomb,pas de bureau rattaché
 La Tremblade,Marennes
 La Tremblade,Marennes
 La Rochelle,La Rochelle
@@ -8881,9 +8881,9 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
@@ -8923,7 +8923,7 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Brouage, pas de bureau
+Brouage,pas de bureau rattaché
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
@@ -8934,36 +8934,36 @@ Aligre de Marans,Alligre
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Rochefort,Rochefort
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Saint Martin de Ré,Saint-Martin île de Ré
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Marennes,Marennes
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
 La Perrotine,Marennes
 Charente,Charente
 Aligre de Marans,Alligre
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
 Rochefort,Rochefort
 Charente,Charente
-Le Plomb, pas de bureau
+Le Plomb,pas de bureau rattaché
 Charente,Charente
 La Rochelle,La Rochelle
 Charente,Charente
@@ -8983,21 +8983,21 @@ La Rochelle,La Rochelle
 Marennes,Marennes
 Charente,Charente
 Rochefort,Rochefort
-Oléron, pas de bureau
-Saint Savinien, pas de bureau
+Oléron,pas de bureau rattaché
+Saint Savinien,pas de bureau rattaché
 Aligre de Marans,Alligre
-Saint Savinien, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Anveaux, pas de bureau
-Anveaux, pas de bureau
+Anveaux,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
 Aligre de Marans,Alligre
 La Perrotine,Marennes
 La Flotte en Ré,Saint-Martin île de Ré
@@ -9009,7 +9009,7 @@ Charente,Charente
 Aligre de Marans,Alligre
 Aligre de Marans,Alligre
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Rochefort,Rochefort
 Saint Martin de Ré,Saint-Martin île de Ré
 Marennes,Marennes
@@ -9027,13 +9027,13 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
 Ars en Ré,Saint-Martin île de Ré
-Loix, pas de bureau
+Loix,pas de bureau rattaché
 Ars en Ré,Saint-Martin île de Ré
 Ars en Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 La Flotte en Ré,Saint-Martin île de Ré
 Saint Martin de Ré,Saint-Martin île de Ré
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Ars en Ré,Saint-Martin île de Ré
 Ars en Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
@@ -9042,21 +9042,21 @@ Rochefort,Rochefort
 Rochefort,Rochefort
 Rochefort,Rochefort
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Saint André de Cuzac, pas de bureau
+Oléron,pas de bureau rattaché
+Saint André de Cuzac,pas de bureau rattaché
 Rochefort,Rochefort
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 La Rochelle,La Rochelle
 Saint Martin de Ré,Saint-Martin île de Ré
@@ -9074,8 +9074,8 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 Marennes,Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
@@ -9084,12 +9084,12 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Chaput, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Chaput,pas de bureau rattaché
 Charente,Charente
 Marennes,Marennes
 Marennes,Marennes
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 Rochefort,Rochefort
 Rochefort,Rochefort
@@ -9114,7 +9114,7 @@ Marennes,Marennes
 Saint Martin de Ré,Saint-Martin île de Ré
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
 Soubise,Marennes
 Rochefort,Rochefort
 Rochefort,Rochefort
@@ -9131,9 +9131,9 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Le Chateau [d' Oléron],Marennes
 Charente,Charente
 Charente,Charente
@@ -9256,23 +9256,23 @@ La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Chaput, pas de bureau
+Chaput,pas de bureau rattaché
 Rochefort,Rochefort
 La Rochelle,La Rochelle
-Saint Savinien, pas de bureau
+Saint Savinien,pas de bureau rattaché
 Marennes,Marennes
 Aligre de Marans,Alligre
 Ribérou [Saujon],Marennes
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Marennes,Marennes
 Charente,Charente
 Marennes,Marennes
 La Rochelle,La Rochelle
-Fouras, pas de bureau
-Charron, pas de bureau
+Fouras,pas de bureau rattaché
+Charron,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
 Charente,Charente
@@ -9283,29 +9283,29 @@ Charente,Charente
 Charente,Charente
 Charente,Charente
 Charente,Charente
-Brouage, pas de bureau
-Anveaux, pas de bureau
-Anveaux, pas de bureau
-Anveaux, pas de bureau
+Brouage,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
+Anveaux,pas de bureau rattaché
 Charente,Charente
 Marennes,Marennes
 Rochefort,Rochefort
 La Rochelle,La Rochelle
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
 La Rochelle,La Rochelle
-Ile de Ré, pas de bureau
-Ile de Ré, pas de bureau
+Ile de Ré,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché
 Charente,Charente
 Charente,Charente
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
 La Rochelle,La Rochelle
-Oléron, pas de bureau
-Oléron, pas de bureau
+Oléron,pas de bureau rattaché
+Oléron,pas de bureau rattaché
 Charente,Charente
-Seudre, pas de bureau
+Seudre,pas de bureau rattaché
 Aligre de Marans,Alligre
-Saint Savinien, pas de bureau
-Taillebourg, pas de bureau
-Oléron, pas de bureau
-Ile de Ré, pas de bureau
+Saint Savinien,pas de bureau rattaché
+Taillebourg,pas de bureau rattaché
+Oléron,pas de bureau rattaché
+Ile de Ré,pas de bureau rattaché

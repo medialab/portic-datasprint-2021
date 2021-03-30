@@ -131,3 +131,7 @@ dmypy.json
 
 
 data
+
+
+# unwanted dumps
+preliminary_inquiry/dumps/croisement_ports_Out_partners_datasprint.csv

@@ -50,6 +50,27 @@ Voir :
 - [la doc en jupyter notebook exécutable](https://github.com/medialab/portic-datasprint-2021/blob/main/documentation_lib.ipynb)
 
 
+Les méthodes de base à retenir pour travailler avec les données du datasprint sont :
+
+- pour récupérer les pointcalls associés aux pointcalls du datasprint :
+
+```python
+from poitousprint import Portic
+portic_client = Portic()
+# récupérer les pointcalls de l'année 1789 taggés avec le source_subset associé au corpus du datasprint (équivalent à tous les pointcalls qui concernent les amirautés de La Rochelle, Marennes et Sables d'Olonne)
+pointcalls = portic_client.get_pointcalls(year=1789, source_subset=’Poitou_1789’)
+```
+
+- pour récupérer les flux Toflit18 associés au datasprint :
+
+```python
+from poitousprint import Toflit
+toflit_client = Toflit()
+# Récupérer les flux qui concernent la direction des fermes de la Rochelle en 1789
+flows = toflit_client.get_flows(year=1789, customs_region=’La Rochelle’)
+```
+
+
 Les données de base sont disponibles à :
 
 * pour toflit18 : sur le répertoire [`medialab/toflit18_data/base courante.zip`](https://github.com/medialab/toflit18_data/blob/master/base/bdd%20courante.csv.zip) et via le [datascape](http://toflit18.medialab.sciences-po.fr/#/home)

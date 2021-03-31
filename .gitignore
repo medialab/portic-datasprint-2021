@@ -135,3 +135,4 @@ data
 
 # unwanted dumps
 preliminary_inquiry/dumps/croisement_ports_Out_partners_datasprint.csv
+data/navigo_all_travels.csv

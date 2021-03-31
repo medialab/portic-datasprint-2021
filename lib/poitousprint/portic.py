@@ -64,8 +64,7 @@ class Portic(Client):
     * [tous les noms de propriétés des pointcalls] : string ou liste de string définissant les valeurs à filtrer
     """
     # distingue les params qui peuvent être donnés directement à l'api et ceux qui doivent être filtrés après la requête
-    API_PARAMS = ['params', 'format',
-    'shortenfields', 'both_to', 'year', 'zipped']
+    API_PARAMS = ['params', 'format', 'shortenfields', 'both_to', 'year', 'zipped']
     consumable_params = {}
     filter_params = {}
 

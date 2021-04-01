@@ -613,6 +613,101 @@ def get_pointcalls_port_as_toflit_partner(pointcalls, partner_classification="pa
   # on transforme tous les pointcalls donnés en argument
   return [enrich_pointcall(pointcall) for pointcall in pointcalls]
 
+
+
+def get_flows_or_travels_port_as_toflit_partner(flows, partner_classification="partner_simplification"):
+  """
+  Cette fonction prend en entrée une liste de flows et un nom de classification de partenaire
+  Elle renvoie en sortie la liste des dict de flows enrichis avec 2 propriétés :
+  -  "departure_fr_as_toflit_partner"
+  - "destination_fr_as_toflit_partner"
+  """
+  # créer un dict dont chaque clé sera une des classifications à parcourir,
+  # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant
+  classification_path, classif_multi_dict = build_toflit18_classif_multimap(partner_classification)
+  prev_classif = 'partner_source'
+  for classif in classification_path:
+    classif_multi_dict[classif] = {}
+    # on créée un dict alternatif avec les valeurs en lowercase pour parer à d'éventuels problèmes liés à la casse
+    classif_multi_dict[classif + '_lower'] = {}
+    # récupérer le csv à jour de la classification sur le repo toflit18_data
+    toflit18_csv_url = 'https://raw.githubusercontent.com/medialab/toflit18_data/master/base/classification_' + classif + '.csv'
+    # télécharger le csv depuis toflit18_data
+    classif_data = get_online_csv(toflit18_csv_url)
+    prev_key = prev_classif.split('partner_')[1]
+    current_key = classif.split('partner_')[1]
+    for row in classif_data:
+      # nom de la classification "parent" : e.g. "orthographic"
+      parent_value = row[prev_key]
+      # nom de la classification "enfant" : e.g. "simplification"
+      child_value = row[current_key]
+      classif_multi_dict[classif][parent_value] = child_value
+      # gérer les problèmes de casse en stockant dans le dict alternatif la valeur originale et la valeur en lower
+      classif_multi_dict[classif + '_lower'][parent_value.lower()] = {
+        "original": child_value,
+        "lower" : child_value.lower()
+      }
+    prev_classif = classif
+
+  # créer une fonction de mapping qui transforme les pointcalls en leur ajoutant une propriété "partner_as_toflit"
+  def enrich_flow(flow):
+    flow['departure_fr_as_toflit_partner'] = None
+    flow['destination_fr_as_toflit_partner'] = None
+    departure_partner = flow['departure_partner_balance_supp_1789']
+    destination_partner = flow['destination_partner_balance_supp_1789']
+
+    if departure_partner is None:
+      partner = flow['departure_partner_balance_supp_1789']
+
+    if destination_partner is None:
+      partner = flow['destination_partner_balance_supp_1789']
+
+    if departure_partner is not None:
+      # la valeur partner correspond au niveau "source" des classifications TOFLIT18
+      departure_translated_name = None
+      if departure_partner is not None:
+        # on stocke dans une valeur courante la traduction TOFLIT18 (qui va par exemple correspondre successivement à source -> orthographic -> simplification)
+        departure_translated_name = departure_partner
+        # parcourir les classifs pour trouver la bonne valeur
+        for classif in classification_path:
+          # si la valeur est dans le dict de la classif toflit18 courante on le traduit
+          if departure_translated_name is not None and departure_translated_name in classif_multi_dict[classif]:
+            departure_translated_name = classif_multi_dict[classif][departure_translated_name]
+          # si la valeur matche en lowercase on la traduit aussi
+          elif departure_translated_name is not None and departure_translated_name.lower() in classif_multi_dict[classif + '_lower']:
+            departure_translated_name = classif_multi_dict[classif + '_lower'][departure_translated_name.lower()]["original"]
+          # si pas de valeur trouvée => alignement impossible, besoin de màj côté toflit18 pour intégrer cette forme
+          else:
+            departure_translated_name = None
+      if departure_translated_name is not None:
+        flow['departure_fr_as_toflit_partner'] = departure_translated_name
+
+    if destination_partner is not None:
+      # la valeur partner correspond au niveau "source" des classifications TOFLIT18
+      destination_translated_name = None
+      if destination_partner is not None:
+        # on stocke dans une valeur courante la traduction TOFLIT18 (qui va par exemple correspondre successivement à source -> orthographic -> simplification)
+        destination_translated_name = destination_partner
+        # parcourir les classifs pour trouver la bonne valeur
+        for classif in classification_path:
+          # si la valeur est dans le dict de la classif toflit18 courante on le traduit
+          if destination_translated_name is not None and destination_translated_name in classif_multi_dict[classif]:
+            destination_translated_name = classif_multi_dict[classif][destination_translated_name]
+          # si la valeur matche en lowercase on la traduit aussi
+          elif destination_translated_name is not None and destination_translated_name.lower() in classif_multi_dict[classif + '_lower']:
+            destination_translated_name = classif_multi_dict[classif + '_lower'][destination_translated_name.lower()]["original"]
+          # si pas de valeur trouvée => alignement impossible, besoin de màj côté toflit18 pour intégrer cette forme
+          else:
+            destination_translated_name = None
+      if destination_translated_name is not None:
+        flow['destination_fr_as_toflit_partner'] = destination_translated_name
+
+    return flow
+
+  # on transforme tous les pointcalls donnés en argument
+  return [enrich_flow(flow) for flow in flows]
+
+
 def get_pointcalls_homeport_as_toflit_partner(pointcalls, partner_classification="partner_simplification"):
   """
   Cette fonction prend en entrée une liste de pointcalls et un nom de classification de partenaire

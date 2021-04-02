@@ -14209,13 +14209,17 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Analyse-des-destinations-navigo">Analyse des destinations navigo<a class="anchor-link" href="#Analyse-des-destinations-navigo">&#182;</a></h1><p>Note préliminaire :</p>
+<h1 id="Analyse-pr&#233;liminaire-des-donn&#233;es-de-Navigo">Analyse pr&#233;liminaire des donn&#233;es de Navigo<a class="anchor-link" href="#Analyse-pr&#233;liminaire-des-donn&#233;es-de-Navigo">&#182;</a></h1><p>Nous vous proposons un ensemble de visualisations permettant d'avoir un aperçu sommaire des pointcalls et des flux associés au datasprint, ainsi que des produits ou activités mentionnés pour les voyages. Les visualisations visent notamment à donner un premier aperçu de la dimension d'incertitude encodée dans les données.</p>
+<p>Nous avons également construit plusieurs visualisations permettant d'observer ces données en utilisant les systèmes de classifications de toflit18.</p>
+<p>Note préliminaire :</p>
 <ul>
-<li>dans cette analyse préliminaire on se fonde sur les <em>pointcalls</em> et non les flux/trajets des bateaux, les objets manipulés sont donc des indications d'escales entrantes ("In") ou sortantes ("Out"), avec des niveaux d'incertitude différents</li>
-<li>on compte parfois en pointcalls et parfois en nombre de <code>commodity_purposes</code> : ces métriques nous informent davantage sur la présence de données pour les objets étudiées que sur les quantités/valeurs effectives : il faut garder cette dimension en tête pour les interpréter correctement</li>
+<li>dans cette analyse préliminaire on se fonde principalement sur les <em>pointcalls</em> et non les flux des bateaux (excepté la dernière partie de la page). Quand on raisonne en pointcalls, les objets manipulés sont donc des indications d'escales entrantes ("In") ou sortantes ("Out"), avec des niveaux d'incertitude différents (pour les développeuses et développeurs : les flux sont par ailleurs accessibles dans l'API via <code>portic_client.get_flows(source_subset='Poitou_1789)</code>)</li>
+<li>on compte parfois en pointcalls et parfois en nombre de <code>commodity_purposes</code> : ces métriques nous informent davantage sur la présence de données pour les objets étudiées que sur les quantités/valeurs effectives : il faut garder cette dimension en tête pour les interpréter correctement, et un travail d'affinage sera nécessaire à propos de cela pendant le datasprint.</li>
 </ul>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
@@ -14226,10 +14230,47 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Qu'est-ce-qui-rentre-et-qu'est-ce-qui-sort-?">Qu'est-ce qui rentre et qu'est-ce qui sort ?<a class="anchor-link" href="#Qu'est-ce-qui-rentre-et-qu'est-ce-qui-sort-?">&#182;</a></h2>
+<h3 id="Carte-des-pointcalls-concern&#233;s-par-le-sprint">Carte des pointcalls concern&#233;s par le sprint<a class="anchor-link" href="#Carte-des-pointcalls-concern&#233;s-par-le-sprint">&#182;</a></h3>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>User Guide: https://docs.kepler.gl/docs/keplergl-jupyter
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+
+
+
+<div id="474779aa-c044-4d35-9912-18ed1392622d" class="jupyter-widgets jp-OutputArea-output ">
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="dumps/visualisations/navigo/navigo_pointcalls_kepler.png"></p>
+<h3 id="L&#233;gende">L&#233;gende<a class="anchor-link" href="#L&#233;gende">&#182;</a></h3><p>En rouge : pointcalls enregistrés dans la région de La Rochelle / en bleu : les autres</p>
+
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -14240,38 +14281,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
-
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/assets/1-analyse-navigo-0.png"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-
-
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14292,11 +14302,6 @@ a.anchor-link {
 
 </div>
 
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="distribution-des-destinations">distribution des destinations<a class="anchor-link" href="#distribution-des-destinations">&#182;</a></h2>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -14307,7 +14312,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14328,6 +14333,11 @@ a.anchor-link {
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Distribution-des-destinations">Distribution des destinations<a class="anchor-link" href="#Distribution-des-destinations">&#182;</a></h2>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -14338,7 +14348,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14369,7 +14379,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14400,7 +14410,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14421,11 +14431,6 @@ a.anchor-link {
 
 </div>
 
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Premi&#232;re-vue-sur-les-produits">Premi&#232;re vue sur les produits<a class="anchor-link" href="#Premi&#232;re-vue-sur-les-produits">&#182;</a></h2>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -14436,7 +14441,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14457,6 +14462,11 @@ a.anchor-link {
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Premier-aper&#231;u-des-produits/objets-de-voyage-('commodity_purpose')">Premier aper&#231;u des produits/objets de voyage ('commodity_purpose')<a class="anchor-link" href="#Premier-aper&#231;u-des-produits/objets-de-voyage-('commodity_purpose')">&#182;</a></h2>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
@@ -14467,7 +14477,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14498,7 +14508,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14529,7 +14539,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14560,7 +14570,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14591,7 +14601,7 @@ a.anchor-link {
 
 
 
-<div id="363ae1c0-9b2e-4b12-903f-7651cfdcf042" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14612,6 +14622,422 @@ a.anchor-link {
 
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="dde10946-539e-49e4-b056-b56fc02580b3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/assets/1-analyse-navigo-12.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Quels-sont-les-produits-en-commun-avec-toflit18-?">Quels sont les produits en commun avec toflit18 ?<a class="anchor-link" href="#Quels-sont-les-produits-en-commun-avec-toflit18-?">&#182;</a></h2>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Ensemble 1 - produits qu&#39;on retrouve à la fois dans Toflit18 et Portic :
+
+
+Animaux
+Armes, munitions, poudre et pierres à fusil
+Beurre
+Bière, cidre et vinaigre
+Blé et autres grains comestibles
+Bois divers hors combustible
+Brai, goudron et résines
+Bâtiments de mer et apparaux
+Café
+Chairs et œufs
+Chanvre
+Combustibles dont charbons et bois
+Cordage et filets
+Coton non transformé
+Cuirs, peaux et pelleterie
+Cuivre
+Divers incertains
+Divers mélangés
+Eaux-de-vie et liqueurs
+Farine, gruau, biscuits et pâtes
+Fer
+Fromage
+Fruits frais
+Fruits secs et noix
+Graines diverses et mélangées
+Graines grasses
+Graisses diverses
+Habits et lingerie
+Huile de poisson
+Huiles diverses
+Laines non transformées diverses
+Lin
+Légumes
+Matières premières diverses
+Meubles, glaces et miroirs
+Ouvrages de bois, liège et jonc
+Ouvrages divers et mélangés
+Ouvrages métalliques
+Porcelaine, poterie, faïence et ouvrages de terre
+Produits inconnus
+Pêche et fruits de mer
+Savon
+Sel
+Subsistances diverses et mélangées
+Sucre
+Verrerie
+Vins divers
+
+
+Ensemble 2 - produits qu&#39;on retrouve exclusivement dans Toflit18 : 
+
+
+Acier
+Alquifoux, mine de plomb et graphite
+Alun
+Argenterie et orfèvrerie
+Azur et cobalt
+Bijouterie et pierres fines
+Bonneterie de soie
+Bonneterie hors soie
+Bouchons principalement en liège
+Bougies, chandelles et flambeaux
+Cacao et chocolat
+Cannelle
+Chapeaux hors paille et écorce
+Chevaux et bêtes de somme
+Châles et mouchoirs de soie
+Châles et mouchoirs hors soie
+Cire
+Colles diverses
+Cordonnerie et sellerie
+Cornes, corail, écailles, ivoire et nacre
+Céruse et blanc de plomb
+Denrées coloniales et épiceries diverses
+Drogues diverses
+Drogues médicinales diverses
+Faucilles, faux et limes
+Fer-blanc
+Fils divers
+Fleurs artificielles et ouvrages de mode
+Gommes diverses
+Graines de jardin
+Huile d&#39;olive à manger
+Indigo
+Librairie
+Manne et médicaments
+Marbre brut et ouvré
+Matières brutes et transformées pour teinture
+Mercerie
+Mousseline, basin et nankin
+Métaux divers et mélangés
+Objets d&#39;art et d&#39;histoire naturelle
+Papier
+Parfumerie et toilette
+Plomb
+Poils et crin
+Poivre et piment
+Quincaillerie
+Quinquina
+Riz
+Rocou
+Rubanerie et passementerie diverse
+Réglisse
+Salpêtre et soufre
+Salsepareille
+Sirop et mélasse
+Soieries diverses
+Séné
+Textiles manufacturés divers et mélangés
+Thé
+Toiles de chanvre et de lin
+Toiles de coton
+Toiles diverses
+Vin de liqueurs
+Vins de Bordeaux
+Étain
+Étoffes de laine
+Étoffes de soie
+Étoffes diverses
+
+
+Ensemble 3 - produits qu&#39;on retrouve exclusivement dans Portic : 
+
+
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-21-6cbe2f255f26&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">     16</span> format_p<span class="ansi-blue-fg">(</span>result2<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     17</span> print<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;\n\nEnsemble 3 - produits qu&#39;on retrouve exclusivement dans Portic : \n\n&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">---&gt; 18</span><span class="ansi-red-fg"> </span>format_p<span class="ansi-blue-fg">(</span>result3<span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">&lt;ipython-input-21-6cbe2f255f26&gt;</span> in <span class="ansi-cyan-fg">format_p</span><span class="ansi-blue-fg">(s)</span>
+<span class="ansi-green-intense-fg ansi-bold">      7</span> <span class="ansi-green-fg">def</span> format_p<span class="ansi-blue-fg">(</span>s<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">      8</span>     l <span class="ansi-blue-fg">=</span> list<span class="ansi-blue-fg">(</span>s<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">----&gt; 9</span><span class="ansi-red-fg">     </span>l<span class="ansi-blue-fg">.</span>sort<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     10</span>     print <span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;\n&#39;</span><span class="ansi-blue-fg">.</span>join<span class="ansi-blue-fg">(</span>l<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     11</span> 
+
+<span class="ansi-red-fg">TypeError</span>: &#39;&lt;&#39; not supported between instances of &#39;str&#39; and &#39;NoneType&#39;</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Correspondance-entre-les-ports-et-les-bureaux-de-ferme">Correspondance entre les ports et les bureaux de ferme<a class="anchor-link" href="#Correspondance-entre-les-ports-et-les-bureaux-de-ferme">&#182;</a></h2>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Voici un tableau (au format csv) disponible sur le répertoire github qui correspond aux croisements entre les ports et les bureaux de ferme : <a href="https://github.com/medialab/portic-datasprint-2021/blob/main/preliminary_inquiry/dumps/croisement_ports_bureaux_datasprint.csv">https://github.com/medialab/portic-datasprint-2021/blob/main/preliminary_inquiry/dumps/croisement_ports_bureaux_datasprint.csv</a></p>
+<p>Ce csv est exploitable pour customiser / refaire une visualisation</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="L&#233;gende">L&#233;gende<a class="anchor-link" href="#L&#233;gende">&#182;</a></h4><p>À gauche : les bureaux des Fermes Toflit</p>
+<p>À droite : les ports Navigo qui s'y rattachent</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Correspondance-entre-les-ports-non-fran&#231;ais-et-les-partenaires-commerciaux-tels-que-d&#233;crits-dans-Toflit18">Correspondance entre les ports non-fran&#231;ais et les partenaires commerciaux tels que d&#233;crits dans Toflit18<a class="anchor-link" href="#Correspondance-entre-les-ports-non-fran&#231;ais-et-les-partenaires-commerciaux-tels-que-d&#233;crits-dans-Toflit18">&#182;</a></h2>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Voici un tableau (au format csv - disponible sur le répertoire github) qui présente sous une forme simplifiée les relations entre ports de départ et partenaires étrangers (déduits des ports d'arrivée) : <a href="https://github.com/medialab/portic-datasprint-2021/blob/main/preliminary_inquiry/dumps/croisement_ports_In_partners_datasprint.csv">https://github.com/medialab/portic-datasprint-2021/blob/main/preliminary_inquiry/dumps/croisement_ports_In_partners_datasprint.csv</a></p>
+<p>Ce csv est exploitable pour customiser / refaire une visualisation.</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="L&#233;gende">L&#233;gende<a class="anchor-link" href="#L&#233;gende">&#182;</a></h4><p>À gauche : les partenaires Toflit</p>
+<p>À droite : les ports Navigo (destinataires d'exports) qui s'y rattachent</p>
+<h4 id="Remarque">Remarque<a class="anchor-link" href="#Remarque">&#182;</a></h4><p>Ici, les ports navigo considérés destinataires d'exports sont ceux associés avec un pointcall "In" faisant partie des pointcalls du sprint.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Premier-aper&#231;u-des-r&#233;seaux-de-d&#233;parts/destinations-dans-navigo">Premier aper&#231;u des r&#233;seaux de d&#233;parts/destinations dans navigo<a class="anchor-link" href="#Premier-aper&#231;u-des-r&#233;seaux-de-d&#233;parts/destinations-dans-navigo">&#182;</a></h2>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="R&#233;seaux-des-voyages-entre-ports-de-la-r&#233;gion">R&#233;seaux des voyages entre ports de la r&#233;gion<a class="anchor-link" href="#R&#233;seaux-des-voyages-entre-ports-de-la-r&#233;gion">&#182;</a></h3>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="dumps/visualisations/navigo/navigo_monopartite_1.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="R&#233;seaux-des-voyages-entre-ports-de-la-r&#233;gion-rapport&#233;s-&#224;-la-classification-des-partenaires-de-toflit18">R&#233;seaux des voyages entre ports de la r&#233;gion rapport&#233;s &#224; la classification des partenaires de toflit18<a class="anchor-link" href="#R&#233;seaux-des-voyages-entre-ports-de-la-r&#233;gion-rapport&#233;s-&#224;-la-classification-des-partenaires-de-toflit18">&#182;</a></h2>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="dumps/visualisations/navigo/navigo_monopartite_2.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="2.-Fabrication-de-r&#233;seaux-bipartites-:-d&#233;part-/-arriv&#233;e">2. Fabrication de r&#233;seaux bipartites : d&#233;part / arriv&#233;e<a class="anchor-link" href="#2.-Fabrication-de-r&#233;seaux-bipartites-:-d&#233;part-/-arriv&#233;e">&#182;</a></h2><h4 id="Si-2-ports-font-partie-du-m&#234;me-flow,-ou-du-m&#234;me-travel,-ils-seront-reli&#233;s-sur-le-graphe">Si 2 ports font partie du m&#234;me flow, ou du m&#234;me travel, ils seront reli&#233;s sur le graphe<a class="anchor-link" href="#Si-2-ports-font-partie-du-m&#234;me-flow,-ou-du-m&#234;me-travel,-ils-seront-reli&#233;s-sur-le-graphe">&#182;</a></h4><p>Remarques :</p>
+<ul>
+<li>Peut-être intéressant de filtrer les ports de départ / d'arrivée sur la direction des Fermes de La Rochelle (pour savoir où vont les bateaux qui partent de la région / d'où viennent les bateaux arrivent dans la région)</li>
+</ul>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="R&#233;seau-bipartite-des-destinations-et-des-arriv&#233;es-pour-les-donn&#233;es-du-sprint">R&#233;seau bipartite des destinations et des arriv&#233;es pour les donn&#233;es du sprint<a class="anchor-link" href="#R&#233;seau-bipartite-des-destinations-et-des-arriv&#233;es-pour-les-donn&#233;es-du-sprint">&#182;</a></h3>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="dumps/visualisations/navigo/navigo_monopartite_3.png"></p>
+<h4 id="L&#233;gende">L&#233;gende<a class="anchor-link" href="#L&#233;gende">&#182;</a></h4><p>Départ en bleu - arrivée en violet (ports de la région) ou rose (ports hors région)</p>
+<h4 id="Remarques">Remarques<a class="anchor-link" href="#Remarques">&#182;</a></h4><p>Certains ports apparaissent deux fois dans cette visualisation car ils sont à la fois des ports de départ et de destination.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="R&#233;seau-bipartite-des-d&#233;parts-et-arriv&#233;s,-regroup&#233;s-par-partenaires-toflit18">R&#233;seau bipartite des d&#233;parts et arriv&#233;s, regroup&#233;s par partenaires toflit18<a class="anchor-link" href="#R&#233;seau-bipartite-des-d&#233;parts-et-arriv&#233;s,-regroup&#233;s-par-partenaires-toflit18">&#182;</a></h3>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="dumps/visualisations/navigo/navigo_monopartite_4.png"></p>
+<h4 id="L&#233;gende">L&#233;gende<a class="anchor-link" href="#L&#233;gende">&#182;</a></h4><ul>
+<li>ports de départ en bleu clair / bleu foncé si fait partie du sprint</li>
+<li>ports d'arrivée en rose / violet si fait partie du sprint</li>
+</ul>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="R&#233;seau-bipartite-des-arriv&#233;s-et-d&#233;parts,-regroup&#233;s-par-bureau-des-Fermes-de-d&#233;part-/-partenaire-Toflit18-d'arriv&#233;e">R&#233;seau bipartite des arriv&#233;s et d&#233;parts, regroup&#233;s par bureau des Fermes de d&#233;part / partenaire Toflit18 d'arriv&#233;e<a class="anchor-link" href="#R&#233;seau-bipartite-des-arriv&#233;s-et-d&#233;parts,-regroup&#233;s-par-bureau-des-Fermes-de-d&#233;part-/-partenaire-Toflit18-d'arriv&#233;e">&#182;</a></h3>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="dumps/visualisations/navigo/navigo_monopartite_6.png"></p>
+<h4 id="L&#233;gende">L&#233;gende<a class="anchor-link" href="#L&#233;gende">&#182;</a></h4><p>Départs en bleu</p>
+<p>Arrivées en rose/violet</p>
+
+</div>
 </div>
 </body>
 

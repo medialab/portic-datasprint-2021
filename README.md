@@ -80,13 +80,13 @@ Les données de base sont disponibles à :
 
 ## Utilitaire de transformation de notebooks en fichiers HTML
 
-Le répertoire contient également un utilitaire permettant de transformer tous les notebooks d'un dossier donné en fichier HTML.
+Le répertoire contient également un utilitaire permettant de transformer tous les notebooks d'un dossier donné en fichiers HTML/pages web sur le site github.io associé à ce répertoire.
 
 ```bash
-python cipynb.py [nom du dossier] -to html
+python cipynb.py [chemin relatif vers le dossier] -to html
 ```
 
-Ces derniers sont ensuite accessibles en ligne à `https://medialab.github.io/portic-datasprint-2021/[chemin relatif vers le fichier]`
+Ces derniers sont ensuite accessibles en ligne à `https://medialab.github.io/portic-datasprint-2021/[chemin relatif vers chaque fichier html]`
 
-Exemple : [`https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/1-analyse-navigo.html`](`https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/1-analyse-navigo.html`)
+Exemple : [`https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/1-analyse-navigo.html`](https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/1-analyse-navigo.html)
 

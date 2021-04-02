@@ -89,6 +89,7 @@ def remove_tags(text):
 
   
 def extract_images(filename, dir, assets_dir):
+  print('extracting images from ', filename)
   book_parts = filename.split('/')[-1].split('.')
   book_name = '.'.join(book_parts[0:-1])
   base_path = assets_dir + '/' + quote(book_name + '-')
@@ -123,16 +124,17 @@ def extract_images(filename, dir, assets_dir):
         f.write(imgdata)
       # replace content
       img_wittcism = base_url + str(index) + '.' + suffix
-      print('url: ', url[0:10])
-      print('replace', img_wittcism)
-      print('length before', len(content))
+      # print('url: ', url[0:10])
+      # print('replace', img_wittcism)
+      # print('length before', len(content))
       content = content.replace(url, img_wittcism)
-      print('length after', len(content))
+      # print('length after', len(content))
   # save content to new file
-  print('final length', len(content))
+  # print('final length', len(content))
   # stripping scripts
   content = remove_tags(content)
-  print('final length after clean', len(content))
+  # print('final length after clean', len(content))
+  print('rewriting', filename)
   final_file = open(filename, "w")
   final_file.write(content)
 

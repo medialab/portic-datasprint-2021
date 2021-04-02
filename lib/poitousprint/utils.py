@@ -619,7 +619,7 @@ def get_flows_or_travels_port_as_toflit_partner(flows, partner_classification="p
   """
   Cette fonction prend en entrée une liste de flows et un nom de classification de partenaire
   Elle renvoie en sortie la liste des dict de flows enrichis avec 2 propriétés :
-  -  "departure_fr_as_toflit_partner"
+  - "departure_fr_as_toflit_partner"
   - "destination_fr_as_toflit_partner"
   """
   # créer un dict dont chaque clé sera une des classifications à parcourir,

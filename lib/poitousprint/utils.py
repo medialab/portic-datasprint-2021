@@ -653,8 +653,14 @@ def get_flows_or_travels_port_as_toflit_partner(flows, partner_classification="p
   def enrich_flow(flow):
     flow['departure_fr_as_toflit_partner'] = None
     flow['destination_fr_as_toflit_partner'] = None
-    departure_partner = flow['departure_partner_balance_supp_1789']
-    destination_partner = flow['destination_partner_balance_supp_1789']
+
+    departure_partner = pointcall['partner_balance_1789']
+    if departure_partner is None:
+      departure_partner = pointcall['departure_partner_balance_supp_1789']
+      
+    destination_partner = pointcall['partner_balance_1789'
+    if destination_partner is None:
+      destination_partner = pointcall['destination_partner_balance_supp_1789']
 
     if departure_partner is None:
       partner = flow['departure_partner_balance_supp_1789']

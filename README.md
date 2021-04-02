@@ -7,6 +7,8 @@ Ce répertoire contient à la fois un ensemble de ressources et les productions 
 
 Prérequis : installer [git](https://git-scm.com/), [python](https://www.python.org/downloads/) et [pip](https://pypi.org/project/pip/), puis éventuellement créez votre environnement virtuel.
 
+Si vous êtes sur linux, il vous faudra aussi installer `curl` et `unzip` si ces deux commandes ne sont pas déjà présentes sur votre machine.
+
 Puis dans votre terminal, lancer les commandes suivantes :
 
 ```

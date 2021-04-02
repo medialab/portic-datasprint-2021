@@ -1,128 +1,128 @@
-ensemble 1 - produits qu'on retrouve à la fois dans Toflit18 et Portic (46):
-Fruits secs et noix
-Graines diverses et mélangées
+ensemble 1 - produits qu'on retrouve à la fois dans Toflit18 et Portic :
 Fromage
-Brai, goudron et résines
-Bière, cidre et vinaigre
-Matières premières diverses
-Légumes
-Cordage et filets
-Sel
-Beurre
-Ouvrages de bois, liège et jonc
-Savon
-Ouvrages divers et mélangés
-Ouvrages métalliques
-Fer
-Lin
-Blé et autres grains comestibles
 Graines grasses
-Bâtiments de mer et apparaux
-Chairs et œufs
 Farine, gruau, biscuits et pâtes
-Habits et lingerie
-Divers incertains
-Chanvre
-Porcelaine, poterie, faïence et ouvrages de terre
-Graisses diverses
-Verrerie
-Eaux-de-vie et liqueurs
-Divers mélangés
-Animaux
+Ouvrages divers et mélangés
 Sucre
-Café
-Produits inconnus
-Vins divers
-Fruits frais
-Bois divers hors combustible
-Cuirs, peaux et pelleterie
-Huiles diverses
-Meubles, glaces et miroirs
-Combustibles dont charbons et bois
-Subsistances diverses et mélangées
-Coton non transformé
-Laines non transformées diverses
-Armes, munitions, poudre et pierres à fusil
-Pêche et fruits de mer
-Cuivre
-
-
-
-ensemble 2 - produits qu'on retrouve exclusivement dans Toflit18 (68):
-Bonneterie de soie
-Librairie
-Vin de liqueurs
-Chevaux et bêtes de somme
-Quinquina
-Cornes, corail, écailles, ivoire et nacre
-Marbre brut et ouvré
-Mousseline, basin et nankin
-Cannelle
-Matières brutes et transformées pour teinture
-Alun
-Poivre et piment
-Poils et crin
-Bonneterie hors soie
-Manne et médicaments
 Huile de poisson
-Salpêtre et soufre
+Bâtiments de mer et apparaux
+Laines non transformées diverses
+Eaux-de-vie et liqueurs
+Beurre
+Habits et lingerie
+Subsistances diverses et mélangées
+Cordage et filets
+Pêche et fruits de mer
+Bière, cidre et vinaigre
+Divers mélangés
+Ouvrages métalliques
+Produits inconnus
+Porcelaine, poterie, faïence et ouvrages de terre
+Cuivre
+Sel
+Meubles, glaces et miroirs
+Chanvre
+Coton non transformé
+Matières premières diverses
+Blé et autres grains comestibles
+Café
+Graisses diverses
+Légumes
+Chairs et œufs
+Brai, goudron et résines
+Animaux
+Lin
+Savon
+Cuirs, peaux et pelleterie
+Vins divers
+Bois divers hors combustible
+Verrerie
+Huiles diverses
+Fruits frais
+Combustibles dont charbons et bois
+Graines diverses et mélangées
+Fruits secs et noix
+Armes, munitions, poudre et pierres à fusil
+Fer
+Ouvrages de bois, liège et jonc
+Divers incertains
+
+
+
+ensemble 2 - produits qu'on retrouve exclusivement dans Toflit18 :
 Séné
-Fils divers
-Quincaillerie
-Plomb
-Vins de Bordeaux
-Salsepareille
+Salpêtre et soufre
+Librairie
+Indigo
 Toiles diverses
+Cornes, corail, écailles, ivoire et nacre
+Manne et médicaments
+Graines de jardin
+Étoffes diverses
+Cordonnerie et sellerie
+Soieries diverses
+Rubanerie et passementerie diverse
 Bouchons principalement en liège
-Bijouterie et pierres fines
-Riz
-Étoffes de soie
+Mousseline, basin et nankin
+Chevaux et bêtes de somme
+Salsepareille
+Bonneterie hors soie
+Bonneterie de soie
+Argenterie et orfèvrerie
+Réglisse
 Fleurs artificielles et ouvrages de mode
-Parfumerie et toilette
-Fer-blanc
+Vin de liqueurs
+Marbre brut et ouvré
+Vins de Bordeaux
+Cannelle
+Denrées coloniales et épiceries diverses
+Thé
+Bougies, chandelles et flambeaux
+Toiles de coton
+Chapeaux hors paille et écorce
+Quinquina
+Quincaillerie
+Faucilles, faux et limes
+Bijouterie et pierres fines
+Huile d'olive à manger
+Textiles manufacturés divers et mélangés
+Objets d'art et d'histoire naturelle
+Châles et mouchoirs hors soie
+Métaux divers et mélangés
+Alun
+Étoffes de soie
+Mercerie
+Toiles de chanvre et de lin
+Matières brutes et transformées pour teinture
+Acier
+Riz
+Châles et mouchoirs de soie
+Poils et crin
+Gommes diverses
+Cire
+Céruse et blanc de plomb
+Cacao et chocolat
+Fils divers
 Papier
 Étoffes de laine
-Huile d'olive à manger
-Rubanerie et passementerie diverse
-Bougies, chandelles et flambeaux
-Acier
-Faucilles, faux et limes
-Métaux divers et mélangés
-Cordonnerie et sellerie
-Réglisse
-Châles et mouchoirs hors soie
-Cacao et chocolat
-Gommes diverses
-Drogues diverses
-Indigo
-Textiles manufacturés divers et mélangés
-Toiles de chanvre et de lin
-Thé
-Soieries diverses
-Étoffes diverses
-Alquifoux, mine de plomb et graphite
-Rocou
-Drogues médicinales diverses
-Étain
-Denrées coloniales et épiceries diverses
-Céruse et blanc de plomb
-Toiles de coton
-Argenterie et orfèvrerie
 Colles diverses
-Chapeaux hors paille et écorce
-Objets d'art et d'histoire naturelle
-Mercerie
-Azur et cobalt
-Graines de jardin
 Sirop et mélasse
-Châles et mouchoirs de soie
-Cire
+Rocou
+Azur et cobalt
+Parfumerie et toilette
+Drogues médicinales diverses
+Fer-blanc
+Étain
+Plomb
+Drogues diverses
+Alquifoux, mine de plomb et graphite
+Poivre et piment
 
 
 
-ensemble 3 - produits qu'on retrouve exclusivement dans Portic (5):
-Êtres humains
-Sortie pour pêche
-None
+ensemble 3 - produits qu'on retrouve exclusivement dans Portic :
 Cendres diverses
 Alcalis
+None
+Sortie pour pêche
+Êtres humains

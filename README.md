@@ -25,7 +25,7 @@ Si les données de base venaient à être mises à jour en cours de datasprint, 
 # Contenus du répertoire
 
 - `data` -> données à plat proposées pour le datasprint
-- `preliminary_inquiry` -> notebooks de l'analyse préliminaire effectuée par le médialab, à utiliser pour prendre connaissance de la base et du contexte
+- `preliminary_inquiry` -> notebooks de l'analyse préliminaire effectuée par le médialab, à utiliser pour prendre connaissance de la base et du contexte. Accessible en ligne [à cette adresse](https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/)
 - `productions` -> les productions du datasprint, à organiser et réorganiser par équipes de travail
 - `examples` -> exemples de mobilisation de la bibliothèque seule et avec différentes technologies associées à des notebooks jupyter
 - `lib` -> la bibliothèque créée spécifiquement pour le datasprint. Elle pourra éventuellement être améliorée pendant le datasprint

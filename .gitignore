@@ -133,9 +133,10 @@ dmypy.json
 data
 
 
-# unwanted dumps
+# unwanted dumps or too large files
 preliminary_inquiry/dumps/croisement_ports_Out_partners_datasprint.csv
 data/navigo_all_travels.csv
+preliminary_inquiry/.~1-analyse-navigo.ipynb
 
 # draft scripts
 lib/get_portic_travels.py

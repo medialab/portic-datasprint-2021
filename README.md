@@ -7,6 +7,8 @@ Ce répertoire contient à la fois un ensemble de ressources et les productions 
 
 Prérequis : installer [git](https://git-scm.com/), [python](https://www.python.org/downloads/) et [pip](https://pypi.org/project/pip/), puis éventuellement créez votre environnement virtuel.
 
+Si vous êtes sur linux, il vous faudra aussi installer `curl` et `unzip` si ces deux commandes ne sont pas déjà présentes sur votre machine.
+
 Puis dans votre terminal, lancer les commandes suivantes :
 
 ```
@@ -25,7 +27,7 @@ Si les données de base venaient à être mises à jour en cours de datasprint, 
 # Contenus du répertoire
 
 - `data` -> données à plat proposées pour le datasprint
-- `preliminary_inquiry` -> notebooks de l'analyse préliminaire effectuée par le médialab, à utiliser pour prendre connaissance de la base et du contexte
+- `preliminary_inquiry` -> notebooks de l'analyse préliminaire effectuée par le médialab, à utiliser pour prendre connaissance de la base et du contexte. Accessible en ligne [à cette adresse](https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/index.html)
 - `productions` -> les productions du datasprint, à organiser et réorganiser par équipes de travail
 - `examples` -> exemples de mobilisation de la bibliothèque seule et avec différentes technologies associées à des notebooks jupyter
 - `lib` -> la bibliothèque créée spécifiquement pour le datasprint. Elle pourra éventuellement être améliorée pendant le datasprint

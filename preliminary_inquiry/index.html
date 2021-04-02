@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Atlas d'enquête préliminaire sur les données du datasprint</title>
+</head>
+<body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+
+<h1>Atlas d'enquête préliminaire sur les données du datasprint PORTIC 2021</h1>
+
+<p>
+  Cet atlas propose différentes visualisations préliminaires fabriquées dans l'optique de fournir un "fond de carte" général sur la constitution des données et leur mise en contexte géographique et diachronique, ainsi que de proposer une base de discussion pour d'éventuelles clarifications le premier jour.
+</p>
+<p>
+  L'ensemble des pages ici présentes est également issu de notebooks python que les développeuses et développeurs pourront exécuter en local et éventuellement utiliser comme base de code pour certaines investigations (dossier <a href="https://github.com/medialab/portic-datasprint-2021/tree/main/preliminary_inquiry">preliminary_inquiries</a>).
+</p>
+
+<h2>1. Analyse préliminaire des données navigo</h2>
+<p>
+  Nous vous proposons un ensemble de visualisations permettant d'avoir un aperçu sommaire des <i>pointcalls</i> et des <i>flux</i> associés au datasprint, ainsi que des produits ou activités mentionnés pour les voyages. Les visualisations visent notamment à donner un premier aperçu de la dimension d'incertitude encodée dans les données.
+</p>
+<p>
+  Nous avons également construit plusieurs visualisations permettant d'observer ces données en utilisant les systèmes de classifications de toflit18.
+</p>
+<h3><a target="blank" href="https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/1-analyse-navigo.html">Cliquer ici pour accéder aux visualisations</a></h3>
+
+<h2>2. Analyse préliminaire des données toflit18</h2>
+<p>
+  Nous vous proposons un ensemble de visualisations permettant de remettre les données toflit18 sur la direction des Fermes de La Rochelle en 1789 dans le contexte de leur évolution sur le XVIIIème siècle, et de les comparer avec les autres directions des Fermes.
+</p>
+<p>
+  Nous vous proposons également un premier ensemble de visualisation permettant d'évaluer la part des exports et imports par bureaux de ferme, les échanges par partenaires et les produits qui y sont associés.
+</p>
+<h3><a target="blank" href="https://medialab.github.io/portic-datasprint-2021/preliminary_inquiry/2-analyse-toflit18.html">Cliquer ici pour accéder aux visualisations</a></h3>
+
+<h2>3. Données complémentaires</h2>
+
+<p>
+  Un ensemble de données complémentaires aux deux bases ont été constituées en vue de nourrir les questions définies dans le document des objectifs scientifiques.
+</p>
+<p>
+  Elles sont toutes accessibles dans le <a href="https://drive.google.com/drive/folders/1ukqcvUQaamGn8Nueg8ttsG56LIYj2El6?usp=sharing" target="blank">drive partagé</a> au sein du dossier ressources partagées/sources complémentaires.
+</p>
+<p>
+  Plus précisément, vous y trouverez :
+</p>
+<ul>
+  <li><a target="blank" href="">des données portant sur les cahiers de doléance de la région</a> (compilées depuis des sources existantes ou directement transcrites par Silvia et Thierry, et contenant notamment leurs transcriptions en texte plein pour une éventuelle analyse textuelle)</li>
+  <li><a href="https://docs.google.com/spreadsheets/d/1ptCXWjWYMmi6xg0-4twbJJOgNaFRhrQloRukp7d7Rew/edit?usp=sharing" target="blank">des données portant sur les émeutes ayant survenu dans la région</a>, tirées du site <a target="blank" href="https://www.unicaen.fr/hiscod/">HisCoD (Cédric Chambru et Paul Maneuvrier-Hervieu)</a> et permettant de travailler avec les localisations et motifs de révolte de ces dernières</li>
+  <li>une <a href="https://drive.google.com/file/d/16-kQmPwvEn7IQkdli8Ljst5qcdbwHkNI/view?usp=sharing" target="blank">géolocalisation des locaux physiques des bureaux de fermes de la région</a></li>
+  <li>un tableau permettant de se repérer dans les <a href="https://archinoe.fr/console/ir_ead_visu.php?eadid=FRAD017_41etp&ir=11431#.YGbnPmg69hG" target="blank">fonds de la Chambre de Commerce et d'industrie de La Rochelle</a>, pour des activités complémentaires qualitatives (<a target="blank" href="https://docs.google.com/spreadsheets/d/1juAb0So6QzbvRCuTQf-HLGpwzWNZKbWegZdQoMrbAyQ/edit?usp=sharing">tableau ici</a>)</li>
+  <li>les <a href="https://drive.google.com/drive/folders/15k3vP2H9655kN_KhTcpuNKRdxz4KpWKv?usp=sharing" target="blank">rapports de l'enquête de l'inspecteur Chardon au milieu des années 1780</a></li>
+</ul>
+<p>
+  Voici une représentation sommaire des données disponibles géolocalisées (possibles erreurs de géolocalisation restantes) :
+</p>
+<iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/hyme4p55h71gvrq/keplergl_4i83abb.json"></iframe>
+<p><i>En vert, les localisations des cahiers de doléance, en rouge les localisations des émeutes (repérées par Thierry), en bleu les localisations des bureaux de ferme.</i></p>
+<p><i><a href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/hyme4p55h71gvrq/keplergl_4i83abb.json" target="blank">Voir ces données en plein écran</a></i></p>
+
+
+<h2>Appendice. Visualisations des modalités de toutes les dimensions des données</h2>
+
+<p>
+  Nous avons produit une page permettant de visualiser systématiquement toutes les dimensions (dit autrement : colonnes de tableau) des données des flux Toflit18, des <i>pointcalls</i> et des <i>flux</i> de navigo. Pour chaque dimension, la documentation disponible est affichée et un histogramme permet de voir les valeurs disponibles et leur répartition quantitative dans les données rapportées au datasprint.
+</p>
+<p>
+  Ces visualisations ont vocation à permettre de faire une revue rapide des valeurs pour chacune de ces dimensions, et la page à plutôt vocation à être cherchée en fonction de colonnes spécifiques sur lesquelles vous auriez des interrogations (utiliser cmd+f sur votre navigateur pour chercher le nom d'une colonne spécifique).
+</p>
+
+<h3><a target="blank" href="https://medialab.github.io/portic-poitousprint-datasets-modalities/">Cliquer ici pour accéder aux visualisations</a></h3>
+
+</body>
+<style>
+  iframe {
+    border: none;
+    width: 70%;
+    min-height: 50vh;
+    max-height: 50vh;
+    margin-top: 2rem;
+  }
+  p{
+    margin-bottom: 1em;
+  }
+  body{
+    margin: 0 60px 0 60px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  a{
+    color: darkblue;
+    text-decoration: none;
+  }
+</style>
+</html>

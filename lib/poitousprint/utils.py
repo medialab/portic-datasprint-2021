@@ -311,7 +311,7 @@ def map_value(value, domain_min, domain_max, range_min, range_max):
 
     # Convert the 0-1 range into a value in the right range.
     return range_min + (scaled * right_span)
-    
+
 
 def build_cooccurence_graph(data, key_1, key_2, **kwargs):
     """
@@ -335,7 +335,7 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
         **default_params,
         **kwargs
     }
-    
+
     # remplir les dicts
     for datum in data:
         if key_1 in datum and key_2 in datum:
@@ -347,8 +347,8 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
                 key1_uniq[value_1_id] = {**key1_uniq[value_1_id], "size": key1_uniq[value_1_id]["size"] + 1}
             else:
                key1_uniq[value_1_id] = {
-                   "type": key_1, 
-                   "name": value_1, 
+                   "type": key_1,
+                   "name": value_1,
                    "color": params["color_1"],
                    "size": 1
                }
@@ -356,8 +356,8 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
                 key2_uniq[value_2_id] = {**key2_uniq[value_2_id], "size": key2_uniq[value_2_id]["size"] + 1}
             else:
                key2_uniq[value_2_id] = {
-                   "type": key_2, 
-                   "name": value_2, 
+                   "type": key_2,
+                   "name": value_2,
                    "color": params["color_2"],
                    "size": 1
                }
@@ -381,7 +381,7 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
 
     for key, edge in edges_uniq.items():
         edges.append((edge["source"], edge["target"], {"weight": edge["weight"]}))
-        
+
     # ajuster la taille des noeuds en fonction d'un min et d'un max donnés
     domain_min_nodes_size = min([node[1]['size'] for node in nodes])
     domain_max_nodes_size = max([node[1]['size'] for node in nodes])
@@ -397,7 +397,7 @@ def build_cooccurence_graph(data, key_1, key_2, **kwargs):
     Graph.add_edges_from(edges)
 
     return Graph
-  
+
 
 def get_online_csv(url):
   """
@@ -654,13 +654,13 @@ def get_flows_or_travels_port_as_toflit_partner(flows, partner_classification="p
     flow['departure_fr_as_toflit_partner'] = None
     flow['destination_fr_as_toflit_partner'] = None
 
-    departure_partner = pointcall['partner_balance_1789']
+    departure_partner = flow['departure_partner_balance_1789']
     if departure_partner is None:
-      departure_partner = pointcall['departure_partner_balance_supp_1789']
+      departure_partner = flow['departure_partner_balance_supp_1789']
       
-    destination_partner = pointcall['partner_balance_1789'
+    destination_partner = flow['destination_partner_balance_1789']
     if destination_partner is None:
-      destination_partner = pointcall['destination_partner_balance_supp_1789']
+      destination_partner = flow['destination_partner_balance_supp_1789']
 
     if departure_partner is None:
       partner = flow['departure_partner_balance_supp_1789']

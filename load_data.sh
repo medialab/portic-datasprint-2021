@@ -1,6 +1,7 @@
 #!/bin/bash
+set -e
 echo "creating data folder"
-mkdir data
+mkdir -p data
 echo "fetching latest toflit18 data"
 curl -o toflit18_bdd.zip "https://raw.githubusercontent.com/medialab/toflit18_data/master/base/bdd%20courante.csv.zip"
 unzip toflit18_bdd.zip -d "data"

@@ -1,0 +1,761 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-04-03">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="color" type="string" />
+      <attribute id="2" title="size" type="double" />
+    </attributes>
+    <nodes>
+      <node id="La Rochelle" label="La Rochelle">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="Bordeaux" label="Bordeaux">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.9991224221149626" />
+        </attvalues>
+      </node>
+      <node id="Redon" label="Redon">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0868802106186923" />
+        </attvalues>
+      </node>
+      <node id="Caen " label="Caen ">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0592365072400176" />
+        </attvalues>
+      </node>
+      <node id="Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="5.134708205353225" />
+        </attvalues>
+      </node>
+      <node id="Saint-Valery-sur-Somme" label="Saint-Valery-sur-Somme">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.098727512066696" />
+        </attvalues>
+      </node>
+      <node id="Nantes" label="Nantes">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.3435717419921018" />
+        </attvalues>
+      </node>
+      <node id="Rochefort" label="Rochefort">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="2.4335234752084247" />
+        </attvalues>
+      </node>
+      <node id="Noirmoutier" label="Noirmoutier">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.1540149188240456" />
+        </attvalues>
+      </node>
+      <node id="Marseille" label="Marseille">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0078982009653357" />
+        </attvalues>
+      </node>
+      <node id="Alicante" label="Alicante">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Dunkerque" label="Dunkerque">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.4067573497147872" />
+        </attvalues>
+      </node>
+      <node id="Brest" label="Brest">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.023694602896007" />
+        </attvalues>
+      </node>
+      <node id="Calais" label="Calais">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0592365072400176" />
+        </attvalues>
+      </node>
+      <node id="île d'Oléron" label="île d'Oléron">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.9635805177709522" />
+        </attvalues>
+      </node>
+      <node id="Amsterdam" label="Amsterdam">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0118473014480036" />
+        </attvalues>
+      </node>
+      <node id="Tonnay-Charente" label="Tonnay-Charente">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="8.041246160596753" />
+        </attvalues>
+      </node>
+      <node id="Saint-Valery en Caux" label="Saint-Valery en Caux">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0671347082053533" />
+        </attvalues>
+      </node>
+      <node id="Seudre" label="Seudre">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.14611671785871" />
+        </attvalues>
+      </node>
+      <node id="Saint-Valery (indeterminé)" label="Saint-Valery (indeterminé)">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0355419043440106" />
+        </attvalues>
+      </node>
+      <node id="Honfleur" label="Honfleur">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.118473014480035" />
+        </attvalues>
+      </node>
+      <node id="Côtes de Bretagne" label="Côtes de Bretagne">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="4.54234313295305" />
+        </attvalues>
+      </node>
+      <node id="Marans" label="Marans">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="9.727512066695919" />
+        </attvalues>
+      </node>
+      <node id="Les Sables-d'Olonne" label="Les Sables-d'Olonne">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.651601579640193" />
+        </attvalues>
+      </node>
+      <node id="Ribérou" label="Ribérou">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="3.499780605528741" />
+        </attvalues>
+      </node>
+      <node id="île de Bouin" label="île de Bouin">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.3001316366827556" />
+        </attvalues>
+      </node>
+      <node id="Gravelines" label="Gravelines">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.1816586222027206" />
+        </attvalues>
+      </node>
+      <node id="Bourgneuf" label="Bourgneuf">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0197455024133393" />
+        </attvalues>
+      </node>
+      <node id="Bayonne" label="Bayonne">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0671347082053533" />
+        </attvalues>
+      </node>
+      <node id="Granville" label="Granville">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Ferrol" label="Ferrol">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Étaples " label="Étaples ">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Cherbourg" label="Cherbourg">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0394910048266783" />
+        </attvalues>
+      </node>
+      <node id="Rouen" label="Rouen">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.023694602896007" />
+        </attvalues>
+      </node>
+      <node id="Libourne" label="Libourne">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0671347082053533" />
+        </attvalues>
+      </node>
+      <node id="La Flotte-en-Ré" label="La Flotte-en-Ré">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.647652479157525" />
+        </attvalues>
+      </node>
+      <node id="Vannes" label="Vannes">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0671347082053533" />
+        </attvalues>
+      </node>
+      <node id="Angleterre" label="Angleterre">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Détroit de Gibraltar" label="Détroit de Gibraltar">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Boulogne-sur-Mer" label="Boulogne-sur-Mer">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0197455024133393" />
+        </attvalues>
+      </node>
+      <node id="Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="5.877139096094778" />
+        </attvalues>
+      </node>
+      <node id="Dieppe" label="Dieppe">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0118473014480036" />
+        </attvalues>
+      </node>
+      <node id="Ars-en-Ré" label="Ars-en-Ré">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.4462483545414655" />
+        </attvalues>
+      </node>
+      <node id="Le Croisic" label="Le Croisic">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.387011847301448" />
+        </attvalues>
+      </node>
+      <node id="Saint-Gilles-sur-Vie" label="Saint-Gilles-sur-Vie">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.051338306274682" />
+        </attvalues>
+      </node>
+      <node id="Locmariaquer" label="Locmariaquer">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.3317244405440982" />
+        </attvalues>
+      </node>
+      <node id="La Tranche-sur-Mer" label="La Tranche-sur-Mer">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.051338306274682" />
+        </attvalues>
+      </node>
+      <node id="Beauvoir-sur-Mer" label="Beauvoir-sur-Mer">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.142167617376042" />
+        </attvalues>
+      </node>
+      <node id="Saint-Malo" label="Saint-Malo">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="La Perrotine" label="La Perrotine">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="2.5204036858271173" />
+        </attvalues>
+      </node>
+      <node id="Saint-Denis d'Oléron" label="Saint-Denis d'Oléron">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="2.2716103554190434" />
+        </attvalues>
+      </node>
+      <node id="Champagné-les-Marais" label="Champagné-les-Marais">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.4067573497147872" />
+        </attvalues>
+      </node>
+      <node id="Taillebourg" label="Taillebourg">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.098727512066696" />
+        </attvalues>
+      </node>
+      <node id="Le Château-d'Oléron" label="Le Château-d'Oléron">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.142167617376042" />
+        </attvalues>
+      </node>
+      <node id="Abbeville" label="Abbeville">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0118473014480036" />
+        </attvalues>
+      </node>
+      <node id="Ker Châlon" label="Ker Châlon">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.051338306274682" />
+        </attvalues>
+      </node>
+      <node id="Royan" label="Royan">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.047389205792014" />
+        </attvalues>
+      </node>
+      <node id="mer des Pertuis" label="mer des Pertuis">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.027643703378675" />
+        </attvalues>
+      </node>
+      <node id="île de Ré" label="île de Ré">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="2.1215445370776655" />
+        </attvalues>
+      </node>
+      <node id="Moricq" label="Moricq">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0829311101360246" />
+        </attvalues>
+      </node>
+      <node id="Talmont" label="Talmont">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Lorient" label="Lorient">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0157964019306713" />
+        </attvalues>
+      </node>
+      <node id="Bourcefranc " label="Bourcefranc ">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0118473014480036" />
+        </attvalues>
+      </node>
+      <node id="Soubise" label="Soubise">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.2250987275120666" />
+        </attvalues>
+      </node>
+      <node id="La Tremblade" label="La Tremblade">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0434401053093463" />
+        </attvalues>
+      </node>
+      <node id="Arzon" label="Arzon">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0355419043440106" />
+        </attvalues>
+      </node>
+      <node id="Santander" label="Santander">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Saint-Esprit" label="Saint-Esprit">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Morlaix" label="Morlaix">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0355419043440106" />
+        </attvalues>
+      </node>
+      <node id="Saintes" label="Saintes">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0157964019306713" />
+        </attvalues>
+      </node>
+      <node id="île d'Yeu" label="île d'Yeu">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Touques" label="Touques">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Gloucester" label="Gloucester">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Boston" label="Boston">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.003949100482668" />
+        </attvalues>
+      </node>
+      <node id="Le Plomb" label="Le Plomb">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="1.7858709960508996" />
+        </attvalues>
+      </node>
+      <node id="Esnandes" label="Esnandes">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="rgb(0, 255, 0)" />
+          <attvalue for="2" value="2.0070206230802983" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="La Rochelle" target="Bordeaux" id="0" weight="29" />
+      <edge source="La Rochelle" target="Alicante" id="1" weight="1" />
+      <edge source="La Rochelle" target="Calais" id="2" weight="12" />
+      <edge source="La Rochelle" target="La Rochelle" id="3" weight="207" />
+      <edge source="La Rochelle" target="île d'Oléron" id="4" weight="5" />
+      <edge source="La Rochelle" target="Saint-Valery en Caux" id="5" weight="6" />
+      <edge source="La Rochelle" target="Seudre" id="6" weight="4" />
+      <edge source="La Rochelle" target="Dunkerque" id="7" weight="5" />
+      <edge source="La Rochelle" target="Rochefort" id="8" weight="89" />
+      <edge source="La Rochelle" target="Saint-Valery-sur-Somme" id="9" weight="9" />
+      <edge source="La Rochelle" target="Granville" id="10" weight="1" />
+      <edge source="La Rochelle" target="Marennes" id="11" weight="16" />
+      <edge source="La Rochelle" target="Tonnay-Charente" id="12" weight="332" />
+      <edge source="La Rochelle" target="Boulogne-sur-Mer" id="13" weight="6" />
+      <edge source="La Rochelle" target="Saint-Martin-de-Ré" id="14" weight="21" />
+      <edge source="La Rochelle" target="Ribérou" id="15" weight="44" />
+      <edge source="La Rochelle" target="Les Sables-d'Olonne" id="16" weight="6" />
+      <edge source="La Rochelle" target="Le Croisic" id="17" weight="46" />
+      <edge source="La Rochelle" target="La Tranche-sur-Mer" id="18" weight="7" />
+      <edge source="La Rochelle" target="Saint-Denis d'Oléron" id="19" weight="28" />
+      <edge source="La Rochelle" target="Saint-Valery (indeterminé)" id="20" weight="1" />
+      <edge source="La Rochelle" target="Champagné-les-Marais" id="21" weight="26" />
+      <edge source="La Rochelle" target="Le Château-d'Oléron" id="22" weight="5" />
+      <edge source="La Rochelle" target="Gravelines" id="23" weight="4" />
+      <edge source="La Rochelle" target="Marans" id="24" weight="13" />
+      <edge source="La Rochelle" target="La Perrotine" id="25" weight="33" />
+      <edge source="La Rochelle" target="Soubise" id="26" weight="24" />
+      <edge source="La Rochelle" target="Ars-en-Ré" id="27" weight="30" />
+      <edge source="La Rochelle" target="Côtes de Bretagne" id="28" weight="13" />
+      <edge source="Bordeaux" target="Marans" id="29" weight="45" />
+      <edge source="Bordeaux" target="Tonnay-Charente" id="30" weight="7" />
+      <edge source="Bordeaux" target="île d'Oléron" id="31" weight="7" />
+      <edge source="Bordeaux" target="La Tranche-sur-Mer" id="32" weight="7" />
+      <edge source="Bordeaux" target="Saint-Malo" id="33" weight="2" />
+      <edge source="Bordeaux" target="Saint-Denis d'Oléron" id="34" weight="2" />
+      <edge source="Bordeaux" target="Le Château-d'Oléron" id="35" weight="5" />
+      <edge source="Bordeaux" target="Saint-Martin-de-Ré" id="36" weight="12" />
+      <edge source="Bordeaux" target="Côtes de Bretagne" id="37" weight="11" />
+      <edge source="Bordeaux" target="Marennes" id="38" weight="9" />
+      <edge source="Bordeaux" target="Nantes" id="39" weight="13" />
+      <edge source="Bordeaux" target="Ribérou" id="40" weight="14" />
+      <edge source="Bordeaux" target="Noirmoutier" id="41" weight="12" />
+      <edge source="Bordeaux" target="Redon" id="42" weight="6" />
+      <edge source="Bordeaux" target="Beauvoir-sur-Mer" id="43" weight="6" />
+      <edge source="Bordeaux" target="Bordeaux" id="44" weight="21" />
+      <edge source="Bordeaux" target="La Flotte-en-Ré" id="45" weight="4" />
+      <edge source="Bordeaux" target="Gravelines" id="46" weight="5" />
+      <edge source="Bordeaux" target="Bayonne" id="47" weight="2" />
+      <edge source="Redon" target="Caen " id="48" weight="4" />
+      <edge source="Redon" target="Beauvoir-sur-Mer" id="49" weight="6" />
+      <edge source="Redon" target="île de Bouin" id="50" weight="7" />
+      <edge source="Caen " target="Marennes" id="51" weight="4" />
+      <edge source="Caen " target="Caen " id="52" weight="3" />
+      <edge source="Caen " target="Libourne" id="53" weight="2" />
+      <edge source="Marennes" target="Saint-Valery-sur-Somme" id="54" weight="7" />
+      <edge source="Marennes" target="Nantes" id="55" weight="4" />
+      <edge source="Marennes" target="Dunkerque" id="56" weight="35" />
+      <edge source="Marennes" target="Brest" id="57" weight="7" />
+      <edge source="Marennes" target="Amsterdam" id="58" weight="4" />
+      <edge source="Marennes" target="Honfleur" id="59" weight="21" />
+      <edge source="Marennes" target="Étaples " id="60" weight="2" />
+      <edge source="Marennes" target="La Flotte-en-Ré" id="61" weight="2" />
+      <edge source="Marennes" target="Marennes" id="62" weight="200" />
+      <edge source="Marennes" target="Vannes" id="63" weight="3" />
+      <edge source="Marennes" target="Libourne" id="64" weight="8" />
+      <edge source="Marennes" target="Beauvoir-sur-Mer" id="65" weight="2" />
+      <edge source="Marennes" target="Gravelines" id="66" weight="8" />
+      <edge source="Marennes" target="Saint-Martin-de-Ré" id="67" weight="42" />
+      <edge source="Marennes" target="Tonnay-Charente" id="68" weight="326" />
+      <edge source="Marennes" target="Marans" id="69" weight="19" />
+      <edge source="Marennes" target="Lorient" id="70" weight="4" />
+      <edge source="Marennes" target="Bourcefranc " id="71" weight="4" />
+      <edge source="Marennes" target="Ribérou" id="72" weight="4" />
+      <edge source="Marennes" target="Côtes de Bretagne" id="73" weight="4" />
+      <edge source="Saint-Valery-sur-Somme" target="Marseille" id="74" weight="1" />
+      <edge source="Saint-Valery-sur-Somme" target="Ferrol" id="75" weight="2" />
+      <edge source="Saint-Valery-sur-Somme" target="Libourne" id="76" weight="2" />
+      <edge source="Saint-Valery-sur-Somme" target="Angleterre" id="77" weight="1" />
+      <edge source="Saint-Valery-sur-Somme" target="Abbeville" id="78" weight="4" />
+      <edge source="Nantes" target="Noirmoutier" id="79" weight="6" />
+      <edge source="Nantes" target="Beauvoir-sur-Mer" id="80" weight="10" />
+      <edge source="Nantes" target="île de Bouin" id="81" weight="23" />
+      <edge source="Nantes" target="Nantes" id="82" weight="14" />
+      <edge source="Rochefort" target="Noirmoutier" id="83" weight="4" />
+      <edge source="Rochefort" target="Calais" id="84" weight="3" />
+      <edge source="Rochefort" target="Ribérou" id="85" weight="17" />
+      <edge source="Rochefort" target="Rochefort" id="86" weight="34" />
+      <edge source="Rochefort" target="Champagné-les-Marais" id="87" weight="52" />
+      <edge source="Rochefort" target="Taillebourg" id="88" weight="26" />
+      <edge source="Rochefort" target="Tonnay-Charente" id="89" weight="52" />
+      <edge source="Rochefort" target="Cherbourg" id="90" weight="4" />
+      <edge source="Rochefort" target="Les Sables-d'Olonne" id="91" weight="4" />
+      <edge source="Rochefort" target="île d'Oléron" id="92" weight="4" />
+      <edge source="Rochefort" target="La Perrotine" id="93" weight="21" />
+      <edge source="Rochefort" target="Marans" id="94" weight="20" />
+      <edge source="Noirmoutier" target="Noirmoutier" id="95" weight="6" />
+      <edge source="Noirmoutier" target="Beauvoir-sur-Mer" id="96" weight="6" />
+      <edge source="Marseille" target="Alicante" id="97" weight="1" />
+      <edge source="Marseille" target="Détroit de Gibraltar" id="98" weight="1" />
+      <edge source="Dunkerque" target="Tonnay-Charente" id="99" weight="1" />
+      <edge source="Dunkerque" target="Bayonne" id="100" weight="3" />
+      <edge source="Dunkerque" target="La Perrotine" id="101" weight="1" />
+      <edge source="Dunkerque" target="Vannes" id="102" weight="1" />
+      <edge source="Dunkerque" target="Honfleur" id="103" weight="4" />
+      <edge source="Dunkerque" target="Saint-Martin-de-Ré" id="104" weight="2" />
+      <edge source="Calais" target="Tonnay-Charente" id="105" weight="1" />
+      <edge source="île d'Oléron" target="Honfleur" id="106" weight="6" />
+      <edge source="île d'Oléron" target="Saint-Martin-de-Ré" id="107" weight="58" />
+      <edge source="île d'Oléron" target="Saint-Denis d'Oléron" id="108" weight="14" />
+      <edge source="île d'Oléron" target="Ribérou" id="109" weight="20" />
+      <edge source="île d'Oléron" target="Côtes de Bretagne" id="110" weight="14" />
+      <edge source="île d'Oléron" target="île d'Oléron" id="111" weight="16" />
+      <edge source="île d'Oléron" target="Soubise" id="112" weight="24" />
+      <edge source="île d'Oléron" target="Libourne" id="113" weight="2" />
+      <edge source="Tonnay-Charente" target="Tonnay-Charente" id="114" weight="200" />
+      <edge source="Tonnay-Charente" target="Saint-Valery (indeterminé)" id="115" weight="5" />
+      <edge source="Tonnay-Charente" target="Royan" id="116" weight="4" />
+      <edge source="Tonnay-Charente" target="La Perrotine" id="117" weight="26" />
+      <edge source="Tonnay-Charente" target="Seudre" id="118" weight="26" />
+      <edge source="Tonnay-Charente" target="La Flotte-en-Ré" id="119" weight="25" />
+      <edge source="Tonnay-Charente" target="Marans" id="120" weight="10" />
+      <edge source="Tonnay-Charente" target="Ars-en-Ré" id="121" weight="10" />
+      <edge source="Tonnay-Charente" target="Morlaix" id="122" weight="5" />
+      <edge source="Tonnay-Charente" target="Soubise" id="123" weight="10" />
+      <edge source="Saint-Valery en Caux" target="Dieppe" id="124" weight="2" />
+      <edge source="Saint-Valery en Caux" target="Touques" id="125" weight="2" />
+      <edge source="Seudre" target="Gravelines" id="126" weight="4" />
+      <edge source="Seudre" target="Saint-Martin-de-Ré" id="127" weight="4" />
+      <edge source="Saint-Valery (indeterminé)" target="Rouen" id="128" weight="4" />
+      <edge source="Côtes de Bretagne" target="Côtes de Bretagne" id="129" weight="177" />
+      <edge source="Côtes de Bretagne" target="Les Sables-d'Olonne" id="130" weight="29" />
+      <edge source="Côtes de Bretagne" target="Ribérou" id="131" weight="154" />
+      <edge source="Côtes de Bretagne" target="Marans" id="132" weight="3" />
+      <edge source="Côtes de Bretagne" target="Vannes" id="133" weight="2" />
+      <edge source="Côtes de Bretagne" target="Saint-Gilles-sur-Vie" id="134" weight="6" />
+      <edge source="Côtes de Bretagne" target="Locmariaquer" id="135" weight="7" />
+      <edge source="Côtes de Bretagne" target="Saint-Denis d'Oléron" id="136" weight="28" />
+      <edge source="Côtes de Bretagne" target="La Flotte-en-Ré" id="137" weight="15" />
+      <edge source="Côtes de Bretagne" target="Le Croisic" id="138" weight="11" />
+      <edge source="Côtes de Bretagne" target="Saint-Martin-de-Ré" id="139" weight="10" />
+      <edge source="Côtes de Bretagne" target="Arzon" id="140" weight="5" />
+      <edge source="Marans" target="Marans" id="141" weight="409" />
+      <edge source="Marans" target="Les Sables-d'Olonne" id="142" weight="28" />
+      <edge source="Marans" target="Ribérou" id="143" weight="15" />
+      <edge source="Marans" target="Saint-Martin-de-Ré" id="144" weight="401" />
+      <edge source="Marans" target="Saint-Denis d'Oléron" id="145" weight="19" />
+      <edge source="Marans" target="Locmariaquer" id="146" weight="8" />
+      <edge source="Marans" target="Moricq" id="147" weight="11" />
+      <edge source="Marans" target="La Tremblade" id="148" weight="12" />
+      <edge source="Marans" target="Le Croisic" id="149" weight="3" />
+      <edge source="Marans" target="Le Plomb" id="150" weight="80" />
+      <edge source="Marans" target="île de Ré" id="151" weight="120" />
+      <edge source="Marans" target="Esnandes" id="152" weight="96" />
+      <edge source="Les Sables-d'Olonne" target="Bayonne" id="153" weight="3" />
+      <edge source="Les Sables-d'Olonne" target="Ribérou" id="154" weight="18" />
+      <edge source="Les Sables-d'Olonne" target="Saint-Gilles-sur-Vie" id="155" weight="2" />
+      <edge source="Les Sables-d'Olonne" target="Locmariaquer" id="156" weight="10" />
+      <edge source="Les Sables-d'Olonne" target="Saint-Martin-de-Ré" id="157" weight="7" />
+      <edge source="Les Sables-d'Olonne" target="Les Sables-d'Olonne" id="158" weight="5" />
+      <edge source="Ribérou" target="Locmariaquer" id="159" weight="14" />
+      <edge source="Ribérou" target="Saint-Denis d'Oléron" id="160" weight="14" />
+      <edge source="Ribérou" target="Ribérou" id="161" weight="61" />
+      <edge source="Ribérou" target="Saint-Martin-de-Ré" id="162" weight="19" />
+      <edge source="Ribérou" target="Le Croisic" id="163" weight="10" />
+      <edge source="Ribérou" target="La Perrotine" id="164" weight="14" />
+      <edge source="île de Bouin" target="Gravelines" id="165" weight="4" />
+      <edge source="île de Bouin" target="Bourgneuf" id="166" weight="2" />
+      <edge source="île de Bouin" target="île de Bouin" id="167" weight="14" />
+      <edge source="île de Bouin" target="Beauvoir-sur-Mer" id="168" weight="7" />
+      <edge source="Gravelines" target="Bourgneuf" id="169" weight="2" />
+      <edge source="Gravelines" target="Saint-Martin-de-Ré" id="170" weight="8" />
+      <edge source="Bayonne" target="Cherbourg" id="171" weight="4" />
+      <edge source="Bayonne" target="Libourne" id="172" weight="4" />
+      <edge source="Bayonne" target="Saint-Gilles-sur-Vie" id="173" weight="2" />
+      <edge source="Cherbourg" target="Rouen" id="174" weight="3" />
+      <edge source="La Flotte-en-Ré" target="Saint-Denis d'Oléron" id="175" weight="14" />
+      <edge source="La Flotte-en-Ré" target="mer des Pertuis" id="176" weight="6" />
+      <edge source="La Flotte-en-Ré" target="La Perrotine" id="177" weight="21" />
+      <edge source="La Flotte-en-Ré" target="Arzon" id="178" weight="5" />
+      <edge source="La Flotte-en-Ré" target="Ars-en-Ré" id="179" weight="10" />
+      <edge source="Vannes" target="mer des Pertuis" id="180" weight="2" />
+      <edge source="Vannes" target="Saint-Martin-de-Ré" id="181" weight="7" />
+      <edge source="Vannes" target="île d'Yeu" id="182" weight="1" />
+      <edge source="Angleterre" target="Détroit de Gibraltar" id="183" weight="1" />
+      <edge source="Saint-Martin-de-Ré" target="Saint-Denis d'Oléron" id="184" weight="19" />
+      <edge source="Saint-Martin-de-Ré" target="Champagné-les-Marais" id="185" weight="26" />
+      <edge source="Saint-Martin-de-Ré" target="Le Château-d'Oléron" id="186" weight="5" />
+      <edge source="Saint-Martin-de-Ré" target="La Perrotine" id="187" weight="42" />
+      <edge source="Saint-Martin-de-Ré" target="Locmariaquer" id="188" weight="11" />
+      <edge source="Saint-Martin-de-Ré" target="Boston" id="189" weight="2" />
+      <edge source="Saint-Martin-de-Ré" target="Saint-Martin-de-Ré" id="190" weight="81" />
+      <edge source="Dieppe" target="Ars-en-Ré" id="191" weight="2" />
+      <edge source="Ars-en-Ré" target="Moricq" id="192" weight="11" />
+      <edge source="Ars-en-Ré" target="Ars-en-Ré" id="193" weight="20" />
+      <edge source="Ars-en-Ré" target="Gloucester" id="194" weight="1" />
+      <edge source="Le Croisic" target="Locmariaquer" id="195" weight="13" />
+      <edge source="Saint-Gilles-sur-Vie" target="Saint-Gilles-sur-Vie" id="196" weight="2" />
+      <edge source="La Perrotine" target="Saint-Denis d'Oléron" id="197" weight="2" />
+      <edge source="La Perrotine" target="Le Château-d'Oléron" id="198" weight="12" />
+      <edge source="La Perrotine" target="Lorient" id="199" weight="1" />
+      <edge source="Saint-Denis d'Oléron" target="Saint-Denis d'Oléron" id="200" weight="19" />
+      <edge source="Saint-Denis d'Oléron" target="Ker Châlon" id="201" weight="14" />
+      <edge source="Saint-Denis d'Oléron" target="île de Ré" id="202" weight="5" />
+      <edge source="Le Château-d'Oléron" target="Le Château-d'Oléron" id="203" weight="5" />
+      <edge source="Royan" target="Royan" id="204" weight="4" />
+      <edge source="Royan" target="Talmont" id="205" weight="1" />
+      <edge source="île de Ré" target="Le Plomb" id="206" weight="60" />
+      <edge source="île de Ré" target="île de Ré" id="207" weight="40" />
+      <edge source="Santander" target="Saint-Esprit" id="208" weight="2" />
+      <edge source="Morlaix" target="Saintes" id="209" weight="5" />
+      <edge source="Le Plomb" target="Le Plomb" id="210" weight="20" />
+      <edge source="Esnandes" target="Esnandes" id="211" weight="80" />
+    </edges>
+  </graph>
+</gexf>

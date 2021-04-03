@@ -1,0 +1,1510 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-04-03">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="name" type="string" />
+      <attribute id="2" title="color" type="string" />
+      <attribute id="3" title="size" type="double" />
+    </attributes>
+    <nodes>
+      <node id="partner_Petites iles" label="Petites iles">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Petites iles" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="4.75" />
+        </attvalues>
+      </node>
+      <node id="partner_Quatre villes hanséatiques" label="Quatre villes hanséatiques">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Quatre villes hanséatiques" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="2.083333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_Russie" label="Russie">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Russie" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </node>
+      <node id="partner_Hollande" label="Hollande">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Hollande" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="4.791666666666666" />
+        </attvalues>
+      </node>
+      <node id="partner_Suede" label="Suede">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Suede" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.2916666666666665" />
+        </attvalues>
+      </node>
+      <node id="partner_Iles Françaises de l'Amérique" label="Iles Françaises de l'Amérique">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Iles Françaises de l'Amérique" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="2.083333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_Angleterre" label="Angleterre">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Angleterre" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="3.7916666666666665" />
+        </attvalues>
+      </node>
+      <node id="partner_Marseille" label="Marseille">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Marseille" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="3.458333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_Bayonne" label="Bayonne">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Bayonne" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </node>
+      <node id="partner_Dunkerque" label="Dunkerque">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Dunkerque" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.7083333333333335" />
+        </attvalues>
+      </node>
+      <node id="partner_Allemagne" label="Allemagne">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Allemagne" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_Prusse" label="Prusse">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Prusse" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </node>
+      <node id="partner_Danemark" label="Danemark">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Danemark" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.5833333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_L'Amerique" label="L'Amerique">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="L'Amerique" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_L'amerique" label="L'amerique">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="L'amerique" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_Lorient" label="Lorient">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Lorient" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.5833333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_Espagne" label="Espagne">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Espagne" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.375" />
+        </attvalues>
+      </node>
+      <node id="partner_L'empereur" label="L'empereur">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="L'empereur" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.1666666666666667" />
+        </attvalues>
+      </node>
+      <node id="partner_Sénégal et Guinée" label="Sénégal et Guinée">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Sénégal et Guinée" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="partner_Etats de l'Empereur" label="Etats de l'Empereur">
+        <attvalues>
+          <attvalue for="0" value="partner" />
+          <attvalue for="1" value="Etats de l'Empereur" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Bière, cidre et vinaigre" label="Bière, cidre et vinaigre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Bière, cidre et vinaigre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.4583333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Fer-blanc" label="Fer-blanc">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Fer-blanc" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2916666666666665" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Ouvrages métalliques" label="Ouvrages métalliques">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Ouvrages métalliques" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.875" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Fer" label="Fer">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Fer" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Fromage" label="Fromage">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Fromage" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Ouvrages de bois, liège et jonc" label="Ouvrages de bois, liège et jonc">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Ouvrages de bois, liège et jonc" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="3.458333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Sucre" label="Sucre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Sucre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Blé et autres grains comestibles" label="Blé et autres grains comestibles">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Blé et autres grains comestibles" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.8333333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Riz" label="Riz">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Riz" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Graisses diverses" label="Graisses diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Graisses diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.3333333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Huile d'olive à manger" label="Huile d'olive à manger">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Huile d'olive à manger" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Bois divers hors combustible" label="Bois divers hors combustible">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Bois divers hors combustible" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Huiles diverses" label="Huiles diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Huiles diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.1666666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Combustibles dont charbons et bois" label="Combustibles dont charbons et bois">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Combustibles dont charbons et bois" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Poils et crin" label="Poils et crin">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Poils et crin" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Graines diverses et mélangées" label="Graines diverses et mélangées">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Graines diverses et mélangées" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Lin" label="Lin">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Lin" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Habits et lingerie" label="Habits et lingerie">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Habits et lingerie" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Divers mélangés" label="Divers mélangés">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Divers mélangés" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.75" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Coton non transformé" label="Coton non transformé">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Coton non transformé" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.1666666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Marbre brut et ouvré" label="Marbre brut et ouvré">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Marbre brut et ouvré" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Mercerie" label="Mercerie">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Mercerie" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.1666666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Ouvrages divers et mélangés" label="Ouvrages divers et mélangés">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Ouvrages divers et mélangés" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.375" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" label="Porcelaine, poterie, faïence et ouvrages de terre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Porcelaine, poterie, faïence et ouvrages de terre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2916666666666665" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Cuirs, peaux et pelleterie" label="Cuirs, peaux et pelleterie">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Cuirs, peaux et pelleterie" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.75" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Plomb" label="Plomb">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Plomb" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Pêche et fruits de mer" label="Pêche et fruits de mer">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Pêche et fruits de mer" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.4583333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Quincaillerie" label="Quincaillerie">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Quincaillerie" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2916666666666665" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Café" label="Café">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Café" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.1666666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Savon" label="Savon">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Savon" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Vins divers" label="Vins divers">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Vins divers" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.4166666666666665" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Eaux-de-vie et liqueurs" label="Eaux-de-vie et liqueurs">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Eaux-de-vie et liqueurs" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.25" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" label="Armes, munitions, poudre et pierres à fusil">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Armes, munitions, poudre et pierres à fusil" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Beurre" label="Beurre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Beurre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Bâtiments de mer et apparaux" label="Bâtiments de mer et apparaux">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Bâtiments de mer et apparaux" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.3333333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Subsistances diverses et mélangées" label="Subsistances diverses et mélangées">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Subsistances diverses et mélangées" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.25" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Matières premières diverses" label="Matières premières diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Matières premières diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.4583333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Brai, goudron et résines" label="Brai, goudron et résines">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Brai, goudron et résines" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.375" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Étoffes de laine" label="Étoffes de laine">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Étoffes de laine" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Chairs et œufs" label="Chairs et œufs">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Chairs et œufs" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Chanvre" label="Chanvre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Chanvre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Fils divers" label="Fils divers">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Fils divers" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Farine, gruau, biscuits et pâtes" label="Farine, gruau, biscuits et pâtes">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Farine, gruau, biscuits et pâtes" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Fruits frais" label="Fruits frais">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Fruits frais" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Sirop et mélasse" label="Sirop et mélasse">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Sirop et mélasse" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Bougies, chandelles et flambeaux" label="Bougies, chandelles et flambeaux">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Bougies, chandelles et flambeaux" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Gommes diverses" label="Gommes diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Gommes diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Matières brutes et transformées pour teinture" label="Matières brutes et transformées pour teinture">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Matières brutes et transformées pour teinture" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.7916666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Vins de Bordeaux" label="Vins de Bordeaux">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Vins de Bordeaux" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Huile de poisson" label="Huile de poisson">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Huile de poisson" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Divers incertains" label="Divers incertains">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Divers incertains" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Légumes" label="Légumes">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Légumes" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Cornes, corail, écailles, ivoire et nacre" label="Cornes, corail, écailles, ivoire et nacre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Cornes, corail, écailles, ivoire et nacre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Bouchons principalement en liège" label="Bouchons principalement en liège">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Bouchons principalement en liège" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Sel" label="Sel">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Sel" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Acier" label="Acier">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Acier" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Fruits secs et noix" label="Fruits secs et noix">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Fruits secs et noix" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Cacao et chocolat" label="Cacao et chocolat">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Cacao et chocolat" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Objets d'art et d'histoire naturelle" label="Objets d'art et d'histoire naturelle">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Objets d'art et d'histoire naturelle" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Cuivre" label="Cuivre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Cuivre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.1666666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Meubles, glaces et miroirs" label="Meubles, glaces et miroirs">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Meubles, glaces et miroirs" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Colles diverses" label="Colles diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Colles diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Cordage et filets" label="Cordage et filets">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Cordage et filets" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Bijouterie et pierres fines" label="Bijouterie et pierres fines">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Bijouterie et pierres fines" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Métaux divers et mélangés" label="Métaux divers et mélangés">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Métaux divers et mélangés" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Drogues médicinales diverses" label="Drogues médicinales diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Drogues médicinales diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Manne et médicaments" label="Manne et médicaments">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Manne et médicaments" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Quinquina" label="Quinquina">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Quinquina" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Séné" label="Séné">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Séné" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Réglisse" label="Réglisse">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Réglisse" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Alun" label="Alun">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Alun" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Céruse et blanc de plomb" label="Céruse et blanc de plomb">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Céruse et blanc de plomb" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Drogues diverses" label="Drogues diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Drogues diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Parfumerie et toilette" label="Parfumerie et toilette">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Parfumerie et toilette" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Denrées coloniales et épiceries diverses" label="Denrées coloniales et épiceries diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Denrées coloniales et épiceries diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Cannelle" label="Cannelle">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Cannelle" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Poivre et piment" label="Poivre et piment">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Poivre et piment" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.125" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Toiles de coton" label="Toiles de coton">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Toiles de coton" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Graines de jardin" label="Graines de jardin">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Graines de jardin" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Laines non transformées diverses" label="Laines non transformées diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Laines non transformées diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Papier" label="Papier">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Papier" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Faucilles, faux et limes" label="Faucilles, faux et limes">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Faucilles, faux et limes" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Rubanerie et passementerie diverse" label="Rubanerie et passementerie diverse">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Rubanerie et passementerie diverse" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Salpêtre et soufre" label="Salpêtre et soufre">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Salpêtre et soufre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Toiles diverses" label="Toiles diverses">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Toiles diverses" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Toiles de chanvre et de lin" label="Toiles de chanvre et de lin">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Toiles de chanvre et de lin" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Verrerie" label="Verrerie">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Verrerie" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Indigo" label="Indigo">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Indigo" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0416666666666667" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Fleurs artificielles et ouvrages de mode" label="Fleurs artificielles et ouvrages de mode">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Fleurs artificielles et ouvrages de mode" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Rocou" label="Rocou">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Rocou" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Azur et cobalt" label="Azur et cobalt">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Azur et cobalt" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Alquifoux, mine de plomb et graphite" label="Alquifoux, mine de plomb et graphite">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Alquifoux, mine de plomb et graphite" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Étain" label="Étain">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Étain" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Les Sables d'Olonne" label="Les Sables d'Olonne">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Les Sables d'Olonne" />
+          <attvalue for="2" value="rgb(0, 0, 255)" />
+          <attvalue for="3" value="1.375" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Rochefort" label="Rochefort">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Rochefort" />
+          <attvalue for="2" value="rgb(0, 0, 255)" />
+          <attvalue for="3" value="5.875" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Aligre" label="Aligre">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Aligre" />
+          <attvalue for="2" value="rgb(0, 0, 255)" />
+          <attvalue for="3" value="2.333333333333333" />
+        </attvalues>
+      </node>
+      <node id="customs_office_La Rochelle" label="La Rochelle">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="La Rochelle" />
+          <attvalue for="2" value="rgb(0, 0, 255)" />
+          <attvalue for="3" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Saint-Martin-de-Ré" />
+          <attvalue for="2" value="rgb(0, 0, 255)" />
+          <attvalue for="3" value="3.5416666666666665" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Charente" label="Charente">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Charente" />
+          <attvalue for="2" value="rgb(0, 0, 255)" />
+          <attvalue for="3" value="2.75" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Marennes" />
+          <attvalue for="2" value="rgb(0, 0, 255)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bière, cidre et vinaigre" id="0" weight="7" />
+      <edge source="partner_Petites iles" target="customs_office_Les Sables d'Olonne" id="1" weight="10" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Ouvrages métalliques" id="2" weight="1" />
+      <edge source="partner_Petites iles" target="customs_office_Rochefort" id="3" weight="11" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Fer" id="4" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="5" weight="14" />
+      <edge source="partner_Petites iles" target="customs_office_Aligre" id="6" weight="17" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Graines diverses et mélangées" id="7" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Habits et lingerie" id="8" weight="3" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Divers mélangés" id="9" weight="7" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="10" weight="8" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Graisses diverses" id="11" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="12" weight="5" />
+      <edge source="partner_Petites iles" target="customs_office_Saint-Martin-de-Ré" id="13" weight="6" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Pêche et fruits de mer" id="14" weight="6" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="15" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Vins de Bordeaux" id="16" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bois divers hors combustible" id="17" weight="1" />
+      <edge source="partner_Petites iles" target="customs_office_Charente" id="18" weight="11" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Blé et autres grains comestibles" id="19" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Huile de poisson" id="20" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Légumes" id="21" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Sel" id="22" weight="4" />
+      <edge source="partner_Petites iles" target="customs_office_Marennes" id="23" weight="3" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bâtiments de mer et apparaux" id="24" weight="1" />
+      <edge source="partner_Petites iles" target="customs_office_La Rochelle" id="25" weight="33" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Brai, goudron et résines" id="26" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Café" id="27" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Cuivre" id="28" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Chairs et œufs" id="29" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Meubles, glaces et miroirs" id="30" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Chanvre" id="31" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Cordage et filets" id="32" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Métaux divers et mélangés" id="33" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Réglisse" id="34" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Matières premières diverses" id="35" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Étoffes de laine" id="36" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="37" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Fruits frais" id="38" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Fruits secs et noix" id="39" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Lin" id="40" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Vins divers" id="41" weight="4" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bougies, chandelles et flambeaux" id="42" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Ouvrages divers et mélangés" id="43" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Fer-blanc" id="44" weight="3" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Rochefort" id="45" weight="4" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Blé et autres grains comestibles" id="46" weight="6" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Mercerie" id="47" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Chanvre" id="48" weight="2" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Saint-Martin-de-Ré" id="49" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Charente" id="50" weight="4" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Graines diverses et mélangées" id="51" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Beurre" id="52" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_La Rochelle" id="53" weight="18" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Bâtiments de mer et apparaux" id="54" weight="2" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="55" weight="3" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Cuivre" id="56" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Métaux divers et mélangés" id="57" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Laines non transformées diverses" id="58" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Divers mélangés" id="59" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="60" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Ouvrages métalliques" id="61" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Bougies, chandelles et flambeaux" id="62" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Toiles de chanvre et de lin" id="63" weight="1" />
+      <edge source="partner_Russie" target="product_revolutionempire_Fer-blanc" id="64" weight="1" />
+      <edge source="partner_Russie" target="customs_office_Rochefort" id="65" weight="8" />
+      <edge source="partner_Russie" target="product_revolutionempire_Ouvrages métalliques" id="66" weight="2" />
+      <edge source="partner_Russie" target="product_revolutionempire_Graisses diverses" id="67" weight="1" />
+      <edge source="partner_Russie" target="product_revolutionempire_Bâtiments de mer et apparaux" id="68" weight="2" />
+      <edge source="partner_Russie" target="customs_office_Saint-Martin-de-Ré" id="69" weight="3" />
+      <edge source="partner_Russie" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="70" weight="5" />
+      <edge source="partner_Russie" target="product_revolutionempire_Chanvre" id="71" weight="2" />
+      <edge source="partner_Russie" target="customs_office_La Rochelle" id="72" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Ouvrages métalliques" id="73" weight="8" />
+      <edge source="partner_Hollande" target="customs_office_Rochefort" id="74" weight="28" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Fromage" id="75" weight="5" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Blé et autres grains comestibles" id="76" weight="5" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Huiles diverses" id="77" weight="3" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Graines diverses et mélangées" id="78" weight="3" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Lin" id="79" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Divers mélangés" id="80" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Ouvrages divers et mélangés" id="81" weight="3" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="82" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Pêche et fruits de mer" id="83" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Quincaillerie" id="84" weight="5" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Vins divers" id="85" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Bière, cidre et vinaigre" id="86" weight="3" />
+      <edge source="partner_Hollande" target="customs_office_Saint-Martin-de-Ré" id="87" weight="11" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="88" weight="7" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Chairs et œufs" id="89" weight="1" />
+      <edge source="partner_Hollande" target="customs_office_Aligre" id="90" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Subsistances diverses et mélangées" id="91" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Bougies, chandelles et flambeaux" id="92" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Graisses diverses" id="93" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Bois divers hors combustible" id="94" weight="1" />
+      <edge source="partner_Hollande" target="customs_office_Charente" id="95" weight="7" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="96" weight="9" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Matières premières diverses" id="97" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Acier" id="98" weight="2" />
+      <edge source="partner_Hollande" target="customs_office_La Rochelle" id="99" weight="45" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" id="100" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Brai, goudron et résines" id="101" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Objets d'art et d'histoire naturelle" id="102" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Colles diverses" id="103" weight="3" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Drogues médicinales diverses" id="104" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Céruse et blanc de plomb" id="105" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Denrées coloniales et épiceries diverses" id="106" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Poivre et piment" id="107" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Fer" id="108" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Graines de jardin" id="109" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Mercerie" id="110" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Meubles, glaces et miroirs" id="111" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Papier" id="112" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Faucilles, faux et limes" id="113" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Verrerie" id="114" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Fleurs artificielles et ouvrages de mode" id="115" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Manne et médicaments" id="116" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Azur et cobalt" id="117" weight="1" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Fer-blanc" id="118" weight="1" />
+      <edge source="partner_Suede" target="product_revolutionempire_Ouvrages métalliques" id="119" weight="2" />
+      <edge source="partner_Suede" target="customs_office_Rochefort" id="120" weight="6" />
+      <edge source="partner_Suede" target="product_revolutionempire_Bâtiments de mer et apparaux" id="121" weight="1" />
+      <edge source="partner_Suede" target="customs_office_La Rochelle" id="122" weight="2" />
+      <edge source="partner_Suede" target="product_revolutionempire_Brai, goudron et résines" id="123" weight="1" />
+      <edge source="partner_Suede" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="124" weight="1" />
+      <edge source="partner_Suede" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="125" weight="1" />
+      <edge source="partner_Suede" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="126" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Sucre" id="127" weight="6" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="customs_office_La Rochelle" id="128" weight="17" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Bois divers hors combustible" id="129" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Café" id="130" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="customs_office_Rochefort" id="131" weight="10" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Subsistances diverses et mélangées" id="132" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="133" weight="1" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="134" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Riz" id="135" weight="1" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Sirop et mélasse" id="136" weight="3" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Divers incertains" id="137" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Cacao et chocolat" id="138" weight="1" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Coton non transformé" id="139" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Indigo" id="140" weight="2" />
+      <edge source="partner_Iles Françaises de l'Amérique" target="product_revolutionempire_Rocou" id="141" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Blé et autres grains comestibles" id="142" weight="6" />
+      <edge source="partner_Angleterre" target="customs_office_Rochefort" id="143" weight="22" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Riz" id="144" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Graisses diverses" id="145" weight="2" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Combustibles dont charbons et bois" id="146" weight="6" />
+      <edge source="partner_Angleterre" target="customs_office_Aligre" id="147" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Divers mélangés" id="148" weight="3" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Mercerie" id="149" weight="2" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Plomb" id="150" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Beurre" id="151" weight="2" />
+      <edge source="partner_Angleterre" target="customs_office_Saint-Martin-de-Ré" id="152" weight="5" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="153" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="154" weight="3" />
+      <edge source="partner_Angleterre" target="customs_office_Charente" id="155" weight="12" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="156" weight="4" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Ouvrages métalliques" id="157" weight="5" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="158" weight="3" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Matières premières diverses" id="159" weight="3" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Ouvrages divers et mélangés" id="160" weight="3" />
+      <edge source="partner_Angleterre" target="customs_office_Marennes" id="161" weight="1" />
+      <edge source="partner_Angleterre" target="customs_office_La Rochelle" id="162" weight="27" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Chairs et œufs" id="163" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Subsistances diverses et mélangées" id="164" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Cuivre" id="165" weight="2" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Étoffes de laine" id="166" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Alun" id="167" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Céruse et blanc de plomb" id="168" weight="2" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Denrées coloniales et épiceries diverses" id="169" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Cannelle" id="170" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Poivre et piment" id="171" weight="2" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Toiles de coton" id="172" weight="2" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Fer-blanc" id="173" weight="2" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Fer" id="174" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Fromage" id="175" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Rubanerie et passementerie diverse" id="176" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Toiles de chanvre et de lin" id="177" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="178" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Alquifoux, mine de plomb et graphite" id="179" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Étain" id="180" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Huile d'olive à manger" id="181" weight="4" />
+      <edge source="partner_Marseille" target="customs_office_Rochefort" id="182" weight="11" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Divers mélangés" id="183" weight="4" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Coton non transformé" id="184" weight="2" />
+      <edge source="partner_Marseille" target="customs_office_Aligre" id="185" weight="12" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Marbre brut et ouvré" id="186" weight="2" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Savon" id="187" weight="4" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Matières premières diverses" id="188" weight="3" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Étoffes de laine" id="189" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Fils divers" id="190" weight="2" />
+      <edge source="partner_Marseille" target="customs_office_Saint-Martin-de-Ré" id="191" weight="4" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Fruits frais" id="192" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Gommes diverses" id="193" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Bouchons principalement en liège" id="194" weight="2" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Fruits secs et noix" id="195" weight="2" />
+      <edge source="partner_Marseille" target="customs_office_La Rochelle" id="196" weight="33" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Ouvrages divers et mélangés" id="197" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Bijouterie et pierres fines" id="198" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Drogues médicinales diverses" id="199" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Manne et médicaments" id="200" weight="3" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Quinquina" id="201" weight="2" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Séné" id="202" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="203" weight="2" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Alun" id="204" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Drogues diverses" id="205" weight="2" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Parfumerie et toilette" id="206" weight="2" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Subsistances diverses et mélangées" id="207" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="208" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Riz" id="209" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Graines de jardin" id="210" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Graisses diverses" id="211" weight="2" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Mercerie" id="212" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Vins divers" id="213" weight="3" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Pêche et fruits de mer" id="214" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Salpêtre et soufre" id="215" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="216" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Verrerie" id="217" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Bière, cidre et vinaigre" id="218" weight="1" />
+      <edge source="partner_Marseille" target="product_revolutionempire_Cuivre" id="219" weight="1" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Poils et crin" id="220" weight="1" />
+      <edge source="partner_Bayonne" target="customs_office_Rochefort" id="221" weight="11" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Bois divers hors combustible" id="222" weight="2" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Graisses diverses" id="223" weight="1" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Vins divers" id="224" weight="2" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Brai, goudron et résines" id="225" weight="3" />
+      <edge source="partner_Bayonne" target="customs_office_Saint-Martin-de-Ré" id="226" weight="2" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Bâtiments de mer et apparaux" id="227" weight="1" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="228" weight="1" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Manne et médicaments" id="229" weight="1" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="230" weight="1" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Quincaillerie" id="231" weight="2" />
+      <edge source="partner_Dunkerque" target="customs_office_Rochefort" id="232" weight="4" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Graisses diverses" id="233" weight="1" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Brai, goudron et résines" id="234" weight="2" />
+      <edge source="partner_Dunkerque" target="customs_office_Saint-Martin-de-Ré" id="235" weight="4" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="236" weight="4" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Huiles diverses" id="237" weight="2" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Vins divers" id="238" weight="1" />
+      <edge source="partner_Dunkerque" target="customs_office_Charente" id="239" weight="4" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Matières premières diverses" id="240" weight="1" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" id="241" weight="1" />
+      <edge source="partner_Dunkerque" target="customs_office_La Rochelle" id="242" weight="6" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="243" weight="1" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Toiles diverses" id="244" weight="1" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Ouvrages divers et mélangés" id="245" weight="1" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Fer-blanc" id="246" weight="1" />
+      <edge source="partner_Allemagne" target="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" id="247" weight="1" />
+      <edge source="partner_Allemagne" target="customs_office_Saint-Martin-de-Ré" id="248" weight="1" />
+      <edge source="partner_Allemagne" target="product_revolutionempire_Blé et autres grains comestibles" id="249" weight="1" />
+      <edge source="partner_Allemagne" target="customs_office_Charente" id="250" weight="2" />
+      <edge source="partner_Allemagne" target="product_revolutionempire_Divers mélangés" id="251" weight="1" />
+      <edge source="partner_Prusse" target="product_revolutionempire_Bâtiments de mer et apparaux" id="252" weight="2" />
+      <edge source="partner_Prusse" target="customs_office_Saint-Martin-de-Ré" id="253" weight="7" />
+      <edge source="partner_Prusse" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="254" weight="8" />
+      <edge source="partner_Prusse" target="product_revolutionempire_Ouvrages métalliques" id="255" weight="2" />
+      <edge source="partner_Prusse" target="customs_office_Marennes" id="256" weight="1" />
+      <edge source="partner_Prusse" target="customs_office_La Rochelle" id="257" weight="2" />
+      <edge source="partner_Prusse" target="customs_office_Rochefort" id="258" weight="3" />
+      <edge source="partner_Prusse" target="product_revolutionempire_Chanvre" id="259" weight="1" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="260" weight="7" />
+      <edge source="partner_Danemark" target="customs_office_Saint-Martin-de-Ré" id="261" weight="12" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Brai, goudron et résines" id="262" weight="1" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Ouvrages métalliques" id="263" weight="1" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Blé et autres grains comestibles" id="264" weight="1" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Pêche et fruits de mer" id="265" weight="4" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Bougies, chandelles et flambeaux" id="266" weight="1" />
+      <edge source="partner_Danemark" target="customs_office_La Rochelle" id="267" weight="3" />
+      <edge source="partner_L'Amerique" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="268" weight="1" />
+      <edge source="partner_L'Amerique" target="customs_office_Saint-Martin-de-Ré" id="269" weight="3" />
+      <edge source="partner_L'Amerique" target="product_revolutionempire_Brai, goudron et résines" id="270" weight="1" />
+      <edge source="partner_L'Amerique" target="product_revolutionempire_Quincaillerie" id="271" weight="1" />
+      <edge source="partner_L'amerique" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="272" weight="1" />
+      <edge source="partner_L'amerique" target="customs_office_Saint-Martin-de-Ré" id="273" weight="1" />
+      <edge source="partner_L'amerique" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="274" weight="1" />
+      <edge source="partner_L'amerique" target="customs_office_Charente" id="275" weight="1" />
+      <edge source="partner_L'amerique" target="product_revolutionempire_Matières premières diverses" id="276" weight="1" />
+      <edge source="partner_L'amerique" target="customs_office_La Rochelle" id="277" weight="4" />
+      <edge source="partner_L'amerique" target="product_revolutionempire_Poivre et piment" id="278" weight="1" />
+      <edge source="partner_L'amerique" target="product_revolutionempire_Riz" id="279" weight="1" />
+      <edge source="partner_L'amerique" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="280" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="281" weight="3" />
+      <edge source="partner_Lorient" target="customs_office_Saint-Martin-de-Ré" id="282" weight="1" />
+      <edge source="partner_Lorient" target="customs_office_Aligre" id="283" weight="2" />
+      <edge source="partner_Lorient" target="customs_office_Marennes" id="284" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Café" id="285" weight="2" />
+      <edge source="partner_Lorient" target="customs_office_La Rochelle" id="286" weight="11" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Chairs et œufs" id="287" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Coton non transformé" id="288" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="289" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Cannelle" id="290" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Riz" id="291" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Toiles de coton" id="292" weight="4" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Toiles diverses" id="293" weight="1" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="294" weight="1" />
+      <edge source="partner_Espagne" target="customs_office_Saint-Martin-de-Ré" id="295" weight="1" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="296" weight="1" />
+      <edge source="partner_Espagne" target="customs_office_La Rochelle" id="297" weight="9" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Subsistances diverses et mélangées" id="298" weight="1" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Riz" id="299" weight="1" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Ouvrages divers et mélangés" id="300" weight="1" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="301" weight="5" />
+      <edge source="partner_L'empereur" target="product_revolutionempire_Divers mélangés" id="302" weight="1" />
+      <edge source="partner_L'empereur" target="customs_office_Charente" id="303" weight="2" />
+      <edge source="partner_L'empereur" target="product_revolutionempire_Matières premières diverses" id="304" weight="1" />
+      <edge source="partner_L'empereur" target="product_revolutionempire_Bière, cidre et vinaigre" id="305" weight="1" />
+      <edge source="partner_L'empereur" target="customs_office_La Rochelle" id="306" weight="3" />
+      <edge source="partner_L'empereur" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="307" weight="1" />
+      <edge source="partner_L'empereur" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="308" weight="1" />
+      <edge source="partner_Sénégal et Guinée" target="product_revolutionempire_Cornes, corail, écailles, ivoire et nacre" id="309" weight="1" />
+      <edge source="partner_Sénégal et Guinée" target="customs_office_La Rochelle" id="310" weight="1" />
+      <edge source="partner_Etats de l'Empereur" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="311" weight="1" />
+      <edge source="partner_Etats de l'Empereur" target="customs_office_La Rochelle" id="312" weight="1" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Les Sables d'Olonne" id="313" weight="2" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Rochefort" id="314" weight="2" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Saint-Martin-de-Ré" id="315" weight="1" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Charente" id="316" weight="1" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_La Rochelle" id="317" weight="5" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Aligre" id="318" weight="1" />
+      <edge source="product_revolutionempire_Fer-blanc" target="customs_office_Rochefort" id="319" weight="5" />
+      <edge source="product_revolutionempire_Fer-blanc" target="customs_office_Charente" id="320" weight="1" />
+      <edge source="product_revolutionempire_Fer-blanc" target="customs_office_La Rochelle" id="321" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_Rochefort" id="322" weight="6" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_Saint-Martin-de-Ré" id="323" weight="3" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_Charente" id="324" weight="4" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_La Rochelle" id="325" weight="9" />
+      <edge source="product_revolutionempire_Fer" target="customs_office_Rochefort" id="326" weight="1" />
+      <edge source="product_revolutionempire_Fer" target="customs_office_Charente" id="327" weight="1" />
+      <edge source="product_revolutionempire_Fer" target="customs_office_La Rochelle" id="328" weight="2" />
+      <edge source="product_revolutionempire_Fromage" target="customs_office_Rochefort" id="329" weight="1" />
+      <edge source="product_revolutionempire_Fromage" target="customs_office_Aligre" id="330" weight="1" />
+      <edge source="product_revolutionempire_Fromage" target="customs_office_Saint-Martin-de-Ré" id="331" weight="1" />
+      <edge source="product_revolutionempire_Fromage" target="customs_office_Charente" id="332" weight="1" />
+      <edge source="product_revolutionempire_Fromage" target="customs_office_La Rochelle" id="333" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Aligre" id="334" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Saint-Martin-de-Ré" id="335" weight="17" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Les Sables d'Olonne" id="336" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Charente" id="337" weight="4" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Marennes" id="338" weight="4" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_La Rochelle" id="339" weight="21" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Rochefort" id="340" weight="10" />
+      <edge source="product_revolutionempire_Sucre" target="customs_office_La Rochelle" id="341" weight="3" />
+      <edge source="product_revolutionempire_Sucre" target="customs_office_Rochefort" id="342" weight="3" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Rochefort" id="343" weight="6" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Saint-Martin-de-Ré" id="344" weight="3" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Aligre" id="345" weight="1" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Charente" id="346" weight="5" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_La Rochelle" id="347" weight="6" />
+      <edge source="product_revolutionempire_Riz" target="customs_office_Rochefort" id="348" weight="1" />
+      <edge source="product_revolutionempire_Riz" target="customs_office_La Rochelle" id="349" weight="5" />
+      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_Rochefort" id="350" weight="6" />
+      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_Saint-Martin-de-Ré" id="351" weight="1" />
+      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_Aligre" id="352" weight="1" />
+      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_La Rochelle" id="353" weight="1" />
+      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_Rochefort" id="354" weight="1" />
+      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_Saint-Martin-de-Ré" id="355" weight="1" />
+      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_Aligre" id="356" weight="1" />
+      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_La Rochelle" id="357" weight="1" />
+      <edge source="product_revolutionempire_Bois divers hors combustible" target="customs_office_La Rochelle" id="358" weight="2" />
+      <edge source="product_revolutionempire_Bois divers hors combustible" target="customs_office_Rochefort" id="359" weight="2" />
+      <edge source="product_revolutionempire_Bois divers hors combustible" target="customs_office_Charente" id="360" weight="2" />
+      <edge source="product_revolutionempire_Huiles diverses" target="customs_office_Rochefort" id="361" weight="1" />
+      <edge source="product_revolutionempire_Huiles diverses" target="customs_office_Saint-Martin-de-Ré" id="362" weight="2" />
+      <edge source="product_revolutionempire_Huiles diverses" target="customs_office_La Rochelle" id="363" weight="2" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Aligre" id="364" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Saint-Martin-de-Ré" id="365" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Charente" id="366" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Marennes" id="367" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_La Rochelle" id="368" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Rochefort" id="369" weight="1" />
+      <edge source="product_revolutionempire_Poils et crin" target="customs_office_Rochefort" id="370" weight="1" />
+      <edge source="product_revolutionempire_Graines diverses et mélangées" target="customs_office_Rochefort" id="371" weight="2" />
+      <edge source="product_revolutionempire_Graines diverses et mélangées" target="customs_office_Saint-Martin-de-Ré" id="372" weight="1" />
+      <edge source="product_revolutionempire_Graines diverses et mélangées" target="customs_office_Charente" id="373" weight="2" />
+      <edge source="product_revolutionempire_Graines diverses et mélangées" target="customs_office_La Rochelle" id="374" weight="1" />
+      <edge source="product_revolutionempire_Lin" target="customs_office_Rochefort" id="375" weight="1" />
+      <edge source="product_revolutionempire_Lin" target="customs_office_La Rochelle" id="376" weight="2" />
+      <edge source="product_revolutionempire_Habits et lingerie" target="customs_office_Rochefort" id="377" weight="1" />
+      <edge source="product_revolutionempire_Habits et lingerie" target="customs_office_Charente" id="378" weight="1" />
+      <edge source="product_revolutionempire_Habits et lingerie" target="customs_office_Aligre" id="379" weight="1" />
+      <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Rochefort" id="380" weight="4" />
+      <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Saint-Martin-de-Ré" id="381" weight="2" />
+      <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Charente" id="382" weight="4" />
+      <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Marennes" id="383" weight="1" />
+      <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Aligre" id="384" weight="2" />
+      <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Les Sables d'Olonne" id="385" weight="1" />
+      <edge source="product_revolutionempire_Divers mélangés" target="customs_office_La Rochelle" id="386" weight="5" />
+      <edge source="product_revolutionempire_Coton non transformé" target="customs_office_Aligre" id="387" weight="1" />
+      <edge source="product_revolutionempire_Coton non transformé" target="customs_office_La Rochelle" id="388" weight="3" />
+      <edge source="product_revolutionempire_Coton non transformé" target="customs_office_Rochefort" id="389" weight="1" />
+      <edge source="product_revolutionempire_Marbre brut et ouvré" target="customs_office_Rochefort" id="390" weight="1" />
+      <edge source="product_revolutionempire_Marbre brut et ouvré" target="customs_office_Aligre" id="391" weight="1" />
+      <edge source="product_revolutionempire_Mercerie" target="customs_office_Rochefort" id="392" weight="2" />
+      <edge source="product_revolutionempire_Mercerie" target="customs_office_La Rochelle" id="393" weight="3" />
+      <edge source="product_revolutionempire_Ouvrages divers et mélangés" target="customs_office_Rochefort" id="394" weight="3" />
+      <edge source="product_revolutionempire_Ouvrages divers et mélangés" target="customs_office_Charente" id="395" weight="1" />
+      <edge source="product_revolutionempire_Ouvrages divers et mélangés" target="customs_office_La Rochelle" id="396" weight="6" />
+      <edge source="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" target="customs_office_Rochefort" id="397" weight="2" />
+      <edge source="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" target="customs_office_Charente" id="398" weight="1" />
+      <edge source="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" target="customs_office_La Rochelle" id="399" weight="5" />
+      <edge source="product_revolutionempire_Cuirs, peaux et pelleterie" target="customs_office_Rochefort" id="400" weight="5" />
+      <edge source="product_revolutionempire_Cuirs, peaux et pelleterie" target="customs_office_Aligre" id="401" weight="4" />
+      <edge source="product_revolutionempire_Cuirs, peaux et pelleterie" target="customs_office_La Rochelle" id="402" weight="10" />
+      <edge source="product_revolutionempire_Plomb" target="customs_office_Rochefort" id="403" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Rochefort" id="404" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Saint-Martin-de-Ré" id="405" weight="5" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Charente" id="406" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Aligre" id="407" weight="2" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_La Rochelle" id="408" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Les Sables d'Olonne" id="409" weight="2" />
+      <edge source="product_revolutionempire_Quincaillerie" target="customs_office_Rochefort" id="410" weight="4" />
+      <edge source="product_revolutionempire_Quincaillerie" target="customs_office_Saint-Martin-de-Ré" id="411" weight="1" />
+      <edge source="product_revolutionempire_Quincaillerie" target="customs_office_La Rochelle" id="412" weight="3" />
+      <edge source="product_revolutionempire_Café" target="customs_office_La Rochelle" id="413" weight="4" />
+      <edge source="product_revolutionempire_Café" target="customs_office_Rochefort" id="414" weight="1" />
+      <edge source="product_revolutionempire_Savon" target="customs_office_Rochefort" id="415" weight="1" />
+      <edge source="product_revolutionempire_Savon" target="customs_office_Saint-Martin-de-Ré" id="416" weight="1" />
+      <edge source="product_revolutionempire_Savon" target="customs_office_Aligre" id="417" weight="1" />
+      <edge source="product_revolutionempire_Savon" target="customs_office_La Rochelle" id="418" weight="1" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Rochefort" id="419" weight="3" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Saint-Martin-de-Ré" id="420" weight="1" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Aligre" id="421" weight="2" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_La Rochelle" id="422" weight="3" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Les Sables d'Olonne" id="423" weight="2" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Aligre" id="424" weight="2" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Saint-Martin-de-Ré" id="425" weight="1" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_La Rochelle" id="426" weight="2" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Rochefort" id="427" weight="1" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Charente" id="428" weight="1" />
+      <edge source="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" target="customs_office_Saint-Martin-de-Ré" id="429" weight="1" />
+      <edge source="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" target="customs_office_La Rochelle" id="430" weight="2" />
+      <edge source="product_revolutionempire_Beurre" target="customs_office_Saint-Martin-de-Ré" id="431" weight="1" />
+      <edge source="product_revolutionempire_Beurre" target="customs_office_La Rochelle" id="432" weight="2" />
+      <edge source="product_revolutionempire_Bâtiments de mer et apparaux" target="customs_office_Saint-Martin-de-Ré" id="433" weight="4" />
+      <edge source="product_revolutionempire_Bâtiments de mer et apparaux" target="customs_office_La Rochelle" id="434" weight="4" />
+      <edge source="product_revolutionempire_Bâtiments de mer et apparaux" target="customs_office_Rochefort" id="435" weight="1" />
+      <edge source="product_revolutionempire_Subsistances diverses et mélangées" target="customs_office_La Rochelle" id="436" weight="5" />
+      <edge source="product_revolutionempire_Subsistances diverses et mélangées" target="customs_office_Rochefort" id="437" weight="1" />
+      <edge source="product_revolutionempire_Subsistances diverses et mélangées" target="customs_office_Saint-Martin-de-Ré" id="438" weight="1" />
+      <edge source="product_revolutionempire_Matières premières diverses" target="customs_office_Aligre" id="439" weight="2" />
+      <edge source="product_revolutionempire_Matières premières diverses" target="customs_office_Charente" id="440" weight="5" />
+      <edge source="product_revolutionempire_Matières premières diverses" target="customs_office_La Rochelle" id="441" weight="4" />
+      <edge source="product_revolutionempire_Matières premières diverses" target="customs_office_Rochefort" id="442" weight="1" />
+      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_Saint-Martin-de-Ré" id="443" weight="4" />
+      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_Charente" id="444" weight="1" />
+      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_La Rochelle" id="445" weight="3" />
+      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_Rochefort" id="446" weight="2" />
+      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_Aligre" id="447" weight="1" />
+      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_La Rochelle" id="448" weight="2" />
+      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_Saint-Martin-de-Ré" id="449" weight="1" />
+      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_La Rochelle" id="450" weight="3" />
+      <edge source="product_revolutionempire_Chanvre" target="customs_office_Saint-Martin-de-Ré" id="451" weight="2" />
+      <edge source="product_revolutionempire_Chanvre" target="customs_office_La Rochelle" id="452" weight="3" />
+      <edge source="product_revolutionempire_Chanvre" target="customs_office_Rochefort" id="453" weight="1" />
+      <edge source="product_revolutionempire_Fils divers" target="customs_office_Saint-Martin-de-Ré" id="454" weight="1" />
+      <edge source="product_revolutionempire_Fils divers" target="customs_office_La Rochelle" id="455" weight="1" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_Saint-Martin-de-Ré" id="456" weight="1" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_Charente" id="457" weight="2" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_La Rochelle" id="458" weight="2" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_Rochefort" id="459" weight="1" />
+      <edge source="product_revolutionempire_Fruits frais" target="customs_office_Aligre" id="460" weight="1" />
+      <edge source="product_revolutionempire_Fruits frais" target="customs_office_La Rochelle" id="461" weight="1" />
+      <edge source="product_revolutionempire_Sirop et mélasse" target="customs_office_La Rochelle" id="462" weight="2" />
+      <edge source="product_revolutionempire_Sirop et mélasse" target="customs_office_Rochefort" id="463" weight="1" />
+      <edge source="product_revolutionempire_Bougies, chandelles et flambeaux" target="customs_office_Saint-Martin-de-Ré" id="464" weight="2" />
+      <edge source="product_revolutionempire_Bougies, chandelles et flambeaux" target="customs_office_La Rochelle" id="465" weight="2" />
+      <edge source="product_revolutionempire_Gommes diverses" target="customs_office_Aligre" id="466" weight="1" />
+      <edge source="product_revolutionempire_Matières brutes et transformées pour teinture" target="customs_office_Saint-Martin-de-Ré" id="467" weight="1" />
+      <edge source="product_revolutionempire_Matières brutes et transformées pour teinture" target="customs_office_Charente" id="468" weight="2" />
+      <edge source="product_revolutionempire_Matières brutes et transformées pour teinture" target="customs_office_La Rochelle" id="469" weight="9" />
+      <edge source="product_revolutionempire_Matières brutes et transformées pour teinture" target="customs_office_Rochefort" id="470" weight="8" />
+      <edge source="product_revolutionempire_Vins de Bordeaux" target="customs_office_Saint-Martin-de-Ré" id="471" weight="1" />
+      <edge source="product_revolutionempire_Huile de poisson" target="customs_office_Aligre" id="472" weight="1" />
+      <edge source="product_revolutionempire_Divers incertains" target="customs_office_La Rochelle" id="473" weight="1" />
+      <edge source="product_revolutionempire_Divers incertains" target="customs_office_Rochefort" id="474" weight="1" />
+      <edge source="product_revolutionempire_Légumes" target="customs_office_Charente" id="475" weight="1" />
+      <edge source="product_revolutionempire_Cornes, corail, écailles, ivoire et nacre" target="customs_office_La Rochelle" id="476" weight="1" />
+      <edge source="product_revolutionempire_Bouchons principalement en liège" target="customs_office_Aligre" id="477" weight="1" />
+      <edge source="product_revolutionempire_Bouchons principalement en liège" target="customs_office_La Rochelle" id="478" weight="1" />
+      <edge source="product_revolutionempire_Sel" target="customs_office_Charente" id="479" weight="1" />
+      <edge source="product_revolutionempire_Sel" target="customs_office_Aligre" id="480" weight="1" />
+      <edge source="product_revolutionempire_Sel" target="customs_office_La Rochelle" id="481" weight="1" />
+      <edge source="product_revolutionempire_Sel" target="customs_office_Les Sables d'Olonne" id="482" weight="1" />
+      <edge source="product_revolutionempire_Acier" target="customs_office_La Rochelle" id="483" weight="1" />
+      <edge source="product_revolutionempire_Acier" target="customs_office_Rochefort" id="484" weight="1" />
+      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_La Rochelle" id="485" weight="2" />
+      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_Rochefort" id="486" weight="1" />
+      <edge source="product_revolutionempire_Cacao et chocolat" target="customs_office_La Rochelle" id="487" weight="1" />
+      <edge source="product_revolutionempire_Objets d'art et d'histoire naturelle" target="customs_office_La Rochelle" id="488" weight="1" />
+      <edge source="product_revolutionempire_Cuivre" target="customs_office_La Rochelle" id="489" weight="3" />
+      <edge source="product_revolutionempire_Cuivre" target="customs_office_Rochefort" id="490" weight="2" />
+      <edge source="product_revolutionempire_Meubles, glaces et miroirs" target="customs_office_Aligre" id="491" weight="1" />
+      <edge source="product_revolutionempire_Meubles, glaces et miroirs" target="customs_office_La Rochelle" id="492" weight="2" />
+      <edge source="product_revolutionempire_Colles diverses" target="customs_office_La Rochelle" id="493" weight="2" />
+      <edge source="product_revolutionempire_Colles diverses" target="customs_office_Rochefort" id="494" weight="1" />
+      <edge source="product_revolutionempire_Cordage et filets" target="customs_office_La Rochelle" id="495" weight="1" />
+      <edge source="product_revolutionempire_Bijouterie et pierres fines" target="customs_office_La Rochelle" id="496" weight="1" />
+      <edge source="product_revolutionempire_Métaux divers et mélangés" target="customs_office_La Rochelle" id="497" weight="2" />
+      <edge source="product_revolutionempire_Drogues médicinales diverses" target="customs_office_La Rochelle" id="498" weight="2" />
+      <edge source="product_revolutionempire_Manne et médicaments" target="customs_office_La Rochelle" id="499" weight="1" />
+      <edge source="product_revolutionempire_Manne et médicaments" target="customs_office_Rochefort" id="500" weight="5" />
+      <edge source="product_revolutionempire_Quinquina" target="customs_office_La Rochelle" id="501" weight="1" />
+      <edge source="product_revolutionempire_Quinquina" target="customs_office_Rochefort" id="502" weight="1" />
+      <edge source="product_revolutionempire_Séné" target="customs_office_La Rochelle" id="503" weight="1" />
+      <edge source="product_revolutionempire_Réglisse" target="customs_office_La Rochelle" id="504" weight="1" />
+      <edge source="product_revolutionempire_Alun" target="customs_office_La Rochelle" id="505" weight="2" />
+      <edge source="product_revolutionempire_Céruse et blanc de plomb" target="customs_office_La Rochelle" id="506" weight="2" />
+      <edge source="product_revolutionempire_Céruse et blanc de plomb" target="customs_office_Rochefort" id="507" weight="2" />
+      <edge source="product_revolutionempire_Drogues diverses" target="customs_office_La Rochelle" id="508" weight="1" />
+      <edge source="product_revolutionempire_Drogues diverses" target="customs_office_Rochefort" id="509" weight="1" />
+      <edge source="product_revolutionempire_Parfumerie et toilette" target="customs_office_La Rochelle" id="510" weight="2" />
+      <edge source="product_revolutionempire_Denrées coloniales et épiceries diverses" target="customs_office_La Rochelle" id="511" weight="2" />
+      <edge source="product_revolutionempire_Cannelle" target="customs_office_La Rochelle" id="512" weight="2" />
+      <edge source="product_revolutionempire_Poivre et piment" target="customs_office_La Rochelle" id="513" weight="3" />
+      <edge source="product_revolutionempire_Poivre et piment" target="customs_office_Rochefort" id="514" weight="1" />
+      <edge source="product_revolutionempire_Toiles de coton" target="customs_office_La Rochelle" id="515" weight="6" />
+      <edge source="product_revolutionempire_Graines de jardin" target="customs_office_La Rochelle" id="516" weight="2" />
+      <edge source="product_revolutionempire_Laines non transformées diverses" target="customs_office_La Rochelle" id="517" weight="1" />
+      <edge source="product_revolutionempire_Papier" target="customs_office_La Rochelle" id="518" weight="1" />
+      <edge source="product_revolutionempire_Faucilles, faux et limes" target="customs_office_La Rochelle" id="519" weight="1" />
+      <edge source="product_revolutionempire_Rubanerie et passementerie diverse" target="customs_office_La Rochelle" id="520" weight="1" />
+      <edge source="product_revolutionempire_Salpêtre et soufre" target="customs_office_La Rochelle" id="521" weight="1" />
+      <edge source="product_revolutionempire_Toiles diverses" target="customs_office_La Rochelle" id="522" weight="2" />
+      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_La Rochelle" id="523" weight="2" />
+      <edge source="product_revolutionempire_Verrerie" target="customs_office_La Rochelle" id="524" weight="2" />
+      <edge source="product_revolutionempire_Indigo" target="customs_office_La Rochelle" id="525" weight="1" />
+      <edge source="product_revolutionempire_Indigo" target="customs_office_Rochefort" id="526" weight="1" />
+      <edge source="product_revolutionempire_Fleurs artificielles et ouvrages de mode" target="customs_office_Rochefort" id="527" weight="1" />
+      <edge source="product_revolutionempire_Rocou" target="customs_office_La Rochelle" id="528" weight="1" />
+      <edge source="product_revolutionempire_Azur et cobalt" target="customs_office_Rochefort" id="529" weight="1" />
+      <edge source="product_revolutionempire_Alquifoux, mine de plomb et graphite" target="customs_office_Rochefort" id="530" weight="1" />
+      <edge source="product_revolutionempire_Étain" target="customs_office_Rochefort" id="531" weight="1" />
+    </edges>
+  </graph>
+</gexf>

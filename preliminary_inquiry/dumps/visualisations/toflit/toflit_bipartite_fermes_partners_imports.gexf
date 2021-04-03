@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-04-03">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="name" type="string" />
+      <attribute id="2" title="color" type="string" />
+      <attribute id="3" title="size" type="double" />
+    </attributes>
+    <nodes>
+      <node id="customs_office_Les Sables d'Olonne" label="Les Sables d'Olonne">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Les Sables d'Olonne" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.375" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Rochefort" label="Rochefort">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Rochefort" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="5.875" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Aligre" label="Aligre">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Aligre" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="2.333333333333333" />
+        </attvalues>
+      </node>
+      <node id="customs_office_La Rochelle" label="La Rochelle">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="La Rochelle" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Saint-Martin-de-Ré" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="3.5416666666666665" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Charente" label="Charente">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Charente" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="2.75" />
+        </attvalues>
+      </node>
+      <node id="customs_office_Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="customs_office" />
+          <attvalue for="1" value="Marennes" />
+          <attvalue for="2" value="rgb(0, 255, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Petites Îles" label="Petites Îles">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Petites Îles" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="4.75" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Villes hanséatiques" label="Villes hanséatiques">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Villes hanséatiques" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="2.083333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Russie" label="Russie">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Russie" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Hollande" label="Hollande">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Hollande" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="4.791666666666666" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Suède" label="Suède">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Suède" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2916666666666665" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Îles françaises de l'Amérique" label="Îles françaises de l'Amérique">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Îles françaises de l'Amérique" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="2.083333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Angleterre" label="Angleterre">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Angleterre" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="3.7916666666666665" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Marseille" label="Marseille">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Marseille" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="3.458333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Bayonne" label="Bayonne">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Bayonne" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Dunkerque" label="Dunkerque">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Dunkerque" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.7083333333333335" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Allemagne" label="Allemagne">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Allemagne" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0833333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Prusse" label="Prusse">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Prusse" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.5" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Danemark" label="Danemark">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Danemark" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.5833333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_États-Unis d'Amérique" label="États-Unis d'Amérique">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="États-Unis d'Amérique" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.3333333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Lorient" label="Lorient">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Lorient" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.5833333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Espagne" label="Espagne">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Espagne" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.375" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_États de l'Empereur" label="États de l'Empereur">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="États de l'Empereur" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.2083333333333333" />
+        </attvalues>
+      </node>
+      <node id="partner_simplification_Guinée et Sénégal" label="Guinée et Sénégal">
+        <attvalues>
+          <attvalue for="0" value="partner_simplification" />
+          <attvalue for="1" value="Guinée et Sénégal" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="customs_office_Les Sables d'Olonne" target="partner_simplification_Petites Îles" id="0" weight="10" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Villes hanséatiques" id="1" weight="4" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Russie" id="2" weight="8" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Petites Îles" id="3" weight="11" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Hollande" id="4" weight="28" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Suède" id="5" weight="6" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Angleterre" id="6" weight="22" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Marseille" id="7" weight="11" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Bayonne" id="8" weight="11" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Dunkerque" id="9" weight="4" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Îles françaises de l'Amérique" id="10" weight="10" />
+      <edge source="customs_office_Rochefort" target="partner_simplification_Prusse" id="11" weight="3" />
+      <edge source="customs_office_Aligre" target="partner_simplification_Petites Îles" id="12" weight="17" />
+      <edge source="customs_office_Aligre" target="partner_simplification_Angleterre" id="13" weight="1" />
+      <edge source="customs_office_Aligre" target="partner_simplification_Marseille" id="14" weight="12" />
+      <edge source="customs_office_Aligre" target="partner_simplification_Hollande" id="15" weight="1" />
+      <edge source="customs_office_Aligre" target="partner_simplification_Lorient" id="16" weight="2" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Îles françaises de l'Amérique" id="17" weight="17" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Guinée et Sénégal" id="18" weight="1" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Hollande" id="19" weight="45" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Petites Îles" id="20" weight="33" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Marseille" id="21" weight="33" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Dunkerque" id="22" weight="6" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_États-Unis d'Amérique" id="23" weight="4" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Angleterre" id="24" weight="27" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Villes hanséatiques" id="25" weight="18" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_États de l'Empereur" id="26" weight="4" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Suède" id="27" weight="2" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Danemark" id="28" weight="3" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Prusse" id="29" weight="2" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Espagne" id="30" weight="9" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Lorient" id="31" weight="11" />
+      <edge source="customs_office_La Rochelle" target="partner_simplification_Russie" id="32" weight="2" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Allemagne" id="33" weight="1" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Angleterre" id="34" weight="5" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Prusse" id="35" weight="7" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Hollande" id="36" weight="11" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Russie" id="37" weight="3" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Danemark" id="38" weight="12" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Bayonne" id="39" weight="2" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Dunkerque" id="40" weight="4" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_États-Unis d'Amérique" id="41" weight="4" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Villes hanséatiques" id="42" weight="1" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Marseille" id="43" weight="4" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Petites Îles" id="44" weight="6" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Lorient" id="45" weight="1" />
+      <edge source="customs_office_Saint-Martin-de-Ré" target="partner_simplification_Espagne" id="46" weight="1" />
+      <edge source="customs_office_Charente" target="partner_simplification_Angleterre" id="47" weight="12" />
+      <edge source="customs_office_Charente" target="partner_simplification_Dunkerque" id="48" weight="4" />
+      <edge source="customs_office_Charente" target="partner_simplification_Petites Îles" id="49" weight="11" />
+      <edge source="customs_office_Charente" target="partner_simplification_Hollande" id="50" weight="7" />
+      <edge source="customs_office_Charente" target="partner_simplification_États-Unis d'Amérique" id="51" weight="1" />
+      <edge source="customs_office_Charente" target="partner_simplification_Villes hanséatiques" id="52" weight="4" />
+      <edge source="customs_office_Charente" target="partner_simplification_Allemagne" id="53" weight="2" />
+      <edge source="customs_office_Charente" target="partner_simplification_États de l'Empereur" id="54" weight="2" />
+      <edge source="customs_office_Marennes" target="partner_simplification_Petites Îles" id="55" weight="3" />
+      <edge source="customs_office_Marennes" target="partner_simplification_Prusse" id="56" weight="1" />
+      <edge source="customs_office_Marennes" target="partner_simplification_Angleterre" id="57" weight="1" />
+      <edge source="customs_office_Marennes" target="partner_simplification_Lorient" id="58" weight="1" />
+    </edges>
+  </graph>
+</gexf>

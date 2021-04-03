@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-04-03">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="name" type="string" />
+      <attribute id="2" title="color" type="string" />
+      <attribute id="3" title="size" type="double" />
+    </attributes>
+    <nodes>
+      <node id="departure_ferme_bureau_La Rochelle" label="La Rochelle">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="La Rochelle" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="6.622211204759544" />
+        </attvalues>
+      </node>
+      <node id="departure_ferme_bureau_bureau de ferme indéfini" label="bureau de ferme indéfini">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="bureau de ferme indéfini" />
+          <attvalue for="2" value="rgb(51, 204, 255)" />
+          <attvalue for="3" value="4.310857709469509" />
+        </attvalues>
+      </node>
+      <node id="departure_ferme_bureau_Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="Marennes" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="8.282102131879029" />
+        </attvalues>
+      </node>
+      <node id="departure_ferme_bureau_Rochefort" label="Rochefort">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="Rochefort" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="1.65592464055528" />
+        </attvalues>
+      </node>
+      <node id="departure_ferme_bureau_Sables d'Olonne" label="Sables d'Olonne">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="Sables d'Olonne" />
+          <attvalue for="2" value="rgb(51, 204, 255)" />
+          <attvalue for="3" value="2.1824491819533964" />
+        </attvalues>
+      </node>
+      <node id="departure_ferme_bureau_Charente" label="Charente">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="Charente" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="4.676747645017352" />
+        </attvalues>
+      </node>
+      <node id="departure_ferme_bureau_Alligre" label="Alligre">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="Alligre" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="6.452652454139812" />
+        </attvalues>
+      </node>
+      <node id="departure_ferme_bureau_Saint-Martin île de Ré" label="Saint-Martin île de Ré">
+        <attvalues>
+          <attvalue for="0" value="departure_ferme_bureau" />
+          <attvalue for="1" value="Saint-Martin île de Ré" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="5.2166584035696575" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Reste de la France" label="Reste de la France">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Reste de la France" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Sables d'Olonne" label="Sables d'Olonne">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Sables d'Olonne" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.5845314823996035" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Espagne" label="Espagne">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Espagne" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Marennes" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="4.913237481408032" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_La Rochelle" label="La Rochelle">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="La Rochelle" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="6.684680218145761" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Hollande" label="Hollande">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Hollande" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.0133862171541894" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Charente" label="Charente">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Charente" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="5.2746653445711456" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Rochefort" label="Rochefort">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Rochefort" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.9593455627169063" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Alligre" label="Alligre">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Alligre" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="5.404065443728309" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Saint-Martin île de Ré" label="Saint-Martin île de Ré">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Saint-Martin île de Ré" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="3.5344571145265244" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_Angleterre" label="Angleterre">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="Angleterre" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_partenaire indéfini" label="partenaire indéfini">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="partenaire indéfini" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_as_toflit_partner_États-Unis d'Amérique" label="États-Unis d'Amérique">
+        <attvalues>
+          <attvalue for="0" value="destination_fr_as_toflit_partner" />
+          <attvalue for="1" value="États-Unis d'Amérique" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.0089241447694597" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Reste de la France" id="0" weight="192" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Espagne" id="1" weight="1" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_La Rochelle" id="2" weight="287" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Rochefort" id="3" weight="89" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Marennes" id="4" weight="164" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Charente" id="5" weight="332" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Saint-Martin île de Ré" id="6" weight="132" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Sables d'Olonne" id="7" weight="33" />
+      <edge source="departure_ferme_bureau_La Rochelle" target="destination_fr_as_toflit_partner_Alligre" id="8" weight="31" />
+      <edge source="departure_ferme_bureau_bureau de ferme indéfini" target="destination_fr_as_toflit_partner_Reste de la France" id="9" weight="639" />
+      <edge source="departure_ferme_bureau_bureau de ferme indéfini" target="destination_fr_as_toflit_partner_Marennes" id="10" weight="59" />
+      <edge source="departure_ferme_bureau_bureau de ferme indéfini" target="destination_fr_as_toflit_partner_La Rochelle" id="11" weight="20" />
+      <edge source="departure_ferme_bureau_bureau de ferme indéfini" target="destination_fr_as_toflit_partner_Angleterre" id="12" weight="1" />
+      <edge source="departure_ferme_bureau_bureau de ferme indéfini" target="destination_fr_as_toflit_partner_partenaire indéfini" id="13" weight="1" />
+      <edge source="departure_ferme_bureau_bureau de ferme indéfini" target="destination_fr_as_toflit_partner_Saint-Martin île de Ré" id="14" weight="20" />
+      <edge source="departure_ferme_bureau_bureau de ferme indéfini" target="destination_fr_as_toflit_partner_Alligre" id="15" weight="3" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Reste de la France" id="16" weight="419" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Hollande" id="17" weight="4" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Saint-Martin île de Ré" id="18" weight="79" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Marennes" id="19" weight="349" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_La Rochelle" id="20" weight="298" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Rochefort" id="21" weight="17" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Alligre" id="22" weight="106" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Sables d'Olonne" id="23" weight="21" />
+      <edge source="departure_ferme_bureau_Marennes" target="destination_fr_as_toflit_partner_Charente" id="24" weight="340" />
+      <edge source="departure_ferme_bureau_Rochefort" target="destination_fr_as_toflit_partner_Sables d'Olonne" id="25" weight="4" />
+      <edge source="departure_ferme_bureau_Rochefort" target="destination_fr_as_toflit_partner_Reste de la France" id="26" weight="37" />
+      <edge source="departure_ferme_bureau_Rochefort" target="destination_fr_as_toflit_partner_Rochefort" id="27" weight="34" />
+      <edge source="departure_ferme_bureau_Rochefort" target="destination_fr_as_toflit_partner_Charente" id="28" weight="52" />
+      <edge source="departure_ferme_bureau_Rochefort" target="destination_fr_as_toflit_partner_Marennes" id="29" weight="21" />
+      <edge source="departure_ferme_bureau_Sables d'Olonne" target="destination_fr_as_toflit_partner_Reste de la France" id="30" weight="104" />
+      <edge source="departure_ferme_bureau_Sables d'Olonne" target="destination_fr_as_toflit_partner_Alligre" id="31" weight="28" />
+      <edge source="departure_ferme_bureau_Sables d'Olonne" target="destination_fr_as_toflit_partner_La Rochelle" id="32" weight="6" />
+      <edge source="departure_ferme_bureau_Sables d'Olonne" target="destination_fr_as_toflit_partner_Rochefort" id="33" weight="56" />
+      <edge source="departure_ferme_bureau_Sables d'Olonne" target="destination_fr_as_toflit_partner_Marennes" id="34" weight="33" />
+      <edge source="departure_ferme_bureau_Sables d'Olonne" target="destination_fr_as_toflit_partner_Sables d'Olonne" id="35" weight="21" />
+      <edge source="departure_ferme_bureau_Sables d'Olonne" target="destination_fr_as_toflit_partner_Saint-Martin île de Ré" id="36" weight="18" />
+      <edge source="departure_ferme_bureau_Charente" target="destination_fr_as_toflit_partner_Charente" id="37" weight="200" />
+      <edge source="departure_ferme_bureau_Charente" target="destination_fr_as_toflit_partner_Reste de la France" id="38" weight="45" />
+      <edge source="departure_ferme_bureau_Charente" target="destination_fr_as_toflit_partner_La Rochelle" id="39" weight="504" />
+      <edge source="departure_ferme_bureau_Charente" target="destination_fr_as_toflit_partner_Marennes" id="40" weight="26" />
+      <edge source="departure_ferme_bureau_Charente" target="destination_fr_as_toflit_partner_Saint-Martin île de Ré" id="41" weight="40" />
+      <edge source="departure_ferme_bureau_Charente" target="destination_fr_as_toflit_partner_Alligre" id="42" weight="10" />
+      <edge source="departure_ferme_bureau_Alligre" target="destination_fr_as_toflit_partner_Alligre" id="43" weight="409" />
+      <edge source="departure_ferme_bureau_Alligre" target="destination_fr_as_toflit_partner_Sables d'Olonne" id="44" weight="27" />
+      <edge source="departure_ferme_bureau_Alligre" target="destination_fr_as_toflit_partner_Reste de la France" id="45" weight="448" />
+      <edge source="departure_ferme_bureau_Alligre" target="destination_fr_as_toflit_partner_Saint-Martin île de Ré" id="46" weight="169" />
+      <edge source="departure_ferme_bureau_Alligre" target="destination_fr_as_toflit_partner_Marennes" id="47" weight="41" />
+      <edge source="departure_ferme_bureau_Alligre" target="destination_fr_as_toflit_partner_La Rochelle" id="48" weight="109" />
+      <edge source="departure_ferme_bureau_Alligre" target="destination_fr_as_toflit_partner_Rochefort" id="49" weight="20" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_Marennes" id="50" weight="185" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_Reste de la France" id="51" weight="134" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_Sables d'Olonne" id="52" weight="26" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_Alligre" id="53" weight="401" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_La Rochelle" id="54" weight="51" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_Charente" id="55" weight="35" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_Saint-Martin île de Ré" id="56" weight="111" />
+      <edge source="departure_ferme_bureau_Saint-Martin île de Ré" target="destination_fr_as_toflit_partner_États-Unis d'Amérique" id="57" weight="3" />
+    </edges>
+  </graph>
+</gexf>

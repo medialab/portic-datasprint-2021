@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-04-03">
+  <meta lastmodifieddate="2021-04-06">
     <creator>NetworkX 2.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -24,15 +24,7 @@
           <attvalue for="0" value="departure_fr_as_toflit_partner" />
           <attvalue for="1" value="Espagne" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0025579081995168" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_as_toflit_partner_Portugal" label="Portugal">
-        <attvalues>
-          <attvalue for="0" value="departure_fr_as_toflit_partner" />
-          <attvalue for="1" value="Portugal" />
-          <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0012789540997584" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="departure_fr_as_toflit_partner_Angleterre" label="Angleterre">
@@ -56,7 +48,7 @@
           <attvalue for="0" value="destination_fr_as_toflit_partner" />
           <attvalue for="1" value="France" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="9.996163137700725" />
+          <attvalue for="3" value="9.991243919388465" />
         </attvalues>
       </node>
       <node id="destination_fr_as_toflit_partner_Espagne" label="Espagne">
@@ -72,7 +64,7 @@
           <attvalue for="0" value="destination_fr_as_toflit_partner" />
           <attvalue for="1" value="Hollande" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0038368622992753" />
+          <attvalue for="3" value="1.0050034746351633" />
         </attvalues>
       </node>
       <node id="destination_fr_as_toflit_partner_Angleterre" label="Angleterre">
@@ -96,20 +88,19 @@
           <attvalue for="0" value="destination_fr_as_toflit_partner" />
           <attvalue for="1" value="États-Unis d'Amérique" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0025579081995168" />
+          <attvalue for="3" value="1.0012508686587909" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_France" id="0" weight="7029" />
+      <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_France" id="0" weight="7187" />
       <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_Espagne" id="1" weight="1" />
-      <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_Hollande" id="2" weight="4" />
+      <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_Hollande" id="2" weight="5" />
       <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_Angleterre" id="3" weight="1" />
-      <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_États-Unis d'Amérique" id="4" weight="3" />
-      <edge source="departure_fr_as_toflit_partner_Espagne" target="destination_fr_as_toflit_partner_France" id="5" weight="3" />
-      <edge source="departure_fr_as_toflit_partner_Portugal" target="destination_fr_as_toflit_partner_France" id="6" weight="2" />
-      <edge source="departure_fr_as_toflit_partner_Angleterre" target="destination_fr_as_toflit_partner_undefined" id="7" weight="1" />
-      <edge source="departure_fr_as_toflit_partner_undefined" target="destination_fr_as_toflit_partner_France" id="8" weight="1" />
+      <edge source="departure_fr_as_toflit_partner_France" target="destination_fr_as_toflit_partner_États-Unis d'Amérique" id="4" weight="2" />
+      <edge source="departure_fr_as_toflit_partner_Espagne" target="destination_fr_as_toflit_partner_France" id="5" weight="1" />
+      <edge source="departure_fr_as_toflit_partner_Angleterre" target="destination_fr_as_toflit_partner_undefined" id="6" weight="1" />
+      <edge source="departure_fr_as_toflit_partner_undefined" target="destination_fr_as_toflit_partner_France" id="7" weight="1" />
     </edges>
   </graph>
 </gexf>

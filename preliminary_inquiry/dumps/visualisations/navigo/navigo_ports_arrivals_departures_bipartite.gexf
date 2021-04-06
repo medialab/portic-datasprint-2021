@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-04-03">
+  <meta lastmodifieddate="2021-04-06">
     <creator>NetworkX 2.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -16,7 +16,15 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="La Rochelle" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="9.690671031096564" />
+          <attvalue for="3" value="9.640599001663894" />
+        </attvalues>
+      </node>
+      <node id="departure_fr_Marans" label="Marans">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="Marans" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="10.0" />
         </attvalues>
       </node>
       <node id="departure_fr_Redon" label="Redon">
@@ -24,7 +32,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Redon" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0662847790507366" />
+          <attvalue for="3" value="1.059900166389351" />
         </attvalues>
       </node>
       <node id="departure_fr_Marennes" label="Marennes">
@@ -32,7 +40,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Marennes" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="6.192307692307692" />
+          <attvalue for="3" value="6.3236272878535775" />
         </attvalues>
       </node>
       <node id="departure_fr_Rochefort" label="Rochefort">
@@ -40,15 +48,15 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Rochefort" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="2.0826513911620292" />
+          <attvalue for="3" value="2.5199667221297837" />
         </attvalues>
       </node>
-      <node id="departure_fr_Noirmoutier" label="Noirmoutier">
+      <node id="departure_fr_Nantes" label="Nantes">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Noirmoutier" />
-          <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.213584288052373" />
+          <attvalue for="1" value="Nantes" />
+          <attvalue for="2" value="rgb(51, 204, 255)" />
+          <attvalue for="3" value="1.1347753743760398" />
         </attvalues>
       </node>
       <node id="departure_fr_Marseille" label="Marseille">
@@ -72,7 +80,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Dunkerque" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.3608837970540097" />
+          <attvalue for="3" value="1.2695507487520798" />
         </attvalues>
       </node>
       <node id="departure_fr_Tonnay-Charente" label="Tonnay-Charente">
@@ -80,7 +88,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Tonnay-Charente" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="7.06873977086743" />
+          <attvalue for="3" value="6.97504159733777" />
         </attvalues>
       </node>
       <node id="departure_fr_Saint-Valery en Caux" label="Saint-Valery en Caux">
@@ -88,23 +96,15 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Saint-Valery en Caux" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0662847790507366" />
+          <attvalue for="3" value="1.0524126455906821" />
         </attvalues>
       </node>
-      <node id="departure_fr_Côtes de Bretagne" label="Côtes de Bretagne">
+      <node id="departure_fr_Calais" label="Calais">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Côtes de Bretagne" />
+          <attvalue for="1" value="Calais" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="2.5761047463175126" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Marans" label="Marans">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Marans" />
-          <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="10.0" />
+          <attvalue for="3" value="1.0149750415973378" />
         </attvalues>
       </node>
       <node id="departure_fr_Les Sables-d'Olonne" label="Les Sables-d'Olonne">
@@ -112,7 +112,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Les Sables-d'Olonne" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.9132569558101473" />
+          <attvalue for="3" value="1.920965058236273" />
         </attvalues>
       </node>
       <node id="departure_fr_Ribérou" label="Ribérou">
@@ -120,7 +120,15 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Ribérou" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="4.189034369885434" />
+          <attvalue for="3" value="4.324459234608986" />
+        </attvalues>
+      </node>
+      <node id="departure_fr_Côtes de Bretagne" label="Côtes de Bretagne">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="Côtes de Bretagne" />
+          <attvalue for="2" value="rgb(51, 204, 255)" />
+          <attvalue for="3" value="2.819467554076539" />
         </attvalues>
       </node>
       <node id="departure_fr_île de Bouin" label="île de Bouin">
@@ -128,7 +136,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="île de Bouin" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.3756137479541735" />
+          <attvalue for="3" value="1.2920133111480865" />
         </attvalues>
       </node>
       <node id="departure_fr_Gravelines" label="Gravelines">
@@ -136,7 +144,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Gravelines" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.1252045826513912" />
+          <attvalue for="3" value="1.06738768718802" />
         </attvalues>
       </node>
       <node id="departure_fr_Bourgneuf" label="Bourgneuf">
@@ -144,15 +152,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Bourgneuf" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0073649754500817" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Ferrol" label="Ferrol">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Ferrol" />
-          <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0074875207986689" />
         </attvalues>
       </node>
       <node id="departure_fr_Cherbourg" label="Cherbourg">
@@ -160,7 +160,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Cherbourg" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.044189852700491" />
+          <attvalue for="3" value="1.0224625623960066" />
         </attvalues>
       </node>
       <node id="departure_fr_Libourne" label="Libourne">
@@ -168,7 +168,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Libourne" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0662847790507366" />
+          <attvalue for="3" value="1.0224625623960066" />
         </attvalues>
       </node>
       <node id="departure_fr_La Flotte-en-Ré" label="La Flotte-en-Ré">
@@ -176,7 +176,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="La Flotte-en-Ré" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.7438625204582652" />
+          <attvalue for="3" value="1.7262895174708819" />
         </attvalues>
       </node>
       <node id="departure_fr_Vannes" label="Vannes">
@@ -184,15 +184,23 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Vannes" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0147299509001637" />
+          <attvalue for="3" value="1.0524126455906821" />
         </attvalues>
       </node>
-      <node id="departure_fr_Caen " label="Caen ">
+      <node id="departure_fr_Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Caen " />
+          <attvalue for="1" value="Saint-Martin-de-Ré" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="7.027454242928452" />
+        </attvalues>
+      </node>
+      <node id="departure_fr_Bayonne" label="Bayonne">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="Bayonne" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0147299509001637" />
+          <attvalue for="3" value="1.0748752079866888" />
         </attvalues>
       </node>
       <node id="departure_fr_Saint-Valery-sur-Somme" label="Saint-Valery-sur-Somme">
@@ -200,7 +208,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Saint-Valery-sur-Somme" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0" />
+          <attvalue for="3" value="1.0149750415973378" />
         </attvalues>
       </node>
       <node id="departure_fr_Angleterre" label="Angleterre">
@@ -219,36 +227,20 @@
           <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
-      <node id="departure_fr_île d'Oléron" label="île d'Oléron">
+      <node id="departure_fr_Honfleur" label="Honfleur">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="île d'Oléron" />
+          <attvalue for="1" value="Honfleur" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.4713584288052373" />
+          <attvalue for="3" value="1.0748752079866888" />
         </attvalues>
       </node>
-      <node id="departure_fr_Ars-en-Ré" label="Ars-en-Ré">
+      <node id="departure_fr_Dieppe" label="Dieppe">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Ars-en-Ré" />
-          <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.4566284779050735" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Saint-Gilles-sur-Vie" label="Saint-Gilles-sur-Vie">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Saint-Gilles-sur-Vie" />
-          <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.0810147299509" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Saint-Martin-de-Ré" />
-          <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="6.74468085106383" />
+          <attvalue for="1" value="Dieppe" />
+          <attvalue for="2" value="rgb(51, 204, 255)" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="departure_fr_Bordeaux" label="Bordeaux">
@@ -256,31 +248,23 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Bordeaux" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.486088379705401" />
+          <attvalue for="3" value="1.464226289517471" />
         </attvalues>
       </node>
-      <node id="departure_fr_La Tranche-sur-Mer" label="La Tranche-sur-Mer">
+      <node id="departure_fr_Saint-Gilles-sur-Vie" label="Saint-Gilles-sur-Vie">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="La Tranche-sur-Mer" />
+          <attvalue for="1" value="Saint-Gilles-sur-Vie" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.044189852700491" />
+          <attvalue for="3" value="1.1048252911813643" />
         </attvalues>
       </node>
-      <node id="departure_fr_Beauvoir-sur-Mer" label="Beauvoir-sur-Mer">
+      <node id="departure_fr_île d'Oléron" label="île d'Oléron">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Beauvoir-sur-Mer" />
-          <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.2062193126022913" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Saint-Malo" label="Saint-Malo">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Saint-Malo" />
+          <attvalue for="1" value="île d'Oléron" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.6214642262895174" />
         </attvalues>
       </node>
       <node id="departure_fr_La Perrotine" label="La Perrotine">
@@ -288,7 +272,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="La Perrotine" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="2.5392798690671032" />
+          <attvalue for="3" value="2.587354409317804" />
         </attvalues>
       </node>
       <node id="departure_fr_Saint-Denis d'Oléron" label="Saint-Denis d'Oléron">
@@ -296,7 +280,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Saint-Denis d'Oléron" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="2.5613747954173487" />
+          <attvalue for="3" value="2.7520798668885194" />
         </attvalues>
       </node>
       <node id="departure_fr_Champagné-les-Marais" label="Champagné-les-Marais">
@@ -304,7 +288,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Champagné-les-Marais" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.3756137479541735" />
+          <attvalue for="3" value="1.3818635607321132" />
         </attvalues>
       </node>
       <node id="departure_fr_Le Château-d'Oléron" label="Le Château-d'Oléron">
@@ -312,7 +296,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Le Château-d'Oléron" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.1914893617021276" />
+          <attvalue for="3" value="1.2695507487520798" />
         </attvalues>
       </node>
       <node id="departure_fr_Abbeville" label="Abbeville">
@@ -320,15 +304,15 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Abbeville" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.0224625623960066" />
         </attvalues>
       </node>
-      <node id="departure_fr_Nantes" label="Nantes">
+      <node id="departure_fr_Beauvoir-sur-Mer" label="Beauvoir-sur-Mer">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Nantes" />
-          <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.1252045826513912" />
+          <attvalue for="1" value="Beauvoir-sur-Mer" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="1.2396006655574043" />
         </attvalues>
       </node>
       <node id="departure_fr_Royan" label="Royan">
@@ -336,7 +320,23 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Royan" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.0589198036006546" />
+          <attvalue for="3" value="1.059900166389351" />
+        </attvalues>
+      </node>
+      <node id="departure_fr_Quimper" label="Quimper">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="Quimper" />
+          <attvalue for="2" value="rgb(51, 204, 255)" />
+          <attvalue for="3" value="1.0449251247920133" />
+        </attvalues>
+      </node>
+      <node id="departure_fr_Noirmoutier" label="Noirmoutier">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="Noirmoutier" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="1.2695507487520798" />
         </attvalues>
       </node>
       <node id="departure_fr_Locmariaquer" label="Locmariaquer">
@@ -344,31 +344,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Locmariaquer" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.1399345335515547" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Le Croisic" label="Le Croisic">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Le Croisic" />
-          <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.1104746317512275" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_mer des Pertuis" label="mer des Pertuis">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="mer des Pertuis" />
-          <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0073649754500817" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Moricq" label="Moricq">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Moricq" />
-          <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.0736497545008183" />
+          <attvalue for="3" value="1.2246256239600666" />
         </attvalues>
       </node>
       <node id="departure_fr_Seudre" label="Seudre">
@@ -376,15 +352,31 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Seudre" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.2246256239600666" />
         </attvalues>
       </node>
-      <node id="departure_fr_Rouen" label="Rouen">
+      <node id="departure_fr_Le Croisic" label="Le Croisic">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Rouen" />
+          <attvalue for="1" value="Le Croisic" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.0898502495840265" />
+        </attvalues>
+      </node>
+      <node id="departure_fr_mer des Pertuis" label="mer des Pertuis">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="mer des Pertuis" />
+          <attvalue for="2" value="rgb(51, 204, 255)" />
+          <attvalue for="3" value="1.0074875207986689" />
+        </attvalues>
+      </node>
+      <node id="departure_fr_Moricq" label="Moricq">
+        <attvalues>
+          <attvalue for="0" value="departure_fr" />
+          <attvalue for="1" value="Moricq" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="1.06738768718802" />
         </attvalues>
       </node>
       <node id="departure_fr_Soubise" label="Soubise">
@@ -392,31 +384,23 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Soubise" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.2430441898527005" />
+          <attvalue for="3" value="1.2695507487520798" />
         </attvalues>
       </node>
-      <node id="departure_fr_Arzon" label="Arzon">
+      <node id="departure_fr_Ars-en-Ré" label="Ars-en-Ré">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Arzon" />
-          <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0294599018003274" />
+          <attvalue for="1" value="Ars-en-Ré" />
+          <attvalue for="2" value="rgb (0, 0, 255)" />
+          <attvalue for="3" value="1.5465890183028286" />
         </attvalues>
       </node>
-      <node id="departure_fr_Santander" label="Santander">
+      <node id="departure_fr_Saint-Esprit" label="Saint-Esprit">
         <attvalues>
           <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Santander" />
+          <attvalue for="1" value="Saint-Esprit" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0073649754500817" />
-        </attvalues>
-      </node>
-      <node id="departure_fr_Bayonne" label="Bayonne">
-        <attvalues>
-          <attvalue for="0" value="departure_fr" />
-          <attvalue for="1" value="Bayonne" />
-          <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0149750415973378" />
         </attvalues>
       </node>
       <node id="departure_fr_Morlaix" label="Morlaix">
@@ -424,7 +408,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Morlaix" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.0294599018003274" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="departure_fr_Le Plomb" label="Le Plomb">
@@ -432,7 +416,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Le Plomb" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.2872340425531914" />
+          <attvalue for="3" value="1.5915141430948418" />
         </attvalues>
       </node>
       <node id="departure_fr_île de Ré" label="île de Ré">
@@ -440,7 +424,7 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="île de Ré" />
           <attvalue for="2" value="rgb(51, 204, 255)" />
-          <attvalue for="3" value="1.7291325695581015" />
+          <attvalue for="3" value="1.5915141430948418" />
         </attvalues>
       </node>
       <node id="departure_fr_Esnandes" label="Esnandes">
@@ -448,7 +432,15 @@
           <attvalue for="0" value="departure_fr" />
           <attvalue for="1" value="Esnandes" />
           <attvalue for="2" value="rgb (0, 0, 255)" />
-          <attvalue for="3" value="1.5818330605564648" />
+          <attvalue for="3" value="1.5915141430948418" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_Marans" label="Marans">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="Marans" />
+          <attvalue for="2" value="rgb(70, 0, 128)" />
+          <attvalue for="3" value="7.9484193011647255" />
         </attvalues>
       </node>
       <node id="destination_fr_Bordeaux" label="Bordeaux">
@@ -456,7 +448,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Bordeaux" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="2.369885433715221" />
+          <attvalue for="3" value="2.445091514143095" />
         </attvalues>
       </node>
       <node id="destination_fr_Caen " label="Caen ">
@@ -464,7 +456,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Caen " />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.088379705400982" />
+          <attvalue for="3" value="1.0748752079866888" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="Marennes" />
+          <attvalue for="2" value="rgb(70, 0, 128)" />
+          <attvalue for="3" value="3.7104825291181367" />
         </attvalues>
       </node>
       <node id="destination_fr_Saint-Valery-sur-Somme" label="Saint-Valery-sur-Somme">
@@ -472,7 +472,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Saint-Valery-sur-Somme" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.1767594108019641" />
+          <attvalue for="3" value="1.1572379367720464" />
         </attvalues>
       </node>
       <node id="destination_fr_Nantes" label="Nantes">
@@ -480,15 +480,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Nantes" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.5081833060556464" />
-        </attvalues>
-      </node>
-      <node id="destination_fr_Noirmoutier" label="Noirmoutier">
-        <attvalues>
-          <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Noirmoutier" />
-          <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.0662847790507366" />
+          <attvalue for="3" value="1.456738768718802" />
         </attvalues>
       </node>
       <node id="destination_fr_Alicante" label="Alicante">
@@ -504,7 +496,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Marseille" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0074875207986689" />
         </attvalues>
       </node>
       <node id="destination_fr_Dunkerque" label="Dunkerque">
@@ -512,15 +504,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Dunkerque" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.3903436988543372" />
-        </attvalues>
-      </node>
-      <node id="destination_fr_Marennes" label="Marennes">
-        <attvalues>
-          <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Marennes" />
-          <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="3.511456628477905" />
+          <attvalue for="3" value="1.3369384359401" />
         </attvalues>
       </node>
       <node id="destination_fr_Brest" label="Brest">
@@ -528,7 +512,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Brest" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.044189852700491" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="destination_fr_Calais" label="Calais">
@@ -536,7 +520,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Calais" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.1104746317512275" />
+          <attvalue for="3" value="1.1048252911813643" />
         </attvalues>
       </node>
       <node id="destination_fr_La Rochelle" label="La Rochelle">
@@ -544,7 +528,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="La Rochelle" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="9.086743044189852" />
+          <attvalue for="3" value="9.47587354409318" />
         </attvalues>
       </node>
       <node id="destination_fr_île d'Oléron" label="île d'Oléron">
@@ -552,7 +536,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="île d'Oléron" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="2.318330605564648" />
+          <attvalue for="3" value="2.430116472545757" />
         </attvalues>
       </node>
       <node id="destination_fr_Amsterdam" label="Amsterdam">
@@ -560,7 +544,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Amsterdam" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.0224625623960066" />
         </attvalues>
       </node>
       <node id="destination_fr_Tonnay-Charente" label="Tonnay-Charente">
@@ -568,7 +552,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Tonnay-Charente" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="8.055646481178396" />
+          <attvalue for="3" value="8.292845257903494" />
         </attvalues>
       </node>
       <node id="destination_fr_Saint-Valery en Caux" label="Saint-Valery en Caux">
@@ -576,7 +560,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Saint-Valery en Caux" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0515548281505729" />
+          <attvalue for="3" value="1.0374376039933444" />
         </attvalues>
       </node>
       <node id="destination_fr_Seudre" label="Seudre">
@@ -584,7 +568,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Seudre" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.2430441898527005" />
+          <attvalue for="3" value="1.2470881863560732" />
         </attvalues>
       </node>
       <node id="destination_fr_Saint-Valery (indeterminé)" label="Saint-Valery (indeterminé)">
@@ -592,7 +576,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Saint-Valery (indeterminé)" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0662847790507366" />
+          <attvalue for="3" value="1.0449251247920133" />
         </attvalues>
       </node>
       <node id="destination_fr_Honfleur" label="Honfleur">
@@ -600,7 +584,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Honfleur" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.220949263502455" />
+          <attvalue for="3" value="1.2096505823627288" />
         </attvalues>
       </node>
       <node id="destination_fr_Rochefort" label="Rochefort">
@@ -608,7 +592,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Rochefort" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="2.583469721767594" />
+          <attvalue for="3" value="2.6996672212978368" />
         </attvalues>
       </node>
       <node id="destination_fr_Côtes de Bretagne" label="Côtes de Bretagne">
@@ -616,23 +600,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Côtes de Bretagne" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="6.02291325695581" />
+          <attvalue for="3" value="6.069051580698836" />
         </attvalues>
       </node>
-      <node id="destination_fr_Marans" label="Marans">
+      <node id="destination_fr_Ribérou" label="Ribérou">
         <attvalues>
           <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Marans" />
+          <attvalue for="1" value="Ribérou" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="8.26923076923077" />
-        </attvalues>
-      </node>
-      <node id="destination_fr_Les Sables-d'Olonne" label="Les Sables-d'Olonne">
-        <attvalues>
-          <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Les Sables-d'Olonne" />
-          <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.2945990180032734" />
+          <attvalue for="3" value="2.6547420965058235" />
         </attvalues>
       </node>
       <node id="destination_fr_Gravelines" label="Gravelines">
@@ -640,7 +616,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Gravelines" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.2062193126022913" />
+          <attvalue for="3" value="1.2096505823627288" />
         </attvalues>
       </node>
       <node id="destination_fr_Bourgneuf" label="Bourgneuf">
@@ -648,15 +624,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Bourgneuf" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0220949263502455" />
-        </attvalues>
-      </node>
-      <node id="destination_fr_Bayonne" label="Bayonne">
-        <attvalues>
-          <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Bayonne" />
-          <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.1104746317512275" />
+          <attvalue for="3" value="1.0224625623960066" />
         </attvalues>
       </node>
       <node id="destination_fr_Granville" label="Granville">
@@ -672,7 +640,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Étaples " />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0074875207986689" />
         </attvalues>
       </node>
       <node id="destination_fr_Rouen" label="Rouen">
@@ -680,7 +648,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Rouen" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0147299509001637" />
+          <attvalue for="3" value="1.0224625623960066" />
         </attvalues>
       </node>
       <node id="destination_fr_La Flotte-en-Ré" label="La Flotte-en-Ré">
@@ -688,7 +656,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="La Flotte-en-Ré" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.4566284779050735" />
+          <attvalue for="3" value="1.6663893510815309" />
         </attvalues>
       </node>
       <node id="destination_fr_Vannes" label="Vannes">
@@ -696,7 +664,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Vannes" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.1031096563011458" />
+          <attvalue for="3" value="1.1048252911813643" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_Bayonne" label="Bayonne">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="Bayonne" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.1123128119800332" />
         </attvalues>
       </node>
       <node id="destination_fr_Angleterre" label="Angleterre">
@@ -720,7 +696,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Boulogne-sur-Mer" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0368248772504092" />
+          <attvalue for="3" value="1.0374376039933444" />
         </attvalues>
       </node>
       <node id="destination_fr_Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
@@ -728,15 +704,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Saint-Martin-de-Ré" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="4.343698854337152" />
-        </attvalues>
-      </node>
-      <node id="destination_fr_Ribérou" label="Ribérou">
-        <attvalues>
-          <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Ribérou" />
-          <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="2.465630114566285" />
+          <attvalue for="3" value="4.6988352745424296" />
         </attvalues>
       </node>
       <node id="destination_fr_Dieppe" label="Dieppe">
@@ -744,7 +712,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Dieppe" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.0074875207986689" />
         </attvalues>
       </node>
       <node id="destination_fr_Libourne" label="Libourne">
@@ -752,7 +720,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Libourne" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0515548281505729" />
+          <attvalue for="3" value="1.0449251247920133" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_Les Sables-d'Olonne" label="Les Sables-d'Olonne">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="Les Sables-d'Olonne" />
+          <attvalue for="2" value="rgb(70, 0, 128)" />
+          <attvalue for="3" value="1.3818635607321132" />
         </attvalues>
       </node>
       <node id="destination_fr_Le Croisic" label="Le Croisic">
@@ -760,7 +736,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Le Croisic" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.6039279869067102" />
+          <attvalue for="3" value="1.576539101497504" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_Saint-Gilles-sur-Vie" label="Saint-Gilles-sur-Vie">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="Saint-Gilles-sur-Vie" />
+          <attvalue for="2" value="rgb(70, 0, 128)" />
+          <attvalue for="3" value="1.0449251247920133" />
         </attvalues>
       </node>
       <node id="destination_fr_Locmariaquer" label="Locmariaquer">
@@ -768,23 +752,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Locmariaquer" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.4713584288052373" />
-        </attvalues>
-      </node>
-      <node id="destination_fr_La Tranche-sur-Mer" label="La Tranche-sur-Mer">
-        <attvalues>
-          <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="La Tranche-sur-Mer" />
-          <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.044189852700491" />
-        </attvalues>
-      </node>
-      <node id="destination_fr_Beauvoir-sur-Mer" label="Beauvoir-sur-Mer">
-        <attvalues>
-          <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Beauvoir-sur-Mer" />
-          <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.0515548281505729" />
+          <attvalue for="3" value="1.4492512479201332" />
         </attvalues>
       </node>
       <node id="destination_fr_Saint-Denis d'Oléron" label="Saint-Denis d'Oléron">
@@ -792,7 +760,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Saint-Denis d'Oléron" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.8027823240589198" />
+          <attvalue for="3" value="1.8910149750415974" />
         </attvalues>
       </node>
       <node id="destination_fr_Champagné-les-Marais" label="Champagné-les-Marais">
@@ -800,7 +768,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Champagné-les-Marais" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.3756137479541735" />
+          <attvalue for="3" value="1.3818635607321132" />
         </attvalues>
       </node>
       <node id="destination_fr_Taillebourg" label="Taillebourg">
@@ -808,7 +776,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Taillebourg" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.1841243862520459" />
+          <attvalue for="3" value="1.1871880199667222" />
         </attvalues>
       </node>
       <node id="destination_fr_Le Château-d'Oléron" label="Le Château-d'Oléron">
@@ -816,7 +784,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Le Château-d'Oléron" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.0662847790507366" />
+          <attvalue for="3" value="1.2246256239600666" />
         </attvalues>
       </node>
       <node id="destination_fr_Cherbourg" label="Cherbourg">
@@ -824,7 +792,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Cherbourg" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.0224625623960066" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_Port-Navalo" label="Port-Navalo">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="Port-Navalo" />
+          <attvalue for="2" value="rgb(238, 130, 238)" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="destination_fr_île de Bouin" label="île de Bouin">
@@ -832,7 +808,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="île de Bouin" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.1767594108019641" />
+          <attvalue for="3" value="1.1572379367720464" />
         </attvalues>
       </node>
       <node id="destination_fr_Ker Châlon" label="Ker Châlon">
@@ -840,7 +816,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Ker Châlon" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0957446808510638" />
+          <attvalue for="3" value="1.1048252911813643" />
         </attvalues>
       </node>
       <node id="destination_fr_Royan" label="Royan">
@@ -848,7 +824,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Royan" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.0224625623960066" />
+        </attvalues>
+      </node>
+      <node id="destination_fr_Noirmoutier" label="Noirmoutier">
+        <attvalues>
+          <attvalue for="0" value="destination_fr" />
+          <attvalue for="1" value="Noirmoutier" />
+          <attvalue for="2" value="rgb(70, 0, 128)" />
+          <attvalue for="3" value="1.1497504159733776" />
         </attvalues>
       </node>
       <node id="destination_fr_Redon" label="Redon">
@@ -856,7 +840,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Redon" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.088379705400982" />
+          <attvalue for="3" value="1.0898502495840265" />
         </attvalues>
       </node>
       <node id="destination_fr_mer des Pertuis" label="mer des Pertuis">
@@ -864,7 +848,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="mer des Pertuis" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0368248772504092" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="destination_fr_île de Ré" label="île de Ré">
@@ -872,7 +856,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="île de Ré" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="2.355155482815057" />
+          <attvalue for="3" value="2.370216306156406" />
         </attvalues>
       </node>
       <node id="destination_fr_La Perrotine" label="La Perrotine">
@@ -880,7 +864,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="La Perrotine" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="2.288870703764321" />
+          <attvalue for="3" value="2.235440931780366" />
         </attvalues>
       </node>
       <node id="destination_fr_Moricq" label="Moricq">
@@ -888,7 +872,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Moricq" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.0736497545008183" />
+          <attvalue for="3" value="1.06738768718802" />
         </attvalues>
       </node>
       <node id="destination_fr_Ars-en-Ré" label="Ars-en-Ré">
@@ -896,7 +880,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Ars-en-Ré" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.3682487725040917" />
+          <attvalue for="3" value="1.4267886855241265" />
         </attvalues>
       </node>
       <node id="destination_fr_Talmont" label="Talmont">
@@ -912,7 +896,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Lorient" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0294599018003274" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="destination_fr_Bourcefranc " label="Bourcefranc ">
@@ -920,7 +904,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Bourcefranc " />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0220949263502455" />
+          <attvalue for="3" value="1.0224625623960066" />
         </attvalues>
       </node>
       <node id="destination_fr_Soubise" label="Soubise">
@@ -928,7 +912,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Soubise" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.1693944353518821" />
+          <attvalue for="3" value="1.0898502495840265" />
         </attvalues>
       </node>
       <node id="destination_fr_La Tremblade" label="La Tremblade">
@@ -936,7 +920,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="La Tremblade" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.0810147299509" />
+          <attvalue for="3" value="1.0898502495840265" />
         </attvalues>
       </node>
       <node id="destination_fr_Arzon" label="Arzon">
@@ -944,7 +928,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Arzon" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0294599018003274" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="destination_fr_Saint-Esprit" label="Saint-Esprit">
@@ -952,15 +936,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Saint-Esprit" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0149750415973378" />
         </attvalues>
       </node>
-      <node id="destination_fr_Saint-Gilles-sur-Vie" label="Saint-Gilles-sur-Vie">
+      <node id="destination_fr_Beauvoir-sur-Mer" label="Beauvoir-sur-Mer">
         <attvalues>
           <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Saint-Gilles-sur-Vie" />
+          <attvalue for="1" value="Beauvoir-sur-Mer" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="destination_fr_Saintes" label="Saintes">
@@ -968,7 +952,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Saintes" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0294599018003274" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="destination_fr_Morlaix" label="Morlaix">
@@ -976,7 +960,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Morlaix" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0294599018003274" />
+          <attvalue for="3" value="1.0299500831946755" />
         </attvalues>
       </node>
       <node id="destination_fr_île d'Yeu" label="île d'Yeu">
@@ -984,7 +968,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="île d'Yeu" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0" />
+          <attvalue for="3" value="1.0074875207986689" />
         </attvalues>
       </node>
       <node id="destination_fr_Touques" label="Touques">
@@ -992,7 +976,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Touques" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0074875207986689" />
         </attvalues>
       </node>
       <node id="destination_fr_Gloucester" label="Gloucester">
@@ -1000,15 +984,15 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Gloucester" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0" />
+          <attvalue for="3" value="1.0074875207986689" />
         </attvalues>
       </node>
-      <node id="destination_fr_Boston" label="Boston">
+      <node id="destination_fr_Rotterdam" label="Rotterdam">
         <attvalues>
           <attvalue for="0" value="destination_fr" />
-          <attvalue for="1" value="Boston" />
+          <attvalue for="1" value="Rotterdam" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="1.0073649754500817" />
+          <attvalue for="3" value="1.0" />
         </attvalues>
       </node>
       <node id="destination_fr_Le Plomb" label="Le Plomb">
@@ -1016,7 +1000,7 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Le Plomb" />
           <attvalue for="2" value="rgb(238, 130, 238)" />
-          <attvalue for="3" value="2.1710310965630115" />
+          <attvalue for="3" value="2.3402662229617306" />
         </attvalues>
       </node>
       <node id="destination_fr_Esnandes" label="Esnandes">
@@ -1024,255 +1008,258 @@
           <attvalue for="0" value="destination_fr" />
           <attvalue for="1" value="Esnandes" />
           <attvalue for="2" value="rgb(70, 0, 128)" />
-          <attvalue for="3" value="2.288870703764321" />
+          <attvalue for="3" value="2.430116472545757" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Bordeaux" id="0" weight="29" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Marans" id="0" weight="51" />
       <edge source="departure_fr_La Rochelle" target="destination_fr_Alicante" id="1" weight="1" />
       <edge source="departure_fr_La Rochelle" target="destination_fr_Calais" id="2" weight="12" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_La Rochelle" id="3" weight="207" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_île d'Oléron" id="4" weight="59" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Valery en Caux" id="5" weight="8" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Seudre" id="6" weight="4" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Rochefort" id="7" weight="89" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Valery-sur-Somme" id="8" weight="9" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Granville" id="9" weight="1" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Marennes" id="10" weight="59" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Tonnay-Charente" id="11" weight="332" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Boulogne-sur-Mer" id="12" weight="6" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Martin-de-Ré" id="13" weight="132" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Ribérou" id="14" weight="44" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Le Croisic" id="15" weight="46" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_La Tranche-sur-Mer" id="16" weight="7" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Denis d'Oléron" id="17" weight="28" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Valery (indeterminé)" id="18" weight="1" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Champagné-les-Marais" id="19" weight="26" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Marans" id="20" weight="31" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_La Perrotine" id="21" weight="33" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Gravelines" id="22" weight="4" />
-      <edge source="departure_fr_La Rochelle" target="destination_fr_Côtes de Bretagne" id="23" weight="13" />
-      <edge source="departure_fr_Redon" target="destination_fr_Caen " id="24" weight="4" />
-      <edge source="departure_fr_Redon" target="destination_fr_Bordeaux" id="25" weight="6" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Saint-Valery-sur-Somme" id="26" weight="7" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Nantes" id="27" weight="4" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Dunkerque" id="28" weight="52" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Brest" id="29" weight="7" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Amsterdam" id="30" weight="4" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Honfleur" id="31" weight="21" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Étaples " id="32" weight="2" />
-      <edge source="departure_fr_Marennes" target="destination_fr_La Flotte-en-Ré" id="33" weight="2" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Caen " id="34" weight="4" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Marennes" id="35" weight="200" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Vannes" id="36" weight="3" />
-      <edge source="departure_fr_Marennes" target="destination_fr_La Rochelle" id="37" weight="16" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Libourne" id="38" weight="8" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Beauvoir-sur-Mer" id="39" weight="2" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Gravelines" id="40" weight="8" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Bordeaux" id="41" weight="9" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Tonnay-Charente" id="42" weight="326" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Marans" id="43" weight="19" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Lorient" id="44" weight="4" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Bourcefranc " id="45" weight="4" />
-      <edge source="departure_fr_Marennes" target="destination_fr_Côtes de Bretagne" id="46" weight="4" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_Noirmoutier" id="47" weight="4" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_Calais" id="48" weight="3" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_Rochefort" id="49" weight="34" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_Taillebourg" id="50" weight="26" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_Tonnay-Charente" id="51" weight="52" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_Cherbourg" id="52" weight="4" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_île d'Oléron" id="53" weight="4" />
-      <edge source="departure_fr_Rochefort" target="destination_fr_La Perrotine" id="54" weight="21" />
-      <edge source="departure_fr_Noirmoutier" target="destination_fr_Nantes" id="55" weight="6" />
-      <edge source="departure_fr_Noirmoutier" target="destination_fr_Bordeaux" id="56" weight="12" />
-      <edge source="departure_fr_Noirmoutier" target="destination_fr_Noirmoutier" id="57" weight="6" />
-      <edge source="departure_fr_Noirmoutier" target="destination_fr_Beauvoir-sur-Mer" id="58" weight="6" />
-      <edge source="departure_fr_Marseille" target="destination_fr_Saint-Valery-sur-Somme" id="59" weight="1" />
-      <edge source="departure_fr_Alicante" target="destination_fr_Marseille" id="60" weight="1" />
-      <edge source="departure_fr_Dunkerque" target="destination_fr_Marennes" id="61" weight="35" />
-      <edge source="departure_fr_Dunkerque" target="destination_fr_La Rochelle" id="62" weight="5" />
-      <edge source="departure_fr_Dunkerque" target="destination_fr_Bayonne" id="63" weight="3" />
-      <edge source="departure_fr_Dunkerque" target="destination_fr_Vannes" id="64" weight="1" />
-      <edge source="departure_fr_Dunkerque" target="destination_fr_Honfleur" id="65" weight="4" />
-      <edge source="departure_fr_Dunkerque" target="destination_fr_Saint-Martin-de-Ré" id="66" weight="2" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Tonnay-Charente" id="67" weight="200" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Dunkerque" id="68" weight="1" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Saint-Valery (indeterminé)" id="69" weight="5" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_La Rochelle" id="70" weight="504" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Bordeaux" id="71" weight="7" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_La Perrotine" id="72" weight="26" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Seudre" id="73" weight="26" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_La Flotte-en-Ré" id="74" weight="30" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Marans" id="75" weight="10" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Calais" id="76" weight="1" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Ars-en-Ré" id="77" weight="10" />
-      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Morlaix" id="78" weight="5" />
-      <edge source="departure_fr_Saint-Valery en Caux" target="destination_fr_La Rochelle" id="79" weight="6" />
-      <edge source="departure_fr_Saint-Valery en Caux" target="destination_fr_Dieppe" id="80" weight="2" />
-      <edge source="departure_fr_Saint-Valery en Caux" target="destination_fr_Touques" id="81" weight="2" />
-      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Côtes de Bretagne" id="82" weight="177" />
-      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Vannes" id="83" weight="2" />
-      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Locmariaquer" id="84" weight="22" />
-      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Le Croisic" id="85" weight="11" />
-      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Marans" id="86" weight="3" />
-      <edge source="departure_fr_Marans" target="destination_fr_Marans" id="87" weight="409" />
-      <edge source="departure_fr_Marans" target="destination_fr_Les Sables-d'Olonne" id="88" weight="16" />
-      <edge source="departure_fr_Marans" target="destination_fr_Côtes de Bretagne" id="89" weight="192" />
-      <edge source="departure_fr_Marans" target="destination_fr_Bordeaux" id="90" weight="45" />
-      <edge source="departure_fr_Marans" target="destination_fr_Saint-Martin-de-Ré" id="91" weight="169" />
-      <edge source="departure_fr_Marans" target="destination_fr_Saint-Denis d'Oléron" id="92" weight="14" />
-      <edge source="departure_fr_Marans" target="destination_fr_Locmariaquer" id="93" weight="8" />
-      <edge source="departure_fr_Marans" target="destination_fr_Ribérou" id="94" weight="15" />
-      <edge source="departure_fr_Marans" target="destination_fr_La Rochelle" id="95" weight="13" />
-      <edge source="departure_fr_Marans" target="destination_fr_Moricq" id="96" weight="11" />
-      <edge source="departure_fr_Marans" target="destination_fr_La Tremblade" id="97" weight="12" />
-      <edge source="departure_fr_Marans" target="destination_fr_Le Croisic" id="98" weight="3" />
-      <edge source="departure_fr_Marans" target="destination_fr_Le Plomb" id="99" weight="80" />
-      <edge source="departure_fr_Marans" target="destination_fr_île de Ré" id="100" weight="120" />
-      <edge source="departure_fr_Marans" target="destination_fr_Rochefort" id="101" weight="20" />
-      <edge source="departure_fr_Marans" target="destination_fr_Esnandes" id="102" weight="96" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Côtes de Bretagne" id="103" weight="29" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Marans" id="104" weight="28" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Bayonne" id="105" weight="3" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_La Rochelle" id="106" weight="6" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Ribérou" id="107" weight="33" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Rochefort" id="108" weight="4" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Locmariaquer" id="109" weight="10" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Saint-Martin-de-Ré" id="110" weight="7" />
-      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Les Sables-d'Olonne" id="111" weight="5" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Côtes de Bretagne" id="112" weight="154" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_La Rochelle" id="113" weight="40" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Rochefort" id="114" weight="17" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Locmariaquer" id="115" weight="14" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Marans" id="116" weight="68" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Saint-Denis d'Oléron" id="117" weight="14" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Ribérou" id="118" weight="61" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_île d'Oléron" id="119" weight="20" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Bordeaux" id="120" weight="14" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Le Croisic" id="121" weight="10" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Les Sables-d'Olonne" id="122" weight="18" />
-      <edge source="departure_fr_Ribérou" target="destination_fr_Marennes" id="123" weight="4" />
-      <edge source="departure_fr_île de Bouin" target="destination_fr_Gravelines" id="124" weight="6" />
-      <edge source="departure_fr_île de Bouin" target="destination_fr_Bourgneuf" id="125" weight="2" />
-      <edge source="departure_fr_île de Bouin" target="destination_fr_île de Bouin" id="126" weight="14" />
-      <edge source="departure_fr_île de Bouin" target="destination_fr_Nantes" id="127" weight="23" />
-      <edge source="departure_fr_île de Bouin" target="destination_fr_Redon" id="128" weight="7" />
-      <edge source="departure_fr_Gravelines" target="destination_fr_Bourgneuf" id="129" weight="2" />
-      <edge source="departure_fr_Gravelines" target="destination_fr_La Rochelle" id="130" weight="4" />
-      <edge source="departure_fr_Gravelines" target="destination_fr_île de Bouin" id="131" weight="4" />
-      <edge source="departure_fr_Gravelines" target="destination_fr_Saint-Martin-de-Ré" id="132" weight="8" />
-      <edge source="departure_fr_Bourgneuf" target="destination_fr_Gravelines" id="133" weight="2" />
-      <edge source="departure_fr_Ferrol" target="destination_fr_Saint-Valery-sur-Somme" id="134" weight="2" />
-      <edge source="departure_fr_Cherbourg" target="destination_fr_Rouen" id="135" weight="3" />
-      <edge source="departure_fr_Cherbourg" target="destination_fr_Bayonne" id="136" weight="4" />
-      <edge source="departure_fr_Libourne" target="destination_fr_Saint-Valery-sur-Somme" id="137" weight="2" />
-      <edge source="departure_fr_Libourne" target="destination_fr_Caen " id="138" weight="2" />
-      <edge source="departure_fr_Libourne" target="destination_fr_Bayonne" id="139" weight="4" />
-      <edge source="departure_fr_Libourne" target="destination_fr_île d'Oléron" id="140" weight="2" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Marennes" id="141" weight="2" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Saint-Denis d'Oléron" id="142" weight="14" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_mer des Pertuis" id="143" weight="6" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Bordeaux" id="144" weight="4" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Côtes de Bretagne" id="145" weight="15" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_La Perrotine" id="146" weight="21" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Tonnay-Charente" id="147" weight="25" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Arzon" id="148" weight="5" />
-      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Ars-en-Ré" id="149" weight="10" />
-      <edge source="departure_fr_Vannes" target="destination_fr_Côtes de Bretagne" id="150" weight="2" />
-      <edge source="departure_fr_Vannes" target="destination_fr_île d'Yeu" id="151" weight="1" />
-      <edge source="departure_fr_Caen " target="destination_fr_Caen " id="152" weight="3" />
-      <edge source="departure_fr_Saint-Valery-sur-Somme" target="destination_fr_Angleterre" id="153" weight="1" />
-      <edge source="departure_fr_Angleterre" target="destination_fr_Détroit de Gibraltar" id="154" weight="1" />
-      <edge source="departure_fr_Détroit de Gibraltar" target="destination_fr_Marseille" id="155" weight="1" />
-      <edge source="departure_fr_île d'Oléron" target="destination_fr_Honfleur" id="156" weight="6" />
-      <edge source="departure_fr_île d'Oléron" target="destination_fr_Côtes de Bretagne" id="157" weight="14" />
-      <edge source="departure_fr_île d'Oléron" target="destination_fr_île d'Oléron" id="158" weight="16" />
-      <edge source="departure_fr_île d'Oléron" target="destination_fr_La Rochelle" id="159" weight="5" />
-      <edge source="departure_fr_île d'Oléron" target="destination_fr_Soubise" id="160" weight="24" />
-      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_Dieppe" id="161" weight="2" />
-      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_Ars-en-Ré" id="162" weight="20" />
-      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_La Rochelle" id="163" weight="30" />
-      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_Tonnay-Charente" id="164" weight="10" />
-      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_Gloucester" id="165" weight="1" />
-      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Côtes de Bretagne" id="166" weight="6" />
-      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Les Sables-d'Olonne" id="167" weight="2" />
-      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Saint-Gilles-sur-Vie" id="168" weight="2" />
-      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Bayonne" id="169" weight="2" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_île d'Oléron" id="170" weight="58" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Saint-Denis d'Oléron" id="171" weight="19" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Champagné-les-Marais" id="172" weight="26" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Le Château-d'Oléron" id="173" weight="5" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Bordeaux" id="174" weight="12" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Ribérou" id="175" weight="19" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Marans" id="176" weight="401" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_La Rochelle" id="177" weight="21" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_La Perrotine" id="178" weight="63" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Marennes" id="179" weight="42" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Locmariaquer" id="180" weight="11" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Seudre" id="181" weight="4" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Côtes de Bretagne" id="182" weight="10" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Vannes" id="183" weight="7" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Boston" id="184" weight="2" />
-      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Saint-Martin-de-Ré" id="185" weight="81" />
-      <edge source="departure_fr_Bordeaux" target="destination_fr_île d'Oléron" id="186" weight="7" />
-      <edge source="departure_fr_Bordeaux" target="destination_fr_Côtes de Bretagne" id="187" weight="11" />
-      <edge source="departure_fr_Bordeaux" target="destination_fr_Nantes" id="188" weight="13" />
-      <edge source="departure_fr_Bordeaux" target="destination_fr_Bordeaux" id="189" weight="21" />
-      <edge source="departure_fr_Bordeaux" target="destination_fr_La Flotte-en-Ré" id="190" weight="10" />
-      <edge source="departure_fr_Bordeaux" target="destination_fr_Gravelines" id="191" weight="5" />
-      <edge source="departure_fr_La Tranche-sur-Mer" target="destination_fr_Bordeaux" id="192" weight="7" />
-      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_Nantes" id="193" weight="10" />
-      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_Redon" id="194" weight="6" />
-      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_Bordeaux" id="195" weight="6" />
-      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_île de Bouin" id="196" weight="7" />
-      <edge source="departure_fr_Saint-Malo" target="destination_fr_Bordeaux" id="197" weight="2" />
-      <edge source="departure_fr_La Perrotine" target="destination_fr_Saint-Denis d'Oléron" id="198" weight="2" />
-      <edge source="departure_fr_La Perrotine" target="destination_fr_La Flotte-en-Ré" id="199" weight="21" />
-      <edge source="departure_fr_La Perrotine" target="destination_fr_La Rochelle" id="200" weight="129" />
-      <edge source="departure_fr_La Perrotine" target="destination_fr_Saint-Martin-de-Ré" id="201" weight="42" />
-      <edge source="departure_fr_La Perrotine" target="destination_fr_Ribérou" id="202" weight="14" />
-      <edge source="departure_fr_La Perrotine" target="destination_fr_Dunkerque" id="203" weight="1" />
-      <edge source="departure_fr_La Perrotine" target="destination_fr_Lorient" id="204" weight="1" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Bordeaux" id="205" weight="2" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_île d'Oléron" id="206" weight="14" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Saint-Martin-de-Ré" id="207" weight="14" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_La Rochelle" id="208" weight="84" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Marans" id="209" weight="19" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Côtes de Bretagne" id="210" weight="28" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Ribérou" id="211" weight="14" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Saint-Denis d'Oléron" id="212" weight="19" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Ker Châlon" id="213" weight="14" />
-      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_île de Ré" id="214" weight="5" />
-      <edge source="departure_fr_Champagné-les-Marais" target="destination_fr_Rochefort" id="215" weight="52" />
-      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_Bordeaux" id="216" weight="5" />
-      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_Le Château-d'Oléron" id="217" weight="5" />
-      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_La Rochelle" id="218" weight="5" />
-      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_La Perrotine" id="219" weight="12" />
-      <edge source="departure_fr_Abbeville" target="destination_fr_Saint-Valery-sur-Somme" id="220" weight="4" />
-      <edge source="departure_fr_Nantes" target="destination_fr_Bordeaux" id="221" weight="4" />
-      <edge source="departure_fr_Nantes" target="destination_fr_Nantes" id="222" weight="14" />
-      <edge source="departure_fr_Royan" target="destination_fr_Tonnay-Charente" id="223" weight="4" />
-      <edge source="departure_fr_Royan" target="destination_fr_Royan" id="224" weight="4" />
-      <edge source="departure_fr_Royan" target="destination_fr_Talmont" id="225" weight="1" />
-      <edge source="departure_fr_Locmariaquer" target="destination_fr_Le Croisic" id="226" weight="13" />
-      <edge source="departure_fr_Locmariaquer" target="destination_fr_Côtes de Bretagne" id="227" weight="7" />
-      <edge source="departure_fr_Le Croisic" target="destination_fr_Côtes de Bretagne" id="228" weight="16" />
-      <edge source="departure_fr_mer des Pertuis" target="destination_fr_Vannes" id="229" weight="2" />
-      <edge source="departure_fr_Moricq" target="destination_fr_Ars-en-Ré" id="230" weight="11" />
-      <edge source="departure_fr_Seudre" target="destination_fr_Gravelines" id="231" weight="4" />
-      <edge source="departure_fr_Rouen" target="destination_fr_Saint-Valery (indeterminé)" id="232" weight="4" />
-      <edge source="departure_fr_Soubise" target="destination_fr_La Rochelle" id="233" weight="24" />
-      <edge source="departure_fr_Soubise" target="destination_fr_Tonnay-Charente" id="234" weight="10" />
-      <edge source="departure_fr_Arzon" target="destination_fr_Côtes de Bretagne" id="235" weight="5" />
-      <edge source="departure_fr_Santander" target="destination_fr_Saint-Esprit" id="236" weight="2" />
-      <edge source="departure_fr_Bayonne" target="destination_fr_Bordeaux" id="237" weight="2" />
-      <edge source="departure_fr_Morlaix" target="destination_fr_Saintes" id="238" weight="5" />
-      <edge source="departure_fr_Le Plomb" target="destination_fr_île de Ré" id="239" weight="20" />
-      <edge source="departure_fr_Le Plomb" target="destination_fr_Le Plomb" id="240" weight="20" />
-      <edge source="departure_fr_île de Ré" target="destination_fr_Le Plomb" id="241" weight="60" />
-      <edge source="departure_fr_île de Ré" target="destination_fr_île de Ré" id="242" weight="40" />
-      <edge source="departure_fr_Esnandes" target="destination_fr_Esnandes" id="243" weight="80" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_La Rochelle" id="3" weight="198" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_île d'Oléron" id="4" weight="73" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Valery en Caux" id="5" weight="6" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Rochefort" id="6" weight="131" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Valery-sur-Somme" id="7" weight="10" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Granville" id="8" weight="1" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Boulogne-sur-Mer" id="9" weight="6" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Martin-de-Ré" id="10" weight="107" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Ribérou" id="11" weight="93" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Marennes" id="12" weight="6" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Gilles-sur-Vie" id="13" weight="7" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Denis d'Oléron" id="14" weight="30" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Tonnay-Charente" id="15" weight="300" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Champagné-les-Marais" id="16" weight="26" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Le Château-d'Oléron" id="17" weight="6" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Gravelines" id="18" weight="8" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_La Perrotine" id="19" weight="27" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Côtes de Bretagne" id="20" weight="8" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Le Croisic" id="21" weight="22" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Saint-Valery (indeterminé)" id="22" weight="3" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Dunkerque" id="23" weight="3" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_La Flotte-en-Ré" id="24" weight="19" />
+      <edge source="departure_fr_La Rochelle" target="destination_fr_Libourne" id="25" weight="1" />
+      <edge source="departure_fr_Marans" target="destination_fr_Bordeaux" id="26" weight="38" />
+      <edge source="departure_fr_Marans" target="destination_fr_Côtes de Bretagne" id="27" weight="182" />
+      <edge source="departure_fr_Marans" target="destination_fr_Marans" id="28" weight="374" />
+      <edge source="departure_fr_Marans" target="destination_fr_Les Sables-d'Olonne" id="29" weight="29" />
+      <edge source="departure_fr_Marans" target="destination_fr_Saint-Martin-de-Ré" id="30" weight="146" />
+      <edge source="departure_fr_Marans" target="destination_fr_île d'Oléron" id="31" weight="6" />
+      <edge source="departure_fr_Marans" target="destination_fr_La Rochelle" id="32" weight="16" />
+      <edge source="departure_fr_Marans" target="destination_fr_Port-Navalo" id="33" weight="1" />
+      <edge source="departure_fr_Marans" target="destination_fr_Saint-Denis d'Oléron" id="34" weight="15" />
+      <edge source="departure_fr_Marans" target="destination_fr_La Flotte-en-Ré" id="35" weight="7" />
+      <edge source="departure_fr_Marans" target="destination_fr_Ribérou" id="36" weight="31" />
+      <edge source="departure_fr_Marans" target="destination_fr_Moricq" id="37" weight="10" />
+      <edge source="departure_fr_Marans" target="destination_fr_La Tremblade" id="38" weight="13" />
+      <edge source="departure_fr_Marans" target="destination_fr_Le Croisic" id="39" weight="3" />
+      <edge source="departure_fr_Marans" target="destination_fr_Le Plomb" id="40" weight="100" />
+      <edge source="departure_fr_Marans" target="destination_fr_île de Ré" id="41" weight="120" />
+      <edge source="departure_fr_Marans" target="destination_fr_Esnandes" id="42" weight="112" />
+      <edge source="departure_fr_Redon" target="destination_fr_Caen " id="43" weight="3" />
+      <edge source="departure_fr_Redon" target="destination_fr_Nantes" id="44" weight="6" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Marennes" id="45" weight="239" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Saint-Valery-sur-Somme" id="46" weight="5" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Dunkerque" id="47" weight="42" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Amsterdam" id="48" weight="4" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Honfleur" id="49" weight="22" />
+      <edge source="departure_fr_Marennes" target="destination_fr_La Rochelle" id="50" weight="18" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Étaples " id="51" weight="2" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Caen " id="52" weight="4" />
+      <edge source="departure_fr_Marennes" target="destination_fr_La Flotte-en-Ré" id="53" weight="2" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Libourne" id="54" weight="6" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Nantes" id="55" weight="1" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Bordeaux" id="56" weight="9" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Tonnay-Charente" id="57" weight="314" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Marans" id="58" weight="27" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Saint-Martin-de-Ré" id="59" weight="4" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Lorient" id="60" weight="4" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Bayonne" id="61" weight="4" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Côtes de Bretagne" id="62" weight="4" />
+      <edge source="departure_fr_Marennes" target="destination_fr_Rotterdam" id="63" weight="1" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_Nantes" id="64" weight="3" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_Calais" id="65" weight="3" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_Tonnay-Charente" id="66" weight="82" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_Rochefort" id="67" weight="36" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_Bordeaux" id="68" weight="18" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_La Rochelle" id="69" weight="33" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_Les Sables-d'Olonne" id="70" weight="4" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_Marennes" id="71" weight="4" />
+      <edge source="departure_fr_Rochefort" target="destination_fr_La Perrotine" id="72" weight="21" />
+      <edge source="departure_fr_Nantes" target="destination_fr_Nantes" id="73" weight="19" />
+      <edge source="departure_fr_Marseille" target="destination_fr_Saint-Valery-sur-Somme" id="74" weight="1" />
+      <edge source="departure_fr_Alicante" target="destination_fr_Marseille" id="75" weight="1" />
+      <edge source="departure_fr_Dunkerque" target="destination_fr_Marennes" id="76" weight="29" />
+      <edge source="departure_fr_Dunkerque" target="destination_fr_Brest" id="77" weight="5" />
+      <edge source="departure_fr_Dunkerque" target="destination_fr_Vannes" id="78" weight="3" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Tonnay-Charente" id="79" weight="216" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Dunkerque" id="80" weight="1" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Saint-Valery (indeterminé)" id="81" weight="4" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_La Rochelle" id="82" weight="500" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Bordeaux" id="83" weight="6" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Seudre" id="84" weight="27" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_La Flotte-en-Ré" id="85" weight="16" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Ars-en-Ré" id="86" weight="24" />
+      <edge source="departure_fr_Tonnay-Charente" target="destination_fr_Saint-Martin-de-Ré" id="87" weight="5" />
+      <edge source="departure_fr_Saint-Valery en Caux" target="destination_fr_La Rochelle" id="88" weight="5" />
+      <edge source="departure_fr_Saint-Valery en Caux" target="destination_fr_Dieppe" id="89" weight="1" />
+      <edge source="departure_fr_Saint-Valery en Caux" target="destination_fr_Touques" id="90" weight="2" />
+      <edge source="departure_fr_Calais" target="destination_fr_Seudre" id="91" weight="3" />
+      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Ribérou" id="92" weight="40" />
+      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Marans" id="93" weight="27" />
+      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Côtes de Bretagne" id="94" weight="41" />
+      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Bayonne" id="95" weight="6" />
+      <edge source="departure_fr_Les Sables-d'Olonne" target="destination_fr_Saint-Martin-de-Ré" id="96" weight="10" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Côtes de Bretagne" id="97" weight="173" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Saint-Martin-de-Ré" id="98" weight="18" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_La Rochelle" id="99" weight="55" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Locmariaquer" id="100" weight="13" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Marans" id="101" weight="53" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Saint-Denis d'Oléron" id="102" weight="45" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Ribérou" id="103" weight="51" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_île d'Oléron" id="104" weight="6" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Le Croisic" id="105" weight="10" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Les Sables-d'Olonne" id="106" weight="17" />
+      <edge source="departure_fr_Ribérou" target="destination_fr_Marennes" id="107" weight="4" />
+      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Côtes de Bretagne" id="108" weight="163" />
+      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Le Croisic" id="109" weight="31" />
+      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Locmariaquer" id="110" weight="21" />
+      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_île d'Oléron" id="111" weight="15" />
+      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Vannes" id="112" weight="6" />
+      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Marans" id="113" weight="3" />
+      <edge source="departure_fr_Côtes de Bretagne" target="destination_fr_Arzon" id="114" weight="5" />
+      <edge source="departure_fr_île de Bouin" target="destination_fr_Gravelines" id="115" weight="6" />
+      <edge source="departure_fr_île de Bouin" target="destination_fr_Bourgneuf" id="116" weight="2" />
+      <edge source="departure_fr_île de Bouin" target="destination_fr_île de Bouin" id="117" weight="12" />
+      <edge source="departure_fr_île de Bouin" target="destination_fr_Nantes" id="118" weight="14" />
+      <edge source="departure_fr_île de Bouin" target="destination_fr_Redon" id="119" weight="6" />
+      <edge source="departure_fr_Gravelines" target="destination_fr_Bourgneuf" id="120" weight="2" />
+      <edge source="departure_fr_Gravelines" target="destination_fr_île de Bouin" id="121" weight="4" />
+      <edge source="departure_fr_Gravelines" target="destination_fr_Saint-Martin-de-Ré" id="122" weight="4" />
+      <edge source="departure_fr_Bourgneuf" target="destination_fr_Gravelines" id="123" weight="2" />
+      <edge source="departure_fr_Cherbourg" target="destination_fr_Rouen" id="124" weight="4" />
+      <edge source="departure_fr_Libourne" target="destination_fr_Saint-Valery-sur-Somme" id="125" weight="2" />
+      <edge source="departure_fr_Libourne" target="destination_fr_Caen " id="126" weight="1" />
+      <edge source="departure_fr_Libourne" target="destination_fr_île d'Oléron" id="127" weight="1" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Marennes" id="128" weight="10" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_île d'Oléron" id="129" weight="15" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Bordeaux" id="130" weight="6" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Locmariaquer" id="131" weight="7" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_La Perrotine" id="132" weight="21" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_mer des Pertuis" id="133" weight="2" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Tonnay-Charente" id="134" weight="8" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Ribérou" id="135" weight="5" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_La Rochelle" id="136" weight="12" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Saintes" id="137" weight="5" />
+      <edge source="departure_fr_La Flotte-en-Ré" target="destination_fr_Côtes de Bretagne" id="138" weight="7" />
+      <edge source="departure_fr_Vannes" target="destination_fr_Côtes de Bretagne" id="139" weight="3" />
+      <edge source="departure_fr_Vannes" target="destination_fr_Bayonne" id="140" weight="3" />
+      <edge source="departure_fr_Vannes" target="destination_fr_île d'Yeu" id="141" weight="2" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Vannes" id="142" weight="3" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Marennes" id="143" weight="39" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Marans" id="144" weight="355" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_La Rochelle" id="145" weight="36" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Saint-Denis d'Oléron" id="146" weight="15" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Champagné-les-Marais" id="147" weight="26" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Le Château-d'Oléron" id="148" weight="6" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Bordeaux" id="149" weight="11" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Ker Châlon" id="150" weight="15" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_île de Ré" id="151" weight="4" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_La Perrotine" id="152" weight="84" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Locmariaquer" id="153" weight="20" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Seudre" id="154" weight="4" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Gravelines" id="155" weight="4" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Côtes de Bretagne" id="156" weight="9" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Morlaix" id="157" weight="5" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Beauvoir-sur-Mer" id="158" weight="2" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_Saint-Martin-de-Ré" id="159" weight="140" />
+      <edge source="departure_fr_Saint-Martin-de-Ré" target="destination_fr_île d'Oléron" id="160" weight="28" />
+      <edge source="departure_fr_Bayonne" target="destination_fr_Caen " id="161" weight="3" />
+      <edge source="departure_fr_Bayonne" target="destination_fr_île d'Oléron" id="162" weight="4" />
+      <edge source="departure_fr_Bayonne" target="destination_fr_Bourcefranc " id="163" weight="4" />
+      <edge source="departure_fr_Saint-Valery-sur-Somme" target="destination_fr_Angleterre" id="164" weight="1" />
+      <edge source="departure_fr_Saint-Valery-sur-Somme" target="destination_fr_Honfleur" id="165" weight="2" />
+      <edge source="departure_fr_Angleterre" target="destination_fr_Détroit de Gibraltar" id="166" weight="1" />
+      <edge source="departure_fr_Détroit de Gibraltar" target="destination_fr_Marseille" id="167" weight="1" />
+      <edge source="departure_fr_Honfleur" target="destination_fr_Bordeaux" id="168" weight="6" />
+      <edge source="departure_fr_Honfleur" target="destination_fr_Honfleur" id="169" weight="5" />
+      <edge source="departure_fr_Dieppe" target="destination_fr_Dieppe" id="170" weight="1" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_île d'Oléron" id="171" weight="2" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_Côtes de Bretagne" id="172" weight="11" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_Cherbourg" id="173" weight="4" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_Redon" id="174" weight="7" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_Bordeaux" id="175" weight="20" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_mer des Pertuis" id="176" weight="3" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_La Flotte-en-Ré" id="177" weight="5" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_Nantes" id="178" weight="6" />
+      <edge source="departure_fr_Bordeaux" target="destination_fr_Gravelines" id="179" weight="5" />
+      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Marans" id="180" weight="7" />
+      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Les Sables-d'Olonne" id="181" weight="2" />
+      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Saint-Esprit" id="182" weight="3" />
+      <edge source="departure_fr_Saint-Gilles-sur-Vie" target="destination_fr_Beauvoir-sur-Mer" id="183" weight="3" />
+      <edge source="departure_fr_île d'Oléron" target="destination_fr_Bordeaux" id="184" weight="12" />
+      <edge source="departure_fr_île d'Oléron" target="destination_fr_île d'Oléron" id="185" weight="14" />
+      <edge source="departure_fr_île d'Oléron" target="destination_fr_La Rochelle" id="186" weight="17" />
+      <edge source="departure_fr_île d'Oléron" target="destination_fr_Soubise" id="187" weight="13" />
+      <edge source="departure_fr_île d'Oléron" target="destination_fr_Marans" id="188" weight="28" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_Bordeaux" id="189" weight="2" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_La Flotte-en-Ré" id="190" weight="21" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_La Rochelle" id="191" weight="110" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_Saint-Martin-de-Ré" id="192" weight="42" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_Marennes" id="193" weight="21" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_Le Château-d'Oléron" id="194" weight="13" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_Vannes" id="195" weight="1" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_Lorient" id="196" weight="1" />
+      <edge source="departure_fr_La Perrotine" target="destination_fr_Ribérou" id="197" weight="2" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Bordeaux" id="198" weight="17" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_La Flotte-en-Ré" id="199" weight="15" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_île d'Oléron" id="200" weight="15" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_La Rochelle" id="201" weight="90" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Rochefort" id="202" weight="15" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Saint-Denis d'Oléron" id="203" weight="15" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Côtes de Bretagne" id="204" weight="45" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Saint-Martin-de-Ré" id="205" weight="19" />
+      <edge source="departure_fr_Saint-Denis d'Oléron" target="destination_fr_Marans" id="206" weight="4" />
+      <edge source="departure_fr_Champagné-les-Marais" target="destination_fr_Taillebourg" id="207" weight="26" />
+      <edge source="departure_fr_Champagné-les-Marais" target="destination_fr_Rochefort" id="208" weight="26" />
+      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_Bordeaux" id="209" weight="12" />
+      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_Le Château-d'Oléron" id="210" weight="6" />
+      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_La Rochelle" id="211" weight="6" />
+      <edge source="departure_fr_Le Château-d'Oléron" target="destination_fr_La Perrotine" id="212" weight="13" />
+      <edge source="departure_fr_Abbeville" target="destination_fr_Saint-Valery-sur-Somme" id="213" weight="4" />
+      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_Nantes" id="214" weight="4" />
+      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_Bordeaux" id="215" weight="9" />
+      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_Noirmoutier" id="216" weight="14" />
+      <edge source="departure_fr_Beauvoir-sur-Mer" target="destination_fr_île de Bouin" id="217" weight="6" />
+      <edge source="departure_fr_Royan" target="destination_fr_Tonnay-Charente" id="218" weight="4" />
+      <edge source="departure_fr_Royan" target="destination_fr_Royan" id="219" weight="4" />
+      <edge source="departure_fr_Royan" target="destination_fr_Talmont" id="220" weight="1" />
+      <edge source="departure_fr_Quimper" target="destination_fr_Bordeaux" id="221" weight="7" />
+      <edge source="departure_fr_Noirmoutier" target="destination_fr_Noirmoutier" id="222" weight="7" />
+      <edge source="departure_fr_Noirmoutier" target="destination_fr_Nantes" id="223" weight="9" />
+      <edge source="departure_fr_Noirmoutier" target="destination_fr_Bordeaux" id="224" weight="21" />
+      <edge source="departure_fr_Locmariaquer" target="destination_fr_Le Croisic" id="225" weight="12" />
+      <edge source="departure_fr_Locmariaquer" target="destination_fr_Côtes de Bretagne" id="226" weight="19" />
+      <edge source="departure_fr_Seudre" target="destination_fr_Tonnay-Charente" id="227" weight="27" />
+      <edge source="departure_fr_Seudre" target="destination_fr_Gravelines" id="228" weight="4" />
+      <edge source="departure_fr_Le Croisic" target="destination_fr_Côtes de Bretagne" id="229" weight="13" />
+      <edge source="departure_fr_mer des Pertuis" target="destination_fr_Vannes" id="230" weight="2" />
+      <edge source="departure_fr_Moricq" target="destination_fr_Ars-en-Ré" id="231" weight="10" />
+      <edge source="departure_fr_Soubise" target="destination_fr_île d'Oléron" id="232" weight="13" />
+      <edge source="departure_fr_Soubise" target="destination_fr_La Rochelle" id="233" weight="13" />
+      <edge source="departure_fr_Soubise" target="destination_fr_Marennes" id="234" weight="11" />
+      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_La Rochelle" id="235" weight="24" />
+      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_Ars-en-Ré" id="236" weight="24" />
+      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_Tonnay-Charente" id="237" weight="24" />
+      <edge source="departure_fr_Ars-en-Ré" target="destination_fr_Gloucester" id="238" weight="2" />
+      <edge source="departure_fr_Saint-Esprit" target="destination_fr_Bayonne" id="239" weight="3" />
+      <edge source="departure_fr_Morlaix" target="destination_fr_La Flotte-en-Ré" id="240" weight="5" />
+      <edge source="departure_fr_Le Plomb" target="destination_fr_Le Plomb" id="241" weight="40" />
+      <edge source="departure_fr_Le Plomb" target="destination_fr_île de Ré" id="242" weight="40" />
+      <edge source="departure_fr_île de Ré" target="destination_fr_Le Plomb" id="243" weight="40" />
+      <edge source="departure_fr_île de Ré" target="destination_fr_île de Ré" id="244" weight="20" />
+      <edge source="departure_fr_île de Ré" target="destination_fr_Rochefort" id="245" weight="20" />
+      <edge source="departure_fr_Esnandes" target="destination_fr_Esnandes" id="246" weight="80" />
     </edges>
   </graph>
 </gexf>

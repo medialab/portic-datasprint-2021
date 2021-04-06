@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-04-03">
+  <meta lastmodifieddate="2021-04-06">
     <creator>NetworkX 2.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -267,12 +267,12 @@
           <attvalue for="3" value="1.0681818181818181" />
         </attvalues>
       </node>
-      <node id="product_revolutionempire_Graines diverses et mélangées" label="Graines diverses et mélangées">
+      <node id="product_revolutionempire_Légumes" label="Légumes">
         <attvalues>
           <attvalue for="0" value="product_revolutionempire" />
-          <attvalue for="1" value="Graines diverses et mélangées" />
+          <attvalue for="1" value="Légumes" />
           <attvalue for="2" value="rgb(255, 0, 0)" />
-          <attvalue for="3" value="1.0681818181818181" />
+          <attvalue for="3" value="1.2045454545454546" />
         </attvalues>
       </node>
       <node id="product_revolutionempire_Divers mélangés" label="Divers mélangés">
@@ -329,14 +329,6 @@
           <attvalue for="1" value="Bâtiments de mer et apparaux" />
           <attvalue for="2" value="rgb(255, 0, 0)" />
           <attvalue for="3" value="1.0340909090909092" />
-        </attvalues>
-      </node>
-      <node id="product_revolutionempire_Légumes" label="Légumes">
-        <attvalues>
-          <attvalue for="0" value="product_revolutionempire" />
-          <attvalue for="1" value="Légumes" />
-          <attvalue for="2" value="rgb(255, 0, 0)" />
-          <attvalue for="3" value="1.1022727272727273" />
         </attvalues>
       </node>
       <node id="product_revolutionempire_Fromage" label="Fromage">
@@ -499,20 +491,20 @@
           <attvalue for="3" value="1.2727272727272727" />
         </attvalues>
       </node>
-      <node id="product_revolutionempire_Farine, gruau, biscuits et pâtes" label="Farine, gruau, biscuits et pâtes">
-        <attvalues>
-          <attvalue for="0" value="product_revolutionempire" />
-          <attvalue for="1" value="Farine, gruau, biscuits et pâtes" />
-          <attvalue for="2" value="rgb(255, 0, 0)" />
-          <attvalue for="3" value="1.3068181818181817" />
-        </attvalues>
-      </node>
       <node id="product_revolutionempire_Rocou" label="Rocou">
         <attvalues>
           <attvalue for="0" value="product_revolutionempire" />
           <attvalue for="1" value="Rocou" />
           <attvalue for="2" value="rgb(255, 0, 0)" />
           <attvalue for="3" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="product_revolutionempire_Farine, gruau, biscuits et pâtes" label="Farine, gruau, biscuits et pâtes">
+        <attvalues>
+          <attvalue for="0" value="product_revolutionempire" />
+          <attvalue for="1" value="Farine, gruau, biscuits et pâtes" />
+          <attvalue for="2" value="rgb(255, 0, 0)" />
+          <attvalue for="3" value="1.3068181818181817" />
         </attvalues>
       </node>
       <node id="product_revolutionempire_Fer" label="Fer">
@@ -952,7 +944,7 @@
       <edge source="partner_Petites iles" target="product_revolutionempire_Blé et autres grains comestibles" id="8" weight="15" />
       <edge source="partner_Petites iles" target="product_revolutionempire_Fruits secs et noix" id="9" weight="4" />
       <edge source="partner_Petites iles" target="product_revolutionempire_Fruits frais" id="10" weight="3" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Graines diverses et mélangées" id="11" weight="3" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Légumes" id="11" weight="5" />
       <edge source="partner_Petites iles" target="product_revolutionempire_Divers mélangés" id="12" weight="7" />
       <edge source="partner_Petites iles" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="13" weight="5" />
       <edge source="partner_Petites iles" target="product_revolutionempire_Papier" id="14" weight="2" />
@@ -960,277 +952,277 @@
       <edge source="partner_Petites iles" target="product_revolutionempire_Matières premières diverses" id="16" weight="7" />
       <edge source="partner_Petites iles" target="customs_office_Marennes" id="17" weight="16" />
       <edge source="partner_Petites iles" target="product_revolutionempire_Bâtiments de mer et apparaux" id="18" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Légumes" id="19" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Fromage" id="20" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Pêche et fruits de mer" id="21" weight="6" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Verrerie" id="22" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Vins divers" id="23" weight="5" />
-      <edge source="partner_Petites iles" target="customs_office_La Rochelle" id="24" weight="126" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Beurre" id="25" weight="3" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Bonneterie hors soie" id="26" weight="3" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Bonneterie de soie" id="27" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Brai, goudron et résines" id="28" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Chapeaux hors paille et écorce" id="29" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Étoffes de laine" id="30" weight="21" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="31" weight="4" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Ouvrages métalliques" id="32" weight="6" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Toiles de chanvre et de lin" id="33" weight="29" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Drogues diverses" id="34" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Sucre" id="35" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Toiles de coton" id="36" weight="10" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Étoffes de soie" id="37" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="38" weight="3" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Fer" id="39" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Textiles manufacturés divers et mélangés" id="40" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Riz" id="41" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Huile d'olive à manger" id="42" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Huiles diverses" id="43" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Huile de poisson" id="44" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Sel" id="45" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Lin" id="46" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Meubles, glaces et miroirs" id="47" weight="3" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Mercerie" id="48" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Châles et mouchoirs hors soie" id="49" weight="8" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Chairs et œufs" id="50" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Quincaillerie" id="51" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Savon" id="52" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Salpêtre et soufre" id="53" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Chevaux et bêtes de somme" id="54" weight="2" />
-      <edge source="partner_Petites iles" target="customs_office_Aligre" id="55" weight="58" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Graisses diverses" id="56" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Thé" id="57" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Mousseline, basin et nankin" id="58" weight="6" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Toiles diverses" id="59" weight="9" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Étoffes diverses" id="60" weight="2" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Bière, cidre et vinaigre" id="61" weight="2" />
-      <edge source="partner_Petites iles" target="customs_office_Saint-Martin-de-Ré" id="62" weight="17" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Bois divers hors combustible" id="63" weight="4" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Bougies, chandelles et flambeaux" id="64" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Cordage et filets" id="65" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Habits et lingerie" id="66" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Librairie" id="67" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Ouvrages divers et mélangés" id="68" weight="1" />
-      <edge source="partner_Petites iles" target="product_revolutionempire_Cordonnerie et sellerie" id="69" weight="2" />
-      <edge source="partner_Petites iles" target="customs_office_Rochefort" id="70" weight="5" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Vins divers" id="71" weight="1" />
-      <edge source="partner_Angleterre" target="customs_office_Rochefort" id="72" weight="3" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="73" weight="7" />
-      <edge source="partner_Angleterre" target="customs_office_Charente" id="74" weight="6" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Graines grasses" id="75" weight="1" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="76" weight="1" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Divers mélangés" id="77" weight="1" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="78" weight="1" />
-      <edge source="partner_Angleterre" target="customs_office_Marennes" id="79" weight="3" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Sel" id="80" weight="3" />
-      <edge source="partner_Angleterre" target="customs_office_Saint-Martin-de-Ré" id="81" weight="4" />
-      <edge source="partner_Angleterre" target="product_revolutionempire_Bière, cidre et vinaigre" id="82" weight="1" />
-      <edge source="partner_Dunkerque" target="product_revolutionempire_Bière, cidre et vinaigre" id="83" weight="2" />
-      <edge source="partner_Dunkerque" target="customs_office_Rochefort" id="84" weight="2" />
-      <edge source="partner_Dunkerque" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="85" weight="4" />
-      <edge source="partner_Dunkerque" target="customs_office_Charente" id="86" weight="3" />
-      <edge source="partner_Dunkerque" target="product_revolutionempire_Vins divers" id="87" weight="6" />
-      <edge source="partner_Dunkerque" target="customs_office_Marennes" id="88" weight="6" />
-      <edge source="partner_Dunkerque" target="product_revolutionempire_Sel" id="89" weight="3" />
-      <edge source="partner_Dunkerque" target="customs_office_Saint-Martin-de-Ré" id="90" weight="4" />
-      <edge source="partner_Portugal" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="91" weight="2" />
-      <edge source="partner_Portugal" target="customs_office_Charente" id="92" weight="2" />
-      <edge source="partner_Hollande" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="93" weight="6" />
-      <edge source="partner_Hollande" target="customs_office_Charente" id="94" weight="3" />
-      <edge source="partner_Hollande" target="product_revolutionempire_Vins divers" id="95" weight="6" />
-      <edge source="partner_Hollande" target="customs_office_Marennes" id="96" weight="8" />
-      <edge source="partner_Hollande" target="product_revolutionempire_Sel" id="97" weight="3" />
-      <edge source="partner_Hollande" target="customs_office_Saint-Martin-de-Ré" id="98" weight="5" />
-      <edge source="partner_Hollande" target="product_revolutionempire_Bière, cidre et vinaigre" id="99" weight="1" />
-      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="100" weight="6" />
-      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Charente" id="101" weight="2" />
-      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Marennes" id="102" weight="5" />
-      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Sel" id="103" weight="2" />
-      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Vins divers" id="104" weight="3" />
-      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="105" weight="1" />
-      <edge source="partner_Quatre villes hanséatiques" target="customs_office_La Rochelle" id="106" weight="2" />
-      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Saint-Martin-de-Ré" id="107" weight="4" />
-      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Bière, cidre et vinaigre" id="108" weight="1" />
-      <edge source="partner_Etats de l'Empereur" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="109" weight="3" />
-      <edge source="partner_Etats de l'Empereur" target="customs_office_Charente" id="110" weight="3" />
-      <edge source="partner_Etats de l'Empereur" target="product_revolutionempire_Vins divers" id="111" weight="2" />
-      <edge source="partner_Etats de l'Empereur" target="product_revolutionempire_Sel" id="112" weight="1" />
-      <edge source="partner_Etats de l'Empereur" target="customs_office_Marennes" id="113" weight="1" />
-      <edge source="partner_Etats de l'Empereur" target="customs_office_La Rochelle" id="114" weight="1" />
-      <edge source="partner_Etats de l'Empereur" target="customs_office_Saint-Martin-de-Ré" id="115" weight="1" />
-      <edge source="partner_Danemark" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="116" weight="4" />
-      <edge source="partner_Danemark" target="customs_office_Charente" id="117" weight="2" />
-      <edge source="partner_Danemark" target="customs_office_Saint-Martin-de-Ré" id="118" weight="4" />
-      <edge source="partner_Danemark" target="product_revolutionempire_Sel" id="119" weight="1" />
-      <edge source="partner_Danemark" target="product_revolutionempire_Bière, cidre et vinaigre" id="120" weight="1" />
-      <edge source="partner_Lorient" target="product_revolutionempire_Matières premières diverses" id="121" weight="1" />
-      <edge source="partner_Lorient" target="customs_office_Charente" id="122" weight="1" />
-      <edge source="partner_Lorient" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="123" weight="2" />
-      <edge source="partner_Lorient" target="customs_office_Marennes" id="124" weight="3" />
-      <edge source="partner_Lorient" target="product_revolutionempire_Vins divers" id="125" weight="2" />
-      <edge source="partner_Lorient" target="customs_office_Saint-Martin-de-Ré" id="126" weight="2" />
-      <edge source="partner_Lorient" target="product_revolutionempire_Bière, cidre et vinaigre" id="127" weight="1" />
-      <edge source="partner_Lorient" target="product_revolutionempire_Mousseline, basin et nankin" id="128" weight="1" />
-      <edge source="partner_Lorient" target="customs_office_Aligre" id="129" weight="1" />
-      <edge source="partner_La prusse" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="130" weight="2" />
-      <edge source="partner_La prusse" target="customs_office_Marennes" id="131" weight="3" />
-      <edge source="partner_La prusse" target="product_revolutionempire_Sel" id="132" weight="2" />
-      <edge source="partner_La prusse" target="product_revolutionempire_Vins divers" id="133" weight="2" />
-      <edge source="partner_La prusse" target="customs_office_La Rochelle" id="134" weight="1" />
-      <edge source="partner_La prusse" target="customs_office_Saint-Martin-de-Ré" id="135" weight="2" />
-      <edge source="partner_Bayonne" target="product_revolutionempire_Sel" id="136" weight="3" />
-      <edge source="partner_Bayonne" target="customs_office_Marennes" id="137" weight="2" />
-      <edge source="partner_Bayonne" target="customs_office_Les Sables d'Olonne" id="138" weight="1" />
-      <edge source="partner_Espagne" target="product_revolutionempire_Sel" id="139" weight="2" />
-      <edge source="partner_Espagne" target="customs_office_Marennes" id="140" weight="2" />
-      <edge source="partner_Espagne" target="product_revolutionempire_Vins divers" id="141" weight="2" />
-      <edge source="partner_Espagne" target="customs_office_Saint-Martin-de-Ré" id="142" weight="1" />
-      <edge source="partner_Espagne" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="143" weight="2" />
-      <edge source="partner_Espagne" target="customs_office_Rochefort" id="144" weight="6" />
-      <edge source="partner_Espagne" target="product_revolutionempire_Graines grasses" id="145" weight="2" />
-      <edge source="partner_Espagne" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="146" weight="1" />
-      <edge source="partner_L'amerique" target="product_revolutionempire_Sel" id="147" weight="1" />
-      <edge source="partner_L'amerique" target="customs_office_Marennes" id="148" weight="1" />
-      <edge source="partner_Étranger" target="product_revolutionempire_Café" id="149" weight="1" />
-      <edge source="partner_Étranger" target="customs_office_La Rochelle" id="150" weight="8" />
-      <edge source="partner_Étranger" target="product_revolutionempire_Coton non transformé" id="151" weight="1" />
-      <edge source="partner_Étranger" target="product_revolutionempire_Indigo" id="152" weight="1" />
-      <edge source="partner_Étranger" target="product_revolutionempire_Rocou" id="153" weight="1" />
-      <edge source="partner_Étranger" target="product_revolutionempire_Sucre" id="154" weight="3" />
-      <edge source="partner_Étranger" target="product_revolutionempire_Denrées coloniales et épiceries diverses" id="155" weight="1" />
-      <edge source="partner_Etat-Unis" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="156" weight="1" />
-      <edge source="partner_Etat-Unis" target="customs_office_Saint-Martin-de-Ré" id="157" weight="2" />
-      <edge source="partner_Etat-Unis" target="product_revolutionempire_Sel" id="158" weight="1" />
-      <edge source="partner_Saint Jean de Luz" target="product_revolutionempire_Sel" id="159" weight="1" />
-      <edge source="partner_Saint Jean de Luz" target="customs_office_Saint-Martin-de-Ré" id="160" weight="1" />
-      <edge source="partner_Russie" target="product_revolutionempire_Sel" id="161" weight="1" />
-      <edge source="partner_Russie" target="customs_office_Saint-Martin-de-Ré" id="162" weight="1" />
-      <edge source="partner_Suède" target="product_revolutionempire_Vins divers" id="163" weight="1" />
-      <edge source="partner_Suède" target="customs_office_Saint-Martin-de-Ré" id="164" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" id="165" weight="6" />
-      <edge source="partner_Sénégal" target="customs_office_" id="166" weight="150" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Beurre" id="167" weight="4" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Bière, cidre et vinaigre" id="168" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="169" weight="4" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="170" weight="7" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Bonneterie hors soie" id="171" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Soieries diverses" id="172" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Brai, goudron et résines" id="173" weight="7" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Café" id="174" weight="2" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Verrerie" id="175" weight="5" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Objets d'art et d'histoire naturelle" id="176" weight="3" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Chairs et œufs" id="177" weight="3" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Subsistances diverses et mélangées" id="178" weight="2" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Cornes, corail, écailles, ivoire et nacre" id="179" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Chapeaux hors paille et écorce" id="180" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Cacao et chocolat" id="181" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Cordage et filets" id="182" weight="3" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Ouvrages métalliques" id="183" weight="12" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Étoffes de laine" id="184" weight="4" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Céruse et blanc de plomb" id="185" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="186" weight="3" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Étoffes diverses" id="187" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Étoffes de soie" id="188" weight="7" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="189" weight="5" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Fer-blanc" id="190" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Bâtiments de mer et apparaux" id="191" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Métaux divers et mélangés" id="192" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Riz" id="193" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Blé et autres grains comestibles" id="194" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Légumes" id="195" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Habits et lingerie" id="196" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Divers mélangés" id="197" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Mercerie" id="198" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Châles et mouchoirs hors soie" id="199" weight="3" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Ouvrages divers et mélangés" id="200" weight="2" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Argenterie et orfèvrerie" id="201" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Papier" id="202" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Pêche et fruits de mer" id="203" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Plomb" id="204" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Quincaillerie" id="205" weight="3" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Sucre" id="206" weight="2" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Toiles de coton" id="207" weight="22" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Toiles diverses" id="208" weight="10" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Toiles de chanvre et de lin" id="209" weight="4" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Produits inconnus" id="210" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Vin de liqueurs" id="211" weight="1" />
-      <edge source="partner_Sénégal" target="product_revolutionempire_Vins divers" id="212" weight="4" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Fruits secs et noix" id="213" weight="1" />
-      <edge source="partner_St Domingue" target="customs_office_" id="214" weight="45" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Beurre" id="215" weight="2" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="216" weight="3" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="217" weight="6" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Brai, goudron et résines" id="218" weight="2" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Chairs et œufs" id="219" weight="4" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Subsistances diverses et mélangées" id="220" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Manne et médicaments" id="221" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Quinquina" id="222" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Salsepareille" id="223" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Ouvrages métalliques" id="224" weight="2" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Fils divers" id="225" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Habits et lingerie" id="226" weight="2" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Légumes" id="227" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="228" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Divers mélangés" id="229" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Châles et mouchoirs de soie" id="230" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Argenterie et orfèvrerie" id="231" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Papier" id="232" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Matières premières diverses" id="233" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Plomb" id="234" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Quincaillerie" id="235" weight="4" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Toiles diverses" id="236" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Ouvrages divers et mélangés" id="237" weight="1" />
-      <edge source="partner_St Domingue" target="product_revolutionempire_Vins divers" id="238" weight="4" />
-      <edge source="product_revolutionempire_Animaux" target="customs_office_Les Sables d'Olonne" id="239" weight="5" />
-      <edge source="product_revolutionempire_Animaux" target="customs_office_Aligre" id="240" weight="4" />
-      <edge source="product_revolutionempire_Chanvre" target="customs_office_Les Sables d'Olonne" id="241" weight="1" />
-      <edge source="product_revolutionempire_Chanvre" target="customs_office_Aligre" id="242" weight="1" />
-      <edge source="product_revolutionempire_Vins divers" target="customs_office_Rochefort" id="243" weight="3" />
-      <edge source="product_revolutionempire_Vins divers" target="customs_office_Charente" id="244" weight="3" />
-      <edge source="product_revolutionempire_Vins divers" target="customs_office_Marennes" id="245" weight="15" />
-      <edge source="product_revolutionempire_Vins divers" target="customs_office_Saint-Martin-de-Ré" id="246" weight="9" />
-      <edge source="product_revolutionempire_Vins divers" target="customs_office_" id="247" weight="8" />
-      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Rochefort" id="248" weight="1" />
-      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_La Rochelle" id="249" weight="1" />
-      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Saint-Martin-de-Ré" id="250" weight="7" />
-      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_" id="251" weight="1" />
-      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Charente" id="252" weight="2" />
-      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Les Sables d'Olonne" id="253" weight="2" />
-      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Marennes" id="254" weight="3" />
-      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Saint-Martin-de-Ré" id="255" weight="1" />
-      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Aligre" id="256" weight="1" />
-      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Rochefort" id="257" weight="1" />
-      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Charente" id="258" weight="4" />
-      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Les Sables d'Olonne" id="259" weight="2" />
-      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Marennes" id="260" weight="2" />
-      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_La Rochelle" id="261" weight="2" />
-      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Saint-Martin-de-Ré" id="262" weight="3" />
-      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Aligre" id="263" weight="8" />
-      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_" id="264" weight="13" />
-      <edge source="product_revolutionempire_Cire" target="customs_office_Charente" id="265" weight="1" />
-      <edge source="product_revolutionempire_Cire" target="customs_office_Aligre" id="266" weight="1" />
-      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Charente" id="267" weight="15" />
-      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Marennes" id="268" weight="10" />
-      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_La Rochelle" id="269" weight="3" />
-      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Saint-Martin-de-Ré" id="270" weight="11" />
-      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_" id="271" weight="4" />
-      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Rochefort" id="272" weight="4" />
-      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Les Sables d'Olonne" id="273" weight="2" />
-      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Charente" id="274" weight="3" />
-      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_La Rochelle" id="275" weight="2" />
-      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Saint-Martin-de-Ré" id="276" weight="1" />
-      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_" id="277" weight="1" />
-      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Aligre" id="278" weight="7" />
-      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_Charente" id="279" weight="1" />
-      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_La Rochelle" id="280" weight="1" />
-      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_" id="281" weight="1" />
-      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_Aligre" id="282" weight="2" />
-      <edge source="product_revolutionempire_Fruits frais" target="customs_office_Charente" id="283" weight="1" />
-      <edge source="product_revolutionempire_Fruits frais" target="customs_office_Aligre" id="284" weight="2" />
-      <edge source="product_revolutionempire_Graines grasses" target="customs_office_Charente" id="285" weight="1" />
-      <edge source="product_revolutionempire_Graines grasses" target="customs_office_Rochefort" id="286" weight="2" />
-      <edge source="product_revolutionempire_Graines diverses et mélangées" target="customs_office_Charente" id="287" weight="1" />
-      <edge source="product_revolutionempire_Graines diverses et mélangées" target="customs_office_Les Sables d'Olonne" id="288" weight="1" />
-      <edge source="product_revolutionempire_Graines diverses et mélangées" target="customs_office_Aligre" id="289" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Fromage" id="19" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Pêche et fruits de mer" id="20" weight="6" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Verrerie" id="21" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Vins divers" id="22" weight="5" />
+      <edge source="partner_Petites iles" target="customs_office_La Rochelle" id="23" weight="126" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Beurre" id="24" weight="3" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bonneterie hors soie" id="25" weight="3" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bonneterie de soie" id="26" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Brai, goudron et résines" id="27" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Chapeaux hors paille et écorce" id="28" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Étoffes de laine" id="29" weight="21" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="30" weight="4" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Ouvrages métalliques" id="31" weight="6" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Toiles de chanvre et de lin" id="32" weight="29" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Drogues diverses" id="33" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Sucre" id="34" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Toiles de coton" id="35" weight="10" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Étoffes de soie" id="36" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="37" weight="3" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Fer" id="38" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Textiles manufacturés divers et mélangés" id="39" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Riz" id="40" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Huile d'olive à manger" id="41" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Huiles diverses" id="42" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Huile de poisson" id="43" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Sel" id="44" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Lin" id="45" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Meubles, glaces et miroirs" id="46" weight="3" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Mercerie" id="47" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Châles et mouchoirs hors soie" id="48" weight="8" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Chairs et œufs" id="49" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Quincaillerie" id="50" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Savon" id="51" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Salpêtre et soufre" id="52" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Chevaux et bêtes de somme" id="53" weight="2" />
+      <edge source="partner_Petites iles" target="customs_office_Aligre" id="54" weight="58" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Graisses diverses" id="55" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Thé" id="56" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Mousseline, basin et nankin" id="57" weight="6" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Toiles diverses" id="58" weight="9" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Étoffes diverses" id="59" weight="2" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bière, cidre et vinaigre" id="60" weight="2" />
+      <edge source="partner_Petites iles" target="customs_office_Saint-Martin-de-Ré" id="61" weight="17" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bois divers hors combustible" id="62" weight="4" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Bougies, chandelles et flambeaux" id="63" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Cordage et filets" id="64" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Habits et lingerie" id="65" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Librairie" id="66" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Ouvrages divers et mélangés" id="67" weight="1" />
+      <edge source="partner_Petites iles" target="product_revolutionempire_Cordonnerie et sellerie" id="68" weight="2" />
+      <edge source="partner_Petites iles" target="customs_office_Rochefort" id="69" weight="5" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Vins divers" id="70" weight="1" />
+      <edge source="partner_Angleterre" target="customs_office_Rochefort" id="71" weight="3" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="72" weight="7" />
+      <edge source="partner_Angleterre" target="customs_office_Charente" id="73" weight="6" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Graines grasses" id="74" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="75" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Divers mélangés" id="76" weight="1" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="77" weight="1" />
+      <edge source="partner_Angleterre" target="customs_office_Marennes" id="78" weight="3" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Sel" id="79" weight="3" />
+      <edge source="partner_Angleterre" target="customs_office_Saint-Martin-de-Ré" id="80" weight="4" />
+      <edge source="partner_Angleterre" target="product_revolutionempire_Bière, cidre et vinaigre" id="81" weight="1" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Bière, cidre et vinaigre" id="82" weight="2" />
+      <edge source="partner_Dunkerque" target="customs_office_Rochefort" id="83" weight="2" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="84" weight="4" />
+      <edge source="partner_Dunkerque" target="customs_office_Charente" id="85" weight="3" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Vins divers" id="86" weight="6" />
+      <edge source="partner_Dunkerque" target="customs_office_Marennes" id="87" weight="6" />
+      <edge source="partner_Dunkerque" target="product_revolutionempire_Sel" id="88" weight="3" />
+      <edge source="partner_Dunkerque" target="customs_office_Saint-Martin-de-Ré" id="89" weight="4" />
+      <edge source="partner_Portugal" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="90" weight="2" />
+      <edge source="partner_Portugal" target="customs_office_Charente" id="91" weight="2" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="92" weight="6" />
+      <edge source="partner_Hollande" target="customs_office_Charente" id="93" weight="3" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Vins divers" id="94" weight="6" />
+      <edge source="partner_Hollande" target="customs_office_Marennes" id="95" weight="8" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Sel" id="96" weight="3" />
+      <edge source="partner_Hollande" target="customs_office_Saint-Martin-de-Ré" id="97" weight="5" />
+      <edge source="partner_Hollande" target="product_revolutionempire_Bière, cidre et vinaigre" id="98" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="99" weight="6" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Charente" id="100" weight="2" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Marennes" id="101" weight="5" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Sel" id="102" weight="2" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Vins divers" id="103" weight="3" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Matières brutes et transformées pour teinture" id="104" weight="1" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_La Rochelle" id="105" weight="2" />
+      <edge source="partner_Quatre villes hanséatiques" target="customs_office_Saint-Martin-de-Ré" id="106" weight="4" />
+      <edge source="partner_Quatre villes hanséatiques" target="product_revolutionempire_Bière, cidre et vinaigre" id="107" weight="1" />
+      <edge source="partner_Etats de l'Empereur" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="108" weight="3" />
+      <edge source="partner_Etats de l'Empereur" target="customs_office_Charente" id="109" weight="3" />
+      <edge source="partner_Etats de l'Empereur" target="product_revolutionempire_Vins divers" id="110" weight="2" />
+      <edge source="partner_Etats de l'Empereur" target="product_revolutionempire_Sel" id="111" weight="1" />
+      <edge source="partner_Etats de l'Empereur" target="customs_office_Marennes" id="112" weight="1" />
+      <edge source="partner_Etats de l'Empereur" target="customs_office_La Rochelle" id="113" weight="1" />
+      <edge source="partner_Etats de l'Empereur" target="customs_office_Saint-Martin-de-Ré" id="114" weight="1" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="115" weight="4" />
+      <edge source="partner_Danemark" target="customs_office_Charente" id="116" weight="2" />
+      <edge source="partner_Danemark" target="customs_office_Saint-Martin-de-Ré" id="117" weight="4" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Sel" id="118" weight="1" />
+      <edge source="partner_Danemark" target="product_revolutionempire_Bière, cidre et vinaigre" id="119" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Matières premières diverses" id="120" weight="1" />
+      <edge source="partner_Lorient" target="customs_office_Charente" id="121" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="122" weight="2" />
+      <edge source="partner_Lorient" target="customs_office_Marennes" id="123" weight="3" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Vins divers" id="124" weight="2" />
+      <edge source="partner_Lorient" target="customs_office_Saint-Martin-de-Ré" id="125" weight="2" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Bière, cidre et vinaigre" id="126" weight="1" />
+      <edge source="partner_Lorient" target="product_revolutionempire_Mousseline, basin et nankin" id="127" weight="1" />
+      <edge source="partner_Lorient" target="customs_office_Aligre" id="128" weight="1" />
+      <edge source="partner_La prusse" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="129" weight="2" />
+      <edge source="partner_La prusse" target="customs_office_Marennes" id="130" weight="3" />
+      <edge source="partner_La prusse" target="product_revolutionempire_Sel" id="131" weight="2" />
+      <edge source="partner_La prusse" target="product_revolutionempire_Vins divers" id="132" weight="2" />
+      <edge source="partner_La prusse" target="customs_office_La Rochelle" id="133" weight="1" />
+      <edge source="partner_La prusse" target="customs_office_Saint-Martin-de-Ré" id="134" weight="2" />
+      <edge source="partner_Bayonne" target="product_revolutionempire_Sel" id="135" weight="3" />
+      <edge source="partner_Bayonne" target="customs_office_Marennes" id="136" weight="2" />
+      <edge source="partner_Bayonne" target="customs_office_Les Sables d'Olonne" id="137" weight="1" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Sel" id="138" weight="2" />
+      <edge source="partner_Espagne" target="customs_office_Marennes" id="139" weight="2" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Vins divers" id="140" weight="2" />
+      <edge source="partner_Espagne" target="customs_office_Saint-Martin-de-Ré" id="141" weight="1" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="142" weight="2" />
+      <edge source="partner_Espagne" target="customs_office_Rochefort" id="143" weight="6" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Graines grasses" id="144" weight="2" />
+      <edge source="partner_Espagne" target="product_revolutionempire_Cuirs, peaux et pelleterie" id="145" weight="1" />
+      <edge source="partner_L'amerique" target="product_revolutionempire_Sel" id="146" weight="1" />
+      <edge source="partner_L'amerique" target="customs_office_Marennes" id="147" weight="1" />
+      <edge source="partner_Étranger" target="product_revolutionempire_Café" id="148" weight="1" />
+      <edge source="partner_Étranger" target="customs_office_La Rochelle" id="149" weight="8" />
+      <edge source="partner_Étranger" target="product_revolutionempire_Coton non transformé" id="150" weight="1" />
+      <edge source="partner_Étranger" target="product_revolutionempire_Indigo" id="151" weight="1" />
+      <edge source="partner_Étranger" target="product_revolutionempire_Rocou" id="152" weight="1" />
+      <edge source="partner_Étranger" target="product_revolutionempire_Sucre" id="153" weight="3" />
+      <edge source="partner_Étranger" target="product_revolutionempire_Denrées coloniales et épiceries diverses" id="154" weight="1" />
+      <edge source="partner_Etat-Unis" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="155" weight="1" />
+      <edge source="partner_Etat-Unis" target="customs_office_Saint-Martin-de-Ré" id="156" weight="2" />
+      <edge source="partner_Etat-Unis" target="product_revolutionempire_Sel" id="157" weight="1" />
+      <edge source="partner_Saint Jean de Luz" target="product_revolutionempire_Sel" id="158" weight="1" />
+      <edge source="partner_Saint Jean de Luz" target="customs_office_Saint-Martin-de-Ré" id="159" weight="1" />
+      <edge source="partner_Russie" target="product_revolutionempire_Sel" id="160" weight="1" />
+      <edge source="partner_Russie" target="customs_office_Saint-Martin-de-Ré" id="161" weight="1" />
+      <edge source="partner_Suède" target="product_revolutionempire_Vins divers" id="162" weight="1" />
+      <edge source="partner_Suède" target="customs_office_Saint-Martin-de-Ré" id="163" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" id="164" weight="6" />
+      <edge source="partner_Sénégal" target="customs_office_" id="165" weight="150" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Beurre" id="166" weight="4" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Bière, cidre et vinaigre" id="167" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="168" weight="4" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="169" weight="7" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Bonneterie hors soie" id="170" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Soieries diverses" id="171" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Brai, goudron et résines" id="172" weight="7" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Café" id="173" weight="2" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Verrerie" id="174" weight="5" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Objets d'art et d'histoire naturelle" id="175" weight="3" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Chairs et œufs" id="176" weight="3" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Subsistances diverses et mélangées" id="177" weight="2" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Cornes, corail, écailles, ivoire et nacre" id="178" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Chapeaux hors paille et écorce" id="179" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Cacao et chocolat" id="180" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Cordage et filets" id="181" weight="3" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Ouvrages métalliques" id="182" weight="12" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Étoffes de laine" id="183" weight="4" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Céruse et blanc de plomb" id="184" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="185" weight="3" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Étoffes diverses" id="186" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Étoffes de soie" id="187" weight="7" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Porcelaine, poterie, faïence et ouvrages de terre" id="188" weight="5" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Fer-blanc" id="189" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Bâtiments de mer et apparaux" id="190" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Métaux divers et mélangés" id="191" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Riz" id="192" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Blé et autres grains comestibles" id="193" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Légumes" id="194" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Habits et lingerie" id="195" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Divers mélangés" id="196" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Mercerie" id="197" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Châles et mouchoirs hors soie" id="198" weight="3" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Ouvrages divers et mélangés" id="199" weight="2" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Argenterie et orfèvrerie" id="200" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Papier" id="201" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Pêche et fruits de mer" id="202" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Plomb" id="203" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Quincaillerie" id="204" weight="3" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Sucre" id="205" weight="2" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Toiles de coton" id="206" weight="22" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Toiles diverses" id="207" weight="10" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Toiles de chanvre et de lin" id="208" weight="4" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Produits inconnus" id="209" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Vin de liqueurs" id="210" weight="1" />
+      <edge source="partner_Sénégal" target="product_revolutionempire_Vins divers" id="211" weight="4" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Fruits secs et noix" id="212" weight="1" />
+      <edge source="partner_St Domingue" target="customs_office_" id="213" weight="45" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Beurre" id="214" weight="2" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Farine, gruau, biscuits et pâtes" id="215" weight="3" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Ouvrages de bois, liège et jonc" id="216" weight="6" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Brai, goudron et résines" id="217" weight="2" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Chairs et œufs" id="218" weight="4" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Subsistances diverses et mélangées" id="219" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Manne et médicaments" id="220" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Quinquina" id="221" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Salsepareille" id="222" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Ouvrages métalliques" id="223" weight="2" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Fils divers" id="224" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Habits et lingerie" id="225" weight="2" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Légumes" id="226" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Eaux-de-vie et liqueurs" id="227" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Divers mélangés" id="228" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Châles et mouchoirs de soie" id="229" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Argenterie et orfèvrerie" id="230" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Papier" id="231" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Matières premières diverses" id="232" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Plomb" id="233" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Quincaillerie" id="234" weight="4" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Toiles diverses" id="235" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Ouvrages divers et mélangés" id="236" weight="1" />
+      <edge source="partner_St Domingue" target="product_revolutionempire_Vins divers" id="237" weight="4" />
+      <edge source="product_revolutionempire_Animaux" target="customs_office_Les Sables d'Olonne" id="238" weight="5" />
+      <edge source="product_revolutionempire_Animaux" target="customs_office_Aligre" id="239" weight="4" />
+      <edge source="product_revolutionempire_Chanvre" target="customs_office_Les Sables d'Olonne" id="240" weight="1" />
+      <edge source="product_revolutionempire_Chanvre" target="customs_office_Aligre" id="241" weight="1" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Rochefort" id="242" weight="3" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Charente" id="243" weight="3" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Marennes" id="244" weight="15" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_Saint-Martin-de-Ré" id="245" weight="9" />
+      <edge source="product_revolutionempire_Vins divers" target="customs_office_" id="246" weight="8" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Rochefort" id="247" weight="1" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_La Rochelle" id="248" weight="1" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_Saint-Martin-de-Ré" id="249" weight="7" />
+      <edge source="product_revolutionempire_Bière, cidre et vinaigre" target="customs_office_" id="250" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Charente" id="251" weight="2" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Les Sables d'Olonne" id="252" weight="2" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Marennes" id="253" weight="3" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Saint-Martin-de-Ré" id="254" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Aligre" id="255" weight="1" />
+      <edge source="product_revolutionempire_Combustibles dont charbons et bois" target="customs_office_Rochefort" id="256" weight="1" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Charente" id="257" weight="4" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Les Sables d'Olonne" id="258" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Marennes" id="259" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_La Rochelle" id="260" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Saint-Martin-de-Ré" id="261" weight="3" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_Aligre" id="262" weight="8" />
+      <edge source="product_revolutionempire_Ouvrages de bois, liège et jonc" target="customs_office_" id="263" weight="13" />
+      <edge source="product_revolutionempire_Cire" target="customs_office_Charente" id="264" weight="1" />
+      <edge source="product_revolutionempire_Cire" target="customs_office_Aligre" id="265" weight="1" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Charente" id="266" weight="15" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Marennes" id="267" weight="10" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_La Rochelle" id="268" weight="3" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Saint-Martin-de-Ré" id="269" weight="11" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_" id="270" weight="4" />
+      <edge source="product_revolutionempire_Eaux-de-vie et liqueurs" target="customs_office_Rochefort" id="271" weight="4" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Les Sables d'Olonne" id="272" weight="2" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Charente" id="273" weight="3" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_La Rochelle" id="274" weight="2" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Saint-Martin-de-Ré" id="275" weight="1" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_" id="276" weight="1" />
+      <edge source="product_revolutionempire_Blé et autres grains comestibles" target="customs_office_Aligre" id="277" weight="7" />
+      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_Charente" id="278" weight="1" />
+      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_La Rochelle" id="279" weight="1" />
+      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_" id="280" weight="1" />
+      <edge source="product_revolutionempire_Fruits secs et noix" target="customs_office_Aligre" id="281" weight="2" />
+      <edge source="product_revolutionempire_Fruits frais" target="customs_office_Charente" id="282" weight="1" />
+      <edge source="product_revolutionempire_Fruits frais" target="customs_office_Aligre" id="283" weight="2" />
+      <edge source="product_revolutionempire_Graines grasses" target="customs_office_Charente" id="284" weight="1" />
+      <edge source="product_revolutionempire_Graines grasses" target="customs_office_Rochefort" id="285" weight="2" />
+      <edge source="product_revolutionempire_Légumes" target="customs_office_Charente" id="286" weight="1" />
+      <edge source="product_revolutionempire_Légumes" target="customs_office_Les Sables d'Olonne" id="287" weight="2" />
+      <edge source="product_revolutionempire_Légumes" target="customs_office_" id="288" weight="2" />
+      <edge source="product_revolutionempire_Légumes" target="customs_office_Aligre" id="289" weight="2" />
       <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Charente" id="290" weight="2" />
       <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Marennes" id="291" weight="1" />
       <edge source="product_revolutionempire_Divers mélangés" target="customs_office_Les Sables d'Olonne" id="292" weight="1" />
@@ -1260,129 +1252,126 @@
       <edge source="product_revolutionempire_Matières premières diverses" target="customs_office_" id="316" weight="1" />
       <edge source="product_revolutionempire_Bâtiments de mer et apparaux" target="customs_office_Marennes" id="317" weight="1" />
       <edge source="product_revolutionempire_Bâtiments de mer et apparaux" target="customs_office_" id="318" weight="1" />
-      <edge source="product_revolutionempire_Légumes" target="customs_office_Les Sables d'Olonne" id="319" weight="1" />
-      <edge source="product_revolutionempire_Légumes" target="customs_office_" id="320" weight="2" />
-      <edge source="product_revolutionempire_Légumes" target="customs_office_Aligre" id="321" weight="1" />
-      <edge source="product_revolutionempire_Fromage" target="customs_office_Marennes" id="322" weight="1" />
-      <edge source="product_revolutionempire_Fromage" target="customs_office_Saint-Martin-de-Ré" id="323" weight="1" />
-      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Marennes" id="324" weight="1" />
-      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Les Sables d'Olonne" id="325" weight="2" />
-      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_La Rochelle" id="326" weight="1" />
-      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_" id="327" weight="1" />
-      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Aligre" id="328" weight="2" />
-      <edge source="product_revolutionempire_Sel" target="customs_office_Marennes" id="329" weight="14" />
-      <edge source="product_revolutionempire_Sel" target="customs_office_Les Sables d'Olonne" id="330" weight="2" />
-      <edge source="product_revolutionempire_Sel" target="customs_office_Saint-Martin-de-Ré" id="331" weight="9" />
-      <edge source="product_revolutionempire_Verrerie" target="customs_office_Marennes" id="332" weight="1" />
-      <edge source="product_revolutionempire_Verrerie" target="customs_office_La Rochelle" id="333" weight="1" />
-      <edge source="product_revolutionempire_Verrerie" target="customs_office_" id="334" weight="5" />
-      <edge source="product_revolutionempire_Beurre" target="customs_office_La Rochelle" id="335" weight="1" />
-      <edge source="product_revolutionempire_Beurre" target="customs_office_Aligre" id="336" weight="1" />
-      <edge source="product_revolutionempire_Beurre" target="customs_office_" id="337" weight="6" />
-      <edge source="product_revolutionempire_Beurre" target="customs_office_Les Sables d'Olonne" id="338" weight="1" />
-      <edge source="product_revolutionempire_Bonneterie hors soie" target="customs_office_La Rochelle" id="339" weight="3" />
-      <edge source="product_revolutionempire_Bonneterie hors soie" target="customs_office_" id="340" weight="1" />
-      <edge source="product_revolutionempire_Bonneterie de soie" target="customs_office_La Rochelle" id="341" weight="2" />
-      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_La Rochelle" id="342" weight="1" />
-      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_Aligre" id="343" weight="1" />
-      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_" id="344" weight="9" />
-      <edge source="product_revolutionempire_Chapeaux hors paille et écorce" target="customs_office_La Rochelle" id="345" weight="1" />
-      <edge source="product_revolutionempire_Chapeaux hors paille et écorce" target="customs_office_" id="346" weight="1" />
-      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_La Rochelle" id="347" weight="18" />
-      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_" id="348" weight="4" />
-      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_Aligre" id="349" weight="1" />
-      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_Rochefort" id="350" weight="2" />
-      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_La Rochelle" id="351" weight="3" />
-      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_Saint-Martin-de-Ré" id="352" weight="1" />
-      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_" id="353" weight="14" />
-      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_Aligre" id="354" weight="2" />
-      <edge source="product_revolutionempire_Café" target="customs_office_La Rochelle" id="355" weight="1" />
-      <edge source="product_revolutionempire_Café" target="customs_office_" id="356" weight="2" />
-      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_La Rochelle" id="357" weight="26" />
-      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_Les Sables d'Olonne" id="358" weight="2" />
-      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_" id="359" weight="4" />
-      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_Aligre" id="360" weight="1" />
-      <edge source="product_revolutionempire_Matières brutes et transformées pour teinture" target="customs_office_La Rochelle" id="361" weight="1" />
-      <edge source="product_revolutionempire_Drogues diverses" target="customs_office_La Rochelle" id="362" weight="1" />
-      <edge source="product_revolutionempire_Drogues diverses" target="customs_office_Saint-Martin-de-Ré" id="363" weight="1" />
-      <edge source="product_revolutionempire_Coton non transformé" target="customs_office_La Rochelle" id="364" weight="1" />
-      <edge source="product_revolutionempire_Sucre" target="customs_office_La Rochelle" id="365" weight="4" />
-      <edge source="product_revolutionempire_Sucre" target="customs_office_" id="366" weight="2" />
-      <edge source="product_revolutionempire_Toiles de coton" target="customs_office_La Rochelle" id="367" weight="10" />
-      <edge source="product_revolutionempire_Toiles de coton" target="customs_office_" id="368" weight="22" />
-      <edge source="product_revolutionempire_Indigo" target="customs_office_La Rochelle" id="369" weight="1" />
-      <edge source="product_revolutionempire_Étoffes de soie" target="customs_office_La Rochelle" id="370" weight="2" />
-      <edge source="product_revolutionempire_Étoffes de soie" target="customs_office_" id="371" weight="7" />
-      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_La Rochelle" id="372" weight="1" />
-      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_" id="373" weight="7" />
-      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_Aligre" id="374" weight="1" />
-      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_Rochefort" id="375" weight="1" />
-      <edge source="product_revolutionempire_Rocou" target="customs_office_La Rochelle" id="376" weight="1" />
-      <edge source="product_revolutionempire_Fer" target="customs_office_La Rochelle" id="377" weight="1" />
-      <edge source="product_revolutionempire_Textiles manufacturés divers et mélangés" target="customs_office_La Rochelle" id="378" weight="1" />
-      <edge source="product_revolutionempire_Riz" target="customs_office_La Rochelle" id="379" weight="1" />
-      <edge source="product_revolutionempire_Riz" target="customs_office_" id="380" weight="1" />
-      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_La Rochelle" id="381" weight="1" />
-      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_Saint-Martin-de-Ré" id="382" weight="1" />
-      <edge source="product_revolutionempire_Huiles diverses" target="customs_office_La Rochelle" id="383" weight="1" />
-      <edge source="product_revolutionempire_Huile de poisson" target="customs_office_La Rochelle" id="384" weight="1" />
-      <edge source="product_revolutionempire_Lin" target="customs_office_La Rochelle" id="385" weight="1" />
-      <edge source="product_revolutionempire_Meubles, glaces et miroirs" target="customs_office_La Rochelle" id="386" weight="1" />
-      <edge source="product_revolutionempire_Meubles, glaces et miroirs" target="customs_office_Aligre" id="387" weight="2" />
-      <edge source="product_revolutionempire_Mercerie" target="customs_office_La Rochelle" id="388" weight="1" />
-      <edge source="product_revolutionempire_Mercerie" target="customs_office_" id="389" weight="1" />
-      <edge source="product_revolutionempire_Mercerie" target="customs_office_Aligre" id="390" weight="1" />
-      <edge source="product_revolutionempire_Châles et mouchoirs hors soie" target="customs_office_La Rochelle" id="391" weight="8" />
-      <edge source="product_revolutionempire_Châles et mouchoirs hors soie" target="customs_office_" id="392" weight="3" />
-      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_Les Sables d'Olonne" id="393" weight="1" />
-      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_" id="394" weight="7" />
-      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_Aligre" id="395" weight="1" />
-      <edge source="product_revolutionempire_Denrées coloniales et épiceries diverses" target="customs_office_La Rochelle" id="396" weight="1" />
-      <edge source="product_revolutionempire_Quincaillerie" target="customs_office_La Rochelle" id="397" weight="1" />
-      <edge source="product_revolutionempire_Quincaillerie" target="customs_office_" id="398" weight="7" />
-      <edge source="product_revolutionempire_Savon" target="customs_office_La Rochelle" id="399" weight="1" />
-      <edge source="product_revolutionempire_Savon" target="customs_office_Saint-Martin-de-Ré" id="400" weight="1" />
-      <edge source="product_revolutionempire_Salpêtre et soufre" target="customs_office_La Rochelle" id="401" weight="1" />
-      <edge source="product_revolutionempire_Chevaux et bêtes de somme" target="customs_office_Aligre" id="402" weight="1" />
-      <edge source="product_revolutionempire_Chevaux et bêtes de somme" target="customs_office_Les Sables d'Olonne" id="403" weight="1" />
-      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_La Rochelle" id="404" weight="1" />
-      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_Aligre" id="405" weight="1" />
-      <edge source="product_revolutionempire_Thé" target="customs_office_La Rochelle" id="406" weight="1" />
-      <edge source="product_revolutionempire_Mousseline, basin et nankin" target="customs_office_La Rochelle" id="407" weight="6" />
-      <edge source="product_revolutionempire_Mousseline, basin et nankin" target="customs_office_Aligre" id="408" weight="1" />
-      <edge source="product_revolutionempire_Toiles diverses" target="customs_office_La Rochelle" id="409" weight="9" />
-      <edge source="product_revolutionempire_Toiles diverses" target="customs_office_" id="410" weight="11" />
-      <edge source="product_revolutionempire_Étoffes diverses" target="customs_office_La Rochelle" id="411" weight="1" />
-      <edge source="product_revolutionempire_Étoffes diverses" target="customs_office_" id="412" weight="1" />
-      <edge source="product_revolutionempire_Étoffes diverses" target="customs_office_Aligre" id="413" weight="1" />
-      <edge source="product_revolutionempire_Bois divers hors combustible" target="customs_office_Saint-Martin-de-Ré" id="414" weight="1" />
-      <edge source="product_revolutionempire_Bois divers hors combustible" target="customs_office_Aligre" id="415" weight="3" />
-      <edge source="product_revolutionempire_Bougies, chandelles et flambeaux" target="customs_office_Saint-Martin-de-Ré" id="416" weight="1" />
-      <edge source="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" target="customs_office_" id="417" weight="6" />
-      <edge source="product_revolutionempire_Soieries diverses" target="customs_office_" id="418" weight="1" />
-      <edge source="product_revolutionempire_Objets d'art et d'histoire naturelle" target="customs_office_" id="419" weight="3" />
-      <edge source="product_revolutionempire_Cornes, corail, écailles, ivoire et nacre" target="customs_office_" id="420" weight="1" />
-      <edge source="product_revolutionempire_Cacao et chocolat" target="customs_office_" id="421" weight="1" />
-      <edge source="product_revolutionempire_Cordage et filets" target="customs_office_" id="422" weight="3" />
-      <edge source="product_revolutionempire_Cordage et filets" target="customs_office_Aligre" id="423" weight="1" />
-      <edge source="product_revolutionempire_Manne et médicaments" target="customs_office_" id="424" weight="1" />
-      <edge source="product_revolutionempire_Quinquina" target="customs_office_" id="425" weight="1" />
-      <edge source="product_revolutionempire_Salsepareille" target="customs_office_" id="426" weight="1" />
-      <edge source="product_revolutionempire_Céruse et blanc de plomb" target="customs_office_" id="427" weight="1" />
-      <edge source="product_revolutionempire_Fer-blanc" target="customs_office_" id="428" weight="1" />
-      <edge source="product_revolutionempire_Métaux divers et mélangés" target="customs_office_" id="429" weight="1" />
-      <edge source="product_revolutionempire_Fils divers" target="customs_office_" id="430" weight="1" />
-      <edge source="product_revolutionempire_Habits et lingerie" target="customs_office_" id="431" weight="3" />
-      <edge source="product_revolutionempire_Habits et lingerie" target="customs_office_Aligre" id="432" weight="1" />
-      <edge source="product_revolutionempire_Châles et mouchoirs de soie" target="customs_office_" id="433" weight="1" />
-      <edge source="product_revolutionempire_Ouvrages divers et mélangés" target="customs_office_" id="434" weight="3" />
-      <edge source="product_revolutionempire_Ouvrages divers et mélangés" target="customs_office_Aligre" id="435" weight="1" />
-      <edge source="product_revolutionempire_Argenterie et orfèvrerie" target="customs_office_" id="436" weight="2" />
-      <edge source="product_revolutionempire_Plomb" target="customs_office_" id="437" weight="2" />
-      <edge source="product_revolutionempire_Produits inconnus" target="customs_office_" id="438" weight="1" />
-      <edge source="product_revolutionempire_Vin de liqueurs" target="customs_office_" id="439" weight="1" />
-      <edge source="product_revolutionempire_Librairie" target="customs_office_Aligre" id="440" weight="1" />
-      <edge source="product_revolutionempire_Cordonnerie et sellerie" target="customs_office_Aligre" id="441" weight="2" />
+      <edge source="product_revolutionempire_Fromage" target="customs_office_Marennes" id="319" weight="1" />
+      <edge source="product_revolutionempire_Fromage" target="customs_office_Saint-Martin-de-Ré" id="320" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Marennes" id="321" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Les Sables d'Olonne" id="322" weight="2" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_La Rochelle" id="323" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_" id="324" weight="1" />
+      <edge source="product_revolutionempire_Pêche et fruits de mer" target="customs_office_Aligre" id="325" weight="2" />
+      <edge source="product_revolutionempire_Sel" target="customs_office_Marennes" id="326" weight="14" />
+      <edge source="product_revolutionempire_Sel" target="customs_office_Les Sables d'Olonne" id="327" weight="2" />
+      <edge source="product_revolutionempire_Sel" target="customs_office_Saint-Martin-de-Ré" id="328" weight="9" />
+      <edge source="product_revolutionempire_Verrerie" target="customs_office_Marennes" id="329" weight="1" />
+      <edge source="product_revolutionempire_Verrerie" target="customs_office_La Rochelle" id="330" weight="1" />
+      <edge source="product_revolutionempire_Verrerie" target="customs_office_" id="331" weight="5" />
+      <edge source="product_revolutionempire_Beurre" target="customs_office_La Rochelle" id="332" weight="1" />
+      <edge source="product_revolutionempire_Beurre" target="customs_office_Aligre" id="333" weight="1" />
+      <edge source="product_revolutionempire_Beurre" target="customs_office_" id="334" weight="6" />
+      <edge source="product_revolutionempire_Beurre" target="customs_office_Les Sables d'Olonne" id="335" weight="1" />
+      <edge source="product_revolutionempire_Bonneterie hors soie" target="customs_office_La Rochelle" id="336" weight="3" />
+      <edge source="product_revolutionempire_Bonneterie hors soie" target="customs_office_" id="337" weight="1" />
+      <edge source="product_revolutionempire_Bonneterie de soie" target="customs_office_La Rochelle" id="338" weight="2" />
+      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_La Rochelle" id="339" weight="1" />
+      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_Aligre" id="340" weight="1" />
+      <edge source="product_revolutionempire_Brai, goudron et résines" target="customs_office_" id="341" weight="9" />
+      <edge source="product_revolutionempire_Chapeaux hors paille et écorce" target="customs_office_La Rochelle" id="342" weight="1" />
+      <edge source="product_revolutionempire_Chapeaux hors paille et écorce" target="customs_office_" id="343" weight="1" />
+      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_La Rochelle" id="344" weight="18" />
+      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_" id="345" weight="4" />
+      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_Aligre" id="346" weight="1" />
+      <edge source="product_revolutionempire_Étoffes de laine" target="customs_office_Rochefort" id="347" weight="2" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_La Rochelle" id="348" weight="3" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_Saint-Martin-de-Ré" id="349" weight="1" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_" id="350" weight="14" />
+      <edge source="product_revolutionempire_Ouvrages métalliques" target="customs_office_Aligre" id="351" weight="2" />
+      <edge source="product_revolutionempire_Café" target="customs_office_La Rochelle" id="352" weight="1" />
+      <edge source="product_revolutionempire_Café" target="customs_office_" id="353" weight="2" />
+      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_La Rochelle" id="354" weight="26" />
+      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_Les Sables d'Olonne" id="355" weight="2" />
+      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_" id="356" weight="4" />
+      <edge source="product_revolutionempire_Toiles de chanvre et de lin" target="customs_office_Aligre" id="357" weight="1" />
+      <edge source="product_revolutionempire_Matières brutes et transformées pour teinture" target="customs_office_La Rochelle" id="358" weight="1" />
+      <edge source="product_revolutionempire_Drogues diverses" target="customs_office_La Rochelle" id="359" weight="1" />
+      <edge source="product_revolutionempire_Drogues diverses" target="customs_office_Saint-Martin-de-Ré" id="360" weight="1" />
+      <edge source="product_revolutionempire_Coton non transformé" target="customs_office_La Rochelle" id="361" weight="1" />
+      <edge source="product_revolutionempire_Sucre" target="customs_office_La Rochelle" id="362" weight="4" />
+      <edge source="product_revolutionempire_Sucre" target="customs_office_" id="363" weight="2" />
+      <edge source="product_revolutionempire_Toiles de coton" target="customs_office_La Rochelle" id="364" weight="10" />
+      <edge source="product_revolutionempire_Toiles de coton" target="customs_office_" id="365" weight="22" />
+      <edge source="product_revolutionempire_Indigo" target="customs_office_La Rochelle" id="366" weight="1" />
+      <edge source="product_revolutionempire_Étoffes de soie" target="customs_office_La Rochelle" id="367" weight="2" />
+      <edge source="product_revolutionempire_Étoffes de soie" target="customs_office_" id="368" weight="7" />
+      <edge source="product_revolutionempire_Rocou" target="customs_office_La Rochelle" id="369" weight="1" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_La Rochelle" id="370" weight="1" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_" id="371" weight="7" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_Aligre" id="372" weight="1" />
+      <edge source="product_revolutionempire_Farine, gruau, biscuits et pâtes" target="customs_office_Rochefort" id="373" weight="1" />
+      <edge source="product_revolutionempire_Fer" target="customs_office_La Rochelle" id="374" weight="1" />
+      <edge source="product_revolutionempire_Textiles manufacturés divers et mélangés" target="customs_office_La Rochelle" id="375" weight="1" />
+      <edge source="product_revolutionempire_Riz" target="customs_office_La Rochelle" id="376" weight="1" />
+      <edge source="product_revolutionempire_Riz" target="customs_office_" id="377" weight="1" />
+      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_La Rochelle" id="378" weight="1" />
+      <edge source="product_revolutionempire_Huile d'olive à manger" target="customs_office_Saint-Martin-de-Ré" id="379" weight="1" />
+      <edge source="product_revolutionempire_Huiles diverses" target="customs_office_La Rochelle" id="380" weight="1" />
+      <edge source="product_revolutionempire_Huile de poisson" target="customs_office_La Rochelle" id="381" weight="1" />
+      <edge source="product_revolutionempire_Lin" target="customs_office_La Rochelle" id="382" weight="1" />
+      <edge source="product_revolutionempire_Meubles, glaces et miroirs" target="customs_office_La Rochelle" id="383" weight="1" />
+      <edge source="product_revolutionempire_Meubles, glaces et miroirs" target="customs_office_Aligre" id="384" weight="2" />
+      <edge source="product_revolutionempire_Mercerie" target="customs_office_La Rochelle" id="385" weight="1" />
+      <edge source="product_revolutionempire_Mercerie" target="customs_office_" id="386" weight="1" />
+      <edge source="product_revolutionempire_Mercerie" target="customs_office_Aligre" id="387" weight="1" />
+      <edge source="product_revolutionempire_Châles et mouchoirs hors soie" target="customs_office_La Rochelle" id="388" weight="8" />
+      <edge source="product_revolutionempire_Châles et mouchoirs hors soie" target="customs_office_" id="389" weight="3" />
+      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_Les Sables d'Olonne" id="390" weight="1" />
+      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_" id="391" weight="7" />
+      <edge source="product_revolutionempire_Chairs et œufs" target="customs_office_Aligre" id="392" weight="1" />
+      <edge source="product_revolutionempire_Denrées coloniales et épiceries diverses" target="customs_office_La Rochelle" id="393" weight="1" />
+      <edge source="product_revolutionempire_Quincaillerie" target="customs_office_La Rochelle" id="394" weight="1" />
+      <edge source="product_revolutionempire_Quincaillerie" target="customs_office_" id="395" weight="7" />
+      <edge source="product_revolutionempire_Savon" target="customs_office_La Rochelle" id="396" weight="1" />
+      <edge source="product_revolutionempire_Savon" target="customs_office_Saint-Martin-de-Ré" id="397" weight="1" />
+      <edge source="product_revolutionempire_Salpêtre et soufre" target="customs_office_La Rochelle" id="398" weight="1" />
+      <edge source="product_revolutionempire_Chevaux et bêtes de somme" target="customs_office_Aligre" id="399" weight="1" />
+      <edge source="product_revolutionempire_Chevaux et bêtes de somme" target="customs_office_Les Sables d'Olonne" id="400" weight="1" />
+      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_La Rochelle" id="401" weight="1" />
+      <edge source="product_revolutionempire_Graisses diverses" target="customs_office_Aligre" id="402" weight="1" />
+      <edge source="product_revolutionempire_Thé" target="customs_office_La Rochelle" id="403" weight="1" />
+      <edge source="product_revolutionempire_Mousseline, basin et nankin" target="customs_office_La Rochelle" id="404" weight="6" />
+      <edge source="product_revolutionempire_Mousseline, basin et nankin" target="customs_office_Aligre" id="405" weight="1" />
+      <edge source="product_revolutionempire_Toiles diverses" target="customs_office_La Rochelle" id="406" weight="9" />
+      <edge source="product_revolutionempire_Toiles diverses" target="customs_office_" id="407" weight="11" />
+      <edge source="product_revolutionempire_Étoffes diverses" target="customs_office_La Rochelle" id="408" weight="1" />
+      <edge source="product_revolutionempire_Étoffes diverses" target="customs_office_" id="409" weight="1" />
+      <edge source="product_revolutionempire_Étoffes diverses" target="customs_office_Aligre" id="410" weight="1" />
+      <edge source="product_revolutionempire_Bois divers hors combustible" target="customs_office_Saint-Martin-de-Ré" id="411" weight="1" />
+      <edge source="product_revolutionempire_Bois divers hors combustible" target="customs_office_Aligre" id="412" weight="3" />
+      <edge source="product_revolutionempire_Bougies, chandelles et flambeaux" target="customs_office_Saint-Martin-de-Ré" id="413" weight="1" />
+      <edge source="product_revolutionempire_Armes, munitions, poudre et pierres à fusil" target="customs_office_" id="414" weight="6" />
+      <edge source="product_revolutionempire_Soieries diverses" target="customs_office_" id="415" weight="1" />
+      <edge source="product_revolutionempire_Objets d'art et d'histoire naturelle" target="customs_office_" id="416" weight="3" />
+      <edge source="product_revolutionempire_Cornes, corail, écailles, ivoire et nacre" target="customs_office_" id="417" weight="1" />
+      <edge source="product_revolutionempire_Cacao et chocolat" target="customs_office_" id="418" weight="1" />
+      <edge source="product_revolutionempire_Cordage et filets" target="customs_office_" id="419" weight="3" />
+      <edge source="product_revolutionempire_Cordage et filets" target="customs_office_Aligre" id="420" weight="1" />
+      <edge source="product_revolutionempire_Manne et médicaments" target="customs_office_" id="421" weight="1" />
+      <edge source="product_revolutionempire_Quinquina" target="customs_office_" id="422" weight="1" />
+      <edge source="product_revolutionempire_Salsepareille" target="customs_office_" id="423" weight="1" />
+      <edge source="product_revolutionempire_Céruse et blanc de plomb" target="customs_office_" id="424" weight="1" />
+      <edge source="product_revolutionempire_Fer-blanc" target="customs_office_" id="425" weight="1" />
+      <edge source="product_revolutionempire_Métaux divers et mélangés" target="customs_office_" id="426" weight="1" />
+      <edge source="product_revolutionempire_Fils divers" target="customs_office_" id="427" weight="1" />
+      <edge source="product_revolutionempire_Habits et lingerie" target="customs_office_" id="428" weight="3" />
+      <edge source="product_revolutionempire_Habits et lingerie" target="customs_office_Aligre" id="429" weight="1" />
+      <edge source="product_revolutionempire_Châles et mouchoirs de soie" target="customs_office_" id="430" weight="1" />
+      <edge source="product_revolutionempire_Ouvrages divers et mélangés" target="customs_office_" id="431" weight="3" />
+      <edge source="product_revolutionempire_Ouvrages divers et mélangés" target="customs_office_Aligre" id="432" weight="1" />
+      <edge source="product_revolutionempire_Argenterie et orfèvrerie" target="customs_office_" id="433" weight="2" />
+      <edge source="product_revolutionempire_Plomb" target="customs_office_" id="434" weight="2" />
+      <edge source="product_revolutionempire_Produits inconnus" target="customs_office_" id="435" weight="1" />
+      <edge source="product_revolutionempire_Vin de liqueurs" target="customs_office_" id="436" weight="1" />
+      <edge source="product_revolutionempire_Librairie" target="customs_office_Aligre" id="437" weight="1" />
+      <edge source="product_revolutionempire_Cordonnerie et sellerie" target="customs_office_Aligre" id="438" weight="2" />
     </edges>
   </graph>
 </gexf>

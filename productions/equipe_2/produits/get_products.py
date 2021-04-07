@@ -2,6 +2,7 @@
 
 import os
 import sys
+import csv
 import json
 from pprint import pprint
 from collections import Counter, defaultdict
@@ -52,19 +53,21 @@ def get_navigo_products(admiralties, year, filter_only_out=True, products=None):
                 products[key][port][c["commodity_as_toflit"]] += 1
     return products
 
+
 def write_products_csv_by_classification(products, year, filter_only_out=True):
     filtered = "_only_out" if filter_only_out else ""
-
-    with open(os.path.join(DATADIR, "all_classifications_%s%s.csv" % (year, filtered)), "w") as csvall:
-        print("port,product,count,year,classification", file=csvall)
+    with open(os.path.join(DATADIR, "all_classifications_%s%s.csv" % (year, filtered)), "w", newline='') as csvall:
+        writerall = csv.writer(csvall, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writerall.writerow(['port', 'product', 'count', 'year', 'classification'])
         for classif, ports in products.items():
-            with open(os.path.join(DATADIR, "%s_%s%s.csv" % (classif, year, filtered)), "w") as csvone:
+            with open(os.path.join(DATADIR, "%s_%s%s.csv" % (classif, year, filtered)), "w", newline='') as csvone:
                 print("port,product,count,year,classification", file=csvone)
+                writerone = csv.writer(csvone, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                writerone.writerow(['port', 'product', 'count', 'year', 'classification'])
                 for port, elements in ports.items():
                     for product, count in elements.items():
-                        print("%s,%s,%s,%s,%s" % (port, product, count, year, classif), file=csvone)
-                        print("%s,%s,%s,%s,%s" % (port, product, count, year, classif), file=csvall)
-
+                        writerall.writerow([port, product, count, year, classif])
+                        writerone.writerow([port, product, count, year, classif])
 
 def build_bipartite_network(products):
     pass

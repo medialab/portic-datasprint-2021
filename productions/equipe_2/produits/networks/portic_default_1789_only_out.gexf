@@ -5,7 +5,7 @@
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <attributes class="node" mode="static">
-      <attribute id="0" title="type" type="string" />
+      <attribute id="0" title="nature" type="string" />
       <attribute id="1" title="pointcalls" type="long" />
     </attributes>
     <nodes>

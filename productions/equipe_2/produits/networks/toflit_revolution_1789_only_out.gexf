@@ -5,14 +5,14 @@
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <attributes class="node" mode="static">
-      <attribute id="0" title="type" type="string" />
+      <attribute id="0" title="nature" type="string" />
       <attribute id="1" title="pointcalls" type="long" />
     </attributes>
     <nodes>
       <node id="Marennes" label="Marennes">
         <attvalues>
           <attvalue for="0" value="port" />
-          <attvalue for="1" value="1498" />
+          <attvalue for="1" value="1497" />
         </attvalues>
       </node>
       <node id="Sel" label="Sel">
@@ -85,12 +85,6 @@
         <attvalues>
           <attvalue for="0" value="product" />
           <attvalue for="1" value="15" />
-        </attvalues>
-      </node>
-      <node id="None" label="None">
-        <attvalues>
-          <attvalue for="0" value="product" />
-          <attvalue for="1" value="2" />
         </attvalues>
       </node>
       <node id="Ouvrages divers et mélangés" label="Ouvrages divers et mélangés">
@@ -264,7 +258,7 @@
       <node id="Rochefort" label="Rochefort">
         <attvalues>
           <attvalue for="0" value="port" />
-          <attvalue for="1" value="399" />
+          <attvalue for="1" value="398" />
         </attvalues>
       </node>
       <node id="Divers incertains" label="Divers incertains">
@@ -527,261 +521,259 @@
       <edge id="9" source="Marennes" target="Légumes" weight="8" />
       <edge id="10" source="Marennes" target="Combustibles dont charbons et bois" weight="2" />
       <edge id="11" source="Marennes" target="Beurre" weight="5" />
-      <edge id="12" source="Marennes" target="None" weight="1" />
-      <edge id="13" source="Marennes" target="Ouvrages divers et mélangés" weight="8" />
-      <edge id="14" source="Marennes" target="Matières premières diverses" weight="1" />
-      <edge id="15" source="Marennes" target="Pêche et fruits de mer" weight="3" />
-      <edge id="16" source="Marennes" target="Êtres humains" weight="1" />
-      <edge id="17" source="Sel" target="Saint-Martin-de-Ré" weight="49" />
-      <edge id="18" source="Sel" target="Ribérou" weight="1" />
-      <edge id="19" source="Sel" target="Noirmoutier" weight="197" />
-      <edge id="20" source="Sel" target="Les Sables-d'Olonne" weight="106" />
-      <edge id="21" source="Sel" target="Ars-en-Ré" weight="246" />
-      <edge id="22" source="Sel" target="île de Bouin" weight="85" />
-      <edge id="23" source="Sel" target="Beauvoir-sur-Mer" weight="78" />
-      <edge id="24" source="Sel" target="Saint-Gilles-sur-Vie" weight="41" />
-      <edge id="25" source="Sel" target="La Rochelle" weight="1" />
-      <edge id="26" source="Sel" target="Soubise" weight="1" />
-      <edge id="27" source="Produits inconnus" target="Saint-Martin-de-Ré" weight="244" />
-      <edge id="28" source="Produits inconnus" target="Ribérou" weight="168" />
-      <edge id="29" source="Produits inconnus" target="Marans" weight="194" />
-      <edge id="30" source="Produits inconnus" target="Rochefort" weight="229" />
-      <edge id="31" source="Produits inconnus" target="Moricq" weight="3" />
-      <edge id="32" source="Produits inconnus" target="Noirmoutier" weight="10" />
-      <edge id="33" source="Produits inconnus" target="La Perrotine" weight="19" />
-      <edge id="34" source="Produits inconnus" target="Les Sables-d'Olonne" weight="32" />
-      <edge id="35" source="Produits inconnus" target="Ars-en-Ré" weight="45" />
-      <edge id="36" source="Produits inconnus" target="Beauvoir-sur-Mer" weight="4" />
-      <edge id="37" source="Produits inconnus" target="Saint-Denis d'Oléron" weight="14" />
-      <edge id="38" source="Produits inconnus" target="Royan" weight="15" />
-      <edge id="39" source="Produits inconnus" target="La Rochelle" weight="60" />
-      <edge id="40" source="Produits inconnus" target="Ker Châlon" weight="4" />
-      <edge id="41" source="Produits inconnus" target="Seudre" weight="1" />
-      <edge id="42" source="Produits inconnus" target="La Tremblade" weight="1" />
-      <edge id="43" source="Produits inconnus" target="Tonnay-Charente" weight="18" />
-      <edge id="44" source="Produits inconnus" target="Mortagne" weight="12" />
-      <edge id="45" source="Produits inconnus" target="Le Château-d'Oléron" weight="12" />
-      <edge id="46" source="Produits inconnus" target="Soubise" weight="4" />
-      <edge id="47" source="Produits inconnus" target="île d'Oléron" weight="8" />
-      <edge id="48" source="Produits inconnus" target="Saint-Michel-en-l'Herm" weight="3" />
-      <edge id="49" source="Produits inconnus" target="l'Aiguillon" weight="3" />
-      <edge id="50" source="Produits inconnus" target="île d'Yeu" weight="1" />
-      <edge id="51" source="Produits inconnus" target="Le Chapus" weight="1" />
-      <edge id="52" source="Produits inconnus" target="île de Ré" weight="1" />
-      <edge id="53" source="Eaux-de-vie et liqueurs" target="Saint-Martin-de-Ré" weight="26" />
-      <edge id="54" source="Eaux-de-vie et liqueurs" target="Ribérou" weight="15" />
-      <edge id="55" source="Eaux-de-vie et liqueurs" target="Rochefort" weight="14" />
-      <edge id="56" source="Eaux-de-vie et liqueurs" target="Moricq" weight="1" />
-      <edge id="57" source="Eaux-de-vie et liqueurs" target="Noirmoutier" weight="3" />
-      <edge id="58" source="Eaux-de-vie et liqueurs" target="La Perrotine" weight="30" />
-      <edge id="59" source="Eaux-de-vie et liqueurs" target="Ars-en-Ré" weight="2" />
-      <edge id="60" source="Eaux-de-vie et liqueurs" target="Saint-Denis d'Oléron" weight="14" />
-      <edge id="61" source="Eaux-de-vie et liqueurs" target="La Rochelle" weight="4" />
-      <edge id="62" source="Eaux-de-vie et liqueurs" target="Tonnay-Charente" weight="3" />
-      <edge id="63" source="Eaux-de-vie et liqueurs" target="Mortagne" weight="3" />
-      <edge id="64" source="Eaux-de-vie et liqueurs" target="Le Château-d'Oléron" weight="1" />
-      <edge id="65" source="Eaux-de-vie et liqueurs" target="île d'Oléron" weight="3" />
-      <edge id="66" source="Eaux-de-vie et liqueurs" target="Saint-Michel-en-l'Herm" weight="1" />
-      <edge id="67" source="Eaux-de-vie et liqueurs" target="l'Aiguillon" weight="1" />
-      <edge id="68" source="Vins divers" target="Saint-Martin-de-Ré" weight="31" />
-      <edge id="69" source="Vins divers" target="Ribérou" weight="28" />
-      <edge id="70" source="Vins divers" target="Marans" weight="3" />
-      <edge id="71" source="Vins divers" target="Rochefort" weight="17" />
-      <edge id="72" source="Vins divers" target="Moricq" weight="3" />
-      <edge id="73" source="Vins divers" target="Noirmoutier" weight="6" />
-      <edge id="74" source="Vins divers" target="La Perrotine" weight="24" />
-      <edge id="75" source="Vins divers" target="Les Sables-d'Olonne" weight="2" />
-      <edge id="76" source="Vins divers" target="Ars-en-Ré" weight="1" />
-      <edge id="77" source="Vins divers" target="Beauvoir-sur-Mer" weight="1" />
-      <edge id="78" source="Vins divers" target="Saint-Denis d'Oléron" weight="33" />
-      <edge id="79" source="Vins divers" target="Saint-Gilles-sur-Vie" weight="1" />
-      <edge id="80" source="Vins divers" target="La Rochelle" weight="17" />
-      <edge id="81" source="Vins divers" target="Seudre" weight="3" />
-      <edge id="82" source="Vins divers" target="La Flotte-en-Ré" weight="5" />
-      <edge id="83" source="Vins divers" target="Tonnay-Charente" weight="1" />
-      <edge id="84" source="Vins divers" target="Mortagne" weight="2" />
-      <edge id="85" source="Vins divers" target="Soubise" weight="1" />
-      <edge id="86" source="Vins divers" target="île d'Oléron" weight="1" />
-      <edge id="87" source="Vins divers" target="île d'Yeu" weight="1" />
-      <edge id="88" source="Vins divers" target="mer des Pertuis" weight="1" />
-      <edge id="89" source="Vins divers" target="Le Chapus" weight="1" />
-      <edge id="90" source="Vins divers" target="île de Ré" weight="1" />
-      <edge id="91" source="Divers mélangés" target="Saint-Martin-de-Ré" weight="1" />
-      <edge id="92" source="Divers mélangés" target="Ribérou" weight="1" />
-      <edge id="93" source="Divers mélangés" target="Rochefort" weight="21" />
-      <edge id="94" source="Divers mélangés" target="La Perrotine" weight="1" />
-      <edge id="95" source="Divers mélangés" target="Les Sables-d'Olonne" weight="14" />
-      <edge id="96" source="Divers mélangés" target="La Rochelle" weight="4" />
-      <edge id="97" source="Divers mélangés" target="Tonnay-Charente" weight="1" />
-      <edge id="98" source="Divers mélangés" target="île d'Oléron" weight="3" />
-      <edge id="99" source="Ouvrages de bois, liège et jonc" target="Saint-Martin-de-Ré" weight="74" />
-      <edge id="100" source="Ouvrages de bois, liège et jonc" target="Ribérou" weight="12" />
-      <edge id="101" source="Ouvrages de bois, liège et jonc" target="Marans" weight="46" />
-      <edge id="102" source="Ouvrages de bois, liège et jonc" target="Rochefort" weight="41" />
-      <edge id="103" source="Ouvrages de bois, liège et jonc" target="Moricq" weight="26" />
-      <edge id="104" source="Ouvrages de bois, liège et jonc" target="Noirmoutier" weight="12" />
-      <edge id="105" source="Ouvrages de bois, liège et jonc" target="Les Sables-d'Olonne" weight="12" />
-      <edge id="106" source="Ouvrages de bois, liège et jonc" target="Ars-en-Ré" weight="1" />
-      <edge id="107" source="Ouvrages de bois, liège et jonc" target="Saint-Gilles-sur-Vie" weight="2" />
-      <edge id="108" source="Ouvrages de bois, liège et jonc" target="La Rochelle" weight="21" />
-      <edge id="109" source="Ouvrages de bois, liège et jonc" target="La Flotte-en-Ré" weight="1" />
-      <edge id="110" source="Ouvrages de bois, liège et jonc" target="La Tremblade" weight="1" />
-      <edge id="111" source="Ouvrages de bois, liège et jonc" target="Tonnay-Charente" weight="1" />
-      <edge id="112" source="Ouvrages de bois, liège et jonc" target="Mortagne" weight="1" />
-      <edge id="113" source="Ouvrages de bois, liège et jonc" target="Soubise" weight="1" />
-      <edge id="114" source="Ouvrages de bois, liège et jonc" target="Saint-Michel-en-l'Herm" weight="1" />
-      <edge id="115" source="Ouvrages de bois, liège et jonc" target="l'Aiguillon" weight="1" />
-      <edge id="116" source="Ouvrages de bois, liège et jonc" target="mer des Pertuis" weight="1" />
-      <edge id="117" source="Chairs et œufs" target="Ribérou" weight="1" />
-      <edge id="118" source="Chairs et œufs" target="Rochefort" weight="2" />
-      <edge id="119" source="Bière, cidre et vinaigre" target="Saint-Martin-de-Ré" weight="10" />
-      <edge id="120" source="Bière, cidre et vinaigre" target="Marans" weight="3" />
-      <edge id="121" source="Bière, cidre et vinaigre" target="Rochefort" weight="1" />
-      <edge id="122" source="Bière, cidre et vinaigre" target="Moricq" weight="2" />
-      <edge id="123" source="Bière, cidre et vinaigre" target="Ars-en-Ré" weight="1" />
-      <edge id="124" source="Bière, cidre et vinaigre" target="La Rochelle" weight="4" />
-      <edge id="125" source="Bière, cidre et vinaigre" target="Tonnay-Charente" weight="1" />
-      <edge id="126" source="Bière, cidre et vinaigre" target="Soubise" weight="2" />
-      <edge id="127" source="Bière, cidre et vinaigre" target="Saint-Michel-en-l'Herm" weight="2" />
-      <edge id="128" source="Bière, cidre et vinaigre" target="l'Aiguillon" weight="2" />
-      <edge id="129" source="Meubles, glaces et miroirs" target="Ribérou" weight="1" />
-      <edge id="130" source="Meubles, glaces et miroirs" target="Saint-Gilles-sur-Vie" weight="1" />
-      <edge id="131" source="Légumes" target="Saint-Martin-de-Ré" weight="1" />
-      <edge id="132" source="Légumes" target="Ribérou" weight="1" />
-      <edge id="133" source="Légumes" target="Marans" weight="21" />
-      <edge id="134" source="Légumes" target="Rochefort" weight="1" />
-      <edge id="135" source="Légumes" target="Noirmoutier" weight="7" />
-      <edge id="136" source="Légumes" target="La Perrotine" weight="1" />
-      <edge id="137" source="Légumes" target="île de Bouin" weight="4" />
-      <edge id="138" source="Légumes" target="Beauvoir-sur-Mer" weight="9" />
-      <edge id="139" source="Légumes" target="Saint-Gilles-sur-Vie" weight="9" />
-      <edge id="140" source="Légumes" target="La Rochelle" weight="1" />
-      <edge id="141" source="Légumes" target="La Tranche-sur-Mer" weight="2" />
-      <edge id="142" source="Légumes" target="Tonnay-Charente" weight="1" />
-      <edge id="143" source="Légumes" target="Soubise" weight="2" />
-      <edge id="144" source="Légumes" target="île d'Oléron" weight="2" />
-      <edge id="145" source="Combustibles dont charbons et bois" target="Saint-Martin-de-Ré" weight="5" />
-      <edge id="146" source="Combustibles dont charbons et bois" target="Ribérou" weight="187" />
-      <edge id="147" source="Combustibles dont charbons et bois" target="Marans" weight="8" />
-      <edge id="148" source="Combustibles dont charbons et bois" target="Rochefort" weight="6" />
-      <edge id="149" source="Combustibles dont charbons et bois" target="Moricq" weight="81" />
-      <edge id="150" source="Combustibles dont charbons et bois" target="Les Sables-d'Olonne" weight="24" />
-      <edge id="151" source="Combustibles dont charbons et bois" target="Tonnay-Charente" weight="2" />
-      <edge id="152" source="Combustibles dont charbons et bois" target="Martrou" weight="4" />
-      <edge id="153" source="Beurre" target="Saint-Martin-de-Ré" weight="4" />
-      <edge id="154" source="Beurre" target="Rochefort" weight="2" />
-      <edge id="155" source="Beurre" target="Les Sables-d'Olonne" weight="1" />
-      <edge id="156" source="Beurre" target="La Rochelle" weight="1" />
-      <edge id="157" source="Beurre" target="Seudre" weight="2" />
-      <edge id="158" source="None" target="Rochefort" weight="1" />
-      <edge id="159" source="Ouvrages divers et mélangés" target="Ribérou" weight="2" />
-      <edge id="160" source="Ouvrages divers et mélangés" target="Marans" weight="2" />
-      <edge id="161" source="Ouvrages divers et mélangés" target="Rochefort" weight="4" />
-      <edge id="162" source="Ouvrages divers et mélangés" target="Les Sables-d'Olonne" weight="36" />
-      <edge id="163" source="Ouvrages divers et mélangés" target="Beauvoir-sur-Mer" weight="1" />
-      <edge id="164" source="Ouvrages divers et mélangés" target="Tonnay-Charente" weight="1" />
-      <edge id="165" source="Ouvrages divers et mélangés" target="Le Château-d'Oléron" weight="1" />
-      <edge id="166" source="Matières premières diverses" target="Saint-Martin-de-Ré" weight="5" />
-      <edge id="167" source="Matières premières diverses" target="Ribérou" weight="105" />
-      <edge id="168" source="Matières premières diverses" target="Marans" weight="6" />
-      <edge id="169" source="Matières premières diverses" target="Rochefort" weight="2" />
-      <edge id="170" source="Matières premières diverses" target="Ker Châlon" weight="6" />
-      <edge id="171" source="Matières premières diverses" target="Tonnay-Charente" weight="4" />
-      <edge id="172" source="Pêche et fruits de mer" target="Saint-Martin-de-Ré" weight="6" />
-      <edge id="173" source="Pêche et fruits de mer" target="Ribérou" weight="2" />
-      <edge id="174" source="Pêche et fruits de mer" target="Marans" weight="1" />
-      <edge id="175" source="Pêche et fruits de mer" target="Rochefort" weight="9" />
-      <edge id="176" source="Pêche et fruits de mer" target="La Perrotine" weight="2" />
-      <edge id="177" source="Pêche et fruits de mer" target="Les Sables-d'Olonne" weight="22" />
-      <edge id="178" source="Pêche et fruits de mer" target="Beauvoir-sur-Mer" weight="1" />
-      <edge id="179" source="Pêche et fruits de mer" target="La Rochelle" weight="1" />
-      <edge id="180" source="Saint-Martin-de-Ré" target="Sortie pour pêche" weight="3" />
-      <edge id="181" source="Saint-Martin-de-Ré" target="Fer" weight="2" />
-      <edge id="182" source="Saint-Martin-de-Ré" target="Blé et autres grains comestibles" weight="4" />
-      <edge id="183" source="Saint-Martin-de-Ré" target="Porcelaine, poterie, faïence et ouvrages de terre" weight="3" />
-      <edge id="184" source="Saint-Martin-de-Ré" target="Bois divers hors combustible" weight="1" />
-      <edge id="185" source="Saint-Martin-de-Ré" target="Armes, munitions, poudre et pierres à fusil" weight="1" />
-      <edge id="186" source="Saint-Martin-de-Ré" target="Laines non transformées diverses" weight="1" />
-      <edge id="187" source="Saint-Martin-de-Ré" target="Brai, goudron et résines" weight="1" />
-      <edge id="188" source="Saint-Martin-de-Ré" target="Cendres diverses" weight="2" />
-      <edge id="189" source="Saint-Martin-de-Ré" target="Café" weight="1" />
-      <edge id="190" source="Saint-Martin-de-Ré" target="Sucre" weight="1" />
-      <edge id="191" source="Sortie pour pêche" target="Noirmoutier" weight="2" />
-      <edge id="192" source="Sortie pour pêche" target="Les Sables-d'Olonne" weight="36" />
-      <edge id="193" source="Sortie pour pêche" target="Saint-Gilles-sur-Vie" weight="6" />
-      <edge id="194" source="Sortie pour pêche" target="La Rochelle" weight="7" />
-      <edge id="195" source="Sortie pour pêche" target="Soubise" weight="1" />
-      <edge id="196" source="Fer" target="La Rochelle" weight="1" />
-      <edge id="197" source="Fer" target="Tonnay-Charente" weight="1" />
-      <edge id="198" source="Blé et autres grains comestibles" target="Ribérou" weight="1" />
-      <edge id="199" source="Blé et autres grains comestibles" target="Marans" weight="188" />
-      <edge id="200" source="Blé et autres grains comestibles" target="Rochefort" weight="9" />
-      <edge id="201" source="Blé et autres grains comestibles" target="Moricq" weight="25" />
-      <edge id="202" source="Blé et autres grains comestibles" target="Noirmoutier" weight="28" />
-      <edge id="203" source="Blé et autres grains comestibles" target="Les Sables-d'Olonne" weight="1" />
-      <edge id="204" source="Blé et autres grains comestibles" target="île de Bouin" weight="5" />
-      <edge id="205" source="Blé et autres grains comestibles" target="Beauvoir-sur-Mer" weight="28" />
-      <edge id="206" source="Blé et autres grains comestibles" target="Saint-Gilles-sur-Vie" weight="28" />
-      <edge id="207" source="Blé et autres grains comestibles" target="La Flotte-en-Ré" weight="1" />
-      <edge id="208" source="Blé et autres grains comestibles" target="Tonnay-Charente" weight="1" />
-      <edge id="209" source="Blé et autres grains comestibles" target="île d'Oléron" weight="2" />
-      <edge id="210" source="Blé et autres grains comestibles" target="Saint-Michel-en-l'Herm" weight="1" />
-      <edge id="211" source="Porcelaine, poterie, faïence et ouvrages de terre" target="Moricq" weight="2" />
-      <edge id="212" source="Porcelaine, poterie, faïence et ouvrages de terre" target="Les Sables-d'Olonne" weight="2" />
-      <edge id="213" source="Bois divers hors combustible" target="Ribérou" weight="2" />
-      <edge id="214" source="Bois divers hors combustible" target="Marans" weight="153" />
-      <edge id="215" source="Bois divers hors combustible" target="Rochefort" weight="2" />
-      <edge id="216" source="Bois divers hors combustible" target="Moricq" weight="2" />
-      <edge id="217" source="Bois divers hors combustible" target="Les Sables-d'Olonne" weight="2" />
-      <edge id="218" source="Bois divers hors combustible" target="Tonnay-Charente" weight="15" />
-      <edge id="219" source="Armes, munitions, poudre et pierres à fusil" target="Rochefort" weight="2" />
-      <edge id="220" source="Brai, goudron et résines" target="Rochefort" weight="2" />
-      <edge id="221" source="Cendres diverses" target="Marans" weight="1" />
-      <edge id="222" source="Cendres diverses" target="Rochefort" weight="6" />
-      <edge id="223" source="Cendres diverses" target="Noirmoutier" weight="20" />
-      <edge id="224" source="Cendres diverses" target="Ars-en-Ré" weight="1" />
-      <edge id="225" source="Cendres diverses" target="La Flotte-en-Ré" weight="1" />
-      <edge id="226" source="Café" target="Rochefort" weight="1" />
-      <edge id="227" source="Café" target="Saint-Denis d'Oléron" weight="1" />
-      <edge id="228" source="Sucre" target="Rochefort" weight="3" />
-      <edge id="229" source="Ribérou" target="Ouvrages métalliques" weight="1" />
-      <edge id="230" source="Ribérou" target="Bâtiments de mer et apparaux" weight="1" />
-      <edge id="231" source="Ribérou" target="Fruits frais" weight="2" />
-      <edge id="232" source="Ribérou" target="Fromage" weight="2" />
-      <edge id="233" source="Ribérou" target="Fruits secs et noix" weight="1" />
-      <edge id="234" source="Bâtiments de mer et apparaux" target="Les Sables-d'Olonne" weight="5" />
-      <edge id="235" source="Fruits frais" target="Tonnay-Charente" weight="2" />
-      <edge id="236" source="Marans" target="Farine, gruau, biscuits et pâtes" weight="47" />
-      <edge id="237" source="Marans" target="Subsistances diverses et mélangées" weight="3" />
-      <edge id="238" source="Marans" target="Chanvre" weight="8" />
-      <edge id="239" source="Marans" target="Graines grasses" weight="1" />
-      <edge id="240" source="Marans" target="Lin" weight="1" />
-      <edge id="241" source="Farine, gruau, biscuits et pâtes" target="Rochefort" weight="7" />
-      <edge id="242" source="Farine, gruau, biscuits et pâtes" target="Noirmoutier" weight="2" />
-      <edge id="243" source="Subsistances diverses et mélangées" target="Rochefort" weight="1" />
-      <edge id="244" source="Subsistances diverses et mélangées" target="Noirmoutier" weight="1" />
-      <edge id="245" source="Subsistances diverses et mélangées" target="La Tranche-sur-Mer" weight="51" />
-      <edge id="246" source="Subsistances diverses et mélangées" target="Le Château-d'Oléron" weight="2" />
-      <edge id="247" source="Graines grasses" target="Rochefort" weight="3" />
-      <edge id="248" source="Rochefort" target="Divers incertains" weight="7" />
-      <edge id="249" source="Rochefort" target="Cuivre" weight="1" />
-      <edge id="250" source="Rochefort" target="Graisses diverses" weight="1" />
-      <edge id="251" source="Rochefort" target="Coton non transformé" weight="1" />
-      <edge id="252" source="Rochefort" target="Cordage et filets" weight="1" />
-      <edge id="253" source="Rochefort" target="Verrerie" weight="1" />
-      <edge id="254" source="Rochefort" target="Huiles diverses" weight="1" />
-      <edge id="255" source="Divers incertains" target="La Perrotine" weight="3" />
-      <edge id="256" source="Divers incertains" target="La Rochelle" weight="3" />
-      <edge id="257" source="Divers incertains" target="La Flotte-en-Ré" weight="1" />
-      <edge id="258" source="Divers incertains" target="La Tranche-sur-Mer" weight="2" />
-      <edge id="259" source="Divers incertains" target="Soubise" weight="1" />
-      <edge id="260" source="Noirmoutier" target="Alcalis" weight="14" />
-      <edge id="261" source="Alcalis" target="Saint-Denis d'Oléron" weight="7" />
-      <edge id="262" source="La Perrotine" target="Savon" weight="1" />
-      <edge id="263" source="Les Sables-d'Olonne" target="Animaux" weight="32" />
-      <edge id="264" source="Les Sables-d'Olonne" target="Habits et lingerie" weight="2" />
-      <edge id="265" source="Les Sables-d'Olonne" target="Huile de poisson" weight="1" />
-      <edge id="266" source="Tonnay-Charente" target="Cuirs, peaux et pelleterie" weight="1" />
+      <edge id="12" source="Marennes" target="Ouvrages divers et mélangés" weight="8" />
+      <edge id="13" source="Marennes" target="Matières premières diverses" weight="1" />
+      <edge id="14" source="Marennes" target="Pêche et fruits de mer" weight="3" />
+      <edge id="15" source="Marennes" target="Êtres humains" weight="1" />
+      <edge id="16" source="Sel" target="Saint-Martin-de-Ré" weight="49" />
+      <edge id="17" source="Sel" target="Ribérou" weight="1" />
+      <edge id="18" source="Sel" target="Noirmoutier" weight="197" />
+      <edge id="19" source="Sel" target="Les Sables-d'Olonne" weight="106" />
+      <edge id="20" source="Sel" target="Ars-en-Ré" weight="246" />
+      <edge id="21" source="Sel" target="île de Bouin" weight="85" />
+      <edge id="22" source="Sel" target="Beauvoir-sur-Mer" weight="78" />
+      <edge id="23" source="Sel" target="Saint-Gilles-sur-Vie" weight="41" />
+      <edge id="24" source="Sel" target="La Rochelle" weight="1" />
+      <edge id="25" source="Sel" target="Soubise" weight="1" />
+      <edge id="26" source="Produits inconnus" target="Saint-Martin-de-Ré" weight="244" />
+      <edge id="27" source="Produits inconnus" target="Ribérou" weight="168" />
+      <edge id="28" source="Produits inconnus" target="Marans" weight="194" />
+      <edge id="29" source="Produits inconnus" target="Rochefort" weight="229" />
+      <edge id="30" source="Produits inconnus" target="Moricq" weight="3" />
+      <edge id="31" source="Produits inconnus" target="Noirmoutier" weight="10" />
+      <edge id="32" source="Produits inconnus" target="La Perrotine" weight="19" />
+      <edge id="33" source="Produits inconnus" target="Les Sables-d'Olonne" weight="32" />
+      <edge id="34" source="Produits inconnus" target="Ars-en-Ré" weight="45" />
+      <edge id="35" source="Produits inconnus" target="Beauvoir-sur-Mer" weight="4" />
+      <edge id="36" source="Produits inconnus" target="Saint-Denis d'Oléron" weight="14" />
+      <edge id="37" source="Produits inconnus" target="Royan" weight="15" />
+      <edge id="38" source="Produits inconnus" target="La Rochelle" weight="60" />
+      <edge id="39" source="Produits inconnus" target="Ker Châlon" weight="4" />
+      <edge id="40" source="Produits inconnus" target="Seudre" weight="1" />
+      <edge id="41" source="Produits inconnus" target="La Tremblade" weight="1" />
+      <edge id="42" source="Produits inconnus" target="Tonnay-Charente" weight="18" />
+      <edge id="43" source="Produits inconnus" target="Mortagne" weight="12" />
+      <edge id="44" source="Produits inconnus" target="Le Château-d'Oléron" weight="12" />
+      <edge id="45" source="Produits inconnus" target="Soubise" weight="4" />
+      <edge id="46" source="Produits inconnus" target="île d'Oléron" weight="8" />
+      <edge id="47" source="Produits inconnus" target="Saint-Michel-en-l'Herm" weight="3" />
+      <edge id="48" source="Produits inconnus" target="l'Aiguillon" weight="3" />
+      <edge id="49" source="Produits inconnus" target="île d'Yeu" weight="1" />
+      <edge id="50" source="Produits inconnus" target="Le Chapus" weight="1" />
+      <edge id="51" source="Produits inconnus" target="île de Ré" weight="1" />
+      <edge id="52" source="Eaux-de-vie et liqueurs" target="Saint-Martin-de-Ré" weight="26" />
+      <edge id="53" source="Eaux-de-vie et liqueurs" target="Ribérou" weight="15" />
+      <edge id="54" source="Eaux-de-vie et liqueurs" target="Rochefort" weight="14" />
+      <edge id="55" source="Eaux-de-vie et liqueurs" target="Moricq" weight="1" />
+      <edge id="56" source="Eaux-de-vie et liqueurs" target="Noirmoutier" weight="3" />
+      <edge id="57" source="Eaux-de-vie et liqueurs" target="La Perrotine" weight="30" />
+      <edge id="58" source="Eaux-de-vie et liqueurs" target="Ars-en-Ré" weight="2" />
+      <edge id="59" source="Eaux-de-vie et liqueurs" target="Saint-Denis d'Oléron" weight="14" />
+      <edge id="60" source="Eaux-de-vie et liqueurs" target="La Rochelle" weight="4" />
+      <edge id="61" source="Eaux-de-vie et liqueurs" target="Tonnay-Charente" weight="3" />
+      <edge id="62" source="Eaux-de-vie et liqueurs" target="Mortagne" weight="3" />
+      <edge id="63" source="Eaux-de-vie et liqueurs" target="Le Château-d'Oléron" weight="1" />
+      <edge id="64" source="Eaux-de-vie et liqueurs" target="île d'Oléron" weight="3" />
+      <edge id="65" source="Eaux-de-vie et liqueurs" target="Saint-Michel-en-l'Herm" weight="1" />
+      <edge id="66" source="Eaux-de-vie et liqueurs" target="l'Aiguillon" weight="1" />
+      <edge id="67" source="Vins divers" target="Saint-Martin-de-Ré" weight="31" />
+      <edge id="68" source="Vins divers" target="Ribérou" weight="28" />
+      <edge id="69" source="Vins divers" target="Marans" weight="3" />
+      <edge id="70" source="Vins divers" target="Rochefort" weight="17" />
+      <edge id="71" source="Vins divers" target="Moricq" weight="3" />
+      <edge id="72" source="Vins divers" target="Noirmoutier" weight="6" />
+      <edge id="73" source="Vins divers" target="La Perrotine" weight="24" />
+      <edge id="74" source="Vins divers" target="Les Sables-d'Olonne" weight="2" />
+      <edge id="75" source="Vins divers" target="Ars-en-Ré" weight="1" />
+      <edge id="76" source="Vins divers" target="Beauvoir-sur-Mer" weight="1" />
+      <edge id="77" source="Vins divers" target="Saint-Denis d'Oléron" weight="33" />
+      <edge id="78" source="Vins divers" target="Saint-Gilles-sur-Vie" weight="1" />
+      <edge id="79" source="Vins divers" target="La Rochelle" weight="17" />
+      <edge id="80" source="Vins divers" target="Seudre" weight="3" />
+      <edge id="81" source="Vins divers" target="La Flotte-en-Ré" weight="5" />
+      <edge id="82" source="Vins divers" target="Tonnay-Charente" weight="1" />
+      <edge id="83" source="Vins divers" target="Mortagne" weight="2" />
+      <edge id="84" source="Vins divers" target="Soubise" weight="1" />
+      <edge id="85" source="Vins divers" target="île d'Oléron" weight="1" />
+      <edge id="86" source="Vins divers" target="île d'Yeu" weight="1" />
+      <edge id="87" source="Vins divers" target="mer des Pertuis" weight="1" />
+      <edge id="88" source="Vins divers" target="Le Chapus" weight="1" />
+      <edge id="89" source="Vins divers" target="île de Ré" weight="1" />
+      <edge id="90" source="Divers mélangés" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="91" source="Divers mélangés" target="Ribérou" weight="1" />
+      <edge id="92" source="Divers mélangés" target="Rochefort" weight="21" />
+      <edge id="93" source="Divers mélangés" target="La Perrotine" weight="1" />
+      <edge id="94" source="Divers mélangés" target="Les Sables-d'Olonne" weight="14" />
+      <edge id="95" source="Divers mélangés" target="La Rochelle" weight="4" />
+      <edge id="96" source="Divers mélangés" target="Tonnay-Charente" weight="1" />
+      <edge id="97" source="Divers mélangés" target="île d'Oléron" weight="3" />
+      <edge id="98" source="Ouvrages de bois, liège et jonc" target="Saint-Martin-de-Ré" weight="74" />
+      <edge id="99" source="Ouvrages de bois, liège et jonc" target="Ribérou" weight="12" />
+      <edge id="100" source="Ouvrages de bois, liège et jonc" target="Marans" weight="46" />
+      <edge id="101" source="Ouvrages de bois, liège et jonc" target="Rochefort" weight="41" />
+      <edge id="102" source="Ouvrages de bois, liège et jonc" target="Moricq" weight="26" />
+      <edge id="103" source="Ouvrages de bois, liège et jonc" target="Noirmoutier" weight="12" />
+      <edge id="104" source="Ouvrages de bois, liège et jonc" target="Les Sables-d'Olonne" weight="12" />
+      <edge id="105" source="Ouvrages de bois, liège et jonc" target="Ars-en-Ré" weight="1" />
+      <edge id="106" source="Ouvrages de bois, liège et jonc" target="Saint-Gilles-sur-Vie" weight="2" />
+      <edge id="107" source="Ouvrages de bois, liège et jonc" target="La Rochelle" weight="21" />
+      <edge id="108" source="Ouvrages de bois, liège et jonc" target="La Flotte-en-Ré" weight="1" />
+      <edge id="109" source="Ouvrages de bois, liège et jonc" target="La Tremblade" weight="1" />
+      <edge id="110" source="Ouvrages de bois, liège et jonc" target="Tonnay-Charente" weight="1" />
+      <edge id="111" source="Ouvrages de bois, liège et jonc" target="Mortagne" weight="1" />
+      <edge id="112" source="Ouvrages de bois, liège et jonc" target="Soubise" weight="1" />
+      <edge id="113" source="Ouvrages de bois, liège et jonc" target="Saint-Michel-en-l'Herm" weight="1" />
+      <edge id="114" source="Ouvrages de bois, liège et jonc" target="l'Aiguillon" weight="1" />
+      <edge id="115" source="Ouvrages de bois, liège et jonc" target="mer des Pertuis" weight="1" />
+      <edge id="116" source="Chairs et œufs" target="Ribérou" weight="1" />
+      <edge id="117" source="Chairs et œufs" target="Rochefort" weight="2" />
+      <edge id="118" source="Bière, cidre et vinaigre" target="Saint-Martin-de-Ré" weight="10" />
+      <edge id="119" source="Bière, cidre et vinaigre" target="Marans" weight="3" />
+      <edge id="120" source="Bière, cidre et vinaigre" target="Rochefort" weight="1" />
+      <edge id="121" source="Bière, cidre et vinaigre" target="Moricq" weight="2" />
+      <edge id="122" source="Bière, cidre et vinaigre" target="Ars-en-Ré" weight="1" />
+      <edge id="123" source="Bière, cidre et vinaigre" target="La Rochelle" weight="4" />
+      <edge id="124" source="Bière, cidre et vinaigre" target="Tonnay-Charente" weight="1" />
+      <edge id="125" source="Bière, cidre et vinaigre" target="Soubise" weight="2" />
+      <edge id="126" source="Bière, cidre et vinaigre" target="Saint-Michel-en-l'Herm" weight="2" />
+      <edge id="127" source="Bière, cidre et vinaigre" target="l'Aiguillon" weight="2" />
+      <edge id="128" source="Meubles, glaces et miroirs" target="Ribérou" weight="1" />
+      <edge id="129" source="Meubles, glaces et miroirs" target="Saint-Gilles-sur-Vie" weight="1" />
+      <edge id="130" source="Légumes" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="131" source="Légumes" target="Ribérou" weight="1" />
+      <edge id="132" source="Légumes" target="Marans" weight="21" />
+      <edge id="133" source="Légumes" target="Rochefort" weight="1" />
+      <edge id="134" source="Légumes" target="Noirmoutier" weight="7" />
+      <edge id="135" source="Légumes" target="La Perrotine" weight="1" />
+      <edge id="136" source="Légumes" target="île de Bouin" weight="4" />
+      <edge id="137" source="Légumes" target="Beauvoir-sur-Mer" weight="9" />
+      <edge id="138" source="Légumes" target="Saint-Gilles-sur-Vie" weight="9" />
+      <edge id="139" source="Légumes" target="La Rochelle" weight="1" />
+      <edge id="140" source="Légumes" target="La Tranche-sur-Mer" weight="2" />
+      <edge id="141" source="Légumes" target="Tonnay-Charente" weight="1" />
+      <edge id="142" source="Légumes" target="Soubise" weight="2" />
+      <edge id="143" source="Légumes" target="île d'Oléron" weight="2" />
+      <edge id="144" source="Combustibles dont charbons et bois" target="Saint-Martin-de-Ré" weight="5" />
+      <edge id="145" source="Combustibles dont charbons et bois" target="Ribérou" weight="187" />
+      <edge id="146" source="Combustibles dont charbons et bois" target="Marans" weight="8" />
+      <edge id="147" source="Combustibles dont charbons et bois" target="Rochefort" weight="6" />
+      <edge id="148" source="Combustibles dont charbons et bois" target="Moricq" weight="81" />
+      <edge id="149" source="Combustibles dont charbons et bois" target="Les Sables-d'Olonne" weight="24" />
+      <edge id="150" source="Combustibles dont charbons et bois" target="Tonnay-Charente" weight="2" />
+      <edge id="151" source="Combustibles dont charbons et bois" target="Martrou" weight="4" />
+      <edge id="152" source="Beurre" target="Saint-Martin-de-Ré" weight="4" />
+      <edge id="153" source="Beurre" target="Rochefort" weight="2" />
+      <edge id="154" source="Beurre" target="Les Sables-d'Olonne" weight="1" />
+      <edge id="155" source="Beurre" target="La Rochelle" weight="1" />
+      <edge id="156" source="Beurre" target="Seudre" weight="2" />
+      <edge id="157" source="Ouvrages divers et mélangés" target="Ribérou" weight="2" />
+      <edge id="158" source="Ouvrages divers et mélangés" target="Marans" weight="2" />
+      <edge id="159" source="Ouvrages divers et mélangés" target="Rochefort" weight="4" />
+      <edge id="160" source="Ouvrages divers et mélangés" target="Les Sables-d'Olonne" weight="36" />
+      <edge id="161" source="Ouvrages divers et mélangés" target="Beauvoir-sur-Mer" weight="1" />
+      <edge id="162" source="Ouvrages divers et mélangés" target="Tonnay-Charente" weight="1" />
+      <edge id="163" source="Ouvrages divers et mélangés" target="Le Château-d'Oléron" weight="1" />
+      <edge id="164" source="Matières premières diverses" target="Saint-Martin-de-Ré" weight="5" />
+      <edge id="165" source="Matières premières diverses" target="Ribérou" weight="105" />
+      <edge id="166" source="Matières premières diverses" target="Marans" weight="6" />
+      <edge id="167" source="Matières premières diverses" target="Rochefort" weight="2" />
+      <edge id="168" source="Matières premières diverses" target="Ker Châlon" weight="6" />
+      <edge id="169" source="Matières premières diverses" target="Tonnay-Charente" weight="4" />
+      <edge id="170" source="Pêche et fruits de mer" target="Saint-Martin-de-Ré" weight="6" />
+      <edge id="171" source="Pêche et fruits de mer" target="Ribérou" weight="2" />
+      <edge id="172" source="Pêche et fruits de mer" target="Marans" weight="1" />
+      <edge id="173" source="Pêche et fruits de mer" target="Rochefort" weight="9" />
+      <edge id="174" source="Pêche et fruits de mer" target="La Perrotine" weight="2" />
+      <edge id="175" source="Pêche et fruits de mer" target="Les Sables-d'Olonne" weight="22" />
+      <edge id="176" source="Pêche et fruits de mer" target="Beauvoir-sur-Mer" weight="1" />
+      <edge id="177" source="Pêche et fruits de mer" target="La Rochelle" weight="1" />
+      <edge id="178" source="Saint-Martin-de-Ré" target="Sortie pour pêche" weight="3" />
+      <edge id="179" source="Saint-Martin-de-Ré" target="Fer" weight="2" />
+      <edge id="180" source="Saint-Martin-de-Ré" target="Blé et autres grains comestibles" weight="4" />
+      <edge id="181" source="Saint-Martin-de-Ré" target="Porcelaine, poterie, faïence et ouvrages de terre" weight="3" />
+      <edge id="182" source="Saint-Martin-de-Ré" target="Bois divers hors combustible" weight="1" />
+      <edge id="183" source="Saint-Martin-de-Ré" target="Armes, munitions, poudre et pierres à fusil" weight="1" />
+      <edge id="184" source="Saint-Martin-de-Ré" target="Laines non transformées diverses" weight="1" />
+      <edge id="185" source="Saint-Martin-de-Ré" target="Brai, goudron et résines" weight="1" />
+      <edge id="186" source="Saint-Martin-de-Ré" target="Cendres diverses" weight="2" />
+      <edge id="187" source="Saint-Martin-de-Ré" target="Café" weight="1" />
+      <edge id="188" source="Saint-Martin-de-Ré" target="Sucre" weight="1" />
+      <edge id="189" source="Sortie pour pêche" target="Noirmoutier" weight="2" />
+      <edge id="190" source="Sortie pour pêche" target="Les Sables-d'Olonne" weight="36" />
+      <edge id="191" source="Sortie pour pêche" target="Saint-Gilles-sur-Vie" weight="6" />
+      <edge id="192" source="Sortie pour pêche" target="La Rochelle" weight="7" />
+      <edge id="193" source="Sortie pour pêche" target="Soubise" weight="1" />
+      <edge id="194" source="Fer" target="La Rochelle" weight="1" />
+      <edge id="195" source="Fer" target="Tonnay-Charente" weight="1" />
+      <edge id="196" source="Blé et autres grains comestibles" target="Ribérou" weight="1" />
+      <edge id="197" source="Blé et autres grains comestibles" target="Marans" weight="188" />
+      <edge id="198" source="Blé et autres grains comestibles" target="Rochefort" weight="9" />
+      <edge id="199" source="Blé et autres grains comestibles" target="Moricq" weight="25" />
+      <edge id="200" source="Blé et autres grains comestibles" target="Noirmoutier" weight="28" />
+      <edge id="201" source="Blé et autres grains comestibles" target="Les Sables-d'Olonne" weight="1" />
+      <edge id="202" source="Blé et autres grains comestibles" target="île de Bouin" weight="5" />
+      <edge id="203" source="Blé et autres grains comestibles" target="Beauvoir-sur-Mer" weight="28" />
+      <edge id="204" source="Blé et autres grains comestibles" target="Saint-Gilles-sur-Vie" weight="28" />
+      <edge id="205" source="Blé et autres grains comestibles" target="La Flotte-en-Ré" weight="1" />
+      <edge id="206" source="Blé et autres grains comestibles" target="Tonnay-Charente" weight="1" />
+      <edge id="207" source="Blé et autres grains comestibles" target="île d'Oléron" weight="2" />
+      <edge id="208" source="Blé et autres grains comestibles" target="Saint-Michel-en-l'Herm" weight="1" />
+      <edge id="209" source="Porcelaine, poterie, faïence et ouvrages de terre" target="Moricq" weight="2" />
+      <edge id="210" source="Porcelaine, poterie, faïence et ouvrages de terre" target="Les Sables-d'Olonne" weight="2" />
+      <edge id="211" source="Bois divers hors combustible" target="Ribérou" weight="2" />
+      <edge id="212" source="Bois divers hors combustible" target="Marans" weight="153" />
+      <edge id="213" source="Bois divers hors combustible" target="Rochefort" weight="2" />
+      <edge id="214" source="Bois divers hors combustible" target="Moricq" weight="2" />
+      <edge id="215" source="Bois divers hors combustible" target="Les Sables-d'Olonne" weight="2" />
+      <edge id="216" source="Bois divers hors combustible" target="Tonnay-Charente" weight="15" />
+      <edge id="217" source="Armes, munitions, poudre et pierres à fusil" target="Rochefort" weight="2" />
+      <edge id="218" source="Brai, goudron et résines" target="Rochefort" weight="2" />
+      <edge id="219" source="Cendres diverses" target="Marans" weight="1" />
+      <edge id="220" source="Cendres diverses" target="Rochefort" weight="6" />
+      <edge id="221" source="Cendres diverses" target="Noirmoutier" weight="20" />
+      <edge id="222" source="Cendres diverses" target="Ars-en-Ré" weight="1" />
+      <edge id="223" source="Cendres diverses" target="La Flotte-en-Ré" weight="1" />
+      <edge id="224" source="Café" target="Rochefort" weight="1" />
+      <edge id="225" source="Café" target="Saint-Denis d'Oléron" weight="1" />
+      <edge id="226" source="Sucre" target="Rochefort" weight="3" />
+      <edge id="227" source="Ribérou" target="Ouvrages métalliques" weight="1" />
+      <edge id="228" source="Ribérou" target="Bâtiments de mer et apparaux" weight="1" />
+      <edge id="229" source="Ribérou" target="Fruits frais" weight="2" />
+      <edge id="230" source="Ribérou" target="Fromage" weight="2" />
+      <edge id="231" source="Ribérou" target="Fruits secs et noix" weight="1" />
+      <edge id="232" source="Bâtiments de mer et apparaux" target="Les Sables-d'Olonne" weight="5" />
+      <edge id="233" source="Fruits frais" target="Tonnay-Charente" weight="2" />
+      <edge id="234" source="Marans" target="Farine, gruau, biscuits et pâtes" weight="47" />
+      <edge id="235" source="Marans" target="Subsistances diverses et mélangées" weight="3" />
+      <edge id="236" source="Marans" target="Chanvre" weight="8" />
+      <edge id="237" source="Marans" target="Graines grasses" weight="1" />
+      <edge id="238" source="Marans" target="Lin" weight="1" />
+      <edge id="239" source="Farine, gruau, biscuits et pâtes" target="Rochefort" weight="7" />
+      <edge id="240" source="Farine, gruau, biscuits et pâtes" target="Noirmoutier" weight="2" />
+      <edge id="241" source="Subsistances diverses et mélangées" target="Rochefort" weight="1" />
+      <edge id="242" source="Subsistances diverses et mélangées" target="Noirmoutier" weight="1" />
+      <edge id="243" source="Subsistances diverses et mélangées" target="La Tranche-sur-Mer" weight="51" />
+      <edge id="244" source="Subsistances diverses et mélangées" target="Le Château-d'Oléron" weight="2" />
+      <edge id="245" source="Graines grasses" target="Rochefort" weight="3" />
+      <edge id="246" source="Rochefort" target="Divers incertains" weight="7" />
+      <edge id="247" source="Rochefort" target="Cuivre" weight="1" />
+      <edge id="248" source="Rochefort" target="Graisses diverses" weight="1" />
+      <edge id="249" source="Rochefort" target="Coton non transformé" weight="1" />
+      <edge id="250" source="Rochefort" target="Cordage et filets" weight="1" />
+      <edge id="251" source="Rochefort" target="Verrerie" weight="1" />
+      <edge id="252" source="Rochefort" target="Huiles diverses" weight="1" />
+      <edge id="253" source="Divers incertains" target="La Perrotine" weight="3" />
+      <edge id="254" source="Divers incertains" target="La Rochelle" weight="3" />
+      <edge id="255" source="Divers incertains" target="La Flotte-en-Ré" weight="1" />
+      <edge id="256" source="Divers incertains" target="La Tranche-sur-Mer" weight="2" />
+      <edge id="257" source="Divers incertains" target="Soubise" weight="1" />
+      <edge id="258" source="Noirmoutier" target="Alcalis" weight="14" />
+      <edge id="259" source="Alcalis" target="Saint-Denis d'Oléron" weight="7" />
+      <edge id="260" source="La Perrotine" target="Savon" weight="1" />
+      <edge id="261" source="Les Sables-d'Olonne" target="Animaux" weight="32" />
+      <edge id="262" source="Les Sables-d'Olonne" target="Habits et lingerie" weight="2" />
+      <edge id="263" source="Les Sables-d'Olonne" target="Huile de poisson" weight="1" />
+      <edge id="264" source="Tonnay-Charente" target="Cuirs, peaux et pelleterie" weight="1" />
     </edges>
   </graph>
 </gexf>

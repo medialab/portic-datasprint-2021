@@ -29,13 +29,13 @@ def get_navigo_products(admiralties, year, filter_only_out=True, products=None):
             "portic_default": defaultdict(Counter),
             "portic_standardized_fr": defaultdict(Counter),
             "toflit_simplification": defaultdict(Counter),
-            "toflit_revolution": defaultdict(Counter)
+            "toflit_revolution": defaultdict(Counter),
+            "toflit_aggregate": defaultdict(Counter)
         }
     toflit_classifications = [
         ("toflit_simplification", "product_simplification"),
         ("toflit_revolution", "product_revolutionempire"),
-        # currently unprocessable by n² algo from get_pointcalls_commodity_purposes_as_toflit_product (MemoryError in build_toflit18_classif_multimap)
-        #("toflit_aggregate", "product_RE_aggregate"),
+        ("toflit_aggregate", "product_RE_aggregate"),
     ]
     for idx, classif in enumerate(toflit_classifications):
         key, toflit_classif = classif
@@ -62,11 +62,12 @@ def write_products_csv_by_classification(products, year, filter_only_out=True):
         writerall.writerow(['port', 'product', 'count', 'year', 'classification'])
         for classif, ports in products.items():
             with open(os.path.join(DATADIR, "%s_%s%s.csv" % (classif, year, filtered)), "w", newline='') as csvone:
-                print("port,product,count,year,classification", file=csvone)
                 writerone = csv.writer(csvone, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 writerone.writerow(['port', 'product', 'count', 'year', 'classification'])
                 for port, elements in ports.items():
                     for product, count in elements.items():
+                        if not product:
+                            continue
                         writerall.writerow([port, product, count, year, classif])
                         writerone.writerow([port, product, count, year, classif])
 
@@ -78,10 +79,12 @@ def build_bipartite_networks(products, year, filter_only_out=True):
         G = nx.Graph()
         for port, elements in ports.items():
             if not G.has_node(port):
-                G.add_node(port, type="port", pointcalls=0)
+                G.add_node(port, nature="port", pointcalls=0)
             for product, count in elements.items():
+                if not product:
+                    continue
                 if not G.has_node(product):
-                    G.add_node(product, type="product", pointcalls=0)
+                    G.add_node(product, nature="product", pointcalls=0)
                 G.nodes[port]['pointcalls'] += count
                 G.nodes[product]['pointcalls'] += count
                 if not G.has_edge(port, product):

@@ -5,46 +5,42 @@ import sys
 import json
 from pprint import pprint
 from collections import Counter
-from poitousprint import Portic, Toflit
+from poitousprint import Portic, Toflit, get_pointcalls_commodity_purposes_as_toflit_product
 from slugify import slugify
 
-portic_client = Portic()
-#toflit_client = Toflit()
+portic = Portic()
+#toflit = Toflit()
 
 CACHEDIR = ".cache"
 if not os.path.exists(CACHEDIR):
     os.makedirs(CACHEDIR)
 
-def get_navigo_products_by_port(port, year):
+def get_navigo_products_by_port(port, year, filter_only_out=True):
     cachedata = os.path.join(CACHEDIR, "portic_pointcalls_%s_%s.json" % (year, slugify(port)))
     try:
-        with open(cachedata) as f:
+        with open(cachedata) as  f:
             pointcalls = json.load(f)
     except:
-        pointcalls = portic_client.get_pointcalls(year=year, pointcall_admiralty=port)
+        pointcalls = portic.get_pointcalls(year=year, pointcall_admiralty=port)
         with open(cachedata, "w") as f:
             json.dump(pointcalls, f)
+    pointcalls_as_toflit = get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_classification='product_simplification')
     products = Counter()
-    products_dest = DefaultDict(set)
     standardized = Counter()
-    standardized_dest = DefaultDict(set)
-    for pc in pointcalls:
-        products[pc["commodity_purpose"]] += 1
-        products[pc["commodity_purpose2"]] += 1
-        products[pc["commodity_purpose3"]] += 1
-        products[pc["commodity_purpose4"]] += 1
-        products_dest[pc["commodity_purpose"]].add()
-        standardized[pc["commodity_standardized_fr"]] += 1
-        standardized[pc["commodity_standardized2_fr"]] += 1
-        standardized[pc["commodity_standardized3_fr"]] += 1
-        standardized[pc["commodity_standardized4_fr"]] += 1
-    if None in products:
-        del(products[None])
-    if None in standardized:
-        del(standardized[None])
+    toflitproducts = Counter()
+    for pc in pointcalls_as_toflit:
+        if filter_only_out and pc["pointcall_action"].lower() != "out":
+            continue
+        for c in pc["commodity_purposes"]:
+            if not c["commodity_purpose"]:
+                continue
+            products[c["commodity_purpose"]] += 1
+            standardized[c["commodity_standardized_fr"]] += 1
+            toflitproducts[c["commodity_as_toflit"]] += 1
     pprint(products)
     pprint(standardized)
-    print("%s product names, %s standardized" % (len(products), len(standardized)))
+    pprint(toflitproducts)
+    print("%s product names, %s standardized, %s as toflit" % (len(products), len(standardized), len(toflitproducts)))
 
 
 if __name__ == "__main__":

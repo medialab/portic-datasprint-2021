@@ -73,7 +73,7 @@ def write_products_csv_by_classification(products, year, filter_only_out=True):
 
 def build_bipartite_networks(products, year, filter_only_out=True):
     filtered = "_only_out" if filter_only_out else ""
-    filename = os.path.join(DATADIR, "%s_%s%s.gexf" % ("%s", year, filtered))
+    filename = os.path.join(NETWORKSDIR, "%s_%s%s.gexf" % ("%s", year, filtered))
     for classif, ports in products.items():
         G = nx.Graph()
         for port, elements in ports.items():
@@ -100,11 +100,11 @@ if __name__ == "__main__":
         filter_only_out = False
 
     CACHEDIR = ".cache"
-    if not os.path.exists(CACHEDIR):
-        os.makedirs(CACHEDIR)
     DATADIR = "data"
-    if not os.path.exists(DATADIR):
-        os.makedirs(DATADIR)
+    NETWORKSDIR = "networks"
+    for d in [CACHEDIR, DATADIR, NETWORKSDIR]:
+        if not os.path.exists(d):
+            os.makedirs(d)
 
     products = get_navigo_products(admiralties, year, filter_only_out=filter_only_out)
     write_products_csv_by_classification(products, year, filter_only_out=filter_only_out)

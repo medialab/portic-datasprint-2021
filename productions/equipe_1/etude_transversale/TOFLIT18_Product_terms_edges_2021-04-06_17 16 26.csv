@@ -1,0 +1,219 @@
+﻿id,size,flows,value,source,target
+e0,68,68,358508.00006103516,$d$Châlons,$c$Nord
+e1,1046,1046,56564353.03520203,$d$Marseille,$c$Italie
+e2,5,5,50181.600036621094,$d$Charleville,$c$Italie
+e3,168,168,2103180.0432891846,$d$Montpellier,$c$Italie
+e4,248,248,18034710.352859497,$d$Marseille,$c$Espagne
+e5,206,206,2369490.401649475,$d$Auch,$c$Espagne
+e6,174,174,3773346.7719802856,$d$Bordeaux,$c$Espagne
+e7,48,48,3663844.651977539,$d$Saint-Malo,$c$Espagne
+e8,19,19,185433.4552001953,$d$La Rochelle,$c$Espagne
+e9,21,21,232921.40002441406,$d$Lorient,$c$Espagne
+e10,251,251,1446780.865638733,$d$Narbonne,$c$Espagne
+e11,97,97,2822569.573371887,$d$Nantes,$c$Espagne
+e12,160,160,2408402.378479004,$d$Montpellier,$c$Espagne
+e13,6,6,83780.98657226562,$d$Toulon,$c$Espagne
+e14,1,1,300,$d$Grenoble,$c$Espagne
+e15,657,657,13478677.7474823,$d$Bayonne,$c$Espagne
+e16,11,11,354053.75,$d$Amiens,$c$Espagne
+e17,12,12,304088.0070800781,$d$Marseille,$c$Portugal
+e18,3,3,4120,$d$Bordeaux,$c$Portugal
+e19,16,16,275272.30322265625,$d$Saint-Malo,$c$Portugal
+e20,49,49,1068827.6496582031,$d$Nantes,$c$Portugal
+e21,1,1,6960,$d$Toulon,$c$Portugal
+e22,1,1,327.6000061035156,$d$Montpellier,$c$Portugal
+e23,2,2,41340.533203125,$d$La Rochelle,$c$Portugal
+e24,23,23,192092.42749023438,$d$Bayonne,$c$Portugal
+e25,6,6,162730,$d$Amiens,$c$Portugal
+e26,228,228,1289404.5948238373,$d$Lorient,$c$France
+e27,512,512,5333369.57723999,$d$Toulon,$c$France
+e28,325,325,5796232.411705017,$d$Charleville,$c$Allemagne
+e29,1,1,850,$d$Bordeaux,$c$Allemagne
+e30,7,7,4761,$d$Soisson,$c$Allemagne
+e31,219,219,11040931.556777954,$d$Besançon,$c$Allemagne
+e32,1,1,2052,$d$Marseille,$c$Allemagne
+e33,7,7,89683.158203125,$d$Toulon,$c$Nord
+e34,190,190,4461602.873832703,$d$Marseille,$c$Nord
+e35,424,424,19168407.971168518,$d$Bordeaux,$c$Nord
+e36,53,53,1076304.4731445312,$d$Saint-Malo,$c$Nord
+e37,185,185,3281898.7316436768,$d$Nantes,$c$Nord
+e38,131,131,2408153.0124435425,$d$Montpellier,$c$Nord
+e39,103,103,2232605.480255127,$d$La Rochelle,$c$Nord
+e40,81,81,2697394.100036621,$d$Lorient,$c$Nord
+e41,23,23,1005249,$d$Bayonne,$c$Nord
+e42,7,7,3725.5999755859375,$d$Amiens,$c$Nord
+e43,36,36,1131094.296875,$d$Lorient,$c$États-Unis d'Amérique
+e44,151,151,1638596,$d$La Rochelle,$c$Afrique
+e45,123,123,2187052.8050689697,$d$Marseille,$c$Angleterre
+e46,241,241,14658739.905822754,$d$Bordeaux,$c$Angleterre
+e47,217,217,1214963.5538406372,$d$Saint-Malo,$c$Angleterre
+e48,84,84,5687522.529754639,$d$La Rochelle,$c$Angleterre
+e49,101,101,1374478.2291564941,$d$Lorient,$c$Angleterre
+e50,121,121,2358841.996368408,$d$Nantes,$c$Angleterre
+e51,3,3,208815.19995117188,$d$Charleville,$c$Angleterre
+e52,25,25,626636.3676147461,$d$Montpellier,$c$Angleterre
+e53,102,102,498611.44706726074,$d$Caen,$c$Angleterre
+e54,6,6,15256,$d$Bayonne,$c$Angleterre
+e55,118,118,3044310.0906829834,$d$Amiens,$c$Angleterre
+e56,4,4,132944.10914611816,$d$Toulon,$c$Angleterre
+e57,1,1,4200,$d$Narbonne,$c$Angleterre
+e58,108,108,2942041.425590515,$d$Marseille,$c$Hollande
+e59,192,192,10302194.234558105,$d$Bordeaux,$c$Hollande
+e60,68,68,808731.8898010254,$d$Saint-Malo,$c$Hollande
+e61,1,1,8800,$d$Langres,$c$Hollande
+e62,108,108,849578.0992393494,$d$La Rochelle,$c$Hollande
+e63,52,52,550951.0356445312,$d$Lorient,$c$Hollande
+e64,123,123,1883147.2020339966,$d$Nantes,$c$Hollande
+e65,30,30,115431.6999206543,$d$Charleville,$c$Hollande
+e66,57,57,1237091.9675445557,$d$Montpellier,$c$Hollande
+e67,6,6,341087.14892578125,$d$Toulon,$c$Hollande
+e68,1,1,20,$d$Caen,$c$Hollande
+e69,25,25,460679.7998046875,$d$Bayonne,$c$Hollande
+e70,4,4,34933,$d$Amiens,$c$Hollande
+e71,98,98,4171291.4501419067,$d$Lyon,$c$Suisse
+e72,8,8,57519.000007629395,$d$Charleville,$c$Suisse
+e73,1,1,500,$d$Montpellier,$c$Suisse
+e74,59,59,428481.3317871094,$d$Châlons,$c$Suisse
+e75,6,6,2481.5,$d$Caen,$c$Nord
+e76,8,8,123337.8984375,$d$Charleville,$c$Nord
+e77,193,193,3963610.5291519165,$d$Grenoble,$c$Suisse
+e78,1,1,1400,$d$Bordeaux,$c$Suisse
+e79,692,692,5069804.484718323,$d$Besançon,$c$Suisse
+e80,3,3,71503.25,$d$La Rochelle,$c$Allemagne
+e81,7,7,43545,$d$Lorient,$c$Allemagne
+e82,407,407,4957237.204437256,$d$Châlons,$c$Allemagne
+e83,9,9,17660,$d$France,$c$Hollande
+e84,20,20,111820.93315124512,$d$Toulon,$c$Levant et Barbarie
+e85,32,32,169397,$d$France,$c$Angleterre
+e86,15,15,19035,$d$France,$c$Portugal
+e87,1174,1174,113398495,$d$Bordeaux,$c$Amériques
+e88,896,896,46283041,$d$Marseille,$c$Amériques
+e89,18,18,8670155,$d$Flandre,$c$Amériques
+e90,37,37,40580885,$d$Rouen,$c$Amériques
+e91,39,39,1560898,$d$Saint-Malo,$c$Amériques
+e92,578,578,49497927,$d$Nantes,$c$Amériques
+e93,5,5,260222,$d$Lorient,$c$Amériques
+e94,72,72,7537191,$d$La Rochelle,$c$Amériques
+e95,113,113,1390772,$d$Bayonne,$c$Amériques
+e96,7,7,2287,$d$Toulon,$c$Amériques
+e97,9,9,194596,$d$Amiens,$c$Amériques
+e98,4,4,12653,$d$Caen,$c$Amériques
+e99,62,62,1079247.5498046875,$d$Nantes,$c$États-Unis d'Amérique
+e100,19,19,49416.40234375,$d$Saint-Malo,$c$États-Unis d'Amérique
+e101,5,5,40002,$d$Bayonne,$c$États-Unis d'Amérique
+e102,952,952,29999067.503982544,$d$Grenoble,$c$Italie
+e103,532,532,4733526.432891846,$d$Toulon,$c$Italie
+e104,44,44,105143,$d$France,$c$Italie
+e105,6,6,37738,$d$Châlons,$c$Italie
+e106,352,352,11698404,$d$Rouen,$c$Hollande
+e107,425,425,12881447,$d$Flandre,$c$Hollande
+e108,72,72,709473,$d$Valenciennes,$c$Hollande
+e109,457,457,19527529,$d$Rouen,$c$Angleterre
+e110,400,400,22052122,$d$Flandre,$c$Angleterre
+e111,1,1,150,$d$Valenciennes,$c$Angleterre
+e112,1,1,360,$d$Marseille,$c$????
+e113,11,11,37151.47480773926,$d$Narbonne,$c$Italie
+e114,10,10,490889.193939209,$d$Nantes,$c$Italie
+e115,5,5,6161,$d$Bordeaux,$c$Italie
+e116,345,345,52741732.1890564,$d$Marseille,$c$Levant et Barbarie
+e117,4,4,8741.81591796875,$d$Narbonne,$c$Suisse
+e118,219,219,2215748.052230835,$d$Charleville,$c$Flandre et autres états de l'Empereur
+e119,37,37,1240118.9012451172,$d$Montpellier,$c$Flandre et autres états de l'Empereur
+e120,14,14,17014,$d$Grenoble,$c$Flandre et autres états de l'Empereur
+e121,18,18,242195,$d$Bayonne,$c$Flandre et autres états de l'Empereur
+e122,70,70,623470.6785888672,$d$Châlons,$c$Flandre et autres états de l'Empereur
+e123,2,2,18617.397216796875,$d$Toulon,$c$Flandre et autres états de l'Empereur
+e124,110,110,5412262.988189697,$d$Bordeaux,$c$États-Unis d'Amérique
+e125,12,12,147359.6739501953,$d$Montpellier,$c$États-Unis d'Amérique
+e126,3,3,8425.25,$d$Amiens,$c$États-Unis d'Amérique
+e127,1,1,2616,$d$Amiens,$c$Flandre et autres états de l'Empereur
+e128,230,230,3069532.4291381836,$d$Bayonne,$c$France
+e129,4,4,718807,$d$Bayonne,$c$Allemagne
+e130,9,9,541414,$d$Lorient,$c$Flandre et autres états de l'Empereur
+e131,130,130,771887.942276001,$d$Langres,$c$Allemagne
+e132,242,242,5520426.774810791,$d$Besançon,$c$France
+e133,13,13,70669.20010375977,$d$Besançon,$c$Italie
+e134,702,702,17941456.607177734,$d$Montpellier,$c$France
+e135,133,133,2021707.8905181885,$d$Saint-Malo,$c$France
+e136,445,445,2104555.050813675,$d$Châlons,$c$France
+e137,14,14,956903.8249969482,$d$Langres,$c$France
+e138,369,369,2275472.819541931,$d$Charleville,$c$France
+e139,1,1,1275,$d$Besançon,$c$Flandre et autres états de l'Empereur
+e140,142,142,1544670.029083252,$d$Bordeaux,$c$France
+e141,39,39,1106624.8313903809,$d$Marseille,$c$Flandre et autres états de l'Empereur
+e142,69,69,1946568.2286071777,$d$Bordeaux,$c$Flandre et autres états de l'Empereur
+e143,55,55,1197882.6950073242,$d$Marseille,$c$États-Unis d'Amérique
+e144,12,12,25154.7998046875,$d$Caen,$c$France
+e145,746,746,37410945.50758362,$d$Marseille,$c$France
+e146,488,488,4855267.841026306,$d$La Rochelle,$c$France
+e147,421,421,5718259.235799789,$d$Nantes,$c$France
+e148,1,1,440,$d$Bordeaux,$c$Levant et Barbarie
+e149,72,72,3283793,$d$Rouen,$c$États-Unis d'Amérique
+e150,26,26,1479188,$d$Flandre,$c$États-Unis d'Amérique
+e151,16,16,20458,$d$Valenciennes,$c$États-Unis d'Amérique
+e152,597,597,14125789,$d$Rouen,$c$Nord
+e153,129,129,4576251,$d$Flandre,$c$Nord
+e154,265,265,14212576,$d$Rouen,$c$Espagne
+e155,56,56,2270615,$d$Flandre,$c$Espagne
+e156,222,222,5869531,$d$Rouen,$c$Portugal
+e157,9,9,57218,$d$Flandre,$c$Portugal
+e158,5,5,4803,$d$Valenciennes,$c$Nord
+e159,34,34,652132,$d$Rouen,$c$Flandre et autres états de l'Empereur
+e160,547,547,8336496,$d$Valenciennes,$c$Flandre et autres états de l'Empereur
+e161,1358,1358,22796270,$d$Flandre,$c$Flandre et autres états de l'Empereur
+e162,243,243,7854195,$d$Rouen,$c$France
+e163,557,557,4398723.25,$d$Flandre,$c$France
+e164,1,1,1250,$d$Valenciennes,$c$France
+e165,106,106,412029.5581359863,$d$Charleville,$c$Divers
+e166,65,65,258116.35000610352,$d$Lyon,$c$Italie
+e167,6,6,126810,$d$Lyon,$c$France
+e168,4,4,46891.50001525879,$d$Montpellier,$c$Levant et Barbarie
+e169,13,13,11615,$d$Saint-Quentin,$c$Flandre et autres états de l'Empereur
+e170,12,12,414060.9443283081,$d$La Rochelle,$c$Flandre et autres états de l'Empereur
+e171,16,16,59106,$d$Soisson,$c$Flandre et autres états de l'Empereur
+e172,71,71,2273647.8862457275,$d$Nantes,$c$Flandre et autres états de l'Empereur
+e173,123,123,576119.2657165527,$d$Narbonne,$c$France
+e174,18,18,48652.5,$d$Amiens,$c$France
+e175,5,5,24054.00001525879,$d$Langres,$c$Nord
+e176,6,6,10090,$d$France,$c$Levant et Barbarie
+e177,3,3,9300,$d$France,$c$Nord
+e178,2,2,2628,$d$Valenciennes,$c$Divers
+e179,31,31,52540,$d$France,$c$Allemagne
+e180,98,98,293898,$d$France,$c$Amériques
+e181,285,285,1365341,$d$Dunkerque,$c$Amériques
+e182,541,541,6294558,$d$Le Havre,$c$Amériques
+e183,59,59,419308,$d$Marseille,$c$Afrique
+e184,5,5,2517631,$d$Rouen,$c$Afrique
+e185,280,280,5172238,$d$Bordeaux,$c$Afrique
+e186,241,241,8110181,$d$Nantes,$c$Afrique
+e187,1,1,2370,$d$Lorient,$c$Afrique
+e188,120,120,696862,$d$France,$c$Afrique
+e189,78,78,792091,$d$Saint-Malo,$c$Afrique
+e190,3,3,46162,$d$Dunkerque,$c$Afrique
+e191,230,230,4043029,$d$Le Havre,$c$Afrique
+e192,3,3,607756,$d$France,$c$Monde
+e193,9,9,24912626,$d$Marseille,$c$Monde
+e194,7,7,4560525,$d$Flandre,$c$Monde
+e195,18,18,23589876,$d$Rouen,$c$Monde
+e196,4,4,439241,$d$Saint-Malo,$c$Monde
+e197,8,8,26188654,$d$Nantes,$c$Monde
+e198,1,1,1872,$d$Lorient,$c$Monde
+e199,8,8,5136098,$d$La Rochelle,$c$Monde
+e200,9,9,74611017,$d$Bordeaux,$c$Monde
+e201,1,1,11935,$d$Nantes,$c$????
+e202,12,12,101461.06616210938,$d$La Rochelle,$c$États-Unis d'Amérique
+e203,303,303,1276981,$d$Valenciennes,$c$Allemagne
+e204,1,1,39000,$d$Le Havre,$c$Flandre et autres états de l'Empereur
+e205,19,19,320687,$d$Rouen,$c$Allemagne
+e206,16,16,90220,$d$Flandre,$c$Allemagne
+e207,2,2,1630.75,$d$Châlons,$c$Levant et Barbarie
+e208,58,58,1259998,$d$Flandre,$c$Italie
+e209,28,28,2945698,$d$Rouen,$c$Italie
+e210,2,2,1900,$d$Langres,$c$Flandre et autres états de l'Empereur
+e211,1,1,57901.6015625,$d$Saint-Malo,$c$????
+e212,10,10,84364,$d$France,$c$Suisse
+e213,16,16,28276,$d$France,$c$Espagne
+e214,1,1,576,$d$France,$c$Flandre et autres états de l'Empereur
+e215,2,2,586,$d$Rouen,$c$Suisse
+e216,4,4,4287,$d$Flandre,$c$Suisse
+e217,2,2,39505.25,$d$Saint-Malo,$c$Flandre et autres états de l'Empereur

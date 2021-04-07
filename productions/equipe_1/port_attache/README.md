@@ -24,7 +24,8 @@ and p1.source_doc_id  = p2.source_doc_id
 -- vers l'étranger et les colonies françaises.
 -- on garde aussi les pavillons (ship_flag_standardized_fr)
 
-select p1.toponyme_fr as port_depart, p1.outdate_fixed , p2.toponyme_fr as port_destination, p2.substate_1789_fr as substate_destination,
+select p1.toponyme_fr as port_depart, p1.outdate_fixed , 
+p2.toponyme_fr as port_destination, p2.substate_1789_fr as substate_destination, p2.state_1789_fr as state_destination,
 p1.homeport_state_1789_fr , p1.homeport_toponyme_fr, p1.homeport_province ,
 p1.commodity_standardized_fr , p1.commodity_standardized2_fr, p1.commodity_standardized3_fr , p1.commodity_standardized4_fr,
 p1.taxe_amount01 , p1.taxe_amount02 , p1.taxe_amount03 , 

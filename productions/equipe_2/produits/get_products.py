@@ -30,7 +30,8 @@ def get_navigo_products_by_admiralty(admiralty, year, filter_only_out=True, prod
     toflit_classifications = [
         ("toflit_simplification", "product_simplification"),
         ("toflit_revolution", "product_revolutionempire"),
-        ("toflit_aggregate", "product_RE_aggregate"),
+        # currently unprocessable by n² algo from get_pointcalls_commodity_purposes_as_toflit_product (MemoryError in build_toflit18_classif_multimap)
+        #("toflit_aggregate", "product_RE_aggregate"),
     ]
     for idx, classif in enumerate(toflit_classifications):
         key, toflit_classif = classif

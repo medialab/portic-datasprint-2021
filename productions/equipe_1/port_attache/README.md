@@ -1,5 +1,5 @@
-ici on s'occupe des navires qui sortent de DLFR vers l'Etranger
-pointcall_province in ('Aunis', 'Saintonge', 'Poitou') pour le pointcall de départ
+ici on s'occupe des navires qui sortent de DLFR vers l'Etranger en 1789 : 
+**pointcall_province** in ('Aunis', 'Saintonge', 'Poitou') pour le pointcall de départ
 
 # Fichier sorties_navires_vers_etranger.csv
 
@@ -40,9 +40,11 @@ and p1.source_doc_id  = p2.source_doc_id
 
 # Fichier sorties_navires_vers_france_horsDFLR.csv
 
+
 -- les sorties de DFLR vers la France, hors DFLR
 -- extraction des ports d'attache (homeport_*) et des pavillons (ship_flag_standardized_fr)
 -- avec le tonnage des navires (tonnage)
+
 select p1.toponyme_fr as port_depart, p1.outdate_fixed , 
 p2.toponyme_fr as port_destination, p2.pointcall_admiralty as amiraute_destination, p2.pointcall_province as province_destination, p2.substate_1789_fr as substate_destination,
 p1.homeport_state_1789_fr , p1.homeport_toponyme_fr, p1.homeport_province ,

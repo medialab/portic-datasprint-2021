@@ -1,357 +1,368 @@
-"port_depart","outdate_fixed","port_destination","homeport_state_1789_fr","homeport_toponyme_fr","homeport_province","commodity_standardized_fr","commodity_standardized2_fr","commodity_standardized3_fr","commodity_standardized4_fr","taxe_amount01","taxe_amount02","taxe_amount03","tonnage","tonnage_unit","tonnage_class"
-Ars-en-Ré,1789-04-11,Gloucester,Etats-Unis d'Amérique,Gloucester,,Sel,,,,480,0,0,"50",tx,[21-50]
-Ars-en-Ré,1789-08-01,Gloucester,Etats-Unis d'Amérique,Gloucester,,Sel,,,,480,0,0,"150",tx,[101-200]
-Ars-en-Ré,1789-06-16,Georgetown,Etats-Unis d'Amérique,Georgetown,,Sel,,,,480,0,0,"250",tx,[201-500]
-Marennes,1789-07-07,Galway,Grande-Bretagne,Galway,,Sel,,,,480,0,0,"50",tx,[21-50]
-Ars-en-Ré,1789-07-09,Exeter,Grande-Bretagne,Exeter,,Sel,,,,480,0,0,"45",tx,[21-50]
-Saint-Martin-de-Ré,1789-07-09,Frederikshald / Halden,Danemark,Frederikshald / Halden,,Sel,,,,480,0,0,"114",tx,[101-200]
-Saint-Martin-de-Ré,1789-09-10,Frederikshald / Halden,Danemark,Frederikshald / Halden,,Sel,,,,480,0,0,"70",tx,[51-100]
-Saint-Martin-de-Ré,1789-09-09,Flekkefjord ,Danemark,Flekkefjord ,,Sel,,,,480,0,0,"70",tx,[51-100]
-Ars-en-Ré,1789-11-23,Farsund,Danemark,Farsund,,Sel,,,,480,0,0,"45",tx,[21-50]
-Tonnay-Charente,1789-01-23,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-04-01,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-04-29,Londres,Grande-Bretagne,Sunderland,,,,,,480,0,0,"74",tx,[51-100]
-Marennes,1789-05-15,Dordrecht ,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"253",tx,[201-500]
-Marennes,1789-05-20,Dordrecht ,Provinces-Unies,Groningue,,Sel,,,,480,0,0,"107",tx,[101-200]
-Marennes,1789-07-24,Dordrecht ,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"213",tx,[201-500]
-Marennes,1789-08-31,Dordrecht ,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"252",tx,[201-500]
-Ars-en-Ré,1789-01-31,Dartmouth,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"70",tx,[51-100]
-Ars-en-Ré,1789-03-09,Dartmouth,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"90",tx,[51-100]
-Ars-en-Ré,1789-03-16,Dartmouth,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"250",tx,[201-500]
-Ars-en-Ré,1789-04-11,Dantzig ,Pologne,Dantzig ,,Sel,,,,480,0,0,"480",tx,[201-500]
-Ars-en-Ré,1789-07-24,Dantzig ,Pologne,Dantzig ,,Sel,,,,480,0,0,"440",tx,[201-500]
-Tonnay-Charente,1789-07-09,Ostende,France,Saint-Savinien,Saintonge,,,,,480,0,0,"80",tx,[51-100]
-Saint-Martin-de-Ré,1789-07-28,Cork,,pas identifié,,Sel,,,,480,0,0,"25",tx,[21-50]
-La Flotte-en-Ré,1789-04-01,Kristiansand ,Danemark,Kristiansand ,,Planches,Sel,Sel,Sel,480,0,0,"100",tx,[51-100]
-La Flotte-en-Ré,1789-04-01,Kristiansand ,Danemark,Kristiansand ,,Sel,Planches,Planches,Planches,480,0,0,"150",tx,[101-200]
-Ars-en-Ré,1789-05-28,Kristiansand ,Danemark,Kristiansand ,,Sel,,,,480,0,0,"120",tx,[101-200]
-Ars-en-Ré,1789-08-21,Kristiansand ,Danemark,Kristiansand ,,Sel,,,,480,0,0,"135",tx,[101-200]
-La Rochelle,1789-09-01,Amsterdam,,,,,,,,480,0,0,"110",tx,[101-200]
-Ars-en-Ré,1789-06-29,Carmarthen,Grande-Bretagne,Carmarthen,,Sel,,,,480,0,0,"72",tx,[51-100]
-Ars-en-Ré,1789-06-16,Boston,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"60",tx,[51-100]
-Ars-en-Ré,1789-06-20,Boston,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"80",tx,[51-100]
-Ars-en-Ré,1789-09-25,Boston,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"54",tx,[51-100]
-Ars-en-Ré,1789-09-25,Boston,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"74",tx,[51-100]
-Noirmoutier,1789-08-11,Boston,Etats-Unis d'Amérique,Boston,,Sel,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-07-14,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"133",tx,[101-200]
-Ars-en-Ré,1789-05-01,Mer Baltique,Mecklenbourg,Ribnitz,,,,,,480,0,0,"340",tx,[201-500]
-Saint-Martin-de-Ré,1789-06-26,Biscaye,,pas identifié,,Sel,,,,1 800,0,0,"45",tx,[21-50]
-Marennes,1789-05-09,Bilbao,Espagne,Plencia,,Sel,,,,1 800,0,0,"35",tx,[21-50]
-Marennes,1789-07-08,Bilbao,Espagne,Plencia,,Sel,,,,1 800,0,0,"32",tx,[21-50]
-Marennes,1789-07-09,Bilbao,Espagne,Plencia,,Sel,,,,1 800,0,0,"42",tx,[21-50]
-Marennes,1789-08-18,Bilbao,France,île de Ré,Aunis,Sel,,,,1 800,0,0,"91",tx,[51-100]
-Marennes,1789-08-26,Bilbao,France,Bordeaux,Guyenne,Sel,,,,1 800,0,0,"156",tx,[101-200]
-Ars-en-Ré,1789-06-19,Berwick,Grande-Bretagne,Leith,,Sel,,,,480,0,0,"65",tx,[51-100]
-Saint-Martin-de-Ré,1789-01-28,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"35",tx,[21-50]
-Saint-Martin-de-Ré,1789-04-28,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"50",tx,[21-50]
-Saint-Martin-de-Ré,1789-05-26,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100]
-Saint-Martin-de-Ré,1789-09-09,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100]
-Saint-Martin-de-Ré,1789-10-01,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100]
-Saint-Martin-de-Ré,1789-10-17,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100]
-Ars-en-Ré,1789-07-22,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"75",tx,[51-100]
-Ars-en-Ré,1789-09-25,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100]
-Ars-en-Ré,1789-10-08,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"76",tx,[51-100]
-Ars-en-Ré,1789-10-08,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"120",tx,[101-200]
-Ars-en-Ré,1789-10-08,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"150",tx,[101-200]
-Ars-en-Ré,1789-02-14,Bideford,Grande-Bretagne,Bideford,,Sel,,,,480,0,0,"150",tx,[101-200]
-Ars-en-Ré,1789-04-21,Bideford,Grande-Bretagne,Bideford,,Sel,,,,480,0,0,"113",tx,[101-200]
-Tonnay-Charente,1789-09-15,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-09-23,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"85",tx,[51-100]
-Tonnay-Charente,1789-10-12,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200]
-Noirmoutier,1789-07-24,Mer Baltique,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"195",tx,[101-200]
-Ars-en-Ré,1789-02-27,Barnstable,Etats-Unis d'Amérique,Barnstable,,Sel,,,,480,0,0,"76",tx,[51-100]
-Noirmoutier,1789-04-10,Mer Baltique,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"200",tx,[101-200]
-Noirmoutier,1789-07-27,Mer Baltique,,,,Sel,,,,480,0,0,"200",tx,[101-200]
-Noirmoutier,1789-05-09,Mer Baltique,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"144",tx,[101-200]
-Noirmoutier,1789-05-09,Mer Baltique,Prusse,Emden,,Sel,,,,480,0,0,"124",tx,[101-200]
-Noirmoutier,1789-07-11,Mer Baltique,Pologne,Dantzig ,,Sel,,,,480,0,0,"200",tx,[101-200]
-Noirmoutier,1789-07-24,Mer Baltique,Pologne,Dantzig ,,Sel,,,,480,0,0,"150",tx,[101-200]
-Noirmoutier,1789-07-24,Mer Baltique,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"90",tx,[51-100]
-Noirmoutier,1789-07-30,Mer Baltique,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"190",tx,[101-200]
-Noirmoutier,1789-11-09,Mer Baltique,Prusse,Memel,,Sel,,,,480,0,0,"200",tx,[101-200]
-Marennes,1789-09-07,Baltimore,Provinces-Unies,Amsterdam,,Sel,,,,1 800,0,0,"262",tx,[201-500]
-Saint-Martin-de-Ré,1789-09-09,Baltimore,Grande-Bretagne,Liverpool,,Sel,,,,1 800,0,0,"243",tx,[201-500]
-Ars-en-Ré,1789-07-08,Amsterdam,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"220",tx,[201-500]
-Ars-en-Ré,1789-07-30,Amsterdam,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"300",tx,[201-500]
-Ars-en-Ré,1789-10-16,Amsterdam,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"701",tx,[501 et plus]
-Marennes,1789-07-13,Amsterdam,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"172",tx,[101-200]
-Marennes,1789-09-05,Amsterdam,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"180",tx,[101-200]
-Ars-en-Ré,1789-01-27,Georgetown,Etats-Unis d'Amérique,Georgetown,,Sel,Vinatérie,Vinatérie,Vinatérie,1 800,0,0,"100",tx,[51-100]
-Soubise,1789-04-17,Grands Bancs de Terre-Neuve,France,Soubise,Aunis,Sel,Pêche à la morue,Pêche à la morue,Pêche à la morue,1 800,0,0,"85",tx,[51-100]
-Ars-en-Ré,1789-05-12,Dundee,Grande-Bretagne,Dundee,,Vin,Sel,Sel,Sel,480,0,0,"74",tx,[51-100]
-Saint-Martin-de-Ré,1789-04-10,Amsterdam,France,Honfleur,Normandie,Café,Sucre,Sucre,Sucre,360,0,0,"152",tx,[101-200]
-Tonnay-Charente,1789-10-17,Londres,Grande-Bretagne,Sunderland,,,,,,480,0,0,"85",tx,[51-100]
-Tonnay-Charente,1789-10-21,Londres,Grande-Bretagne,Hull,,,,,,480,0,0,"102",tx,[101-200]
-Tonnay-Charente,1789-11-21,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200]
-Marennes,1789-03-30,Stettin,Provinces-Unies,Oude Pekela,,Vin,,,,1 800,0,0,"121",tx,[101-200]
-Tonnay-Charente,1789-11-27,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Marennes,1789-01-27,Amsterdam,Provinces-Unies,Amsterdam,,Vin,,,,480,0,0,"150",tx,[101-200]
-Marennes,1789-05-28,Amsterdam,France,Saint-Valery-sur-Somme,Picardie,Vin,,,,480,0,0,"75",tx,[51-100]
-Mortagne,1789-05-13,Newton,Grande-Bretagne,Newton,,Vin,Eau-de-vie,Eau-de-vie,Eau-de-vie,3 780,480,0,"45",tx,[21-50]
-Marennes,1789-03-24,Lübeck,Lubeck,Lübeck,,Vin,Eau-de-vie,Eau-de-vie,Eau-de-vie,1 800,0,0,"194",tx,[101-200]
-Marennes,1789-06-02,Lübeck,Lubeck,Lübeck,,Eau-de-vie,Vin,Vin,Vin,1 800,0,0,"190",tx,[101-200]
-Marennes,1789-07-31,Lübeck,Duché de Mecklenbourg,Rostock,,Vin,Eau-de-vie,Eau-de-vie,Eau-de-vie,1 800,0,0,"173",tx,[101-200]
-Saint-Martin-de-Ré,1789-05-29,Lübeck,Lubeck,Lübeck,,Vinaigre,,,,480,0,0,"174",tx,[101-200]
-Marennes,1789-05-05,Lübeck,Lubeck,Lübeck,,Vin,Vinaigre,Vinaigre,Vinaigre,1 800,0,0,"160",tx,[101-200]
-Marennes,1789-07-21,Lübeck,Lubeck,Lübeck,,Vinaigre,Vin,Vin,Vin,1 800,0,0,"156",tx,[101-200]
-Marennes,1789-04-11,Lübeck,Lubeck,Lübeck,,Eau-de-vie,Vin,Vin,Vin,1 800,0,0,"181",tx,[101-200]
-La Flotte-en-Ré,1789-04-07,Brême,Brême,Brême,,Vinatérie,Lest,Lest,Lest,480,0,0,"115",tx,[101-200]
-Saint-Martin-de-Ré,1789-02-14,Amsterdam,Provinces-Unies,Amsterdam,,Vinatérie,,,,480,0,0,"150",tx,[101-200]
-Saint-Martin-de-Ré,1789-02-28,Amsterdam,Provinces-Unies,Amsterdam,,Vinatérie,,,,480,0,0,"100",tx,[51-100]
-Saint-Martin-de-Ré,1789-04-26,Amsterdam,Provinces-Unies,Frise,,Vinatérie,,,,480,0,0,"60",tx,[51-100]
-Rochefort,1789-10-17,Memel,Prusse,Memel,,Vide,,,,480,0,0,"200",tx,[101-200]
-Rochefort,1789-12-09,Barcelone,Provinces-Unies,Amsterdam,,Vide,,,,1 800,0,0,"630",tx,[501 et plus]
-Rochefort,1789-09-23,Amsterdam,France,Rochefort,Aunis,Vide,,,,360,0,0,"60",tx,[51-100]
-La Rochelle,1789-01-27,Ostende,Provinces-Unies,Rotterdam,,,,,,480,0,0,"75",tx,[51-100]
-La Rochelle,1789-06-26,Ostende,Provinces-Unies,Amsterdam,,,,,,480,0,0,"90",tx,[51-100]
-La Rochelle,1789-12-18,Ostende,France,Le Conquet,Bretagne,,,,,480,0,0,"50",tx,[21-50]
-Marennes,1789-04-02,Mer Baltique,Provinces-Unies,Frise,,,,,,1 800,0,0,,,
-Tonnay-Charente,1789-07-18,Hull,Grande-Bretagne,Hull,,,,,,480,0,0,"196",tx,[101-200]
-Tonnay-Charente,1789-05-09,Hull,Grande-Bretagne,Harwich,,,,,,480,0,0,"100",tx,[51-100]
-La Rochelle,1789-03-27,Hambourg,Hambourg,Hambourg,,,,,,480,0,0,"120",tx,[101-200]
-La Rochelle,1789-08-01,Hambourg,Hambourg,Hambourg,,,,,,480,0,0,"120",tx,[101-200]
-Tonnay-Charente,1789-06-05,Guernesey,Grande-Bretagne,Guernesey,,,,,,480,0,0,"44",tx,[21-50]
-La Rochelle,1789-06-27,Côte d'Or,France,La Rochelle,Aunis,,,,,0,0,0,"529",tx,[501 et plus]
-La Rochelle,1789-06-27,Côte d'Or,France,La Rochelle,Aunis,,,,,12 000,0,0,"129",tx,[101-200]
-La Rochelle,1789-06-30,Côte d'Or,France,La Rochelle,Aunis,,,,,1 800,0,0,"517",tx,[501 et plus]
-La Rochelle,1789-09-02,Côte d'Or,France,La Rochelle,Aunis,,,,,1 800,0,0,"125",tx,[101-200]
-La Rochelle,1789-09-24,Bruges,France,Landerneau,Bretagne,,,,,240,0,0,"40",tx,[21-50]
-La Rochelle,1789-02-23,Bruges,Provinces-Unies,Harlingen,,,,,,480,0,0,"80",tx,[51-100]
-La Rochelle,1789-05-23,Brême,Duché d'Oldenbourg,Oldenbourg,,,,,,480,0,0,"120",tx,[101-200]
-La Rochelle,1789-04-10,Brême,Brême,Brême,,,,,,480,0,0,"130",tx,[101-200]
-La Rochelle,1789-09-07,Brême,Brême,Brême,,,,,,480,0,0,"60",tx,[51-100]
-La Rochelle,1789-10-30,Brême,Duché d'Oldenbourg,Oldenbourg,,,,,,480,0,0,"120",tx,[101-200]
-La Rochelle,1789-04-06,Côte d'Angole,France,La Rochelle,Aunis,,,,,1 800,0,0,"584",tx,[501 et plus]
-La Rochelle,1789-05-11,Amsterdam,Provinces-Unies,Amsterdam,,,,,,480,0,0,"220",tx,[201-500]
-La Rochelle,1789-07-06,Newcastle,Grande-Bretagne,Newcastle,,,,,,480,0,0,"290",tx,[201-500]
-Tonnay-Charente,1789-12-23,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200]
-Ars-en-Ré,1789-05-01,Mer Baltique,Prusse,Emden,,,,,,480,0,0,"240",tx,[201-500]
-La Rochelle,1789-04-09,Ostende,Provinces-Unies,Groningue,,,,,,480,0,0,"80",tx,[51-100]
-La Rochelle,1789-06-23,Côte d'Or,France,La Rochelle,Aunis,,,,,1 800,0,0,"809",tx,[501 et plus]
-Noirmoutier,1789-07-08,Mer Baltique,,,,Sel,,,,480,0,0,"120",tx,[101-200]
-Ars-en-Ré,1789-07-08,Rhode Island,,,,Sel,,,,1 800,0,0,"65",tx,[51-100]
-Ars-en-Ré,1789-04-30,Portsmouth,Grande-Bretagne,Portsmouth,,Sel,,,,480,0,0,"240",tx,[201-500]
-Saint-Martin-de-Ré,1789-03-15,Plymouth,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"160",tx,[101-200]
-Marennes,1789-06-03,Harlingen,,,,Sel,,,,480,0,0,"229",tx,[201-500]
-Tonnay-Charente,1789-03-21,Londres,Grande-Bretagne,Dublin,,,,,,480,0,0,"100",tx,[51-100]
-La Rochelle,1789-07-15,Bruges,France,La Rochelle,Aunis,,,,,480,0,0,"22",tx,[21-50]
-Ars-en-Ré,1789-07-30,Harlingen,Provinces-Unies,Harlingen,,Sel,,,,480,0,0,"220",tx,[201-500]
-Tonnay-Charente,1789-02-19,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"125",tx,[101-200]
-Tonnay-Charente,1789-12-03,Ostende,France,Cherbourg,Normandie,,,,,480,0,0,"44",tx,[21-50]
-Noirmoutier,1789-08-22,Dantzig ,Pologne,Dantzig ,,Sel,,,,480,0,0,"300",tx,[201-500]
-Tonnay-Charente,1789-04-08,Ostende,France,Bordeaux,Guyenne,,,,,480,0,0,"160",tx,[101-200]
-Ars-en-Ré,1789-02-09,Cork,Grande-Bretagne,Greenock,,Sel,,,,480,0,0,"240",tx,[201-500]
-Saint-Martin-de-Ré,1789-04-01,Cork,Grande-Bretagne,Cork,,Sel,,,,480,0,0,"40",tx,[21-50]
-Tonnay-Charente,1789-05-09,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"114",tx,[101-200]
-Tonnay-Charente,1789-05-25,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200]
-Tonnay-Charente,1789-06-09,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-07-01,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200]
-Tonnay-Charente,1789-07-14,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-07-29,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200]
-Tonnay-Charente,1789-08-24,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200]
-Saint-Martin-de-Ré,1789-01-26,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100]
-Saint-Martin-de-Ré,1789-07-01,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"61",tx,[51-100]
-Saint-Martin-de-Ré,1789-10-07,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100]
-Tonnay-Charente,1789-08-28,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200]
-Ars-en-Ré,1789-02-09,Amsterdam,,,,Sel,,,,480,0,0,"300",tx,[201-500]
-Marennes,1789-04-02,Amsterdam,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"210",tx,[201-500]
-Marennes,1789-06-16,Ostende,France,Île-aux-Moines,Bretagne,Sel,Vin,Vin,Vin,480,0,0,"62",tx,[51-100]
-Saint-Martin-de-Ré,1789-08-17,Santander,France,Lannion,Bretagne,Vin,,,,1 800,0,0,"52",tx,[51-100]
-Ars-en-Ré,1789-07-03,Lemmer,France,Le Conquet,Bretagne,,,,,480,0,0,"180",tx,[101-200]
-La Rochelle,1789-10-27,Hambourg,Hambourg,Hambourg,,,,,,480,0,0,"90",tx,[51-100]
-Tonnay-Charente,1789-03-17,Guernesey,Grande-Bretagne,Guernesey,,,,,,480,0,0,"85",tx,[51-100]
-La Rochelle,1789-04-21,Elbing / Elblag,Provinces-Unies,Amsterdam,,,,,,480,0,0,"120",tx,[101-200]
-La Rochelle,1789-11-20,Côte d'Or,France,La Rochelle,Aunis,,,,,14 400,0,0,"402",tx,[201-500]
-La Rochelle,1789-09-16,Liverpool,Grande-Bretagne,Hull,,,,,,480,0,0,"110",tx,[101-200]
-Ars-en-Ré,1789-07-08,Kristiansund ,Danemark,Kristiansund ,,,,,,480,0,0,"50",tx,[21-50]
-La Rochelle,1789-05-05,Hambourg,Hambourg,Hambourg,,,,,,480,0,0,"100",tx,[51-100]
-La Rochelle,1789-03-16,Stettin,,,,,,,,480,0,0,"150",tx,[101-200]
-Tonnay-Charente,1789-02-27,Liverpool,Grande-Bretagne,Liverpool,,,,,,480,0,0,"77",tx,[51-100]
-Tonnay-Charente,1789-04-03,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200]
-Tonnay-Charente,1789-09-12,Madère,Grande-Bretagne,Cowes,,,,,,1 800,0,0,"47",tx,[21-50]
-Tonnay-Charente,1789-12-19,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Marennes,1789-05-09,Saint-Sébastien,France,île d'Arz,Bretagne,,,,,1 800,0,0,"70",tx,[51-100]
-Tonnay-Charente,1789-05-22,Ostende,France,Saint-Savinien,Saintonge,,,,,480,0,0,"80",tx,[51-100]
-La Rochelle,1789-04-23,Brême,Brême,Brême,,,,,,480,0,0,"90",tx,[51-100]
-La Rochelle,1789-09-11,Ostende,France,Rouen,Normandie,,,,,480,0,0,"75",tx,[51-100]
-La Rochelle,1789-09-29,Côte d'Or,France,La Rochelle,Aunis,,,,,1 800,0,0,"827",tx,[501 et plus]
-Tonnay-Charente,1789-06-09,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"85",tx,[51-100]
-Tonnay-Charente,1789-12-18,Londres,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"100",tx,[51-100]
-La Rochelle,1789-11-13,Newcastle,Grande-Bretagne,Newcastle,,,,,,480,0,0,"260",tx,[201-500]
-Tonnay-Charente,1789-12-14,Londres,Grande-Bretagne,Guernesey,,,,,,480,0,0,"82",tx,[51-100]
-Ars-en-Ré,1789-07-08,Ilfracombe,Grande-Bretagne,Ilfracombe,,,,,,480,0,0,"150",tx,[101-200]
-Tonnay-Charente,1789-09-09,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-La Rochelle,1789-09-29,Liverpool,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200]
-La Rochelle,1789-10-28,Stettin,,pas identifié,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-03-02,Ostende,France,Port-d'Envaux,Saintonge,,,,,480,0,0,"118",tx,[101-200]
-Ars-en-Ré,1789-08-06,colonies anglaises [en Amérique],France,Saint-Jean-de-Luz ,Guyenne,,,,,1 800,0,0,"210",tx,[201-500]
-La Flotte-en-Ré,1789-02-10,Guernesey,France,La Flotte-en-Ré,Aunis,Eau-de-vie,Lest,Lest,Lest,240,0,0,"40",tx,[21-50]
-Ars-en-Ré,1789-02-13,Poole,,,,Sel,,,,480,0,0,"160",tx,[101-200]
-Saint-Martin-de-Ré,1789-02-16,Angleterre,Grande-Bretagne,Topsham,,Sel,,,,480,0,0,"120",tx,[101-200]
-La Rochelle,1789-09-21,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"165",tx,[101-200]
-Tonnay-Charente,1789-02-13,Londres,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"100",tx,[51-100]
-La Rochelle,1789-09-01,Noordwijk ,Danemark,Arendal,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-05-09,Hull,Grande-Bretagne,Hull,,,,,,480,0,0,"66",tx,[51-100]
-La Rochelle,1789-06-27,Côte d'Or,France,La Rochelle,Aunis,,,,,1 800,0,0,"92",tx,[51-100]
-La Rochelle,1789-07-08,Norvège,Danemark,Christiania / Oslo,,,,,,480,0,0,"150",tx,[101-200]
-Saint-Martin-de-Ré,1789-07-02,Norvège,Grande-Bretagne,Cork,,Eau-de-vie,,,,480,0,0,"6",tx,[1-20]
-Rochefort,1789-03-28,Newcastle,Grande-Bretagne,Newcastle,,Eau-de-vie,,,,360,0,0,"136",tx,[101-200]
-Rochefort,1789-04-06,Newcastle,Grande-Bretagne,Newcastle,,Eau-de-vie,,,,480,0,0,"128",tx,[101-200]
-Rochefort,1789-06-26,Liverpool,Grande-Bretagne,Liverpool,,Eau-de-vie,,,,360,0,0,"123",tx,[101-200]
-Saint-Martin-de-Ré,1789-08-26,Boston,Etats-Unis d'Amérique,Boston,,Eau-de-vie,,,,1 800,0,0,"120",tx,[101-200]
-Tonnay-Charente,1789-02-14,Rotterdam,France,Cherbourg,Normandie,Eau-de-vie,,,,480,0,0,"44",tx,[21-50]
-Tonnay-Charente,1789-01-22,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200]
-La Rochelle,1789-12-18,Philadelphie,France,Rochefort,Aunis,,,,,1 800,0,0,"160",tx,[101-200]
-Ars-en-Ré,1789-06-16,Dantzig ,Pologne,Dantzig ,,Sel,,,,480,0,0,"110",tx,[101-200]
-Ars-en-Ré,1789-08-21,Kristiansand ,Danemark,Kristiansand ,,Sel,,,,480,0,0,"112",tx,[101-200]
-Saint-Martin-de-Ré,1789-06-11,Chichester,Grande-Bretagne,Chichester,,Sel,,,,480,0,0,"47",tx,[21-50]
-Marennes,1789-06-22,Lübeck,Lubeck,Lübeck,,Eau-de-vie,Vin,Vin,Vin,1 800,0,0,"195",tx,[101-200]
-Rochefort,1789-12-09,Setúbal ,Provinces-Unies,Amsterdam,,Vide,,,,1 800,0,0,"415",tx,[201-500]
-Tonnay-Charente,1789-04-11,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200]
-Marennes,1789-08-11,Rotterdam,,pas identifié,,Sel,,,,480,0,0,"95",tx,[51-100]
-Noirmoutier,1789-07-08,Königsberg / Kaliningrad,,,,Sel,,,,480,0,0,"130",tx,[101-200]
-Marennes,1789-08-22,Königsberg / Kaliningrad,,,,Sel,,,,1 800,0,0,"132",tx,[101-200]
-Noirmoutier,1789-06-26,Mer Baltique,,pas identifié,,Sel,,,,480,0,0,"140",tx,[101-200]
-Marennes,1789-06-20,Amsterdam,,,,Sel,,,,480,0,0,"176",tx,[101-200]
-La Rochelle,1789-10-08,Amsterdam,,pas identifié,,,,,,480,0,0,"60",tx,[51-100]
-Noirmoutier,1789-06-10,Mer Baltique,Hambourg,Hambourg,,Sel,,,,480,0,0,"180",tx,[101-200]
-Tonnay-Charente,1789-02-19,Londres,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"120",tx,[101-200]
-Tonnay-Charente,1789-01-30,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200]
-Saint-Martin-de-Ré,1789-04-17,Frederikshald / Halden,Danemark,Frederikshald / Halden,,Eau-de-vie,,,,480,0,0,"70",tx,[51-100]
-Rochefort,1789-02-10,Bristol,Grande-Bretagne,Bristol,,Eau-de-vie,,,,480,0,0,"145",tx,[101-200]
-Rochefort,1789-05-05,Bristol,Grande-Bretagne,Bristol,,Eau-de-vie,,,,480,0,0,"110",tx,[101-200]
-Mortagne,1789-08-25,Bristol,Grande-Bretagne,Bristol,,Eau-de-vie,Vin,Vin,Vin,480,7 812,0,"93",tx,[51-100]
-Ars-en-Ré,1789-01-27,Guernesey,France,Ars-en-Ré,Aunis,Eau-de-vie,,,,480,0,0,"45",tx,[21-50]
-Rochefort,1789-05-22,"Espagne, undeterminé",Grande-Bretagne,Liverpool,,Diverses marchandises,,,,1 800,0,0,"100",tx,[51-100]
-Saint-Martin-de-Ré,1789-07-08,île de Man,Grande-Bretagne,île de Man,,Sel,,,,480,0,0,"70",tx,[51-100]
-Ars-en-Ré,1789-08-29,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"117",tx,[101-200]
-Ars-en-Ré,1789-05-20,Riga,Grande-Bretagne,Hull,,Sel,,,,480,0,0,"176",tx,[101-200]
-Saint-Martin-de-Ré,1789-04-01,Plymouth,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"100",tx,[51-100]
-Ars-en-Ré,1789-07-30,Molde,Danemark,Molde,,Sel,,,,480,0,0,"105",tx,[101-200]
-Saint-Martin-de-Ré,1789-10-01,Mer Baltique,Danemark,Flekkefjord ,,Sel,,,,480,0,0,"65",tx,[51-100]
-Saint-Martin-de-Ré,1789-07-08,Königsberg / Kaliningrad,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"260",tx,[201-500]
-Saint-Martin-de-Ré,1789-04-12,Königsberg / Kaliningrad,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"290",tx,[201-500]
-Saint-Martin-de-Ré,1789-10-09,Fredrikstad ,Danemark,Frederikshald / Halden,,Sel,,,,480,0,0,"120",tx,[101-200]
-Ars-en-Ré,1789-01-21,Saltcoats,Grande-Bretagne,Saltcoats,,Sel,,,,480,0,0,"90",tx,[51-100]
-Tonnay-Charente,1789-04-25,Londres,Grande-Bretagne,Leith,,,,,,480,0,0,"114",tx,[101-200]
-Marennes,1789-07-21,Dordrecht ,Provinces-Unies,Dort,,Sel,,,,480,0,0,"89",tx,[51-100]
-Ars-en-Ré,1789-02-22,Dartmouth,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"150",tx,[101-200]
-Saint-Martin-de-Ré,1789-04-30,Dantzig ,Pologne,Dantzig ,,Sel,,,,480,0,0,"160",tx,[101-200]
-Saint-Martin-de-Ré,1789-04-11,Boston,,,,Sel,,,,1 800,0,0,"270",tx,[201-500]
-Noirmoutier,1789-05-09,Mer Baltique,,,,Sel,,,,480,0,0,"148",tx,[101-200]
-Noirmoutier,1789-07-27,Mer Baltique,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"223",tx,[201-500]
-Ars-en-Ré,1789-05-20,Amsterdam,,,,Sel,,,,480,0,0,"80",tx,[51-100]
-Tonnay-Charente,1789-03-12,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"85",tx,[51-100]
-Tonnay-Charente,1789-03-20,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-05-19,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200]
-Tonnay-Charente,1789-10-03,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200]
-Tonnay-Charente,1789-02-06,Hull,Grande-Bretagne,Hull,,,,,,480,0,0,"100",tx,[51-100]
-Tonnay-Charente,1789-02-27,Guernesey,Grande-Bretagne,Guernesey,,,,,,480,0,0,"142",tx,[101-200]
-La Rochelle,1789-01-23,Côte d'Or,France,La Rochelle,Aunis,,,,,1 800,0,0,"440",tx,[201-500]
-Tonnay-Charente,1789-07-11,Copenhague ,,,,,,,,1 800,0,0,"98",tx,[51-100]
-La Rochelle,1789-07-17,Amsterdam,Provinces-Unies,Oude Pekela,,,,,,480,0,0,"60",tx,[51-100]
-La Rochelle,1789-04-09,Mer Baltique,,,,,,,,1 800,0,0,"200",tx,[101-200]
-Noirmoutier,1789-07-24,Mer Baltique,,,,Sel,,,,480,0,0,"208",tx,[201-500]
-Tonnay-Charente,1789-06-20,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200]
-La Rochelle,1789-08-11,Newcastle,Grande-Bretagne,Newcastle,,,,,,480,0,0,"110",tx,[101-200]
-Tonnay-Charente,1789-03-12,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200]
-Ars-en-Ré,1789-06-16,Mer Baltique,Etats-Unis d'Amérique,Salem,,Sel,,,,480,0,0,"75",tx,[51-100]
-Marennes,1789-06-04,Harlingen,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"188",tx,[101-200]
-Tonnay-Charente,1789-05-04,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"133",tx,[101-200]
-Saint-Martin-de-Ré,1789-08-21,Hambourg,Grande-Bretagne,Sunderland,,Vin,,,,24,0,0,"150",tx,[101-200]
-Tonnay-Charente,1789-04-04,Guernesey,Grande-Bretagne,Guernesey,,,,,,480,0,0,"50",tx,[21-50]
-Tonnay-Charente,1789-10-20,Londres,Grande-Bretagne,Londres,,,,,,480,0,0,"115",tx,[101-200]
-La Rochelle,1789-09-17,Hambourg,Hambourg,Hambourg,,,,,,480,0,0,"100",tx,[51-100]
-Saint-Martin-de-Ré,1789-06-13,Newburyport,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,,tx,
-Ars-en-Ré,1789-07-08,Gloucester,Etats-Unis d'Amérique,Gloucester,,Sel,,,,480,0,0,"55",tx,[51-100]
-Saint-Martin-de-Ré,1789-04-01,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100]
-Noirmoutier,1789-01-29,Bergue ,Danemark,Bergue ,,Sel,,,,480,0,0,"90",tx,[51-100]
-Noirmoutier,1789-06-25,Mer Baltique,Hambourg,Hambourg,,Sel,,,,480,0,0,"180",tx,[101-200]
-Rochefort,1789-08-14,Waterford,Grande-Bretagne,Waterford,,Vide,,,,480,0,0,"50",tx,[21-50]
-Noirmoutier,1789-07-07,Königsberg / Kaliningrad,,,,Sel,,,,480,0,0,"150",tx,[101-200]
-Rochefort,1789-07-01,Madère,Grande-Bretagne,Londres,,Eau-de-vie,,,,1 800,0,0,"106",tx,[101-200]
-Rochefort,1789-05-06,Hull,Grande-Bretagne,Hull,,Eau-de-vie,,,,480,0,0,"153",tx,[101-200]
-Rochefort,1789-12-23,Hull,Grande-Bretagne,Bristol,,Eau-de-vie,,,,480,0,0,"110",tx,[101-200]
-Saint-Martin-de-Ré,1789-04-06,Hambourg,Provinces-Unies,Hollande,,Eau-de-vie,,,,480,0,0,"186",tx,[101-200]
-Saint-Martin-de-Ré,1789-10-07,Frederikshald / Halden,Danemark,Frederikshald / Halden,,Eau-de-vie,,,,480,0,0,"120",tx,[101-200]
-Saint-Martin-de-Ré,1789-05-06,Bergue ,Grande-Bretagne,Cork,,Eau-de-vie,,,,480,0,0,"14",tx,[1-20]
-Rochefort,1789-11-26,Hull,Grande-Bretagne,Hull,,Eau-de-vie,Graines de lin,Graines de lin,Graines de lin,480,0,0,"153",tx,[101-200]
-Rochefort,1789-08-20,Hull,Grande-Bretagne,Hull,,Graines de lin,Eau-de-vie,Eau-de-vie,Eau-de-vie,480,0,0,"150",tx,[101-200]
-Saint-Martin-de-Ré,1789-01-29,Southampton,Grande-Bretagne,Southampton,,Lest,,,,480,0,0,"120",tx,[101-200]
-Saint-Martin-de-Ré,1789-08-07,Santander,France,Honfleur,Normandie,Lest,,,,1 800,0,0,"108",tx,[101-200]
-Saint-Martin-de-Ré,1789-07-21,Lisbonne,Etats-Unis d'Amérique,New York,,Lest,,,,1 800,0,0,"60",tx,[51-100]
-Marennes,1789-08-26,Appledore,Grande-Bretagne,Appledore,,Lest,,,,480,0,0,"150",tx,[101-200]
-Saint-Martin-de-Ré,1789-08-12,Amsterdam,Provinces-Unies,Amsterdam,,Lest,,,,480,0,0,"150",tx,[101-200]
-La Flotte-en-Ré,1789-01-24,Alicante,Danemark,Frederikshald / Halden,,Lest,Planches,Planches,Planches,480,0,0,"200",tx,[101-200]
-Rochefort,1789-01-01,Côte d'Angole,France,Rochefort,Aunis,Marchandises permises,,,,1 800,0,0,"614",tx,[501 et plus]
-Rochefort,1789-10-31,Côte d'Afrique [de l'Ouest],France,Rochefort,Aunis,Marchandises pour la traite négrière,,,,1 800,0,0,"315",tx,[201-500]
-Rochefort,1789-11-28,Côte d'Or,France,Rochefort,Aunis,Marchandises pour la traite négrière,,,,1 800,0,0,"230",tx,[201-500]
-La Rochelle,1789-03-06,Grands Bancs de Terre-Neuve,France,La Rochelle,Aunis,Pêche à la morue,,,,1 800,0,0,"200",tx,[101-200]
-Noirmoutier,1789-05-13,Zierikzee,Provinces-Unies,Zierikzee,,Sel,,,,480,0,0,"70",tx,[51-100]
-Marennes,1789-04-11,Zierikzee,Provinces-Unies,Zierikzee,,Sel,,,,480,0,0,"237",tx,[201-500]
-Ars-en-Ré,1789-07-08,Yarmouth,Grande-Bretagne,Yarmouth,,Sel,,,,480,0,0,"90",tx,[51-100]
-Saint-Martin-de-Ré,1789-07-02,Yarmouth,Grande-Bretagne,Yarmouth,,Sel,,,,480,0,0,"70",tx,[51-100]
-Saint-Martin-de-Ré,1789-05-12,Waterford,Grande-Bretagne,Portsmouth,,Sel,,,,480,0,0,"108",tx,[101-200]
-Ars-en-Ré,1789-02-09,Waterford,Grande-Bretagne,Topsham,,Sel,,,,480,0,0,"150",tx,[101-200]
-Marennes,1789-07-10,Virginie,Etats-Unis d'Amérique,"Portsmouth, VA,",,Sel,,,,1 800,0,0,"237",tx,[201-500]
-Noirmoutier,1789-06-27,Virginie,Etats-Unis d'Amérique,Norfolk,,Sel,,,,480,0,0,"52",tx,[51-100]
-Ars-en-Ré,1789-02-16,Teignmouth,Grande-Bretagne,Teignmouth,,Sel,,,,480,0,0,"90",tx,[51-100]
-Ars-en-Ré,1789-01-21,Teignmouth,Grande-Bretagne,Teignmouth,,Sel,,,,480,0,0,"110",tx,[101-200]
-Ars-en-Ré,1789-03-11,Teignmouth,Grande-Bretagne,Teignmouth,,Sel,,,,480,0,0,"100",tx,[51-100]
-Saint-Martin-de-Ré,1789-03-19,"Terre-Neuve, île de",,,,Sel,,,,1 800,0,0,"158",tx,[101-200]
-La Flotte-en-Ré,1789-06-09,Stavanger,Danemark,Mandal,,Planches,Sel,Sel,Sel,480,0,0,"150",tx,[101-200]
-La Flotte-en-Ré,1789-07-11,Stavanger,Danemark,Stavanger,,Sel,Planches,Planches,Planches,480,0,0,"100",tx,[51-100]
-Saint-Martin-de-Ré,1789-09-04,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"45",tx,[21-50]
-Saint-Martin-de-Ré,1789-09-10,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"70",tx,[51-100]
-Saint-Martin-de-Ré,1789-01-01,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"200",tx,[101-200]
-Saint-Martin-de-Ré,1789-05-01,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"80",tx,[51-100]
-Saint-Martin-de-Ré,1789-05-03,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"70",tx,[51-100]
-Saint-Martin-de-Ré,1789-06-03,Stavanger,Danemark,Bergue ,,Sel,,,,480,0,0,"45",tx,[21-50]
-Ars-en-Ré,1789-04-30,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"230",tx,[201-500]
-Ars-en-Ré,1789-06-04,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"70",tx,[51-100]
-Ars-en-Ré,1789-07-15,Stavanger,Danemark,Stavanger,,Sel,,,,480,0,0,"80",tx,[51-100]
-Noirmoutier,1789-06-06,Saint-Sébastien,France,Noirmoutier,Poitou,Sel,,,,1 800,0,0,"42",tx,[21-50]
-Saint-Gilles-sur-Vie,1789-04-10,Saint-Sébastien,France,Vannes,Bretagne,Sel,,,,1 800,0,0,"37",tx,[21-50]
-Marennes,1789-04-23,Rotterdam,Prusse,Emden,,Sel,,,,480,0,0,"152",tx,[101-200]
-Marennes,1789-04-27,Rotterdam,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"96",tx,[51-100]
-Marennes,1789-07-29,Rotterdam,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"99",tx,[51-100]
-Marennes,1789-04-17,Rotterdam,,,,Sel,,,,480,0,0,"217",tx,[201-500]
-Marennes,1789-08-08,Rotterdam,Provinces-Unies,Groningue,,Sel,,,,480,0,0,"134",tx,[101-200]
-Ars-en-Ré,1789-07-24,Ribnitz,Mecklenbourg,Ribnitz,,Sel,,,,480,0,0,"150",tx,[101-200]
-Marennes,1789-05-23,Riga,Grande-Bretagne,Newcastle,,Sel,,,,1 800,0,0,"210",tx,[201-500]
-Ars-en-Ré,1789-02-09,Poole,,,,Sel,,,,480,0,0,"100",tx,[51-100]
-Marennes,1789-10-07,Pillau / Baltiïsk,Prusse,Königsberg / Kaliningrad,,Sel,,,,1 800,0,0,"214",tx,[201-500]
-Ars-en-Ré,1789-07-30,Philadelphie,Etats-Unis d'Amérique,Philadelphie,,Sel,,,,1 800,0,0,"200",tx,[101-200]
-Ars-en-Ré,1789-02-22,Penzance,,,,Sel,,,,480,0,0,"150",tx,[101-200]
-Marennes,1789-07-01,Ostende,France,Carteret,Normandie,Sel,,,,480,0,0,"81",tx,[51-100]
-Marennes,1789-09-07,Ostende,France,Saint-Briac,Bretagne,Sel,,,,480,0,0,"91",tx,[51-100]
-Saint-Martin-de-Ré,1789-09-17,New York,Etats-Unis d'Amérique,Caroline,,Sel,,,,1 800,0,0,"90",tx,[51-100]
-La Flotte-en-Ré,1789-10-20,Norvège,Danemark,Kristiansand ,,Sel,Planches,Planches,Planches,480,0,0,"100",tx,[51-100]
-Noirmoutier,1789-07-19,Norvège,Danemark,Norvège,,Sel,,,,480,0,0,"300",tx,[201-500]
-Marennes,1789-07-24,Newcastle,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"404",tx,[201-500]
-Ars-en-Ré,1789-05-15,Newburyport,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,"75",tx,[51-100]
-Ars-en-Ré,1789-05-28,Newburyport,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,"80",tx,[51-100]
-Ars-en-Ré,1789-05-28,Newburyport,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,"80",tx,[51-100]
-Ars-en-Ré,1789-08-27,Moss,Danemark,Moss,,Sel,,,,480,0,0,"130",tx,[101-200]
-Ars-en-Ré,1789-05-20,Marblehead,Etats-Unis d'Amérique,Marblehead,,Sel,,,,480,0,0,"55",tx,[51-100]
-Saint-Martin-de-Ré,1789-08-10,Molde,Danemark,Molde,,Sel,,,,480,0,0,"50",tx,[21-50]
-Ars-en-Ré,1789-04-30,Mer Baltique,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"130",tx,[101-200]
-Marennes,1789-05-20,Lübeck,Lubeck,Lübeck,,Sel,,,,1 800,0,0,"174",tx,[101-200]
-Ars-en-Ré,1789-05-28,Mer Baltique,Provinces-Unies,Hollande,,Sel,,,,480,0,0,"200",tx,[101-200]
-Ars-en-Ré,1789-08-06,Mer Baltique,Prusse,Memel,,Sel,,,,480,0,0,"200",tx,[101-200]
-Noirmoutier,1789-04-08,Mer Baltique,Brême,Brême,,Sel,,,,480,0,0,"170",tx,[101-200]
-Ars-en-Ré,1789-04-30,Memel,Prusse,Memel,,Sel,,,,480,0,0,"450",tx,[201-500]
-Marennes,1789-01-22,Londres,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"179",tx,[101-200]
-Noirmoutier,1789-07-08,Königsberg / Kaliningrad,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"200",tx,[101-200]
-Noirmoutier,1789-07-09,Königsberg / Kaliningrad,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"100",tx,[51-100]
-Marennes,1789-08-04,Königsberg / Kaliningrad,Prusse,Königsberg / Kaliningrad,,Sel,,,,1 800,0,0,"236",tx,[201-500]
-Noirmoutier,1789-08-06,Königsberg / Kaliningrad,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"292",tx,[201-500]
-Noirmoutier,1789-08-10,Königsberg / Kaliningrad,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"190",tx,[101-200]
-Marennes,1789-08-13,Königsberg / Kaliningrad,Prusse,Emden,,Sel,,,,1 800,0,0,"197",tx,[101-200]
-Marennes,1789-08-14,Königsberg / Kaliningrad,Provinces-Unies,Middelbourg,,Sel,,,,1 800,0,0,"189",tx,[101-200]
-Marennes,1789-08-26,Königsberg / Kaliningrad,Provinces-Unies,Amsterdam,,Sel,,,,1 800,0,0,"175",tx,[101-200]
-Tonnay-Charente,1789-03-21,Londres,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"80",tx,[51-100]
-Ars-en-Ré,1789-06-19,Holmestrand,Danemark,Holmestrand,,Sel,,,,480,0,0,"126",tx,[101-200]
-Ars-en-Ré,1789-09-02,Holmestrand,Danemark,Holmestrand,,Sel,,,,480,0,0,"126",tx,[101-200]
-Marennes,1789-08-07,Harlingen,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"188",tx,[101-200]
-Noirmoutier,1789-06-27,Greenock,Grande-Bretagne,Greenock,,Sel,,,,480,0,0,"76",tx,[51-100]
+"port_depart","outdate_fixed","port_destination","substate_destination","homeport_state_1789_fr","homeport_toponyme_fr","homeport_province","commodity_standardized_fr","commodity_standardized2_fr","commodity_standardized3_fr","commodity_standardized4_fr","taxe_amount01","taxe_amount02","taxe_amount03","tonnage","tonnage_unit","tonnage_class","ship_flag_standardized_fr"
+Rochefort,1789-11-26,Hull,Angleterre,Grande-Bretagne,Hull,,Eau-de-vie,Graines de lin,Graines de lin,Graines de lin,480,0,0,"153",tx,[101-200],britannique
+Tonnay-Charente,1789-07-14,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"133",tx,[101-200],britannique
+Ars-en-Ré,1789-06-19,Berwick,Angleterre,Grande-Bretagne,Leith,,Sel,,,,480,0,0,"65",tx,[51-100],britannique
+Ars-en-Ré,1789-02-14,Bideford,Angleterre,Grande-Bretagne,Bideford,,Sel,,,,480,0,0,"150",tx,[101-200],britannique
+Ars-en-Ré,1789-04-21,Bideford,Angleterre,Grande-Bretagne,Bideford,,Sel,,,,480,0,0,"113",tx,[101-200],britannique
+Tonnay-Charente,1789-09-15,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-09-23,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"85",tx,[51-100],britannique
+Tonnay-Charente,1789-10-12,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200],britannique
+Ars-en-Ré,1789-03-16,Dartmouth,Angleterre,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"250",tx,[201-500],britannique
+Ars-en-Ré,1789-03-09,Dartmouth,Angleterre,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"90",tx,[51-100],britannique
+Ars-en-Ré,1789-01-31,Dartmouth,Angleterre,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"70",tx,[51-100],britannique
+Tonnay-Charente,1789-04-29,Londres,Angleterre,Grande-Bretagne,Sunderland,,,,,,480,0,0,"74",tx,[51-100],britannique
+Tonnay-Charente,1789-04-01,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-01-23,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-10-17,Londres,Angleterre,Grande-Bretagne,Sunderland,,,,,,480,0,0,"85",tx,[51-100],britannique
+Tonnay-Charente,1789-10-21,Londres,Angleterre,Grande-Bretagne,Hull,,,,,,480,0,0,"102",tx,[101-200],britannique
+Tonnay-Charente,1789-11-21,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200],britannique
+Tonnay-Charente,1789-11-27,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Ars-en-Ré,1789-07-09,Exeter,Angleterre,Grande-Bretagne,Exeter,,Sel,,,,480,0,0,"45",tx,[21-50],britannique
+Tonnay-Charente,1789-07-18,Hull,Angleterre,Grande-Bretagne,Hull,,,,,,480,0,0,"196",tx,[101-200],britannique
+Tonnay-Charente,1789-05-09,Hull,Angleterre,Grande-Bretagne,Harwich,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-03-21,Londres,Angleterre,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"80",tx,[51-100],britannique
+Marennes,1789-01-22,Londres,Angleterre,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"179",tx,[101-200],britannique
+Marennes,1789-07-24,Newcastle,Angleterre,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"404",tx,[201-500],britannique
+La Rochelle,1789-07-06,Newcastle,Angleterre,Grande-Bretagne,Newcastle,,,,,,480,0,0,"290",tx,[201-500],britannique
+Tonnay-Charente,1789-12-23,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200],britannique
+Ars-en-Ré,1789-04-30,Portsmouth,Angleterre,Grande-Bretagne,Portsmouth,,Sel,,,,480,0,0,"240",tx,[201-500],britannique
+Saint-Martin-de-Ré,1789-03-15,Plymouth,Angleterre,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"160",tx,[101-200],britannique
+Tonnay-Charente,1789-03-21,Londres,Angleterre,Grande-Bretagne,Dublin,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-02-19,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"125",tx,[101-200],britannique
+Tonnay-Charente,1789-05-09,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"114",tx,[101-200],britannique
+Tonnay-Charente,1789-05-25,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200],britannique
+Tonnay-Charente,1789-06-09,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-07-01,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200],britannique
+Tonnay-Charente,1789-07-14,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-07-29,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200],britannique
+Tonnay-Charente,1789-08-24,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200],britannique
+Tonnay-Charente,1789-08-28,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200],britannique
+Ars-en-Ré,1789-02-22,Penzance,Angleterre,,,,Sel,,,,480,0,0,"150",tx,[101-200],britannique
+Ars-en-Ré,1789-02-09,Poole,Angleterre,,,,Sel,,,,480,0,0,"100",tx,[51-100],britannique
+La Rochelle,1789-09-16,Liverpool,Angleterre,Grande-Bretagne,Hull,,,,,,480,0,0,"110",tx,[101-200],britannique
+Tonnay-Charente,1789-02-27,Liverpool,Angleterre,Grande-Bretagne,Liverpool,,,,,,480,0,0,"77",tx,[51-100],britannique
+Tonnay-Charente,1789-04-03,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200],britannique
+Tonnay-Charente,1789-12-19,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-06-09,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"85",tx,[51-100],britannique
+Tonnay-Charente,1789-12-18,Londres,Angleterre,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"100",tx,[51-100],britannique
+La Rochelle,1789-11-13,Newcastle,Angleterre,Grande-Bretagne,Newcastle,,,,,,480,0,0,"260",tx,[201-500],britannique
+Tonnay-Charente,1789-12-14,Londres,Angleterre,Grande-Bretagne,Guernesey,,,,,,480,0,0,"82",tx,[51-100],britannique
+Ars-en-Ré,1789-07-08,Ilfracombe,Angleterre,Grande-Bretagne,Ilfracombe,,,,,,480,0,0,"150",tx,[101-200],britannique
+Tonnay-Charente,1789-09-09,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+La Rochelle,1789-09-29,Liverpool,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200],britannique
+Ars-en-Ré,1789-02-13,Poole,Angleterre,,,,Sel,,,,480,0,0,"160",tx,[101-200],britannique
+Saint-Martin-de-Ré,1789-02-16,Angleterre,Angleterre,Grande-Bretagne,Topsham,,Sel,,,,480,0,0,"120",tx,[101-200],britannique
+La Rochelle,1789-09-21,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"165",tx,[101-200],britannique
+Tonnay-Charente,1789-02-13,Londres,Angleterre,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-05-09,Hull,Angleterre,Grande-Bretagne,Hull,,,,,,480,0,0,"66",tx,[51-100],britannique
+Rochefort,1789-03-28,Newcastle,Angleterre,Grande-Bretagne,Newcastle,,Eau-de-vie,,,,360,0,0,"136",tx,[101-200],britannique
+Rochefort,1789-04-06,Newcastle,Angleterre,Grande-Bretagne,Newcastle,,Eau-de-vie,,,,480,0,0,"128",tx,[101-200],britannique
+Rochefort,1789-06-26,Liverpool,Angleterre,Grande-Bretagne,Liverpool,,Eau-de-vie,,,,360,0,0,"123",tx,[101-200],britannique
+Tonnay-Charente,1789-01-22,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200],britannique
+Saint-Martin-de-Ré,1789-06-11,Chichester,Angleterre,Grande-Bretagne,Chichester,,Sel,,,,480,0,0,"47",tx,[21-50],britannique
+Tonnay-Charente,1789-04-11,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200],britannique
+Tonnay-Charente,1789-02-19,Londres,Angleterre,Grande-Bretagne,Yarmouth,,,,,,480,0,0,"120",tx,[101-200],britannique
+Tonnay-Charente,1789-01-30,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200],britannique
+Rochefort,1789-02-10,Bristol,Angleterre,Grande-Bretagne,Bristol,,Eau-de-vie,,,,480,0,0,"145",tx,[101-200],britannique
+Rochefort,1789-05-05,Bristol,Angleterre,Grande-Bretagne,Bristol,,Eau-de-vie,,,,480,0,0,"110",tx,[101-200],britannique
+Mortagne,1789-08-25,Bristol,Angleterre,Grande-Bretagne,Bristol,,Eau-de-vie,Vin,Vin,Vin,480,7 812,0,"93",tx,[51-100],britannique
+Saint-Martin-de-Ré,1789-07-08,île de Man,Angleterre,Grande-Bretagne,île de Man,,Sel,,,,480,0,0,"70",tx,[51-100],britannique
+Saint-Martin-de-Ré,1789-04-01,Plymouth,Angleterre,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"100",tx,[51-100],britannique
+Ars-en-Ré,1789-03-11,Teignmouth,Angleterre,Grande-Bretagne,Teignmouth,,Sel,,,,480,0,0,"100",tx,[51-100],britannique
+Ars-en-Ré,1789-01-21,Teignmouth,Angleterre,Grande-Bretagne,Teignmouth,,Sel,,,,480,0,0,"110",tx,[101-200],britannique
+Tonnay-Charente,1789-04-25,Londres,Angleterre,Grande-Bretagne,Leith,,,,,,480,0,0,"114",tx,[101-200],britannique
+Ars-en-Ré,1789-02-22,Dartmouth,Angleterre,Grande-Bretagne,Dartmouth,,Sel,,,,480,0,0,"150",tx,[101-200],britannique
+Ars-en-Ré,1789-02-16,Teignmouth,Angleterre,Grande-Bretagne,Teignmouth,,Sel,,,,480,0,0,"90",tx,[51-100],britannique
+Tonnay-Charente,1789-03-12,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"85",tx,[51-100],britannique
+Tonnay-Charente,1789-03-20,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"100",tx,[51-100],britannique
+Tonnay-Charente,1789-05-19,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"105",tx,[101-200],britannique
+Tonnay-Charente,1789-10-03,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"113",tx,[101-200],britannique
+Tonnay-Charente,1789-02-06,Hull,Angleterre,Grande-Bretagne,Hull,,,,,,480,0,0,"100",tx,[51-100],britannique
+Saint-Martin-de-Ré,1789-07-02,Yarmouth,Angleterre,Grande-Bretagne,Yarmouth,,Sel,,,,480,0,0,"70",tx,[51-100],britannique
+Ars-en-Ré,1789-07-08,Yarmouth,Angleterre,Grande-Bretagne,Yarmouth,,Sel,,,,480,0,0,"90",tx,[51-100],britannique
+Tonnay-Charente,1789-06-20,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"150",tx,[101-200],britannique
+La Rochelle,1789-08-11,Newcastle,Angleterre,Grande-Bretagne,Newcastle,,,,,,480,0,0,"110",tx,[101-200],britannique
+Tonnay-Charente,1789-03-12,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"110",tx,[101-200],britannique
+Tonnay-Charente,1789-05-04,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"133",tx,[101-200],britannique
+Tonnay-Charente,1789-10-20,Londres,Angleterre,Grande-Bretagne,Londres,,,,,,480,0,0,"115",tx,[101-200],britannique
+Marennes,1789-08-26,Appledore,Angleterre,Grande-Bretagne,Appledore,,Lest,,,,480,0,0,"150",tx,[101-200],britannique
+Rochefort,1789-05-06,Hull,Angleterre,Grande-Bretagne,Hull,,Eau-de-vie,,,,480,0,0,"153",tx,[101-200],britannique
+Rochefort,1789-12-23,Hull,Angleterre,Grande-Bretagne,Bristol,,Eau-de-vie,,,,480,0,0,"110",tx,[101-200],britannique
+Saint-Martin-de-Ré,1789-01-29,Southampton,Angleterre,Grande-Bretagne,Southampton,,Lest,,,,480,0,0,"120",tx,[101-200],britannique
+Rochefort,1789-08-20,Hull,Angleterre,Grande-Bretagne,Hull,,Graines de lin,Eau-de-vie,Eau-de-vie,Eau-de-vie,480,0,0,"150",tx,[101-200],britannique
+Ars-en-Ré,1789-08-06,colonies anglaises [en Amérique],colonies britanniques d'Amérique,France,Saint-Jean-de-Luz ,Guyenne,,,,,1 800,0,0,"210",tx,[201-500],français
+Saint-Martin-de-Ré,1789-03-19,"Terre-Neuve, île de",colonies britanniques d'Amérique,,,,Sel,,,,1 800,0,0,"158",tx,[101-200],britannique
+Rochefort,1789-03-07,Cap-Français,colonies françaises d'Amérique,France,Rochefort,Aunis,Poudre à canon,,,,1 800,0,0,"160",tx,[101-200],français
+La Rochelle,1789-02-13,Martinique,colonies françaises d'Amérique,France,La Rochelle,Aunis,,,,,1 800,0,0,"400",tx,[201-500],français
+La Rochelle,1789-08-06,Cap-Français,colonies françaises d'Amérique,France,La Rochelle,Aunis,,,,,1 800,0,0,"250",tx,[201-500],français
+La Rochelle,1789-04-10,Saint-Pierre-et-Miquelon,colonies françaises d'Amérique,France,La Rochelle,Aunis,,,,,1 800,0,0,"150",tx,[101-200],français
+La Rochelle,1789-12-02,Gonaïves,colonies françaises d'Amérique,France,La Rochelle,Aunis,,,,,1 800,0,0,"240",tx,[201-500],français
+La Rochelle,1789-07-11,Saint-Pierre-et-Miquelon,colonies françaises d'Amérique,France,La Rochelle,Aunis,,,,,1 800,0,0,"210",tx,[201-500],français
+La Rochelle,1789-03-16,Saint-Pierre-et-Miquelon,colonies françaises d'Amérique,France,La Rochelle,Aunis,Pêche à la morue,,,,1 800,0,0,"90",tx,[51-100],français
+Ars-en-Ré,1789-04-21,Colonies françaises en Amérique,colonies françaises d'Amérique,France,Le Conquet,Bretagne,Sel,,,,1 800,0,0,"70",tx,[51-100],français
+La Rochelle,1789-04-22,Saint-Pierre-et-Miquelon,colonies françaises d'Amérique,France,La Rochelle,Aunis,Pêche à la morue,,,,1 800,0,0,"200",tx,[101-200],français
+La Rochelle,1789-04-06,Saint-Pierre-et-Miquelon,colonies françaises d'Amérique,France,La Rochelle,Aunis,Pêche à la morue,,,,1 800,0,0,"50",tx,[21-50],français
+La Rochelle,1789-05-09,île Bourbon / île de la Réunion,colonies françaises en Asie,France,La Rochelle,Aunis,,,,,1 800,0,0,"500",tx,[201-500],français
+Rochefort,1789-01-01,Côte d'Angole,colonies portugaises d'Afrique,France,Rochefort,Aunis,Marchandises permises,,,,1 800,0,0,"614",tx,[501 et plus],français
+La Rochelle,1789-04-06,Côte d'Angole,colonies portugaises d'Afrique,France,La Rochelle,Aunis,,,,,1 800,0,0,"584",tx,[501 et plus],français
+Ars-en-Ré,1789-05-12,Dundee,Ecosse,Grande-Bretagne,Dundee,,Vin,Sel,Sel,Sel,480,0,0,"74",tx,[51-100],britannique
+Mortagne,1789-05-13,Newton,Ecosse,Grande-Bretagne,Newton,,Vin,Eau-de-vie,Eau-de-vie,Eau-de-vie,3 780,480,0,"45",tx,[21-50],britannique
+Noirmoutier,1789-06-27,Greenock,Ecosse,Grande-Bretagne,Greenock,,Sel,,,,480,0,0,"76",tx,[51-100],britannique
+Ars-en-Ré,1789-01-21,Saltcoats,Ecosse,Grande-Bretagne,Saltcoats,,Sel,,,,480,0,0,"90",tx,[51-100],britannique
+Ars-en-Ré,1789-07-03,Lemmer,Frise,France,Le Conquet,Bretagne,,,,,480,0,0,"180",tx,[101-200],hollandais
+Marennes,1789-08-07,Harlingen,Frise,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"188",tx,[101-200],hollandais
+Marennes,1789-06-03,Harlingen,Frise,,,,Sel,,,,480,0,0,"229",tx,[201-500],hollandais
+Marennes,1789-06-04,Harlingen,Frise,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"188",tx,[101-200],hollandais
+Ars-en-Ré,1789-07-30,Harlingen,Frise,Provinces-Unies,Harlingen,,Sel,,,,480,0,0,"220",tx,[201-500],hollandais
+Marennes,1789-04-02,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"210",tx,[201-500],hollandais
+La Rochelle,1789-05-11,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,,,,,480,0,0,"220",tx,[201-500],hollandais
+Marennes,1789-06-20,Amsterdam,Hollande,,,,Sel,,,,480,0,0,"176",tx,[101-200],
+La Rochelle,1789-10-08,Amsterdam,Hollande,,pas identifié,,,,,,480,0,0,"60",tx,[51-100],hollandais
+La Rochelle,1789-07-17,Amsterdam,Hollande,Provinces-Unies,Oude Pekela,,,,,,480,0,0,"60",tx,[51-100],hollandais
+Saint-Martin-de-Ré,1789-08-12,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Lest,,,,480,0,0,"150",tx,[101-200],hollandais
+Ars-en-Ré,1789-02-09,Amsterdam,Hollande,,,,Sel,,,,480,0,0,"300",tx,[201-500],hollandais
+Marennes,1789-08-08,Rotterdam,Hollande,Provinces-Unies,Groningue,,Sel,,,,480,0,0,"134",tx,[101-200],hollandais
+Marennes,1789-04-17,Rotterdam,Hollande,,,,Sel,,,,480,0,0,"217",tx,[201-500],papenbourgeois
+Marennes,1789-07-29,Rotterdam,Hollande,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"99",tx,[51-100],britannique
+Marennes,1789-04-27,Rotterdam,Hollande,Grande-Bretagne,Plymouth,,Sel,,,,480,0,0,"96",tx,[51-100],britannique
+Marennes,1789-04-23,Rotterdam,Hollande,Prusse,Emden,,Sel,,,,480,0,0,"152",tx,[101-200],prussien
+Marennes,1789-07-21,Dordrecht ,Hollande,Provinces-Unies,Dort,,Sel,,,,480,0,0,"89",tx,[51-100],hollandais
+La Rochelle,1789-09-01,Amsterdam,Hollande,,,,,,,,480,0,0,"110",tx,[101-200],hollandais
+La Rochelle,1789-09-01,Noordwijk ,Hollande,Danemark,Arendal,,,,,,480,0,0,"100",tx,[51-100],danois
+Ars-en-Ré,1789-05-20,Amsterdam,Hollande,,,,Sel,,,,480,0,0,"80",tx,[51-100],hollandais
+Marennes,1789-08-31,Dordrecht ,Hollande,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"252",tx,[201-500],britannique
+Marennes,1789-07-24,Dordrecht ,Hollande,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"213",tx,[201-500],hollandais
+Marennes,1789-05-20,Dordrecht ,Hollande,Provinces-Unies,Groningue,,Sel,,,,480,0,0,"107",tx,[101-200],hollandais
+Marennes,1789-05-15,Dordrecht ,Hollande,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"253",tx,[201-500],britannique
+Tonnay-Charente,1789-02-14,Rotterdam,Hollande,France,Cherbourg,Normandie,Eau-de-vie,,,,480,0,0,"44",tx,[21-50],français
+Ars-en-Ré,1789-07-08,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"220",tx,[201-500],hollandais
+Ars-en-Ré,1789-07-30,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"300",tx,[201-500],hollandais
+Ars-en-Ré,1789-10-16,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"701",tx,[501 et plus],hollandais
+Marennes,1789-07-13,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"172",tx,[101-200],hollandais
+Marennes,1789-09-05,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"180",tx,[101-200],hollandais
+Saint-Martin-de-Ré,1789-04-10,Amsterdam,Hollande,France,Honfleur,Normandie,Café,Sucre,Sucre,Sucre,360,0,0,"152",tx,[101-200],français
+Marennes,1789-01-27,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Vin,,,,480,0,0,"150",tx,[101-200],hollandais
+Marennes,1789-05-28,Amsterdam,Hollande,France,Saint-Valery-sur-Somme,Picardie,Vin,,,,480,0,0,"75",tx,[51-100],français
+Saint-Martin-de-Ré,1789-02-14,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Vinatérie,,,,480,0,0,"150",tx,[101-200],hollandais
+Saint-Martin-de-Ré,1789-02-28,Amsterdam,Hollande,Provinces-Unies,Amsterdam,,Vinatérie,,,,480,0,0,"100",tx,[51-100],hollandais
+Saint-Martin-de-Ré,1789-04-26,Amsterdam,Hollande,Provinces-Unies,Frise,,Vinatérie,,,,480,0,0,"60",tx,[51-100],hollandais
+Rochefort,1789-09-23,Amsterdam,Hollande,France,Rochefort,Aunis,Vide,,,,360,0,0,"60",tx,[51-100],français
+Marennes,1789-08-11,Rotterdam,Hollande,,pas identifié,,Sel,,,,480,0,0,"95",tx,[51-100],
+Tonnay-Charente,1789-06-05,Guernesey,Iles anglo-normandes,Grande-Bretagne,Guernesey,,,,,,480,0,0,"44",tx,[21-50],britannique
+Tonnay-Charente,1789-02-27,Guernesey,Iles anglo-normandes,Grande-Bretagne,Guernesey,,,,,,480,0,0,"142",tx,[101-200],britannique
+Ars-en-Ré,1789-01-27,Guernesey,Iles anglo-normandes,France,Ars-en-Ré,Aunis,Eau-de-vie,,,,480,0,0,"45",tx,[21-50],français
+Tonnay-Charente,1789-03-17,Guernesey,Iles anglo-normandes,Grande-Bretagne,Guernesey,,,,,,480,0,0,"85",tx,[51-100],britannique
+La Flotte-en-Ré,1789-02-10,Guernesey,Iles anglo-normandes,France,La Flotte-en-Ré,Aunis,Eau-de-vie,Lest,Lest,Lest,240,0,0,"40",tx,[21-50],français
+Tonnay-Charente,1789-04-04,Guernesey,Iles anglo-normandes,Grande-Bretagne,Guernesey,,,,,,480,0,0,"50",tx,[21-50],britannique
+Rochefort,1789-07-01,Madère,îles atlantiques portugaises,Grande-Bretagne,Londres,,Eau-de-vie,,,,1 800,0,0,"106",tx,[101-200],britannique
+Tonnay-Charente,1789-09-12,Madère,îles atlantiques portugaises,Grande-Bretagne,Cowes,,,,,,1 800,0,0,"47",tx,[21-50],britannique
+Rochefort,1789-08-14,Waterford,Irlande,Grande-Bretagne,Waterford,,Vide,,,,480,0,0,"50",tx,[21-50],britannique
+Saint-Martin-de-Ré,1789-05-12,Waterford,Irlande,Grande-Bretagne,Portsmouth,,Sel,,,,480,0,0,"108",tx,[101-200],britannique
+Marennes,1789-07-07,Galway,Irlande,Grande-Bretagne,Galway,,Sel,,,,480,0,0,"50",tx,[21-50],britannique
+Saint-Martin-de-Ré,1789-07-28,Cork,Irlande,,pas identifié,,Sel,,,,480,0,0,"25",tx,[21-50],britannique
+Ars-en-Ré,1789-02-09,Waterford,Irlande,Grande-Bretagne,Topsham,,Sel,,,,480,0,0,"150",tx,[101-200],britannique
+Ars-en-Ré,1789-02-09,Cork,Irlande,Grande-Bretagne,Greenock,,Sel,,,,480,0,0,"240",tx,[201-500],britannique
+Saint-Martin-de-Ré,1789-04-01,Cork,Irlande,Grande-Bretagne,Cork,,Sel,,,,480,0,0,"40",tx,[21-50],britannique
+Marennes,1789-09-07,Baltimore,Maryland,Provinces-Unies,Amsterdam,,Sel,,,,1 800,0,0,"262",tx,[201-500],hollandais
+Ars-en-Ré,1789-01-27,Georgetown,Maryland,Etats-Unis d'Amérique,Georgetown,,Sel,Vinatérie,Vinatérie,Vinatérie,1 800,0,0,"100",tx,[51-100],étasunien
+Ars-en-Ré,1789-06-16,Georgetown,Maryland,Etats-Unis d'Amérique,Georgetown,,Sel,,,,480,0,0,"250",tx,[201-500],étasunien
+Saint-Martin-de-Ré,1789-09-09,Baltimore,Maryland,Grande-Bretagne,Liverpool,,Sel,,,,1 800,0,0,"243",tx,[201-500],britannique
+Ars-en-Ré,1789-08-01,Gloucester,Massachussets,Etats-Unis d'Amérique,Gloucester,,Sel,,,,480,0,0,"150",tx,[101-200],étasunien
+Ars-en-Ré,1789-04-11,Gloucester,Massachussets,Etats-Unis d'Amérique,Gloucester,,Sel,,,,480,0,0,"50",tx,[21-50],étasunien
+Ars-en-Ré,1789-09-25,Boston,Massachussets,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"74",tx,[51-100],étasunien
+Saint-Martin-de-Ré,1789-08-26,Boston,Massachussets,Etats-Unis d'Amérique,Boston,,Eau-de-vie,,,,1 800,0,0,"120",tx,[101-200],étasunien
+Noirmoutier,1789-08-11,Boston,Massachussets,Etats-Unis d'Amérique,Boston,,Sel,,,,480,0,0,"100",tx,[51-100],étasunien
+Ars-en-Ré,1789-05-15,Newburyport,Massachussets,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,"75",tx,[51-100],étasunien
+Ars-en-Ré,1789-05-28,Newburyport,Massachussets,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,"80",tx,[51-100],étasunien
+Ars-en-Ré,1789-06-16,Boston,Massachussets,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"60",tx,[51-100],étasunien
+Ars-en-Ré,1789-05-28,Newburyport,Massachussets,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,"80",tx,[51-100],étasunien
+Saint-Martin-de-Ré,1789-06-13,Newburyport,Massachussets,Etats-Unis d'Amérique,Newburyport,,Sel,,,,1 800,0,0,,tx,,étasunien
+Ars-en-Ré,1789-05-20,Marblehead,Massachussets,Etats-Unis d'Amérique,Marblehead,,Sel,,,,480,0,0,"55",tx,[51-100],étasunien
+Ars-en-Ré,1789-07-08,Gloucester,Massachussets,Etats-Unis d'Amérique,Gloucester,,Sel,,,,480,0,0,"55",tx,[51-100],étasunien
+Saint-Martin-de-Ré,1789-04-11,Boston,Massachussets,,,,Sel,,,,1 800,0,0,"270",tx,[201-500],étasunien
+Ars-en-Ré,1789-02-27,Barnstable,Massachussets,Etats-Unis d'Amérique,Barnstable,,Sel,,,,480,0,0,"76",tx,[51-100],étasunien
+Ars-en-Ré,1789-06-20,Boston,Massachussets,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"80",tx,[51-100],étasunien
+Ars-en-Ré,1789-09-25,Boston,Massachussets,Etats-Unis d'Amérique,Boston,,Sel,,,,1 800,0,0,"54",tx,[51-100],étasunien
+Saint-Martin-de-Ré,1789-09-17,New York,New York,Etats-Unis d'Amérique,Caroline,,Sel,,,,1 800,0,0,"90",tx,[51-100],étasunien
+Saint-Martin-de-Ré,1789-05-03,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Ars-en-Ré,1789-06-19,Holmestrand,Norvège,Danemark,Holmestrand,,Sel,,,,480,0,0,"126",tx,[101-200],danois
+Ars-en-Ré,1789-04-30,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"230",tx,[201-500],danois
+Ars-en-Ré,1789-08-21,Kristiansand ,Norvège,Danemark,Kristiansand ,,Sel,,,,480,0,0,"112",tx,[101-200],danois
+Ars-en-Ré,1789-11-23,Farsund,Norvège,Danemark,Farsund,,Sel,,,,480,0,0,"45",tx,[21-50],danois
+Ars-en-Ré,1789-08-27,Moss,Norvège,Danemark,Moss,,Sel,,,,480,0,0,"130",tx,[101-200],danois
+Noirmoutier,1789-07-19,Norvège,Norvège,Danemark,Norvège,,Sel,,,,480,0,0,"300",tx,[201-500],danois
+Saint-Martin-de-Ré,1789-09-09,Flekkefjord ,Norvège,Danemark,Flekkefjord ,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-09-10,Frederikshald / Halden,Norvège,Danemark,Frederikshald / Halden,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Noirmoutier,1789-01-29,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"90",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-04-17,Frederikshald / Halden,Norvège,Danemark,Frederikshald / Halden,,Eau-de-vie,,,,480,0,0,"70",tx,[51-100],danois
+La Flotte-en-Ré,1789-07-11,Stavanger,Norvège,Danemark,Stavanger,,Sel,Planches,Planches,Planches,480,0,0,"100",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-01-26,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-07-01,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"61",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-10-07,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-07-09,Frederikshald / Halden,Norvège,Danemark,Frederikshald / Halden,,Sel,,,,480,0,0,"114",tx,[101-200],danois
+Saint-Martin-de-Ré,1789-06-03,Stavanger,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"45",tx,[21-50],danois
+Saint-Martin-de-Ré,1789-09-04,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"45",tx,[21-50],danois
+Ars-en-Ré,1789-07-15,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"80",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-04-01,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100],danois
+Ars-en-Ré,1789-08-29,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"117",tx,[101-200],danois
+Ars-en-Ré,1789-07-30,Molde,Norvège,Danemark,Molde,,Sel,,,,480,0,0,"105",tx,[101-200],danois
+La Flotte-en-Ré,1789-06-09,Stavanger,Norvège,Danemark,Mandal,,Planches,Sel,Sel,Sel,480,0,0,"150",tx,[101-200],danois
+Ars-en-Ré,1789-07-08,Kristiansund ,Norvège,Danemark,Kristiansund ,,,,,,480,0,0,"50",tx,[21-50],danois
+Saint-Martin-de-Ré,1789-10-07,Frederikshald / Halden,Norvège,Danemark,Frederikshald / Halden,,Eau-de-vie,,,,480,0,0,"120",tx,[101-200],danois
+Saint-Martin-de-Ré,1789-08-10,Molde,Norvège,Danemark,Molde,,Sel,,,,480,0,0,"50",tx,[21-50],danois
+Ars-en-Ré,1789-08-21,Kristiansand ,Norvège,Danemark,Kristiansand ,,Sel,,,,480,0,0,"135",tx,[101-200],danois
+Ars-en-Ré,1789-05-28,Kristiansand ,Norvège,Danemark,Kristiansand ,,Sel,,,,480,0,0,"120",tx,[101-200],danois
+La Flotte-en-Ré,1789-04-01,Kristiansand ,Norvège,Danemark,Kristiansand ,,Sel,Planches,Planches,Planches,480,0,0,"150",tx,[101-200],danois
+La Flotte-en-Ré,1789-04-01,Kristiansand ,Norvège,Danemark,Kristiansand ,,Planches,Sel,Sel,Sel,480,0,0,"100",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-01-28,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"35",tx,[21-50],danois
+Saint-Martin-de-Ré,1789-04-28,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"50",tx,[21-50],danois
+Saint-Martin-de-Ré,1789-05-26,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-09-09,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-10-01,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"60",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-10-17,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Ars-en-Ré,1789-07-22,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"75",tx,[51-100],danois
+Ars-en-Ré,1789-09-25,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Ars-en-Ré,1789-10-08,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"76",tx,[51-100],danois
+Ars-en-Ré,1789-10-08,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"120",tx,[101-200],danois
+Ars-en-Ré,1789-10-08,Bergue ,Norvège,Danemark,Bergue ,,Sel,,,,480,0,0,"150",tx,[101-200],danois
+Saint-Martin-de-Ré,1789-09-10,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-01-01,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"200",tx,[101-200],danois
+Ars-en-Ré,1789-06-04,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"70",tx,[51-100],danois
+La Rochelle,1789-07-08,Norvège,Norvège,Danemark,Christiania / Oslo,,,,,,480,0,0,"150",tx,[101-200],danois
+Saint-Martin-de-Ré,1789-07-02,Norvège,Norvège,Grande-Bretagne,Cork,,Eau-de-vie,,,,480,0,0,"6",tx,[1-20],britannique
+Saint-Martin-de-Ré,1789-10-09,Fredrikstad ,Norvège,Danemark,Frederikshald / Halden,,Sel,,,,480,0,0,"120",tx,[101-200],danois
+Saint-Martin-de-Ré,1789-05-06,Bergue ,Norvège,Grande-Bretagne,Cork,,Eau-de-vie,,,,480,0,0,"14",tx,[1-20],britannique
+La Flotte-en-Ré,1789-10-20,Norvège,Norvège,Danemark,Kristiansand ,,Sel,Planches,Planches,Planches,480,0,0,"100",tx,[51-100],danois
+Saint-Martin-de-Ré,1789-05-01,Stavanger,Norvège,Danemark,Stavanger,,Sel,,,,480,0,0,"80",tx,[51-100],danois
+Ars-en-Ré,1789-09-02,Holmestrand,Norvège,Danemark,Holmestrand,,Sel,,,,480,0,0,"126",tx,[101-200],danois
+La Rochelle,1789-04-09,Ostende,Pays-Bas autrichiens,Provinces-Unies,Groningue,,,,,,480,0,0,"80",tx,[51-100],hollandais
+La Rochelle,1789-09-11,Ostende,Pays-Bas autrichiens,France,Rouen,Normandie,,,,,480,0,0,"75",tx,[51-100],français
+La Rochelle,1789-02-23,Bruges,Pays-Bas autrichiens,Provinces-Unies,Harlingen,,,,,,480,0,0,"80",tx,[51-100],hollandais
+La Rochelle,1789-07-15,Bruges,Pays-Bas autrichiens,France,La Rochelle,Aunis,,,,,480,0,0,"22",tx,[21-50],français
+Tonnay-Charente,1789-03-02,Ostende,Pays-Bas autrichiens,France,Port-d'Envaux,Saintonge,,,,,480,0,0,"118",tx,[101-200],français
+Tonnay-Charente,1789-07-09,Ostende,Pays-Bas autrichiens,France,Saint-Savinien,Saintonge,,,,,480,0,0,"80",tx,[51-100],français
+La Rochelle,1789-01-27,Ostende,Pays-Bas autrichiens,Provinces-Unies,Rotterdam,,,,,,480,0,0,"75",tx,[51-100],hollandais
+La Rochelle,1789-06-26,Ostende,Pays-Bas autrichiens,Provinces-Unies,Amsterdam,,,,,,480,0,0,"90",tx,[51-100],hollandais
+La Rochelle,1789-12-18,Ostende,Pays-Bas autrichiens,France,Le Conquet,Bretagne,,,,,480,0,0,"50",tx,[21-50],français
+Tonnay-Charente,1789-05-22,Ostende,Pays-Bas autrichiens,France,Saint-Savinien,Saintonge,,,,,480,0,0,"80",tx,[51-100],français
+La Rochelle,1789-09-24,Bruges,Pays-Bas autrichiens,France,Landerneau,Bretagne,,,,,240,0,0,"40",tx,[21-50],français
+Marennes,1789-06-16,Ostende,Pays-Bas autrichiens,France,Île-aux-Moines,Bretagne,Sel,Vin,Vin,Vin,480,0,0,"62",tx,[51-100],français
+Marennes,1789-07-01,Ostende,Pays-Bas autrichiens,France,Carteret,Normandie,Sel,,,,480,0,0,"81",tx,[51-100],français
+Tonnay-Charente,1789-04-08,Ostende,Pays-Bas autrichiens,France,Bordeaux,Guyenne,,,,,480,0,0,"160",tx,[101-200],français
+Marennes,1789-09-07,Ostende,Pays-Bas autrichiens,France,Saint-Briac,Bretagne,Sel,,,,480,0,0,"91",tx,[51-100],français
+Tonnay-Charente,1789-12-03,Ostende,Pays-Bas autrichiens,France,Cherbourg,Normandie,,,,,480,0,0,"44",tx,[21-50],français
+Ars-en-Ré,1789-06-29,Carmarthen,Pays de Galles,Grande-Bretagne,Carmarthen,,Sel,,,,480,0,0,"72",tx,[51-100],britannique
+La Rochelle,1789-12-18,Philadelphie,Pennsylvanie,France,Rochefort,Aunis,,,,,1 800,0,0,"160",tx,[101-200],français
+Ars-en-Ré,1789-07-30,Philadelphie,Pennsylvanie,Etats-Unis d'Amérique,Philadelphie,,Sel,,,,1 800,0,0,"200",tx,[101-200],étasunien
+Ars-en-Ré,1789-07-08,Rhode Island,Rhode Island,,,,Sel,,,,1 800,0,0,"65",tx,[51-100],étasunien
+Marennes,1789-07-10,Virginie,Virginie,Etats-Unis d'Amérique,"Portsmouth, VA,",,Sel,,,,1 800,0,0,"237",tx,[201-500],étasunien
+Noirmoutier,1789-06-27,Virginie,Virginie,Etats-Unis d'Amérique,Norfolk,,Sel,,,,480,0,0,"52",tx,[51-100],étasunien
+Marennes,1789-04-11,Zierikzee,Zélande,Provinces-Unies,Zierikzee,,Sel,,,,480,0,0,"237",tx,[201-500],hollandais
+Noirmoutier,1789-05-13,Zierikzee,Zélande,Provinces-Unies,Zierikzee,,Sel,,,,480,0,0,"70",tx,[51-100],hollandais
+Noirmoutier,1789-07-07,Königsberg / Kaliningrad,,,,,Sel,,,,480,0,0,"150",tx,[101-200],prussien
+Noirmoutier,1789-06-25,Mer Baltique,,Hambourg,Hambourg,,Sel,,,,480,0,0,"180",tx,[101-200],hambourgeois
+La Flotte-en-Ré,1789-01-24,Alicante,,Danemark,Frederikshald / Halden,,Lest,Planches,Planches,Planches,480,0,0,"200",tx,[101-200],danois
+La Rochelle,1789-09-17,Hambourg,,Hambourg,Hambourg,,,,,,480,0,0,"100",tx,[51-100],hambourgeois
+Rochefort,1789-10-31,Côte d'Afrique [de l'Ouest],,France,Rochefort,Aunis,Marchandises pour la traite négrière,,,,1 800,0,0,"315",tx,[201-500],français
+Rochefort,1789-11-28,Côte d'Or,,France,Rochefort,Aunis,Marchandises pour la traite négrière,,,,1 800,0,0,"230",tx,[201-500],français
+Saint-Martin-de-Ré,1789-08-21,Hambourg,,Grande-Bretagne,Sunderland,,Vin,,,,24,0,0,"150",tx,[101-200],britannique
+La Rochelle,1789-03-06,Grands Bancs de Terre-Neuve,,France,La Rochelle,Aunis,Pêche à la morue,,,,1 800,0,0,"200",tx,[101-200],français
+Ars-en-Ré,1789-06-16,Mer Baltique,,Etats-Unis d'Amérique,Salem,,Sel,,,,480,0,0,"75",tx,[51-100],étasunien
+Noirmoutier,1789-07-24,Mer Baltique,,,,,Sel,,,,480,0,0,"208",tx,[201-500],hollandais
+La Rochelle,1789-04-09,Mer Baltique,,,,,,,,,1 800,0,0,"200",tx,[101-200],danois
+Tonnay-Charente,1789-07-11,Copenhague ,,,,,,,,,1 800,0,0,"98",tx,[51-100],danois
+La Rochelle,1789-01-23,Côte d'Or,,France,La Rochelle,Aunis,,,,,1 800,0,0,"440",tx,[201-500],français
+Noirmoutier,1789-07-27,Mer Baltique,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"223",tx,[201-500],prussien
+Noirmoutier,1789-05-09,Mer Baltique,,,,,Sel,,,,480,0,0,"148",tx,[101-200],hollandais
+Ars-en-Ré,1789-05-01,Mer Baltique,,Mecklenbourg,Ribnitz,,,,,,480,0,0,"340",tx,[201-500],meckelmbourgeois
+Saint-Martin-de-Ré,1789-04-30,Dantzig ,,Pologne,Dantzig ,,Sel,,,,480,0,0,"160",tx,[101-200],polonais
+Saint-Martin-de-Ré,1789-04-12,Königsberg / Kaliningrad,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"290",tx,[201-500],prussien
+Saint-Martin-de-Ré,1789-07-08,Königsberg / Kaliningrad,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"260",tx,[201-500],prussien
+Saint-Martin-de-Ré,1789-10-01,Mer Baltique,,Danemark,Flekkefjord ,,Sel,,,,480,0,0,"65",tx,[51-100],danois
+Ars-en-Ré,1789-05-20,Riga,,Grande-Bretagne,Hull,,Sel,,,,480,0,0,"176",tx,[101-200],britannique
+Rochefort,1789-05-22,"Espagne, undeterminé",,Grande-Bretagne,Liverpool,,Diverses marchandises,,,,1 800,0,0,"100",tx,[51-100],britannique
+Noirmoutier,1789-06-10,Mer Baltique,,Hambourg,Hambourg,,Sel,,,,480,0,0,"180",tx,[101-200],hambourgeois
+Noirmoutier,1789-06-26,Mer Baltique,,,pas identifié,,Sel,,,,480,0,0,"140",tx,[101-200],
+Marennes,1789-08-22,Königsberg / Kaliningrad,,,,,Sel,,,,1 800,0,0,"132",tx,[101-200],
+Noirmoutier,1789-07-08,Königsberg / Kaliningrad,,,,,Sel,,,,480,0,0,"130",tx,[101-200],
+Rochefort,1789-12-09,Setúbal ,,Provinces-Unies,Amsterdam,,Vide,,,,1 800,0,0,"415",tx,[201-500],hollandais
+Marennes,1789-06-22,Lübeck,,Lubeck,Lübeck,,Eau-de-vie,Vin,Vin,Vin,1 800,0,0,"195",tx,[101-200],lubeckois
+Ars-en-Ré,1789-06-16,Dantzig ,,Pologne,Dantzig ,,Sel,,,,480,0,0,"110",tx,[101-200],polonais
+La Rochelle,1789-06-27,Côte d'Or,,France,La Rochelle,Aunis,,,,,1 800,0,0,"92",tx,[51-100],français
+La Rochelle,1789-10-28,Stettin,,,pas identifié,,,,,,480,0,0,"100",tx,[51-100],
+Noirmoutier,1789-06-06,Saint-Sébastien,,France,Noirmoutier,Poitou,Sel,,,,1 800,0,0,"42",tx,[21-50],français
+Saint-Gilles-sur-Vie,1789-04-10,Saint-Sébastien,,France,Vannes,Bretagne,Sel,,,,1 800,0,0,"37",tx,[21-50],français
+La Rochelle,1789-09-29,Côte d'Or,,France,La Rochelle,Aunis,,,,,1 800,0,0,"827",tx,[501 et plus],français
+La Rochelle,1789-04-23,Brême,,Brême,Brême,,,,,,480,0,0,"90",tx,[51-100],brémois
+Marennes,1789-05-09,Saint-Sébastien,,France,île d'Arz,Bretagne,,,,,1 800,0,0,"70",tx,[51-100],français
+La Rochelle,1789-03-16,Stettin,,,,,,,,,480,0,0,"150",tx,[101-200],meckelmbourgeois
+La Rochelle,1789-05-05,Hambourg,,Hambourg,Hambourg,,,,,,480,0,0,"100",tx,[51-100],hambourgeois
+Ars-en-Ré,1789-07-24,Ribnitz,,Mecklenbourg,Ribnitz,,Sel,,,,480,0,0,"150",tx,[101-200],meckelmbourgeois
+Marennes,1789-05-23,Riga,,Grande-Bretagne,Newcastle,,Sel,,,,1 800,0,0,"210",tx,[201-500],britannique
+La Rochelle,1789-11-20,Côte d'Or,,France,La Rochelle,Aunis,,,,,14 400,0,0,"402",tx,[201-500],français
+Marennes,1789-10-07,Pillau / Baltiïsk,,Prusse,Königsberg / Kaliningrad,,Sel,,,,1 800,0,0,"214",tx,[201-500],prussien
+La Rochelle,1789-04-21,Elbing / Elblag,,Provinces-Unies,Amsterdam,,,,,,480,0,0,"120",tx,[101-200],hollandais
+La Rochelle,1789-10-27,Hambourg,,Hambourg,Hambourg,,,,,,480,0,0,"90",tx,[51-100],hambourgeois
+Saint-Martin-de-Ré,1789-08-17,Santander,,France,Lannion,Bretagne,Vin,,,,1 800,0,0,"52",tx,[51-100],français
+Noirmoutier,1789-08-22,Dantzig ,,Pologne,Dantzig ,,Sel,,,,480,0,0,"300",tx,[201-500],polonais
+Noirmoutier,1789-07-08,Mer Baltique,,,,,Sel,,,,480,0,0,"120",tx,[101-200],
+La Rochelle,1789-06-23,Côte d'Or,,France,La Rochelle,Aunis,,,,,1 800,0,0,"809",tx,[501 et plus],français
+Ars-en-Ré,1789-05-01,Mer Baltique,,Prusse,Emden,,,,,,480,0,0,"240",tx,[201-500],prussien
+La Rochelle,1789-10-30,Brême,,Duché d'Oldenbourg,Oldenbourg,,,,,,480,0,0,"120",tx,[101-200],oldenbourgeois
+La Rochelle,1789-09-07,Brême,,Brême,Brême,,,,,,480,0,0,"60",tx,[51-100],brémois
+La Rochelle,1789-04-10,Brême,,Brême,Brême,,,,,,480,0,0,"130",tx,[101-200],brémois
+La Rochelle,1789-05-23,Brême,,Duché d'Oldenbourg,Oldenbourg,,,,,,480,0,0,"120",tx,[101-200],oldenbourgeois
+La Rochelle,1789-09-02,Côte d'Or,,France,La Rochelle,Aunis,,,,,1 800,0,0,"125",tx,[101-200],français
+La Rochelle,1789-06-30,Côte d'Or,,France,La Rochelle,Aunis,,,,,1 800,0,0,"517",tx,[501 et plus],français
+La Rochelle,1789-06-27,Côte d'Or,,France,La Rochelle,Aunis,,,,,12 000,0,0,"129",tx,[101-200],français
+Ars-en-Ré,1789-04-30,Mer Baltique,,Provinces-Unies,Amsterdam,,Sel,,,,480,0,0,"130",tx,[101-200],hollandais
+Marennes,1789-05-20,Lübeck,,Lubeck,Lübeck,,Sel,,,,1 800,0,0,"174",tx,[101-200],lubeckois
+Ars-en-Ré,1789-05-28,Mer Baltique,,Provinces-Unies,Hollande,,Sel,,,,480,0,0,"200",tx,[101-200],hollandais
+Ars-en-Ré,1789-08-06,Mer Baltique,,Prusse,Memel,,Sel,,,,480,0,0,"200",tx,[101-200],prussien
+Noirmoutier,1789-04-08,Mer Baltique,,Brême,Brême,,Sel,,,,480,0,0,"170",tx,[101-200],brémois
+Ars-en-Ré,1789-04-30,Memel,,Prusse,Memel,,Sel,,,,480,0,0,"450",tx,[201-500],prussien
+La Rochelle,1789-06-27,Côte d'Or,,France,La Rochelle,Aunis,,,,,0,0,0,"529",tx,[501 et plus],français
+Noirmoutier,1789-07-08,Königsberg / Kaliningrad,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"200",tx,[101-200],prussien
+Noirmoutier,1789-07-09,Königsberg / Kaliningrad,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"100",tx,[51-100],prussien
+Marennes,1789-08-04,Königsberg / Kaliningrad,,Prusse,Königsberg / Kaliningrad,,Sel,,,,1 800,0,0,"236",tx,[201-500],prussien
+Noirmoutier,1789-08-06,Königsberg / Kaliningrad,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"292",tx,[201-500],prussien
+Noirmoutier,1789-08-10,Königsberg / Kaliningrad,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"190",tx,[101-200],prussien
+Marennes,1789-08-13,Königsberg / Kaliningrad,,Prusse,Emden,,Sel,,,,1 800,0,0,"197",tx,[101-200],prussien
+Marennes,1789-08-14,Königsberg / Kaliningrad,,Provinces-Unies,Middelbourg,,Sel,,,,1 800,0,0,"189",tx,[101-200],hollandais
+Marennes,1789-08-26,Königsberg / Kaliningrad,,Provinces-Unies,Amsterdam,,Sel,,,,1 800,0,0,"175",tx,[101-200],hollandais
+La Rochelle,1789-08-01,Hambourg,,Hambourg,Hambourg,,,,,,480,0,0,"120",tx,[101-200],hambourgeois
+La Rochelle,1789-03-27,Hambourg,,Hambourg,Hambourg,,,,,,480,0,0,"120",tx,[101-200],hambourgeois
+Marennes,1789-04-02,Mer Baltique,,Provinces-Unies,Frise,,,,,,1 800,0,0,,,,hollandais
+Rochefort,1789-12-09,Barcelone,,Provinces-Unies,Amsterdam,,Vide,,,,1 800,0,0,"630",tx,[501 et plus],hollandais
+Rochefort,1789-10-17,Memel,,Prusse,Memel,,Vide,,,,480,0,0,"200",tx,[101-200],prussien
+La Flotte-en-Ré,1789-04-07,Brême,,Brême,Brême,,Vinatérie,Lest,Lest,Lest,480,0,0,"115",tx,[101-200],brémois
+Marennes,1789-04-11,Lübeck,,Lubeck,Lübeck,,Eau-de-vie,Vin,Vin,Vin,1 800,0,0,"181",tx,[101-200],lubeckois
+Marennes,1789-07-21,Lübeck,,Lubeck,Lübeck,,Vinaigre,Vin,Vin,Vin,1 800,0,0,"156",tx,[101-200],lubeckois
+Marennes,1789-05-05,Lübeck,,Lubeck,Lübeck,,Vin,Vinaigre,Vinaigre,Vinaigre,1 800,0,0,"160",tx,[101-200],lubeckois
+Saint-Martin-de-Ré,1789-05-29,Lübeck,,Lubeck,Lübeck,,Vinaigre,,,,480,0,0,"174",tx,[101-200],lubeckois
+Marennes,1789-07-31,Lübeck,,Duché de Mecklenbourg,Rostock,,Vin,Eau-de-vie,Eau-de-vie,Eau-de-vie,1 800,0,0,"173",tx,[101-200],meckelmbourgeois
+Marennes,1789-06-02,Lübeck,,Lubeck,Lübeck,,Eau-de-vie,Vin,Vin,Vin,1 800,0,0,"190",tx,[101-200],lubeckois
+Marennes,1789-03-24,Lübeck,,Lubeck,Lübeck,,Vin,Eau-de-vie,Eau-de-vie,Eau-de-vie,1 800,0,0,"194",tx,[101-200],lubeckois
+Marennes,1789-03-30,Stettin,,Provinces-Unies,Oude Pekela,,Vin,,,,1 800,0,0,"121",tx,[101-200],hollandais
+Soubise,1789-04-17,Grands Bancs de Terre-Neuve,,France,Soubise,Aunis,Sel,Pêche à la morue,Pêche à la morue,Pêche à la morue,1 800,0,0,"85",tx,[51-100],français
+Noirmoutier,1789-11-09,Mer Baltique,,Prusse,Memel,,Sel,,,,480,0,0,"200",tx,[101-200],prussien
+Noirmoutier,1789-07-30,Mer Baltique,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"190",tx,[101-200],prussien
+Noirmoutier,1789-07-24,Mer Baltique,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"90",tx,[51-100],prussien
+Noirmoutier,1789-07-24,Mer Baltique,,Pologne,Dantzig ,,Sel,,,,480,0,0,"150",tx,[101-200],polonais
+Noirmoutier,1789-07-11,Mer Baltique,,Pologne,Dantzig ,,Sel,,,,480,0,0,"200",tx,[101-200],polonais
+Noirmoutier,1789-05-09,Mer Baltique,,Prusse,Emden,,Sel,,,,480,0,0,"124",tx,[101-200],prussien
+Noirmoutier,1789-05-09,Mer Baltique,,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"144",tx,[101-200],britannique
+Noirmoutier,1789-07-27,Mer Baltique,,,,,Sel,,,,480,0,0,"200",tx,[101-200],prussien
+Noirmoutier,1789-04-10,Mer Baltique,,Grande-Bretagne,Newcastle,,Sel,,,,480,0,0,"200",tx,[101-200],britannique
+Ars-en-Ré,1789-04-11,Dantzig ,,Pologne,Dantzig ,,Sel,,,,480,0,0,"480",tx,[201-500],polonais
+Ars-en-Ré,1789-07-24,Dantzig ,,Pologne,Dantzig ,,Sel,,,,480,0,0,"440",tx,[201-500],polonais
+Noirmoutier,1789-07-24,Mer Baltique,,Prusse,Königsberg / Kaliningrad,,Sel,,,,480,0,0,"195",tx,[101-200],prussien
+Marennes,1789-08-26,Bilbao,,France,Bordeaux,Guyenne,Sel,,,,1 800,0,0,"156",tx,[101-200],français
+Marennes,1789-08-18,Bilbao,,France,île de Ré,Aunis,Sel,,,,1 800,0,0,"91",tx,[51-100],français
+Marennes,1789-07-09,Bilbao,,Espagne,Plencia,,Sel,,,,1 800,0,0,"42",tx,[21-50],"Espagne, undeterminé"
+Marennes,1789-07-08,Bilbao,,Espagne,Plencia,,Sel,,,,1 800,0,0,"32",tx,[21-50],"Espagne, undeterminé"
+Marennes,1789-05-09,Bilbao,,Espagne,Plencia,,Sel,,,,1 800,0,0,"35",tx,[21-50],"Espagne, undeterminé"
+Saint-Martin-de-Ré,1789-06-26,Biscaye,,,pas identifié,,Sel,,,,1 800,0,0,"45",tx,[21-50],
+Saint-Martin-de-Ré,1789-08-07,Santander,,France,Honfleur,Normandie,Lest,,,,1 800,0,0,"108",tx,[101-200],français
+Saint-Martin-de-Ré,1789-04-06,Hambourg,,Provinces-Unies,Hollande,,Eau-de-vie,,,,480,0,0,"186",tx,[101-200],hollandais
+Saint-Martin-de-Ré,1789-07-21,Lisbonne,,Etats-Unis d'Amérique,New York,,Lest,,,,1 800,0,0,"60",tx,[51-100],étasunien

@@ -52,12 +52,20 @@ def get_navigo_products_by_admiralty(admiralty, year, filter_only_out=True, prod
 
 def write_products_csv_by_classification(products, year, filter_only_out=True):
     filtered = "_only_out" if filter_only_out else ""
-    for classif, ports in products.items():
-        with open(os.path.join(DATADIR, "%s_%s%s.csv" % (classif, year, filtered)), "w") as f:
-            print("port,product,count,year,classification", file=f)
-            for port, elements in ports.items():
-                for product, count in elements.items():
-                    print("%s,%s,%s,%s,%s" % (port, product, count, year, classif), file=f)
+
+    with open(os.path.join(DATADIR, "all_classifications_%s%s.csv" % (classif, year, filtered)), "w") as csvall:
+        print("port,product,count,year,classification", file=csvall)
+        for classif, ports in products.items():
+            with open(os.path.join(DATADIR, "%s_%s%s.csv" % (classif, year, filtered)), "w") as csvone:
+                print("port,product,count,year,classification", file=csvone)
+                for port, elements in ports.items():
+                    for product, count in elements.items():
+                        print("%s,%s,%s,%s,%s" % (port, product, count, year, classif), file=csvone)
+                        print("%s,%s,%s,%s,%s" % (port, product, count, year, classif), file=csvall)
+
+
+def build_bipartite_network(products):
+    pass
 
 
 if __name__ == "__main__":

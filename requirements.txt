@@ -5,3 +5,4 @@ ipysigma
 networkx
 keplergl
 pre-commit
+python-slugify

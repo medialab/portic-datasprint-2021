@@ -86,6 +86,8 @@ and p1.source_doc_id  = p2.source_doc_id
 
 -- les sorties vers l'étranger de DFLR en 1789, avec le sous-etat du homeport
  -- pas les colonies
+ 
+ 
 select 'Aunis-Saintonge-Poitou' as region_depart, 
 p1.pointcall_admiralty as amiraute_depart, p1.toponyme_fr as port_depart, p1.outdate_fixed , 
 p2.toponyme_fr as port_destination, p2.partner_balance_1789, p2.partner_balance_supp_1789,
@@ -101,7 +103,9 @@ and p1.pointcall_province in ('Aunis', 'Saintonge', 'Poitou')
 and extract(year from p1.outdate_fixed) = 1789
 and p2.state_1789_fr != 'France' and (p2.data_block_leader_marker = 'T') 
 and p1.source_doc_id  = p2.source_doc_id 
+
 UNION
+
 -- departs d'ailleurs que DLFR vers Etranger en 1787
 (select p1.pointcall_province as region_depart, p1.pointcall_admiralty as amiraute_depart, p1.toponyme_fr as port_depart, p1.outdate_fixed , 
 p2.toponyme_fr as port_destination, p2.partner_balance_1789, p2.partner_balance_supp_1789,
@@ -118,7 +122,46 @@ and extract(year from p1.outdate_fixed) = 1787
 and p2.state_1789_fr != 'France' and (p2.data_block_leader_marker = 'T') 
 and p1.source_doc_id  = p2.source_doc_id 
 )
- 
+
+
+# Fichier sorties_navires_vers_etranger_mixte_DFLR_ailleurs_tout1787.csv
+
+select 'Aunis-Saintonge-Poitou' as region_depart, p1.pointcall_province as province_depart
+p1.pointcall_admiralty as amiraute_depart, p1.toponyme_fr as port_depart, p1.outdate_fixed , 
+p2.toponyme_fr as port_destination, p2.partner_balance_1789, p2.partner_balance_supp_1789,
+p2.pointcall_province,p2.substate_1789_fr as substate_destination, p2.state_1789_fr as state_destination,
+p1.ship_id, p1.ship_name, p1.captain_name,
+p1.homeport_state_1789_fr , p1.homeport_substate_1789_fr, p1.homeport_toponyme_fr, p1.homeport_province ,
+p1.commodity_standardized_fr , p1.commodity_standardized2_fr, p1.commodity_standardized3_fr , p1.commodity_standardized4_fr,
+p1.taxe_amount01 , p1.taxe_amount02 , p1.taxe_amount03 , 
+p1.tonnage , p1.tonnage_unit , p1.tonnage_class, p1.ship_flag_standardized_fr   
+from navigoviz.pointcall p1, navigoviz.pointcall p2 where
+(p1.pointcall_action = 'Out' or p1.pointcall_action = 'In-Out' )
+and p1.pointcall_province in ('Aunis', 'Saintonge', 'Poitou')
+and extract(year from p1.outdate_fixed) = 1787
+and p2.state_1789_fr != 'France' and (p2.data_block_leader_marker = 'T') 
+and p1.source_doc_id  = p2.source_doc_id 
+
+UNION
+
+-- departs d'ailleurs que DLFR vers Etranger en 1787
+(select p1.pointcall_province as region_depart, p1.pointcall_province as province_depart, 
+p1.pointcall_admiralty as amiraute_depart, p1.toponyme_fr as port_depart, p1.outdate_fixed , 
+p2.toponyme_fr as port_destination, p2.partner_balance_1789, p2.partner_balance_supp_1789,
+p2.pointcall_province,p2.substate_1789_fr as substate_destination, p2.state_1789_fr as state_destination,
+p1.ship_id, p1.ship_name, p1.captain_name,
+p1.homeport_state_1789_fr , p1.homeport_substate_1789_fr, p1.homeport_toponyme_fr, p1.homeport_province ,
+p1.commodity_standardized_fr , p1.commodity_standardized2_fr, p1.commodity_standardized3_fr , p1.commodity_standardized4_fr,
+p1.taxe_amount01 , p1.taxe_amount02 , p1.taxe_amount03 , 
+p1.tonnage , p1.tonnage_unit , p1.tonnage_class, p1.ship_flag_standardized_fr   
+from navigoviz.pointcall p1, navigoviz.pointcall p2 where
+(p1.pointcall_action = 'Out' or p1.pointcall_action = 'In-Out' )
+and p1.pointcall_province not in ('Aunis', 'Saintonge', 'Poitou')
+and extract(year from p1.outdate_fixed) = 1787
+and p2.state_1789_fr != 'France' and (p2.data_block_leader_marker = 'T') 
+and p1.source_doc_id  = p2.source_doc_id 
+)
+
 # Flux en 1789
 
 - Regarder pointcalls et pas flows

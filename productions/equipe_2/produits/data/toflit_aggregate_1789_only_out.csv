@@ -1,0 +1,101 @@
+port,product,count,year,classification
+Marennes,Subsistances,1411,1789,toflit_aggregate
+Marennes,Divers,68,1789,toflit_aggregate
+Marennes,Industrie française et étrangère,14,1789,toflit_aggregate
+Marennes,Matières premières,3,1789,toflit_aggregate
+Saint-Martin-de-Ré,Subsistances,133,1789,toflit_aggregate
+Saint-Martin-de-Ré,Divers,245,1789,toflit_aggregate
+Saint-Martin-de-Ré,Industrie française et étrangère,78,1789,toflit_aggregate
+Saint-Martin-de-Ré,Matières premières,15,1789,toflit_aggregate
+Saint-Martin-de-Ré,Métaux,2,1789,toflit_aggregate
+Ribérou,Matières premières,294,1789,toflit_aggregate
+Ribérou,Industrie française et étrangère,17,1789,toflit_aggregate
+Ribérou,Subsistances,54,1789,toflit_aggregate
+Ribérou,Divers,169,1789,toflit_aggregate
+Marans,Subsistances,266,1789,toflit_aggregate
+Marans,Divers,194,1789,toflit_aggregate
+Marans,Matières premières,178,1789,toflit_aggregate
+Marans,Industrie française et étrangère,48,1789,toflit_aggregate
+Rochefort,Divers,257,1789,toflit_aggregate
+Rochefort,Industrie française et étrangère,49,1789,toflit_aggregate
+Rochefort,Subsistances,67,1789,toflit_aggregate
+Rochefort,Matières premières,24,1789,toflit_aggregate
+Rochefort,Métaux,1,1789,toflit_aggregate
+Moricq,Subsistances,31,1789,toflit_aggregate
+Moricq,Matières premières,83,1789,toflit_aggregate
+Moricq,Industrie française et étrangère,28,1789,toflit_aggregate
+Moricq,Divers,3,1789,toflit_aggregate
+Noirmoutier,Matières premières,20,1789,toflit_aggregate
+Noirmoutier,Subsistances,244,1789,toflit_aggregate
+Noirmoutier,Industrie française et étrangère,12,1789,toflit_aggregate
+Noirmoutier,Divers,10,1789,toflit_aggregate
+Noirmoutier,Drogues,14,1789,toflit_aggregate
+La Perrotine,Subsistances,57,1789,toflit_aggregate
+La Perrotine,Divers,23,1789,toflit_aggregate
+La Perrotine,Industrie française et étrangère,1,1789,toflit_aggregate
+Les Sables-d'Olonne,Industrie française et étrangère,57,1789,toflit_aggregate
+Les Sables-d'Olonne,Subsistances,132,1789,toflit_aggregate
+Les Sables-d'Olonne,Divers,46,1789,toflit_aggregate
+Les Sables-d'Olonne,Matières premières,27,1789,toflit_aggregate
+Les Sables-d'Olonne,Bêtes de somme,32,1789,toflit_aggregate
+Ars-en-Ré,Subsistances,250,1789,toflit_aggregate
+Ars-en-Ré,Divers,45,1789,toflit_aggregate
+Ars-en-Ré,Industrie française et étrangère,1,1789,toflit_aggregate
+Ars-en-Ré,Matières premières,1,1789,toflit_aggregate
+île de Bouin,Subsistances,94,1789,toflit_aggregate
+Beauvoir-sur-Mer,Subsistances,117,1789,toflit_aggregate
+Beauvoir-sur-Mer,Divers,4,1789,toflit_aggregate
+Beauvoir-sur-Mer,Industrie française et étrangère,1,1789,toflit_aggregate
+Saint-Denis d'Oléron,Subsistances,48,1789,toflit_aggregate
+Saint-Denis d'Oléron,Drogues,7,1789,toflit_aggregate
+Saint-Denis d'Oléron,Divers,14,1789,toflit_aggregate
+Saint-Gilles-sur-Vie,Subsistances,79,1789,toflit_aggregate
+Saint-Gilles-sur-Vie,Industrie française et étrangère,3,1789,toflit_aggregate
+Royan,Divers,15,1789,toflit_aggregate
+La Rochelle,Divers,67,1789,toflit_aggregate
+La Rochelle,Industrie française et étrangère,21,1789,toflit_aggregate
+La Rochelle,Subsistances,29,1789,toflit_aggregate
+La Rochelle,Métaux,1,1789,toflit_aggregate
+Ker Châlon,Matières premières,6,1789,toflit_aggregate
+Ker Châlon,Divers,4,1789,toflit_aggregate
+Seudre,Subsistances,5,1789,toflit_aggregate
+Seudre,Divers,1,1789,toflit_aggregate
+La Flotte-en-Ré,Subsistances,6,1789,toflit_aggregate
+La Flotte-en-Ré,Matières premières,1,1789,toflit_aggregate
+La Flotte-en-Ré,Industrie française et étrangère,1,1789,toflit_aggregate
+La Flotte-en-Ré,Divers,1,1789,toflit_aggregate
+La Tremblade,Industrie française et étrangère,1,1789,toflit_aggregate
+La Tremblade,Divers,1,1789,toflit_aggregate
+La Tranche-sur-Mer,Subsistances,53,1789,toflit_aggregate
+La Tranche-sur-Mer,Divers,2,1789,toflit_aggregate
+Tonnay-Charente,Matières premières,21,1789,toflit_aggregate
+Tonnay-Charente,Subsistances,9,1789,toflit_aggregate
+Tonnay-Charente,Industrie française et étrangère,3,1789,toflit_aggregate
+Tonnay-Charente,Divers,19,1789,toflit_aggregate
+Tonnay-Charente,Métaux,1,1789,toflit_aggregate
+Mortagne,Subsistances,5,1789,toflit_aggregate
+Mortagne,Divers,12,1789,toflit_aggregate
+Mortagne,Industrie française et étrangère,1,1789,toflit_aggregate
+Le Château-d'Oléron,Divers,12,1789,toflit_aggregate
+Le Château-d'Oléron,Industrie française et étrangère,1,1789,toflit_aggregate
+Le Château-d'Oléron,Subsistances,3,1789,toflit_aggregate
+Soubise,Divers,5,1789,toflit_aggregate
+Soubise,Industrie française et étrangère,1,1789,toflit_aggregate
+Soubise,Subsistances,6,1789,toflit_aggregate
+île d'Oléron,Subsistances,8,1789,toflit_aggregate
+île d'Oléron,Divers,11,1789,toflit_aggregate
+Saint-Michel-en-l'Herm,Divers,3,1789,toflit_aggregate
+Saint-Michel-en-l'Herm,Subsistances,4,1789,toflit_aggregate
+Saint-Michel-en-l'Herm,Industrie française et étrangère,1,1789,toflit_aggregate
+l'Aiguillon,Divers,3,1789,toflit_aggregate
+l'Aiguillon,Subsistances,3,1789,toflit_aggregate
+l'Aiguillon,Industrie française et étrangère,1,1789,toflit_aggregate
+île d'Yeu,Subsistances,1,1789,toflit_aggregate
+île d'Yeu,Divers,1,1789,toflit_aggregate
+mer des Pertuis,Industrie française et étrangère,1,1789,toflit_aggregate
+mer des Pertuis,Subsistances,1,1789,toflit_aggregate
+Martrou,Matières premières,4,1789,toflit_aggregate
+Le Chapus,Subsistances,1,1789,toflit_aggregate
+Le Chapus,Divers,1,1789,toflit_aggregate
+île de Ré,Subsistances,1,1789,toflit_aggregate
+île de Ré,Divers,1,1789,toflit_aggregate

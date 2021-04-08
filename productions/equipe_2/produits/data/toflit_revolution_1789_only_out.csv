@@ -1,46 +1,69 @@
 port,product,count,year,classification
 La Rochelle,Cargaison inconnue,1003,1789,toflit_revolution
-La Rochelle,Produits inconnus,60,1789,toflit_revolution
-La Rochelle,"Ouvrages de bois, liège et jonc",21,1789,toflit_revolution
-La Rochelle,Sel,1,1789,toflit_revolution
-La Rochelle,Vins divers,17,1789,toflit_revolution
-La Rochelle,Eaux-de-vie et liqueurs,4,1789,toflit_revolution
-La Rochelle,Divers mélangés,4,1789,toflit_revolution
 La Rochelle,Légumes,1,1789,toflit_revolution
 La Rochelle,Sortie pour pêche,7,1789,toflit_revolution
+La Rochelle,Produits inconnus,60,1789,toflit_revolution
 La Rochelle,Fer,1,1789,toflit_revolution
+La Rochelle,Vins divers,17,1789,toflit_revolution
 La Rochelle,Divers incertains,3,1789,toflit_revolution
+La Rochelle,"Ouvrages de bois, liège et jonc",21,1789,toflit_revolution
 La Rochelle,Beurre,1,1789,toflit_revolution
+La Rochelle,Eaux-de-vie et liqueurs,4,1789,toflit_revolution
+La Rochelle,Divers mélangés,4,1789,toflit_revolution
 La Rochelle,Pêche et fruits de mer,1,1789,toflit_revolution
 La Rochelle,"Bière, cidre et vinaigre",4,1789,toflit_revolution
+La Rochelle,Sel,1,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Produits inconnus,3,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
+Saint-Michel-en-l'Herm,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Saint-Michel-en-l'Herm,"Bière, cidre et vinaigre",2,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Blé et autres grains comestibles,1,1789,toflit_revolution
+Marans,"Ouvrages de bois, liège et jonc",46,1789,toflit_revolution
+Marans,Blé et autres grains comestibles,188,1789,toflit_revolution
+Marans,Produits inconnus,194,1789,toflit_revolution
+Marans,"Farine, gruau, biscuits et pâtes",47,1789,toflit_revolution
+Marans,Bois divers hors combustible,153,1789,toflit_revolution
+Marans,Combustibles dont charbons et bois,8,1789,toflit_revolution
+Marans,Subsistances diverses et mélangées,3,1789,toflit_revolution
+Marans,Matières premières diverses,6,1789,toflit_revolution
+Marans,Cargaison inconnue,1,1789,toflit_revolution
+Marans,Vins divers,3,1789,toflit_revolution
+Marans,Légumes,21,1789,toflit_revolution
+Marans,Ouvrages divers et mélangés,2,1789,toflit_revolution
+Marans,Chanvre,8,1789,toflit_revolution
+Marans,Cendres diverses,1,1789,toflit_revolution
+Marans,Graines grasses,1,1789,toflit_revolution
+Marans,Lin,1,1789,toflit_revolution
+Marans,Pêche et fruits de mer,1,1789,toflit_revolution
+Marans,"Bière, cidre et vinaigre",3,1789,toflit_revolution
 Marennes,Sel,1301,1789,toflit_revolution
-Marennes,Produits inconnus,66,1789,toflit_revolution
 Marennes,Cargaison inconnue,19,1789,toflit_revolution
-Marennes,Eaux-de-vie et liqueurs,25,1789,toflit_revolution
 Marennes,Vins divers,64,1789,toflit_revolution
-Marennes,Divers mélangés,2,1789,toflit_revolution
+Marennes,Produits inconnus,66,1789,toflit_revolution
 Marennes,"Ouvrages de bois, liège et jonc",3,1789,toflit_revolution
 Marennes,Chairs et œufs,1,1789,toflit_revolution
+Marennes,Eaux-de-vie et liqueurs,25,1789,toflit_revolution
 Marennes,"Bière, cidre et vinaigre",4,1789,toflit_revolution
 Marennes,"Meubles, glaces et miroirs",3,1789,toflit_revolution
 Marennes,Légumes,8,1789,toflit_revolution
 Marennes,Combustibles dont charbons et bois,2,1789,toflit_revolution
 Marennes,Beurre,5,1789,toflit_revolution
+Marennes,Divers mélangés,2,1789,toflit_revolution
 Marennes,Ouvrages divers et mélangés,8,1789,toflit_revolution
 Marennes,Matières premières diverses,1,1789,toflit_revolution
 Marennes,Pêche et fruits de mer,3,1789,toflit_revolution
 Marennes,Êtres humains,1,1789,toflit_revolution
 Saint-Martin-de-Ré,Sel,49,1789,toflit_revolution
-Saint-Martin-de-Ré,Eaux-de-vie et liqueurs,26,1789,toflit_revolution
 Saint-Martin-de-Ré,Produits inconnus,244,1789,toflit_revolution
-Saint-Martin-de-Ré,"Ouvrages de bois, liège et jonc",74,1789,toflit_revolution
+Saint-Martin-de-Ré,Vins divers,31,1789,toflit_revolution
 Saint-Martin-de-Ré,"Bière, cidre et vinaigre",10,1789,toflit_revolution
+Saint-Martin-de-Ré,Eaux-de-vie et liqueurs,26,1789,toflit_revolution
+Saint-Martin-de-Ré,"Ouvrages de bois, liège et jonc",74,1789,toflit_revolution
 Saint-Martin-de-Ré,Cargaison inconnue,8,1789,toflit_revolution
 Saint-Martin-de-Ré,Combustibles dont charbons et bois,5,1789,toflit_revolution
 Saint-Martin-de-Ré,Sortie pour pêche,3,1789,toflit_revolution
-Saint-Martin-de-Ré,Fer,2,1789,toflit_revolution
 Saint-Martin-de-Ré,Blé et autres grains comestibles,4,1789,toflit_revolution
-Saint-Martin-de-Ré,Vins divers,31,1789,toflit_revolution
 Saint-Martin-de-Ré,Matières premières diverses,5,1789,toflit_revolution
 Saint-Martin-de-Ré,Pêche et fruits de mer,6,1789,toflit_revolution
 Saint-Martin-de-Ré,"Porcelaine, poterie, faïence et ouvrages de terre",3,1789,toflit_revolution
@@ -48,6 +71,7 @@ Saint-Martin-de-Ré,Divers mélangés,1,1789,toflit_revolution
 Saint-Martin-de-Ré,Beurre,4,1789,toflit_revolution
 Saint-Martin-de-Ré,Bois divers hors combustible,1,1789,toflit_revolution
 Saint-Martin-de-Ré,"Armes, munitions, poudre et pierres à fusil",1,1789,toflit_revolution
+Saint-Martin-de-Ré,Fer,2,1789,toflit_revolution
 Saint-Martin-de-Ré,Laines non transformées diverses,1,1789,toflit_revolution
 Saint-Martin-de-Ré,"Brai, goudron et résines",1,1789,toflit_revolution
 Saint-Martin-de-Ré,Cendres diverses,2,1789,toflit_revolution
@@ -56,17 +80,17 @@ Saint-Martin-de-Ré,Sucre,1,1789,toflit_revolution
 Saint-Martin-de-Ré,Légumes,1,1789,toflit_revolution
 Seudre,Cargaison inconnue,25,1789,toflit_revolution
 Seudre,Beurre,2,1789,toflit_revolution
-Seudre,Produits inconnus,1,1789,toflit_revolution
 Seudre,Vins divers,3,1789,toflit_revolution
+Seudre,Produits inconnus,1,1789,toflit_revolution
 Ribérou,Matières premières diverses,105,1789,toflit_revolution
+Ribérou,Produits inconnus,168,1789,toflit_revolution
 Ribérou,"Ouvrages de bois, liège et jonc",12,1789,toflit_revolution
 Ribérou,Combustibles dont charbons et bois,187,1789,toflit_revolution
-Ribérou,Vins divers,28,1789,toflit_revolution
-Ribérou,Produits inconnus,168,1789,toflit_revolution
-Ribérou,Divers mélangés,1,1789,toflit_revolution
 Ribérou,Eaux-de-vie et liqueurs,15,1789,toflit_revolution
+Ribérou,Vins divers,28,1789,toflit_revolution
 Ribérou,Ouvrages métalliques,1,1789,toflit_revolution
 Ribérou,Sel,1,1789,toflit_revolution
+Ribérou,Chairs et œufs,1,1789,toflit_revolution
 Ribérou,Bâtiments de mer et apparaux,1,1789,toflit_revolution
 Ribérou,Ouvrages divers et mélangés,2,1789,toflit_revolution
 Ribérou,"Meubles, glaces et miroirs",1,1789,toflit_revolution
@@ -77,65 +101,53 @@ Ribérou,Pêche et fruits de mer,2,1789,toflit_revolution
 Ribérou,Blé et autres grains comestibles,1,1789,toflit_revolution
 Ribérou,Fruits secs et noix,1,1789,toflit_revolution
 Ribérou,Cargaison inconnue,1,1789,toflit_revolution
-Ribérou,Chairs et œufs,1,1789,toflit_revolution
 Ribérou,Bois divers hors combustible,2,1789,toflit_revolution
-Marans,Blé et autres grains comestibles,188,1789,toflit_revolution
-Marans,Produits inconnus,194,1789,toflit_revolution
-Marans,"Farine, gruau, biscuits et pâtes",47,1789,toflit_revolution
-Marans,Bois divers hors combustible,153,1789,toflit_revolution
-Marans,Légumes,21,1789,toflit_revolution
-Marans,"Ouvrages de bois, liège et jonc",46,1789,toflit_revolution
-Marans,Vins divers,3,1789,toflit_revolution
-Marans,Combustibles dont charbons et bois,8,1789,toflit_revolution
-Marans,Subsistances diverses et mélangées,3,1789,toflit_revolution
-Marans,Matières premières diverses,6,1789,toflit_revolution
-Marans,Cargaison inconnue,1,1789,toflit_revolution
-Marans,Ouvrages divers et mélangés,2,1789,toflit_revolution
-Marans,Chanvre,8,1789,toflit_revolution
-Marans,Cendres diverses,1,1789,toflit_revolution
-Marans,Graines grasses,1,1789,toflit_revolution
-Marans,Lin,1,1789,toflit_revolution
-Marans,Pêche et fruits de mer,1,1789,toflit_revolution
-Marans,"Bière, cidre et vinaigre",3,1789,toflit_revolution
-île de Bouin,Cargaison inconnue,11,1789,toflit_revolution
-île de Bouin,Sel,85,1789,toflit_revolution
-île de Bouin,Blé et autres grains comestibles,5,1789,toflit_revolution
-île de Bouin,Légumes,4,1789,toflit_revolution
+Ribérou,Divers mélangés,1,1789,toflit_revolution
 Rochefort,Produits inconnus,229,1789,toflit_revolution
 Rochefort,"Ouvrages de bois, liège et jonc",41,1789,toflit_revolution
+Rochefort,Eaux-de-vie et liqueurs,14,1789,toflit_revolution
+Rochefort,"Armes, munitions, poudre et pierres à fusil",2,1789,toflit_revolution
 Rochefort,Divers incertains,7,1789,toflit_revolution
-Rochefort,Vins divers,17,1789,toflit_revolution
 Rochefort,Cargaison inconnue,5,1789,toflit_revolution
-Rochefort,"Farine, gruau, biscuits et pâtes",7,1789,toflit_revolution
 Rochefort,Blé et autres grains comestibles,9,1789,toflit_revolution
 Rochefort,Bois divers hors combustible,2,1789,toflit_revolution
 Rochefort,Cuivre,1,1789,toflit_revolution
-Rochefort,Eaux-de-vie et liqueurs,14,1789,toflit_revolution
 Rochefort,Divers mélangés,21,1789,toflit_revolution
 Rochefort,Ouvrages divers et mélangés,4,1789,toflit_revolution
+Rochefort,Vins divers,17,1789,toflit_revolution
 Rochefort,Cendres diverses,6,1789,toflit_revolution
 Rochefort,"Brai, goudron et résines",2,1789,toflit_revolution
+Rochefort,"Farine, gruau, biscuits et pâtes",7,1789,toflit_revolution
 Rochefort,Combustibles dont charbons et bois,6,1789,toflit_revolution
 Rochefort,Graines grasses,3,1789,toflit_revolution
 Rochefort,Pêche et fruits de mer,9,1789,toflit_revolution
 Rochefort,Matières premières diverses,2,1789,toflit_revolution
-Rochefort,Légumes,1,1789,toflit_revolution
 Rochefort,"Bière, cidre et vinaigre",1,1789,toflit_revolution
 Rochefort,Chairs et œufs,2,1789,toflit_revolution
 Rochefort,Subsistances diverses et mélangées,1,1789,toflit_revolution
-Rochefort,"Armes, munitions, poudre et pierres à fusil",2,1789,toflit_revolution
 Rochefort,Beurre,2,1789,toflit_revolution
 Rochefort,Graisses diverses,1,1789,toflit_revolution
 Rochefort,Sucre,3,1789,toflit_revolution
 Rochefort,Coton non transformé,1,1789,toflit_revolution
 Rochefort,Café,1,1789,toflit_revolution
+Rochefort,Légumes,1,1789,toflit_revolution
 Rochefort,Cordage et filets,1,1789,toflit_revolution
 Rochefort,Verrerie,1,1789,toflit_revolution
 Rochefort,Huiles diverses,1,1789,toflit_revolution
+île de Bouin,Sel,85,1789,toflit_revolution
+île de Bouin,Cargaison inconnue,11,1789,toflit_revolution
+île de Bouin,Blé et autres grains comestibles,5,1789,toflit_revolution
+île de Bouin,Légumes,4,1789,toflit_revolution
+Mortagne,Produits inconnus,12,1789,toflit_revolution
+Mortagne,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
+Mortagne,Vins divers,2,1789,toflit_revolution
+Mortagne,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Mortagne,Cargaison inconnue,2,1789,toflit_revolution
 Tonnay-Charente,Cargaison inconnue,589,1789,toflit_revolution
+Tonnay-Charente,Bois divers hors combustible,15,1789,toflit_revolution
+Tonnay-Charente,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
 Tonnay-Charente,Matières premières diverses,4,1789,toflit_revolution
 Tonnay-Charente,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
-Tonnay-Charente,Bois divers hors combustible,15,1789,toflit_revolution
 Tonnay-Charente,Ouvrages divers et mélangés,1,1789,toflit_revolution
 Tonnay-Charente,Divers mélangés,1,1789,toflit_revolution
 Tonnay-Charente,Produits inconnus,18,1789,toflit_revolution
@@ -145,46 +157,23 @@ Tonnay-Charente,"Bière, cidre et vinaigre",1,1789,toflit_revolution
 Tonnay-Charente,Combustibles dont charbons et bois,2,1789,toflit_revolution
 Tonnay-Charente,Fruits frais,2,1789,toflit_revolution
 Tonnay-Charente,Fer,1,1789,toflit_revolution
-Tonnay-Charente,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
 Tonnay-Charente,Vins divers,1,1789,toflit_revolution
 Tonnay-Charente,Légumes,1,1789,toflit_revolution
-Moricq,Blé et autres grains comestibles,25,1789,toflit_revolution
 Moricq,Combustibles dont charbons et bois,81,1789,toflit_revolution
-Moricq,"Ouvrages de bois, liège et jonc",26,1789,toflit_revolution
 Moricq,Vins divers,3,1789,toflit_revolution
+Moricq,Blé et autres grains comestibles,25,1789,toflit_revolution
+Moricq,"Ouvrages de bois, liège et jonc",26,1789,toflit_revolution
 Moricq,"Porcelaine, poterie, faïence et ouvrages de terre",2,1789,toflit_revolution
 Moricq,Bois divers hors combustible,2,1789,toflit_revolution
 Moricq,Produits inconnus,3,1789,toflit_revolution
 Moricq,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
 Moricq,"Bière, cidre et vinaigre",2,1789,toflit_revolution
-Noirmoutier,Cendres diverses,20,1789,toflit_revolution
-Noirmoutier,Sel,197,1789,toflit_revolution
-Noirmoutier,Vins divers,6,1789,toflit_revolution
-Noirmoutier,Cargaison inconnue,5,1789,toflit_revolution
-Noirmoutier,Blé et autres grains comestibles,28,1789,toflit_revolution
-Noirmoutier,"Ouvrages de bois, liège et jonc",12,1789,toflit_revolution
-Noirmoutier,Sortie pour pêche,2,1789,toflit_revolution
-Noirmoutier,Produits inconnus,10,1789,toflit_revolution
-Noirmoutier,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
-Noirmoutier,Alcalis,14,1789,toflit_revolution
-Noirmoutier,Légumes,7,1789,toflit_revolution
-Noirmoutier,Subsistances diverses et mélangées,1,1789,toflit_revolution
-Noirmoutier,"Farine, gruau, biscuits et pâtes",2,1789,toflit_revolution
-La Perrotine,Eaux-de-vie et liqueurs,30,1789,toflit_revolution
-La Perrotine,Cargaison inconnue,1,1789,toflit_revolution
-La Perrotine,Pêche et fruits de mer,2,1789,toflit_revolution
-La Perrotine,Produits inconnus,19,1789,toflit_revolution
-La Perrotine,Vins divers,24,1789,toflit_revolution
-La Perrotine,Légumes,1,1789,toflit_revolution
-La Perrotine,Divers mélangés,1,1789,toflit_revolution
-La Perrotine,Divers incertains,3,1789,toflit_revolution
-La Perrotine,Savon,1,1789,toflit_revolution
-Les Sables-d'Olonne,Bâtiments de mer et apparaux,5,1789,toflit_revolution
+Les Sables-d'Olonne,Combustibles dont charbons et bois,24,1789,toflit_revolution
 Les Sables-d'Olonne,Pêche et fruits de mer,22,1789,toflit_revolution
-Les Sables-d'Olonne,Sel,106,1789,toflit_revolution
 Les Sables-d'Olonne,"Ouvrages de bois, liège et jonc",12,1789,toflit_revolution
 Les Sables-d'Olonne,Produits inconnus,32,1789,toflit_revolution
-Les Sables-d'Olonne,Combustibles dont charbons et bois,24,1789,toflit_revolution
+Les Sables-d'Olonne,Sel,106,1789,toflit_revolution
+Les Sables-d'Olonne,Bâtiments de mer et apparaux,5,1789,toflit_revolution
 Les Sables-d'Olonne,Sortie pour pêche,36,1789,toflit_revolution
 Les Sables-d'Olonne,Ouvrages divers et mélangés,36,1789,toflit_revolution
 Les Sables-d'Olonne,Animaux,32,1789,toflit_revolution
@@ -197,39 +186,60 @@ Les Sables-d'Olonne,Cargaison inconnue,2,1789,toflit_revolution
 Les Sables-d'Olonne,Bois divers hors combustible,2,1789,toflit_revolution
 Les Sables-d'Olonne,Vins divers,2,1789,toflit_revolution
 Les Sables-d'Olonne,Blé et autres grains comestibles,1,1789,toflit_revolution
-Ars-en-Ré,Sel,246,1789,toflit_revolution
-Ars-en-Ré,Produits inconnus,45,1789,toflit_revolution
-Ars-en-Ré,Cargaison inconnue,12,1789,toflit_revolution
-Ars-en-Ré,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
-Ars-en-Ré,Eaux-de-vie et liqueurs,2,1789,toflit_revolution
-Ars-en-Ré,Cendres diverses,1,1789,toflit_revolution
-Ars-en-Ré,Vins divers,1,1789,toflit_revolution
-Ars-en-Ré,"Bière, cidre et vinaigre",1,1789,toflit_revolution
-Beauvoir-sur-Mer,Sel,78,1789,toflit_revolution
 Beauvoir-sur-Mer,Blé et autres grains comestibles,28,1789,toflit_revolution
-Beauvoir-sur-Mer,Cargaison inconnue,4,1789,toflit_revolution
+Beauvoir-sur-Mer,Sel,78,1789,toflit_revolution
 Beauvoir-sur-Mer,Légumes,9,1789,toflit_revolution
 Beauvoir-sur-Mer,Produits inconnus,4,1789,toflit_revolution
 Beauvoir-sur-Mer,Pêche et fruits de mer,1,1789,toflit_revolution
 Beauvoir-sur-Mer,Ouvrages divers et mélangés,1,1789,toflit_revolution
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,toflit_revolution
 Beauvoir-sur-Mer,Vins divers,1,1789,toflit_revolution
-Saint-Denis d'Oléron,Vins divers,33,1789,toflit_revolution
-Saint-Denis d'Oléron,Alcalis,7,1789,toflit_revolution
-Saint-Denis d'Oléron,Produits inconnus,14,1789,toflit_revolution
-Saint-Denis d'Oléron,Café,1,1789,toflit_revolution
-Saint-Denis d'Oléron,Eaux-de-vie et liqueurs,14,1789,toflit_revolution
-Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,toflit_revolution
-Saint-Michel-en-l'Herm,Produits inconnus,3,1789,toflit_revolution
-Saint-Michel-en-l'Herm,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
-Saint-Michel-en-l'Herm,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
-Saint-Michel-en-l'Herm,"Bière, cidre et vinaigre",2,1789,toflit_revolution
-Saint-Michel-en-l'Herm,Blé et autres grains comestibles,1,1789,toflit_revolution
+Ars-en-Ré,Sel,246,1789,toflit_revolution
+Ars-en-Ré,Cargaison inconnue,12,1789,toflit_revolution
+Ars-en-Ré,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Ars-en-Ré,Produits inconnus,45,1789,toflit_revolution
+Ars-en-Ré,Eaux-de-vie et liqueurs,2,1789,toflit_revolution
+Ars-en-Ré,Cendres diverses,1,1789,toflit_revolution
+Ars-en-Ré,Vins divers,1,1789,toflit_revolution
+Ars-en-Ré,"Bière, cidre et vinaigre",1,1789,toflit_revolution
 Le Château-d'Oléron,Cargaison inconnue,39,1789,toflit_revolution
 Le Château-d'Oléron,Produits inconnus,12,1789,toflit_revolution
 Le Château-d'Oléron,Ouvrages divers et mélangés,1,1789,toflit_revolution
 Le Château-d'Oléron,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
 Le Château-d'Oléron,Subsistances diverses et mélangées,2,1789,toflit_revolution
-Champagné-les-Marais,Cargaison inconnue,1,1789,toflit_revolution
+Noirmoutier,Cendres diverses,20,1789,toflit_revolution
+Noirmoutier,Sel,197,1789,toflit_revolution
+Noirmoutier,Blé et autres grains comestibles,28,1789,toflit_revolution
+Noirmoutier,"Ouvrages de bois, liège et jonc",12,1789,toflit_revolution
+Noirmoutier,Sortie pour pêche,2,1789,toflit_revolution
+Noirmoutier,Produits inconnus,10,1789,toflit_revolution
+Noirmoutier,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
+Noirmoutier,Alcalis,14,1789,toflit_revolution
+Noirmoutier,Vins divers,6,1789,toflit_revolution
+Noirmoutier,Légumes,7,1789,toflit_revolution
+Noirmoutier,Subsistances diverses et mélangées,1,1789,toflit_revolution
+Noirmoutier,Cargaison inconnue,5,1789,toflit_revolution
+Noirmoutier,"Farine, gruau, biscuits et pâtes",2,1789,toflit_revolution
+La Perrotine,Eaux-de-vie et liqueurs,30,1789,toflit_revolution
+La Perrotine,Produits inconnus,19,1789,toflit_revolution
+La Perrotine,Vins divers,24,1789,toflit_revolution
+La Perrotine,Cargaison inconnue,1,1789,toflit_revolution
+La Perrotine,Légumes,1,1789,toflit_revolution
+La Perrotine,Divers mélangés,1,1789,toflit_revolution
+La Perrotine,Divers incertains,3,1789,toflit_revolution
+La Perrotine,Pêche et fruits de mer,2,1789,toflit_revolution
+La Perrotine,Savon,1,1789,toflit_revolution
+La Flotte-en-Ré,Blé et autres grains comestibles,1,1789,toflit_revolution
+La Flotte-en-Ré,Vins divers,5,1789,toflit_revolution
+La Flotte-en-Ré,Cendres diverses,1,1789,toflit_revolution
+La Flotte-en-Ré,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+La Flotte-en-Ré,Divers incertains,1,1789,toflit_revolution
+La Tremblade,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+La Tremblade,Produits inconnus,1,1789,toflit_revolution
+Royan,Produits inconnus,15,1789,toflit_revolution
+La Tranche-sur-Mer,Subsistances diverses et mélangées,51,1789,toflit_revolution
+La Tranche-sur-Mer,Légumes,2,1789,toflit_revolution
+La Tranche-sur-Mer,Divers incertains,2,1789,toflit_revolution
 Saint-Gilles-sur-Vie,Blé et autres grains comestibles,28,1789,toflit_revolution
 Saint-Gilles-sur-Vie,Sel,41,1789,toflit_revolution
 Saint-Gilles-sur-Vie,Légumes,9,1789,toflit_revolution
@@ -238,25 +248,12 @@ Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,toflit_revolution
 Saint-Gilles-sur-Vie,"Meubles, glaces et miroirs",1,1789,toflit_revolution
 Saint-Gilles-sur-Vie,Sortie pour pêche,6,1789,toflit_revolution
 Saint-Gilles-sur-Vie,Vins divers,1,1789,toflit_revolution
-Royan,Produits inconnus,15,1789,toflit_revolution
-Brouage ,Cargaison inconnue,4,1789,toflit_revolution
-Ker Châlon,Matières premières diverses,6,1789,toflit_revolution
-Ker Châlon,Produits inconnus,4,1789,toflit_revolution
-La Flotte-en-Ré,Blé et autres grains comestibles,1,1789,toflit_revolution
-La Flotte-en-Ré,Vins divers,5,1789,toflit_revolution
-La Flotte-en-Ré,Cendres diverses,1,1789,toflit_revolution
-La Flotte-en-Ré,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
-La Flotte-en-Ré,Divers incertains,1,1789,toflit_revolution
-La Tremblade,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
-La Tremblade,Produits inconnus,1,1789,toflit_revolution
-La Tranche-sur-Mer,Subsistances diverses et mélangées,51,1789,toflit_revolution
-La Tranche-sur-Mer,Légumes,2,1789,toflit_revolution
-La Tranche-sur-Mer,Divers incertains,2,1789,toflit_revolution
-Mortagne,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
-Mortagne,Vins divers,2,1789,toflit_revolution
-Mortagne,Produits inconnus,12,1789,toflit_revolution
-Mortagne,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
-Mortagne,Cargaison inconnue,2,1789,toflit_revolution
+Saint-Denis d'Oléron,Produits inconnus,14,1789,toflit_revolution
+Saint-Denis d'Oléron,Vins divers,33,1789,toflit_revolution
+Saint-Denis d'Oléron,Alcalis,7,1789,toflit_revolution
+Saint-Denis d'Oléron,Café,1,1789,toflit_revolution
+Saint-Denis d'Oléron,Eaux-de-vie et liqueurs,14,1789,toflit_revolution
+Champagné-les-Marais,Cargaison inconnue,1,1789,toflit_revolution
 Soubise,Produits inconnus,4,1789,toflit_revolution
 Soubise,Divers incertains,1,1789,toflit_revolution
 Soubise,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
@@ -266,12 +263,9 @@ Soubise,Légumes,2,1789,toflit_revolution
 Soubise,Sortie pour pêche,1,1789,toflit_revolution
 Soubise,Sel,1,1789,toflit_revolution
 Esnandes,Cargaison inconnue,2,1789,toflit_revolution
-île d'Oléron,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
-île d'Oléron,Produits inconnus,8,1789,toflit_revolution
-île d'Oléron,Blé et autres grains comestibles,2,1789,toflit_revolution
-île d'Oléron,Divers mélangés,3,1789,toflit_revolution
-île d'Oléron,Légumes,2,1789,toflit_revolution
-île d'Oléron,Vins divers,1,1789,toflit_revolution
+Brouage ,Cargaison inconnue,4,1789,toflit_revolution
+Ker Châlon,Matières premières diverses,6,1789,toflit_revolution
+Ker Châlon,Produits inconnus,4,1789,toflit_revolution
 l'Aiguillon,Produits inconnus,3,1789,toflit_revolution
 l'Aiguillon,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
 l'Aiguillon,"Bière, cidre et vinaigre",2,1789,toflit_revolution
@@ -280,6 +274,12 @@ l'Aiguillon,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
 île d'Yeu,Produits inconnus,1,1789,toflit_revolution
 mer des Pertuis,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
 mer des Pertuis,Vins divers,1,1789,toflit_revolution
+île d'Oléron,Produits inconnus,8,1789,toflit_revolution
+île d'Oléron,Blé et autres grains comestibles,2,1789,toflit_revolution
+île d'Oléron,Divers mélangés,3,1789,toflit_revolution
+île d'Oléron,Légumes,2,1789,toflit_revolution
+île d'Oléron,Vins divers,1,1789,toflit_revolution
+île d'Oléron,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
 Martrou,Combustibles dont charbons et bois,4,1789,toflit_revolution
 Le Chapus,Vins divers,1,1789,toflit_revolution
 Le Chapus,Produits inconnus,1,1789,toflit_revolution

@@ -1,0 +1,777 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-04-08">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="tonnage" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="admiralty" type="string" />
+      <attribute id="1" title="peche" type="long" />
+      <attribute id="2" title="in_region" type="boolean" />
+      <attribute id="3" title="inside_degree" type="long" />
+      <attribute id="4" title="outside_degree" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Ars-en-Ré" label="Ars-en-Ré">
+        <attvalues>
+          <attvalue for="0" value="La Rochelle" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="17" />
+        </attvalues>
+      </node>
+      <node id="Amsterdam" label="Amsterdam">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="Marennes" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="17" />
+        </attvalues>
+      </node>
+      <node id="La Rochelle" label="La Rochelle">
+        <attvalues>
+          <attvalue for="0" value="La Rochelle" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="19" />
+        </attvalues>
+      </node>
+      <node id="Baltimore" label="Baltimore">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
+        <attvalues>
+          <attvalue for="0" value="La Rochelle" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="5" />
+        </attvalues>
+      </node>
+      <node id="Rochefort" label="Rochefort">
+        <attvalues>
+          <attvalue for="0" value="La Rochelle" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="10" />
+        </attvalues>
+      </node>
+      <node id="Barcelone" label="Barcelone">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Bayonne" label="Bayonne">
+        <attvalues>
+          <attvalue for="0" value="Bayonne" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Bordeaux" label="Bordeaux">
+        <attvalues>
+          <attvalue for="0" value="Bordeaux" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Boston" label="Boston">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Calabar" label="Calabar">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Cap-Français" label="Cap-Français">
+        <attvalues>
+          <attvalue for="0" value="Cap-Français" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="colonies anglaises [en Amérique]" label="colonies anglaises [en Amérique]">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Cork" label="Cork">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Côte d'Afrique [de l'Ouest]" label="Côte d'Afrique [de l'Ouest]">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Côte d'Angole" label="Côte d'Angole">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Côte d'Or" label="Côte d'Or">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Dantzig " label="Dantzig ">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Noirmoutier" label="Noirmoutier">
+        <attvalues>
+          <attvalue for="0" value="Sables-d’Olonne" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="5" />
+        </attvalues>
+      </node>
+      <node id="Dartmouth" label="Dartmouth">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Dordrecht " label="Dordrecht ">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Dunkerque" label="Dunkerque">
+        <attvalues>
+          <attvalue for="0" value="Dunkerque" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="île de Bouin" label="île de Bouin">
+        <attvalues>
+          <attvalue for="0" value="Sables-d’Olonne" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="Georgetown" label="Georgetown">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Gonaïves" label="Gonaïves">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Granville" label="Granville">
+        <attvalues>
+          <attvalue for="0" value="Granville" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Harlingen" label="Harlingen">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Honfleur" label="Honfleur">
+        <attvalues>
+          <attvalue for="0" value="Honfleur" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="île Bourbon / île de la Réunion" label="île Bourbon / île de la Réunion">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="île d'Oléron" label="île d'Oléron">
+        <attvalues>
+          <attvalue for="0" value="Marennes" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="île de Ré" label="île de Ré">
+        <attvalues>
+          <attvalue for="0" value="La Rochelle" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Königsberg / Kaliningrad" label="Königsberg / Kaliningrad">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="La Flotte-en-Ré" label="La Flotte-en-Ré">
+        <attvalues>
+          <attvalue for="0" value="La Rochelle" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="true" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Le Havre" label="Le Havre">
+        <attvalues>
+          <attvalue for="0" value="Le Havre" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Martinique" label="Martinique">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Memel" label="Memel">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Mer Baltique" label="Mer Baltique">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Nantes" label="Nantes">
+        <attvalues>
+          <attvalue for="0" value="Nantes" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Newcastle" label="Newcastle">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Norvège" label="Norvège">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Pillau / Baltiïsk" label="Pillau / Baltiïsk">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Portsmouth" label="Portsmouth">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Riga" label="Riga">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Rotterdam" label="Rotterdam">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Saint-Pierre-et-Miquelon" label="Saint-Pierre-et-Miquelon">
+        <attvalues>
+          <attvalue for="0" value="Saint-Pierre-et-Miquelon" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Setúbal " label="Setúbal ">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Stavanger" label="Stavanger">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Virginie" label="Virginie">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Zierikzee" label="Zierikzee">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="false" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Ars-en-Ré" target="Amsterdam" id="0" weight="4">
+        <attvalues>
+          <attvalue for="5" value="1521" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="colonies anglaises [en Amérique]" id="1" weight="1">
+        <attvalues>
+          <attvalue for="5" value="210" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Cork" id="2" weight="1">
+        <attvalues>
+          <attvalue for="5" value="240" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Dantzig " id="3" weight="2">
+        <attvalues>
+          <attvalue for="5" value="920" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Dartmouth" id="4" weight="1">
+        <attvalues>
+          <attvalue for="5" value="250" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Georgetown" id="5" weight="1">
+        <attvalues>
+          <attvalue for="5" value="250" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Granville" id="6" weight="1">
+        <attvalues>
+          <attvalue for="5" value="246" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Harlingen" id="7" weight="1">
+        <attvalues>
+          <attvalue for="5" value="220" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Memel" id="8" weight="1">
+        <attvalues>
+          <attvalue for="5" value="450" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Mer Baltique" id="9" weight="2">
+        <attvalues>
+          <attvalue for="5" value="580" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Portsmouth" id="10" weight="1">
+        <attvalues>
+          <attvalue for="5" value="240" />
+        </attvalues>
+      </edge>
+      <edge source="Ars-en-Ré" target="Stavanger" id="11" weight="1">
+        <attvalues>
+          <attvalue for="5" value="230" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Amsterdam" id="12" weight="1">
+        <attvalues>
+          <attvalue for="5" value="210" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Baltimore" id="13" weight="1">
+        <attvalues>
+          <attvalue for="5" value="262" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Dordrecht " id="14" weight="3">
+        <attvalues>
+          <attvalue for="5" value="718" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Dunkerque" id="15" weight="1">
+        <attvalues>
+          <attvalue for="5" value="711" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Harlingen" id="16" weight="1">
+        <attvalues>
+          <attvalue for="5" value="229" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Honfleur" id="17" weight="2">
+        <attvalues>
+          <attvalue for="5" value="486" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Königsberg / Kaliningrad" id="18" weight="1">
+        <attvalues>
+          <attvalue for="5" value="236" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Le Havre" id="19" weight="1">
+        <attvalues>
+          <attvalue for="5" value="201" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Newcastle" id="20" weight="1">
+        <attvalues>
+          <attvalue for="5" value="404" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Pillau / Baltiïsk" id="21" weight="1">
+        <attvalues>
+          <attvalue for="5" value="214" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Riga" id="22" weight="1">
+        <attvalues>
+          <attvalue for="5" value="210" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Rotterdam" id="23" weight="1">
+        <attvalues>
+          <attvalue for="5" value="217" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Virginie" id="24" weight="1">
+        <attvalues>
+          <attvalue for="5" value="237" />
+        </attvalues>
+      </edge>
+      <edge source="Marennes" target="Zierikzee" id="25" weight="1">
+        <attvalues>
+          <attvalue for="5" value="237" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Amsterdam" id="26" weight="1">
+        <attvalues>
+          <attvalue for="5" value="220" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Bayonne" id="27" weight="1">
+        <attvalues>
+          <attvalue for="5" value="280" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Bordeaux" id="28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="280" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Calabar" id="29" weight="1">
+        <attvalues>
+          <attvalue for="5" value="369" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Cap-Français" id="30" weight="1">
+        <attvalues>
+          <attvalue for="5" value="250" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Côte d'Angole" id="31" weight="1">
+        <attvalues>
+          <attvalue for="5" value="584" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Côte d'Or" id="32" weight="6">
+        <attvalues>
+          <attvalue for="5" value="3524" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Gonaïves" id="33" weight="1">
+        <attvalues>
+          <attvalue for="5" value="240" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="île Bourbon / île de la Réunion" id="34" weight="1">
+        <attvalues>
+          <attvalue for="5" value="500" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="île de Ré" id="35" weight="1">
+        <attvalues>
+          <attvalue for="5" value="220" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="La Flotte-en-Ré" id="36" weight="1">
+        <attvalues>
+          <attvalue for="5" value="300" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Martinique" id="37" weight="1">
+        <attvalues>
+          <attvalue for="5" value="400" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Nantes" id="38" weight="1">
+        <attvalues>
+          <attvalue for="5" value="534" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Newcastle" id="39" weight="2">
+        <attvalues>
+          <attvalue for="5" value="550" />
+        </attvalues>
+      </edge>
+      <edge source="La Rochelle" target="Saint-Pierre-et-Miquelon" id="40" weight="1">
+        <attvalues>
+          <attvalue for="5" value="210" />
+        </attvalues>
+      </edge>
+      <edge source="Saint-Martin-de-Ré" target="Baltimore" id="41" weight="1">
+        <attvalues>
+          <attvalue for="5" value="243" />
+        </attvalues>
+      </edge>
+      <edge source="Saint-Martin-de-Ré" target="Bordeaux" id="42" weight="1">
+        <attvalues>
+          <attvalue for="5" value="230" />
+        </attvalues>
+      </edge>
+      <edge source="Saint-Martin-de-Ré" target="Boston" id="43" weight="1">
+        <attvalues>
+          <attvalue for="5" value="270" />
+        </attvalues>
+      </edge>
+      <edge source="Saint-Martin-de-Ré" target="Königsberg / Kaliningrad" id="44" weight="2">
+        <attvalues>
+          <attvalue for="5" value="550" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Barcelone" id="45" weight="1">
+        <attvalues>
+          <attvalue for="5" value="630" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Bordeaux" id="46" weight="4">
+        <attvalues>
+          <attvalue for="5" value="1796" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Côte d'Afrique [de l'Ouest]" id="47" weight="1">
+        <attvalues>
+          <attvalue for="5" value="315" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Côte d'Angole" id="48" weight="1">
+        <attvalues>
+          <attvalue for="5" value="614" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Côte d'Or" id="49" weight="1">
+        <attvalues>
+          <attvalue for="5" value="230" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="île d'Oléron" id="50" weight="1">
+        <attvalues>
+          <attvalue for="5" value="210" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="île de Ré" id="51" weight="1">
+        <attvalues>
+          <attvalue for="5" value="535" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="La Rochelle" id="52" weight="1">
+        <attvalues>
+          <attvalue for="5" value="220" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Nantes" id="53" weight="1">
+        <attvalues>
+          <attvalue for="5" value="360" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Saint-Martin-de-Ré" id="54" weight="1">
+        <attvalues>
+          <attvalue for="5" value="701" />
+        </attvalues>
+      </edge>
+      <edge source="Rochefort" target="Setúbal " id="55" weight="1">
+        <attvalues>
+          <attvalue for="5" value="415" />
+        </attvalues>
+      </edge>
+      <edge source="Noirmoutier" target="Dantzig " id="56" weight="1">
+        <attvalues>
+          <attvalue for="5" value="300" />
+        </attvalues>
+      </edge>
+      <edge source="Noirmoutier" target="Königsberg / Kaliningrad" id="57" weight="1">
+        <attvalues>
+          <attvalue for="5" value="292" />
+        </attvalues>
+      </edge>
+      <edge source="Noirmoutier" target="Mer Baltique" id="58" weight="2">
+        <attvalues>
+          <attvalue for="5" value="431" />
+        </attvalues>
+      </edge>
+      <edge source="Noirmoutier" target="Norvège" id="59" weight="1">
+        <attvalues>
+          <attvalue for="5" value="300" />
+        </attvalues>
+      </edge>
+      <edge source="île de Bouin" target="Dunkerque" id="60" weight="1">
+        <attvalues>
+          <attvalue for="5" value="280" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

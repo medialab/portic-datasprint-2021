@@ -95,12 +95,12 @@ def write_products_csv_by_classification(products, year, filter_only_out=True):
     with open(os.path.join(DATADIR, "all_classifications_%s%s.csv" % (year, filtered)), "w", newline='') as csvall:
         writerall = csv.writer(csvall, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writerall.writerow(['port', 'product', 'count', 'year', 'classification'])
-        for classif, ports in products.items():
+        for classif, ports in sorted(products.items()):
             with open(os.path.join(DATADIR, "%s_%s%s.csv" % (classif, year, filtered)), "w", newline='') as csvone:
                 writerone = csv.writer(csvone, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 writerone.writerow(['port', 'product', 'count', 'year', 'classification'])
-                for port, elements in ports.items():
-                    for product, count in elements.items():
+                for port, elements in sorted(ports.items()):
+                    for product, count in sorted(elements.items()):
                         writerall.writerow([port, product, count, year, classif])
                         writerone.writerow([port, product, count, year, classif])
 
@@ -108,12 +108,12 @@ def write_products_csv_by_classification(products, year, filter_only_out=True):
 def build_bipartite_networks(products, year, filter_only_out=True):
     filtered = "_only_out" if filter_only_out else ""
     filename = os.path.join(NETWORKSDIR, "%s_%s%s.gexf" % ("%s", year, filtered))
-    for classif, ports in products.items():
+    for classif, ports in sorted(products.items()):
         G = nx.Graph()
-        for port, elements in ports.items():
+        for port, elements in sorted(ports.items()):
             if not G.has_node(port):
                 G.add_node(port, nature="port", pointcalls=0)
-            for product, count in elements.items():
+            for product, count in sorted(elements.items()):
                 if not G.has_node(product):
                     G.add_node(product, nature="product", pointcalls=0)
                 G.nodes[port]['pointcalls'] += count

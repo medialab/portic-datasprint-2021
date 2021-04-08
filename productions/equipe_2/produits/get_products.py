@@ -27,12 +27,14 @@ def get_navigo_products(admiralties, year, filter_only_out=True):
         "portic_standardized_fr": defaultdict(Counter),
         "toflit_simplification": defaultdict(Counter),
         "toflit_revolution": defaultdict(Counter),
-        "toflit_aggregate": defaultdict(Counter)
+        "toflit_aggregate": defaultdict(Counter),
+        "SITC_fr": defaultdict(Counter)
     }
     toflit_classifications = [
         ("toflit_simplification", "product_simplification"),
         ("toflit_revolution", "product_revolutionempire"),
         ("toflit_aggregate", "product_RE_aggregate"),
+        ("SITC_fr", "product_sitc_FR")
     ]
     for idx, (key, toflit_classif) in enumerate(toflit_classifications):
         print('WORKING on PORTIC data for admiralties "%s" in %s with TOFLIT classification "%s"' % (", ".join(admiralties), year, toflit_classif))

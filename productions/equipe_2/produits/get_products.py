@@ -56,13 +56,14 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                 if not idx:
                     products["portic_default"][port][c["commodity_purpose"]] += 1
                     products["portic_standardized_fr"][port][c["commodity_standardized_fr"]] += 1
-                    if key == "toflit_aggregate":
-                        if c["commodity_purpose"] in ['Vide', 'Vuide', 'À vide', 'A vide', 'A vuide']:
-                            products["lest_vide_aggregate"][port]["Vide"] += 1
-                        elif c["commodity_purpose"] in ['A son lest', 'Au lest', 'Son lest', 'Sur lest', 'Sur son lest']:
-                            products["lest_vide_aggregate"][port]["Lest"] += 1
-                        else:
-                            products["lest_vide_aggregate"][port][c["commodity_purpose"]] += 1
+                elif key == "toflit_aggregate":
+                    check = c["commodity_purpose"].lower()
+                    if check in ['vide', 'vuide', 'à vide', 'a vide', 'a vuide']:
+                        products["lest_vide_aggregate"][port]["Vide"] += 1
+                    elif check in ['lest', 'son lest', 'a son lest', 'sur son lest', 'sur lest', 'au lest', 'en lest', 'les [lest]']:
+                        products["lest_vide_aggregate"][port]["Lest"] += 1
+                    else:
+                        products["lest_vide_aggregate"][port][c["commodity_as_toflit"]] += 1
                 if not c["commodity_as_toflit"]:
                     missing[(c["commodity_purpose"], c["commodity_standardized_fr"], port)] += 1
                     if key == "SITC_fr":

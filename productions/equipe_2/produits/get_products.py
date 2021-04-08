@@ -22,6 +22,7 @@ def get_navigo_products(admiralties, year, filter_only_out=True):
         pointcalls = portic.get_pointcalls(year=year, pointcall_admiralty=admiralties)
         with open(cachedata, "w") as f:
             json.dump(pointcalls, f)
+
     products = {
         "portic_default": defaultdict(Counter),
         "portic_standardized_fr": defaultdict(Counter),
@@ -36,18 +37,46 @@ def get_navigo_products(admiralties, year, filter_only_out=True):
         ("toflit_aggregate", "product_RE_aggregate"),
         ("SITC_fr", "product_sitc_FR")
     ]
+
     for idx, (key, toflit_classif) in enumerate(toflit_classifications):
         print('WORKING on PORTIC data for admiralties "%s" in %s with TOFLIT classification "%s"' % (", ".join(admiralties), year, toflit_classif))
-        pointcalls_as_toflit = get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_classification=toflit_classif)
-        for pc in pointcalls_as_toflit:
+
+        missing = Counter()
+
+        for pc in get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_classification=toflit_classif):
             if filter_only_out and pc["pointcall_action"].lower() != "out":
                 continue
+
             port = pc["toponyme_fr"]
+
             for c in pc["commodity_purposes"]:
                 if not idx:
                     products["portic_default"][port][c["commodity_purpose"]] += 1
                     products["portic_standardized_fr"][port][c["commodity_standardized_fr"]] += 1
-                products[key][port][c["commodity_as_toflit"]] += 1
+                if not c["commodity_as_toflit"]:
+                    missing[(c["commodity_purpose"], c["commodity_standardized_fr"], port)] += 1
+                    if key == "SITC_fr":
+                        products[key][port]["Divers"] += 1
+                    elif "pêche" in c["commodity_purpose"].lower() and key == "toflit_aggregate":
+                        products[key][port]["Pêche"] += 1
+                    else:
+                        # Ignore rare missing cases (concerns 2 or 3 lines per classif, mostly Bois & Canons)
+                        pass
+                else:
+                    products[key][port][c["commodity_as_toflit"]] += 1
+
+            # Handle cases with no commodity declared as unknown content
+            if not len(pc["commodity_purposes"]):
+                if not idx:
+                    products["portic_default"][port]["Cargaison inconnue"] += 1
+                    products["portic_standardized_fr"][port]["Cargaison inconnue"] += 1
+                products[key][port]["Cargaison inconnue"] += 1
+
+        if missing:
+            print (' WARNING: some products could not be classified within %s:' % toflit_classif, file=sys.stderr)
+            for (c1, c2, port), count in missing.items():
+                print('  - "%s" / "%s" (%s times) for port %s' % (c1, c2, count, port), file=sys.stderr)
+
     return products
 
 
@@ -62,8 +91,6 @@ def write_products_csv_by_classification(products, year, filter_only_out=True):
                 writerone.writerow(['port', 'product', 'count', 'year', 'classification'])
                 for port, elements in ports.items():
                     for product, count in elements.items():
-                        if not product:
-                            continue
                         writerall.writerow([port, product, count, year, classif])
                         writerone.writerow([port, product, count, year, classif])
 
@@ -77,8 +104,6 @@ def build_bipartite_networks(products, year, filter_only_out=True):
             if not G.has_node(port):
                 G.add_node(port, nature="port", pointcalls=0)
             for product, count in elements.items():
-                if not product:
-                    continue
                 if not G.has_node(product):
                     G.add_node(product, nature="product", pointcalls=0)
                 G.nodes[port]['pointcalls'] += count

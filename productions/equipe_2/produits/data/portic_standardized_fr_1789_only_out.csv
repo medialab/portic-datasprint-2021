@@ -1,6 +1,24 @@
 port,product,count,year,classification
+La Rochelle,Cargaison inconnue,1003,1789,portic_standardized_fr
+La Rochelle,Lest,6,1789,portic_standardized_fr
+La Rochelle,Bois de construction,3,1789,portic_standardized_fr
+La Rochelle,Sel,1,1789,portic_standardized_fr
+La Rochelle,Vin,20,1789,portic_standardized_fr
+La Rochelle,Fèves,1,1789,portic_standardized_fr
+La Rochelle,Pêche à la morue,7,1789,portic_standardized_fr
+La Rochelle,Diverses marchandises,6,1789,portic_standardized_fr
+La Rochelle,Vide,52,1789,portic_standardized_fr
+La Rochelle,Vieux Fer,1,1789,portic_standardized_fr
+La Rochelle,Futailles vides,3,1789,portic_standardized_fr
+La Rochelle,Beurre,1,1789,portic_standardized_fr
+La Rochelle,Eau-de-vie,3,1789,portic_standardized_fr
+La Rochelle,Planches,15,1789,portic_standardized_fr
+La Rochelle,Sardines,1,1789,portic_standardized_fr
+La Rochelle,Vinaigre,4,1789,portic_standardized_fr
+La Rochelle,à l'aventure,1,1789,portic_standardized_fr
 Marennes,Sel,1301,1789,portic_standardized_fr
 Marennes,Vide,30,1789,portic_standardized_fr
+Marennes,Cargaison inconnue,19,1789,portic_standardized_fr
 Marennes,Eau-de-vie,26,1789,portic_standardized_fr
 Marennes,Vin,65,1789,portic_standardized_fr
 Marennes,Marchandises d'un naufrage,1,1789,portic_standardized_fr
@@ -24,6 +42,7 @@ Saint-Martin-de-Ré,Eau-de-vie,26,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Lest,212,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Planches,68,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Vinaigre,10,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Bois à brûler,1,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Pêche au poisson frais,3,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Fer,2,1789,portic_standardized_fr
@@ -55,6 +74,10 @@ Saint-Martin-de-Ré,Café,1,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Sucre,1,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Fèves,1,1789,portic_standardized_fr
 Saint-Martin-de-Ré,Bois de construction,1,1789,portic_standardized_fr
+Seudre,Cargaison inconnue,25,1789,portic_standardized_fr
+Seudre,Beurre,2,1789,portic_standardized_fr
+Seudre,Vide,1,1789,portic_standardized_fr
+Seudre,Vin,3,1789,portic_standardized_fr
 Ribérou,Chaux,88,1789,portic_standardized_fr
 Ribérou,Bois de construction,12,1789,portic_standardized_fr
 Ribérou,Bois à brûler,88,1789,portic_standardized_fr
@@ -79,6 +102,7 @@ Ribérou,Cérises,2,1789,portic_standardized_fr
 Ribérou,Grain,1,1789,portic_standardized_fr
 Ribérou,Morue sèche,1,1789,portic_standardized_fr
 Ribérou,Noix,1,1789,portic_standardized_fr
+Ribérou,Cargaison inconnue,1,1789,portic_standardized_fr
 Ribérou,Terre de Broue [pour verrerie],7,1789,portic_standardized_fr
 Ribérou,Salaisons,1,1789,portic_standardized_fr
 Ribérou,Bois,1,1789,portic_standardized_fr
@@ -101,6 +125,7 @@ Marans,Froment,5,1789,portic_standardized_fr
 Marans,Oignons,1,1789,portic_standardized_fr
 Marans,Terre,2,1789,portic_standardized_fr
 Marans,Bois à brûler,6,1789,portic_standardized_fr
+Marans,Cargaison inconnue,1,1789,portic_standardized_fr
 Marans,Moutarde,2,1789,portic_standardized_fr
 Marans,Meule de moulin,1,1789,portic_standardized_fr
 Marans,Blé,19,1789,portic_standardized_fr
@@ -115,11 +140,16 @@ Marans,Lin,1,1789,portic_standardized_fr
 Marans,Pierres,1,1789,portic_standardized_fr
 Marans,Poisson,1,1789,portic_standardized_fr
 Marans,Vinaigre,3,1789,portic_standardized_fr
+île de Bouin,Cargaison inconnue,11,1789,portic_standardized_fr
+île de Bouin,Sel,85,1789,portic_standardized_fr
+île de Bouin,Froment,5,1789,portic_standardized_fr
+île de Bouin,Fèves,4,1789,portic_standardized_fr
 Rochefort,Vide,223,1789,portic_standardized_fr
 Rochefort,Futailles vides,5,1789,portic_standardized_fr
 Rochefort,Diverses marchandises,19,1789,portic_standardized_fr
 Rochefort,Bois merrain,23,1789,portic_standardized_fr
 Rochefort,Vin,17,1789,portic_standardized_fr
+Rochefort,Cargaison inconnue,5,1789,portic_standardized_fr
 Rochefort,Bois de construction,12,1789,portic_standardized_fr
 Rochefort,Biscuits,6,1789,portic_standardized_fr
 Rochefort,Blé,2,1789,portic_standardized_fr
@@ -161,6 +191,24 @@ Rochefort,Vieux cordages,1,1789,portic_standardized_fr
 Rochefort,Verre cassé,1,1789,portic_standardized_fr
 Rochefort,Planches,1,1789,portic_standardized_fr
 Rochefort,Huile,1,1789,portic_standardized_fr
+Tonnay-Charente,Cargaison inconnue,589,1789,portic_standardized_fr
+Tonnay-Charente,Pierres,4,1789,portic_standardized_fr
+Tonnay-Charente,Eau-de-vie,3,1789,portic_standardized_fr
+Tonnay-Charente,Bois,14,1789,portic_standardized_fr
+Tonnay-Charente,Cercles,1,1789,portic_standardized_fr
+Tonnay-Charente,Diverses marchandises,1,1789,portic_standardized_fr
+Tonnay-Charente,Vide,17,1789,portic_standardized_fr
+Tonnay-Charente,Lest,1,1789,portic_standardized_fr
+Tonnay-Charente,Peaux de bœuf,1,1789,portic_standardized_fr
+Tonnay-Charente,Blé,2,1789,portic_standardized_fr
+Tonnay-Charente,Bois à brûler,1,1789,portic_standardized_fr
+Tonnay-Charente,Fagots,1,1789,portic_standardized_fr
+Tonnay-Charente,Pommes,2,1789,portic_standardized_fr
+Tonnay-Charente,Fer,1,1789,portic_standardized_fr
+Tonnay-Charente,Planches,1,1789,portic_standardized_fr
+Tonnay-Charente,Vin,1,1789,portic_standardized_fr
+Tonnay-Charente,Fèves,1,1789,portic_standardized_fr
+Tonnay-Charente,Chaux,1,1789,portic_standardized_fr
 Moricq,Blé,19,1789,portic_standardized_fr
 Moricq,Seigle,3,1789,portic_standardized_fr
 Moricq,Bois à brûler,55,1789,portic_standardized_fr
@@ -180,6 +228,7 @@ Moricq,Vinaigre,1,1789,portic_standardized_fr
 Noirmoutier,Cendre,13,1789,portic_standardized_fr
 Noirmoutier,Sel,197,1789,portic_standardized_fr
 Noirmoutier,Vin,5,1789,portic_standardized_fr
+Noirmoutier,Cargaison inconnue,5,1789,portic_standardized_fr
 Noirmoutier,Froment,28,1789,portic_standardized_fr
 Noirmoutier,Futailles vides,11,1789,portic_standardized_fr
 Noirmoutier,Pêche au poisson frais,2,1789,portic_standardized_fr
@@ -193,6 +242,7 @@ Noirmoutier,Moutarde,1,1789,portic_standardized_fr
 Noirmoutier,Bois merrain,1,1789,portic_standardized_fr
 Noirmoutier,Farine,2,1789,portic_standardized_fr
 La Perrotine,Eau-de-vie,31,1789,portic_standardized_fr
+La Perrotine,Cargaison inconnue,1,1789,portic_standardized_fr
 La Perrotine,Moules ,2,1789,portic_standardized_fr
 La Perrotine,Lest,18,1789,portic_standardized_fr
 La Perrotine,Vin,24,1789,portic_standardized_fr
@@ -225,6 +275,7 @@ Les Sables-d'Olonne,Huitres,1,1789,portic_standardized_fr
 Les Sables-d'Olonne,Huile de poisson,1,1789,portic_standardized_fr
 Les Sables-d'Olonne,Poterie,2,1789,portic_standardized_fr
 Les Sables-d'Olonne,Bois merrain,2,1789,portic_standardized_fr
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,portic_standardized_fr
 Les Sables-d'Olonne,Diverses marchandises,1,1789,portic_standardized_fr
 Les Sables-d'Olonne,Planches,1,1789,portic_standardized_fr
 Les Sables-d'Olonne,Bois,2,1789,portic_standardized_fr
@@ -232,6 +283,7 @@ Les Sables-d'Olonne,Vin,2,1789,portic_standardized_fr
 Les Sables-d'Olonne,Son,1,1789,portic_standardized_fr
 Ars-en-Ré,Sel,246,1789,portic_standardized_fr
 Ars-en-Ré,Vide,43,1789,portic_standardized_fr
+Ars-en-Ré,Cargaison inconnue,12,1789,portic_standardized_fr
 Ars-en-Ré,Bois merrain,1,1789,portic_standardized_fr
 Ars-en-Ré,Vinatérie,1,1789,portic_standardized_fr
 Ars-en-Ré,Eau-de-vie,2,1789,portic_standardized_fr
@@ -239,11 +291,9 @@ Ars-en-Ré,Cendre,1,1789,portic_standardized_fr
 Ars-en-Ré,Lest,1,1789,portic_standardized_fr
 Ars-en-Ré,Vin,1,1789,portic_standardized_fr
 Ars-en-Ré,Vinaigre,1,1789,portic_standardized_fr
-île de Bouin,Sel,85,1789,portic_standardized_fr
-île de Bouin,Froment,5,1789,portic_standardized_fr
-île de Bouin,Fèves,4,1789,portic_standardized_fr
 Beauvoir-sur-Mer,Sel,78,1789,portic_standardized_fr
 Beauvoir-sur-Mer,Froment,28,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,portic_standardized_fr
 Beauvoir-sur-Mer,Fèves,7,1789,portic_standardized_fr
 Beauvoir-sur-Mer,Lentilles,2,1789,portic_standardized_fr
 Beauvoir-sur-Mer,Lest,3,1789,portic_standardized_fr
@@ -257,38 +307,33 @@ Saint-Denis d'Oléron,Lest,13,1789,portic_standardized_fr
 Saint-Denis d'Oléron,Café,1,1789,portic_standardized_fr
 Saint-Denis d'Oléron,Eau-de-vie,14,1789,portic_standardized_fr
 Saint-Denis d'Oléron,Vide,1,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Vide,3,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Eau-de-vie,1,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Planches,1,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Vinaigre,2,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Blé,1,1789,portic_standardized_fr
+Le Château-d'Oléron,Cargaison inconnue,39,1789,portic_standardized_fr
+Le Château-d'Oléron,Vide,12,1789,portic_standardized_fr
+Le Château-d'Oléron,Bouteilles ,1,1789,portic_standardized_fr
+Le Château-d'Oléron,Eau-de-vie,1,1789,portic_standardized_fr
+Le Château-d'Oléron,Oignons,2,1789,portic_standardized_fr
+Champagné-les-Marais,Cargaison inconnue,1,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Froment,29,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Sel,40,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Lentilles,5,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Futailles vides,2,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Fèves,3,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Méture,1,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Meubles,1,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Pêche à la sardine,6,1789,portic_standardized_fr
 Saint-Gilles-sur-Vie,Vin,1,1789,portic_standardized_fr
 Royan,Lest,15,1789,portic_standardized_fr
-La Rochelle,Lest,6,1789,portic_standardized_fr
-La Rochelle,Bois de construction,3,1789,portic_standardized_fr
-La Rochelle,Sel,1,1789,portic_standardized_fr
-La Rochelle,Vin,20,1789,portic_standardized_fr
-La Rochelle,Fèves,1,1789,portic_standardized_fr
-La Rochelle,Pêche à la morue,7,1789,portic_standardized_fr
-La Rochelle,Diverses marchandises,6,1789,portic_standardized_fr
-La Rochelle,Vide,52,1789,portic_standardized_fr
-La Rochelle,Vieux Fer,1,1789,portic_standardized_fr
-La Rochelle,Futailles vides,3,1789,portic_standardized_fr
-La Rochelle,Beurre,1,1789,portic_standardized_fr
-La Rochelle,Eau-de-vie,3,1789,portic_standardized_fr
-La Rochelle,Planches,15,1789,portic_standardized_fr
-La Rochelle,Sardines,1,1789,portic_standardized_fr
-La Rochelle,Vinaigre,4,1789,portic_standardized_fr
-La Rochelle,à l'aventure,1,1789,portic_standardized_fr
+Brouage ,Cargaison inconnue,4,1789,portic_standardized_fr
 Ker Châlon,Chaux,6,1789,portic_standardized_fr
 Ker Châlon,Vide,3,1789,portic_standardized_fr
 Ker Châlon,Lest,1,1789,portic_standardized_fr
-Seudre,Beurre,2,1789,portic_standardized_fr
-Seudre,Vide,1,1789,portic_standardized_fr
-Seudre,Vin,3,1789,portic_standardized_fr
 La Flotte-en-Ré,Méture,1,1789,portic_standardized_fr
 La Flotte-en-Ré,Vin,5,1789,portic_standardized_fr
 La Flotte-en-Ré,Cendre,1,1789,portic_standardized_fr
@@ -301,33 +346,13 @@ La Tranche-sur-Mer,Ail,21,1789,portic_standardized_fr
 La Tranche-sur-Mer,Echalotte,11,1789,portic_standardized_fr
 La Tranche-sur-Mer,Marchandises,1,1789,portic_standardized_fr
 La Tranche-sur-Mer,Diverses marchandises,1,1789,portic_standardized_fr
-Tonnay-Charente,Pierres,4,1789,portic_standardized_fr
-Tonnay-Charente,Eau-de-vie,3,1789,portic_standardized_fr
-Tonnay-Charente,Bois,14,1789,portic_standardized_fr
-Tonnay-Charente,Cercles,1,1789,portic_standardized_fr
-Tonnay-Charente,Diverses marchandises,1,1789,portic_standardized_fr
-Tonnay-Charente,Vide,17,1789,portic_standardized_fr
-Tonnay-Charente,Lest,1,1789,portic_standardized_fr
-Tonnay-Charente,Peaux de bœuf,1,1789,portic_standardized_fr
-Tonnay-Charente,Blé,2,1789,portic_standardized_fr
-Tonnay-Charente,Bois à brûler,1,1789,portic_standardized_fr
-Tonnay-Charente,Fagots,1,1789,portic_standardized_fr
-Tonnay-Charente,Pommes,2,1789,portic_standardized_fr
-Tonnay-Charente,Fer,1,1789,portic_standardized_fr
-Tonnay-Charente,Planches,1,1789,portic_standardized_fr
-Tonnay-Charente,Vin,1,1789,portic_standardized_fr
-Tonnay-Charente,Fèves,1,1789,portic_standardized_fr
-Tonnay-Charente,Chaux,1,1789,portic_standardized_fr
 Mortagne,Eau-de-vie,3,1789,portic_standardized_fr
 Mortagne,Vin,2,1789,portic_standardized_fr
 Mortagne,Lest,10,1789,portic_standardized_fr
 Mortagne,Vide,1,1789,portic_standardized_fr
 Mortagne,Bois merrain,1,1789,portic_standardized_fr
 Mortagne,à l'aventure,1,1789,portic_standardized_fr
-Le Château-d'Oléron,Vide,12,1789,portic_standardized_fr
-Le Château-d'Oléron,Bouteilles ,1,1789,portic_standardized_fr
-Le Château-d'Oléron,Eau-de-vie,1,1789,portic_standardized_fr
-Le Château-d'Oléron,Oignons,2,1789,portic_standardized_fr
+Mortagne,Cargaison inconnue,2,1789,portic_standardized_fr
 Soubise,Vide,3,1789,portic_standardized_fr
 Soubise,Diverses marchandises,1,1789,portic_standardized_fr
 Soubise,Planches,1,1789,portic_standardized_fr
@@ -337,17 +362,13 @@ Soubise,Vinaigre,1,1789,portic_standardized_fr
 Soubise,Fèves,2,1789,portic_standardized_fr
 Soubise,Pêche à la morue,1,1789,portic_standardized_fr
 Soubise,Sel,1,1789,portic_standardized_fr
+Esnandes,Cargaison inconnue,2,1789,portic_standardized_fr
 île d'Oléron,Eau-de-vie,3,1789,portic_standardized_fr
 île d'Oléron,Vide,8,1789,portic_standardized_fr
 île d'Oléron,Orge,2,1789,portic_standardized_fr
 île d'Oléron,Marchandises permises,3,1789,portic_standardized_fr
 île d'Oléron,Fèves,2,1789,portic_standardized_fr
 île d'Oléron,Vin,1,1789,portic_standardized_fr
-Saint-Michel-en-l'Herm,Vide,3,1789,portic_standardized_fr
-Saint-Michel-en-l'Herm,Eau-de-vie,1,1789,portic_standardized_fr
-Saint-Michel-en-l'Herm,Planches,1,1789,portic_standardized_fr
-Saint-Michel-en-l'Herm,Vinaigre,2,1789,portic_standardized_fr
-Saint-Michel-en-l'Herm,Blé,1,1789,portic_standardized_fr
 l'Aiguillon,Vide,3,1789,portic_standardized_fr
 l'Aiguillon,Eau-de-vie,2,1789,portic_standardized_fr
 l'Aiguillon,Planches,1,1789,portic_standardized_fr

@@ -1,6 +1,29 @@
 port,product,count,year,classification
+La Rochelle,Cargaison inconnue,1003,1789,toflit_simplification
+La Rochelle,lest,6,1789,toflit_simplification
+La Rochelle,bois pour construction,3,1789,toflit_simplification
+La Rochelle,sel,1,1789,toflit_simplification
+La Rochelle,vin,17,1789,toflit_simplification
+La Rochelle,eau-de-vie,4,1789,toflit_simplification
+La Rochelle,marchandises,2,1789,toflit_simplification
+La Rochelle,fèves,1,1789,toflit_simplification
+La Rochelle,pêche à la morue,7,1789,toflit_simplification
+La Rochelle,marchandises de Marseille,1,1789,toflit_simplification
+La Rochelle,à vide,52,1789,toflit_simplification
+La Rochelle,fer vieux,1,1789,toflit_simplification
+La Rochelle,divers,3,1789,toflit_simplification
+La Rochelle,restant de futailles,1,1789,toflit_simplification
+La Rochelle,à l'aventure,2,1789,toflit_simplification
+La Rochelle,beurre,1,1789,toflit_simplification
+La Rochelle,planches,15,1789,toflit_simplification
+La Rochelle,pièces de bois,1,1789,toflit_simplification
+La Rochelle,marchandises provenant d'un naufrage,1,1789,toflit_simplification
+La Rochelle,sardines,1,1789,toflit_simplification
+La Rochelle,vinaigre,4,1789,toflit_simplification
+La Rochelle,futailles vides,1,1789,toflit_simplification
 Marennes,sel,1301,1789,toflit_simplification
 Marennes,à vide,10,1789,toflit_simplification
+Marennes,Cargaison inconnue,19,1789,toflit_simplification
 Marennes,eau-de-vie,25,1789,toflit_simplification
 Marennes,vin,64,1789,toflit_simplification
 Marennes,marchandises provenant d'un naufrage,1,1789,toflit_simplification
@@ -27,6 +50,7 @@ Saint-Martin-de-Ré,eau-de-vie,26,1789,toflit_simplification
 Saint-Martin-de-Ré,lest,212,1789,toflit_simplification
 Saint-Martin-de-Ré,planches,68,1789,toflit_simplification
 Saint-Martin-de-Ré,vinaigre,10,1789,toflit_simplification
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,toflit_simplification
 Saint-Martin-de-Ré,bûches,1,1789,toflit_simplification
 Saint-Martin-de-Ré,faire la pêche au poisson frais,2,1789,toflit_simplification
 Saint-Martin-de-Ré,fer,2,1789,toflit_simplification
@@ -59,6 +83,12 @@ Saint-Martin-de-Ré,café,1,1789,toflit_simplification
 Saint-Martin-de-Ré,sucre,1,1789,toflit_simplification
 Saint-Martin-de-Ré,fèves,1,1789,toflit_simplification
 Saint-Martin-de-Ré,bois pour construction,1,1789,toflit_simplification
+Seudre,Cargaison inconnue,25,1789,toflit_simplification
+Seudre,beurre,1,1789,toflit_simplification
+Seudre,à vide,1,1789,toflit_simplification
+Seudre,restant de beurre,1,1789,toflit_simplification
+Seudre,vin,2,1789,toflit_simplification
+Seudre,vin pour lest,1,1789,toflit_simplification
 Ribérou,chaux,88,1789,toflit_simplification
 Ribérou,bois pour construction,9,1789,toflit_simplification
 Ribérou,bûches,87,1789,toflit_simplification
@@ -87,6 +117,7 @@ Ribérou,morue,1,1789,toflit_simplification
 Ribérou,grains divers,1,1789,toflit_simplification
 Ribérou,morue sèche,1,1789,toflit_simplification
 Ribérou,noix,1,1789,toflit_simplification
+Ribérou,Cargaison inconnue,1,1789,toflit_simplification
 Ribérou,salaisons,1,1789,toflit_simplification
 Ribérou,bois,1,1789,toflit_simplification
 Ribérou,copeaux,1,1789,toflit_simplification
@@ -109,6 +140,7 @@ Marans,grains froment,6,1789,toflit_simplification
 Marans,oignons,1,1789,toflit_simplification
 Marans,terre,2,1789,toflit_simplification
 Marans,bûches,5,1789,toflit_simplification
+Marans,Cargaison inconnue,1,1789,toflit_simplification
 Marans,moutarde,2,1789,toflit_simplification
 Marans,meules pour moulins,1,1789,toflit_simplification
 Marans,grains blé,17,1789,toflit_simplification
@@ -126,11 +158,16 @@ Marans,pierres,1,1789,toflit_simplification
 Marans,poisson,1,1789,toflit_simplification
 Marans,vinaigre,3,1789,toflit_simplification
 Marans,vide,1,1789,toflit_simplification
+île de Bouin,Cargaison inconnue,11,1789,toflit_simplification
+île de Bouin,sel,85,1789,toflit_simplification
+île de Bouin,grains froment,5,1789,toflit_simplification
+île de Bouin,fèves,4,1789,toflit_simplification
 Rochefort,vide,217,1789,toflit_simplification
 Rochefort,futailles vides,5,1789,toflit_simplification
 Rochefort,divers,7,1789,toflit_simplification
 Rochefort,merrains,23,1789,toflit_simplification
 Rochefort,vin,17,1789,toflit_simplification
+Rochefort,Cargaison inconnue,5,1789,toflit_simplification
 Rochefort,bois pour construction,12,1789,toflit_simplification
 Rochefort,biscuit,6,1789,toflit_simplification
 Rochefort,blé,1,1789,toflit_simplification
@@ -181,6 +218,26 @@ Rochefort,à vide,6,1789,toflit_simplification
 Rochefort,cendre,1,1789,toflit_simplification
 Rochefort,planches,1,1789,toflit_simplification
 Rochefort,huile,1,1789,toflit_simplification
+Tonnay-Charente,Cargaison inconnue,589,1789,toflit_simplification
+Tonnay-Charente,pierres,3,1789,toflit_simplification
+Tonnay-Charente,eau-de-vie,3,1789,toflit_simplification
+Tonnay-Charente,bois,15,1789,toflit_simplification
+Tonnay-Charente,cercles,1,1789,toflit_simplification
+Tonnay-Charente,restant de marchandises,1,1789,toflit_simplification
+Tonnay-Charente,vide,3,1789,toflit_simplification
+Tonnay-Charente,lest,1,1789,toflit_simplification
+Tonnay-Charente,peaux de bœuf,1,1789,toflit_simplification
+Tonnay-Charente,grains blé,1,1789,toflit_simplification
+Tonnay-Charente,vinaigre,1,1789,toflit_simplification
+Tonnay-Charente,à vide,14,1789,toflit_simplification
+Tonnay-Charente,bois pour brûler,1,1789,toflit_simplification
+Tonnay-Charente,fagots,1,1789,toflit_simplification
+Tonnay-Charente,pommes,2,1789,toflit_simplification
+Tonnay-Charente,lest en fer,1,1789,toflit_simplification
+Tonnay-Charente,planches,1,1789,toflit_simplification
+Tonnay-Charente,vin,1,1789,toflit_simplification
+Tonnay-Charente,fèves,1,1789,toflit_simplification
+Tonnay-Charente,chaux,1,1789,toflit_simplification
 Moricq,grains froment,14,1789,toflit_simplification
 Moricq,grains seigle,3,1789,toflit_simplification
 Moricq,bois pour brûler,55,1789,toflit_simplification
@@ -203,6 +260,7 @@ Moricq,grains divers,1,1789,toflit_simplification
 Noirmoutier,cendre,13,1789,toflit_simplification
 Noirmoutier,sel,197,1789,toflit_simplification
 Noirmoutier,vin,6,1789,toflit_simplification
+Noirmoutier,Cargaison inconnue,5,1789,toflit_simplification
 Noirmoutier,grains froment,28,1789,toflit_simplification
 Noirmoutier,futailles,8,1789,toflit_simplification
 Noirmoutier,pêche (sortie),2,1789,toflit_simplification
@@ -217,6 +275,7 @@ Noirmoutier,futailles vides,3,1789,toflit_simplification
 Noirmoutier,merrains,1,1789,toflit_simplification
 Noirmoutier,farine,2,1789,toflit_simplification
 La Perrotine,eau-de-vie,30,1789,toflit_simplification
+La Perrotine,Cargaison inconnue,1,1789,toflit_simplification
 La Perrotine,moules,2,1789,toflit_simplification
 La Perrotine,lest,18,1789,toflit_simplification
 La Perrotine,vin,24,1789,toflit_simplification
@@ -252,6 +311,7 @@ Les Sables-d'Olonne,huîtres,1,1789,toflit_simplification
 Les Sables-d'Olonne,huile de poisson,1,1789,toflit_simplification
 Les Sables-d'Olonne,poterie,2,1789,toflit_simplification
 Les Sables-d'Olonne,merrains,2,1789,toflit_simplification
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,toflit_simplification
 Les Sables-d'Olonne,restant de marchandises,1,1789,toflit_simplification
 Les Sables-d'Olonne,planches,1,1789,toflit_simplification
 Les Sables-d'Olonne,bois,2,1789,toflit_simplification
@@ -260,6 +320,7 @@ Les Sables-d'Olonne,futailles,1,1789,toflit_simplification
 Les Sables-d'Olonne,son,1,1789,toflit_simplification
 Ars-en-Ré,sel,246,1789,toflit_simplification
 Ars-en-Ré,vide,43,1789,toflit_simplification
+Ars-en-Ré,Cargaison inconnue,12,1789,toflit_simplification
 Ars-en-Ré,merrains,1,1789,toflit_simplification
 Ars-en-Ré,vinaterie,1,1789,toflit_simplification
 Ars-en-Ré,eau-de-vie,2,1789,toflit_simplification
@@ -267,11 +328,9 @@ Ars-en-Ré,cendre,1,1789,toflit_simplification
 Ars-en-Ré,lest,1,1789,toflit_simplification
 Ars-en-Ré,vin,1,1789,toflit_simplification
 Ars-en-Ré,vinaigre,1,1789,toflit_simplification
-île de Bouin,sel,85,1789,toflit_simplification
-île de Bouin,grains froment,5,1789,toflit_simplification
-île de Bouin,fèves,4,1789,toflit_simplification
 Beauvoir-sur-Mer,sel,78,1789,toflit_simplification
 Beauvoir-sur-Mer,grains froment,28,1789,toflit_simplification
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,toflit_simplification
 Beauvoir-sur-Mer,fèves,7,1789,toflit_simplification
 Beauvoir-sur-Mer,lentilles,2,1789,toflit_simplification
 Beauvoir-sur-Mer,lest,3,1789,toflit_simplification
@@ -285,47 +344,35 @@ Saint-Denis d'Oléron,lest,13,1789,toflit_simplification
 Saint-Denis d'Oléron,café avarié,1,1789,toflit_simplification
 Saint-Denis d'Oléron,eau-de-vie,14,1789,toflit_simplification
 Saint-Denis d'Oléron,vide,1,1789,toflit_simplification
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,toflit_simplification
+Saint-Michel-en-l'Herm,à vide,3,1789,toflit_simplification
+Saint-Michel-en-l'Herm,eau-de-vie,1,1789,toflit_simplification
+Saint-Michel-en-l'Herm,planches,1,1789,toflit_simplification
+Saint-Michel-en-l'Herm,vinaigre,2,1789,toflit_simplification
+Saint-Michel-en-l'Herm,grains blé,1,1789,toflit_simplification
+Le Château-d'Oléron,Cargaison inconnue,39,1789,toflit_simplification
+Le Château-d'Oléron,vide,12,1789,toflit_simplification
+Le Château-d'Oléron,bouteilles,1,1789,toflit_simplification
+Le Château-d'Oléron,eau-de-vie,1,1789,toflit_simplification
+Le Château-d'Oléron,oignons,2,1789,toflit_simplification
+Champagné-les-Marais,Cargaison inconnue,1,1789,toflit_simplification
 Saint-Gilles-sur-Vie,grains froment,27,1789,toflit_simplification
 Saint-Gilles-sur-Vie,sel,41,1789,toflit_simplification
 Saint-Gilles-sur-Vie,lentilles,5,1789,toflit_simplification
 Saint-Gilles-sur-Vie,futailles vides,1,1789,toflit_simplification
 Saint-Gilles-sur-Vie,fèves,4,1789,toflit_simplification
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,toflit_simplification
 Saint-Gilles-sur-Vie,futailles,1,1789,toflit_simplification
 Saint-Gilles-sur-Vie,méteil,1,1789,toflit_simplification
 Saint-Gilles-sur-Vie,mobilier,1,1789,toflit_simplification
 Saint-Gilles-sur-Vie,pêche à la sardine,6,1789,toflit_simplification
 Saint-Gilles-sur-Vie,vin,1,1789,toflit_simplification
 Royan,lest,15,1789,toflit_simplification
-La Rochelle,lest,6,1789,toflit_simplification
-La Rochelle,bois pour construction,3,1789,toflit_simplification
-La Rochelle,sel,1,1789,toflit_simplification
-La Rochelle,vin,17,1789,toflit_simplification
-La Rochelle,eau-de-vie,4,1789,toflit_simplification
-La Rochelle,marchandises,2,1789,toflit_simplification
-La Rochelle,fèves,1,1789,toflit_simplification
-La Rochelle,pêche à la morue,7,1789,toflit_simplification
-La Rochelle,marchandises de Marseille,1,1789,toflit_simplification
-La Rochelle,à vide,52,1789,toflit_simplification
-La Rochelle,fer vieux,1,1789,toflit_simplification
-La Rochelle,divers,3,1789,toflit_simplification
-La Rochelle,restant de futailles,1,1789,toflit_simplification
-La Rochelle,à l'aventure,2,1789,toflit_simplification
-La Rochelle,beurre,1,1789,toflit_simplification
-La Rochelle,planches,15,1789,toflit_simplification
-La Rochelle,pièces de bois,1,1789,toflit_simplification
-La Rochelle,marchandises provenant d'un naufrage,1,1789,toflit_simplification
-La Rochelle,sardines,1,1789,toflit_simplification
-La Rochelle,vinaigre,4,1789,toflit_simplification
-La Rochelle,futailles vides,1,1789,toflit_simplification
+Brouage ,Cargaison inconnue,4,1789,toflit_simplification
 Ker Châlon,chaux,5,1789,toflit_simplification
 Ker Châlon,restant de chaux,1,1789,toflit_simplification
 Ker Châlon,à vide,3,1789,toflit_simplification
 Ker Châlon,lest,1,1789,toflit_simplification
-Seudre,beurre,1,1789,toflit_simplification
-Seudre,à vide,1,1789,toflit_simplification
-Seudre,restant de beurre,1,1789,toflit_simplification
-Seudre,vin,2,1789,toflit_simplification
-Seudre,vin pour lest,1,1789,toflit_simplification
 La Flotte-en-Ré,grains méteil,1,1789,toflit_simplification
 La Flotte-en-Ré,vin,5,1789,toflit_simplification
 La Flotte-en-Ré,cendre,1,1789,toflit_simplification
@@ -338,35 +385,13 @@ La Tranche-sur-Mer,ails,17,1789,toflit_simplification
 La Tranche-sur-Mer,échalote,14,1789,toflit_simplification
 La Tranche-sur-Mer,mogette,2,1789,toflit_simplification
 La Tranche-sur-Mer,divers,2,1789,toflit_simplification
-Tonnay-Charente,pierres,3,1789,toflit_simplification
-Tonnay-Charente,eau-de-vie,3,1789,toflit_simplification
-Tonnay-Charente,bois,15,1789,toflit_simplification
-Tonnay-Charente,cercles,1,1789,toflit_simplification
-Tonnay-Charente,restant de marchandises,1,1789,toflit_simplification
-Tonnay-Charente,vide,3,1789,toflit_simplification
-Tonnay-Charente,lest,1,1789,toflit_simplification
-Tonnay-Charente,peaux de bœuf,1,1789,toflit_simplification
-Tonnay-Charente,grains blé,1,1789,toflit_simplification
-Tonnay-Charente,vinaigre,1,1789,toflit_simplification
-Tonnay-Charente,à vide,14,1789,toflit_simplification
-Tonnay-Charente,bois pour brûler,1,1789,toflit_simplification
-Tonnay-Charente,fagots,1,1789,toflit_simplification
-Tonnay-Charente,pommes,2,1789,toflit_simplification
-Tonnay-Charente,lest en fer,1,1789,toflit_simplification
-Tonnay-Charente,planches,1,1789,toflit_simplification
-Tonnay-Charente,vin,1,1789,toflit_simplification
-Tonnay-Charente,fèves,1,1789,toflit_simplification
-Tonnay-Charente,chaux,1,1789,toflit_simplification
 Mortagne,eau-de-vie,3,1789,toflit_simplification
 Mortagne,vin,2,1789,toflit_simplification
 Mortagne,lest,10,1789,toflit_simplification
 Mortagne,vide,1,1789,toflit_simplification
 Mortagne,merrains,1,1789,toflit_simplification
 Mortagne,à l'aventure,1,1789,toflit_simplification
-Le Château-d'Oléron,vide,12,1789,toflit_simplification
-Le Château-d'Oléron,bouteilles,1,1789,toflit_simplification
-Le Château-d'Oléron,eau-de-vie,1,1789,toflit_simplification
-Le Château-d'Oléron,oignons,2,1789,toflit_simplification
+Mortagne,Cargaison inconnue,2,1789,toflit_simplification
 Soubise,à vide,3,1789,toflit_simplification
 Soubise,divers,1,1789,toflit_simplification
 Soubise,planches,1,1789,toflit_simplification
@@ -376,6 +401,7 @@ Soubise,vinaigre,2,1789,toflit_simplification
 Soubise,fèves,2,1789,toflit_simplification
 Soubise,pêche à la morue,1,1789,toflit_simplification
 Soubise,sel,1,1789,toflit_simplification
+Esnandes,Cargaison inconnue,2,1789,toflit_simplification
 île d'Oléron,eau-de-vie,3,1789,toflit_simplification
 île d'Oléron,à vide,3,1789,toflit_simplification
 île d'Oléron,vide,5,1789,toflit_simplification
@@ -384,11 +410,6 @@ Soubise,sel,1,1789,toflit_simplification
 île d'Oléron,grains baillarge,1,1789,toflit_simplification
 île d'Oléron,fèves,2,1789,toflit_simplification
 île d'Oléron,vin,1,1789,toflit_simplification
-Saint-Michel-en-l'Herm,à vide,3,1789,toflit_simplification
-Saint-Michel-en-l'Herm,eau-de-vie,1,1789,toflit_simplification
-Saint-Michel-en-l'Herm,planches,1,1789,toflit_simplification
-Saint-Michel-en-l'Herm,vinaigre,2,1789,toflit_simplification
-Saint-Michel-en-l'Herm,grains blé,1,1789,toflit_simplification
 l'Aiguillon,à vide,3,1789,toflit_simplification
 l'Aiguillon,eau-de-vie,1,1789,toflit_simplification
 l'Aiguillon,vinaigre,2,1789,toflit_simplification

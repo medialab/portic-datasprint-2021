@@ -126,7 +126,13 @@ and p1.source_doc_id  = p2.source_doc_id
 
 # Fichier sorties_navires_vers_etranger_mixte_DFLR_ailleurs_tout1787.csv
 
-select 'Aunis-Saintonge-Poitou' as region_depart, p1.pointcall_province as province_depart
+-- pour vendredi matin,
+
+-- les sorties vers l'étranger de DFLR en 1787, avec le sous-etat du homeport
+-- excluant les colonies françaises et la pêche vers Terre-Neuve (zone maritime)
+ 
+select 'Aunis-Saintonge-Poitou' as region_depart, p1.pointcall_province as province_depart, 
+p1.state_1789_fr as etat_depart, p1.substate_1789_fr as sousetat_depart ,
 p1.pointcall_admiralty as amiraute_depart, p1.toponyme_fr as port_depart, p1.outdate_fixed , 
 p2.toponyme_fr as port_destination, p2.partner_balance_1789, p2.partner_balance_supp_1789,
 p2.pointcall_province,p2.substate_1789_fr as substate_destination, p2.state_1789_fr as state_destination,
@@ -139,13 +145,16 @@ from navigoviz.pointcall p1, navigoviz.pointcall p2 where
 (p1.pointcall_action = 'Out' or p1.pointcall_action = 'In-Out' )
 and p1.pointcall_province in ('Aunis', 'Saintonge', 'Poitou')
 and extract(year from p1.outdate_fixed) = 1787
-and p2.state_1789_fr != 'France' and (p2.data_block_leader_marker = 'T') 
+and p2.state_1789_fr not in ('France', 'zone maritime') and (p2.data_block_leader_marker = 'T') 
 and p1.source_doc_id  = p2.source_doc_id 
 
 UNION
 
 -- departs d'ailleurs que DLFR vers Etranger en 1787
+-- excluant les colonies françaises et la pêche vers Terre-Neuve (zone maritime)
+
 (select p1.pointcall_province as region_depart, p1.pointcall_province as province_depart, 
+p1.state_1789_fr as etat_depart, p1.substate_1789_fr as sousetat_depart ,
 p1.pointcall_admiralty as amiraute_depart, p1.toponyme_fr as port_depart, p1.outdate_fixed , 
 p2.toponyme_fr as port_destination, p2.partner_balance_1789, p2.partner_balance_supp_1789,
 p2.pointcall_province,p2.substate_1789_fr as substate_destination, p2.state_1789_fr as state_destination,
@@ -158,7 +167,7 @@ from navigoviz.pointcall p1, navigoviz.pointcall p2 where
 (p1.pointcall_action = 'Out' or p1.pointcall_action = 'In-Out' )
 and p1.pointcall_province not in ('Aunis', 'Saintonge', 'Poitou')
 and extract(year from p1.outdate_fixed) = 1787
-and p2.state_1789_fr != 'France' and (p2.data_block_leader_marker = 'T') 
+and p2.state_1789_fr not in ('France', 'zone maritime') and (p2.data_block_leader_marker = 'T') 
 and p1.source_doc_id  = p2.source_doc_id 
 )
 

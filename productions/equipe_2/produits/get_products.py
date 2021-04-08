@@ -53,22 +53,25 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
             port = pc["toponyme_fr"]
 
             for c in pc["commodity_purposes"]:
+                check = c["commodity_purpose"].lower()
                 if not idx:
                     products["portic_default"][port][c["commodity_purpose"]] += 1
                     products["portic_standardized_fr"][port][c["commodity_standardized_fr"]] += 1
                 elif key == "toflit_aggregate":
-                    check = c["commodity_purpose"].lower()
                     if check in ['vide', 'vuide', 'à vide', 'a vide', 'a vuide']:
                         products["lest_vide_aggregate"][port]["Vide"] += 1
                     elif check in ['lest', 'son lest', 'a son lest', 'sur son lest', 'sur lest', 'au lest', 'en lest', 'les [lest]']:
                         products["lest_vide_aggregate"][port]["Lest"] += 1
+                    elif not c["commodity_as_toflit"]:
+                        if "pêche" in check:
+                            products["lest_vide_aggregate"][port]["Pêche"] += 1
                     else:
                         products["lest_vide_aggregate"][port][c["commodity_as_toflit"]] += 1
                 if not c["commodity_as_toflit"]:
                     missing[(c["commodity_purpose"], c["commodity_standardized_fr"], port)] += 1
                     if key == "SITC_fr":
                         products[key][port]["Divers mélangés"] += 1
-                    elif "pêche" in c["commodity_purpose"].lower() and key == "toflit_aggregate":
+                    elif "pêche" in check and key == "toflit_aggregate":
                         products[key][port]["Pêche"] += 1
                     else:
                         # Ignore rare missing cases (concerns 2 or 3 lines per classif, mostly Bois & Canons)
@@ -82,6 +85,8 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                     products["portic_default"][port]["Cargaison inconnue"] += 1
                     products["portic_standardized_fr"][port]["Cargaison inconnue"] += 1
                 products[key][port]["Cargaison inconnue"] += 1
+                if key == "toflit_aggregate":
+                    products["lest_vide_aggregate"][port]["Cargaison inconnue"] += 1
 
         if missing:
             print (' WARNING: some products could not be classified within %s:' % toflit_classif, file=sys.stderr)

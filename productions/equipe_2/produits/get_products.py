@@ -56,7 +56,7 @@ def get_navigo_products(admiralties, year, filter_only_out=True):
                 if not c["commodity_as_toflit"]:
                     missing[(c["commodity_purpose"], c["commodity_standardized_fr"], port)] += 1
                     if key == "SITC_fr":
-                        products[key][port]["Divers"] += 1
+                        products[key][port]["Divers mélangés"] += 1
                     elif "pêche" in c["commodity_purpose"].lower() and key == "toflit_aggregate":
                         products[key][port]["Pêche"] += 1
                     else:

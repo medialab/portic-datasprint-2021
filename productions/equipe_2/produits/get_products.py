@@ -31,7 +31,8 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
         "toflit_simplification": defaultdict(Counter),
         "toflit_revolution": defaultdict(Counter),
         "toflit_aggregate": defaultdict(Counter),
-        "SITC_fr": defaultdict(Counter)
+        "SITC_fr": defaultdict(Counter),
+        "lest_vide_aggregate": defaultdict(Counter)
     }
     toflit_classifications = [
         ("toflit_simplification", "product_simplification"),
@@ -55,6 +56,13 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                 if not idx:
                     products["portic_default"][port][c["commodity_purpose"]] += 1
                     products["portic_standardized_fr"][port][c["commodity_standardized_fr"]] += 1
+                    if key == "toflit_aggregate":
+                        if c["commodity_purpose"] in ['Vide', 'Vuide', 'À vide', 'A vide', 'A vuide']:
+                            products["lest_vide_aggregate"][port]["Vide"] += 1
+                        elif c["commodity_purpose"] in ['A son lest', 'Au lest', 'Son lest', 'Sur lest', 'Sur son lest']:
+                            products["lest_vide_aggregate"][port]["Lest"] += 1
+                        else:
+                            products["lest_vide_aggregate"][port][c["commodity_purpose"]] += 1
                 if not c["commodity_as_toflit"]:
                     missing[(c["commodity_purpose"], c["commodity_standardized_fr"], port)] += 1
                     if key == "SITC_fr":

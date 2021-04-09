@@ -1,0 +1,219 @@
+province,port,destination,tonnage
+Aunis,Ars-en-Ré,externe,27111
+Aunis,La Flotte-en-Ré,externe,2473
+Aunis,La Rochelle,externe,46700
+Aunis,Marans,externe,7538
+Aunis,Rochefort,externe,17072
+Aunis,Saint-Martin-de-Ré,externe,11240
+Aunis,Soubise,externe,774
+Aunis,Tonnay-Charente,externe,19742
+Aunis,île de Ré,externe,184
+Bretagne,Aber-Ildut,externe,731
+Bretagne,Argenton,externe,230
+Bretagne,Auray,externe,115
+Bretagne,Binic,externe,76
+Bretagne,Bourgneuf,externe,1527
+Bretagne,Brest,externe,29924
+Bretagne,Cancale,externe,567
+Bretagne,Concarneau,externe,22
+Bretagne,Côtes de Bretagne,externe,64
+Bretagne,Dahouët ,externe,80
+Bretagne,Douarnenez,externe,75
+Bretagne,La Roche-Bernard,externe,768
+Bretagne,Landerneau,externe,3613
+Bretagne,Le Conquet,externe,1025
+Bretagne,Le Croisic,externe,14708
+Bretagne,Le Passage,externe,53
+Bretagne,Le Pouliguen,externe,3092
+Bretagne,Locmariaquer,externe,10
+Bretagne,Lorient,externe,43855
+Bretagne,Mesquer,externe,133
+Bretagne,Morlaix,externe,457
+Bretagne,Méan,externe,58
+Bretagne,Nantes,externe,109339
+Bretagne,Paimpol,externe,85
+Bretagne,Penpoul,externe,500
+Bretagne,Plouharnel,externe,40
+Bretagne,Pornic,externe,261
+Bretagne,Port-Launay,externe,32
+Bretagne,Portsall,externe,187
+Bretagne,Quiberon,externe,65
+Bretagne,Quimper,externe,40
+Bretagne,Quimperlé,externe,25
+Bretagne,Redon,externe,65
+Bretagne,Roscoff,externe,2653
+Bretagne,Saint-Brieuc,externe,12
+Bretagne,Saint-Cast,externe,32
+Bretagne,Saint-Malo,externe,40985
+Bretagne,Saint-Nazaire,externe,178
+Bretagne,Vannes,externe,271
+Bretagne,Île-aux-Moines,externe,40
+Flandre,Dunkerque,externe,104584
+Flandre,Gravelines,externe,1981
+Guyenne,Bayonne,externe,43150
+Guyenne,Blaye,externe,3748
+Guyenne,Bordeaux,externe,259139
+Guyenne,Bourg,externe,110
+Guyenne,La Teste,externe,632
+Guyenne,Libourne,externe,345
+Guyenne,Saint-Jean-de-Luz ,externe,452
+Guyenne,Socoa,externe,2636
+Normandie,Barfleur,externe,349
+Normandie,Caen ,externe,40
+Normandie,Cherbourg,externe,18853
+Normandie,Courtils,externe,538
+Normandie,Dieppe,externe,24518
+Normandie,Diélette,externe,226
+Normandie,Fécamp,externe,5334
+Normandie,Granville,externe,19099
+Normandie,Harfleur,externe,348
+Normandie,Honfleur,externe,20319
+Normandie,Isigny,externe,833
+Normandie,La Hougue,externe,417
+Normandie,La Mailleraye,externe,58
+Normandie,Le Havre,externe,129161
+Normandie,Le Tréport,externe,1182
+Normandie,Omonville,externe,78
+Normandie,Pont-Audemer,externe,2
+Normandie,Port-Bail,externe,2866
+Normandie,Quillebeuf,externe,623
+Normandie,Regnéville,externe,27
+Normandie,Rouen,externe,44248
+Normandie,Saint-Valery en Caux,externe,1921
+Normandie,Touques,externe,69
+Normandie,îles Chausey,externe,120
+Picardie,Abbeville,externe,1630
+Picardie,Baie d'Authie,externe,92
+Picardie,Boulogne-sur-Mer,externe,22053
+Picardie,Calais,externe,27586
+Picardie,Le Crotoy,externe,1403
+Picardie,Saint-Valery-sur-Somme,externe,17652
+Picardie,Étaples ,externe,1149
+Poitou,Beauvoir-sur-Mer,externe,3864
+Poitou,Champagné-les-Marais,externe,117
+Poitou,Ker Châlon,externe,60
+Poitou,La Tranche-sur-Mer,externe,557
+Poitou,Les Sables-d'Olonne,externe,11920
+Poitou,Moricq,externe,2899
+Poitou,Noirmoutier,externe,12523
+Poitou,Saint-Gilles-sur-Vie,externe,4985
+Poitou,Saint-Michel-en-l'Herm,externe,393
+Poitou,Talmont,externe,356
+Poitou,île d'Yeu,externe,38
+Poitou,île de Bouin,externe,5431
+Saintonge,Chaillevette,externe,140
+Saintonge,La Brée,externe,20
+Saintonge,La Perrotine,externe,1364
+Saintonge,La Tremblade,externe,60
+Saintonge,Le Château-d'Oléron,externe,827
+Saintonge,Marennes,externe,71457
+Saintonge,Martrou,externe,140
+Saintonge,Meschers,externe,25
+Saintonge,Mortagne,externe,401
+Saintonge,Ribérou,externe,5291
+Saintonge,Royan,externe,354
+Saintonge,Saint-Denis d'Oléron,externe,1620
+Saintonge,Seudre,externe,124
+Saintonge,île d'Oléron,externe,146
+Aunis,Ars-en-Ré,local,1817
+Aunis,Esnandes,local,28
+Aunis,L'Houmée,local,56
+Aunis,La Flotte-en-Ré,local,2131
+Aunis,La Rochelle,local,17395
+Aunis,Loix,local,15
+Aunis,Marans,local,6230
+Aunis,Rochefort,local,11419
+Aunis,Saint-Martin-de-Ré,local,4611
+Aunis,Soubise,local,463
+Aunis,Tonnay-Charente,local,13807
+Aunis,mer des Pertuis,local,30
+Aunis,île de Ré,local,103
+Bretagne,Aber-Ildut,local,297
+Bretagne,Argenton,local,45
+Bretagne,Belle-Île-en-Mer,local,15
+Bretagne,Billiers,local,18
+Bretagne,Bourgneuf,local,328
+Bretagne,Brest,local,10966
+Bretagne,Cancale,local,200
+Bretagne,Côtes de Bretagne,local,111
+Bretagne,Hennebont,local,36
+Bretagne,La Roche-Bernard,local,228
+Bretagne,Landerneau,local,262
+Bretagne,Le Conquet,local,99
+Bretagne,Le Croisic,local,3955
+Bretagne,Le Légué,local,80
+Bretagne,Le Passage,local,176
+Bretagne,Le Pouliguen,local,1213
+Bretagne,Lorient,local,23643
+Bretagne,Mesquer,local,575
+Bretagne,Morlaix,local,61
+Bretagne,Nantes,local,23004
+Bretagne,Paimpol,local,20
+Bretagne,Penpoul,local,8
+Bretagne,Pornic,local,54
+Bretagne,Port-Louis,local,44
+Bretagne,Pénestin,local,3
+Bretagne,Quiberon,local,29
+Bretagne,Quimper,local,25
+Bretagne,Redon,local,329
+Bretagne,Roscoff,local,2855
+Bretagne,Saint-Brieuc,local,129
+Bretagne,Saint-Malo,local,8369
+Bretagne,Saint-Nazaire,local,58
+Bretagne,Saint-Pol-de-Léon,local,65
+Bretagne,Vannes,local,26
+Flandre,Dunkerque,local,369
+Flandre,Gravelines,local,2
+Guyenne,Bayonne,local,2083
+Guyenne,Bordeaux,local,3139
+Guyenne,La Teste,local,47
+Guyenne,Saint-Jean-de-Luz ,local,1019
+Normandie,Barfleur,local,1418
+Normandie,Caen ,local,53
+Normandie,Caudebec,local,1907
+Normandie,Cherbourg,local,15570
+Normandie,Courseulles,local,714
+Normandie,Courtils,local,54
+Normandie,Dieppe,local,14666
+Normandie,Diélette,local,223
+Normandie,Fécamp,local,3789
+Normandie,Genêts ,local,39
+Normandie,Grandcamp,local,86
+Normandie,Granville,local,4142
+Normandie,Harfleur,local,2063
+Normandie,Honfleur,local,28301
+Normandie,Isigny,local,5212
+Normandie,La Hougue,local,5252
+Normandie,La Mailleraye,local,56
+Normandie,Le Havre,local,90464
+Normandie,Le Tréport,local,918
+Normandie,Omonville,local,24
+Normandie,Pont-Audemer,local,1769
+Normandie,Port-Bail,local,796
+Normandie,Quillebeuf,local,13542
+Normandie,Quinéville,local,32
+Normandie,Rouen,local,78023
+Normandie,Saint-Valery en Caux,local,4311
+Normandie,Touques,local,10679
+Normandie,Étretat ,local,72
+Normandie,îles Chausey,local,112
+Picardie,Abbeville,local,30
+Picardie,Boulogne-sur-Mer,local,1443
+Picardie,Calais,local,312
+Picardie,Le Crotoy,local,4
+Picardie,Saint-Valery-sur-Somme,local,1031
+Picardie,Étaples ,local,33
+Poitou,Beauvoir-sur-Mer,local,105
+Poitou,Les Sables-d'Olonne,local,65
+Poitou,Luçon,local,39
+Poitou,Noirmoutier,local,240
+Poitou,Saint-Gilles-sur-Vie,local,79
+Poitou,Saint-Michel-en-l'Herm,local,12
+Poitou,île de Bouin,local,106
+Saintonge,Le Château-d'Oléron,local,57
+Saintonge,Marennes,local,1647
+Saintonge,Mortagne,local,12
+Saintonge,Ribérou,local,2039
+Saintonge,Royan,local,46
+Saintonge,Seudre,local,593
+Saintonge,île d'Oléron,local,14

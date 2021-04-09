@@ -127,7 +127,7 @@ def write_products_csv_by_classification(products, year, filter_only_out=True):
 
 def write_boats_csv(boats, year, filter_only_out=True):
     filtered = "_only_out" if filter_only_out else ""
-    with open(os.path.join(DATADIR, "boats_%s%s.csv" % (year, filtered)), "w", newline='') as csvf:
+    with open(os.path.join(DATADIR, "boats_lest_vide_%s%s.csv" % (year, filtered)), "w", newline='') as csvf:
         writer = csv.writer(csvf, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(['port', 'product', 'count', 'year'])
         for port, elements in sorted(boats.items()):

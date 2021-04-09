@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
-  <meta lastmodifieddate="2021-04-08">
+  <meta lastmodifieddate="2021-04-09">
     <creator>NetworkX 2.5.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
     <attributes class="node" mode="static">
-      <attribute id="0" title="nature" type="string" />
+      <attribute id="0" title="type" type="string" />
       <attribute id="1" title="pointcalls" type="long" />
     </attributes>
     <nodes>

@@ -1,0 +1,824 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-04-09">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="pointcalls" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Ars-en-Ré" label="Ars-en-Ré">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="309" />
+        </attvalues>
+      </node>
+      <node id="Bière, cidre et vinaigre" label="Bière, cidre et vinaigre">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="32" />
+        </attvalues>
+      </node>
+      <node id="Cargaison inconnue" label="Cargaison inconnue">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1803" />
+        </attvalues>
+      </node>
+      <node id="Cendres diverses" label="Cendres diverses">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="31" />
+        </attvalues>
+      </node>
+      <node id="Eaux-de-vie et liqueurs" label="Eaux-de-vie et liqueurs">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="146" />
+        </attvalues>
+      </node>
+      <node id="Ouvrages de bois, liège et jonc" label="Ouvrages de bois, liège et jonc">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="258" />
+        </attvalues>
+      </node>
+      <node id="Produits inconnus" label="Produits inconnus">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1172" />
+        </attvalues>
+      </node>
+      <node id="Sel" label="Sel">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="2106" />
+        </attvalues>
+      </node>
+      <node id="Vins divers" label="Vins divers">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="248" />
+        </attvalues>
+      </node>
+      <node id="Beauvoir-sur-Mer" label="Beauvoir-sur-Mer">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="126" />
+        </attvalues>
+      </node>
+      <node id="Blé et autres grains comestibles" label="Blé et autres grains comestibles">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="322" />
+        </attvalues>
+      </node>
+      <node id="Légumes" label="Légumes">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="70" />
+        </attvalues>
+      </node>
+      <node id="Ouvrages divers et mélangés" label="Ouvrages divers et mélangés">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="55" />
+        </attvalues>
+      </node>
+      <node id="Pêche et fruits de mer" label="Pêche et fruits de mer">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="47" />
+        </attvalues>
+      </node>
+      <node id="Brouage " label="Brouage ">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Champagné-les-Marais" label="Champagné-les-Marais">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Esnandes" label="Esnandes">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ker Châlon" label="Ker Châlon">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="Matières premières diverses" label="Matières premières diverses">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="129" />
+        </attvalues>
+      </node>
+      <node id="La Flotte-en-Ré" label="La Flotte-en-Ré">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Divers incertains" label="Divers incertains">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="La Perrotine" label="La Perrotine">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="82" />
+        </attvalues>
+      </node>
+      <node id="Divers mélangés" label="Divers mélangés">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="48" />
+        </attvalues>
+      </node>
+      <node id="Savon" label="Savon">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="La Rochelle" label="La Rochelle">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="1128" />
+        </attvalues>
+      </node>
+      <node id="Beurre" label="Beurre">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="15" />
+        </attvalues>
+      </node>
+      <node id="Fer" label="Fer">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Sortie pour pêche" label="Sortie pour pêche">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="55" />
+        </attvalues>
+      </node>
+      <node id="La Tranche-sur-Mer" label="La Tranche-sur-Mer">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="55" />
+        </attvalues>
+      </node>
+      <node id="Subsistances diverses et mélangées" label="Subsistances diverses et mélangées">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="58" />
+        </attvalues>
+      </node>
+      <node id="La Tremblade" label="La Tremblade">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Le Chapus" label="Le Chapus">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Le Château-d'Oléron" label="Le Château-d'Oléron">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="55" />
+        </attvalues>
+      </node>
+      <node id="Les Sables-d'Olonne" label="Les Sables-d'Olonne">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="332" />
+        </attvalues>
+      </node>
+      <node id="Animaux" label="Animaux">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="32" />
+        </attvalues>
+      </node>
+      <node id="Bois divers hors combustible" label="Bois divers hors combustible">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="177" />
+        </attvalues>
+      </node>
+      <node id="Bâtiments de mer et apparaux" label="Bâtiments de mer et apparaux">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="Combustibles dont charbons et bois" label="Combustibles dont charbons et bois">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="319" />
+        </attvalues>
+      </node>
+      <node id="Habits et lingerie" label="Habits et lingerie">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Huile de poisson" label="Huile de poisson">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Porcelaine, poterie, faïence et ouvrages de terre" label="Porcelaine, poterie, faïence et ouvrages de terre">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="Marans" label="Marans">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="687" />
+        </attvalues>
+      </node>
+      <node id="Chanvre" label="Chanvre">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="Farine, gruau, biscuits et pâtes" label="Farine, gruau, biscuits et pâtes">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="56" />
+        </attvalues>
+      </node>
+      <node id="Graines grasses" label="Graines grasses">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Lin" label="Lin">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Marennes" label="Marennes">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="1516" />
+        </attvalues>
+      </node>
+      <node id="Chairs et œufs" label="Chairs et œufs">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Meubles, glaces et miroirs" label="Meubles, glaces et miroirs">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="Êtres humains" label="Êtres humains">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Martrou" label="Martrou">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Moricq" label="Moricq">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="145" />
+        </attvalues>
+      </node>
+      <node id="Mortagne" label="Mortagne">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="Noirmoutier" label="Noirmoutier">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="307" />
+        </attvalues>
+      </node>
+      <node id="Alcalis" label="Alcalis">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="21" />
+        </attvalues>
+      </node>
+      <node id="Ribérou" label="Ribérou">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="535" />
+        </attvalues>
+      </node>
+      <node id="Fromage" label="Fromage">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fruits frais" label="Fruits frais">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Fruits secs et noix" label="Fruits secs et noix">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ouvrages métalliques" label="Ouvrages métalliques">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rochefort" label="Rochefort">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="403" />
+        </attvalues>
+      </node>
+      <node id="Armes, munitions, poudre et pierres à fusil" label="Armes, munitions, poudre et pierres à fusil">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Brai, goudron et résines" label="Brai, goudron et résines">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Café" label="Café">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Cordage et filets" label="Cordage et filets">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Coton non transformé" label="Coton non transformé">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Cuivre" label="Cuivre">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Graisses diverses" label="Graisses diverses">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Huiles diverses" label="Huiles diverses">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sucre" label="Sucre">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Verrerie" label="Verrerie">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Royan" label="Royan">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="15" />
+        </attvalues>
+      </node>
+      <node id="Saint-Denis d'Oléron" label="Saint-Denis d'Oléron">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="69" />
+        </attvalues>
+      </node>
+      <node id="Saint-Gilles-sur-Vie" label="Saint-Gilles-sur-Vie">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="92" />
+        </attvalues>
+      </node>
+      <node id="Saint-Martin-de-Ré" label="Saint-Martin-de-Ré">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="484" />
+        </attvalues>
+      </node>
+      <node id="Laines non transformées diverses" label="Laines non transformées diverses">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Saint-Michel-en-l'Herm" label="Saint-Michel-en-l'Herm">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="73" />
+        </attvalues>
+      </node>
+      <node id="Seudre" label="Seudre">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="31" />
+        </attvalues>
+      </node>
+      <node id="Soubise" label="Soubise">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="Tonnay-Charente" label="Tonnay-Charente">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="642" />
+        </attvalues>
+      </node>
+      <node id="Cuirs, peaux et pelleterie" label="Cuirs, peaux et pelleterie">
+        <attvalues>
+          <attvalue for="0" value="product" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="l'Aiguillon" label="l'Aiguillon">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="mer des Pertuis" label="mer des Pertuis">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="île d'Oléron" label="île d'Oléron">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="19" />
+        </attvalues>
+      </node>
+      <node id="île d'Yeu" label="île d'Yeu">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="île de Bouin" label="île de Bouin">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="105" />
+        </attvalues>
+      </node>
+      <node id="île de Ré" label="île de Ré">
+        <attvalues>
+          <attvalue for="0" value="port" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Ars-en-Ré" target="Bière, cidre et vinaigre" weight="1" />
+      <edge id="1" source="Ars-en-Ré" target="Cargaison inconnue" weight="12" />
+      <edge id="2" source="Ars-en-Ré" target="Cendres diverses" weight="1" />
+      <edge id="3" source="Ars-en-Ré" target="Eaux-de-vie et liqueurs" weight="2" />
+      <edge id="4" source="Ars-en-Ré" target="Ouvrages de bois, liège et jonc" weight="1" />
+      <edge id="5" source="Ars-en-Ré" target="Produits inconnus" weight="45" />
+      <edge id="6" source="Ars-en-Ré" target="Sel" weight="246" />
+      <edge id="7" source="Ars-en-Ré" target="Vins divers" weight="1" />
+      <edge id="8" source="Bière, cidre et vinaigre" target="La Rochelle" weight="4" />
+      <edge id="9" source="Bière, cidre et vinaigre" target="Marans" weight="3" />
+      <edge id="10" source="Bière, cidre et vinaigre" target="Marennes" weight="4" />
+      <edge id="11" source="Bière, cidre et vinaigre" target="Moricq" weight="2" />
+      <edge id="12" source="Bière, cidre et vinaigre" target="Rochefort" weight="1" />
+      <edge id="13" source="Bière, cidre et vinaigre" target="Saint-Martin-de-Ré" weight="10" />
+      <edge id="14" source="Bière, cidre et vinaigre" target="Saint-Michel-en-l'Herm" weight="2" />
+      <edge id="15" source="Bière, cidre et vinaigre" target="Soubise" weight="2" />
+      <edge id="16" source="Bière, cidre et vinaigre" target="Tonnay-Charente" weight="1" />
+      <edge id="17" source="Bière, cidre et vinaigre" target="l'Aiguillon" weight="2" />
+      <edge id="18" source="Cargaison inconnue" target="Beauvoir-sur-Mer" weight="4" />
+      <edge id="19" source="Cargaison inconnue" target="Brouage " weight="4" />
+      <edge id="20" source="Cargaison inconnue" target="Champagné-les-Marais" weight="1" />
+      <edge id="21" source="Cargaison inconnue" target="Esnandes" weight="2" />
+      <edge id="22" source="Cargaison inconnue" target="La Perrotine" weight="1" />
+      <edge id="23" source="Cargaison inconnue" target="La Rochelle" weight="1003" />
+      <edge id="24" source="Cargaison inconnue" target="Le Château-d'Oléron" weight="39" />
+      <edge id="25" source="Cargaison inconnue" target="Les Sables-d'Olonne" weight="2" />
+      <edge id="26" source="Cargaison inconnue" target="Marans" weight="1" />
+      <edge id="27" source="Cargaison inconnue" target="Marennes" weight="19" />
+      <edge id="28" source="Cargaison inconnue" target="Mortagne" weight="2" />
+      <edge id="29" source="Cargaison inconnue" target="Noirmoutier" weight="5" />
+      <edge id="30" source="Cargaison inconnue" target="Ribérou" weight="1" />
+      <edge id="31" source="Cargaison inconnue" target="Rochefort" weight="5" />
+      <edge id="32" source="Cargaison inconnue" target="Saint-Gilles-sur-Vie" weight="4" />
+      <edge id="33" source="Cargaison inconnue" target="Saint-Martin-de-Ré" weight="8" />
+      <edge id="34" source="Cargaison inconnue" target="Saint-Michel-en-l'Herm" weight="65" />
+      <edge id="35" source="Cargaison inconnue" target="Seudre" weight="25" />
+      <edge id="36" source="Cargaison inconnue" target="Tonnay-Charente" weight="589" />
+      <edge id="37" source="Cargaison inconnue" target="île de Bouin" weight="11" />
+      <edge id="38" source="Cendres diverses" target="La Flotte-en-Ré" weight="1" />
+      <edge id="39" source="Cendres diverses" target="Marans" weight="1" />
+      <edge id="40" source="Cendres diverses" target="Noirmoutier" weight="20" />
+      <edge id="41" source="Cendres diverses" target="Rochefort" weight="6" />
+      <edge id="42" source="Cendres diverses" target="Saint-Martin-de-Ré" weight="2" />
+      <edge id="43" source="Eaux-de-vie et liqueurs" target="La Perrotine" weight="30" />
+      <edge id="44" source="Eaux-de-vie et liqueurs" target="La Rochelle" weight="4" />
+      <edge id="45" source="Eaux-de-vie et liqueurs" target="Le Château-d'Oléron" weight="1" />
+      <edge id="46" source="Eaux-de-vie et liqueurs" target="Marennes" weight="25" />
+      <edge id="47" source="Eaux-de-vie et liqueurs" target="Moricq" weight="1" />
+      <edge id="48" source="Eaux-de-vie et liqueurs" target="Mortagne" weight="3" />
+      <edge id="49" source="Eaux-de-vie et liqueurs" target="Noirmoutier" weight="3" />
+      <edge id="50" source="Eaux-de-vie et liqueurs" target="Ribérou" weight="15" />
+      <edge id="51" source="Eaux-de-vie et liqueurs" target="Rochefort" weight="14" />
+      <edge id="52" source="Eaux-de-vie et liqueurs" target="Saint-Denis d'Oléron" weight="14" />
+      <edge id="53" source="Eaux-de-vie et liqueurs" target="Saint-Martin-de-Ré" weight="26" />
+      <edge id="54" source="Eaux-de-vie et liqueurs" target="Saint-Michel-en-l'Herm" weight="1" />
+      <edge id="55" source="Eaux-de-vie et liqueurs" target="Tonnay-Charente" weight="3" />
+      <edge id="56" source="Eaux-de-vie et liqueurs" target="l'Aiguillon" weight="1" />
+      <edge id="57" source="Eaux-de-vie et liqueurs" target="île d'Oléron" weight="3" />
+      <edge id="58" source="Ouvrages de bois, liège et jonc" target="La Flotte-en-Ré" weight="1" />
+      <edge id="59" source="Ouvrages de bois, liège et jonc" target="La Rochelle" weight="21" />
+      <edge id="60" source="Ouvrages de bois, liège et jonc" target="La Tremblade" weight="1" />
+      <edge id="61" source="Ouvrages de bois, liège et jonc" target="Les Sables-d'Olonne" weight="12" />
+      <edge id="62" source="Ouvrages de bois, liège et jonc" target="Marans" weight="46" />
+      <edge id="63" source="Ouvrages de bois, liège et jonc" target="Marennes" weight="3" />
+      <edge id="64" source="Ouvrages de bois, liège et jonc" target="Moricq" weight="26" />
+      <edge id="65" source="Ouvrages de bois, liège et jonc" target="Mortagne" weight="1" />
+      <edge id="66" source="Ouvrages de bois, liège et jonc" target="Noirmoutier" weight="12" />
+      <edge id="67" source="Ouvrages de bois, liège et jonc" target="Ribérou" weight="12" />
+      <edge id="68" source="Ouvrages de bois, liège et jonc" target="Rochefort" weight="41" />
+      <edge id="69" source="Ouvrages de bois, liège et jonc" target="Saint-Gilles-sur-Vie" weight="2" />
+      <edge id="70" source="Ouvrages de bois, liège et jonc" target="Saint-Martin-de-Ré" weight="74" />
+      <edge id="71" source="Ouvrages de bois, liège et jonc" target="Saint-Michel-en-l'Herm" weight="1" />
+      <edge id="72" source="Ouvrages de bois, liège et jonc" target="Soubise" weight="1" />
+      <edge id="73" source="Ouvrages de bois, liège et jonc" target="Tonnay-Charente" weight="1" />
+      <edge id="74" source="Ouvrages de bois, liège et jonc" target="l'Aiguillon" weight="1" />
+      <edge id="75" source="Ouvrages de bois, liège et jonc" target="mer des Pertuis" weight="1" />
+      <edge id="76" source="Produits inconnus" target="Beauvoir-sur-Mer" weight="4" />
+      <edge id="77" source="Produits inconnus" target="Ker Châlon" weight="4" />
+      <edge id="78" source="Produits inconnus" target="La Perrotine" weight="19" />
+      <edge id="79" source="Produits inconnus" target="La Rochelle" weight="60" />
+      <edge id="80" source="Produits inconnus" target="La Tremblade" weight="1" />
+      <edge id="81" source="Produits inconnus" target="Le Chapus" weight="1" />
+      <edge id="82" source="Produits inconnus" target="Le Château-d'Oléron" weight="12" />
+      <edge id="83" source="Produits inconnus" target="Les Sables-d'Olonne" weight="32" />
+      <edge id="84" source="Produits inconnus" target="Marans" weight="194" />
+      <edge id="85" source="Produits inconnus" target="Marennes" weight="66" />
+      <edge id="86" source="Produits inconnus" target="Moricq" weight="3" />
+      <edge id="87" source="Produits inconnus" target="Mortagne" weight="12" />
+      <edge id="88" source="Produits inconnus" target="Noirmoutier" weight="10" />
+      <edge id="89" source="Produits inconnus" target="Ribérou" weight="168" />
+      <edge id="90" source="Produits inconnus" target="Rochefort" weight="229" />
+      <edge id="91" source="Produits inconnus" target="Royan" weight="15" />
+      <edge id="92" source="Produits inconnus" target="Saint-Denis d'Oléron" weight="14" />
+      <edge id="93" source="Produits inconnus" target="Saint-Martin-de-Ré" weight="244" />
+      <edge id="94" source="Produits inconnus" target="Saint-Michel-en-l'Herm" weight="3" />
+      <edge id="95" source="Produits inconnus" target="Seudre" weight="1" />
+      <edge id="96" source="Produits inconnus" target="Soubise" weight="4" />
+      <edge id="97" source="Produits inconnus" target="Tonnay-Charente" weight="18" />
+      <edge id="98" source="Produits inconnus" target="l'Aiguillon" weight="3" />
+      <edge id="99" source="Produits inconnus" target="île d'Oléron" weight="8" />
+      <edge id="100" source="Produits inconnus" target="île d'Yeu" weight="1" />
+      <edge id="101" source="Produits inconnus" target="île de Ré" weight="1" />
+      <edge id="102" source="Sel" target="Beauvoir-sur-Mer" weight="78" />
+      <edge id="103" source="Sel" target="La Rochelle" weight="1" />
+      <edge id="104" source="Sel" target="Les Sables-d'Olonne" weight="106" />
+      <edge id="105" source="Sel" target="Marennes" weight="1301" />
+      <edge id="106" source="Sel" target="Noirmoutier" weight="197" />
+      <edge id="107" source="Sel" target="Ribérou" weight="1" />
+      <edge id="108" source="Sel" target="Saint-Gilles-sur-Vie" weight="41" />
+      <edge id="109" source="Sel" target="Saint-Martin-de-Ré" weight="49" />
+      <edge id="110" source="Sel" target="Soubise" weight="1" />
+      <edge id="111" source="Sel" target="île de Bouin" weight="85" />
+      <edge id="112" source="Vins divers" target="Beauvoir-sur-Mer" weight="1" />
+      <edge id="113" source="Vins divers" target="La Flotte-en-Ré" weight="5" />
+      <edge id="114" source="Vins divers" target="La Perrotine" weight="24" />
+      <edge id="115" source="Vins divers" target="La Rochelle" weight="17" />
+      <edge id="116" source="Vins divers" target="Le Chapus" weight="1" />
+      <edge id="117" source="Vins divers" target="Les Sables-d'Olonne" weight="2" />
+      <edge id="118" source="Vins divers" target="Marans" weight="3" />
+      <edge id="119" source="Vins divers" target="Marennes" weight="64" />
+      <edge id="120" source="Vins divers" target="Moricq" weight="3" />
+      <edge id="121" source="Vins divers" target="Mortagne" weight="2" />
+      <edge id="122" source="Vins divers" target="Noirmoutier" weight="6" />
+      <edge id="123" source="Vins divers" target="Ribérou" weight="28" />
+      <edge id="124" source="Vins divers" target="Rochefort" weight="17" />
+      <edge id="125" source="Vins divers" target="Saint-Denis d'Oléron" weight="33" />
+      <edge id="126" source="Vins divers" target="Saint-Gilles-sur-Vie" weight="1" />
+      <edge id="127" source="Vins divers" target="Saint-Martin-de-Ré" weight="31" />
+      <edge id="128" source="Vins divers" target="Seudre" weight="3" />
+      <edge id="129" source="Vins divers" target="Soubise" weight="1" />
+      <edge id="130" source="Vins divers" target="Tonnay-Charente" weight="1" />
+      <edge id="131" source="Vins divers" target="mer des Pertuis" weight="1" />
+      <edge id="132" source="Vins divers" target="île d'Oléron" weight="1" />
+      <edge id="133" source="Vins divers" target="île d'Yeu" weight="1" />
+      <edge id="134" source="Vins divers" target="île de Ré" weight="1" />
+      <edge id="135" source="Beauvoir-sur-Mer" target="Blé et autres grains comestibles" weight="28" />
+      <edge id="136" source="Beauvoir-sur-Mer" target="Légumes" weight="9" />
+      <edge id="137" source="Beauvoir-sur-Mer" target="Ouvrages divers et mélangés" weight="1" />
+      <edge id="138" source="Beauvoir-sur-Mer" target="Pêche et fruits de mer" weight="1" />
+      <edge id="139" source="Blé et autres grains comestibles" target="La Flotte-en-Ré" weight="1" />
+      <edge id="140" source="Blé et autres grains comestibles" target="Les Sables-d'Olonne" weight="1" />
+      <edge id="141" source="Blé et autres grains comestibles" target="Marans" weight="188" />
+      <edge id="142" source="Blé et autres grains comestibles" target="Moricq" weight="25" />
+      <edge id="143" source="Blé et autres grains comestibles" target="Noirmoutier" weight="28" />
+      <edge id="144" source="Blé et autres grains comestibles" target="Ribérou" weight="1" />
+      <edge id="145" source="Blé et autres grains comestibles" target="Rochefort" weight="9" />
+      <edge id="146" source="Blé et autres grains comestibles" target="Saint-Gilles-sur-Vie" weight="28" />
+      <edge id="147" source="Blé et autres grains comestibles" target="Saint-Martin-de-Ré" weight="4" />
+      <edge id="148" source="Blé et autres grains comestibles" target="Saint-Michel-en-l'Herm" weight="1" />
+      <edge id="149" source="Blé et autres grains comestibles" target="Tonnay-Charente" weight="1" />
+      <edge id="150" source="Blé et autres grains comestibles" target="île d'Oléron" weight="2" />
+      <edge id="151" source="Blé et autres grains comestibles" target="île de Bouin" weight="5" />
+      <edge id="152" source="Légumes" target="La Perrotine" weight="1" />
+      <edge id="153" source="Légumes" target="La Rochelle" weight="1" />
+      <edge id="154" source="Légumes" target="La Tranche-sur-Mer" weight="2" />
+      <edge id="155" source="Légumes" target="Marans" weight="21" />
+      <edge id="156" source="Légumes" target="Marennes" weight="8" />
+      <edge id="157" source="Légumes" target="Noirmoutier" weight="7" />
+      <edge id="158" source="Légumes" target="Ribérou" weight="1" />
+      <edge id="159" source="Légumes" target="Rochefort" weight="1" />
+      <edge id="160" source="Légumes" target="Saint-Gilles-sur-Vie" weight="9" />
+      <edge id="161" source="Légumes" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="162" source="Légumes" target="Soubise" weight="2" />
+      <edge id="163" source="Légumes" target="Tonnay-Charente" weight="1" />
+      <edge id="164" source="Légumes" target="île d'Oléron" weight="2" />
+      <edge id="165" source="Légumes" target="île de Bouin" weight="4" />
+      <edge id="166" source="Ouvrages divers et mélangés" target="Le Château-d'Oléron" weight="1" />
+      <edge id="167" source="Ouvrages divers et mélangés" target="Les Sables-d'Olonne" weight="36" />
+      <edge id="168" source="Ouvrages divers et mélangés" target="Marans" weight="2" />
+      <edge id="169" source="Ouvrages divers et mélangés" target="Marennes" weight="8" />
+      <edge id="170" source="Ouvrages divers et mélangés" target="Ribérou" weight="2" />
+      <edge id="171" source="Ouvrages divers et mélangés" target="Rochefort" weight="4" />
+      <edge id="172" source="Ouvrages divers et mélangés" target="Tonnay-Charente" weight="1" />
+      <edge id="173" source="Pêche et fruits de mer" target="La Perrotine" weight="2" />
+      <edge id="174" source="Pêche et fruits de mer" target="La Rochelle" weight="1" />
+      <edge id="175" source="Pêche et fruits de mer" target="Les Sables-d'Olonne" weight="22" />
+      <edge id="176" source="Pêche et fruits de mer" target="Marans" weight="1" />
+      <edge id="177" source="Pêche et fruits de mer" target="Marennes" weight="3" />
+      <edge id="178" source="Pêche et fruits de mer" target="Ribérou" weight="2" />
+      <edge id="179" source="Pêche et fruits de mer" target="Rochefort" weight="9" />
+      <edge id="180" source="Pêche et fruits de mer" target="Saint-Martin-de-Ré" weight="6" />
+      <edge id="181" source="Ker Châlon" target="Matières premières diverses" weight="6" />
+      <edge id="182" source="Matières premières diverses" target="Marans" weight="6" />
+      <edge id="183" source="Matières premières diverses" target="Marennes" weight="1" />
+      <edge id="184" source="Matières premières diverses" target="Ribérou" weight="105" />
+      <edge id="185" source="Matières premières diverses" target="Rochefort" weight="2" />
+      <edge id="186" source="Matières premières diverses" target="Saint-Martin-de-Ré" weight="5" />
+      <edge id="187" source="Matières premières diverses" target="Tonnay-Charente" weight="4" />
+      <edge id="188" source="La Flotte-en-Ré" target="Divers incertains" weight="1" />
+      <edge id="189" source="Divers incertains" target="La Perrotine" weight="3" />
+      <edge id="190" source="Divers incertains" target="La Rochelle" weight="3" />
+      <edge id="191" source="Divers incertains" target="La Tranche-sur-Mer" weight="2" />
+      <edge id="192" source="Divers incertains" target="Rochefort" weight="7" />
+      <edge id="193" source="Divers incertains" target="Soubise" weight="1" />
+      <edge id="194" source="La Perrotine" target="Divers mélangés" weight="1" />
+      <edge id="195" source="La Perrotine" target="Savon" weight="1" />
+      <edge id="196" source="Divers mélangés" target="La Rochelle" weight="4" />
+      <edge id="197" source="Divers mélangés" target="Les Sables-d'Olonne" weight="14" />
+      <edge id="198" source="Divers mélangés" target="Marennes" weight="2" />
+      <edge id="199" source="Divers mélangés" target="Ribérou" weight="1" />
+      <edge id="200" source="Divers mélangés" target="Rochefort" weight="21" />
+      <edge id="201" source="Divers mélangés" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="202" source="Divers mélangés" target="Tonnay-Charente" weight="1" />
+      <edge id="203" source="Divers mélangés" target="île d'Oléron" weight="3" />
+      <edge id="204" source="La Rochelle" target="Beurre" weight="1" />
+      <edge id="205" source="La Rochelle" target="Fer" weight="1" />
+      <edge id="206" source="La Rochelle" target="Sortie pour pêche" weight="7" />
+      <edge id="207" source="Beurre" target="Les Sables-d'Olonne" weight="1" />
+      <edge id="208" source="Beurre" target="Marennes" weight="5" />
+      <edge id="209" source="Beurre" target="Rochefort" weight="2" />
+      <edge id="210" source="Beurre" target="Saint-Martin-de-Ré" weight="4" />
+      <edge id="211" source="Beurre" target="Seudre" weight="2" />
+      <edge id="212" source="Fer" target="Saint-Martin-de-Ré" weight="2" />
+      <edge id="213" source="Fer" target="Tonnay-Charente" weight="1" />
+      <edge id="214" source="Sortie pour pêche" target="Les Sables-d'Olonne" weight="36" />
+      <edge id="215" source="Sortie pour pêche" target="Noirmoutier" weight="2" />
+      <edge id="216" source="Sortie pour pêche" target="Saint-Gilles-sur-Vie" weight="6" />
+      <edge id="217" source="Sortie pour pêche" target="Saint-Martin-de-Ré" weight="3" />
+      <edge id="218" source="Sortie pour pêche" target="Soubise" weight="1" />
+      <edge id="219" source="La Tranche-sur-Mer" target="Subsistances diverses et mélangées" weight="51" />
+      <edge id="220" source="Subsistances diverses et mélangées" target="Le Château-d'Oléron" weight="2" />
+      <edge id="221" source="Subsistances diverses et mélangées" target="Marans" weight="3" />
+      <edge id="222" source="Subsistances diverses et mélangées" target="Noirmoutier" weight="1" />
+      <edge id="223" source="Subsistances diverses et mélangées" target="Rochefort" weight="1" />
+      <edge id="224" source="Les Sables-d'Olonne" target="Animaux" weight="32" />
+      <edge id="225" source="Les Sables-d'Olonne" target="Bois divers hors combustible" weight="2" />
+      <edge id="226" source="Les Sables-d'Olonne" target="Bâtiments de mer et apparaux" weight="5" />
+      <edge id="227" source="Les Sables-d'Olonne" target="Combustibles dont charbons et bois" weight="24" />
+      <edge id="228" source="Les Sables-d'Olonne" target="Habits et lingerie" weight="2" />
+      <edge id="229" source="Les Sables-d'Olonne" target="Huile de poisson" weight="1" />
+      <edge id="230" source="Les Sables-d'Olonne" target="Porcelaine, poterie, faïence et ouvrages de terre" weight="2" />
+      <edge id="231" source="Bois divers hors combustible" target="Marans" weight="153" />
+      <edge id="232" source="Bois divers hors combustible" target="Moricq" weight="2" />
+      <edge id="233" source="Bois divers hors combustible" target="Ribérou" weight="2" />
+      <edge id="234" source="Bois divers hors combustible" target="Rochefort" weight="2" />
+      <edge id="235" source="Bois divers hors combustible" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="236" source="Bois divers hors combustible" target="Tonnay-Charente" weight="15" />
+      <edge id="237" source="Bâtiments de mer et apparaux" target="Ribérou" weight="1" />
+      <edge id="238" source="Combustibles dont charbons et bois" target="Marans" weight="8" />
+      <edge id="239" source="Combustibles dont charbons et bois" target="Marennes" weight="2" />
+      <edge id="240" source="Combustibles dont charbons et bois" target="Martrou" weight="4" />
+      <edge id="241" source="Combustibles dont charbons et bois" target="Moricq" weight="81" />
+      <edge id="242" source="Combustibles dont charbons et bois" target="Ribérou" weight="187" />
+      <edge id="243" source="Combustibles dont charbons et bois" target="Rochefort" weight="6" />
+      <edge id="244" source="Combustibles dont charbons et bois" target="Saint-Martin-de-Ré" weight="5" />
+      <edge id="245" source="Combustibles dont charbons et bois" target="Tonnay-Charente" weight="2" />
+      <edge id="246" source="Porcelaine, poterie, faïence et ouvrages de terre" target="Moricq" weight="2" />
+      <edge id="247" source="Porcelaine, poterie, faïence et ouvrages de terre" target="Saint-Martin-de-Ré" weight="3" />
+      <edge id="248" source="Marans" target="Chanvre" weight="8" />
+      <edge id="249" source="Marans" target="Farine, gruau, biscuits et pâtes" weight="47" />
+      <edge id="250" source="Marans" target="Graines grasses" weight="1" />
+      <edge id="251" source="Marans" target="Lin" weight="1" />
+      <edge id="252" source="Farine, gruau, biscuits et pâtes" target="Noirmoutier" weight="2" />
+      <edge id="253" source="Farine, gruau, biscuits et pâtes" target="Rochefort" weight="7" />
+      <edge id="254" source="Graines grasses" target="Rochefort" weight="3" />
+      <edge id="255" source="Marennes" target="Chairs et œufs" weight="1" />
+      <edge id="256" source="Marennes" target="Meubles, glaces et miroirs" weight="3" />
+      <edge id="257" source="Marennes" target="Êtres humains" weight="1" />
+      <edge id="258" source="Chairs et œufs" target="Ribérou" weight="1" />
+      <edge id="259" source="Chairs et œufs" target="Rochefort" weight="2" />
+      <edge id="260" source="Meubles, glaces et miroirs" target="Ribérou" weight="1" />
+      <edge id="261" source="Meubles, glaces et miroirs" target="Saint-Gilles-sur-Vie" weight="1" />
+      <edge id="262" source="Noirmoutier" target="Alcalis" weight="14" />
+      <edge id="263" source="Alcalis" target="Saint-Denis d'Oléron" weight="7" />
+      <edge id="264" source="Ribérou" target="Fromage" weight="2" />
+      <edge id="265" source="Ribérou" target="Fruits frais" weight="2" />
+      <edge id="266" source="Ribérou" target="Fruits secs et noix" weight="1" />
+      <edge id="267" source="Ribérou" target="Ouvrages métalliques" weight="1" />
+      <edge id="268" source="Fruits frais" target="Tonnay-Charente" weight="2" />
+      <edge id="269" source="Rochefort" target="Armes, munitions, poudre et pierres à fusil" weight="2" />
+      <edge id="270" source="Rochefort" target="Brai, goudron et résines" weight="2" />
+      <edge id="271" source="Rochefort" target="Café" weight="1" />
+      <edge id="272" source="Rochefort" target="Cordage et filets" weight="1" />
+      <edge id="273" source="Rochefort" target="Coton non transformé" weight="1" />
+      <edge id="274" source="Rochefort" target="Cuivre" weight="1" />
+      <edge id="275" source="Rochefort" target="Graisses diverses" weight="1" />
+      <edge id="276" source="Rochefort" target="Huiles diverses" weight="1" />
+      <edge id="277" source="Rochefort" target="Sucre" weight="3" />
+      <edge id="278" source="Rochefort" target="Verrerie" weight="1" />
+      <edge id="279" source="Armes, munitions, poudre et pierres à fusil" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="280" source="Brai, goudron et résines" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="281" source="Café" target="Saint-Denis d'Oléron" weight="1" />
+      <edge id="282" source="Café" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="283" source="Sucre" target="Saint-Martin-de-Ré" weight="1" />
+      <edge id="284" source="Saint-Martin-de-Ré" target="Laines non transformées diverses" weight="1" />
+      <edge id="285" source="Tonnay-Charente" target="Cuirs, peaux et pelleterie" weight="1" />
+    </edges>
+  </graph>
+</gexf>

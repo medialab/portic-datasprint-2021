@@ -1,0 +1,2102 @@
+port,product,count,year,classification
+Ars-en-Ré,Autres produits alimentaires et animaux,1,1789,SITC_fr
+Ars-en-Ré,Boissons et tabac,3,1789,SITC_fr
+Ars-en-Ré,Cargaison inconnue,12,1789,SITC_fr
+Ars-en-Ré,Divers incertains et inconnus,44,1789,SITC_fr
+Ars-en-Ré,Matières brutes non-comestibles non transformées n.d.a.,248,1789,SITC_fr
+Ars-en-Ré,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Beauvoir-sur-Mer,Autres produits alimentaires et animaux,38,1789,SITC_fr
+Beauvoir-sur-Mer,Boissons et tabac,1,1789,SITC_fr
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,SITC_fr
+Beauvoir-sur-Mer,Divers incertains et inconnus,1,1789,SITC_fr
+Beauvoir-sur-Mer,Divers mélangés,1,1789,SITC_fr
+Beauvoir-sur-Mer,Matières brutes non-comestibles non transformées n.d.a.,81,1789,SITC_fr
+Brouage ,Cargaison inconnue,4,1789,SITC_fr
+Champagné-les-Marais,Cargaison inconnue,1,1789,SITC_fr
+Esnandes,Cargaison inconnue,2,1789,SITC_fr
+Ker Châlon,Divers incertains et inconnus,3,1789,SITC_fr
+Ker Châlon,Divers mélangés,1,1789,SITC_fr
+Ker Châlon,Matières brutes non-comestibles non transformées n.d.a.,1,1789,SITC_fr
+Ker Châlon,Produits chimiques transformés n.d.a.,5,1789,SITC_fr
+La Flotte-en-Ré,Autres produits alimentaires et animaux,1,1789,SITC_fr
+La Flotte-en-Ré,Boissons et tabac,5,1789,SITC_fr
+La Flotte-en-Ré,Divers mélangés,1,1789,SITC_fr
+La Flotte-en-Ré,Matières brutes non-comestibles non transformées n.d.a.,1,1789,SITC_fr
+La Flotte-en-Ré,"Produits du bois, liège, jonc",1,1789,SITC_fr
+La Perrotine,Autres produits alimentaires et animaux,1,1789,SITC_fr
+La Perrotine,Boissons et tabac,54,1789,SITC_fr
+La Perrotine,Cargaison inconnue,1,1789,SITC_fr
+La Perrotine,Divers incertains et inconnus,3,1789,SITC_fr
+La Perrotine,Divers mélangés,4,1789,SITC_fr
+La Perrotine,Matières brutes non-comestibles non transformées n.d.a.,18,1789,SITC_fr
+La Perrotine,Produits chimiques transformés n.d.a.,1,1789,SITC_fr
+La Rochelle,Autres produits alimentaires et animaux,7,1789,SITC_fr
+La Rochelle,Boissons et tabac,21,1789,SITC_fr
+La Rochelle,Cargaison inconnue,1003,1789,SITC_fr
+La Rochelle,Divers incertains et inconnus,54,1789,SITC_fr
+La Rochelle,Divers mélangés,8,1789,SITC_fr
+La Rochelle,Matières brutes non-comestibles non transformées n.d.a.,7,1789,SITC_fr
+La Rochelle,"Métaux, produits métalliques et outils",1,1789,SITC_fr
+La Rochelle,"Produits du bois, liège, jonc",20,1789,SITC_fr
+La Rochelle,Sorties pour la pêche et activités diverses,7,1789,SITC_fr
+La Tranche-sur-Mer,Autres produits alimentaires et animaux,53,1789,SITC_fr
+La Tranche-sur-Mer,Divers mélangés,2,1789,SITC_fr
+La Tremblade,Divers incertains et inconnus,1,1789,SITC_fr
+La Tremblade,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Le Chapus,Boissons et tabac,1,1789,SITC_fr
+Le Chapus,Divers incertains et inconnus,1,1789,SITC_fr
+Le Château-d'Oléron,"Articles minéraux non métalliques manufacturés, n.d.a.",1,1789,SITC_fr
+Le Château-d'Oléron,Autres produits alimentaires et animaux,2,1789,SITC_fr
+Le Château-d'Oléron,Boissons et tabac,1,1789,SITC_fr
+Le Château-d'Oléron,Cargaison inconnue,39,1789,SITC_fr
+Le Château-d'Oléron,Divers incertains et inconnus,12,1789,SITC_fr
+Les Sables-d'Olonne,Articles manufacturés divers n.d.a,2,1789,SITC_fr
+Les Sables-d'Olonne,"Articles minéraux non métalliques manufacturés, n.d.a.",2,1789,SITC_fr
+Les Sables-d'Olonne,Autres produits alimentaires et animaux,56,1789,SITC_fr
+Les Sables-d'Olonne,Boissons et tabac,2,1789,SITC_fr
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,SITC_fr
+Les Sables-d'Olonne,Combustibles,24,1789,SITC_fr
+Les Sables-d'Olonne,Divers incertains et inconnus,5,1789,SITC_fr
+Les Sables-d'Olonne,Divers mélangés,15,1789,SITC_fr
+Les Sables-d'Olonne,"Huiles, graisses et cires d'origine animale et végétale",1,1789,SITC_fr
+Les Sables-d'Olonne,Machines et moyens de transport y compris sellerie,4,1789,SITC_fr
+Les Sables-d'Olonne,Matières brutes non-comestibles non transformées n.d.a.,135,1789,SITC_fr
+Les Sables-d'Olonne,"Métaux, produits métalliques et outils",36,1789,SITC_fr
+Les Sables-d'Olonne,"Produits du bois, liège, jonc",12,1789,SITC_fr
+Les Sables-d'Olonne,Sorties pour la pêche et activités diverses,36,1789,SITC_fr
+Marans,"Articles minéraux non métalliques manufacturés, n.d.a.",2,1789,SITC_fr
+Marans,Autres produits alimentaires et animaux,265,1789,SITC_fr
+Marans,Boissons et tabac,3,1789,SITC_fr
+Marans,Cargaison inconnue,1,1789,SITC_fr
+Marans,Combustibles,8,1789,SITC_fr
+Marans,Divers incertains et inconnus,52,1789,SITC_fr
+Marans,Matières brutes non-comestibles non transformées n.d.a.,310,1789,SITC_fr
+Marans,"Produits du bois, liège, jonc",46,1789,SITC_fr
+Marennes,Articles manufacturés divers n.d.a,3,1789,SITC_fr
+Marennes,"Articles minéraux non métalliques manufacturés, n.d.a.",9,1789,SITC_fr
+Marennes,Autres produits alimentaires et animaux,20,1789,SITC_fr
+Marennes,Boissons et tabac,89,1789,SITC_fr
+Marennes,Cargaison inconnue,19,1789,SITC_fr
+Marennes,Combustibles,2,1789,SITC_fr
+Marennes,Divers incertains et inconnus,31,1789,SITC_fr
+Marennes,Divers mélangés,4,1789,SITC_fr
+Marennes,Matières brutes non-comestibles non transformées n.d.a.,1337,1789,SITC_fr
+Marennes,"Produits du bois, liège, jonc",2,1789,SITC_fr
+Marennes,Êtres humains,1,1789,SITC_fr
+Martrou,Combustibles,4,1789,SITC_fr
+Moricq,"Articles minéraux non métalliques manufacturés, n.d.a.",2,1789,SITC_fr
+Moricq,Autres produits alimentaires et animaux,27,1789,SITC_fr
+Moricq,Boissons et tabac,4,1789,SITC_fr
+Moricq,Combustibles,81,1789,SITC_fr
+Moricq,Divers incertains et inconnus,3,1789,SITC_fr
+Moricq,Matières brutes non-comestibles non transformées n.d.a.,2,1789,SITC_fr
+Moricq,"Produits du bois, liège, jonc",26,1789,SITC_fr
+Mortagne,Boissons et tabac,5,1789,SITC_fr
+Mortagne,Cargaison inconnue,2,1789,SITC_fr
+Mortagne,Divers incertains et inconnus,2,1789,SITC_fr
+Mortagne,Matières brutes non-comestibles non transformées n.d.a.,10,1789,SITC_fr
+Mortagne,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Noirmoutier,Autres produits alimentaires et animaux,38,1789,SITC_fr
+Noirmoutier,Boissons et tabac,9,1789,SITC_fr
+Noirmoutier,Cargaison inconnue,5,1789,SITC_fr
+Noirmoutier,Divers incertains et inconnus,1,1789,SITC_fr
+Noirmoutier,Matières brutes non-comestibles non transformées n.d.a.,226,1789,SITC_fr
+Noirmoutier,Produits chimiques transformés n.d.a.,14,1789,SITC_fr
+Noirmoutier,"Produits du bois, liège, jonc",12,1789,SITC_fr
+Noirmoutier,Sorties pour la pêche et activités diverses,2,1789,SITC_fr
+Ribérou,Articles manufacturés divers n.d.a,1,1789,SITC_fr
+Ribérou,Autres produits alimentaires et animaux,18,1789,SITC_fr
+Ribérou,Boissons et tabac,43,1789,SITC_fr
+Ribérou,Cargaison inconnue,1,1789,SITC_fr
+Ribérou,Combustibles,187,1789,SITC_fr
+Ribérou,Divers incertains et inconnus,3,1789,SITC_fr
+Ribérou,Divers mélangés,3,1789,SITC_fr
+Ribérou,Machines et moyens de transport y compris sellerie,1,1789,SITC_fr
+Ribérou,Matières brutes non-comestibles non transformées n.d.a.,175,1789,SITC_fr
+Ribérou,"Métaux, produits métalliques et outils",1,1789,SITC_fr
+Ribérou,Produits chimiques transformés n.d.a.,88,1789,SITC_fr
+Ribérou,"Produits du bois, liège, jonc",14,1789,SITC_fr
+Rochefort,"Articles minéraux non métalliques manufacturés, n.d.a.",4,1789,SITC_fr
+Rochefort,Autres filés ou tissés,1,1789,SITC_fr
+Rochefort,Autres produits alimentaires et animaux,30,1789,SITC_fr
+Rochefort,Boissons et tabac,32,1789,SITC_fr
+Rochefort,Cargaison inconnue,5,1789,SITC_fr
+Rochefort,Combustibles,6,1789,SITC_fr
+Rochefort,Divers incertains et inconnus,224,1789,SITC_fr
+Rochefort,Divers mélangés,29,1789,SITC_fr
+Rochefort,"Huiles, graisses et cires d'origine animale et végétale",2,1789,SITC_fr
+Rochefort,Matières brutes non-comestibles non transformées n.d.a.,22,1789,SITC_fr
+Rochefort,"Métaux, produits métalliques et outils",1,1789,SITC_fr
+Rochefort,Produits agricoles alimentaires des régions de colonisation européenne,5,1789,SITC_fr
+Rochefort,Produits chimiques transformés n.d.a.,2,1789,SITC_fr
+Rochefort,"Produits du bois, liège, jonc",41,1789,SITC_fr
+Royan,Matières brutes non-comestibles non transformées n.d.a.,15,1789,SITC_fr
+Saint-Denis d'Oléron,Boissons et tabac,47,1789,SITC_fr
+Saint-Denis d'Oléron,Divers incertains et inconnus,1,1789,SITC_fr
+Saint-Denis d'Oléron,Matières brutes non-comestibles non transformées n.d.a.,13,1789,SITC_fr
+Saint-Denis d'Oléron,Produits agricoles alimentaires des régions de colonisation européenne,1,1789,SITC_fr
+Saint-Denis d'Oléron,Produits chimiques transformés n.d.a.,7,1789,SITC_fr
+Saint-Gilles-sur-Vie,Articles manufacturés divers n.d.a,1,1789,SITC_fr
+Saint-Gilles-sur-Vie,Autres produits alimentaires et animaux,36,1789,SITC_fr
+Saint-Gilles-sur-Vie,Boissons et tabac,1,1789,SITC_fr
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,SITC_fr
+Saint-Gilles-sur-Vie,Divers mélangés,1,1789,SITC_fr
+Saint-Gilles-sur-Vie,Matières brutes non-comestibles non transformées n.d.a.,41,1789,SITC_fr
+Saint-Gilles-sur-Vie,"Produits du bois, liège, jonc",2,1789,SITC_fr
+Saint-Gilles-sur-Vie,Sorties pour la pêche et activités diverses,6,1789,SITC_fr
+Saint-Martin-de-Ré,Articles manufacturés divers n.d.a,1,1789,SITC_fr
+Saint-Martin-de-Ré,"Articles minéraux non métalliques manufacturés, n.d.a.",3,1789,SITC_fr
+Saint-Martin-de-Ré,Autres produits alimentaires et animaux,24,1789,SITC_fr
+Saint-Martin-de-Ré,Boissons et tabac,57,1789,SITC_fr
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,SITC_fr
+Saint-Martin-de-Ré,Combustibles,5,1789,SITC_fr
+Saint-Martin-de-Ré,Divers incertains et inconnus,33,1789,SITC_fr
+Saint-Martin-de-Ré,Divers mélangés,1,1789,SITC_fr
+Saint-Martin-de-Ré,Matières brutes non-comestibles non transformées n.d.a.,270,1789,SITC_fr
+Saint-Martin-de-Ré,"Métaux, produits métalliques et outils",2,1789,SITC_fr
+Saint-Martin-de-Ré,Produits agricoles alimentaires des régions de colonisation européenne,2,1789,SITC_fr
+Saint-Martin-de-Ré,Produits chimiques transformés n.d.a.,1,1789,SITC_fr
+Saint-Martin-de-Ré,"Produits du bois, liège, jonc",74,1789,SITC_fr
+Saint-Martin-de-Ré,Sorties pour la pêche et activités diverses,3,1789,SITC_fr
+Saint-Michel-en-l'Herm,Autres produits alimentaires et animaux,3,1789,SITC_fr
+Saint-Michel-en-l'Herm,Boissons et tabac,1,1789,SITC_fr
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,SITC_fr
+Saint-Michel-en-l'Herm,Divers incertains et inconnus,3,1789,SITC_fr
+Saint-Michel-en-l'Herm,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Seudre,Autres produits alimentaires et animaux,2,1789,SITC_fr
+Seudre,Boissons et tabac,2,1789,SITC_fr
+Seudre,Cargaison inconnue,25,1789,SITC_fr
+Seudre,Divers incertains et inconnus,1,1789,SITC_fr
+Seudre,Divers mélangés,1,1789,SITC_fr
+Soubise,Autres produits alimentaires et animaux,4,1789,SITC_fr
+Soubise,Boissons et tabac,1,1789,SITC_fr
+Soubise,Divers incertains et inconnus,3,1789,SITC_fr
+Soubise,Divers mélangés,1,1789,SITC_fr
+Soubise,Matières brutes non-comestibles non transformées n.d.a.,2,1789,SITC_fr
+Soubise,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Soubise,Sorties pour la pêche et activités diverses,1,1789,SITC_fr
+Tonnay-Charente,Autres produits alimentaires et animaux,5,1789,SITC_fr
+Tonnay-Charente,Boissons et tabac,4,1789,SITC_fr
+Tonnay-Charente,Cargaison inconnue,589,1789,SITC_fr
+Tonnay-Charente,Combustibles,2,1789,SITC_fr
+Tonnay-Charente,"Cuirs, peaux et produits dérivés hors sellerie",1,1789,SITC_fr
+Tonnay-Charente,Divers incertains et inconnus,17,1789,SITC_fr
+Tonnay-Charente,Divers mélangés,2,1789,SITC_fr
+Tonnay-Charente,Matières brutes non-comestibles non transformées n.d.a.,19,1789,SITC_fr
+Tonnay-Charente,Produits chimiques transformés n.d.a.,1,1789,SITC_fr
+Tonnay-Charente,"Produits du bois, liège, jonc",2,1789,SITC_fr
+l'Aiguillon,Autres produits alimentaires et animaux,2,1789,SITC_fr
+l'Aiguillon,Boissons et tabac,1,1789,SITC_fr
+l'Aiguillon,Divers incertains et inconnus,3,1789,SITC_fr
+l'Aiguillon,"Produits du bois, liège, jonc",1,1789,SITC_fr
+mer des Pertuis,Boissons et tabac,1,1789,SITC_fr
+mer des Pertuis,"Produits du bois, liège, jonc",1,1789,SITC_fr
+île d'Oléron,Autres produits alimentaires et animaux,4,1789,SITC_fr
+île d'Oléron,Boissons et tabac,4,1789,SITC_fr
+île d'Oléron,Divers incertains et inconnus,8,1789,SITC_fr
+île d'Oléron,Divers mélangés,3,1789,SITC_fr
+île d'Yeu,Boissons et tabac,1,1789,SITC_fr
+île d'Yeu,Divers incertains et inconnus,1,1789,SITC_fr
+île de Bouin,Autres produits alimentaires et animaux,9,1789,SITC_fr
+île de Bouin,Cargaison inconnue,11,1789,SITC_fr
+île de Bouin,Matières brutes non-comestibles non transformées n.d.a.,85,1789,SITC_fr
+île de Ré,Boissons et tabac,1,1789,SITC_fr
+île de Ré,Divers incertains et inconnus,1,1789,SITC_fr
+Ars-en-Ré,Cargaison inconnue,12,1789,lest_vide_aggregate
+Ars-en-Ré,Divers,1,1789,lest_vide_aggregate
+Ars-en-Ré,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Ars-en-Ré,Lest,1,1789,lest_vide_aggregate
+Ars-en-Ré,Matières premières,1,1789,lest_vide_aggregate
+Ars-en-Ré,Subsistances,250,1789,lest_vide_aggregate
+Ars-en-Ré,Vide,43,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Lest,3,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Subsistances,117,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Vide,1,1789,lest_vide_aggregate
+Brouage ,Cargaison inconnue,4,1789,lest_vide_aggregate
+Champagné-les-Marais,Cargaison inconnue,1,1789,lest_vide_aggregate
+Esnandes,Cargaison inconnue,2,1789,lest_vide_aggregate
+Ker Châlon,Lest,1,1789,lest_vide_aggregate
+Ker Châlon,Matières premières,6,1789,lest_vide_aggregate
+Ker Châlon,Vide,3,1789,lest_vide_aggregate
+La Flotte-en-Ré,Divers,1,1789,lest_vide_aggregate
+La Flotte-en-Ré,Industrie française et étrangère,1,1789,lest_vide_aggregate
+La Flotte-en-Ré,Matières premières,1,1789,lest_vide_aggregate
+La Flotte-en-Ré,Subsistances,6,1789,lest_vide_aggregate
+La Perrotine,Cargaison inconnue,1,1789,lest_vide_aggregate
+La Perrotine,Divers,4,1789,lest_vide_aggregate
+La Perrotine,Industrie française et étrangère,1,1789,lest_vide_aggregate
+La Perrotine,Lest,18,1789,lest_vide_aggregate
+La Perrotine,Subsistances,57,1789,lest_vide_aggregate
+La Perrotine,Vide,1,1789,lest_vide_aggregate
+La Rochelle,Cargaison inconnue,1003,1789,lest_vide_aggregate
+La Rochelle,Divers,9,1789,lest_vide_aggregate
+La Rochelle,Industrie française et étrangère,21,1789,lest_vide_aggregate
+La Rochelle,Lest,6,1789,lest_vide_aggregate
+La Rochelle,Métaux,1,1789,lest_vide_aggregate
+La Rochelle,Pêche,7,1789,lest_vide_aggregate
+La Rochelle,Subsistances,29,1789,lest_vide_aggregate
+La Rochelle,Vide,52,1789,lest_vide_aggregate
+La Tranche-sur-Mer,Divers,2,1789,lest_vide_aggregate
+La Tranche-sur-Mer,Subsistances,53,1789,lest_vide_aggregate
+La Tremblade,Industrie française et étrangère,1,1789,lest_vide_aggregate
+La Tremblade,Vide,1,1789,lest_vide_aggregate
+Le Chapus,Subsistances,1,1789,lest_vide_aggregate
+Le Chapus,Vide,1,1789,lest_vide_aggregate
+Le Château-d'Oléron,Cargaison inconnue,39,1789,lest_vide_aggregate
+Le Château-d'Oléron,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Le Château-d'Oléron,Subsistances,3,1789,lest_vide_aggregate
+Le Château-d'Oléron,Vide,12,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Bêtes de somme,32,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Divers,19,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Industrie française et étrangère,57,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Lest,27,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Matières premières,27,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Pêche,36,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Subsistances,132,1789,lest_vide_aggregate
+Marans,Cargaison inconnue,1,1789,lest_vide_aggregate
+Marans,Industrie française et étrangère,48,1789,lest_vide_aggregate
+Marans,Lest,142,1789,lest_vide_aggregate
+Marans,Matières premières,178,1789,lest_vide_aggregate
+Marans,Subsistances,266,1789,lest_vide_aggregate
+Marans,Vide,52,1789,lest_vide_aggregate
+Marennes,Cargaison inconnue,19,1789,lest_vide_aggregate
+Marennes,Divers,2,1789,lest_vide_aggregate
+Marennes,Industrie française et étrangère,14,1789,lest_vide_aggregate
+Marennes,Lest,36,1789,lest_vide_aggregate
+Marennes,Matières premières,3,1789,lest_vide_aggregate
+Marennes,Subsistances,1411,1789,lest_vide_aggregate
+Marennes,Vide,30,1789,lest_vide_aggregate
+Martrou,Matières premières,4,1789,lest_vide_aggregate
+Moricq,Industrie française et étrangère,28,1789,lest_vide_aggregate
+Moricq,Matières premières,83,1789,lest_vide_aggregate
+Moricq,Subsistances,31,1789,lest_vide_aggregate
+Moricq,Vide,3,1789,lest_vide_aggregate
+Mortagne,Cargaison inconnue,2,1789,lest_vide_aggregate
+Mortagne,Divers,1,1789,lest_vide_aggregate
+Mortagne,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Mortagne,Lest,10,1789,lest_vide_aggregate
+Mortagne,Subsistances,5,1789,lest_vide_aggregate
+Mortagne,Vide,1,1789,lest_vide_aggregate
+Noirmoutier,Cargaison inconnue,5,1789,lest_vide_aggregate
+Noirmoutier,Drogues,14,1789,lest_vide_aggregate
+Noirmoutier,Industrie française et étrangère,12,1789,lest_vide_aggregate
+Noirmoutier,Lest,9,1789,lest_vide_aggregate
+Noirmoutier,Matières premières,20,1789,lest_vide_aggregate
+Noirmoutier,Pêche,2,1789,lest_vide_aggregate
+Noirmoutier,Subsistances,244,1789,lest_vide_aggregate
+Noirmoutier,Vide,1,1789,lest_vide_aggregate
+Ribérou,Cargaison inconnue,1,1789,lest_vide_aggregate
+Ribérou,Divers,2,1789,lest_vide_aggregate
+Ribérou,Industrie française et étrangère,17,1789,lest_vide_aggregate
+Ribérou,Lest,165,1789,lest_vide_aggregate
+Ribérou,Matières premières,294,1789,lest_vide_aggregate
+Ribérou,Subsistances,54,1789,lest_vide_aggregate
+Ribérou,Vide,2,1789,lest_vide_aggregate
+Rochefort,Cargaison inconnue,5,1789,lest_vide_aggregate
+Rochefort,Divers,29,1789,lest_vide_aggregate
+Rochefort,Industrie française et étrangère,49,1789,lest_vide_aggregate
+Rochefort,Lest,5,1789,lest_vide_aggregate
+Rochefort,Matières premières,24,1789,lest_vide_aggregate
+Rochefort,Métaux,1,1789,lest_vide_aggregate
+Rochefort,Subsistances,67,1789,lest_vide_aggregate
+Rochefort,Vide,223,1789,lest_vide_aggregate
+Royan,Lest,15,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Drogues,7,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Lest,13,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Subsistances,48,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Vide,1,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Industrie française et étrangère,3,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Pêche,6,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Subsistances,79,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Divers,9,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Industrie française et étrangère,78,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Lest,212,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Matières premières,15,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Métaux,2,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Pêche,3,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Subsistances,133,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Vide,24,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Subsistances,4,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Vide,3,1789,lest_vide_aggregate
+Seudre,Cargaison inconnue,25,1789,lest_vide_aggregate
+Seudre,Subsistances,5,1789,lest_vide_aggregate
+Seudre,Vide,1,1789,lest_vide_aggregate
+Soubise,Divers,1,1789,lest_vide_aggregate
+Soubise,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Soubise,Lest,1,1789,lest_vide_aggregate
+Soubise,Pêche,1,1789,lest_vide_aggregate
+Soubise,Subsistances,6,1789,lest_vide_aggregate
+Soubise,Vide,3,1789,lest_vide_aggregate
+Tonnay-Charente,Cargaison inconnue,589,1789,lest_vide_aggregate
+Tonnay-Charente,Divers,1,1789,lest_vide_aggregate
+Tonnay-Charente,Industrie française et étrangère,3,1789,lest_vide_aggregate
+Tonnay-Charente,Lest,1,1789,lest_vide_aggregate
+Tonnay-Charente,Matières premières,21,1789,lest_vide_aggregate
+Tonnay-Charente,Métaux,1,1789,lest_vide_aggregate
+Tonnay-Charente,Subsistances,9,1789,lest_vide_aggregate
+Tonnay-Charente,Vide,17,1789,lest_vide_aggregate
+l'Aiguillon,Industrie française et étrangère,1,1789,lest_vide_aggregate
+l'Aiguillon,Subsistances,3,1789,lest_vide_aggregate
+l'Aiguillon,Vide,3,1789,lest_vide_aggregate
+mer des Pertuis,Industrie française et étrangère,1,1789,lest_vide_aggregate
+mer des Pertuis,Subsistances,1,1789,lest_vide_aggregate
+île d'Oléron,Divers,3,1789,lest_vide_aggregate
+île d'Oléron,Subsistances,8,1789,lest_vide_aggregate
+île d'Oléron,Vide,8,1789,lest_vide_aggregate
+île d'Yeu,Subsistances,1,1789,lest_vide_aggregate
+île d'Yeu,Vide,1,1789,lest_vide_aggregate
+île de Bouin,Cargaison inconnue,11,1789,lest_vide_aggregate
+île de Bouin,Subsistances,94,1789,lest_vide_aggregate
+île de Ré,Subsistances,1,1789,lest_vide_aggregate
+île de Ré,Vide,1,1789,lest_vide_aggregate
+Ars-en-Ré,Cargaison inconnue,12,1789,portic_default
+Ars-en-Ré,cendres,1,1789,portic_default
+Ars-en-Ré,eau de vie,1,1789,portic_default
+Ars-en-Ré,eaux de vie,1,1789,portic_default
+Ars-en-Ré,lest,1,1789,portic_default
+Ars-en-Ré,merrein,1,1789,portic_default
+Ars-en-Ré,sel,246,1789,portic_default
+Ars-en-Ré,vide,1,1789,portic_default
+Ars-en-Ré,vin,1,1789,portic_default
+Ars-en-Ré,vinaigre,1,1789,portic_default
+Ars-en-Ré,vinaterie,1,1789,portic_default
+Ars-en-Ré,vuide,42,1789,portic_default
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,portic_default
+Beauvoir-sur-Mer,Froment,28,1789,portic_default
+Beauvoir-sur-Mer,Lentilles,2,1789,portic_default
+Beauvoir-sur-Mer,feave [fèves],3,1789,portic_default
+Beauvoir-sur-Mer,feaves [fèves],4,1789,portic_default
+Beauvoir-sur-Mer,lest,3,1789,portic_default
+Beauvoir-sur-Mer,pacotille,1,1789,portic_default
+Beauvoir-sur-Mer,poisson sec,1,1789,portic_default
+Beauvoir-sur-Mer,sel,78,1789,portic_default
+Beauvoir-sur-Mer,vin,1,1789,portic_default
+Beauvoir-sur-Mer,à vide,1,1789,portic_default
+Brouage ,Cargaison inconnue,4,1789,portic_default
+Champagné-les-Marais,Cargaison inconnue,1,1789,portic_default
+Esnandes,Cargaison inconnue,2,1789,portic_default
+Ker Châlon,chaux,5,1789,portic_default
+Ker Châlon,son lest,1,1789,portic_default
+Ker Châlon,son reste [de chaux],1,1789,portic_default
+Ker Châlon,à vide,3,1789,portic_default
+La Flotte-en-Ré,bled meture,1,1789,portic_default
+La Flotte-en-Ré,futailles,1,1789,portic_default
+La Flotte-en-Ré,marchandises,1,1789,portic_default
+La Flotte-en-Ré,sandre [cendres],1,1789,portic_default
+La Flotte-en-Ré,vin,5,1789,portic_default
+La Perrotine,Cargaison inconnue,1,1789,portic_default
+La Perrotine,autres marchandises,1,1789,portic_default
+La Perrotine,eau de vie,30,1789,portic_default
+La Perrotine,en lest,1,1789,portic_default
+La Perrotine,fèves,1,1789,portic_default
+La Perrotine,lest,17,1789,portic_default
+La Perrotine,marchandise,2,1789,portic_default
+La Perrotine,marchandises naufragé,1,1789,portic_default
+La Perrotine,moules,2,1789,portic_default
+La Perrotine,savon,1,1789,portic_default
+La Perrotine,vin,24,1789,portic_default
+La Perrotine,à vide,1,1789,portic_default
+La Rochelle,Cargaison inconnue,1003,1789,portic_default
+La Rochelle,Eau-de-vie,1,1789,portic_default
+La Rochelle,Pêche de la morue,3,1789,portic_default
+La Rochelle,Pêche à la morue,4,1789,portic_default
+La Rochelle,beurre,1,1789,portic_default
+La Rochelle,bois de construction,3,1789,portic_default
+La Rochelle,diverses marchandises,2,1789,portic_default
+La Rochelle,eau de vie,3,1789,portic_default
+La Rochelle,futailles vides,1,1789,portic_default
+La Rochelle,fèves,1,1789,portic_default
+La Rochelle,lest,3,1789,portic_default
+La Rochelle,marchandises,3,1789,portic_default
+La Rochelle,marchandises de Marseille,1,1789,portic_default
+La Rochelle,marchandises provenant d' avarie de navire,1,1789,portic_default
+La Rochelle,pièces de bois,1,1789,portic_default
+La Rochelle,planches,15,1789,portic_default
+La Rochelle,sardines,1,1789,portic_default
+La Rochelle,sel,1,1789,portic_default
+La Rochelle,son lest,3,1789,portic_default
+La Rochelle,son reste de futailles,1,1789,portic_default
+La Rochelle,vieux fer,1,1789,portic_default
+La Rochelle,vin,17,1789,portic_default
+La Rochelle,vinaigre,4,1789,portic_default
+La Rochelle,à l' aventure,2,1789,portic_default
+La Rochelle,à vide,52,1789,portic_default
+La Tranche-sur-Mer,ail,17,1789,portic_default
+La Tranche-sur-Mer,marchandise,2,1789,portic_default
+La Tranche-sur-Mer,mojette,2,1789,portic_default
+La Tranche-sur-Mer,oignon,20,1789,portic_default
+La Tranche-sur-Mer,échalote,7,1789,portic_default
+La Tranche-sur-Mer,échalotte,7,1789,portic_default
+La Tremblade,planches,1,1789,portic_default
+La Tremblade,à vide,1,1789,portic_default
+Le Chapus,vide,1,1789,portic_default
+Le Chapus,vin,1,1789,portic_default
+Le Château-d'Oléron,Cargaison inconnue,39,1789,portic_default
+Le Château-d'Oléron,bouteilles,1,1789,portic_default
+Le Château-d'Oléron,eau de vie,1,1789,portic_default
+Le Château-d'Oléron,oignons,2,1789,portic_default
+Le Château-d'Oléron,vide,12,1789,portic_default
+Les Sables-d'Olonne,Beurre,1,1789,portic_default
+Les Sables-d'Olonne,Bois de construction,2,1789,portic_default
+Les Sables-d'Olonne,Bois à bruler,1,1789,portic_default
+Les Sables-d'Olonne,Buche,1,1789,portic_default
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,portic_default
+Les Sables-d'Olonne,Charbon de bois,6,1789,portic_default
+Les Sables-d'Olonne,Charbon de terre,1,1789,portic_default
+Les Sables-d'Olonne,autres marchandises permises,12,1789,portic_default
+Les Sables-d'Olonne,autres ustensilles provenant de la péche,2,1789,portic_default
+Les Sables-d'Olonne,bois,2,1789,portic_default
+Les Sables-d'Olonne,bois de construction,4,1789,portic_default
+Les Sables-d'Olonne,bois à bruler,6,1789,portic_default
+Les Sables-d'Olonne,buche,7,1789,portic_default
+Les Sables-d'Olonne,buches,2,1789,portic_default
+Les Sables-d'Olonne,diverses marchandises permises,1,1789,portic_default
+Les Sables-d'Olonne,futaille vuide,2,1789,portic_default
+Les Sables-d'Olonne,futailles,1,1789,portic_default
+Les Sables-d'Olonne,graiment de navire,3,1789,portic_default
+Les Sables-d'Olonne,gréments,1,1789,portic_default
+Les Sables-d'Olonne,hardes,1,1789,portic_default
+Les Sables-d'Olonne,hardes de mer,1,1789,portic_default
+Les Sables-d'Olonne,huile de poisson,1,1789,portic_default
+Les Sables-d'Olonne,huitres,1,1789,portic_default
+Les Sables-d'Olonne,lest,27,1789,portic_default
+Les Sables-d'Olonne,mairain,1,1789,portic_default
+Les Sables-d'Olonne,mairain [merrain],1,1789,portic_default
+Les Sables-d'Olonne,morue verte,16,1789,portic_default
+Les Sables-d'Olonne,planches,1,1789,portic_default
+Les Sables-d'Olonne,poterie,1,1789,portic_default
+Les Sables-d'Olonne,poteries,1,1789,portic_default
+Les Sables-d'Olonne,prendre de la sardine [pêche à la sardine],4,1789,portic_default
+Les Sables-d'Olonne,pêche de la morue verte,32,1789,portic_default
+Les Sables-d'Olonne,reste de marchandise,1,1789,portic_default
+Les Sables-d'Olonne,sardines salées,5,1789,portic_default
+Les Sables-d'Olonne,sel,106,1789,portic_default
+Les Sables-d'Olonne,son,1,1789,portic_default
+Les Sables-d'Olonne,ustensiles pour la pêche de la morue verte,1,1789,portic_default
+Les Sables-d'Olonne,ustensiles pour la pêche à la morue verte,33,1789,portic_default
+Les Sables-d'Olonne,vin,2,1789,portic_default
+Les Sables-d'Olonne,vivres,32,1789,portic_default
+Les Sables-d'Olonne,voile,1,1789,portic_default
+Les Sables-d'Olonne,à l' aventure,5,1789,portic_default
+Marans,A vide,43,1789,portic_default
+Marans,Avoine,4,1789,portic_default
+Marans,Baillarge,2,1789,portic_default
+Marans,Bled,12,1789,portic_default
+Marans,Bois,145,1789,portic_default
+Marans,Bois de construction,3,1789,portic_default
+Marans,Bois à bruler,1,1789,portic_default
+Marans,Briques,1,1789,portic_default
+Marans,Buches,5,1789,portic_default
+Marans,Cargaison inconnue,1,1789,portic_default
+Marans,Cendre,1,1789,portic_default
+Marans,Chanvre,6,1789,portic_default
+Marans,Charbon,2,1789,portic_default
+Marans,Farine,30,1789,portic_default
+Marans,Feuillard,30,1789,portic_default
+Marans,Froment,5,1789,portic_default
+Marans,Fumier,1,1789,portic_default
+Marans,Fèves,21,1789,portic_default
+Marans,Garobe,2,1789,portic_default
+Marans,Graines de lin,1,1789,portic_default
+Marans,Grains,152,1789,portic_default
+Marans,Lest,141,1789,portic_default
+Marans,Lin,1,1789,portic_default
+Marans,Merein [merrain],1,1789,portic_default
+Marans,Merrain,1,1789,portic_default
+Marans,Minot,5,1789,portic_default
+Marans,Mérin [Merrain],3,1789,portic_default
+Marans,Oignons,1,1789,portic_default
+Marans,Orge,2,1789,portic_default
+Marans,Pierre,1,1789,portic_default
+Marans,Poisson,1,1789,portic_default
+Marans,Son,1,1789,portic_default
+Marans,Terre,2,1789,portic_default
+Marans,Vin,1,1789,portic_default
+Marans,Vinaigre,1,1789,portic_default
+Marans,avoine,1,1789,portic_default
+Marans,bled,5,1789,portic_default
+Marans,bled froment,1,1789,portic_default
+Marans,bois,8,1789,portic_default
+Marans,chanvre,2,1789,portic_default
+Marans,farine,10,1789,portic_default
+Marans,feuillard,6,1789,portic_default
+Marans,merin,1,1789,portic_default
+Marans,merrain,1,1789,portic_default
+Marans,meules de moulin,1,1789,portic_default
+Marans,minots,2,1789,portic_default
+Marans,moutarde,2,1789,portic_default
+Marans,orge,3,1789,portic_default
+Marans,son lest,1,1789,portic_default
+Marans,vide,1,1789,portic_default
+Marans,vin,2,1789,portic_default
+Marans,vinaigre,2,1789,portic_default
+Marans,à vide,8,1789,portic_default
+Marennes,A vide,9,1789,portic_default
+Marennes,Bouteilles,2,1789,portic_default
+Marennes,Cargaison inconnue,19,1789,portic_default
+Marennes,Eau de vie,1,1789,portic_default
+Marennes,Eau-de-vie,12,1789,portic_default
+Marennes,Moulles,1,1789,portic_default
+Marennes,Sel,5,1789,portic_default
+Marennes,beurre,1,1789,portic_default
+Marennes,bois  chauffages,1,1789,portic_default
+Marennes,bois de chauffage,2,1789,portic_default
+Marennes,bois de navires,1,1789,portic_default
+Marennes,bouteilles,6,1789,portic_default
+Marennes,carreaux,1,1789,portic_default
+Marennes,eau de vie,12,1789,portic_default
+Marennes,futailles vides,1,1789,portic_default
+Marennes,futs vides,1,1789,portic_default
+Marennes,fèves,8,1789,portic_default
+Marennes,huitres,2,1789,portic_default
+Marennes,lest,36,1789,portic_default
+Marennes,marchandises provenant de nauffrage,1,1789,portic_default
+Marennes,meubles,3,1789,portic_default
+Marennes,passagers,1,1789,portic_default
+Marennes,restant de Boeure,2,1789,portic_default
+Marennes,restant de marchandises en boeure,1,1789,portic_default
+Marennes,salaisons,1,1789,portic_default
+Marennes,sel,1296,1789,portic_default
+Marennes,son restant de boeure,1,1789,portic_default
+Marennes,son reste de Marchandises,1,1789,portic_default
+Marennes,vide,20,1789,portic_default
+Marennes,vin,64,1789,portic_default
+Marennes,vinaigre,4,1789,portic_default
+Marennes,à vide,1,1789,portic_default
+Martrou,buches,2,1789,portic_default
+Martrou,fagots,2,1789,portic_default
+Moricq,Bois,1,1789,portic_default
+Moricq,Eau-de-vie,1,1789,portic_default
+Moricq,Futailles,1,1789,portic_default
+Moricq,Grains,1,1789,portic_default
+Moricq,bled,1,1789,portic_default
+Moricq,bleds,5,1789,portic_default
+Moricq,bleds froment,13,1789,portic_default
+Moricq,bleds seigle,3,1789,portic_default
+Moricq,bois,1,1789,portic_default
+Moricq,bois de charpente,4,1789,portic_default
+Moricq,bois de construction,13,1789,portic_default
+Moricq,bois à bruler,1,1789,portic_default
+Moricq,bois à brûler,54,1789,portic_default
+Moricq,charbon,26,1789,portic_default
+Moricq,feuillard,6,1789,portic_default
+Moricq,froment,1,1789,portic_default
+Moricq,merrains,1,1789,portic_default
+Moricq,planches,1,1789,portic_default
+Moricq,potteries,2,1789,portic_default
+Moricq,son restant de baillarge,1,1789,portic_default
+Moricq,vin,3,1789,portic_default
+Moricq,vinaigre,2,1789,portic_default
+Moricq,à vide,3,1789,portic_default
+Mortagne,Cargaison inconnue,2,1789,portic_default
+Mortagne,Eau-de-vie,2,1789,portic_default
+Mortagne,bois de merrain,1,1789,portic_default
+Mortagne,eau de vie,1,1789,portic_default
+Mortagne,lest,10,1789,portic_default
+Mortagne,vide,1,1789,portic_default
+Mortagne,vin,2,1789,portic_default
+Mortagne,à l' aventure,1,1789,portic_default
+Noirmoutier,Cargaison inconnue,5,1789,portic_default
+Noirmoutier,Cendres de Varec,7,1789,portic_default
+Noirmoutier,Froment,28,1789,portic_default
+Noirmoutier,Futailles,1,1789,portic_default
+Noirmoutier,Pêche,1,1789,portic_default
+Noirmoutier,cendres,13,1789,portic_default
+Noirmoutier,eau-de-vie,3,1789,portic_default
+Noirmoutier,farines,2,1789,portic_default
+Noirmoutier,futailles,7,1789,portic_default
+Noirmoutier,futailles vuides,3,1789,portic_default
+Noirmoutier,fèves,7,1789,portic_default
+Noirmoutier,lest,9,1789,portic_default
+Noirmoutier,merein,1,1789,portic_default
+Noirmoutier,moutarde,1,1789,portic_default
+Noirmoutier,pour faire la pêche,1,1789,portic_default
+Noirmoutier,sel,197,1789,portic_default
+Noirmoutier,soudes,14,1789,portic_default
+Noirmoutier,vin,6,1789,portic_default
+Noirmoutier,vuide,1,1789,portic_default
+Ribérou,Bois,1,1789,portic_default
+Ribérou,Cargaison inconnue,1,1789,portic_default
+Ribérou,Charbon de bois,5,1789,portic_default
+Ribérou,Charbon de terre,1,1789,portic_default
+Ribérou,Chaux,1,1789,portic_default
+Ribérou,Eau-de-vie,1,1789,portic_default
+Ribérou,Fromage,2,1789,portic_default
+Ribérou,Fruits,1,1789,portic_default
+Ribérou,Grains,1,1789,portic_default
+Ribérou,Noix,1,1789,portic_default
+Ribérou,Terre de Broue,8,1789,portic_default
+Ribérou,bois de charpente,3,1789,portic_default
+Ribérou,bois de construction,9,1789,portic_default
+Ribérou,bordage,1,1789,portic_default
+Ribérou,buches,87,1789,portic_default
+Ribérou,cercles,2,1789,portic_default
+Ribérou,charbon de bois,3,1789,portic_default
+Ribérou,chaux,87,1789,portic_default
+Ribérou,copeaux,1,1789,portic_default
+Ribérou,eau de vie,14,1789,portic_default
+Ribérou,fagots,91,1789,portic_default
+Ribérou,fagots de fourage,1,1789,portic_default
+Ribérou,feves,1,1789,portic_default
+Ribérou,fourage,1,1789,portic_default
+Ribérou,fourages,7,1789,portic_default
+Ribérou,lest,165,1789,portic_default
+Ribérou,meubles,1,1789,portic_default
+Ribérou,morue,1,1789,portic_default
+Ribérou,morue sèche,1,1789,portic_default
+Ribérou,restant de sa cargaison,1,1789,portic_default
+Ribérou,salaison,1,1789,portic_default
+Ribérou,sel,1,1789,portic_default
+Ribérou,serises [cerises],1,1789,portic_default
+Ribérou,verge de moulin,1,1789,portic_default
+Ribérou,vin,28,1789,portic_default
+Ribérou,à l' aventure,1,1789,portic_default
+Ribérou,à vide,2,1789,portic_default
+Rochefort,Bierre,1,1789,portic_default
+Rochefort,Biscuits,1,1789,portic_default
+Rochefort,Bois merrain,1,1789,portic_default
+Rochefort,Buches à bruler,1,1789,portic_default
+Rochefort,Cargaison inconnue,5,1789,portic_default
+Rochefort,Coton,1,1789,portic_default
+Rochefort,Eau-de-vie,5,1789,portic_default
+Rochefort,Etc.,1,1789,portic_default
+Rochefort,Farine,1,1789,portic_default
+Rochefort,Froment,1,1789,portic_default
+Rochefort,Graines de lin,2,1789,portic_default
+Rochefort,Grains,1,1789,portic_default
+Rochefort,Lard salé,1,1789,portic_default
+Rochefort,Marchandises de foire,1,1789,portic_default
+Rochefort,Merrain,1,1789,portic_default
+Rochefort,Morue seiche,1,1789,portic_default
+Rochefort,Pierres,1,1789,portic_default
+Rochefort,Pierres de taille,1,1789,portic_default
+Rochefort,Poudre de guerre,1,1789,portic_default
+Rochefort,Poudre à canon,1,1789,portic_default
+Rochefort,Resine,1,1789,portic_default
+Rochefort,Reste de marchandise,8,1789,portic_default
+Rochefort,Sucre,1,1789,portic_default
+Rochefort,Verre cassé,1,1789,portic_default
+Rochefort,Vieux canons,1,1789,portic_default
+Rochefort,Vuide,1,1789,portic_default
+Rochefort,autres marchandises permises,1,1789,portic_default
+Rochefort,avoine,2,1789,portic_default
+Rochefort,biscuits,5,1789,portic_default
+Rochefort,bleds froment,1,1789,portic_default
+Rochefort,bois,2,1789,portic_default
+Rochefort,bois de construction,12,1789,portic_default
+Rochefort,bois merrain,20,1789,portic_default
+Rochefort,buches,1,1789,portic_default
+Rochefort,café,1,1789,portic_default
+Rochefort,cendres lessiviere,5,1789,portic_default
+Rochefort,charbon de bois,2,1789,portic_default
+Rochefort,charbon de terre,2,1789,portic_default
+Rochefort,cuivre,1,1789,portic_default
+Rochefort,eau de vie,9,1789,portic_default
+Rochefort,etoupe,1,1789,portic_default
+Rochefort,futailles vuide,4,1789,portic_default
+Rochefort,futailles vuides,1,1789,portic_default
+Rochefort,goudron,1,1789,portic_default
+Rochefort,grains de lin,1,1789,portic_default
+Rochefort,huile,1,1789,portic_default
+Rochefort,lest,4,1789,portic_default
+Rochefort,marchandise,1,1789,portic_default
+Rochefort,marchandises,6,1789,portic_default
+Rochefort,marchandises de foire,1,1789,portic_default
+Rochefort,marchandises permises,6,1789,portic_default
+Rochefort,marchandises permises pour la traitte des noirs,1,1789,portic_default
+Rochefort,marchandises pour la traitte des noirs,1,1789,portic_default
+Rochefort,merrein,1,1789,portic_default
+Rochefort,petit reste de marchandise,1,1789,portic_default
+Rochefort,pierre de taille,3,1789,portic_default
+Rochefort,planches,1,1789,portic_default
+Rochefort,pois,1,1789,portic_default
+Rochefort,reste de beurre,2,1789,portic_default
+Rochefort,reste de blés,1,1789,portic_default
+Rochefort,reste de grains,1,1789,portic_default
+Rochefort,reste de marchandises des isles,1,1789,portic_default
+Rochefort,reste de sardines pressé de Bretagne,1,1789,portic_default
+Rochefort,salaison,2,1789,portic_default
+Rochefort,sandre [cendres],1,1789,portic_default
+Rochefort,sardines,7,1789,portic_default
+Rochefort,son,2,1789,portic_default
+Rochefort,son lest,1,1789,portic_default
+Rochefort,sucre,2,1789,portic_default
+Rochefort,suif,1,1789,portic_default
+Rochefort,vide,3,1789,portic_default
+Rochefort,vieux cordage,1,1789,portic_default
+Rochefort,vin,17,1789,portic_default
+Rochefort,vuide,213,1789,portic_default
+Rochefort,à vide,6,1789,portic_default
+Royan,Lest,12,1789,portic_default
+Royan,lest,3,1789,portic_default
+Saint-Denis d'Oléron,Caffé avarrié,1,1789,portic_default
+Saint-Denis d'Oléron,Eau-de-vie,14,1789,portic_default
+Saint-Denis d'Oléron,lest,13,1789,portic_default
+Saint-Denis d'Oléron,soudes,7,1789,portic_default
+Saint-Denis d'Oléron,vin,33,1789,portic_default
+Saint-Denis d'Oléron,vuide,1,1789,portic_default
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,portic_default
+Saint-Gilles-sur-Vie,Froment,27,1789,portic_default
+Saint-Gilles-sur-Vie,Lentilles,5,1789,portic_default
+Saint-Gilles-sur-Vie,Pêche de la Sardine,6,1789,portic_default
+Saint-Gilles-sur-Vie,futailles,1,1789,portic_default
+Saint-Gilles-sur-Vie,futailles vides,1,1789,portic_default
+Saint-Gilles-sur-Vie,fèves,4,1789,portic_default
+Saint-Gilles-sur-Vie,meubles,1,1789,portic_default
+Saint-Gilles-sur-Vie,méture,1,1789,portic_default
+Saint-Gilles-sur-Vie,sel,41,1789,portic_default
+Saint-Gilles-sur-Vie,vin,1,1789,portic_default
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,portic_default
+Saint-Martin-de-Ré,Eboeur [Beurre],1,1789,portic_default
+Saint-Martin-de-Ré,Grain,2,1789,portic_default
+Saint-Martin-de-Ré,Merein,3,1789,portic_default
+Saint-Martin-de-Ré,Sucre,1,1789,portic_default
+Saint-Martin-de-Ré,audevie [eau de vie],3,1789,portic_default
+Saint-Martin-de-Ré,beurre,1,1789,portic_default
+Saint-Martin-de-Ré,bled,1,1789,portic_default
+Saint-Martin-de-Ré,boeure [beurre],1,1789,portic_default
+Saint-Martin-de-Ré,boeurs [beurre],1,1789,portic_default
+Saint-Martin-de-Ré,bois,1,1789,portic_default
+Saint-Martin-de-Ré,bois de construction,1,1789,portic_default
+Saint-Martin-de-Ré,buche,1,1789,portic_default
+Saint-Martin-de-Ré,café,1,1789,portic_default
+Saint-Martin-de-Ré,canon,1,1789,portic_default
+Saint-Martin-de-Ré,charbon,3,1789,portic_default
+Saint-Martin-de-Ré,chaux,1,1789,portic_default
+Saint-Martin-de-Ré,eau de vie,23,1789,portic_default
+Saint-Martin-de-Ré,fagot,1,1789,portic_default
+Saint-Martin-de-Ré,faince [faïence],2,1789,portic_default
+Saint-Martin-de-Ré,faire la pêche [au poisson frais],2,1789,portic_default
+Saint-Martin-de-Ré,faïence,1,1789,portic_default
+Saint-Martin-de-Ré,fer,2,1789,portic_default
+Saint-Martin-de-Ré,futailles,2,1789,portic_default
+Saint-Martin-de-Ré,fèves,1,1789,portic_default
+Saint-Martin-de-Ré,leenes [laines],1,1789,portic_default
+Saint-Martin-de-Ré,les [lest],1,1789,portic_default
+Saint-Martin-de-Ré,lest,210,1789,portic_default
+Saint-Martin-de-Ré,marchandises permises,1,1789,portic_default
+Saint-Martin-de-Ré,mouele [moules?],1,1789,portic_default
+Saint-Martin-de-Ré,orge,1,1789,portic_default
+Saint-Martin-de-Ré,pierre,2,1789,portic_default
+Saint-Martin-de-Ré,pirre [pierre],1,1789,portic_default
+Saint-Martin-de-Ré,planche,67,1789,portic_default
+Saint-Martin-de-Ré,planches,1,1789,portic_default
+Saint-Martin-de-Ré,platre,1,1789,portic_default
+Saint-Martin-de-Ré,pêche [au possion frais],1,1789,portic_default
+Saint-Martin-de-Ré,résine,1,1789,portic_default
+Saint-Martin-de-Ré,sandre [cendres],1,1789,portic_default
+Saint-Martin-de-Ré,sardines,1,1789,portic_default
+Saint-Martin-de-Ré,sel,49,1789,portic_default
+Saint-Martin-de-Ré,sendre [cendres],1,1789,portic_default
+Saint-Martin-de-Ré,serdine [sardines],1,1789,portic_default
+Saint-Martin-de-Ré,serdines [sardines],3,1789,portic_default
+Saint-Martin-de-Ré,son lest,1,1789,portic_default
+Saint-Martin-de-Ré,vide,24,1789,portic_default
+Saint-Martin-de-Ré,vin,30,1789,portic_default
+Saint-Martin-de-Ré,vinaigre,10,1789,portic_default
+Saint-Martin-de-Ré,vinatrie,7,1789,portic_default
+Saint-Martin-de-Ré,vingt [vin],1,1789,portic_default
+Saint-Martin-de-Ré,à l' aventure,1,1789,portic_default
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,portic_default
+Saint-Michel-en-l'Herm,bled,1,1789,portic_default
+Saint-Michel-en-l'Herm,eau de vie,1,1789,portic_default
+Saint-Michel-en-l'Herm,planches,1,1789,portic_default
+Saint-Michel-en-l'Herm,vinaigre,2,1789,portic_default
+Saint-Michel-en-l'Herm,à vide,3,1789,portic_default
+Seudre,Cargaison inconnue,25,1789,portic_default
+Seudre,beurre,1,1789,portic_default
+Seudre,son reste de beurre,1,1789,portic_default
+Seudre,vin,2,1789,portic_default
+Seudre,vin pour son lest,1,1789,portic_default
+Seudre,à vide,1,1789,portic_default
+Soubise,a vide,2,1789,portic_default
+Soubise,en lest,1,1789,portic_default
+Soubise,fèves,2,1789,portic_default
+Soubise,marchandises,1,1789,portic_default
+Soubise,planches,1,1789,portic_default
+Soubise,pêche de la morue,1,1789,portic_default
+Soubise,sel,1,1789,portic_default
+Soubise,vin,1,1789,portic_default
+Soubise,vinaigre,2,1789,portic_default
+Soubise,à vide,1,1789,portic_default
+Tonnay-Charente,Bois,2,1789,portic_default
+Tonnay-Charente,Cargaison inconnue,589,1789,portic_default
+Tonnay-Charente,Eau-de-vie,3,1789,portic_default
+Tonnay-Charente,Pierres,1,1789,portic_default
+Tonnay-Charente,bled,1,1789,portic_default
+Tonnay-Charente,bois,13,1789,portic_default
+Tonnay-Charente,bois à brûler,1,1789,portic_default
+Tonnay-Charente,cercles,1,1789,portic_default
+Tonnay-Charente,chaux,1,1789,portic_default
+Tonnay-Charente,en lest,1,1789,portic_default
+Tonnay-Charente,fagots,1,1789,portic_default
+Tonnay-Charente,fèves,1,1789,portic_default
+Tonnay-Charente,lest en fer,1,1789,portic_default
+Tonnay-Charente,peaux de bœuf,1,1789,portic_default
+Tonnay-Charente,pierres,2,1789,portic_default
+Tonnay-Charente,planches,1,1789,portic_default
+Tonnay-Charente,pommes,2,1789,portic_default
+Tonnay-Charente,restant de marchandise,1,1789,portic_default
+Tonnay-Charente,vide,3,1789,portic_default
+Tonnay-Charente,vin,1,1789,portic_default
+Tonnay-Charente,vinaigre,1,1789,portic_default
+Tonnay-Charente,à vide,14,1789,portic_default
+l'Aiguillon,Eau-de-vie,1,1789,portic_default
+l'Aiguillon,planches,1,1789,portic_default
+l'Aiguillon,vinaigre,2,1789,portic_default
+l'Aiguillon,à vide,3,1789,portic_default
+mer des Pertuis,reste de futailles,1,1789,portic_default
+mer des Pertuis,vin,1,1789,portic_default
+île d'Oléron,baillarge,1,1789,portic_default
+île d'Oléron,blé baillarge,1,1789,portic_default
+île d'Oléron,eau de vie,3,1789,portic_default
+île d'Oléron,fèves,2,1789,portic_default
+île d'Oléron,marchandises permises,3,1789,portic_default
+île d'Oléron,vide,3,1789,portic_default
+île d'Oléron,vin,1,1789,portic_default
+île d'Oléron,vuide,2,1789,portic_default
+île d'Oléron,à vide,3,1789,portic_default
+île d'Yeu,vin,1,1789,portic_default
+île d'Yeu,à vide,1,1789,portic_default
+île de Bouin,Cargaison inconnue,11,1789,portic_default
+île de Bouin,Froment,5,1789,portic_default
+île de Bouin,Fèves,4,1789,portic_default
+île de Bouin,Sel,85,1789,portic_default
+île de Ré,vide,1,1789,portic_default
+île de Ré,vin,1,1789,portic_default
+Ars-en-Ré,Bois merrain,1,1789,portic_standardized_fr
+Ars-en-Ré,Cargaison inconnue,12,1789,portic_standardized_fr
+Ars-en-Ré,Cendre,1,1789,portic_standardized_fr
+Ars-en-Ré,Eau-de-vie,2,1789,portic_standardized_fr
+Ars-en-Ré,Lest,1,1789,portic_standardized_fr
+Ars-en-Ré,Sel,246,1789,portic_standardized_fr
+Ars-en-Ré,Vide,43,1789,portic_standardized_fr
+Ars-en-Ré,Vin,1,1789,portic_standardized_fr
+Ars-en-Ré,Vinaigre,1,1789,portic_standardized_fr
+Ars-en-Ré,Vinatérie,1,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Diverses marchandises,1,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Froment,28,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Fèves,7,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Lentilles,2,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Lest,3,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Poisson sec,1,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Sel,78,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Vide,1,1789,portic_standardized_fr
+Beauvoir-sur-Mer,Vin,1,1789,portic_standardized_fr
+Brouage ,Cargaison inconnue,4,1789,portic_standardized_fr
+Champagné-les-Marais,Cargaison inconnue,1,1789,portic_standardized_fr
+Esnandes,Cargaison inconnue,2,1789,portic_standardized_fr
+Ker Châlon,Chaux,6,1789,portic_standardized_fr
+Ker Châlon,Lest,1,1789,portic_standardized_fr
+Ker Châlon,Vide,3,1789,portic_standardized_fr
+La Flotte-en-Ré,Cendre,1,1789,portic_standardized_fr
+La Flotte-en-Ré,Diverses marchandises,1,1789,portic_standardized_fr
+La Flotte-en-Ré,Futailles vides,1,1789,portic_standardized_fr
+La Flotte-en-Ré,Méture,1,1789,portic_standardized_fr
+La Flotte-en-Ré,Vin,5,1789,portic_standardized_fr
+La Perrotine,Cargaison inconnue,1,1789,portic_standardized_fr
+La Perrotine,Diverses marchandises,3,1789,portic_standardized_fr
+La Perrotine,Eau-de-vie,30,1789,portic_standardized_fr
+La Perrotine,Fèves,1,1789,portic_standardized_fr
+La Perrotine,Lest,18,1789,portic_standardized_fr
+La Perrotine,Marchandises d'un naufrage,1,1789,portic_standardized_fr
+La Perrotine,Moules ,2,1789,portic_standardized_fr
+La Perrotine,Savon,1,1789,portic_standardized_fr
+La Perrotine,Vide,1,1789,portic_standardized_fr
+La Perrotine,Vin,24,1789,portic_standardized_fr
+La Rochelle,Beurre,1,1789,portic_standardized_fr
+La Rochelle,Bois de construction,3,1789,portic_standardized_fr
+La Rochelle,Cargaison inconnue,1003,1789,portic_standardized_fr
+La Rochelle,Copeaux et pièces de bois,1,1789,portic_standardized_fr
+La Rochelle,Diverses marchandises,7,1789,portic_standardized_fr
+La Rochelle,Eau-de-vie,4,1789,portic_standardized_fr
+La Rochelle,Futailles vides,2,1789,portic_standardized_fr
+La Rochelle,Fèves,1,1789,portic_standardized_fr
+La Rochelle,Lest,6,1789,portic_standardized_fr
+La Rochelle,Planches,15,1789,portic_standardized_fr
+La Rochelle,Pêche à la morue,7,1789,portic_standardized_fr
+La Rochelle,Sardines,1,1789,portic_standardized_fr
+La Rochelle,Sel,1,1789,portic_standardized_fr
+La Rochelle,Vide,52,1789,portic_standardized_fr
+La Rochelle,Vieux Fer,1,1789,portic_standardized_fr
+La Rochelle,Vin,17,1789,portic_standardized_fr
+La Rochelle,Vinaigre,4,1789,portic_standardized_fr
+La Rochelle,à l'aventure,2,1789,portic_standardized_fr
+La Tranche-sur-Mer,Ail,17,1789,portic_standardized_fr
+La Tranche-sur-Mer,Diverses marchandises,1,1789,portic_standardized_fr
+La Tranche-sur-Mer,Echalotte,14,1789,portic_standardized_fr
+La Tranche-sur-Mer,Haricots blancs,2,1789,portic_standardized_fr
+La Tranche-sur-Mer,Marchandises,1,1789,portic_standardized_fr
+La Tranche-sur-Mer,Oignons,20,1789,portic_standardized_fr
+La Tremblade,Planches,1,1789,portic_standardized_fr
+La Tremblade,Vide,1,1789,portic_standardized_fr
+Le Chapus,Vide,1,1789,portic_standardized_fr
+Le Chapus,Vin,1,1789,portic_standardized_fr
+Le Château-d'Oléron,Bouteilles ,1,1789,portic_standardized_fr
+Le Château-d'Oléron,Cargaison inconnue,39,1789,portic_standardized_fr
+Le Château-d'Oléron,Eau-de-vie,1,1789,portic_standardized_fr
+Le Château-d'Oléron,Oignons,2,1789,portic_standardized_fr
+Le Château-d'Oléron,Vide,12,1789,portic_standardized_fr
+Les Sables-d'Olonne,Beurre,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Bois,2,1789,portic_standardized_fr
+Les Sables-d'Olonne,Bois de construction,6,1789,portic_standardized_fr
+Les Sables-d'Olonne,Bois merrain,2,1789,portic_standardized_fr
+Les Sables-d'Olonne,Bois à brûler,17,1789,portic_standardized_fr
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,portic_standardized_fr
+Les Sables-d'Olonne,Charbon de bois,6,1789,portic_standardized_fr
+Les Sables-d'Olonne,Charbon de terre,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Diverses marchandises,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Futailles vides,3,1789,portic_standardized_fr
+Les Sables-d'Olonne,Gréments de navire,4,1789,portic_standardized_fr
+Les Sables-d'Olonne,Hardes,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Hardes de mer,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Huile de poisson,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Huitres,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Lest,27,1789,portic_standardized_fr
+Les Sables-d'Olonne,Marchandises permises,13,1789,portic_standardized_fr
+Les Sables-d'Olonne,Morue verte,16,1789,portic_standardized_fr
+Les Sables-d'Olonne,Planches,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Poterie,2,1789,portic_standardized_fr
+Les Sables-d'Olonne,Pêche à la morue,32,1789,portic_standardized_fr
+Les Sables-d'Olonne,Pêche à la sardine,4,1789,portic_standardized_fr
+Les Sables-d'Olonne,Sardines salées,5,1789,portic_standardized_fr
+Les Sables-d'Olonne,Sel,106,1789,portic_standardized_fr
+Les Sables-d'Olonne,Son,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,Ustensiles de pêche,36,1789,portic_standardized_fr
+Les Sables-d'Olonne,Vin,2,1789,portic_standardized_fr
+Les Sables-d'Olonne,Vivres,32,1789,portic_standardized_fr
+Les Sables-d'Olonne,Voiles,1,1789,portic_standardized_fr
+Les Sables-d'Olonne,à l'aventure,5,1789,portic_standardized_fr
+Marans,Avoine,5,1789,portic_standardized_fr
+Marans,Blé,18,1789,portic_standardized_fr
+Marans,Bois,153,1789,portic_standardized_fr
+Marans,Bois de construction,3,1789,portic_standardized_fr
+Marans,Bois merrain,7,1789,portic_standardized_fr
+Marans,Bois à brûler,6,1789,portic_standardized_fr
+Marans,Briques,1,1789,portic_standardized_fr
+Marans,Cargaison inconnue,1,1789,portic_standardized_fr
+Marans,Cendre,1,1789,portic_standardized_fr
+Marans,Chanvre,8,1789,portic_standardized_fr
+Marans,Charbon,2,1789,portic_standardized_fr
+Marans,Farine,47,1789,portic_standardized_fr
+Marans,Feuillard,36,1789,portic_standardized_fr
+Marans,Froment,5,1789,portic_standardized_fr
+Marans,Fumier,1,1789,portic_standardized_fr
+Marans,Fèves,21,1789,portic_standardized_fr
+Marans,Grain,152,1789,portic_standardized_fr
+Marans,Graines de lin,1,1789,portic_standardized_fr
+Marans,Lest,142,1789,portic_standardized_fr
+Marans,Lin,1,1789,portic_standardized_fr
+Marans,Meule de moulin,1,1789,portic_standardized_fr
+Marans,Moutarde,2,1789,portic_standardized_fr
+Marans,Oignons,1,1789,portic_standardized_fr
+Marans,Orge,7,1789,portic_standardized_fr
+Marans,Pierres,1,1789,portic_standardized_fr
+Marans,Poisson,1,1789,portic_standardized_fr
+Marans,Son,1,1789,portic_standardized_fr
+Marans,Terre,2,1789,portic_standardized_fr
+Marans,Vesces,2,1789,portic_standardized_fr
+Marans,Vide,52,1789,portic_standardized_fr
+Marans,Vin,3,1789,portic_standardized_fr
+Marans,Vinaigre,3,1789,portic_standardized_fr
+Marennes,Beurre,5,1789,portic_standardized_fr
+Marennes,Bois de chauffage,3,1789,portic_standardized_fr
+Marennes,Bois de construction,1,1789,portic_standardized_fr
+Marennes,Bouteilles ,8,1789,portic_standardized_fr
+Marennes,Cargaison inconnue,19,1789,portic_standardized_fr
+Marennes,Carreaux,1,1789,portic_standardized_fr
+Marennes,Diverses marchandises,1,1789,portic_standardized_fr
+Marennes,Eau-de-vie,25,1789,portic_standardized_fr
+Marennes,Futailles vides,2,1789,portic_standardized_fr
+Marennes,Fèves,8,1789,portic_standardized_fr
+Marennes,Huitres,2,1789,portic_standardized_fr
+Marennes,Lest,36,1789,portic_standardized_fr
+Marennes,Marchandises d'un naufrage,1,1789,portic_standardized_fr
+Marennes,Meubles,3,1789,portic_standardized_fr
+Marennes,Moules ,1,1789,portic_standardized_fr
+Marennes,Passagers,1,1789,portic_standardized_fr
+Marennes,Salaisons,1,1789,portic_standardized_fr
+Marennes,Sel,1301,1789,portic_standardized_fr
+Marennes,Vide,30,1789,portic_standardized_fr
+Marennes,Vin,64,1789,portic_standardized_fr
+Marennes,Vinaigre,4,1789,portic_standardized_fr
+Martrou,Bois à brûler,2,1789,portic_standardized_fr
+Martrou,Fagots,2,1789,portic_standardized_fr
+Moricq,Blé,19,1789,portic_standardized_fr
+Moricq,Bois,2,1789,portic_standardized_fr
+Moricq,Bois de construction,17,1789,portic_standardized_fr
+Moricq,Bois merrain,1,1789,portic_standardized_fr
+Moricq,Bois à brûler,55,1789,portic_standardized_fr
+Moricq,Charbon,26,1789,portic_standardized_fr
+Moricq,Eau-de-vie,1,1789,portic_standardized_fr
+Moricq,Feuillard,6,1789,portic_standardized_fr
+Moricq,Froment,1,1789,portic_standardized_fr
+Moricq,Futailles vides,1,1789,portic_standardized_fr
+Moricq,Grain,1,1789,portic_standardized_fr
+Moricq,Orge,1,1789,portic_standardized_fr
+Moricq,Planches,1,1789,portic_standardized_fr
+Moricq,Poterie,2,1789,portic_standardized_fr
+Moricq,Seigle,3,1789,portic_standardized_fr
+Moricq,Vide,3,1789,portic_standardized_fr
+Moricq,Vin,3,1789,portic_standardized_fr
+Moricq,Vinaigre,2,1789,portic_standardized_fr
+Mortagne,Bois merrain,1,1789,portic_standardized_fr
+Mortagne,Cargaison inconnue,2,1789,portic_standardized_fr
+Mortagne,Eau-de-vie,3,1789,portic_standardized_fr
+Mortagne,Lest,10,1789,portic_standardized_fr
+Mortagne,Vide,1,1789,portic_standardized_fr
+Mortagne,Vin,2,1789,portic_standardized_fr
+Mortagne,à l'aventure,1,1789,portic_standardized_fr
+Noirmoutier,Bois merrain,1,1789,portic_standardized_fr
+Noirmoutier,Cargaison inconnue,5,1789,portic_standardized_fr
+Noirmoutier,Cendre,13,1789,portic_standardized_fr
+Noirmoutier,Cendre de varech,7,1789,portic_standardized_fr
+Noirmoutier,Eau-de-vie,3,1789,portic_standardized_fr
+Noirmoutier,Farine,2,1789,portic_standardized_fr
+Noirmoutier,Froment,28,1789,portic_standardized_fr
+Noirmoutier,Futailles vides,11,1789,portic_standardized_fr
+Noirmoutier,Fèves,7,1789,portic_standardized_fr
+Noirmoutier,Lest,9,1789,portic_standardized_fr
+Noirmoutier,Moutarde,1,1789,portic_standardized_fr
+Noirmoutier,Pêche au poisson frais,2,1789,portic_standardized_fr
+Noirmoutier,Sel,197,1789,portic_standardized_fr
+Noirmoutier,Soude,14,1789,portic_standardized_fr
+Noirmoutier,Vide,1,1789,portic_standardized_fr
+Noirmoutier,Vin,6,1789,portic_standardized_fr
+Ribérou,Bois,1,1789,portic_standardized_fr
+Ribérou,Bois de construction,12,1789,portic_standardized_fr
+Ribérou,Bois à brûler,87,1789,portic_standardized_fr
+Ribérou,Bordage,1,1789,portic_standardized_fr
+Ribérou,Cargaison inconnue,1,1789,portic_standardized_fr
+Ribérou,Cercles,2,1789,portic_standardized_fr
+Ribérou,Charbon de bois,8,1789,portic_standardized_fr
+Ribérou,Charbon de terre,1,1789,portic_standardized_fr
+Ribérou,Chaux,88,1789,portic_standardized_fr
+Ribérou,Copeaux et pièces de bois,1,1789,portic_standardized_fr
+Ribérou,Cérises,1,1789,portic_standardized_fr
+Ribérou,Diverses marchandises,1,1789,portic_standardized_fr
+Ribérou,Eau-de-vie,15,1789,portic_standardized_fr
+Ribérou,Fagots,91,1789,portic_standardized_fr
+Ribérou,Fourrage,9,1789,portic_standardized_fr
+Ribérou,Fromage,2,1789,portic_standardized_fr
+Ribérou,Fruits,1,1789,portic_standardized_fr
+Ribérou,Fèves,1,1789,portic_standardized_fr
+Ribérou,Grain,1,1789,portic_standardized_fr
+Ribérou,Lest,165,1789,portic_standardized_fr
+Ribérou,Meubles,1,1789,portic_standardized_fr
+Ribérou,Morue,1,1789,portic_standardized_fr
+Ribérou,Morue sèche,1,1789,portic_standardized_fr
+Ribérou,Noix,1,1789,portic_standardized_fr
+Ribérou,Salaisons,1,1789,portic_standardized_fr
+Ribérou,Sel,1,1789,portic_standardized_fr
+Ribérou,Terre de Broue [pour verrerie],8,1789,portic_standardized_fr
+Ribérou,Verge de moulin,1,1789,portic_standardized_fr
+Ribérou,Vide,2,1789,portic_standardized_fr
+Ribérou,Vin,28,1789,portic_standardized_fr
+Ribérou,à l'aventure,1,1789,portic_standardized_fr
+Rochefort,Avoine,2,1789,portic_standardized_fr
+Rochefort,Beurre,2,1789,portic_standardized_fr
+Rochefort,Biscuits,6,1789,portic_standardized_fr
+Rochefort,Bière,1,1789,portic_standardized_fr
+Rochefort,Blé,2,1789,portic_standardized_fr
+Rochefort,Bois,2,1789,portic_standardized_fr
+Rochefort,Bois de construction,12,1789,portic_standardized_fr
+Rochefort,Bois merrain,23,1789,portic_standardized_fr
+Rochefort,Bois à brûler,2,1789,portic_standardized_fr
+Rochefort,Café,1,1789,portic_standardized_fr
+Rochefort,Canons,1,1789,portic_standardized_fr
+Rochefort,Cargaison inconnue,5,1789,portic_standardized_fr
+Rochefort,Cendre,6,1789,portic_standardized_fr
+Rochefort,Charbon de bois,2,1789,portic_standardized_fr
+Rochefort,Charbon de terre,2,1789,portic_standardized_fr
+Rochefort,Coton,1,1789,portic_standardized_fr
+Rochefort,Cuivre,1,1789,portic_standardized_fr
+Rochefort,Diverses marchandises,20,1789,portic_standardized_fr
+Rochefort,Eau-de-vie,14,1789,portic_standardized_fr
+Rochefort,Etoupe,1,1789,portic_standardized_fr
+Rochefort,Farine,1,1789,portic_standardized_fr
+Rochefort,Froment,1,1789,portic_standardized_fr
+Rochefort,Futailles vides,5,1789,portic_standardized_fr
+Rochefort,Goudron,1,1789,portic_standardized_fr
+Rochefort,Grain,2,1789,portic_standardized_fr
+Rochefort,Graines de lin,3,1789,portic_standardized_fr
+Rochefort,Huile,1,1789,portic_standardized_fr
+Rochefort,Lard salé,1,1789,portic_standardized_fr
+Rochefort,Lest,5,1789,portic_standardized_fr
+Rochefort,Marchandises permises,7,1789,portic_standardized_fr
+Rochefort,Marchandises pour la traite négrière,2,1789,portic_standardized_fr
+Rochefort,Morue sèche,1,1789,portic_standardized_fr
+Rochefort,Pierre de taille,4,1789,portic_standardized_fr
+Rochefort,Pierres,1,1789,portic_standardized_fr
+Rochefort,Planches,1,1789,portic_standardized_fr
+Rochefort,Pois,1,1789,portic_standardized_fr
+Rochefort,Poudre à canon,2,1789,portic_standardized_fr
+Rochefort,Résine,1,1789,portic_standardized_fr
+Rochefort,Salaisons,2,1789,portic_standardized_fr
+Rochefort,Sardines,7,1789,portic_standardized_fr
+Rochefort,Sardines pressées de Bretagne,1,1789,portic_standardized_fr
+Rochefort,Son,2,1789,portic_standardized_fr
+Rochefort,Sucre,3,1789,portic_standardized_fr
+Rochefort,Suif,1,1789,portic_standardized_fr
+Rochefort,Verre cassé,1,1789,portic_standardized_fr
+Rochefort,Vide,223,1789,portic_standardized_fr
+Rochefort,Vieux cordages,1,1789,portic_standardized_fr
+Rochefort,Vin,17,1789,portic_standardized_fr
+Royan,Lest,15,1789,portic_standardized_fr
+Saint-Denis d'Oléron,Café,1,1789,portic_standardized_fr
+Saint-Denis d'Oléron,Eau-de-vie,14,1789,portic_standardized_fr
+Saint-Denis d'Oléron,Lest,13,1789,portic_standardized_fr
+Saint-Denis d'Oléron,Soude,7,1789,portic_standardized_fr
+Saint-Denis d'Oléron,Vide,1,1789,portic_standardized_fr
+Saint-Denis d'Oléron,Vin,33,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Froment,27,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Futailles vides,2,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Fèves,4,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Lentilles,5,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Meubles,1,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Méture,1,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Pêche à la sardine,6,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Sel,41,1789,portic_standardized_fr
+Saint-Gilles-sur-Vie,Vin,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Beurre,4,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Blé,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Bois,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Bois de construction,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Bois merrain,3,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Bois à brûler,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Café,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Canons,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Cendre,2,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Charbon,3,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Chaux,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Eau-de-vie,26,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Fagots,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Faïence,3,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Fer,2,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Futailles vides,2,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Fèves,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Grain,2,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Laine,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Lest,212,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Marchandises permises,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Moules ,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Orge,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Pierres,3,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Planches,68,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Plâtre,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Pêche au poisson frais,3,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Résine,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Sardines,5,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Sel,49,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Sucre,1,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Vide,24,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Vin,31,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Vinaigre,10,1789,portic_standardized_fr
+Saint-Martin-de-Ré,Vinatérie,7,1789,portic_standardized_fr
+Saint-Martin-de-Ré,à l'aventure,1,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Blé,1,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Eau-de-vie,1,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Planches,1,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Vide,3,1789,portic_standardized_fr
+Saint-Michel-en-l'Herm,Vinaigre,2,1789,portic_standardized_fr
+Seudre,Beurre,2,1789,portic_standardized_fr
+Seudre,Cargaison inconnue,25,1789,portic_standardized_fr
+Seudre,Vide,1,1789,portic_standardized_fr
+Seudre,Vin,3,1789,portic_standardized_fr
+Soubise,Diverses marchandises,1,1789,portic_standardized_fr
+Soubise,Fèves,2,1789,portic_standardized_fr
+Soubise,Lest,1,1789,portic_standardized_fr
+Soubise,Planches,1,1789,portic_standardized_fr
+Soubise,Pêche à la morue,1,1789,portic_standardized_fr
+Soubise,Sel,1,1789,portic_standardized_fr
+Soubise,Vide,3,1789,portic_standardized_fr
+Soubise,Vin,1,1789,portic_standardized_fr
+Soubise,Vinaigre,2,1789,portic_standardized_fr
+Tonnay-Charente,Blé,1,1789,portic_standardized_fr
+Tonnay-Charente,Bois,15,1789,portic_standardized_fr
+Tonnay-Charente,Bois à brûler,1,1789,portic_standardized_fr
+Tonnay-Charente,Cargaison inconnue,589,1789,portic_standardized_fr
+Tonnay-Charente,Cercles,1,1789,portic_standardized_fr
+Tonnay-Charente,Chaux,1,1789,portic_standardized_fr
+Tonnay-Charente,Diverses marchandises,1,1789,portic_standardized_fr
+Tonnay-Charente,Eau-de-vie,3,1789,portic_standardized_fr
+Tonnay-Charente,Fagots,1,1789,portic_standardized_fr
+Tonnay-Charente,Fer,1,1789,portic_standardized_fr
+Tonnay-Charente,Fèves,1,1789,portic_standardized_fr
+Tonnay-Charente,Lest,1,1789,portic_standardized_fr
+Tonnay-Charente,Peaux de bœuf,1,1789,portic_standardized_fr
+Tonnay-Charente,Pierres,3,1789,portic_standardized_fr
+Tonnay-Charente,Planches,1,1789,portic_standardized_fr
+Tonnay-Charente,Pommes,2,1789,portic_standardized_fr
+Tonnay-Charente,Vide,17,1789,portic_standardized_fr
+Tonnay-Charente,Vin,1,1789,portic_standardized_fr
+Tonnay-Charente,Vinaigre,1,1789,portic_standardized_fr
+l'Aiguillon,Eau-de-vie,1,1789,portic_standardized_fr
+l'Aiguillon,Planches,1,1789,portic_standardized_fr
+l'Aiguillon,Vide,3,1789,portic_standardized_fr
+l'Aiguillon,Vinaigre,2,1789,portic_standardized_fr
+mer des Pertuis,Futailles vides,1,1789,portic_standardized_fr
+mer des Pertuis,Vin,1,1789,portic_standardized_fr
+île d'Oléron,Eau-de-vie,3,1789,portic_standardized_fr
+île d'Oléron,Fèves,2,1789,portic_standardized_fr
+île d'Oléron,Marchandises permises,3,1789,portic_standardized_fr
+île d'Oléron,Orge,2,1789,portic_standardized_fr
+île d'Oléron,Vide,8,1789,portic_standardized_fr
+île d'Oléron,Vin,1,1789,portic_standardized_fr
+île d'Yeu,Vide,1,1789,portic_standardized_fr
+île d'Yeu,Vin,1,1789,portic_standardized_fr
+île de Bouin,Cargaison inconnue,11,1789,portic_standardized_fr
+île de Bouin,Froment,5,1789,portic_standardized_fr
+île de Bouin,Fèves,4,1789,portic_standardized_fr
+île de Bouin,Sel,85,1789,portic_standardized_fr
+île de Ré,Vide,1,1789,portic_standardized_fr
+île de Ré,Vin,1,1789,portic_standardized_fr
+Ars-en-Ré,Cargaison inconnue,12,1789,toflit_aggregate
+Ars-en-Ré,Divers,45,1789,toflit_aggregate
+Ars-en-Ré,Industrie française et étrangère,1,1789,toflit_aggregate
+Ars-en-Ré,Matières premières,1,1789,toflit_aggregate
+Ars-en-Ré,Subsistances,250,1789,toflit_aggregate
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,toflit_aggregate
+Beauvoir-sur-Mer,Divers,4,1789,toflit_aggregate
+Beauvoir-sur-Mer,Industrie française et étrangère,1,1789,toflit_aggregate
+Beauvoir-sur-Mer,Subsistances,117,1789,toflit_aggregate
+Brouage ,Cargaison inconnue,4,1789,toflit_aggregate
+Champagné-les-Marais,Cargaison inconnue,1,1789,toflit_aggregate
+Esnandes,Cargaison inconnue,2,1789,toflit_aggregate
+Ker Châlon,Divers,4,1789,toflit_aggregate
+Ker Châlon,Matières premières,6,1789,toflit_aggregate
+La Flotte-en-Ré,Divers,1,1789,toflit_aggregate
+La Flotte-en-Ré,Industrie française et étrangère,1,1789,toflit_aggregate
+La Flotte-en-Ré,Matières premières,1,1789,toflit_aggregate
+La Flotte-en-Ré,Subsistances,6,1789,toflit_aggregate
+La Perrotine,Cargaison inconnue,1,1789,toflit_aggregate
+La Perrotine,Divers,23,1789,toflit_aggregate
+La Perrotine,Industrie française et étrangère,1,1789,toflit_aggregate
+La Perrotine,Subsistances,57,1789,toflit_aggregate
+La Rochelle,Cargaison inconnue,1003,1789,toflit_aggregate
+La Rochelle,Divers,67,1789,toflit_aggregate
+La Rochelle,Industrie française et étrangère,21,1789,toflit_aggregate
+La Rochelle,Métaux,1,1789,toflit_aggregate
+La Rochelle,Pêche,7,1789,toflit_aggregate
+La Rochelle,Subsistances,29,1789,toflit_aggregate
+La Tranche-sur-Mer,Divers,2,1789,toflit_aggregate
+La Tranche-sur-Mer,Subsistances,53,1789,toflit_aggregate
+La Tremblade,Divers,1,1789,toflit_aggregate
+La Tremblade,Industrie française et étrangère,1,1789,toflit_aggregate
+Le Chapus,Divers,1,1789,toflit_aggregate
+Le Chapus,Subsistances,1,1789,toflit_aggregate
+Le Château-d'Oléron,Cargaison inconnue,39,1789,toflit_aggregate
+Le Château-d'Oléron,Divers,12,1789,toflit_aggregate
+Le Château-d'Oléron,Industrie française et étrangère,1,1789,toflit_aggregate
+Le Château-d'Oléron,Subsistances,3,1789,toflit_aggregate
+Les Sables-d'Olonne,Bêtes de somme,32,1789,toflit_aggregate
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,toflit_aggregate
+Les Sables-d'Olonne,Divers,46,1789,toflit_aggregate
+Les Sables-d'Olonne,Industrie française et étrangère,57,1789,toflit_aggregate
+Les Sables-d'Olonne,Matières premières,27,1789,toflit_aggregate
+Les Sables-d'Olonne,Pêche,36,1789,toflit_aggregate
+Les Sables-d'Olonne,Subsistances,132,1789,toflit_aggregate
+Marans,Cargaison inconnue,1,1789,toflit_aggregate
+Marans,Divers,194,1789,toflit_aggregate
+Marans,Industrie française et étrangère,48,1789,toflit_aggregate
+Marans,Matières premières,178,1789,toflit_aggregate
+Marans,Subsistances,266,1789,toflit_aggregate
+Marennes,Cargaison inconnue,19,1789,toflit_aggregate
+Marennes,Divers,68,1789,toflit_aggregate
+Marennes,Industrie française et étrangère,14,1789,toflit_aggregate
+Marennes,Matières premières,3,1789,toflit_aggregate
+Marennes,Subsistances,1411,1789,toflit_aggregate
+Martrou,Matières premières,4,1789,toflit_aggregate
+Moricq,Divers,3,1789,toflit_aggregate
+Moricq,Industrie française et étrangère,28,1789,toflit_aggregate
+Moricq,Matières premières,83,1789,toflit_aggregate
+Moricq,Subsistances,31,1789,toflit_aggregate
+Mortagne,Cargaison inconnue,2,1789,toflit_aggregate
+Mortagne,Divers,12,1789,toflit_aggregate
+Mortagne,Industrie française et étrangère,1,1789,toflit_aggregate
+Mortagne,Subsistances,5,1789,toflit_aggregate
+Noirmoutier,Cargaison inconnue,5,1789,toflit_aggregate
+Noirmoutier,Divers,10,1789,toflit_aggregate
+Noirmoutier,Drogues,14,1789,toflit_aggregate
+Noirmoutier,Industrie française et étrangère,12,1789,toflit_aggregate
+Noirmoutier,Matières premières,20,1789,toflit_aggregate
+Noirmoutier,Pêche,2,1789,toflit_aggregate
+Noirmoutier,Subsistances,244,1789,toflit_aggregate
+Ribérou,Cargaison inconnue,1,1789,toflit_aggregate
+Ribérou,Divers,169,1789,toflit_aggregate
+Ribérou,Industrie française et étrangère,17,1789,toflit_aggregate
+Ribérou,Matières premières,294,1789,toflit_aggregate
+Ribérou,Subsistances,54,1789,toflit_aggregate
+Rochefort,Cargaison inconnue,5,1789,toflit_aggregate
+Rochefort,Divers,257,1789,toflit_aggregate
+Rochefort,Industrie française et étrangère,49,1789,toflit_aggregate
+Rochefort,Matières premières,24,1789,toflit_aggregate
+Rochefort,Métaux,1,1789,toflit_aggregate
+Rochefort,Subsistances,67,1789,toflit_aggregate
+Royan,Divers,15,1789,toflit_aggregate
+Saint-Denis d'Oléron,Divers,14,1789,toflit_aggregate
+Saint-Denis d'Oléron,Drogues,7,1789,toflit_aggregate
+Saint-Denis d'Oléron,Subsistances,48,1789,toflit_aggregate
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,toflit_aggregate
+Saint-Gilles-sur-Vie,Industrie française et étrangère,3,1789,toflit_aggregate
+Saint-Gilles-sur-Vie,Pêche,6,1789,toflit_aggregate
+Saint-Gilles-sur-Vie,Subsistances,79,1789,toflit_aggregate
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,toflit_aggregate
+Saint-Martin-de-Ré,Divers,245,1789,toflit_aggregate
+Saint-Martin-de-Ré,Industrie française et étrangère,78,1789,toflit_aggregate
+Saint-Martin-de-Ré,Matières premières,15,1789,toflit_aggregate
+Saint-Martin-de-Ré,Métaux,2,1789,toflit_aggregate
+Saint-Martin-de-Ré,Pêche,3,1789,toflit_aggregate
+Saint-Martin-de-Ré,Subsistances,133,1789,toflit_aggregate
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,toflit_aggregate
+Saint-Michel-en-l'Herm,Divers,3,1789,toflit_aggregate
+Saint-Michel-en-l'Herm,Industrie française et étrangère,1,1789,toflit_aggregate
+Saint-Michel-en-l'Herm,Subsistances,4,1789,toflit_aggregate
+Seudre,Cargaison inconnue,25,1789,toflit_aggregate
+Seudre,Divers,1,1789,toflit_aggregate
+Seudre,Subsistances,5,1789,toflit_aggregate
+Soubise,Divers,5,1789,toflit_aggregate
+Soubise,Industrie française et étrangère,1,1789,toflit_aggregate
+Soubise,Pêche,1,1789,toflit_aggregate
+Soubise,Subsistances,6,1789,toflit_aggregate
+Tonnay-Charente,Cargaison inconnue,589,1789,toflit_aggregate
+Tonnay-Charente,Divers,19,1789,toflit_aggregate
+Tonnay-Charente,Industrie française et étrangère,3,1789,toflit_aggregate
+Tonnay-Charente,Matières premières,21,1789,toflit_aggregate
+Tonnay-Charente,Métaux,1,1789,toflit_aggregate
+Tonnay-Charente,Subsistances,9,1789,toflit_aggregate
+l'Aiguillon,Divers,3,1789,toflit_aggregate
+l'Aiguillon,Industrie française et étrangère,1,1789,toflit_aggregate
+l'Aiguillon,Subsistances,3,1789,toflit_aggregate
+mer des Pertuis,Industrie française et étrangère,1,1789,toflit_aggregate
+mer des Pertuis,Subsistances,1,1789,toflit_aggregate
+île d'Oléron,Divers,11,1789,toflit_aggregate
+île d'Oléron,Subsistances,8,1789,toflit_aggregate
+île d'Yeu,Divers,1,1789,toflit_aggregate
+île d'Yeu,Subsistances,1,1789,toflit_aggregate
+île de Bouin,Cargaison inconnue,11,1789,toflit_aggregate
+île de Bouin,Subsistances,94,1789,toflit_aggregate
+île de Ré,Divers,1,1789,toflit_aggregate
+île de Ré,Subsistances,1,1789,toflit_aggregate
+Ars-en-Ré,"Bière, cidre et vinaigre",1,1789,toflit_revolution
+Ars-en-Ré,Cargaison inconnue,12,1789,toflit_revolution
+Ars-en-Ré,Cendres diverses,1,1789,toflit_revolution
+Ars-en-Ré,Eaux-de-vie et liqueurs,2,1789,toflit_revolution
+Ars-en-Ré,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Ars-en-Ré,Produits inconnus,45,1789,toflit_revolution
+Ars-en-Ré,Sel,246,1789,toflit_revolution
+Ars-en-Ré,Vins divers,1,1789,toflit_revolution
+Beauvoir-sur-Mer,Blé et autres grains comestibles,28,1789,toflit_revolution
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,toflit_revolution
+Beauvoir-sur-Mer,Légumes,9,1789,toflit_revolution
+Beauvoir-sur-Mer,Ouvrages divers et mélangés,1,1789,toflit_revolution
+Beauvoir-sur-Mer,Produits inconnus,4,1789,toflit_revolution
+Beauvoir-sur-Mer,Pêche et fruits de mer,1,1789,toflit_revolution
+Beauvoir-sur-Mer,Sel,78,1789,toflit_revolution
+Beauvoir-sur-Mer,Vins divers,1,1789,toflit_revolution
+Brouage ,Cargaison inconnue,4,1789,toflit_revolution
+Champagné-les-Marais,Cargaison inconnue,1,1789,toflit_revolution
+Esnandes,Cargaison inconnue,2,1789,toflit_revolution
+Ker Châlon,Matières premières diverses,6,1789,toflit_revolution
+Ker Châlon,Produits inconnus,4,1789,toflit_revolution
+La Flotte-en-Ré,Blé et autres grains comestibles,1,1789,toflit_revolution
+La Flotte-en-Ré,Cendres diverses,1,1789,toflit_revolution
+La Flotte-en-Ré,Divers incertains,1,1789,toflit_revolution
+La Flotte-en-Ré,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+La Flotte-en-Ré,Vins divers,5,1789,toflit_revolution
+La Perrotine,Cargaison inconnue,1,1789,toflit_revolution
+La Perrotine,Divers incertains,3,1789,toflit_revolution
+La Perrotine,Divers mélangés,1,1789,toflit_revolution
+La Perrotine,Eaux-de-vie et liqueurs,30,1789,toflit_revolution
+La Perrotine,Légumes,1,1789,toflit_revolution
+La Perrotine,Produits inconnus,19,1789,toflit_revolution
+La Perrotine,Pêche et fruits de mer,2,1789,toflit_revolution
+La Perrotine,Savon,1,1789,toflit_revolution
+La Perrotine,Vins divers,24,1789,toflit_revolution
+La Rochelle,Beurre,1,1789,toflit_revolution
+La Rochelle,"Bière, cidre et vinaigre",4,1789,toflit_revolution
+La Rochelle,Cargaison inconnue,1003,1789,toflit_revolution
+La Rochelle,Divers incertains,3,1789,toflit_revolution
+La Rochelle,Divers mélangés,4,1789,toflit_revolution
+La Rochelle,Eaux-de-vie et liqueurs,4,1789,toflit_revolution
+La Rochelle,Fer,1,1789,toflit_revolution
+La Rochelle,Légumes,1,1789,toflit_revolution
+La Rochelle,"Ouvrages de bois, liège et jonc",21,1789,toflit_revolution
+La Rochelle,Produits inconnus,60,1789,toflit_revolution
+La Rochelle,Pêche et fruits de mer,1,1789,toflit_revolution
+La Rochelle,Sel,1,1789,toflit_revolution
+La Rochelle,Sortie pour pêche,7,1789,toflit_revolution
+La Rochelle,Vins divers,17,1789,toflit_revolution
+La Tranche-sur-Mer,Divers incertains,2,1789,toflit_revolution
+La Tranche-sur-Mer,Légumes,2,1789,toflit_revolution
+La Tranche-sur-Mer,Subsistances diverses et mélangées,51,1789,toflit_revolution
+La Tremblade,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+La Tremblade,Produits inconnus,1,1789,toflit_revolution
+Le Chapus,Produits inconnus,1,1789,toflit_revolution
+Le Chapus,Vins divers,1,1789,toflit_revolution
+Le Château-d'Oléron,Cargaison inconnue,39,1789,toflit_revolution
+Le Château-d'Oléron,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
+Le Château-d'Oléron,Ouvrages divers et mélangés,1,1789,toflit_revolution
+Le Château-d'Oléron,Produits inconnus,12,1789,toflit_revolution
+Le Château-d'Oléron,Subsistances diverses et mélangées,2,1789,toflit_revolution
+Les Sables-d'Olonne,Animaux,32,1789,toflit_revolution
+Les Sables-d'Olonne,Beurre,1,1789,toflit_revolution
+Les Sables-d'Olonne,Blé et autres grains comestibles,1,1789,toflit_revolution
+Les Sables-d'Olonne,Bois divers hors combustible,2,1789,toflit_revolution
+Les Sables-d'Olonne,Bâtiments de mer et apparaux,5,1789,toflit_revolution
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,toflit_revolution
+Les Sables-d'Olonne,Combustibles dont charbons et bois,24,1789,toflit_revolution
+Les Sables-d'Olonne,Divers mélangés,14,1789,toflit_revolution
+Les Sables-d'Olonne,Habits et lingerie,2,1789,toflit_revolution
+Les Sables-d'Olonne,Huile de poisson,1,1789,toflit_revolution
+Les Sables-d'Olonne,"Ouvrages de bois, liège et jonc",12,1789,toflit_revolution
+Les Sables-d'Olonne,Ouvrages divers et mélangés,36,1789,toflit_revolution
+Les Sables-d'Olonne,"Porcelaine, poterie, faïence et ouvrages de terre",2,1789,toflit_revolution
+Les Sables-d'Olonne,Produits inconnus,32,1789,toflit_revolution
+Les Sables-d'Olonne,Pêche et fruits de mer,22,1789,toflit_revolution
+Les Sables-d'Olonne,Sel,106,1789,toflit_revolution
+Les Sables-d'Olonne,Sortie pour pêche,36,1789,toflit_revolution
+Les Sables-d'Olonne,Vins divers,2,1789,toflit_revolution
+Marans,"Bière, cidre et vinaigre",3,1789,toflit_revolution
+Marans,Blé et autres grains comestibles,188,1789,toflit_revolution
+Marans,Bois divers hors combustible,153,1789,toflit_revolution
+Marans,Cargaison inconnue,1,1789,toflit_revolution
+Marans,Cendres diverses,1,1789,toflit_revolution
+Marans,Chanvre,8,1789,toflit_revolution
+Marans,Combustibles dont charbons et bois,8,1789,toflit_revolution
+Marans,"Farine, gruau, biscuits et pâtes",47,1789,toflit_revolution
+Marans,Graines grasses,1,1789,toflit_revolution
+Marans,Lin,1,1789,toflit_revolution
+Marans,Légumes,21,1789,toflit_revolution
+Marans,Matières premières diverses,6,1789,toflit_revolution
+Marans,"Ouvrages de bois, liège et jonc",46,1789,toflit_revolution
+Marans,Ouvrages divers et mélangés,2,1789,toflit_revolution
+Marans,Produits inconnus,194,1789,toflit_revolution
+Marans,Pêche et fruits de mer,1,1789,toflit_revolution
+Marans,Subsistances diverses et mélangées,3,1789,toflit_revolution
+Marans,Vins divers,3,1789,toflit_revolution
+Marennes,Beurre,5,1789,toflit_revolution
+Marennes,"Bière, cidre et vinaigre",4,1789,toflit_revolution
+Marennes,Cargaison inconnue,19,1789,toflit_revolution
+Marennes,Chairs et œufs,1,1789,toflit_revolution
+Marennes,Combustibles dont charbons et bois,2,1789,toflit_revolution
+Marennes,Divers mélangés,2,1789,toflit_revolution
+Marennes,Eaux-de-vie et liqueurs,25,1789,toflit_revolution
+Marennes,Légumes,8,1789,toflit_revolution
+Marennes,Matières premières diverses,1,1789,toflit_revolution
+Marennes,"Meubles, glaces et miroirs",3,1789,toflit_revolution
+Marennes,"Ouvrages de bois, liège et jonc",3,1789,toflit_revolution
+Marennes,Ouvrages divers et mélangés,8,1789,toflit_revolution
+Marennes,Produits inconnus,66,1789,toflit_revolution
+Marennes,Pêche et fruits de mer,3,1789,toflit_revolution
+Marennes,Sel,1301,1789,toflit_revolution
+Marennes,Vins divers,64,1789,toflit_revolution
+Marennes,Êtres humains,1,1789,toflit_revolution
+Martrou,Combustibles dont charbons et bois,4,1789,toflit_revolution
+Moricq,"Bière, cidre et vinaigre",2,1789,toflit_revolution
+Moricq,Blé et autres grains comestibles,25,1789,toflit_revolution
+Moricq,Bois divers hors combustible,2,1789,toflit_revolution
+Moricq,Combustibles dont charbons et bois,81,1789,toflit_revolution
+Moricq,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
+Moricq,"Ouvrages de bois, liège et jonc",26,1789,toflit_revolution
+Moricq,"Porcelaine, poterie, faïence et ouvrages de terre",2,1789,toflit_revolution
+Moricq,Produits inconnus,3,1789,toflit_revolution
+Moricq,Vins divers,3,1789,toflit_revolution
+Mortagne,Cargaison inconnue,2,1789,toflit_revolution
+Mortagne,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
+Mortagne,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Mortagne,Produits inconnus,12,1789,toflit_revolution
+Mortagne,Vins divers,2,1789,toflit_revolution
+Noirmoutier,Alcalis,14,1789,toflit_revolution
+Noirmoutier,Blé et autres grains comestibles,28,1789,toflit_revolution
+Noirmoutier,Cargaison inconnue,5,1789,toflit_revolution
+Noirmoutier,Cendres diverses,20,1789,toflit_revolution
+Noirmoutier,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
+Noirmoutier,"Farine, gruau, biscuits et pâtes",2,1789,toflit_revolution
+Noirmoutier,Légumes,7,1789,toflit_revolution
+Noirmoutier,"Ouvrages de bois, liège et jonc",12,1789,toflit_revolution
+Noirmoutier,Produits inconnus,10,1789,toflit_revolution
+Noirmoutier,Sel,197,1789,toflit_revolution
+Noirmoutier,Sortie pour pêche,2,1789,toflit_revolution
+Noirmoutier,Subsistances diverses et mélangées,1,1789,toflit_revolution
+Noirmoutier,Vins divers,6,1789,toflit_revolution
+Ribérou,Blé et autres grains comestibles,1,1789,toflit_revolution
+Ribérou,Bois divers hors combustible,2,1789,toflit_revolution
+Ribérou,Bâtiments de mer et apparaux,1,1789,toflit_revolution
+Ribérou,Cargaison inconnue,1,1789,toflit_revolution
+Ribérou,Chairs et œufs,1,1789,toflit_revolution
+Ribérou,Combustibles dont charbons et bois,187,1789,toflit_revolution
+Ribérou,Divers mélangés,1,1789,toflit_revolution
+Ribérou,Eaux-de-vie et liqueurs,15,1789,toflit_revolution
+Ribérou,Fromage,2,1789,toflit_revolution
+Ribérou,Fruits frais,2,1789,toflit_revolution
+Ribérou,Fruits secs et noix,1,1789,toflit_revolution
+Ribérou,Légumes,1,1789,toflit_revolution
+Ribérou,Matières premières diverses,105,1789,toflit_revolution
+Ribérou,"Meubles, glaces et miroirs",1,1789,toflit_revolution
+Ribérou,"Ouvrages de bois, liège et jonc",12,1789,toflit_revolution
+Ribérou,Ouvrages divers et mélangés,2,1789,toflit_revolution
+Ribérou,Ouvrages métalliques,1,1789,toflit_revolution
+Ribérou,Produits inconnus,168,1789,toflit_revolution
+Ribérou,Pêche et fruits de mer,2,1789,toflit_revolution
+Ribérou,Sel,1,1789,toflit_revolution
+Ribérou,Vins divers,28,1789,toflit_revolution
+Rochefort,"Armes, munitions, poudre et pierres à fusil",2,1789,toflit_revolution
+Rochefort,Beurre,2,1789,toflit_revolution
+Rochefort,"Bière, cidre et vinaigre",1,1789,toflit_revolution
+Rochefort,Blé et autres grains comestibles,9,1789,toflit_revolution
+Rochefort,Bois divers hors combustible,2,1789,toflit_revolution
+Rochefort,"Brai, goudron et résines",2,1789,toflit_revolution
+Rochefort,Café,1,1789,toflit_revolution
+Rochefort,Cargaison inconnue,5,1789,toflit_revolution
+Rochefort,Cendres diverses,6,1789,toflit_revolution
+Rochefort,Chairs et œufs,2,1789,toflit_revolution
+Rochefort,Combustibles dont charbons et bois,6,1789,toflit_revolution
+Rochefort,Cordage et filets,1,1789,toflit_revolution
+Rochefort,Coton non transformé,1,1789,toflit_revolution
+Rochefort,Cuivre,1,1789,toflit_revolution
+Rochefort,Divers incertains,7,1789,toflit_revolution
+Rochefort,Divers mélangés,21,1789,toflit_revolution
+Rochefort,Eaux-de-vie et liqueurs,14,1789,toflit_revolution
+Rochefort,"Farine, gruau, biscuits et pâtes",7,1789,toflit_revolution
+Rochefort,Graines grasses,3,1789,toflit_revolution
+Rochefort,Graisses diverses,1,1789,toflit_revolution
+Rochefort,Huiles diverses,1,1789,toflit_revolution
+Rochefort,Légumes,1,1789,toflit_revolution
+Rochefort,Matières premières diverses,2,1789,toflit_revolution
+Rochefort,"Ouvrages de bois, liège et jonc",41,1789,toflit_revolution
+Rochefort,Ouvrages divers et mélangés,4,1789,toflit_revolution
+Rochefort,Produits inconnus,229,1789,toflit_revolution
+Rochefort,Pêche et fruits de mer,9,1789,toflit_revolution
+Rochefort,Subsistances diverses et mélangées,1,1789,toflit_revolution
+Rochefort,Sucre,3,1789,toflit_revolution
+Rochefort,Verrerie,1,1789,toflit_revolution
+Rochefort,Vins divers,17,1789,toflit_revolution
+Royan,Produits inconnus,15,1789,toflit_revolution
+Saint-Denis d'Oléron,Alcalis,7,1789,toflit_revolution
+Saint-Denis d'Oléron,Café,1,1789,toflit_revolution
+Saint-Denis d'Oléron,Eaux-de-vie et liqueurs,14,1789,toflit_revolution
+Saint-Denis d'Oléron,Produits inconnus,14,1789,toflit_revolution
+Saint-Denis d'Oléron,Vins divers,33,1789,toflit_revolution
+Saint-Gilles-sur-Vie,Blé et autres grains comestibles,28,1789,toflit_revolution
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,toflit_revolution
+Saint-Gilles-sur-Vie,Légumes,9,1789,toflit_revolution
+Saint-Gilles-sur-Vie,"Meubles, glaces et miroirs",1,1789,toflit_revolution
+Saint-Gilles-sur-Vie,"Ouvrages de bois, liège et jonc",2,1789,toflit_revolution
+Saint-Gilles-sur-Vie,Sel,41,1789,toflit_revolution
+Saint-Gilles-sur-Vie,Sortie pour pêche,6,1789,toflit_revolution
+Saint-Gilles-sur-Vie,Vins divers,1,1789,toflit_revolution
+Saint-Martin-de-Ré,"Armes, munitions, poudre et pierres à fusil",1,1789,toflit_revolution
+Saint-Martin-de-Ré,Beurre,4,1789,toflit_revolution
+Saint-Martin-de-Ré,"Bière, cidre et vinaigre",10,1789,toflit_revolution
+Saint-Martin-de-Ré,Blé et autres grains comestibles,4,1789,toflit_revolution
+Saint-Martin-de-Ré,Bois divers hors combustible,1,1789,toflit_revolution
+Saint-Martin-de-Ré,"Brai, goudron et résines",1,1789,toflit_revolution
+Saint-Martin-de-Ré,Café,1,1789,toflit_revolution
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,toflit_revolution
+Saint-Martin-de-Ré,Cendres diverses,2,1789,toflit_revolution
+Saint-Martin-de-Ré,Combustibles dont charbons et bois,5,1789,toflit_revolution
+Saint-Martin-de-Ré,Divers mélangés,1,1789,toflit_revolution
+Saint-Martin-de-Ré,Eaux-de-vie et liqueurs,26,1789,toflit_revolution
+Saint-Martin-de-Ré,Fer,2,1789,toflit_revolution
+Saint-Martin-de-Ré,Laines non transformées diverses,1,1789,toflit_revolution
+Saint-Martin-de-Ré,Légumes,1,1789,toflit_revolution
+Saint-Martin-de-Ré,Matières premières diverses,5,1789,toflit_revolution
+Saint-Martin-de-Ré,"Ouvrages de bois, liège et jonc",74,1789,toflit_revolution
+Saint-Martin-de-Ré,"Porcelaine, poterie, faïence et ouvrages de terre",3,1789,toflit_revolution
+Saint-Martin-de-Ré,Produits inconnus,244,1789,toflit_revolution
+Saint-Martin-de-Ré,Pêche et fruits de mer,6,1789,toflit_revolution
+Saint-Martin-de-Ré,Sel,49,1789,toflit_revolution
+Saint-Martin-de-Ré,Sortie pour pêche,3,1789,toflit_revolution
+Saint-Martin-de-Ré,Sucre,1,1789,toflit_revolution
+Saint-Martin-de-Ré,Vins divers,31,1789,toflit_revolution
+Saint-Michel-en-l'Herm,"Bière, cidre et vinaigre",2,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Blé et autres grains comestibles,1,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
+Saint-Michel-en-l'Herm,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Saint-Michel-en-l'Herm,Produits inconnus,3,1789,toflit_revolution
+Seudre,Beurre,2,1789,toflit_revolution
+Seudre,Cargaison inconnue,25,1789,toflit_revolution
+Seudre,Produits inconnus,1,1789,toflit_revolution
+Seudre,Vins divers,3,1789,toflit_revolution
+Soubise,"Bière, cidre et vinaigre",2,1789,toflit_revolution
+Soubise,Divers incertains,1,1789,toflit_revolution
+Soubise,Légumes,2,1789,toflit_revolution
+Soubise,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Soubise,Produits inconnus,4,1789,toflit_revolution
+Soubise,Sel,1,1789,toflit_revolution
+Soubise,Sortie pour pêche,1,1789,toflit_revolution
+Soubise,Vins divers,1,1789,toflit_revolution
+Tonnay-Charente,"Bière, cidre et vinaigre",1,1789,toflit_revolution
+Tonnay-Charente,Blé et autres grains comestibles,1,1789,toflit_revolution
+Tonnay-Charente,Bois divers hors combustible,15,1789,toflit_revolution
+Tonnay-Charente,Cargaison inconnue,589,1789,toflit_revolution
+Tonnay-Charente,Combustibles dont charbons et bois,2,1789,toflit_revolution
+Tonnay-Charente,"Cuirs, peaux et pelleterie",1,1789,toflit_revolution
+Tonnay-Charente,Divers mélangés,1,1789,toflit_revolution
+Tonnay-Charente,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
+Tonnay-Charente,Fer,1,1789,toflit_revolution
+Tonnay-Charente,Fruits frais,2,1789,toflit_revolution
+Tonnay-Charente,Légumes,1,1789,toflit_revolution
+Tonnay-Charente,Matières premières diverses,4,1789,toflit_revolution
+Tonnay-Charente,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+Tonnay-Charente,Ouvrages divers et mélangés,1,1789,toflit_revolution
+Tonnay-Charente,Produits inconnus,18,1789,toflit_revolution
+Tonnay-Charente,Vins divers,1,1789,toflit_revolution
+l'Aiguillon,"Bière, cidre et vinaigre",2,1789,toflit_revolution
+l'Aiguillon,Eaux-de-vie et liqueurs,1,1789,toflit_revolution
+l'Aiguillon,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+l'Aiguillon,Produits inconnus,3,1789,toflit_revolution
+mer des Pertuis,"Ouvrages de bois, liège et jonc",1,1789,toflit_revolution
+mer des Pertuis,Vins divers,1,1789,toflit_revolution
+île d'Oléron,Blé et autres grains comestibles,2,1789,toflit_revolution
+île d'Oléron,Divers mélangés,3,1789,toflit_revolution
+île d'Oléron,Eaux-de-vie et liqueurs,3,1789,toflit_revolution
+île d'Oléron,Légumes,2,1789,toflit_revolution
+île d'Oléron,Produits inconnus,8,1789,toflit_revolution
+île d'Oléron,Vins divers,1,1789,toflit_revolution
+île d'Yeu,Produits inconnus,1,1789,toflit_revolution
+île d'Yeu,Vins divers,1,1789,toflit_revolution
+île de Bouin,Blé et autres grains comestibles,5,1789,toflit_revolution
+île de Bouin,Cargaison inconnue,11,1789,toflit_revolution
+île de Bouin,Légumes,4,1789,toflit_revolution
+île de Bouin,Sel,85,1789,toflit_revolution
+île de Ré,Produits inconnus,1,1789,toflit_revolution
+île de Ré,Vins divers,1,1789,toflit_revolution
+Ars-en-Ré,Cargaison inconnue,12,1789,toflit_simplification
+Ars-en-Ré,cendre,1,1789,toflit_simplification
+Ars-en-Ré,eau-de-vie,2,1789,toflit_simplification
+Ars-en-Ré,lest,1,1789,toflit_simplification
+Ars-en-Ré,merrains,1,1789,toflit_simplification
+Ars-en-Ré,sel,246,1789,toflit_simplification
+Ars-en-Ré,vide,43,1789,toflit_simplification
+Ars-en-Ré,vin,1,1789,toflit_simplification
+Ars-en-Ré,vinaigre,1,1789,toflit_simplification
+Ars-en-Ré,vinaterie,1,1789,toflit_simplification
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,toflit_simplification
+Beauvoir-sur-Mer,fèves,7,1789,toflit_simplification
+Beauvoir-sur-Mer,grains froment,28,1789,toflit_simplification
+Beauvoir-sur-Mer,lentilles,2,1789,toflit_simplification
+Beauvoir-sur-Mer,lest,3,1789,toflit_simplification
+Beauvoir-sur-Mer,pacotille,1,1789,toflit_simplification
+Beauvoir-sur-Mer,poisson sec,1,1789,toflit_simplification
+Beauvoir-sur-Mer,sel,78,1789,toflit_simplification
+Beauvoir-sur-Mer,vin,1,1789,toflit_simplification
+Beauvoir-sur-Mer,à vide,1,1789,toflit_simplification
+Brouage ,Cargaison inconnue,4,1789,toflit_simplification
+Champagné-les-Marais,Cargaison inconnue,1,1789,toflit_simplification
+Esnandes,Cargaison inconnue,2,1789,toflit_simplification
+Ker Châlon,chaux,5,1789,toflit_simplification
+Ker Châlon,lest,1,1789,toflit_simplification
+Ker Châlon,restant de chaux,1,1789,toflit_simplification
+Ker Châlon,à vide,3,1789,toflit_simplification
+La Flotte-en-Ré,cendre,1,1789,toflit_simplification
+La Flotte-en-Ré,divers,1,1789,toflit_simplification
+La Flotte-en-Ré,futailles,1,1789,toflit_simplification
+La Flotte-en-Ré,grains méteil,1,1789,toflit_simplification
+La Flotte-en-Ré,vin,5,1789,toflit_simplification
+La Perrotine,Cargaison inconnue,1,1789,toflit_simplification
+La Perrotine,divers,3,1789,toflit_simplification
+La Perrotine,eau-de-vie,30,1789,toflit_simplification
+La Perrotine,fèves,1,1789,toflit_simplification
+La Perrotine,lest,18,1789,toflit_simplification
+La Perrotine,marchandises provenant d'un naufrage,1,1789,toflit_simplification
+La Perrotine,moules,2,1789,toflit_simplification
+La Perrotine,savon,1,1789,toflit_simplification
+La Perrotine,vin,24,1789,toflit_simplification
+La Perrotine,à vide,1,1789,toflit_simplification
+La Rochelle,Cargaison inconnue,1003,1789,toflit_simplification
+La Rochelle,beurre,1,1789,toflit_simplification
+La Rochelle,bois pour construction,3,1789,toflit_simplification
+La Rochelle,divers,3,1789,toflit_simplification
+La Rochelle,eau-de-vie,4,1789,toflit_simplification
+La Rochelle,fer vieux,1,1789,toflit_simplification
+La Rochelle,futailles vides,1,1789,toflit_simplification
+La Rochelle,fèves,1,1789,toflit_simplification
+La Rochelle,lest,6,1789,toflit_simplification
+La Rochelle,marchandises,2,1789,toflit_simplification
+La Rochelle,marchandises de Marseille,1,1789,toflit_simplification
+La Rochelle,marchandises provenant d'un naufrage,1,1789,toflit_simplification
+La Rochelle,pièces de bois,1,1789,toflit_simplification
+La Rochelle,planches,15,1789,toflit_simplification
+La Rochelle,pêche à la morue,7,1789,toflit_simplification
+La Rochelle,restant de futailles,1,1789,toflit_simplification
+La Rochelle,sardines,1,1789,toflit_simplification
+La Rochelle,sel,1,1789,toflit_simplification
+La Rochelle,vin,17,1789,toflit_simplification
+La Rochelle,vinaigre,4,1789,toflit_simplification
+La Rochelle,à l'aventure,2,1789,toflit_simplification
+La Rochelle,à vide,52,1789,toflit_simplification
+La Tranche-sur-Mer,ails,17,1789,toflit_simplification
+La Tranche-sur-Mer,divers,2,1789,toflit_simplification
+La Tranche-sur-Mer,mogette,2,1789,toflit_simplification
+La Tranche-sur-Mer,oignons,20,1789,toflit_simplification
+La Tranche-sur-Mer,échalote,14,1789,toflit_simplification
+La Tremblade,planches,1,1789,toflit_simplification
+La Tremblade,à vide,1,1789,toflit_simplification
+Le Chapus,vide,1,1789,toflit_simplification
+Le Chapus,vin,1,1789,toflit_simplification
+Le Château-d'Oléron,Cargaison inconnue,39,1789,toflit_simplification
+Le Château-d'Oléron,bouteilles,1,1789,toflit_simplification
+Le Château-d'Oléron,eau-de-vie,1,1789,toflit_simplification
+Le Château-d'Oléron,oignons,2,1789,toflit_simplification
+Le Château-d'Oléron,vide,12,1789,toflit_simplification
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,toflit_simplification
+Les Sables-d'Olonne,beurre,1,1789,toflit_simplification
+Les Sables-d'Olonne,bois,2,1789,toflit_simplification
+Les Sables-d'Olonne,bois pour brûler,7,1789,toflit_simplification
+Les Sables-d'Olonne,bois pour construction,6,1789,toflit_simplification
+Les Sables-d'Olonne,bûches,10,1789,toflit_simplification
+Les Sables-d'Olonne,charbon de bois,6,1789,toflit_simplification
+Les Sables-d'Olonne,charbon de terre,1,1789,toflit_simplification
+Les Sables-d'Olonne,futailles,1,1789,toflit_simplification
+Les Sables-d'Olonne,futailles vides,2,1789,toflit_simplification
+Les Sables-d'Olonne,gréements,3,1789,toflit_simplification
+Les Sables-d'Olonne,gréements de navires,1,1789,toflit_simplification
+Les Sables-d'Olonne,hardes,1,1789,toflit_simplification
+Les Sables-d'Olonne,hardes de gens de mer,1,1789,toflit_simplification
+Les Sables-d'Olonne,huile de poisson,1,1789,toflit_simplification
+Les Sables-d'Olonne,huîtres,1,1789,toflit_simplification
+Les Sables-d'Olonne,lest,27,1789,toflit_simplification
+Les Sables-d'Olonne,marchandises permises,13,1789,toflit_simplification
+Les Sables-d'Olonne,merrains,2,1789,toflit_simplification
+Les Sables-d'Olonne,morue verte,16,1789,toflit_simplification
+Les Sables-d'Olonne,outils de pêche,2,1789,toflit_simplification
+Les Sables-d'Olonne,outils de pêche à la morue,34,1789,toflit_simplification
+Les Sables-d'Olonne,planches,1,1789,toflit_simplification
+Les Sables-d'Olonne,poterie,2,1789,toflit_simplification
+Les Sables-d'Olonne,pêche à la morue verte,32,1789,toflit_simplification
+Les Sables-d'Olonne,pêche à la sardine,4,1789,toflit_simplification
+Les Sables-d'Olonne,restant de marchandises,1,1789,toflit_simplification
+Les Sables-d'Olonne,sardines salées,5,1789,toflit_simplification
+Les Sables-d'Olonne,sel,106,1789,toflit_simplification
+Les Sables-d'Olonne,son,1,1789,toflit_simplification
+Les Sables-d'Olonne,vin,2,1789,toflit_simplification
+Les Sables-d'Olonne,vivres,32,1789,toflit_simplification
+Les Sables-d'Olonne,voile,1,1789,toflit_simplification
+Les Sables-d'Olonne,à l'aventure,5,1789,toflit_simplification
+Marans,Cargaison inconnue,1,1789,toflit_simplification
+Marans,avoine,5,1789,toflit_simplification
+Marans,baillarge,2,1789,toflit_simplification
+Marans,bois,153,1789,toflit_simplification
+Marans,bois pour brûler,1,1789,toflit_simplification
+Marans,bois pour construction,3,1789,toflit_simplification
+Marans,briques,1,1789,toflit_simplification
+Marans,bûches,5,1789,toflit_simplification
+Marans,cendre,1,1789,toflit_simplification
+Marans,chanvre,8,1789,toflit_simplification
+Marans,charbon,2,1789,toflit_simplification
+Marans,farine,40,1789,toflit_simplification
+Marans,feuillards,36,1789,toflit_simplification
+Marans,fumier,1,1789,toflit_simplification
+Marans,fèves,21,1789,toflit_simplification
+Marans,graine de lin,1,1789,toflit_simplification
+Marans,grains blé,17,1789,toflit_simplification
+Marans,grains divers,152,1789,toflit_simplification
+Marans,grains froment,6,1789,toflit_simplification
+Marans,grains orge,5,1789,toflit_simplification
+Marans,lest,142,1789,toflit_simplification
+Marans,lin,1,1789,toflit_simplification
+Marans,merrains,7,1789,toflit_simplification
+Marans,meules pour moulins,1,1789,toflit_simplification
+Marans,minot,7,1789,toflit_simplification
+Marans,moutarde,2,1789,toflit_simplification
+Marans,oignons,1,1789,toflit_simplification
+Marans,pierres,1,1789,toflit_simplification
+Marans,poisson,1,1789,toflit_simplification
+Marans,son,1,1789,toflit_simplification
+Marans,terre,2,1789,toflit_simplification
+Marans,vesces,2,1789,toflit_simplification
+Marans,vide,1,1789,toflit_simplification
+Marans,vin,3,1789,toflit_simplification
+Marans,vinaigre,3,1789,toflit_simplification
+Marans,à vide,51,1789,toflit_simplification
+Marennes,Cargaison inconnue,19,1789,toflit_simplification
+Marennes,beurre,2,1789,toflit_simplification
+Marennes,bois de navire,1,1789,toflit_simplification
+Marennes,bois pour brûler,2,1789,toflit_simplification
+Marennes,bouteilles,8,1789,toflit_simplification
+Marennes,carreaux,1,1789,toflit_simplification
+Marennes,eau-de-vie,25,1789,toflit_simplification
+Marennes,futailles vides,1,1789,toflit_simplification
+Marennes,fèves,8,1789,toflit_simplification
+Marennes,fûts,1,1789,toflit_simplification
+Marennes,huîtres,2,1789,toflit_simplification
+Marennes,lest,36,1789,toflit_simplification
+Marennes,marchandises,1,1789,toflit_simplification
+Marennes,marchandises provenant d'un naufrage,1,1789,toflit_simplification
+Marennes,mobilier,3,1789,toflit_simplification
+Marennes,moules,1,1789,toflit_simplification
+Marennes,passagers,1,1789,toflit_simplification
+Marennes,restant de beurre,3,1789,toflit_simplification
+Marennes,salaisons,1,1789,toflit_simplification
+Marennes,sel,1301,1789,toflit_simplification
+Marennes,vide,20,1789,toflit_simplification
+Marennes,vin,64,1789,toflit_simplification
+Marennes,vinaigre,4,1789,toflit_simplification
+Marennes,à vide,10,1789,toflit_simplification
+Martrou,bûches,2,1789,toflit_simplification
+Martrou,fagots,2,1789,toflit_simplification
+Moricq,baillarge,1,1789,toflit_simplification
+Moricq,bois,2,1789,toflit_simplification
+Moricq,bois de charpente,4,1789,toflit_simplification
+Moricq,bois pour brûler,55,1789,toflit_simplification
+Moricq,bois pour construction,13,1789,toflit_simplification
+Moricq,charbon,26,1789,toflit_simplification
+Moricq,eau-de-vie,1,1789,toflit_simplification
+Moricq,feuillards,6,1789,toflit_simplification
+Moricq,futailles,1,1789,toflit_simplification
+Moricq,grains blé,6,1789,toflit_simplification
+Moricq,grains divers,1,1789,toflit_simplification
+Moricq,grains froment,14,1789,toflit_simplification
+Moricq,grains seigle,3,1789,toflit_simplification
+Moricq,merrains,1,1789,toflit_simplification
+Moricq,planches,1,1789,toflit_simplification
+Moricq,poterie,2,1789,toflit_simplification
+Moricq,vin,3,1789,toflit_simplification
+Moricq,vinaigre,2,1789,toflit_simplification
+Moricq,à vide,3,1789,toflit_simplification
+Mortagne,Cargaison inconnue,2,1789,toflit_simplification
+Mortagne,eau-de-vie,3,1789,toflit_simplification
+Mortagne,lest,10,1789,toflit_simplification
+Mortagne,merrains,1,1789,toflit_simplification
+Mortagne,vide,1,1789,toflit_simplification
+Mortagne,vin,2,1789,toflit_simplification
+Mortagne,à l'aventure,1,1789,toflit_simplification
+Noirmoutier,Cargaison inconnue,5,1789,toflit_simplification
+Noirmoutier,cendre,13,1789,toflit_simplification
+Noirmoutier,cendre de varech,7,1789,toflit_simplification
+Noirmoutier,eau-de-vie,3,1789,toflit_simplification
+Noirmoutier,farine,2,1789,toflit_simplification
+Noirmoutier,futailles,8,1789,toflit_simplification
+Noirmoutier,futailles vides,3,1789,toflit_simplification
+Noirmoutier,fèves,7,1789,toflit_simplification
+Noirmoutier,grains froment,28,1789,toflit_simplification
+Noirmoutier,lest,9,1789,toflit_simplification
+Noirmoutier,merrains,1,1789,toflit_simplification
+Noirmoutier,moutarde,1,1789,toflit_simplification
+Noirmoutier,pêche (sortie),2,1789,toflit_simplification
+Noirmoutier,sel,197,1789,toflit_simplification
+Noirmoutier,soudes,14,1789,toflit_simplification
+Noirmoutier,vide,1,1789,toflit_simplification
+Noirmoutier,vin,6,1789,toflit_simplification
+Ribérou,Cargaison inconnue,1,1789,toflit_simplification
+Ribérou,bois,1,1789,toflit_simplification
+Ribérou,bois de charpente,3,1789,toflit_simplification
+Ribérou,bois pour construction,9,1789,toflit_simplification
+Ribérou,bordage,1,1789,toflit_simplification
+Ribérou,bûches,87,1789,toflit_simplification
+Ribérou,cercles,2,1789,toflit_simplification
+Ribérou,cerises,1,1789,toflit_simplification
+Ribérou,charbon de bois,8,1789,toflit_simplification
+Ribérou,charbon de terre,1,1789,toflit_simplification
+Ribérou,chaux,88,1789,toflit_simplification
+Ribérou,copeaux,1,1789,toflit_simplification
+Ribérou,eau-de-vie,15,1789,toflit_simplification
+Ribérou,fagots,91,1789,toflit_simplification
+Ribérou,fourrages,8,1789,toflit_simplification
+Ribérou,fourrages en fagots,1,1789,toflit_simplification
+Ribérou,fromage,2,1789,toflit_simplification
+Ribérou,fruits,1,1789,toflit_simplification
+Ribérou,fèves,1,1789,toflit_simplification
+Ribérou,grains divers,1,1789,toflit_simplification
+Ribérou,lest,165,1789,toflit_simplification
+Ribérou,mobilier,1,1789,toflit_simplification
+Ribérou,morue,1,1789,toflit_simplification
+Ribérou,morue sèche,1,1789,toflit_simplification
+Ribérou,noix,1,1789,toflit_simplification
+Ribérou,restant de marchandises,1,1789,toflit_simplification
+Ribérou,salaisons,1,1789,toflit_simplification
+Ribérou,sel,1,1789,toflit_simplification
+Ribérou,terre de broue,8,1789,toflit_simplification
+Ribérou,verges à moulins,1,1789,toflit_simplification
+Ribérou,vin,28,1789,toflit_simplification
+Ribérou,à l'aventure,1,1789,toflit_simplification
+Ribérou,à vide,2,1789,toflit_simplification
+Rochefort,???,1,1789,toflit_simplification
+Rochefort,Cargaison inconnue,5,1789,toflit_simplification
+Rochefort,avoine,2,1789,toflit_simplification
+Rochefort,biscuit,6,1789,toflit_simplification
+Rochefort,bière,1,1789,toflit_simplification
+Rochefort,blé,1,1789,toflit_simplification
+Rochefort,bois,2,1789,toflit_simplification
+Rochefort,bois pour construction,12,1789,toflit_simplification
+Rochefort,bûches,2,1789,toflit_simplification
+Rochefort,café,1,1789,toflit_simplification
+Rochefort,cendre,1,1789,toflit_simplification
+Rochefort,cendre de lessive,5,1789,toflit_simplification
+Rochefort,charbon de bois,2,1789,toflit_simplification
+Rochefort,charbon de terre,2,1789,toflit_simplification
+Rochefort,cordage vieux,1,1789,toflit_simplification
+Rochefort,coton,1,1789,toflit_simplification
+Rochefort,cuivre,1,1789,toflit_simplification
+Rochefort,divers,7,1789,toflit_simplification
+Rochefort,eau-de-vie,14,1789,toflit_simplification
+Rochefort,farine,1,1789,toflit_simplification
+Rochefort,futailles vides,5,1789,toflit_simplification
+Rochefort,goudron,1,1789,toflit_simplification
+Rochefort,graine de lin,2,1789,toflit_simplification
+Rochefort,grains,1,1789,toflit_simplification
+Rochefort,grains de lin,1,1789,toflit_simplification
+Rochefort,grains divers,1,1789,toflit_simplification
+Rochefort,grains froment,2,1789,toflit_simplification
+Rochefort,huile,1,1789,toflit_simplification
+Rochefort,lard salé,1,1789,toflit_simplification
+Rochefort,lest,5,1789,toflit_simplification
+Rochefort,marchandises de foire,2,1789,toflit_simplification
+Rochefort,marchandises des Îles,1,1789,toflit_simplification
+Rochefort,marchandises permises,7,1789,toflit_simplification
+Rochefort,marchandises pour la traite,2,1789,toflit_simplification
+Rochefort,merrains,23,1789,toflit_simplification
+Rochefort,morue sèche,1,1789,toflit_simplification
+Rochefort,pierres,1,1789,toflit_simplification
+Rochefort,pierres de taille,4,1789,toflit_simplification
+Rochefort,planches,1,1789,toflit_simplification
+Rochefort,pois,1,1789,toflit_simplification
+Rochefort,poudre de guerre,1,1789,toflit_simplification
+Rochefort,poudre à canons,1,1789,toflit_simplification
+Rochefort,restant de beurre,2,1789,toflit_simplification
+Rochefort,restant de marchandises,9,1789,toflit_simplification
+Rochefort,résines,1,1789,toflit_simplification
+Rochefort,salaisons,2,1789,toflit_simplification
+Rochefort,sardines,7,1789,toflit_simplification
+Rochefort,sardines pressées de Bretagne,1,1789,toflit_simplification
+Rochefort,son,2,1789,toflit_simplification
+Rochefort,sucre,3,1789,toflit_simplification
+Rochefort,suif,1,1789,toflit_simplification
+Rochefort,verres cassés,1,1789,toflit_simplification
+Rochefort,vide,217,1789,toflit_simplification
+Rochefort,vin,17,1789,toflit_simplification
+Rochefort,à vide,6,1789,toflit_simplification
+Rochefort,étoupes,1,1789,toflit_simplification
+Royan,lest,15,1789,toflit_simplification
+Saint-Denis d'Oléron,café avarié,1,1789,toflit_simplification
+Saint-Denis d'Oléron,eau-de-vie,14,1789,toflit_simplification
+Saint-Denis d'Oléron,lest,13,1789,toflit_simplification
+Saint-Denis d'Oléron,soudes,7,1789,toflit_simplification
+Saint-Denis d'Oléron,vide,1,1789,toflit_simplification
+Saint-Denis d'Oléron,vin,33,1789,toflit_simplification
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,toflit_simplification
+Saint-Gilles-sur-Vie,futailles,1,1789,toflit_simplification
+Saint-Gilles-sur-Vie,futailles vides,1,1789,toflit_simplification
+Saint-Gilles-sur-Vie,fèves,4,1789,toflit_simplification
+Saint-Gilles-sur-Vie,grains froment,27,1789,toflit_simplification
+Saint-Gilles-sur-Vie,lentilles,5,1789,toflit_simplification
+Saint-Gilles-sur-Vie,mobilier,1,1789,toflit_simplification
+Saint-Gilles-sur-Vie,méteil,1,1789,toflit_simplification
+Saint-Gilles-sur-Vie,pêche à la sardine,6,1789,toflit_simplification
+Saint-Gilles-sur-Vie,sel,41,1789,toflit_simplification
+Saint-Gilles-sur-Vie,vin,1,1789,toflit_simplification
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,toflit_simplification
+Saint-Martin-de-Ré,beurre,4,1789,toflit_simplification
+Saint-Martin-de-Ré,bois,1,1789,toflit_simplification
+Saint-Martin-de-Ré,bois pour construction,1,1789,toflit_simplification
+Saint-Martin-de-Ré,bûches,1,1789,toflit_simplification
+Saint-Martin-de-Ré,café,1,1789,toflit_simplification
+Saint-Martin-de-Ré,canons,1,1789,toflit_simplification
+Saint-Martin-de-Ré,cendre,2,1789,toflit_simplification
+Saint-Martin-de-Ré,charbon,3,1789,toflit_simplification
+Saint-Martin-de-Ré,chaux,1,1789,toflit_simplification
+Saint-Martin-de-Ré,eau-de-vie,26,1789,toflit_simplification
+Saint-Martin-de-Ré,fagots,1,1789,toflit_simplification
+Saint-Martin-de-Ré,faire la pêche au poisson frais,2,1789,toflit_simplification
+Saint-Martin-de-Ré,faïence,3,1789,toflit_simplification
+Saint-Martin-de-Ré,fer,2,1789,toflit_simplification
+Saint-Martin-de-Ré,futailles,2,1789,toflit_simplification
+Saint-Martin-de-Ré,fèves,1,1789,toflit_simplification
+Saint-Martin-de-Ré,grains blé,1,1789,toflit_simplification
+Saint-Martin-de-Ré,grains divers,2,1789,toflit_simplification
+Saint-Martin-de-Ré,grains orge,1,1789,toflit_simplification
+Saint-Martin-de-Ré,laine,1,1789,toflit_simplification
+Saint-Martin-de-Ré,lest,212,1789,toflit_simplification
+Saint-Martin-de-Ré,marchandises permises,1,1789,toflit_simplification
+Saint-Martin-de-Ré,merrains,3,1789,toflit_simplification
+Saint-Martin-de-Ré,moules,1,1789,toflit_simplification
+Saint-Martin-de-Ré,pierres,3,1789,toflit_simplification
+Saint-Martin-de-Ré,planches,68,1789,toflit_simplification
+Saint-Martin-de-Ré,plâtre,1,1789,toflit_simplification
+Saint-Martin-de-Ré,pêche au poisson frais,1,1789,toflit_simplification
+Saint-Martin-de-Ré,résines,1,1789,toflit_simplification
+Saint-Martin-de-Ré,sardines,5,1789,toflit_simplification
+Saint-Martin-de-Ré,sel,49,1789,toflit_simplification
+Saint-Martin-de-Ré,sucre,1,1789,toflit_simplification
+Saint-Martin-de-Ré,vide,24,1789,toflit_simplification
+Saint-Martin-de-Ré,vin,31,1789,toflit_simplification
+Saint-Martin-de-Ré,vinaigre,10,1789,toflit_simplification
+Saint-Martin-de-Ré,vinaterie,7,1789,toflit_simplification
+Saint-Martin-de-Ré,à l'aventure,1,1789,toflit_simplification
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,toflit_simplification
+Saint-Michel-en-l'Herm,eau-de-vie,1,1789,toflit_simplification
+Saint-Michel-en-l'Herm,grains blé,1,1789,toflit_simplification
+Saint-Michel-en-l'Herm,planches,1,1789,toflit_simplification
+Saint-Michel-en-l'Herm,vinaigre,2,1789,toflit_simplification
+Saint-Michel-en-l'Herm,à vide,3,1789,toflit_simplification
+Seudre,Cargaison inconnue,25,1789,toflit_simplification
+Seudre,beurre,1,1789,toflit_simplification
+Seudre,restant de beurre,1,1789,toflit_simplification
+Seudre,vin,2,1789,toflit_simplification
+Seudre,vin pour lest,1,1789,toflit_simplification
+Seudre,à vide,1,1789,toflit_simplification
+Soubise,divers,1,1789,toflit_simplification
+Soubise,fèves,2,1789,toflit_simplification
+Soubise,lest,1,1789,toflit_simplification
+Soubise,planches,1,1789,toflit_simplification
+Soubise,pêche à la morue,1,1789,toflit_simplification
+Soubise,sel,1,1789,toflit_simplification
+Soubise,vin,1,1789,toflit_simplification
+Soubise,vinaigre,2,1789,toflit_simplification
+Soubise,à vide,3,1789,toflit_simplification
+Tonnay-Charente,Cargaison inconnue,589,1789,toflit_simplification
+Tonnay-Charente,bois,15,1789,toflit_simplification
+Tonnay-Charente,bois pour brûler,1,1789,toflit_simplification
+Tonnay-Charente,cercles,1,1789,toflit_simplification
+Tonnay-Charente,chaux,1,1789,toflit_simplification
+Tonnay-Charente,eau-de-vie,3,1789,toflit_simplification
+Tonnay-Charente,fagots,1,1789,toflit_simplification
+Tonnay-Charente,fèves,1,1789,toflit_simplification
+Tonnay-Charente,grains blé,1,1789,toflit_simplification
+Tonnay-Charente,lest,1,1789,toflit_simplification
+Tonnay-Charente,lest en fer,1,1789,toflit_simplification
+Tonnay-Charente,peaux de bœuf,1,1789,toflit_simplification
+Tonnay-Charente,pierres,3,1789,toflit_simplification
+Tonnay-Charente,planches,1,1789,toflit_simplification
+Tonnay-Charente,pommes,2,1789,toflit_simplification
+Tonnay-Charente,restant de marchandises,1,1789,toflit_simplification
+Tonnay-Charente,vide,3,1789,toflit_simplification
+Tonnay-Charente,vin,1,1789,toflit_simplification
+Tonnay-Charente,vinaigre,1,1789,toflit_simplification
+Tonnay-Charente,à vide,14,1789,toflit_simplification
+l'Aiguillon,eau-de-vie,1,1789,toflit_simplification
+l'Aiguillon,planches,1,1789,toflit_simplification
+l'Aiguillon,vinaigre,2,1789,toflit_simplification
+l'Aiguillon,à vide,3,1789,toflit_simplification
+mer des Pertuis,restant de futailles,1,1789,toflit_simplification
+mer des Pertuis,vin,1,1789,toflit_simplification
+île d'Oléron,baillarge,1,1789,toflit_simplification
+île d'Oléron,eau-de-vie,3,1789,toflit_simplification
+île d'Oléron,fèves,2,1789,toflit_simplification
+île d'Oléron,grains baillarge,1,1789,toflit_simplification
+île d'Oléron,marchandises permises,3,1789,toflit_simplification
+île d'Oléron,vide,5,1789,toflit_simplification
+île d'Oléron,vin,1,1789,toflit_simplification
+île d'Oléron,à vide,3,1789,toflit_simplification
+île d'Yeu,vin,1,1789,toflit_simplification
+île d'Yeu,à vide,1,1789,toflit_simplification
+île de Bouin,Cargaison inconnue,11,1789,toflit_simplification
+île de Bouin,fèves,4,1789,toflit_simplification
+île de Bouin,grains froment,5,1789,toflit_simplification
+île de Bouin,sel,85,1789,toflit_simplification
+île de Ré,vide,1,1789,toflit_simplification
+île de Ré,vin,1,1789,toflit_simplification

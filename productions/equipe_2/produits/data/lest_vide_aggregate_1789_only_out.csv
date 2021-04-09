@@ -1,0 +1,155 @@
+port,product,count,year,classification
+Ars-en-Ré,Cargaison inconnue,12,1789,lest_vide_aggregate
+Ars-en-Ré,Divers,1,1789,lest_vide_aggregate
+Ars-en-Ré,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Ars-en-Ré,Lest,1,1789,lest_vide_aggregate
+Ars-en-Ré,Matières premières,1,1789,lest_vide_aggregate
+Ars-en-Ré,Subsistances,250,1789,lest_vide_aggregate
+Ars-en-Ré,Vide,43,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Lest,3,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Subsistances,117,1789,lest_vide_aggregate
+Beauvoir-sur-Mer,Vide,1,1789,lest_vide_aggregate
+Brouage ,Cargaison inconnue,4,1789,lest_vide_aggregate
+Champagné-les-Marais,Cargaison inconnue,1,1789,lest_vide_aggregate
+Esnandes,Cargaison inconnue,2,1789,lest_vide_aggregate
+Ker Châlon,Lest,1,1789,lest_vide_aggregate
+Ker Châlon,Matières premières,6,1789,lest_vide_aggregate
+Ker Châlon,Vide,3,1789,lest_vide_aggregate
+La Flotte-en-Ré,Divers,1,1789,lest_vide_aggregate
+La Flotte-en-Ré,Industrie française et étrangère,1,1789,lest_vide_aggregate
+La Flotte-en-Ré,Matières premières,1,1789,lest_vide_aggregate
+La Flotte-en-Ré,Subsistances,6,1789,lest_vide_aggregate
+La Perrotine,Cargaison inconnue,1,1789,lest_vide_aggregate
+La Perrotine,Divers,4,1789,lest_vide_aggregate
+La Perrotine,Industrie française et étrangère,1,1789,lest_vide_aggregate
+La Perrotine,Lest,18,1789,lest_vide_aggregate
+La Perrotine,Subsistances,57,1789,lest_vide_aggregate
+La Perrotine,Vide,1,1789,lest_vide_aggregate
+La Rochelle,Cargaison inconnue,1003,1789,lest_vide_aggregate
+La Rochelle,Divers,9,1789,lest_vide_aggregate
+La Rochelle,Industrie française et étrangère,21,1789,lest_vide_aggregate
+La Rochelle,Lest,6,1789,lest_vide_aggregate
+La Rochelle,Métaux,1,1789,lest_vide_aggregate
+La Rochelle,Pêche,7,1789,lest_vide_aggregate
+La Rochelle,Subsistances,29,1789,lest_vide_aggregate
+La Rochelle,Vide,52,1789,lest_vide_aggregate
+La Tranche-sur-Mer,Divers,2,1789,lest_vide_aggregate
+La Tranche-sur-Mer,Subsistances,53,1789,lest_vide_aggregate
+La Tremblade,Industrie française et étrangère,1,1789,lest_vide_aggregate
+La Tremblade,Vide,1,1789,lest_vide_aggregate
+Le Chapus,Subsistances,1,1789,lest_vide_aggregate
+Le Chapus,Vide,1,1789,lest_vide_aggregate
+Le Château-d'Oléron,Cargaison inconnue,39,1789,lest_vide_aggregate
+Le Château-d'Oléron,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Le Château-d'Oléron,Subsistances,3,1789,lest_vide_aggregate
+Le Château-d'Oléron,Vide,12,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Bêtes de somme,32,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Divers,19,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Industrie française et étrangère,57,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Lest,27,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Matières premières,27,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Pêche,36,1789,lest_vide_aggregate
+Les Sables-d'Olonne,Subsistances,132,1789,lest_vide_aggregate
+Marans,Cargaison inconnue,1,1789,lest_vide_aggregate
+Marans,Industrie française et étrangère,48,1789,lest_vide_aggregate
+Marans,Lest,142,1789,lest_vide_aggregate
+Marans,Matières premières,178,1789,lest_vide_aggregate
+Marans,Subsistances,266,1789,lest_vide_aggregate
+Marans,Vide,52,1789,lest_vide_aggregate
+Marennes,Cargaison inconnue,19,1789,lest_vide_aggregate
+Marennes,Divers,2,1789,lest_vide_aggregate
+Marennes,Industrie française et étrangère,14,1789,lest_vide_aggregate
+Marennes,Lest,36,1789,lest_vide_aggregate
+Marennes,Matières premières,3,1789,lest_vide_aggregate
+Marennes,Subsistances,1411,1789,lest_vide_aggregate
+Marennes,Vide,30,1789,lest_vide_aggregate
+Martrou,Matières premières,4,1789,lest_vide_aggregate
+Moricq,Industrie française et étrangère,28,1789,lest_vide_aggregate
+Moricq,Matières premières,83,1789,lest_vide_aggregate
+Moricq,Subsistances,31,1789,lest_vide_aggregate
+Moricq,Vide,3,1789,lest_vide_aggregate
+Mortagne,Cargaison inconnue,2,1789,lest_vide_aggregate
+Mortagne,Divers,1,1789,lest_vide_aggregate
+Mortagne,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Mortagne,Lest,10,1789,lest_vide_aggregate
+Mortagne,Subsistances,5,1789,lest_vide_aggregate
+Mortagne,Vide,1,1789,lest_vide_aggregate
+Noirmoutier,Cargaison inconnue,5,1789,lest_vide_aggregate
+Noirmoutier,Drogues,14,1789,lest_vide_aggregate
+Noirmoutier,Industrie française et étrangère,12,1789,lest_vide_aggregate
+Noirmoutier,Lest,9,1789,lest_vide_aggregate
+Noirmoutier,Matières premières,20,1789,lest_vide_aggregate
+Noirmoutier,Pêche,2,1789,lest_vide_aggregate
+Noirmoutier,Subsistances,244,1789,lest_vide_aggregate
+Noirmoutier,Vide,1,1789,lest_vide_aggregate
+Ribérou,Cargaison inconnue,1,1789,lest_vide_aggregate
+Ribérou,Divers,2,1789,lest_vide_aggregate
+Ribérou,Industrie française et étrangère,17,1789,lest_vide_aggregate
+Ribérou,Lest,165,1789,lest_vide_aggregate
+Ribérou,Matières premières,294,1789,lest_vide_aggregate
+Ribérou,Subsistances,54,1789,lest_vide_aggregate
+Ribérou,Vide,2,1789,lest_vide_aggregate
+Rochefort,Cargaison inconnue,5,1789,lest_vide_aggregate
+Rochefort,Divers,29,1789,lest_vide_aggregate
+Rochefort,Industrie française et étrangère,49,1789,lest_vide_aggregate
+Rochefort,Lest,5,1789,lest_vide_aggregate
+Rochefort,Matières premières,24,1789,lest_vide_aggregate
+Rochefort,Métaux,1,1789,lest_vide_aggregate
+Rochefort,Subsistances,67,1789,lest_vide_aggregate
+Rochefort,Vide,223,1789,lest_vide_aggregate
+Royan,Lest,15,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Drogues,7,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Lest,13,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Subsistances,48,1789,lest_vide_aggregate
+Saint-Denis d'Oléron,Vide,1,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Industrie française et étrangère,3,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Pêche,6,1789,lest_vide_aggregate
+Saint-Gilles-sur-Vie,Subsistances,79,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Divers,9,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Industrie française et étrangère,78,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Lest,212,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Matières premières,15,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Métaux,2,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Pêche,3,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Subsistances,133,1789,lest_vide_aggregate
+Saint-Martin-de-Ré,Vide,24,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Subsistances,4,1789,lest_vide_aggregate
+Saint-Michel-en-l'Herm,Vide,3,1789,lest_vide_aggregate
+Seudre,Cargaison inconnue,25,1789,lest_vide_aggregate
+Seudre,Subsistances,5,1789,lest_vide_aggregate
+Seudre,Vide,1,1789,lest_vide_aggregate
+Soubise,Divers,1,1789,lest_vide_aggregate
+Soubise,Industrie française et étrangère,1,1789,lest_vide_aggregate
+Soubise,Lest,1,1789,lest_vide_aggregate
+Soubise,Pêche,1,1789,lest_vide_aggregate
+Soubise,Subsistances,6,1789,lest_vide_aggregate
+Soubise,Vide,3,1789,lest_vide_aggregate
+Tonnay-Charente,Cargaison inconnue,589,1789,lest_vide_aggregate
+Tonnay-Charente,Divers,1,1789,lest_vide_aggregate
+Tonnay-Charente,Industrie française et étrangère,3,1789,lest_vide_aggregate
+Tonnay-Charente,Lest,1,1789,lest_vide_aggregate
+Tonnay-Charente,Matières premières,21,1789,lest_vide_aggregate
+Tonnay-Charente,Métaux,1,1789,lest_vide_aggregate
+Tonnay-Charente,Subsistances,9,1789,lest_vide_aggregate
+Tonnay-Charente,Vide,17,1789,lest_vide_aggregate
+l'Aiguillon,Industrie française et étrangère,1,1789,lest_vide_aggregate
+l'Aiguillon,Subsistances,3,1789,lest_vide_aggregate
+l'Aiguillon,Vide,3,1789,lest_vide_aggregate
+mer des Pertuis,Industrie française et étrangère,1,1789,lest_vide_aggregate
+mer des Pertuis,Subsistances,1,1789,lest_vide_aggregate
+île d'Oléron,Divers,3,1789,lest_vide_aggregate
+île d'Oléron,Subsistances,8,1789,lest_vide_aggregate
+île d'Oléron,Vide,8,1789,lest_vide_aggregate
+île d'Yeu,Subsistances,1,1789,lest_vide_aggregate
+île d'Yeu,Vide,1,1789,lest_vide_aggregate
+île de Bouin,Cargaison inconnue,11,1789,lest_vide_aggregate
+île de Bouin,Subsistances,94,1789,lest_vide_aggregate
+île de Ré,Subsistances,1,1789,lest_vide_aggregate
+île de Ré,Vide,1,1789,lest_vide_aggregate

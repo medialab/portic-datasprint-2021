@@ -9,11 +9,11 @@
 
 
 <style type="text/css">
-    pre { line-height: 125%; margin: 0; }
-td.linenos pre { color: #000000; background-color: #f0f0f0; padding: 0 5px 0 5px; }
-span.linenos { color: #000000; background-color: #f0f0f0; padding: 0 5px 0 5px; }
-td.linenos pre.special { color: #000000; background-color: #ffffc0; padding: 0 5px 0 5px; }
-span.linenos.special { color: #000000; background-color: #ffffc0; padding: 0 5px 0 5px; }
+    pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .highlight .hll { background-color: var(--jp-cell-editor-active-background) }
 .highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color) }
 .highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
@@ -14197,7 +14197,23 @@ a.anchor-link {
 .highlight  {
     margin: 0.4em;
 }
+
+/* Input area styling */
+.jp-InputArea {
+    overflow: hidden;
+}
+
+.jp-InputArea-editor {
+    overflow: hidden;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+}
 </style>
+
 
 
 <!-- Load mathjax -->
@@ -14209,6 +14225,24 @@ a.anchor-link {
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>0
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
@@ -14224,7 +14258,7 @@ a.anchor-link {
 
 
 
-<div id="bf19746b-6014-402b-b2c3-239e3866efa1" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14255,7 +14289,7 @@ a.anchor-link {
 
 
 
-<div id="bf19746b-6014-402b-b2c3-239e3866efa1" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14286,7 +14320,7 @@ a.anchor-link {
 
 
 
-<div id="bf19746b-6014-402b-b2c3-239e3866efa1" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14317,7 +14351,7 @@ a.anchor-link {
 
 
 
-<div id="bf19746b-6014-402b-b2c3-239e3866efa1" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14348,7 +14382,7 @@ a.anchor-link {
 
 
 
-<div id="bf19746b-6014-402b-b2c3-239e3866efa1" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14379,7 +14413,7 @@ a.anchor-link {
 
 
 
-<div id="bf19746b-6014-402b-b2c3-239e3866efa1" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14391,6 +14425,481 @@ a.anchor-link {
 
 <div class="jp-RenderedImage jp-OutputArea-output ">
 <img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-5.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Top-des-produits-d'origine-Direction-des-fermes-La-Rochelle">Top des produits d'origine Direction des fermes La Rochelle<a class="anchor-link" href="#Top-des-produits-d'origine-Direction-des-fermes-La-Rochelle">&#182;</a></h1>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>La Rochelle-&gt;Eaux-de-vie et liqueurs:6755619.088020002
+Bordeaux-&gt;Papier:725790.0
+La Rochelle-&gt;Sel:527254.2679000001
+La Rochelle-&gt;Blé et autres grains comestibles:466523.00181999995
+Bordeaux-&gt;Eaux-de-vie et liqueurs:379900.198
+La Rochelle-&gt;Vins divers:294015.14099
+La Rochelle-&gt;Farine, gruau, biscuits et pâtes:235915.235
+Le Havre-&gt;Toiles de chanvre et de lin:196699.0
+La Rochelle-&gt;Combustibles dont charbons et bois:193873.0
+La Rochelle-&gt;Animaux:88124.0
+La Rochelle-&gt;Ouvrages de bois, liège et jonc:78602.27
+La Rochelle-&gt;Graines grasses:59248.559
+Auch-&gt;Chevaux et bêtes de somme:55800.0
+Bayonne-&gt;Chevaux et bêtes de somme:35800.0
+La Rochelle-&gt;Toiles de coton:34386.0
+Nantes-&gt;Eaux-de-vie et liqueurs:33944.0
+Bayonne-&gt;Cuirs, peaux et pelleterie:33472.0
+La Rochelle-&gt;Bière, cidre et vinaigre:32361.28113
+Bordeaux-&gt;Ouvrages divers et mélangés:30012.0
+Bordeaux-&gt;Ouvrages de bois, liège et jonc:25772.0
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-6.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>La Rochelle-&gt;Angleterre:4749261.5005
+La Rochelle-&gt;France:777984.4198
+La Rochelle-&gt;Nord:594498.47022
+La Rochelle-&gt;France:466523.00181999995
+La Rochelle-&gt;Flandre et autres états de l&#39;Empereur:402640.384
+Bordeaux-&gt;Nord:379914.0
+La Rochelle-&gt;France:235915.235
+La Rochelle-&gt;France:229040.7
+Bordeaux-&gt;Angleterre:217139.199
+Le Havre-&gt;Amériques:196699.0
+La Rochelle-&gt;France:193873.0
+La Rochelle-&gt;Nord:169070.2464
+Bordeaux-&gt;Hollande:137295.0
+La Rochelle-&gt;Nord:119299.0998
+La Rochelle-&gt;Afrique:118878.0
+Bordeaux-&gt;Amériques:106063.0
+Bordeaux-&gt;Nord:89602.599
+La Rochelle-&gt;France:88124.0
+La Rochelle-&gt;Hollande:78604.22099999999
+La Rochelle-&gt;Angleterre:59435.623
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-7.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Matrice-province-d'origine-direction-des-fermes">Matrice province d'origine direction des fermes<a class="anchor-link" href="#Matrice-province-d'origine-direction-des-fermes">&#182;</a></h1>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>total-&gt;Colonies Françaises:170903894.30124998
+Bordeaux-&gt;total:130412955.21786799
+Marseille-&gt;total:116889344.32643206
+Bordeaux-&gt;Colonies Françaises:77520482.0
+total-&gt;Inconnu:58135681.64200204
+Nantes-&gt;total:44367791.920816
+Marseille-&gt;Inconnu:42214426.488132045
+total-&gt;Lyonnais:34700140.42661
+total-&gt;Guyenne:33018794.957976
+Rouen-&gt;total:31483182.0
+Nantes-&gt;Colonies Françaises:30392601.0
+Bordeaux-&gt;Guyenne:29592078.048586
+total-&gt;Languedoc:27591708.430542
+Marseille-&gt;Colonies Françaises:27443364.0
+total-&gt;Provence:24727556.69769
+Rouen-&gt;Colonies Françaises:23641879.0
+Besançon-&gt;total:21703107.00896
+total-&gt;Bretagne:20075759.970778003
+Bayonne-&gt;total:19722655.413429998
+Marseille-&gt;Provence:17110802.56487
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-8.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-9.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="matrice-origine-partenaire-Par-Direction">matrice origine partenaire Par Direction<a class="anchor-link" href="#matrice-origine-partenaire-Par-Direction">&#182;</a></h1>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Bordeaux-&gt;total-&gt;total:130412955.217868
+Marseille-&gt;total-&gt;total:116889344.32643202
+Bordeaux-&gt;Colonies Françaises-&gt;total:77520482.0
+Bordeaux-&gt;Colonies Françaises-&gt;Monde:74611017.0
+Bordeaux-&gt;total-&gt;Monde:74611017.0
+Nantes-&gt;total-&gt;total:44367791.920816004
+Marseille-&gt;Inconnu-&gt;total:42214426.488132
+Marseille-&gt;total-&gt;France:36427133.177112
+Rouen-&gt;total-&gt;total:31483182.0
+Nantes-&gt;Colonies Françaises-&gt;total:30392601.0
+Bordeaux-&gt;Guyenne-&gt;total:29592078.048586
+Bordeaux-&gt;total-&gt;Amériques:28799631.0
+Marseille-&gt;Colonies Françaises-&gt;total:27443364.0
+Nantes-&gt;Colonies Françaises-&gt;Monde:26188654.0
+Nantes-&gt;total-&gt;Monde:26188654.0
+Marseille-&gt;Colonies Françaises-&gt;Monde:24912626.0
+Marseille-&gt;total-&gt;Monde:24912626.0
+Rouen-&gt;Colonies Françaises-&gt;total:23641879.0
+Rouen-&gt;Colonies Françaises-&gt;Monde:23589876.0
+Rouen-&gt;total-&gt;Monde:23589876.0
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-10.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-11.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-12.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-13.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-14.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="3de6cfd9-7de6-459c-b2fc-4085a5ceb490" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions/equipe_1/origines/assets/origines-15.png"
 >
 </div>
 

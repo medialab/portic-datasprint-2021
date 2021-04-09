@@ -1,0 +1,204 @@
+port,product,count,year,classification
+Ars-en-Ré,Autres produits alimentaires et animaux,1,1789,SITC_fr
+Ars-en-Ré,Boissons et tabac,3,1789,SITC_fr
+Ars-en-Ré,Cargaison inconnue,12,1789,SITC_fr
+Ars-en-Ré,Divers incertains et inconnus,44,1789,SITC_fr
+Ars-en-Ré,Matières brutes non-comestibles non transformées n.d.a.,248,1789,SITC_fr
+Ars-en-Ré,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Beauvoir-sur-Mer,Autres produits alimentaires et animaux,38,1789,SITC_fr
+Beauvoir-sur-Mer,Boissons et tabac,1,1789,SITC_fr
+Beauvoir-sur-Mer,Cargaison inconnue,4,1789,SITC_fr
+Beauvoir-sur-Mer,Divers incertains et inconnus,1,1789,SITC_fr
+Beauvoir-sur-Mer,Divers mélangés,1,1789,SITC_fr
+Beauvoir-sur-Mer,Matières brutes non-comestibles non transformées n.d.a.,81,1789,SITC_fr
+Brouage ,Cargaison inconnue,4,1789,SITC_fr
+Champagné-les-Marais,Cargaison inconnue,1,1789,SITC_fr
+Esnandes,Cargaison inconnue,2,1789,SITC_fr
+Ker Châlon,Divers incertains et inconnus,3,1789,SITC_fr
+Ker Châlon,Divers mélangés,1,1789,SITC_fr
+Ker Châlon,Matières brutes non-comestibles non transformées n.d.a.,1,1789,SITC_fr
+Ker Châlon,Produits chimiques transformés n.d.a.,5,1789,SITC_fr
+La Flotte-en-Ré,Autres produits alimentaires et animaux,1,1789,SITC_fr
+La Flotte-en-Ré,Boissons et tabac,5,1789,SITC_fr
+La Flotte-en-Ré,Divers mélangés,1,1789,SITC_fr
+La Flotte-en-Ré,Matières brutes non-comestibles non transformées n.d.a.,1,1789,SITC_fr
+La Flotte-en-Ré,"Produits du bois, liège, jonc",1,1789,SITC_fr
+La Perrotine,Autres produits alimentaires et animaux,1,1789,SITC_fr
+La Perrotine,Boissons et tabac,54,1789,SITC_fr
+La Perrotine,Cargaison inconnue,1,1789,SITC_fr
+La Perrotine,Divers incertains et inconnus,3,1789,SITC_fr
+La Perrotine,Divers mélangés,4,1789,SITC_fr
+La Perrotine,Matières brutes non-comestibles non transformées n.d.a.,18,1789,SITC_fr
+La Perrotine,Produits chimiques transformés n.d.a.,1,1789,SITC_fr
+La Rochelle,Autres produits alimentaires et animaux,7,1789,SITC_fr
+La Rochelle,Boissons et tabac,21,1789,SITC_fr
+La Rochelle,Cargaison inconnue,1003,1789,SITC_fr
+La Rochelle,Divers incertains et inconnus,54,1789,SITC_fr
+La Rochelle,Divers mélangés,8,1789,SITC_fr
+La Rochelle,Matières brutes non-comestibles non transformées n.d.a.,7,1789,SITC_fr
+La Rochelle,"Métaux, produits métalliques et outils",1,1789,SITC_fr
+La Rochelle,"Produits du bois, liège, jonc",20,1789,SITC_fr
+La Rochelle,Sorties pour la pêche et activités diverses,7,1789,SITC_fr
+La Tranche-sur-Mer,Autres produits alimentaires et animaux,53,1789,SITC_fr
+La Tranche-sur-Mer,Divers mélangés,2,1789,SITC_fr
+La Tremblade,Divers incertains et inconnus,1,1789,SITC_fr
+La Tremblade,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Le Chapus,Boissons et tabac,1,1789,SITC_fr
+Le Chapus,Divers incertains et inconnus,1,1789,SITC_fr
+Le Château-d'Oléron,"Articles minéraux non métalliques manufacturés, n.d.a.",1,1789,SITC_fr
+Le Château-d'Oléron,Autres produits alimentaires et animaux,2,1789,SITC_fr
+Le Château-d'Oléron,Boissons et tabac,1,1789,SITC_fr
+Le Château-d'Oléron,Cargaison inconnue,39,1789,SITC_fr
+Le Château-d'Oléron,Divers incertains et inconnus,12,1789,SITC_fr
+Les Sables-d'Olonne,Articles manufacturés divers n.d.a,2,1789,SITC_fr
+Les Sables-d'Olonne,"Articles minéraux non métalliques manufacturés, n.d.a.",2,1789,SITC_fr
+Les Sables-d'Olonne,Autres produits alimentaires et animaux,56,1789,SITC_fr
+Les Sables-d'Olonne,Boissons et tabac,2,1789,SITC_fr
+Les Sables-d'Olonne,Cargaison inconnue,2,1789,SITC_fr
+Les Sables-d'Olonne,Combustibles,24,1789,SITC_fr
+Les Sables-d'Olonne,Divers incertains et inconnus,5,1789,SITC_fr
+Les Sables-d'Olonne,Divers mélangés,15,1789,SITC_fr
+Les Sables-d'Olonne,"Huiles, graisses et cires d'origine animale et végétale",1,1789,SITC_fr
+Les Sables-d'Olonne,Machines et moyens de transport y compris sellerie,4,1789,SITC_fr
+Les Sables-d'Olonne,Matières brutes non-comestibles non transformées n.d.a.,135,1789,SITC_fr
+Les Sables-d'Olonne,"Métaux, produits métalliques et outils",36,1789,SITC_fr
+Les Sables-d'Olonne,"Produits du bois, liège, jonc",12,1789,SITC_fr
+Les Sables-d'Olonne,Sorties pour la pêche et activités diverses,36,1789,SITC_fr
+Marans,"Articles minéraux non métalliques manufacturés, n.d.a.",2,1789,SITC_fr
+Marans,Autres produits alimentaires et animaux,265,1789,SITC_fr
+Marans,Boissons et tabac,3,1789,SITC_fr
+Marans,Cargaison inconnue,1,1789,SITC_fr
+Marans,Combustibles,8,1789,SITC_fr
+Marans,Divers incertains et inconnus,52,1789,SITC_fr
+Marans,Matières brutes non-comestibles non transformées n.d.a.,310,1789,SITC_fr
+Marans,"Produits du bois, liège, jonc",46,1789,SITC_fr
+Marennes,Articles manufacturés divers n.d.a,3,1789,SITC_fr
+Marennes,"Articles minéraux non métalliques manufacturés, n.d.a.",9,1789,SITC_fr
+Marennes,Autres produits alimentaires et animaux,20,1789,SITC_fr
+Marennes,Boissons et tabac,89,1789,SITC_fr
+Marennes,Cargaison inconnue,19,1789,SITC_fr
+Marennes,Combustibles,2,1789,SITC_fr
+Marennes,Divers incertains et inconnus,31,1789,SITC_fr
+Marennes,Divers mélangés,4,1789,SITC_fr
+Marennes,Matières brutes non-comestibles non transformées n.d.a.,1337,1789,SITC_fr
+Marennes,"Produits du bois, liège, jonc",2,1789,SITC_fr
+Marennes,Êtres humains,1,1789,SITC_fr
+Martrou,Combustibles,4,1789,SITC_fr
+Moricq,"Articles minéraux non métalliques manufacturés, n.d.a.",2,1789,SITC_fr
+Moricq,Autres produits alimentaires et animaux,27,1789,SITC_fr
+Moricq,Boissons et tabac,4,1789,SITC_fr
+Moricq,Combustibles,81,1789,SITC_fr
+Moricq,Divers incertains et inconnus,3,1789,SITC_fr
+Moricq,Matières brutes non-comestibles non transformées n.d.a.,2,1789,SITC_fr
+Moricq,"Produits du bois, liège, jonc",26,1789,SITC_fr
+Mortagne,Boissons et tabac,5,1789,SITC_fr
+Mortagne,Cargaison inconnue,2,1789,SITC_fr
+Mortagne,Divers incertains et inconnus,2,1789,SITC_fr
+Mortagne,Matières brutes non-comestibles non transformées n.d.a.,10,1789,SITC_fr
+Mortagne,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Noirmoutier,Autres produits alimentaires et animaux,38,1789,SITC_fr
+Noirmoutier,Boissons et tabac,9,1789,SITC_fr
+Noirmoutier,Cargaison inconnue,5,1789,SITC_fr
+Noirmoutier,Divers incertains et inconnus,1,1789,SITC_fr
+Noirmoutier,Matières brutes non-comestibles non transformées n.d.a.,226,1789,SITC_fr
+Noirmoutier,Produits chimiques transformés n.d.a.,14,1789,SITC_fr
+Noirmoutier,"Produits du bois, liège, jonc",12,1789,SITC_fr
+Noirmoutier,Sorties pour la pêche et activités diverses,2,1789,SITC_fr
+Ribérou,Articles manufacturés divers n.d.a,1,1789,SITC_fr
+Ribérou,Autres produits alimentaires et animaux,18,1789,SITC_fr
+Ribérou,Boissons et tabac,43,1789,SITC_fr
+Ribérou,Cargaison inconnue,1,1789,SITC_fr
+Ribérou,Combustibles,187,1789,SITC_fr
+Ribérou,Divers incertains et inconnus,3,1789,SITC_fr
+Ribérou,Divers mélangés,3,1789,SITC_fr
+Ribérou,Machines et moyens de transport y compris sellerie,1,1789,SITC_fr
+Ribérou,Matières brutes non-comestibles non transformées n.d.a.,175,1789,SITC_fr
+Ribérou,"Métaux, produits métalliques et outils",1,1789,SITC_fr
+Ribérou,Produits chimiques transformés n.d.a.,88,1789,SITC_fr
+Ribérou,"Produits du bois, liège, jonc",14,1789,SITC_fr
+Rochefort,"Articles minéraux non métalliques manufacturés, n.d.a.",4,1789,SITC_fr
+Rochefort,Autres filés ou tissés,1,1789,SITC_fr
+Rochefort,Autres produits alimentaires et animaux,30,1789,SITC_fr
+Rochefort,Boissons et tabac,32,1789,SITC_fr
+Rochefort,Cargaison inconnue,5,1789,SITC_fr
+Rochefort,Combustibles,6,1789,SITC_fr
+Rochefort,Divers incertains et inconnus,224,1789,SITC_fr
+Rochefort,Divers mélangés,29,1789,SITC_fr
+Rochefort,"Huiles, graisses et cires d'origine animale et végétale",2,1789,SITC_fr
+Rochefort,Matières brutes non-comestibles non transformées n.d.a.,22,1789,SITC_fr
+Rochefort,"Métaux, produits métalliques et outils",1,1789,SITC_fr
+Rochefort,Produits agricoles alimentaires des régions de colonisation européenne,5,1789,SITC_fr
+Rochefort,Produits chimiques transformés n.d.a.,2,1789,SITC_fr
+Rochefort,"Produits du bois, liège, jonc",41,1789,SITC_fr
+Royan,Matières brutes non-comestibles non transformées n.d.a.,15,1789,SITC_fr
+Saint-Denis d'Oléron,Boissons et tabac,47,1789,SITC_fr
+Saint-Denis d'Oléron,Divers incertains et inconnus,1,1789,SITC_fr
+Saint-Denis d'Oléron,Matières brutes non-comestibles non transformées n.d.a.,13,1789,SITC_fr
+Saint-Denis d'Oléron,Produits agricoles alimentaires des régions de colonisation européenne,1,1789,SITC_fr
+Saint-Denis d'Oléron,Produits chimiques transformés n.d.a.,7,1789,SITC_fr
+Saint-Gilles-sur-Vie,Articles manufacturés divers n.d.a,1,1789,SITC_fr
+Saint-Gilles-sur-Vie,Autres produits alimentaires et animaux,36,1789,SITC_fr
+Saint-Gilles-sur-Vie,Boissons et tabac,1,1789,SITC_fr
+Saint-Gilles-sur-Vie,Cargaison inconnue,4,1789,SITC_fr
+Saint-Gilles-sur-Vie,Divers mélangés,1,1789,SITC_fr
+Saint-Gilles-sur-Vie,Matières brutes non-comestibles non transformées n.d.a.,41,1789,SITC_fr
+Saint-Gilles-sur-Vie,"Produits du bois, liège, jonc",2,1789,SITC_fr
+Saint-Gilles-sur-Vie,Sorties pour la pêche et activités diverses,6,1789,SITC_fr
+Saint-Martin-de-Ré,Articles manufacturés divers n.d.a,1,1789,SITC_fr
+Saint-Martin-de-Ré,"Articles minéraux non métalliques manufacturés, n.d.a.",3,1789,SITC_fr
+Saint-Martin-de-Ré,Autres produits alimentaires et animaux,24,1789,SITC_fr
+Saint-Martin-de-Ré,Boissons et tabac,57,1789,SITC_fr
+Saint-Martin-de-Ré,Cargaison inconnue,8,1789,SITC_fr
+Saint-Martin-de-Ré,Combustibles,5,1789,SITC_fr
+Saint-Martin-de-Ré,Divers incertains et inconnus,33,1789,SITC_fr
+Saint-Martin-de-Ré,Divers mélangés,1,1789,SITC_fr
+Saint-Martin-de-Ré,Matières brutes non-comestibles non transformées n.d.a.,270,1789,SITC_fr
+Saint-Martin-de-Ré,"Métaux, produits métalliques et outils",2,1789,SITC_fr
+Saint-Martin-de-Ré,Produits agricoles alimentaires des régions de colonisation européenne,2,1789,SITC_fr
+Saint-Martin-de-Ré,Produits chimiques transformés n.d.a.,1,1789,SITC_fr
+Saint-Martin-de-Ré,"Produits du bois, liège, jonc",74,1789,SITC_fr
+Saint-Martin-de-Ré,Sorties pour la pêche et activités diverses,3,1789,SITC_fr
+Saint-Michel-en-l'Herm,Autres produits alimentaires et animaux,3,1789,SITC_fr
+Saint-Michel-en-l'Herm,Boissons et tabac,1,1789,SITC_fr
+Saint-Michel-en-l'Herm,Cargaison inconnue,65,1789,SITC_fr
+Saint-Michel-en-l'Herm,Divers incertains et inconnus,3,1789,SITC_fr
+Saint-Michel-en-l'Herm,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Seudre,Autres produits alimentaires et animaux,2,1789,SITC_fr
+Seudre,Boissons et tabac,2,1789,SITC_fr
+Seudre,Cargaison inconnue,25,1789,SITC_fr
+Seudre,Divers incertains et inconnus,1,1789,SITC_fr
+Seudre,Divers mélangés,1,1789,SITC_fr
+Soubise,Autres produits alimentaires et animaux,4,1789,SITC_fr
+Soubise,Boissons et tabac,1,1789,SITC_fr
+Soubise,Divers incertains et inconnus,3,1789,SITC_fr
+Soubise,Divers mélangés,1,1789,SITC_fr
+Soubise,Matières brutes non-comestibles non transformées n.d.a.,2,1789,SITC_fr
+Soubise,"Produits du bois, liège, jonc",1,1789,SITC_fr
+Soubise,Sorties pour la pêche et activités diverses,1,1789,SITC_fr
+Tonnay-Charente,Autres produits alimentaires et animaux,5,1789,SITC_fr
+Tonnay-Charente,Boissons et tabac,4,1789,SITC_fr
+Tonnay-Charente,Cargaison inconnue,589,1789,SITC_fr
+Tonnay-Charente,Combustibles,2,1789,SITC_fr
+Tonnay-Charente,"Cuirs, peaux et produits dérivés hors sellerie",1,1789,SITC_fr
+Tonnay-Charente,Divers incertains et inconnus,17,1789,SITC_fr
+Tonnay-Charente,Divers mélangés,2,1789,SITC_fr
+Tonnay-Charente,Matières brutes non-comestibles non transformées n.d.a.,19,1789,SITC_fr
+Tonnay-Charente,Produits chimiques transformés n.d.a.,1,1789,SITC_fr
+Tonnay-Charente,"Produits du bois, liège, jonc",2,1789,SITC_fr
+l'Aiguillon,Autres produits alimentaires et animaux,2,1789,SITC_fr
+l'Aiguillon,Boissons et tabac,1,1789,SITC_fr
+l'Aiguillon,Divers incertains et inconnus,3,1789,SITC_fr
+l'Aiguillon,"Produits du bois, liège, jonc",1,1789,SITC_fr
+mer des Pertuis,Boissons et tabac,1,1789,SITC_fr
+mer des Pertuis,"Produits du bois, liège, jonc",1,1789,SITC_fr
+île d'Oléron,Autres produits alimentaires et animaux,4,1789,SITC_fr
+île d'Oléron,Boissons et tabac,4,1789,SITC_fr
+île d'Oléron,Divers incertains et inconnus,8,1789,SITC_fr
+île d'Oléron,Divers mélangés,3,1789,SITC_fr
+île d'Yeu,Boissons et tabac,1,1789,SITC_fr
+île d'Yeu,Divers incertains et inconnus,1,1789,SITC_fr
+île de Bouin,Autres produits alimentaires et animaux,9,1789,SITC_fr
+île de Bouin,Cargaison inconnue,11,1789,SITC_fr
+île de Bouin,Matières brutes non-comestibles non transformées n.d.a.,85,1789,SITC_fr
+île de Ré,Boissons et tabac,1,1789,SITC_fr
+île de Ré,Divers incertains et inconnus,1,1789,SITC_fr

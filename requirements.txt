@@ -6,3 +6,7 @@ networkx
 keplergl
 pre-commit
 python-slugify
+seaborn
+ebbe==1.2.0
+spacy==3.0.5
+fr-core-news-lg==3.0.0

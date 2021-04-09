@@ -427,16 +427,32 @@ def build_toflit18_classif_multimap(classification="product_simplification"):
 
   # construire le chemin à parcourir dans les classifications depuis source vers la classification cible
   classification_path = []
+  # print("avant le while")
   while current_classification_id != classification:
     children = current_classification['children']
+    # print("current classif id : ", current_classification_id)
     if len(children) == 1:
+      # print("children length is 1")
       current_classification = children[0]
-    for child in children:
-      if child['id'] == classification:
-        current_classification = child
-        break
+    elif len(children) == 0:
+      # print("children length is 0")
+      break
+    else:
+      # print("children length is more than 1")
+      for child in children:
+        if child['id'] == classification:
+          current_classification = child
+          break
+        elif len(child['children']) > 0:
+          # print("2e boucle")
+          for child_2 in child['children']:
+            if child_2['id'] == classification:
+              current_classification = child_2
+              classification_path.append(child['id'])
+              break
     current_classification_id = current_classification['id']
     classification_path.append(current_classification_id)
+  # print("classification path : ", classification_path)
   # créer un dict dont chaque clé sera une des classifications à parcourir,
   # et chaque valeur un dict dont les clés sont les formes parentes et les valeurs les formes enfant
   classif_multi_dict = {}
@@ -497,6 +513,7 @@ def get_pointcalls_commodity_purposes_as_toflit_product(pointcalls, product_clas
         "lower" : child_value.lower()
       }
     prev_classif = classif
+
 
   # créer une fonction de mapping qui transforme les pointcalls en leur ajoutant une propriété "commodity_purposes"
   def enrich_pointcall(pointcall):

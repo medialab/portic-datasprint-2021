@@ -163,9 +163,9 @@ if __name__ == "__main__":
         sys.argv.remove("--clear-cache")
 
     empty_stats = False
-    if "--stast-empty" in sys.argv:
+    if "--stats-empty" in sys.argv:
         empty_stats = True
-        sys.argv.remove("--stast-empty")
+        sys.argv.remove("--stats-empty")
 
     year = 1789
     if len(sys.argv) > 1:

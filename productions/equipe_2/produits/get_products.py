@@ -118,10 +118,10 @@ def build_bipartite_networks(products, year, filter_only_out=True):
         G = nx.Graph()
         for port, elements in sorted(ports.items()):
             if not G.has_node(port):
-                G.add_node(port, nature="port", pointcalls=0)
+                G.add_node(port, type="port", pointcalls=0)
             for product, count in sorted(elements.items()):
                 if not G.has_node(product):
-                    G.add_node(product, nature="product", pointcalls=0)
+                    G.add_node(product, type="product", pointcalls=0)
                 G.nodes[port]['pointcalls'] += count
                 G.nodes[product]['pointcalls'] += count
                 if not G.has_edge(port, product):

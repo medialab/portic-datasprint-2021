@@ -40,6 +40,7 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
         ("toflit_aggregate", "product_RE_aggregate"),
         ("SITC_fr", "product_sitc_FR")
     ]
+    emptiness = defaultdict(list)
 
     for idx, (key, toflit_classif) in enumerate(toflit_classifications):
         print('WORKING on PORTIC data for admiralties "%s" in %s with TOFLIT classification "%s"' % (", ".join(admiralties), year, toflit_classif))
@@ -51,6 +52,7 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                 continue
 
             port = pc["toponyme_fr"]
+            empties = 0
 
             for c in pc["commodity_purposes"]:
                 check = c["commodity_purpose"].lower()
@@ -60,6 +62,7 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                 elif key == "toflit_aggregate":
                     if check in ['vide', 'vuide', 'à vide', 'a vide', 'a vuide']:
                         products["lest_vide_aggregate"][port]["Vide"] += 1
+                        empties += 1
                     elif check in ['lest', 'son lest', 'a son lest', 'sur son lest', 'sur lest', 'au lest', 'en lest', 'les [lest]']:
                         products["lest_vide_aggregate"][port]["Lest"] += 1
                     elif not c["commodity_as_toflit"]:
@@ -88,12 +91,15 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                 if key == "toflit_aggregate":
                     products["lest_vide_aggregate"][port]["Cargaison inconnue"] += 1
 
+            if key == "toflit_aggregate":
+                emptiness[(empties, len(pc["commodity_purposes"]))].append([c["commodity_purpose"] for c in pc["commodity_purposes"]])
+
         if missing:
             print (' WARNING: some products could not be classified within %s:' % toflit_classif, file=sys.stderr)
             for (c1, c2, port), count in missing.items():
                 print('  - "%s" / "%s" (%s times) for port %s' % (c1, c2, count, port), file=sys.stderr)
 
-    return products
+    return products, emptiness
 
 
 def write_products_csv_by_classification(products, year, filter_only_out=True):
@@ -138,6 +144,11 @@ if __name__ == "__main__":
         clear_cache = True
         sys.argv.remove("--clear-cache")
 
+    empty_stats = False
+    if "--stast-empty" in sys.argv:
+        empty_stats = True
+        sys.argv.remove("--stast-empty")
+
     year = 1789
     if len(sys.argv) > 1:
         year = sys.argv[1]
@@ -153,7 +164,18 @@ if __name__ == "__main__":
         if not os.path.exists(d):
             os.makedirs(d)
 
-    products = get_navigo_products(admiralties, year, filter_only_out=filter_only_out, clear_cache=clear_cache)
+    products, emptiness = get_navigo_products(admiralties, year, filter_only_out=filter_only_out, clear_cache=clear_cache)
     write_products_csv_by_classification(products, year, filter_only_out=filter_only_out)
     build_bipartite_networks(products, year, filter_only_out)
+
+    if empty_stats:
+        print("Stats on emptiness;")
+        for (empties, total), boats in emptiness.items():
+            print("- %s empties / %s declared (%s boats)" % (empties, total, len(boats)))
+            if empties > 1 or (empties and empties != total):
+                stats = Counter()
+                for boat in sorted(boats):
+                    stats[" / ".join(boat)] += 1
+                for content, count in stats.items():
+                    print("  -> %s (%s boats)" % (content, count))
 

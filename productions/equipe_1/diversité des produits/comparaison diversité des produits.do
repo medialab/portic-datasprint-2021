@@ -26,3 +26,17 @@ local nbr_prod_1789_LR=`r(r)'
 local ratio = `nbr_prod_1789_LR'/`nbr_prod_1789'
 display "Partie échangée à La Rochelle : `ratio'"
 
+egen tot_trade=total(value), by(year)
+egen LR_trade=total(value) if customs_region=="La Rochelle", by(year)
+gen share_LR = LR_trade/tot_trade
+by year: summarize share_LR
+
+*preserve
+
+replace customs_region="Pas LR" if customs_region!="La Rochelle"
+collapse (sum) value, by(customs_region year)
+list
+reshape
+
+
+*restore

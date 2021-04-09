@@ -10,7 +10,7 @@ from slugify import slugify
 from poitousprint import Portic, get_pointcalls_commodity_purposes_as_toflit_product
 
 
-def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=False):
+def get_navigo_pointcalls(admiralties, year, clear_cache=False):
     cachedata = os.path.join(CACHEDIR, "portic_pointcalls_%s_%s.json" % (year, "_".join([slugify(a) for a in sorted(admiralties)])))
     try:
         if clear_cache:
@@ -24,6 +24,11 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
         pointcalls = portic.get_pointcalls(year=year, pointcall_admiralty=admiralties)
         with open(cachedata, "w") as f:
             json.dump(pointcalls, f)
+    return pointcalls
+
+
+def get_products(admiralties, year, filter_only_out=True, clear_cache=False):
+    pointcalls = get_navigo_pointcalls(admiralties, year, clear_cache=clear_cache)
 
     boats = defaultdict(Counter)
     products = {
@@ -182,7 +187,7 @@ if __name__ == "__main__":
         if not os.path.exists(d):
             os.makedirs(d)
 
-    products, emptiness, boats = get_navigo_products(admiralties, year, filter_only_out=filter_only_out, clear_cache=clear_cache)
+    products, emptiness, boats = get_products(admiralties, year, filter_only_out=filter_only_out, clear_cache=clear_cache)
     write_products_csv_by_classification(products, year, filter_only_out=filter_only_out)
     write_boats_csv(boats, year, filter_only_out=filter_only_out)
     build_bipartite_networks(products, year, filter_only_out)

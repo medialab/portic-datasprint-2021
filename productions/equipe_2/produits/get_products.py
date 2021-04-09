@@ -25,6 +25,7 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
         with open(cachedata, "w") as f:
             json.dump(pointcalls, f)
 
+    boats = defaultdict(Counter)
     products = {
         "portic_default": defaultdict(Counter),
         "portic_standardized_fr": defaultdict(Counter),
@@ -53,6 +54,7 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
 
             port = pc["toponyme_fr"]
             empties = 0
+            boat_classif = "Chargé"
 
             for c in pc["commodity_purposes"]:
                 check = c["commodity_purpose"].lower()
@@ -63,8 +65,10 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                     if check in ['vide', 'vuide', 'à vide', 'a vide', 'a vuide']:
                         products["lest_vide_aggregate"][port]["Vide"] += 1
                         empties += 1
+                        boat_classif = "Vide"
                     elif check in ['lest', 'son lest', 'a son lest', 'sur son lest', 'sur lest', 'au lest', 'en lest', 'les [lest]']:
                         products["lest_vide_aggregate"][port]["Lest"] += 1
+                        boat_classif = "Lest"
                     elif not c["commodity_as_toflit"]:
                         if "pêche" in check:
                             products["lest_vide_aggregate"][port]["Pêche"] += 1
@@ -89,17 +93,21 @@ def get_navigo_products(admiralties, year, filter_only_out=True, clear_cache=Fal
                     products["portic_standardized_fr"][port]["Cargaison inconnue"] += 1
                 products[key][port]["Cargaison inconnue"] += 1
                 if key == "toflit_aggregate":
+                    boat_classif = "Cargaison inconnue"
                     products["lest_vide_aggregate"][port]["Cargaison inconnue"] += 1
 
             if key == "toflit_aggregate":
                 emptiness[(empties, len(pc["commodity_purposes"]))].append([c["commodity_purpose"] for c in pc["commodity_purposes"]])
+                boats[port][boat_classif] += 1
 
         if missing:
             print (' WARNING: some products could not be classified within %s:' % toflit_classif, file=sys.stderr)
             for (c1, c2, port), count in missing.items():
                 print('  - "%s" / "%s" (%s times) for port %s' % (c1, c2, count, port), file=sys.stderr)
 
-    return products, emptiness
+    # TODO : add a boat classification being the main product coming from a harbor
+
+    return products, emptiness, boats
 
 
 def write_products_csv_by_classification(products, year, filter_only_out=True):
@@ -115,6 +123,16 @@ def write_products_csv_by_classification(products, year, filter_only_out=True):
                     for product, count in sorted(elements.items()):
                         writerall.writerow([port, product, count, year, classif])
                         writerone.writerow([port, product, count, year, classif])
+
+
+def write_boats_csv(boats, year, filter_only_out=True):
+    filtered = "_only_out" if filter_only_out else ""
+    with open(os.path.join(DATADIR, "boats_%s%s.csv" % (year, filtered)), "w", newline='') as csvf:
+        writer = csv.writer(csvf, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(['port', 'product', 'count', 'year'])
+        for port, elements in sorted(boats.items()):
+            for product, count in sorted(elements.items()):
+                writer.writerow([port, product, count, year])
 
 
 def build_bipartite_networks(products, year, filter_only_out=True):
@@ -164,17 +182,18 @@ if __name__ == "__main__":
         if not os.path.exists(d):
             os.makedirs(d)
 
-    products, emptiness = get_navigo_products(admiralties, year, filter_only_out=filter_only_out, clear_cache=clear_cache)
+    products, emptiness, boats = get_navigo_products(admiralties, year, filter_only_out=filter_only_out, clear_cache=clear_cache)
     write_products_csv_by_classification(products, year, filter_only_out=filter_only_out)
+    write_boats_csv(boats, year, filter_only_out=filter_only_out)
     build_bipartite_networks(products, year, filter_only_out)
 
     if empty_stats:
         print("Stats on emptiness;")
-        for (empties, total), boats in emptiness.items():
-            print("- %s empties / %s declared (%s boats)" % (empties, total, len(boats)))
+        for (empties, total), pcs in emptiness.items():
+            print("- %s empties / %s declared (%s boats)" % (empties, total, len(pcs)))
             if empties > 1 or (empties and empties != total):
                 stats = Counter()
-                for boat in sorted(boats):
+                for boat in sorted(pcs):
                     stats[" / ".join(boat)] += 1
                 for content, count in stats.items():
                     print("  -> %s (%s boats)" % (content, count))

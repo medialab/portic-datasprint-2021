@@ -480,7 +480,7 @@ def nest_portic_pointcall(pointcall):
 
   return output
 
-
+# nouvelle fonction qui ne fait que combiner les commodity purposes ensemble (la fonction nest_portic_pointcalls ne fonctionne plus car les noms des attributs d'un pointcall ont étés modifiés sur l'API Portic)
 def combine_commodity_purposes(pointcall):
 
   pointcall["commodity_purposes"] = []

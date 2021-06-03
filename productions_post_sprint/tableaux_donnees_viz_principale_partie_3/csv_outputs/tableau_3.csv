@@ -1,30 +1,30 @@
 port,nb_portic_flows_taken_into_account,nb_toflit_flows_taken_into_account,cumulated_tonnage_in_region,cumulated_tonnage_out_region,cumulated_exports_value_from_region,cumulated_exports_value_from_ext
-Saint Denis [d' Oléron],35,0,159,623,0,0
-Soubise,24,0,365,662,0,0
-Ribérou [Saujon],70,0,513,870,0,0
-Le Havre,1057,1123,23438,106901,2211500.0,35324232.0
-Rochefort,309,16,8366,13939,271247.216,2926.0
-La Tremblade,1,0,32,0,0,0
-Aligre de Marans,190,59,2216,3873,886293.0719,2115.0
-Saint Gilles sur Vie,70,0,89,2750,0,0
-Talmont [Talmont Saint Hilaire],8,0,87,105,0,0
-Sables d' Olonne,96,26,530,3698,108379.00005,2148.0
-Moricq,40,0,766,398,0,0
-Marennes,571,50,3480,42161,900590.5355199998,2420.3518
-Royan,14,0,225,35,0,0
 Saint Michel en l' Herm,16,0,85,192,0,0
 Beauvoir-sur-Mer,58,0,105,1847,0,0
-Mortagne,10,0,51,297,0,0
-Le Chateau [d' Oléron],47,0,308,283,0,0
-Charente,285,40,3367,12330,5875341.900699999,0
-La Perrotine,48,0,251,732,0,0
-La Rochelle,505,333,9014,32626,320999.62899,6718020.55
-Saint Martin de Ré,256,49,3075,8102,582453.2410399999,39574.230030000006
-Bordeaux,1412,2154,2690,189991,29592078.048586,99738942.16928202
+Le Havre,1057,1123,23438,106901,2211500.0,35324232.0
+Ribérou [Saujon],70,0,513,870,0,0
 Noirmoutier,133,0,230,8565,0,0
-Esnandes,1,0,28,0,0,0
-Ars en Ré,200,0,462,21886,0,0
-Champagné-les-Marais,2,0,78,0,0,0
-La Flotte en Ré,117,0,1475,1891,0,0
 Nantes,894,1263,15404,81178,5712318.205488,38466140.210227996
+La Rochelle,505,333,9014,32626,320999.62899,6718020.55
+Rochefort,309,16,8366,13939,271247.216,2926.0
+La Flotte en Ré,117,0,1475,1891,0,0
+Moricq,40,0,766,398,0,0
+Ars en Ré,200,0,462,21886,0,0
+Royan,14,0,225,35,0,0
+Saint Denis [d' Oléron],35,0,159,623,0,0
+Sables d' Olonne,96,26,530,3698,108379.00005,2148.0
+La Perrotine,48,0,251,732,0,0
+Mortagne,10,0,51,297,0,0
 La Tranche sur Mer,22,0,220,150,0,0
+Saint Gilles sur Vie,70,0,89,2750,0,0
+Charente,285,40,3367,12330,5875341.900699999,0
+Soubise,24,0,365,662,0,0
+Esnandes,1,0,28,0,0,0
+Saint Martin de Ré,256,49,3075,8102,582453.2410399999,39574.230030000006
+Marennes,571,50,3480,42161,900590.5355199998,2420.3518
+Le Chateau [d' Oléron],47,0,308,283,0,0
+Champagné-les-Marais,2,0,78,0,0,0
+La Tremblade,1,0,32,0,0,0
+Bordeaux,1412,2154,2690,189991,29592078.048586,99738942.16928202
+Talmont [Talmont Saint Hilaire],8,0,87,105,0,0
+Aligre de Marans,190,59,2216,3873,886293.0719,2115.0

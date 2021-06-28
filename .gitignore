@@ -141,3 +141,7 @@ preliminary_inquiry/.~1-analyse-navigo.ipynb
 
 # draft scripts
 lib/get_portic_travels.py
+
+
+# node files
+node_modules

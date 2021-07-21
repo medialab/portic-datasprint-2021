@@ -3,17 +3,17 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>proportion-produits-version-finale-viz-secondaire-partie-1</title>
+<title>destinations-sel</title>
 
 
 
 
 <style type="text/css">
     pre { line-height: 125%; margin: 0; }
-td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
-span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding: 0 5px 0 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding: 0 5px 0 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding: 0 5px 0 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding: 0 5px 0 5px; }
 .highlight .hll { background-color: var(--jp-cell-editor-active-background) }
 .highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color) }
 .highlight .c { color: var(--jp-mirror-editor-comment-color); font-style: italic } /* Comment */
@@ -14197,23 +14197,7 @@ a.anchor-link {
 .highlight  {
     margin: 0.4em;
 }
-
-/* Input area styling */
-.jp-InputArea {
-    overflow: hidden;
-}
-
-.jp-InputArea-editor {
-    overflow: hidden;
-}
-
-@media print {
-  body {
-    margin: 0;
-  }
-}
 </style>
-
 
 
 <!-- Load mathjax -->
@@ -14225,32 +14209,24 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Tentative-de-tests-version-finale-de-la-viz-secondaire,-en-ayant-avec-et-sans-ports-francs">Tentative de tests version finale de la viz secondaire, en ayant avec et sans ports francs<a class="anchor-link" href="#Tentative-de-tests-version-finale-de-la-viz-secondaire,-en-ayant-avec-et-sans-ports-francs">&#182;</a></h1>
+<h1 id="Destinations-des-bateaux-charg&#233;s-de-sel-partis-de-la-r&#233;gion">Destinations des bateaux charg&#233;s de sel partis de la r&#233;gion<a class="anchor-link" href="#Destinations-des-bateaux-charg&#233;s-de-sel-partis-de-la-r&#233;gion">&#182;</a></h1><p>Point de départ : commentaire de Silvia -&gt;</p>
+<blockquote><p>je me suis avancée au pif, on peut vérifier aussi en juin, mais ça serait sympa de vérifier les destinations des navires chargés de sel en 1789 partis de notre région.</p>
+</blockquote>
+<p>Méthodologie :</p>
+<ul>
+<li>prendre les pointcalls In 1789 avec source_subset = 'Poitou_1789' (cela nous donne les destinations de tous les navires partis de la région)</li>
+<li>scanner 'commodity_standardized_fr', 'commodity_standardized2_fr', 'commodity_standardized3_fr', 'commodity_standardized4_fr' pour ne garder que les pointcalls dont au moins une valeur est "Sel"</li>
+<li>agréger par nombre de pointcalls et tonnage cumulés</li>
+</ul>
+
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1789">1789<a class="anchor-link" href="#1789">&#182;</a></h2>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-<div class="jp-Cell-outputWrapper">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>product_exports_values_per_direction_1789_without_ports_francs : {&#39;Habits et lingerie&#39;: {&#39;product&#39;: &#39;Habits et lingerie&#39;, &#39;exports_la_rochelle&#39;: 2880.0, &#39;exports_toute_france&#39;: 2216514.3499}, &#39;Bonneterie hors soie&#39;: {&#39;product&#39;: &#39;Bonneterie hors soie&#39;, &#39;exports_la_rochelle&#39;: 783.0, &#39;exports_toute_france&#39;: 888199.0}, &#39;Bois divers hors combustible&#39;: {&#39;product&#39;: &#39;Bois divers hors combustible&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 154502.27008}, &#39;Eaux-de-vie et liqueurs&#39;: {&#39;product&#39;: &#39;Eaux-de-vie et liqueurs&#39;, &#39;exports_la_rochelle&#39;: 6002913.500020001, &#39;exports_toute_france&#39;: 17770356.308016002}, &#39;Étoffes de laine&#39;: {&#39;product&#39;: &#39;Étoffes de laine&#39;, &#39;exports_la_rochelle&#39;: 30580.0, &#39;exports_toute_france&#39;: 21324659.29459}, &#39;Étoffes diverses&#39;: {&#39;product&#39;: &#39;Étoffes diverses&#39;, &#39;exports_la_rochelle&#39;: 11920.0, &#39;exports_toute_france&#39;: 4174182.5431999997}, &#39;Textiles manufacturés divers et mélangés&#39;: {&#39;product&#39;: &#39;Textiles manufacturés divers et mélangés&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 329191.40002}, &#39;Pêche et fruits de mer&#39;: {&#39;product&#39;: &#39;Pêche et fruits de mer&#39;, &#39;exports_la_rochelle&#39;: 212.0, &#39;exports_toute_france&#39;: 1913511.1551299999}, &#39;Cuirs, peaux et pelleterie&#39;: {&#39;product&#39;: &#39;Cuirs, peaux et pelleterie&#39;, &#39;exports_la_rochelle&#39;: 1240.0, &#39;exports_toute_france&#39;: 4308164.95394}, &#39;Quincaillerie&#39;: {&#39;product&#39;: &#39;Quincaillerie&#39;, &#39;exports_la_rochelle&#39;: 14851.0, &#39;exports_toute_france&#39;: 2157367.3589399997}, &#39;Ouvrages métalliques&#39;: {&#39;product&#39;: &#39;Ouvrages métalliques&#39;, &#39;exports_la_rochelle&#39;: 128146.0, &#39;exports_toute_france&#39;: 3839209.00476}, &#39;Rubanerie et passementerie de soie&#39;: {&#39;product&#39;: &#39;Rubanerie et passementerie de soie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 3373062.5}, &#39;Savon&#39;: {&#39;product&#39;: &#39;Savon&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 4062394.8445499996}, &#39;Toiles de chanvre et de lin&#39;: {&#39;product&#39;: &#39;Toiles de chanvre et de lin&#39;, &#39;exports_la_rochelle&#39;: 170361.0, &#39;exports_toute_france&#39;: 22837294.80317}, &#39;Verrerie&#39;: {&#39;product&#39;: &#39;Verrerie&#39;, &#39;exports_la_rochelle&#39;: 7034.0, &#39;exports_toute_france&#39;: 954399.00054}, &#39;Armes, munitions, poudre et pierres à fusil&#39;: {&#39;product&#39;: &#39;Armes, munitions, poudre et pierres à fusil&#39;, &#39;exports_la_rochelle&#39;: 37447.0, &#39;exports_toute_france&#39;: 1033262.7617800001}, &#39;Chevaux et bêtes de somme&#39;: {&#39;product&#39;: &#39;Chevaux et bêtes de somme&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 990915.0}, &#39;Beurre&#39;: {&#39;product&#39;: &#39;Beurre&#39;, &#39;exports_la_rochelle&#39;: 5818.0, &#39;exports_toute_france&#39;: 1445426.75074}, &#39;Bière, cidre et vinaigre&#39;: {&#39;product&#39;: &#39;Bière, cidre et vinaigre&#39;, &#39;exports_la_rochelle&#39;: 24016.24891, &#39;exports_toute_france&#39;: 412488.64885999996}, &#39;Bijouterie et pierres fines&#39;: {&#39;product&#39;: &#39;Bijouterie et pierres fines&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 574491.0}, &#39;Soieries diverses&#39;: {&#39;product&#39;: &#39;Soieries diverses&#39;, &#39;exports_la_rochelle&#39;: 324.0, &#39;exports_toute_france&#39;: 2063309.0}, &#39;Café&#39;: {&#39;product&#39;: &#39;Café&#39;, &#39;exports_la_rochelle&#39;: 2625168.0, &#39;exports_toute_france&#39;: 72873935.5}, &#39;Chairs et œufs&#39;: {&#39;product&#39;: &#39;Chairs et œufs&#39;, &#39;exports_la_rochelle&#39;: 17396.0, &#39;exports_toute_france&#39;: 3650784.14718}, &#39;Matières premières diverses&#39;: {&#39;product&#39;: &#39;Matières premières diverses&#39;, &#39;exports_la_rochelle&#39;: 4280.0, &#39;exports_toute_france&#39;: 552860.25589}, &#39;Cordage et filets&#39;: {&#39;product&#39;: &#39;Cordage et filets&#39;, &#39;exports_la_rochelle&#39;: 21808.0, &#39;exports_toute_france&#39;: 1176829.97926}, &#39;Dentelles&#39;: {&#39;product&#39;: &#39;Dentelles&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 3203395.5}, &#39;Toiles de coton&#39;: {&#39;product&#39;: &#39;Toiles de coton&#39;, &#39;exports_la_rochelle&#39;: 368714.0, &#39;exports_toute_france&#39;: 12635734.508}, &#39;Étoffes de soie&#39;: {&#39;product&#39;: &#39;Étoffes de soie&#39;, &#39;exports_la_rochelle&#39;: 27289.0, &#39;exports_toute_france&#39;: 17436671.36609}, &#39;Porcelaine, poterie, faïence et ouvrages de terre&#39;: {&#39;product&#39;: &#39;Porcelaine, poterie, faïence et ouvrages de terre&#39;, &#39;exports_la_rochelle&#39;: 16379.0, &#39;exports_toute_france&#39;: 1124949.1402699999}, &#39;Fleurs artificielles et ouvrages de mode&#39;: {&#39;product&#39;: &#39;Fleurs artificielles et ouvrages de mode&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 582690.0}, &#39;Subsistances diverses et mélangées&#39;: {&#39;product&#39;: &#39;Subsistances diverses et mélangées&#39;, &#39;exports_la_rochelle&#39;: 3585.0, &#39;exports_toute_france&#39;: 1609421.15638}, &#39;Fruits frais&#39;: {&#39;product&#39;: &#39;Fruits frais&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 147889.40046}, &#39;Meubles, glaces et miroirs&#39;: {&#39;product&#39;: &#39;Meubles, glaces et miroirs&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 906053.0}, &#39;Graines de jardin&#39;: {&#39;product&#39;: &#39;Graines de jardin&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 274108.25}, &#39;Horlogerie&#39;: {&#39;product&#39;: &#39;Horlogerie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 249512.0}, &#39;Ouvrages divers et mélangés&#39;: {&#39;product&#39;: &#39;Ouvrages divers et mélangés&#39;, &#39;exports_la_rochelle&#39;: 17314.0, &#39;exports_toute_france&#39;: 2220079.8800100004}, &#39;Librairie&#39;: {&#39;product&#39;: &#39;Librairie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 811867.99899}, &#39;Sirop et mélasse&#39;: {&#39;product&#39;: &#39;Sirop et mélasse&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 46859.79999}, &#39;Marbre brut et ouvré&#39;: {&#39;product&#39;: &#39;Marbre brut et ouvré&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 87929.48}, &#39;Divers mélangés&#39;: {&#39;product&#39;: &#39;Divers mélangés&#39;, &#39;exports_la_rochelle&#39;: 1608.0, &#39;exports_toute_france&#39;: 975290.502}, &#39;Mercerie&#39;: {&#39;product&#39;: &#39;Mercerie&#39;, &#39;exports_la_rochelle&#39;: 2054.0, &#39;exports_toute_france&#39;: 4062872.5264999997}, &#39;Miel&#39;: {&#39;product&#39;: &#39;Miel&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 591605.859862}, &#39;Argenterie et orfèvrerie&#39;: {&#39;product&#39;: &#39;Argenterie et orfèvrerie&#39;, &#39;exports_la_rochelle&#39;: 710.0, &#39;exports_toute_france&#39;: 863726.25}, &#39;Dorure&#39;: {&#39;product&#39;: &#39;Dorure&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 534578.0}, &#39;Cordonnerie et sellerie&#39;: {&#39;product&#39;: &#39;Cordonnerie et sellerie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 943007.5}, &#39;Parfumerie et toilette&#39;: {&#39;product&#39;: &#39;Parfumerie et toilette&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 668836.6998000001}, &#39;Graisses diverses&#39;: {&#39;product&#39;: &#39;Graisses diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 279447.9702}, &#39;Toiles diverses&#39;: {&#39;product&#39;: &#39;Toiles diverses&#39;, &#39;exports_la_rochelle&#39;: 94051.0, &#39;exports_toute_france&#39;: 2428206.6896}, &#39;Vins divers&#39;: {&#39;product&#39;: &#39;Vins divers&#39;, &#39;exports_la_rochelle&#39;: 291472.16809, &#39;exports_toute_france&#39;: 28866899.165410016}, &#39;Coton non transformé&#39;: {&#39;product&#39;: &#39;Coton non transformé&#39;, &#39;exports_la_rochelle&#39;: 5984.0, &#39;exports_toute_france&#39;: 11111224.193100002}, &#39;Fruits secs et noix&#39;: {&#39;product&#39;: &#39;Fruits secs et noix&#39;, &#39;exports_la_rochelle&#39;: 391.0, &#39;exports_toute_france&#39;: 1941133.5695200001}, &#39;Fromage&#39;: {&#39;product&#39;: &#39;Fromage&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 947106.1021099999}, &#39;Gants&#39;: {&#39;product&#39;: &#39;Gants&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 140059.0}, &#34;Huile d&#39;olive à manger&#34;: {&#39;product&#39;: &#34;Huile d&#39;olive à manger&#34;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 3634445.55134}, &#34;Objets d&#39;art et d&#39;histoire naturelle&#34;: {&#39;product&#39;: &#34;Objets d&#39;art et d&#39;histoire naturelle&#34;, &#39;exports_la_rochelle&#39;: 289713.0, &#39;exports_toute_france&#39;: 1233272.0}, &#39;Papier&#39;: {&#39;product&#39;: &#39;Papier&#39;, &#39;exports_la_rochelle&#39;: 1396.0, &#39;exports_toute_france&#39;: 2041221.0989}, &#39;Drogues médicinales diverses&#39;: {&#39;product&#39;: &#39;Drogues médicinales diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 305435.95023}, &#39;Plumes brutes&#39;: {&#39;product&#39;: &#39;Plumes brutes&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 109772.0}, &#39;Bougies, chandelles et flambeaux&#39;: {&#39;product&#39;: &#39;Bougies, chandelles et flambeaux&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 1748733.30035}, &#39;Sucre&#39;: {&#39;product&#39;: &#39;Sucre&#39;, &#39;exports_la_rochelle&#39;: 2199311.0, &#39;exports_toute_france&#39;: 69823014.09995998}, &#39;Riz&#39;: {&#39;product&#39;: &#39;Riz&#39;, &#39;exports_la_rochelle&#39;: 3578.0, &#39;exports_toute_france&#39;: 634582.6981499998}, &#39;Divers incertains&#39;: {&#39;product&#39;: &#39;Divers incertains&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 103800.0}, &#39;Animaux&#39;: {&#39;product&#39;: &#39;Animaux&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 4541018.0008000005}, &#39;Ouvrages de bois, liège et jonc&#39;: {&#39;product&#39;: &#39;Ouvrages de bois, liège et jonc&#39;, &#39;exports_la_rochelle&#39;: 38017.0, &#39;exports_toute_france&#39;: 1617880.06131}, &#39;Cire&#39;: {&#39;product&#39;: &#39;Cire&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 979702.36783}, &#39;Fils divers&#39;: {&#39;product&#39;: &#39;Fils divers&#39;, &#39;exports_la_rochelle&#39;: 260.0, &#39;exports_toute_france&#39;: 4621846.620389999}, &#39;Poivre et piment&#39;: {&#39;product&#39;: &#39;Poivre et piment&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 407319.5029}, &#39;Châles et mouchoirs hors soie&#39;: {&#39;product&#39;: &#39;Châles et mouchoirs hors soie&#39;, &#39;exports_la_rochelle&#39;: 12441.0, &#39;exports_toute_france&#39;: 3863147.0}, &#39;Rubanerie et passementerie diverse&#39;: {&#39;product&#39;: &#39;Rubanerie et passementerie diverse&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 44427.800050000005}, &#39;Mousseline, basin et nankin&#39;: {&#39;product&#39;: &#39;Mousseline, basin et nankin&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 2921241.5}, &#39;Chapeaux hors paille et écorce&#39;: {&#39;product&#39;: &#39;Chapeaux hors paille et écorce&#39;, &#39;exports_la_rochelle&#39;: 2700.0, &#39;exports_toute_france&#39;: 2810978.5}, &#39;Drogues diverses&#39;: {&#39;product&#39;: &#39;Drogues diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 991783.44422}, &#39;Cannelle&#39;: {&#39;product&#39;: &#39;Cannelle&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 106959.0}, &#39;Girofle&#39;: {&#39;product&#39;: &#39;Girofle&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 158098.0}, &#39;Laines non transformées diverses&#39;: {&#39;product&#39;: &#39;Laines non transformées diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 1530101.8041100001}, &#39;Huiles diverses&#39;: {&#39;product&#39;: &#39;Huiles diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 172514.56022}, &#39;Sel&#39;: {&#39;product&#39;: &#39;Sel&#39;, &#39;exports_la_rochelle&#39;: 298213.5679, &#39;exports_toute_france&#39;: 656634.0817999999}, &#39;Brai, goudron et résines&#39;: {&#39;product&#39;: &#39;Brai, goudron et résines&#39;, &#39;exports_la_rochelle&#39;: 32173.0, &#39;exports_toute_france&#39;: 433178.24520999996}, &#39;Safran&#39;: {&#39;product&#39;: &#39;Safran&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 142830.75099999996}, &#39;Poils et crin&#39;: {&#39;product&#39;: &#39;Poils et crin&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 66580.75}, &#39;Légumes&#39;: {&#39;product&#39;: &#39;Légumes&#39;, &#39;exports_la_rochelle&#39;: 14448.0, &#39;exports_toute_france&#39;: 860304.9897999999}, &#39;Combustibles dont charbons et bois&#39;: {&#39;product&#39;: &#39;Combustibles dont charbons et bois&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 503929.56257999997}, &#39;Térébenthine&#39;: {&#39;product&#39;: &#39;Térébenthine&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 216575.39985}, &#39;Blé et autres grains comestibles&#39;: {&#39;product&#39;: &#39;Blé et autres grains comestibles&#39;, &#39;exports_la_rochelle&#39;: 4538.0, &#39;exports_toute_france&#39;: 1547295.4025}, &#39;Bois des Indes&#39;: {&#39;product&#39;: &#39;Bois des Indes&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 2735.5}, &#39;Matières brutes et transformées pour teinture&#39;: {&#39;product&#39;: &#39;Matières brutes et transformées pour teinture&#39;, &#39;exports_la_rochelle&#39;: 8000.0, &#39;exports_toute_france&#39;: 905608.3977800002}, &#39;Indigo&#39;: {&#39;product&#39;: &#39;Indigo&#39;, &#39;exports_la_rochelle&#39;: 262275.0, &#39;exports_toute_france&#39;: 7718345.0}, &#39;Produits inconnus&#39;: {&#39;product&#39;: &#39;Produits inconnus&#39;, &#39;exports_la_rochelle&#39;: 1221.0, &#39;exports_toute_france&#39;: 169967.99982}, &#39;Farine, gruau, biscuits et pâtes&#39;: {&#39;product&#39;: &#39;Farine, gruau, biscuits et pâtes&#39;, &#39;exports_la_rochelle&#39;: 22470.0, &#39;exports_toute_france&#39;: 3167444.85015}, &#39;Bâtiments de mer et apparaux&#39;: {&#39;product&#39;: &#39;Bâtiments de mer et apparaux&#39;, &#39;exports_la_rochelle&#39;: 738.0, &#39;exports_toute_france&#39;: 1248190.75}, &#39;Cacao et chocolat&#39;: {&#39;product&#39;: &#39;Cacao et chocolat&#39;, &#39;exports_la_rochelle&#39;: 120.0, &#39;exports_toute_france&#39;: 913826.10001}, &#39;Chanvre&#39;: {&#39;product&#39;: &#39;Chanvre&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 270984.1404}, &#39;Cuivre&#39;: {&#39;product&#39;: &#39;Cuivre&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 119885.8501}, &#39;Réglisse&#39;: {&#39;product&#39;: &#39;Réglisse&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 218330.25037}, &#39;Huile de poisson&#39;: {&#39;product&#39;: &#39;Huile de poisson&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 26864.875}, &#39;Salpêtre et soufre&#39;: {&#39;product&#39;: &#39;Salpêtre et soufre&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 184265.81605999998}, &#39;Tabac&#39;: {&#39;product&#39;: &#39;Tabac&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 3379653.6770200003}, &#39;Vins de Bordeaux&#39;: {&#39;product&#39;: &#39;Vins de Bordeaux&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 46180.100099999996}, &#39;Vin de liqueurs&#39;: {&#39;product&#39;: &#39;Vin de liqueurs&#39;, &#39;exports_la_rochelle&#39;: 132.0, &#39;exports_toute_france&#39;: 24090.0}, &#39;Bonneterie de soie&#39;: {&#39;product&#39;: &#39;Bonneterie de soie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 832733.75}, &#39;Cendres diverses&#39;: {&#39;product&#39;: &#39;Cendres diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 94014.5003}, &#39;Étain&#39;: {&#39;product&#39;: &#39;Étain&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 171040.7902}, &#39;Fer&#39;: {&#39;product&#39;: &#39;Fer&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 76245.13291}, &#39;Graines diverses et mélangées&#39;: {&#39;product&#39;: &#39;Graines diverses et mélangées&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 47162.36993}, &#39;Graines grasses&#39;: {&#39;product&#39;: &#39;Graines grasses&#39;, &#39;exports_la_rochelle&#39;: 59248.559, &#39;exports_toute_france&#39;: 80649.45901}, &#39;Châles et mouchoirs de soie&#39;: {&#39;product&#39;: &#39;Châles et mouchoirs de soie&#39;, &#39;exports_la_rochelle&#39;: 144.0, &#39;exports_toute_france&#39;: 203099.0}, &#39;Monnaies et métaux précieux&#39;: {&#39;product&#39;: &#39;Monnaies et métaux précieux&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 355458.00006}, &#34;Chapeaux d&#39;écorce et de paille&#34;: {&#39;product&#39;: &#34;Chapeaux d&#39;écorce et de paille&#34;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 12807.0}, &#39;&#39;: {&#39;product&#39;: &#39;&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 543767.127}, &#39;Soie&#39;: {&#39;product&#39;: &#39;Soie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 689891.0}, &#39;Céruse et blanc de plomb&#39;: {&#39;product&#39;: &#39;Céruse et blanc de plomb&#39;, &#39;exports_la_rochelle&#39;: 191.0, &#39;exports_toute_france&#39;: 9481.2602}, &#39;Fer-blanc&#39;: {&#39;product&#39;: &#39;Fer-blanc&#39;, &#39;exports_la_rochelle&#39;: 1604.0, &#39;exports_toute_france&#39;: 75059.6009}, &#39;Bouchons principalement en liège&#39;: {&#39;product&#39;: &#39;Bouchons principalement en liège&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 199419.10014999998}, &#39;Acier&#39;: {&#39;product&#39;: &#39;Acier&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 33126.79997}, &#39;Thé&#39;: {&#39;product&#39;: &#39;Thé&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 68571.0}, &#39;Manne et médicaments&#39;: {&#39;product&#39;: &#39;Manne et médicaments&#39;, &#39;exports_la_rochelle&#39;: 896.0, &#39;exports_toute_france&#39;: 266523.5521}, &#39;Denrées coloniales et épiceries diverses&#39;: {&#39;product&#39;: &#39;Denrées coloniales et épiceries diverses&#39;, &#39;exports_la_rochelle&#39;: 43594.0, &#39;exports_toute_france&#39;: 2414620.4499999997}, &#39;Gommes diverses&#39;: {&#39;product&#39;: &#39;Gommes diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 318519.749}, &#39;Alquifoux, mine de plomb et graphite&#39;: {&#39;product&#39;: &#39;Alquifoux, mine de plomb et graphite&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 72982.00001}, &#39;Cornes, corail, écailles, ivoire et nacre&#39;: {&#39;product&#39;: &#39;Cornes, corail, écailles, ivoire et nacre&#39;, &#39;exports_la_rochelle&#39;: 2800.0, &#39;exports_toute_france&#39;: 70306.74960000001}, &#39;Sels chimiques&#39;: {&#39;product&#39;: &#39;Sels chimiques&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 21455.5}, &#39;Alun&#39;: {&#39;product&#39;: &#39;Alun&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 92492.17379999999}, &#39;Azur et cobalt&#39;: {&#39;product&#39;: &#39;Azur et cobalt&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 9830.0}, &#39;Garance&#39;: {&#39;product&#39;: &#39;Garance&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 404620.0902}, &#39;Galle&#39;: {&#39;product&#39;: &#39;Galle&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 128348.1029}, &#39;Verdet&#39;: {&#39;product&#39;: &#39;Verdet&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 584227.2021}, &#39;Faucilles, faux et limes&#39;: {&#39;product&#39;: &#39;Faucilles, faux et limes&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 6033.0}, &#39;Gravelée, potasse et védasse&#39;: {&#39;product&#39;: &#39;Gravelée, potasse et védasse&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 74745.5}, &#39;Alcalis&#39;: {&#39;product&#39;: &#39;Alcalis&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 6396.0}, &#39;Quinquina&#39;: {&#39;product&#39;: &#39;Quinquina&#39;, &#39;exports_la_rochelle&#39;: 900.0, &#39;exports_toute_france&#39;: 97933.5}, &#39;Séné&#39;: {&#39;product&#39;: &#39;Séné&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 67619.5}, &#39;Cochenille&#39;: {&#39;product&#39;: &#39;Cochenille&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 1832088.0}, &#39;Métaux divers et mélangés&#39;: {&#39;product&#39;: &#39;Métaux divers et mélangés&#39;, &#39;exports_la_rochelle&#39;: 255.0, &#39;exports_toute_france&#39;: 15736.00002}, &#39;Rocou&#39;: {&#39;product&#39;: &#39;Rocou&#39;, &#39;exports_la_rochelle&#39;: 3714.0, &#39;exports_toute_france&#39;: 66239.0}, &#39;Colles diverses&#39;: {&#39;product&#39;: &#39;Colles diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 11266.9198}, &#39;Graines de trèfle, de luzerne et de prairie&#39;: {&#39;product&#39;: &#39;Graines de trèfle, de luzerne et de prairie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 202379.60011}, &#39;Salsepareille&#39;: {&#39;product&#39;: &#39;Salsepareille&#39;, &#39;exports_la_rochelle&#39;: 204.0, &#39;exports_toute_france&#39;: 102195.0}, &#39;Plomb&#39;: {&#39;product&#39;: &#39;Plomb&#39;, &#39;exports_la_rochelle&#39;: 54212.0, &#39;exports_toute_france&#39;: 58344.0}, &#39;Plumes ouvrées&#39;: {&#39;product&#39;: &#39;Plumes ouvrées&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 127014.0}, &#39;Filoselle, fleuret et bourre de soie&#39;: {&#39;product&#39;: &#39;Filoselle, fleuret et bourre de soie&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 8385.0}, &#39;Provisions diverses&#39;: {&#39;product&#39;: &#39;Provisions diverses&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 22638.0}, &#39;Lin&#39;: {&#39;product&#39;: &#39;Lin&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 3808.6499}, &#39;Muscades&#39;: {&#39;product&#39;: &#39;Muscades&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 2853.0}, &#39;[vide]&#39;: {&#39;product&#39;: &#39;[vide]&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 61534.5}, &#39;Boissons diverses et mélangées&#39;: {&#39;product&#39;: &#39;Boissons diverses et mélangées&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 180525.959}, &#39;[non traité]&#39;: {&#39;product&#39;: &#39;[non traité]&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 37352.5}, &#39;Mercure&#39;: {&#39;product&#39;: &#39;Mercure&#39;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 1689.0}, &#34;Huile d&#39;olive pour fabrique&#34;: {&#39;product&#39;: &#34;Huile d&#39;olive pour fabrique&#34;, &#39;exports_la_rochelle&#39;: 0, &#39;exports_toute_france&#39;: 537.5}}
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
@@ -14262,27 +14238,7 @@ a.anchor-link {
 
 
 
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;\nVegaLite({\n  &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v5.json&#34;,\n  &#34;title&#34;: &#34;Produits dont les valeurs d\&#39;exports sont les plus importantes pour La Rochelle en 1789&#34;,\n  &#34;height&#34;: {&#34;step&#34;: 60},\n  &#34;mark&#34;: &#34;bar&#34;,\n  &#34;encoding&#34;: {\n    &#34;row&#34;: {\n      &#34;field&#34;: &#34;product&#34;, \n      &#34;type&#34;: &#34;nominal&#34;, \n      &#34;spacing&#34;: 10, \n      &#34;sort&#34;:{&#34;field&#34; : &#34;order&#34;}, \n      &#34;header&#34;: {&#34;labelAngle&#34;: -90,\n                 &#34;labelAlign&#34;: &#34;right&#34;\n                }\n    },\n    &#34;x&#34;: {\n      &#34;aggregate&#34;: &#34;sum&#34;, &#34;field&#34;: &#34;value_rel_per_direction&#34;,\n      &#34;title&#34;: &#34;Part du produit dans le total des exports (en valeur)&#34;,\n      &#34;axis&#34;: {&#34;orient&#34;: &#34;top&#34;},\n      &#34;type&#34;:&#34;quantitative&#34;\n    },\n    &#34;y&#34;: {\n      &#34;field&#34;: &#34;comparaison de la direction de La Rochelle à la moyenne nationale&#34;,\n      &#34;axis&#34;: {&#34;title&#34;: &#34;&#34;},\n      &#34;type&#34;:&#34;nominal&#34;,\n      &#34;sort&#34;:{&#34;order&#34;:&#34;descending&#34;}\n    },\n    &#34;color&#34;: {\n      &#34;field&#34;: &#34;comparaison de la direction de La Rochelle à la moyenne nationale&#34;,\n      &#34;scale&#34;: {&#34;range&#34;: [&#34;#675193&#34;, &#34;#ca8861&#34;]}\n    }\n  },\n  &#34;config&#34;: {\n    &#34;view&#34;: {&#34;stroke&#34;: &#34;transparent&#34;},\n    &#34;axis&#34;: {&#34;domainWidth&#34;: 1}\n  }\n}, pd.DataFrame(final_vega_data_1789))\n&#39;</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-
-
-<div id="91ecc0ea-ada7-49f4-ba52-a448090c0dff" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14293,7 +14249,7 @@ a.anchor-link {
 
 
 <div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/proportion-produits-version-finale-viz-secondaire-partie-1assets/proportion-produits-version-finale-viz-secondaire-partie-1-0.png"
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-0.png"
 >
 </div>
 
@@ -14303,12 +14259,36 @@ a.anchor-link {
 
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
 </div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1750">1750<a class="anchor-link" href="#1750">&#182;</a></h2>
+
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-1.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
@@ -14320,7 +14300,7 @@ a.anchor-link {
 
 
 
-<div id="91ecc0ea-ada7-49f4-ba52-a448090c0dff" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 
 </div>
 
@@ -14331,7 +14311,162 @@ a.anchor-link {
 
 
 <div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/proportion-produits-version-finale-viz-secondaire-partie-1assets/proportion-produits-version-finale-viz-secondaire-partie-1-1.png"
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-2.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-3.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-4.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-5.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-6.png"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+
+<div id="6bae6ea4-2731-4c7a-a5c0-d6896b64d7a3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="https://medialab.github.io/portic-datasprint-2021/productions_post_sprint/destinations-sel/assets/destinations-sel-7.png"
 >
 </div>
 
